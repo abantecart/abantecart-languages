@@ -1,5 +1,5 @@
 # abantecart-languages
-AbanteCart repository specificcaly dedicated for language extensions 
+AbanteCart repository specificaly dedicated for language extensions 
 
 We ask anyone who is native speeker for the language provided here goin and help with improving these translations. 
 
