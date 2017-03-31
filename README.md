@@ -1,7 +1,7 @@
 # abantecart-languages
 AbanteCart repository specificaly dedicated for language extensions 
 
-We ask anyone who is native speeker for the language provided here goin and help with improving these translations. 
+We ask anyone who is native speeker for the languages provided here join and help with improving these translations. 
 
 Simple steps to help:
 
