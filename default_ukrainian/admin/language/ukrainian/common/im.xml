@@ -10,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>im_order_update_text_to_customer</key>
-		<value><![CDATA[Ваше замовлення <a href="%s"># %s</a> був оновлений. Для отримання більш детальної інформації, увійдіть в %s рахунок.]]></value>
+		<value><![CDATA[Ваше замовлення <a href="%s">#%s</a> був оновлений. Для отримання більш детальної інформації, увійдіть в %s рахунок.]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_order</key>
@@ -18,7 +18,7 @@
 	</definition>
 	<definition>
 		<key>im_new_order_text_to_admin</key>
-		<value><![CDATA[Новий порядок <a href="#admin#rt=sale/order/details&order_id=%s"># %s</a> був створений!]]></value>
+		<value><![CDATA[Новий порядок <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a> був створений!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_customer</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>im_new_customer_text_to_admin</key>
-		<value><![CDATA[Новий клієнт # %s був зареєстрований!]]></value>
+		<value><![CDATA[Новий клієнт #%s був зареєстрований!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_account_update</key>
@@ -38,7 +38,7 @@
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_admin</key>
-		<value><![CDATA[Новий клієнт # %s був оновлено!]]></value>
+		<value><![CDATA[Новий клієнт #%s був оновлено!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_customer_contact</key>
@@ -82,6 +82,6 @@
 	</definition>
 	<definition>
 		<key>im_order_update_text_to_guest</key>
-		<value><![CDATA[Ваше замовлення <a href="%s"># %s</a> оновлений. Для отримання більш детальної інформації, будь ласка, відвідайте сторінку замовлення %s.]]></value>
+		<value><![CDATA[Ваше замовлення <a href="%s">#%s</a> оновлений. Для отримання більш детальної інформації, будь ласка, відвідайте сторінку замовлення %s.]]></value>
 	</definition>
 </definitions>
