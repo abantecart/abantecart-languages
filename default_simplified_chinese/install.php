@@ -13,7 +13,7 @@ if (! defined ( 'DIR_CORE' )) {
 $lng_code = "cn";
 $lng_name = "中文";
 $lng_directory = "chinese";
-$lng_locale = "zh,zh-hk,zh-cn,zh-cn.UTF-8,cn-gb,chinese";
+$lng_locale = "zh,zh-hk,zh-cn,zh_CN.UTF-8,cn-gb,chinese";
 $lng_flag_path = "extensions/default_simplified_chinese/storefront/language/chinese/flag.png";
 $lng_sort = 2; // sorting order with other languages
 $lng_status = 0; // Status on installation of extension
