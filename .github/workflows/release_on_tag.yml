@@ -23,8 +23,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
           tag: ${{ github.ref }}
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
       - name: Directory listing
