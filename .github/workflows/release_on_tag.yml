@@ -15,8 +15,9 @@ jobs:
       - name: Build project
         run: |
           cd ..
-          php -r 'phpinfo();'
-#          tar -czvf default_ukrainian.tar.gz  abantecart-languages/default_ukrainian
+          mkdir assets
+          php ./abantecart-languages/.github/workflows/asset_builder.php ${{ github.ref_name }}
+          cd assets && for dir in */ ; do tar -czvf "${dir%/}.tar.gz" "$dir"; done
       - name: Create Release
         id: create_release
         uses: ncipollo/release-action@v1
@@ -30,12 +31,10 @@ jobs:
         run: |
           cd ..
           ls -la
-      - name: Upload Release Asset targz
+      - name: Upload Release Asset tar.gz
         id: upload-release-asset
         uses: softprops/action-gh-release@v1
         with:
           token: ${{ secrets.PUBLISH_TOKEN }}
-          files: |
-            ../default_ukrainian.zip
-            ../default_ukrainian.tar.gz
-
+          files: |            
+            ../assets/*.tar.gz

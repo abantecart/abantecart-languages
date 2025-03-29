@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Magtig.Netto betaling]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[Bykomende instellings word vereis om Authorize.Net-betalingsopstelling te voltooi. Sien addisionele instellings-oortjie.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Betaling]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sukses: Jy het Authorize.Net-betalingsinstellings gewysig!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[Ligging:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[Alle liggings]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[API-aanmelding-ID:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Toetsmodus:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[Transaksiesleutel:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[Publieke sleutel:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[
+ Outomatiese keuse: <br/><span class="help">Jy kan instel om die betalingskeusebladsy oor te slaan as daar net een betaalopsie is. Hierdie betaalmetode sal outomaties gekies word</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[
+ Kan kredietkaarte stoor: <br/><span class="help">Stel maksimum aantal kredietkaarte wat deur klante gestoor moet word (tot 100). Indien gestel op 0 of leë stoor van kaarte sal nie toegelaat word nie. Sekuriteitsnota: Kliënt-kredietkaartbesonderhede word op authorizenet veilige bedieners gestoor om maksimum datasekuriteitsmaatreëls te verseker. Geen kredietkaartbesonderhede sal op jou webwerf gestoor word nie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[Jy moet met authorizenet koppel om betalingsbesonderhede op te stel]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Authorize.Net instellings]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Maak kontak met Authorize.Net	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Ontkoppel Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Kan jy nie koppel nie?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Suksesvol aan Authorize.Net gekoppel]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Suksesvol van Authorize.Net ontkoppel]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[Sorteer volgorde]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Toetsmodus:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[Lewendige geheime sleutel: <br/><span class="help">Vind dit in Authorize.Net API-sleutels-afdeling. Sleutel begin met sk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[Regstreekse publiseerbare sleutel: <br/><span class="help">Vind dit in Authorize.Net API-sleutelsafdeling. Sleutel begin met pk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[Toets geheime sleutel: <br/><span class="help">Vind dit in Authorize.Net API-sleutels-afdeling. Sleutel begin met sk_toets_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[Toets publiseerbare sleutel: <br/><span class="help">Vind dit in Authorize.Net API-sleutelsafdeling. Sleutel begin met pk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[Nedersetting tipe:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[Slegs magtiging]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[Magtig en vang ]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[Sukses en afgehandel: <br/><span class="help">Kies hoofbestellingstatus wat jy wil stel in reaksie op betalingverwerkerstatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[Sukses en nie afgehandel nie: <br/><span class="help">Kies hoofbestellingstatus wat jy wil stel in reaksie op betalingverwerkerstatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Transaksie datum]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Bedrag]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[Outo (magtig en vang)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[Vertraag (magtig slegs)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Betaling Besonderhede]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Authorize.Net Transaction ID]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[Transaksiestatus]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Totale bedrag gemagtig]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Saldo bedrag]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Interne fout. Gaan foutlog of invoerparameters na!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Voer asseblief positiewe bedrag in]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[Authorize.Net-toetssleutel word vereis]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[Authorize.Net lewendige sleutel word vereis]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Waarskuwing: Jy het nie toestemming om Authorize.Net Payment te wysig nie!]]></value>
+	</definition>
+</definitions>

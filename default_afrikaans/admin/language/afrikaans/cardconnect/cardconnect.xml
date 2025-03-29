@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[Om API-bewyse te verkry, besoek asseblief https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[Handelaar ID]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[API-gebruikersnaam]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[API-wagwoord]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[Teken: <br/><span class="help">Log lêer is geleë in system/logs/cardconnect.txt lêer</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[Toets]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[Toets verbinding]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[Kry toets API geloofsbriewe]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[Toetsmodus]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[Domeingedeelte na API: <br/><span class="help">Hierdie waarde moet nie verander word nie, tensy anders gespesifiseer deur cardConnent.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[Verbinding is suksesvol en API-bewyse is korrek opgestel.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[Alle liggings]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[Ligging]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[Terugbetaal: <br/><span class="help">Bestellingstatus wat u ingestel wil hê as betaling in admin/bestelling terugbetaal word</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[Weier: <br/><span class="help">Bestellingstatus wat jy in die geskiedenis wil aanteken in reaksie op betalingsverwerkerstatus. Hooforderstatus word nie geraak nie. Bestelling sal nie eers geplaas word nadat betaling suksesvol is nie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[Sukses en nie afgehandel nie: <br/><span class="help">Kies hoofbestellingstatus wat jy wil stel in reaksie op betalingverwerkerstatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[Sukses en afgehandel: <br/><span class="help">Kies hoofbestellingstatus wat jy wil stel in reaksie op betalingsverwerkerstatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[Ongeldig: <br/><span class="help">Bestellingstatus wat u ingestel wil hê as betaling in admin/bestelling nietig verklaar word.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[Outo (magtig en neem vas)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[Vertraag (magtig slegs)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Skikkingstipe: <br/><span class="help">As dit op &quot;outo&quot; gestel is, sal die transaksie by vandag se vereffening ingesluit word. As dit op &#39;vertraag&#39; gestel is, sal die transaksie gemagtig word, maar nie vereffen (gevang) word nie. U moet transaksies binne 7 dae na magtiging handmatig vaslê</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[Maksimum kredietkaarte gestoor: <br/><span class="help">Stel maksimum aantal kredietkaarte wat deur klante gestoor moet word (tot 100). Indien gestel op 0 of leë stoor van kaarte sal nie toegelaat word nie. Sekuriteitsnota: Kliënt se kredietkaartbesonderhede word op CardConnect veilige bedieners gestoor om maksimum datasekuriteitsmaatreëls te verseker. Geen kredietkaartbesonderhede sal op jou webwerf gestoor word nie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Transaksie datum]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Bedrag]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Fondse is suksesvol gevang]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Vang was suksesvol, bestellingstatus opgedateer na sukses - afgehandel]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Terugbetaling is suksesvol verwerk]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Terugbetaling was suksesvol, bestellingstatus is opgedateer na terugbetaal]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Nietig was suksesvol, bestellingstatus opgedateer na nietig]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Betaling Besonderhede]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Betaling gevang]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Betaling nietig verklaar]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Betaling terugbetaal]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Vang Bedrag]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Terugbetalingsbedrag]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[CardConnect Charge ID]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[Totale bedrag gemagtig]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Saldo bedrag]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Terugbetalingstransaksies]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Bevestig asseblief dat jy die betaling wil ongeldig maak?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Bevestig asseblief dat jy die betaling wil vasvang?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Bevestig asseblief dat jy die betaling wil terugbetaal?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Terugbetaling]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Nietig]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Vang]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Interne fout. Gaan foutlog of invoerparameters na!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Voer asseblief positiewe bedrag in]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Kan nie transaksie ongeldig maak, herlaai en transaksiebesonderhede nagaan nie]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Kan nie vaslê, transaksiebesonderhede verfris en vangbedrag nagaan nie]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Kan nie terugbetaal nie, transaksiebesonderhede verfris en terugbetalingsbedrag nagaan]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[Huidige Skikking Status]]></value>
+	</definition>
+</definitions>
