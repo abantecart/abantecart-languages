@@ -1,6 +1,5 @@
-<?php /** @noinspection SqlNoDataSourceInspection */
+<?php
 /** @noinspection SqlNoDataSourceInspection */
-
 
 if (! defined ( 'DIR_CORE' )) {
  header ( 'Location: static_pages/' );
@@ -33,7 +32,7 @@ if ($query->row['language_id']) {
 
 $this->db->query(
     "INSERT INTO " . $this->db->table('languages') . " 
-        (`name`,`code`,`locale`,`image`,`directory`,`filename`, `status`)
+        (`name`,`code`,`locale`,`image`,`directory`,`filename`, `sort_order`, `status`)
 	 VALUES ('" . $lngName . "', '" . $lngCode . "', '" . $lngLocale . "', '" . $lngFlagPath . "','" . $lngDir . "',
 	 '" . $lngDir . "','" . $lngSortOrder . "'," . $lngStatus . ");");
 
