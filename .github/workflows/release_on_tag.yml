@@ -15,14 +15,15 @@ jobs:
       - name: Build project
         run: |
           cd ..
-          tar -czvf default_ukrainian.tar.gz  abantecart-languages/default_ukrainian
+          php -r 'phpinfo();'
+#          tar -czvf default_ukrainian.tar.gz  abantecart-languages/default_ukrainian
       - name: Create Release
         id: create_release
         uses: ncipollo/release-action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         with:
-          tag: ${{ github.ref }}
+          tag: ${{ github.ref_name }}
           draft: false
           prerelease: false
       - name: Directory listing
