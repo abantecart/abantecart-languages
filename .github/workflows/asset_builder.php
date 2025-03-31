@@ -21,9 +21,6 @@ foreach ($directories as $dir) {
     if ($dirname === '.github') {
         continue;
     }
-    if ($dirname !== 'default_afrikaans') {
-        continue;
-    }
 
     $newDir = "$assetsDir/$dirname";
 
