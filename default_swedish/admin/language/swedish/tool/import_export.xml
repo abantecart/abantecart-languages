@@ -1,127 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions>
-  <definition>
-    <key>import_export_title</key>
-    <value><![CDATA[Import Export]]></value>
-  </definition>
-  <definition>
-    <key>tab_import</key>
-    <value><![CDATA[Importera]]></value>
-  </definition>
-  <definition>
-    <key>tab_export</key>
-    <value><![CDATA[Exportera]]></value>
-  </definition>
-  <definition>
-    <key>text_tables</key>
-    <value><![CDATA[tabeller]]></value>
-  </definition>
-  <definition>
-    <key>text_options</key>
-    <value><![CDATA[alternativ]]></value>
-  </definition>
-  <definition>
-    <key>text_file_format</key>
-    <value><![CDATA[Filformat:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_name</key>
-    <value><![CDATA[Filnamn:]]></value>
-  </definition>
-  <definition>
-    <key>text_load_file</key>
-    <value><![CDATA[Load File]]></value>
-  </definition>
-  <definition>
-    <key>text_load</key>
-    <value><![CDATA[Ladda]]></value>
-  </definition>
-  <definition>
-    <key>text_import_loaded</key>
-    <value><![CDATA[Totalt laddade:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_field</key>
-    <value><![CDATA[Fil som ska importeras: <br/><span class="help">format som stöds för import filer: XML, CSV, TXT</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_id_range_from</key>
-    <value><![CDATA[ID sträcker sig från:]]></value>
-  </definition>
-  <definition>
-    <key>text_to</key>
-    <value><![CDATA[till:]]></value>
-  </definition>
-  <definition>
-    <key>text_csv_delimiter</key>
-    <value><![CDATA[CSV / TXT avgränsare:]]></value>
-  </definition>
-  <definition>
-    <key>text_export_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Alla fält kommer att omges av dubbla citattecken.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_import_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Alla fält måste omges av dubbla citattecken.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_test_mode</key>
-    <value><![CDATA[Kör i en testmod <br/><span class="help">Det rekommenderas att köra importera data i en testmod för att se om några problem förekommer.</span>]]></value>
-  </definition>
-  <definition>
-    <key>error_file_format</key>
-    <value><![CDATA[Fel filformat!]]></value>
-  </definition>
-  <definition>
-    <key>error_xml_import</key>
-    <value><![CDATA[Fel under import XML-fil!]]></value>
-  </definition>
-  <definition>
-    <key>error_csv_import</key>
-    <value><![CDATA[Fel vid import CSV / TXT-fil! Kontrollera fält avgränsare.]]></value>
-  </definition>
-  <definition>
-    <key>error_data_corrupted</key>
-    <value><![CDATA[Data är tom eller skadad.]]></value>
-  </definition>
-  <definition>
-    <key>error_file_empty</key>
-    <value><![CDATA[Filen är tom.]]></value>
-  </definition>
-  <definition>
-    <key>error_writable_backup</key>
-    <value><![CDATA[Backup katalog måste vara skrivbar för CSV / TXT export till arbete.]]></value>
-  </definition>
-  <definition>
-    <key>text_updated</key>
-    <value><![CDATA[Uppdaterad:]]></value>
-  </definition>
-  <definition>
-    <key>text_created</key>
-    <value><![CDATA[Skapad:]]></value>
-  </definition>
-  <definition>
-    <key>text_errors</key>
-    <value><![CDATA[fel:]]></value>
-  </definition>
-  <definition>
-    <key>text_show_details</key>
-    <value><![CDATA[Visa detaljer]]></value>
-  </definition>
-  <definition>
-    <key>text_no_children</key>
-    <value><![CDATA[Inga underordnade artiklar]]></value>
-  </definition>
-  <definition>
-    <key>text_some_errors</key>
-    <value><![CDATA[Det finns några fel.]]></value>
-  </definition>
-  <definition>
-    <key>text_test_completed</key>
-    <value><![CDATA[Testkörning avslutad. Totalt SQL-frågor:]]></value>
-  </definition>
-  <definition>
-    <key>text_sort_by</key>
-    <value><![CDATA[Sortera efter:]]></value>
-  </definition>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Import Export]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[Importera]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[Exportera]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[tabeller]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[alternativ]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Filformat:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Filnamn:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[Load File]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[Ladda]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Totalt laddade:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Fil som ska importeras: <br/><span class="help">format som stöds för import filer: XML, CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[ID sträcker sig från:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[till:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV / TXT avgränsare:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Alla fält kommer att omges av dubbla citattecken.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Alla fält måste omges av dubbla citattecken.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Kör i en testmod <br/><span class="help">Det rekommenderas att köra importera data i en testmod för att se om några problem förekommer.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Fel filformat!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Fel under import XML-fil!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Fel vid import CSV / TXT-fil! Kontrollera fält avgränsare.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Data är tom eller skadad.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[Filen är tom.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[Backup katalog måste vara skrivbar för CSV / TXT export till arbete.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Uppdaterad:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[Skapad:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[fel:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Visa detaljer]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Inga underordnade artiklar]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Det finns några fel.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Testkörning avslutad. Totalt SQL-frågor:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Sortera efter:]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Importera Data Wizard]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Importguiden]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Du kan ladda upp CSV- eller textfil för att importera data. För datastruktur kan du följa proprietärt format (se export) eller fritt format. <br/> För data med det fria formatet måste du mappa dataelement manuellt eller använda JSON-karta. <br/> Endast produkter, kategorier och märken/tillverkare stöds för import av fritt format. <br/> Åtgärdskolumn kan inkluderas för att instruera import att &quot;infoga&quot;, &quot;uppdatera&quot; eller &quot;ta bort&quot;. Standardåtgärden är update_or_insert. ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Välj en destinationstabell och motsvarande databasfält för varje angiven importdatakolumn. Om inget fält är markerat ignoreras indatakolumndata. <br/><b>Obs:</b> Språk- och lagringsspecifika datavärden kommer att tilldelas till aktuellt innehållsarkiv och valt språk]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Det kommer att finnas %s poster laddade och bearbetade i denna import!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Kör importprocessen]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Kolumnen Importera fil]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Importera dataexempel]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Välj destinationstabell]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Uppdatera om det finns]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Dela upp data efter]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Välj, kopiera och spara denna mappning för framtida bruk.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Exportera kartläggning]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Lägg upp i fältet nedanför försparade kartdata]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Ladda kartläggning]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Ingen importdestinationstabell eller fält har valts!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Det obligatoriska datafältet &#39;%s&#39; saknas för destinationstabellen!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Temporary Directory %s är inte skrivbar! Ändra behörigheter för att fortsätta.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Tom begäran.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Importprocessen har slutförts. %s rad(er) behandlade.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s rad(er) med fel.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[För mer information se <a href="%s" target="_new">loggfilen %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Uppgiften avbröts.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Schemalägg import]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Framgång: Du har skapat en schemalagd importuppgift! <a href="%s">Se detaljer</a>]]></value>
+	</definition>
 </definitions>

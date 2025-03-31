@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[Um SMS-Nachrichten zu aktivieren, gehen Sie zu System -&gt; Einstellungen -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
+ und wählen Sie TextMarketer als Standard-SMS-Treiber. Vergessen Sie nicht, den Bereich zu aktivieren, von dem Sie SMS empfangen möchten (Administrator oder Storefront). <br/> 
+ Diese Erweiterung aktiviert das Feld „Mobiltelefon“ für Administratoren und Kunden. Beachten Sie, dass dieses Feld ausgeblendet wird, wenn Sie diese Erweiterung deaktivieren. 
+ Beachten Sie, dass diese Information fehlt, wenn Sie die Erweiterung zu einem bestehenden Shop mit Kunden hinzufügen. 
+		]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API-Benutzername]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API-Passwort]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Absender: <span class="help">Absender-ID. Die ID kann 11 alphanumerische oder 16 rein numerische Zeichen umfassen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Testmodus]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[NEIN]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[Ja]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Status der Fehlerprotokollierung <span class="help">: Wenn Sie alle Fehler der TextMarketer-Erweiterung protokollieren möchten, aktivieren Sie diese Einstellung.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[ Mobiltelefon ]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Testen Sie Ihre Verbindung: <span class="help">Sie können testen, ob die von Ihnen eingegebenen API-Anmeldeinformationen korrekt sind.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[ Prüfen ]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Fehler! Bitte überprüfen Sie, ob die Erweiterung aktiviert ist.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Fehler! Bitte geben Sie die Telefonnummer des Empfängers ein.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Einzelheiten finden Sie im Fehlerprotokoll.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Die Verbindung ist erfolgreich und die API-Anmeldeinformationen sind korrekt konfiguriert.]]></value>
+	</definition>
+</definitions>

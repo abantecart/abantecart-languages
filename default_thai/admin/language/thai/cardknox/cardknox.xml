@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardknox_name</key>
+		<value><![CDATA[การ์ดน็อกซ์]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_note</key>
+		<value><![CDATA[]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_key</key>
+		<value><![CDATA[รหัสธุรกรรม (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_token</key>
+		<value><![CDATA[โทเค็นธุรกรรม (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_test</key>
+		<value><![CDATA[โหมดทดสอบ]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_success_order_status</key>
+		<value><![CDATA[สถานะการสั่งซื้อ: <br/><span class="help">สถานะการสั่งซื้อจะถูกกำหนดหลังจากการสั่งซื้อของลูกค้าเสร็จสิ้นตามวิธีการทำธุรกรรมที่ตั้งไว้</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id</key>
+		<value><![CDATA[ที่ตั้ง: <br/><span class="help">จำกัดให้เฉพาะสถานที่ที่เลือกเท่านั้นที่จะใช้ช่องทางการชำระเงินนี้ได้</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id_0</key>
+		<value><![CDATA[ทุกสถานที่]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method</key>
+		<value><![CDATA[วิธีการทำธุรกรรม: <br/><span class="help">ธุรกรรม CardKnox จะต้องดำเนินการในขั้นตอนการชำระเงินของลูกค้าก่อนกำหนดสถานะคำสั่งซื้อ ต้องได้รับอนุมัติหรือจับภาพเท่านั้น</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_capture</key>
+		<value><![CDATA[การจับกุม]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_authorization</key>
+		<value><![CDATA[ต้องได้รับอนุญาตเท่านั้น]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_ifields_key</key>
+		<value><![CDATA[คีย์ iFields]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_pending_authorization</key>
+		<value><![CDATA[รอการอนุมัติ]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_funds</key>
+		<value><![CDATA[การจับเงินทุน]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture</key>
+		<value><![CDATA[การจับกุม]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_payment_status</key>
+		<value><![CDATA[สถานะการชำระเงิน]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_success</key>
+		<value><![CDATA[สำเร็จ! เงินทุนได้รับการถ่ายโอนเรียบร้อยแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_processing</key>
+		<value><![CDATA[กำลังประมวลผล]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_do_refund</key>
+		<value><![CDATA[การคืนเงิน CardKnox: <span class="help">คุณสามารถป้อนจำนวนเงินที่ต้องการขอคืนเงินได้</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refunded</key>
+		<value><![CDATA[คืนเงินแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund</key>
+		<value><![CDATA[คืนเงิน]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_refund_title</key>
+		<value><![CDATA[การคืนเงิน CardKnox]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund_success</key>
+		<value><![CDATA[สำเร็จ! ดำเนินการคืนเงินคำสั่งซื้อเรียบร้อยแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_empty_amount</key>
+		<value><![CDATA[ผิดพลาด! จำนวนเงินไม่ถูกต้อง]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_payment_method_data</key>
+		<value><![CDATA[ข้อผิดพลาด! ไม่มีข้อมูลวิธีการชำระเงินสำหรับคำสั่งซื้อนี้]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_order_id</key>
+		<value><![CDATA[เกิดข้อผิดพลาด! ไม่มีรหัสคำสั่งซื้อ]]></value>
+	</definition>
+</definitions>

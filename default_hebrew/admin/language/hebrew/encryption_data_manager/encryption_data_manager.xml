@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[מנהל נתוני הצפנה]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[הרחבות]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[ כלי נתונים להצפנה ]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[סטָטוּס:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[סדר מיון:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[צור צמד מפתחות]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[הצפנת נתונים]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[אזהרה: אין לך הרשאה לשנות משלוח מבוסס משקל!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[שגיאה: צמד שמות המפתחות שנבחר כבר קיים!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[
+ <b>הרחבה זו דורשת תצורה ותשומת לב מתקדמים</b><br/> 
+ <b>לאחר הפעלה והצפנת הנתונים, אין ביטול ולא ניתן לבטל את ההרחבה!</b><br/> 
+ הרחבה זו מסייעת בניהול יצירת מפתחות הצפנה והעברת נתונים מטבלאות פתוחות לטבלאות מוצפנות (הגירה ראשונית) <br/> 
+ <b>שים לב:</b> עליך להפעיל PHP עם <b>הצפנת</b> SSL 
+ <br/> 
+ <br/> כדי לאפשר הצפנת נתונים, קרא את הוראות העזרה (כפתור כיצד לעשות זאת)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[אזהרה: OpenSSL עבור PHP אינו זמין או אינו מופעל. אתה לא יכול להשתמש בהצפנה או בתוסף הזה! <br/> עיין בעזרה עבור הרחבה זו לפרטים נוספים.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[אזהרה: הצפנת נתונים אינה מופעלת ב- AbanteCart שלך. אינך יכול להצפין/פענח נתונים באמצעות תוסף זה! <br/> עיין בעזרה עבור הרחבה זו לפרטים נוספים.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[צור צמד מפתחות]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[הצפנת נתונים]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[חסרים שדות נתונים נדרשים. אנא בדוק את הערכים שסופקו]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[שם זוג מפתחות ייחודי: <br/><span class="help">השם לא צריך להכיל רווחים או תווים מיוחדים. שומר את זה קצר ופשוט.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[אורך מפתח (סיביות): <br/><span class="help">ציין אורך סיביות של הצפנת מפתח. מספר גדול יותר מייצג הצפנה חזקה יותר, אך יכול להאט את הביצועים (טווח 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[סוג הצפנה: <br/><span class="help">זהו אלגוריתם הצפנה. השתמש ב-RSA כברירת מחדל אם אינך משתמש מתקדם.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[אפשר מפתח מבוסס סיסמה: <br/><span class="help">אם אפשר, יידרש ביטוי סיסמה נוסף כדי לפענח טקסט עם שימוש במפתח פרטי. פֶּתֶק. זה לא נתמך כרגע בהצפנת נתונים.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[ביטוי סיסמה או סיסמת מפתח: <br/><span class="help">זכור שביטוי הסיסמה או המפתח/ים יהיו חסרי תועלת וייתכן שהנתונים יאבדו</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>נוצר זוג מפתחות. ראה מפתחות למטה ושמור אותם בטוחים.</b><br/><br/> %s <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[יצירת צמד מפתחות נכשלה. בדוק את ההגדרות שלך ובדוק את יומן השגיאות.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[שם זוג מפתחות: <br/><span class="help">בחר מפתח שישמש להצפנה. חשוב: זכור את המפתח שבו השתמשת</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[טבלאות להצפנה: <br/><span class="help">טבלאות מוצגות יוצפנו עם המפתח שנבחר. ניתן לפתוח נתונים רק עם מפתח זה</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[מצב בדיקה: <br/><span class="help">בדוק תחילה שהכל בסדר להוצאה.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[הסר נתוני מקור: <br/><span class="help">הסר רשומות נתונים לא מוצפנים במקור לאחר השלמת ההצפנה</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>הנתונים הוצפנו. <br/> ראה פרטים:</b><br/><br/> %s <br/><br/><b>אם אתה רוצה שהמפתח הזה ישמש להצפנת נתונים חדשה, הוסף את השורה הבאה למערכת הקבצים/config.php : define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;%s&#39;);</b> ]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>תוצאת בדיקת הצפנת נתונים</b> בדוק את יומן השגיאות לאיתור שגיאות אפשריות! <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[הצפנת נתונים נכשלה. בדוק את ההגדרות שלך ובדוק את יומן השגיאות.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>הערות חשובות! לאחר השלמת ההצפנה הנתונים יועתקו לטבלאות שיקוף עם נתונים מוצפנים בהן. 
+ <br/> עקוב אחר ההוראות להוספת תצורה ל-system/config.php עבור AbanteCart כדי להחליף פעולות קריאה/כתיבה לטבלאות מוצפנות.</b><br/> הוסף את השורה הבאה לקובץ התצורה: define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;your_key_name&#39;); <br/> זה יהיה מפתח ברירת המחדל עבור פעולות קריאה/כתיבה ]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[שימוש בהצפנה]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[רשומות נתונים לא מוצפנות]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[השתמש בכרטיסייה &#39;הצפנת נתונים&#39; להצפנה ראשונית]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[רשומות נתונים מוצפנים]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[מזהה מפתח]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[שם מפתח]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[שימוש בטבלאות מוצפנות]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[סובב (שנה) את ההצפנה למפתח חדש]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[רשומות]]></value>
+	</definition>
+</definitions>

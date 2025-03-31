@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[授权.Net 付款]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[需要进行其他设置才能完成 Authorize.Net 付款设置。请参阅其他设置选项卡。]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[支付]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[成功：您已修改Authorize.Net付款设置！]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[地点：]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[所有地点]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[API 登录 ID：]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[测试模式：]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[交易密钥：]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[公钥：]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[
+自动选择： <br/><span class="help">如果只有一个付款选项，您可以设置跳过付款选择页面。此付款方式将自动选择</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[
+可以保存信用卡： <br/><span class="help">设置客户可以保存的信用卡的最大数量（最多 100 张）。如果设置为 0 或空白，则不允许保存信用卡。安全注意事项：客户信用卡详细信息保存在 authorizenet 安全服务器上，以确保最大程度的数据安全措施。您的网站上不会保存任何信用卡详细信息。</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[您需要连接 authorizenet 来设置付款详情]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Authorize.Net 设置]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[与 Authorize.Net 连接	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[断开Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[无法连接？]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[成功连接到 Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[已成功断开与 Authorize.Net 的连接]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[排序顺序]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[测试模式：]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[实时密钥： <br/><span class="help">在 Authorize.Net API 密钥部分找到此密钥。密钥以 sk_live_ 开头...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[实时可发布密钥： <br/><span class="help">在 Authorize.Net API 密钥部分找到此密钥。密钥以 pk_live_ 开头...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[测试密钥： <br/><span class="help">在 Authorize.Net API 密钥部分找到它。密钥以 sk_test_ 开头...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[测试可发布密钥： <br/><span class="help">在 Authorize.Net API 密钥部分找到它。密钥以 pk_test_ 开头...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[结算类型：]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[仅授权]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[授权和捕获 ]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[成功并结算： <br/><span class="help">选择您想要设置的主要订单状态以响应支付处理器状态</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[成功且未结算： <br/><span class="help">选择您想要设置的主要订单状态以响应支付处理器状态</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[交易日期]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[数量]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[自动（授权和捕获）]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[延迟（仅授权）]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[付款细节]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Authorize.Net 交易 ID]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[交易状态]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[授权总额]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[余额]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[内部错误。请检查错误日志或输入参数！]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[请输入正金额]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[需要 Authorize.Net 测试密钥]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[需要 Authorize.Net 实时密钥]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[警告：您没有权限修改Authorize.Net Payment！]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Trình quản lý dữ liệu mã hóa]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Phần mở rộng]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[ Công cụ mã hóa dữ liệu ]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Trạng thái:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Thứ tự sắp xếp:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Tạo cặp khóa]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Mã hóa dữ liệu]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Cảnh báo: Bạn không có quyền sửa đổi cách tính phí vận chuyển dựa trên trọng lượng!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Lỗi: Cặp tên khóa được chọn đã tồn tại!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[
+ <b>Phần mở rộng này yêu cầu cấu hình NÂNG CAO và chú ý</b><br/> 
+ <b>Sau khi bật và dữ liệu được mã hóa, KHÔNG có chức năng hoàn tác và không thể tắt phần mở rộng!</b><br/> 
+ Phần mở rộng này giúp quản lý việc tạo khóa mã hóa và di chuyển dữ liệu từ bảng mở sang bảng được mã hóa (di chuyển ban đầu) <br/> 
+ <b>LƯU Ý:</b> bạn cần phải có PHP với Mã hóa SSL <b>ĐƯỢC BẬT</b> 
+ <br/> 
+ <br/> Để bật mã hóa dữ liệu, vui lòng đọc hướng dẫn trợ giúp (nút CÁCH THỨC)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Cảnh báo: OpenSSL cho PHP không khả dụng hoặc không được kích hoạt. Bạn không thể sử dụng mã hóa hoặc tiện ích mở rộng này! <br/> Kiểm tra TRỢ GIÚP cho tiện ích mở rộng này để biết thêm chi tiết.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Cảnh báo: Mã hóa dữ liệu không được bật trên AbanteCart của bạn. Bạn không thể mã hóa/giải mã dữ liệu bằng tiện ích mở rộng này! <br/> Kiểm tra TRỢ GIÚP cho tiện ích mở rộng này để biết thêm chi tiết.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Tạo cặp khóa]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Mã hóa dữ liệu]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Thiếu trường dữ liệu bắt buộc. Vui lòng kiểm tra các giá trị được cung cấp]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Tên cặp khóa duy nhất: <br/><span class="help">Tên không được chứa bất kỳ khoảng trắng hoặc ký tự đặc biệt nào. Giữ cho ngắn gọn và đơn giản.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Độ dài khóa (bit): <br/><span class="help">Chỉ định độ dài bit mã hóa khóa. Số lớn hơn biểu thị mã hóa mạnh hơn, nhưng có thể làm chậm hiệu suất (Phạm vi 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Kiểu mã hóa: <br/><span class="help">Đây là thuật toán mã hóa. Sử dụng RSA mặc định nếu bạn không phải là người dùng nâng cao.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Bật khóa dựa trên mật khẩu: <br/><span class="help">Nếu bật, cụm mật khẩu bổ sung sẽ được yêu cầu để giải mã văn bản bằng cách sử dụng khóa riêng. LƯU Ý. Tính năng này hiện không được hỗ trợ trong mã hóa dữ liệu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Mật khẩu hoặc khóa mật khẩu: <br/><span class="help">Hãy nhớ rằng mật khẩu hoặc khóa sẽ vô dụng và dữ liệu có thể bị mất</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Cặp khóa đã được tạo. Xem các khóa bên dưới và giữ chúng an toàn.</b><br/><br/> %s <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Không tạo được cặp khóa. Kiểm tra cài đặt và kiểm tra nhật ký lỗi.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Tên cặp khóa: <br/><span class="help">Chọn khóa sẽ được sử dụng để mã hóa. QUAN TRỌNG: Ghi nhớ khóa mà bạn đã sử dụng</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Bảng(các bảng) cần mã hóa: <br/><span class="help">Bảng(các bảng) được hiển thị sẽ được mã hóa bằng khóa đã chọn. Dữ liệu chỉ có thể được mở bằng khóa này</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Chế độ kiểm tra: <br/><span class="help">Trước tiên, hãy kiểm tra xem mọi thứ có ổn để mã hóa không.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Xóa dữ liệu nguồn: <br/><span class="help">Xóa các bản ghi dữ liệu nguồn chưa được mã hóa sau khi mã hóa hoàn tất</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Dữ liệu đã được mã hóa. <br/> Xem chi tiết:</b><br/><br/> %s <br/><br/><b>Nếu bạn muốn sử dụng khóa này để mã hóa dữ liệu mới, hãy thêm dòng sau vào tệp system/config.php: define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;%s&#39;);</b> ]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Kết quả kiểm tra mã hóa dữ liệu</b> Kiểm tra nhật ký lỗi để biết bất kỳ lỗi nào có thể xảy ra! <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Mã hóa dữ liệu không thành công. Kiểm tra cài đặt và kiểm tra nhật ký lỗi.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Lưu ý quan trọng! Sau khi mã hóa hoàn tất, dữ liệu sẽ được sao chép vào các bảng phản chiếu có dữ liệu được mã hóa trong đó. 
+ <br/> Thực hiện theo hướng dẫn để thêm cấu hình vào system/config.php cho AbanteCart để chuyển các hoạt động đọc/ghi sang các bảng được mã hóa.</b><br/> Thêm dòng sau vào tệp cấu hình: define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;your_key_name&#39;); <br/> Đây sẽ là khóa mặc định cho các hoạt động đọc/ghi ]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Sử dụng mã hóa]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Bản ghi dữ liệu chưa được mã hóa]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Sử dụng Tab &#39;Mã hóa dữ liệu&#39; để mã hóa ban đầu]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Bản ghi dữ liệu được mã hóa]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[ID khóa]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Tên khóa]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Sử dụng bảng được mã hóa]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Xoay (thay đổi) Mã hóa sang khóa mới]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[hồ sơ(s)]]></value>
+	</definition>
+</definitions>

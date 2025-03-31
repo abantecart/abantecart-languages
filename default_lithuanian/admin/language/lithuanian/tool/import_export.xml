@@ -1,127 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions>
-  <definition>
-    <key>import_export_title</key>
-    <value><![CDATA[Importas eksportas]]></value>
-  </definition>
-  <definition>
-    <key>tab_import</key>
-    <value><![CDATA[importas]]></value>
-  </definition>
-  <definition>
-    <key>tab_export</key>
-    <value><![CDATA[eksportas]]></value>
-  </definition>
-  <definition>
-    <key>text_tables</key>
-    <value><![CDATA[Stalai]]></value>
-  </definition>
-  <definition>
-    <key>text_options</key>
-    <value><![CDATA[Nustatymai]]></value>
-  </definition>
-  <definition>
-    <key>text_file_format</key>
-    <value><![CDATA[Failo formatas:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_name</key>
-    <value><![CDATA[Failo pavadinimas:]]></value>
-  </definition>
-  <definition>
-    <key>text_load_file</key>
-    <value><![CDATA[apkrovos Failų]]></value>
-  </definition>
-  <definition>
-    <key>text_load</key>
-    <value><![CDATA[apkrova]]></value>
-  </definition>
-  <definition>
-    <key>text_import_loaded</key>
-    <value><![CDATA[Iš viso pakrautas:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_field</key>
-    <value><![CDATA[Failo importu: <br/><span class="help">Palaikomi formatai importo failai: XML, CSV, TXT</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_id_range_from</key>
-    <value><![CDATA[ID diapazonas nuo:]]></value>
-  </definition>
-  <definition>
-    <key>text_to</key>
-    <value><![CDATA[į:]]></value>
-  </definition>
-  <definition>
-    <key>text_csv_delimiter</key>
-    <value><![CDATA[CSV / TXT skyriklis:]]></value>
-  </definition>
-  <definition>
-    <key>text_export_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Visi laukai bus dvigubose kabutėse.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_import_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Visi laukai turi būti dvigubose kabutėse.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_test_mode</key>
-    <value><![CDATA[Paleisti į bandymo režimą <br/><span class="help">Patartina paleisti duomenų importą į bandymo režimą pirmas, pamatyti, jei bet kokius klausimus yra.</span>]]></value>
-  </definition>
-  <definition>
-    <key>error_file_format</key>
-    <value><![CDATA[Netinkamas failo formatas!]]></value>
-  </definition>
-  <definition>
-    <key>error_xml_import</key>
-    <value><![CDATA[Klaida metu importo XML faile!]]></value>
-  </definition>
-  <definition>
-    <key>error_csv_import</key>
-    <value><![CDATA[Klaida importuojant per CSV / TXT failą! Prašome patikrinti srityse skyriklis.]]></value>
-  </definition>
-  <definition>
-    <key>error_data_corrupted</key>
-    <value><![CDATA[Duomenys yra tuščias arba sugadintas.]]></value>
-  </definition>
-  <definition>
-    <key>error_file_empty</key>
-    <value><![CDATA[Failo tuščias.]]></value>
-  </definition>
-  <definition>
-    <key>error_writable_backup</key>
-    <value><![CDATA[Atsarginė katalogas turi būti įrašomas CSV / TXT eksportas į darbą.]]></value>
-  </definition>
-  <definition>
-    <key>text_updated</key>
-    <value><![CDATA[Atnaujinta:]]></value>
-  </definition>
-  <definition>
-    <key>text_created</key>
-    <value><![CDATA[Sukurta:]]></value>
-  </definition>
-  <definition>
-    <key>text_errors</key>
-    <value><![CDATA[Klaidos:]]></value>
-  </definition>
-  <definition>
-    <key>text_show_details</key>
-    <value><![CDATA[Parodyk detales]]></value>
-  </definition>
-  <definition>
-    <key>text_no_children</key>
-    <value><![CDATA[Nė vienas vaikas daiktai]]></value>
-  </definition>
-  <definition>
-    <key>text_some_errors</key>
-    <value><![CDATA[Yra keletas klaidų.]]></value>
-  </definition>
-  <definition>
-    <key>text_test_completed</key>
-    <value><![CDATA[Bandomasis paleidimas baigtas. Iš viso SQL užklausos:]]></value>
-  </definition>
-  <definition>
-    <key>text_sort_by</key>
-    <value><![CDATA[Rūšiuoti pagal:]]></value>
-  </definition>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Importas eksportas]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[importas]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[eksportas]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[Stalai]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[Nustatymai]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Failo formatas:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Failo pavadinimas:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[apkrovos Failų]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[apkrova]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Iš viso pakrautas:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Failo importu: <br/><span class="help">Palaikomi formatai importo failai: XML, CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[ID diapazonas nuo:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[į:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV / TXT skyriklis:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Visi laukai bus dvigubose kabutėse.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Visi laukai turi būti dvigubose kabutėse.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Paleisti į bandymo režimą <br/><span class="help">Patartina paleisti duomenų importą į bandymo režimą pirmas, pamatyti, jei bet kokius klausimus yra.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Netinkamas failo formatas!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Klaida metu importo XML faile!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Klaida importuojant per CSV / TXT failą! Prašome patikrinti srityse skyriklis.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Duomenys yra tuščias arba sugadintas.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[Failo tuščias.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[Atsarginė katalogas turi būti įrašomas CSV / TXT eksportas į darbą.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Atnaujinta:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[Sukurta:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[Klaidos:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Parodyk detales]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Nė vienas vaikas daiktai]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Yra keletas klaidų.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Bandomasis paleidimas baigtas. Iš viso SQL užklausos:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Rūšiuoti pagal:]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Duomenų importavimo vedlys]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Importavimo vedlys]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Duomenims importuoti galite įkelti CSV arba teksto failą. Duomenų struktūrai galite vadovautis patentuotu formatu (žr. eksportavimą) arba laisvu formatu. <br/> Norėdami gauti nemokamo formato duomenis, turėsite susieti duomenų elementus rankiniu būdu arba naudoti JSON žemėlapį. <br/> Importuoti laisvu formatu palaikomi tik produktai, kategorijos ir prekės ženklai / gamintojai. <br/> Veiksmo stulpelis gali būti įtrauktas, kad būtų nurodyta importuoti „įterpti“, „atnaujinti“ arba „ištrinti“. Numatytasis veiksmas yra update_or_insert. ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Kiekviename pateiktame importo duomenų stulpelyje pasirinkite paskirties lentelę ir atitinkamą duomenų bazės lauką. Jei nepasirinktas joks laukas, įvesties stulpelio duomenys bus ignoruojami. <br/><b>Pastaba:</b> kalbos ir saugyklos konkrečios duomenų reikšmės bus priskirtos esamai turinio saugyklai ir pasirinktai kalbai]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Šiame importe bus įkelti ir apdoroti %s įrašai!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Vykdomas importavimo procesas]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Importuoti failo stulpelį]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Importuoti duomenų pavyzdį]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Pasirinkite paskirties lentelę]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Atnaujinkite, jei yra]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Padalinti duomenis pagal]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Pasirinkite, nukopijuokite ir išsaugokite šį atvaizdą naudoti ateityje.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Eksportuoti žemėlapius]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Paskelbkite lauką, esantį žemiau iš anksto išsaugotų žemėlapių duomenų]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Apkrovos kartografavimas]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Nepasirinkta importavimo paskirties lentelės ar laukų!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Trūksta būtino duomenų lauko „%s“ paskirties lentelėje!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Laikinasis katalogas %s nerašomas! Norėdami tęsti, pakeiskite leidimus.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Tuščia užklausa.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Importavimo procesas baigtas. Apdorota (-os) %s eilutė (-ės).]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s eilutė (-ės) su klaidomis.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Daugiau informacijos rasite <a href="%s" target="_new">žurnalo faile %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Užduotis sėkmingai nutraukta.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Suplanuoti importavimą]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Sėkmė: sėkmingai sukūrėte suplanuotą importavimo užduotį! <a href="%s">Žr. išsamią informaciją</a>]]></value>
+	</definition>
 </definitions>

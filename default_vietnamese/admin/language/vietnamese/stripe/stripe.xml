@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>stripe_name</key>
+		<value><![CDATA[Thanh toán Stripe]]></value>
+	</definition>
+	<definition>
+		<key>stripe_note</key>
+		<value><![CDATA[Cần có các cài đặt bổ sung để hoàn tất thiết lập thanh toán Stripe. Xem tab cài đặt bổ sung.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Sự chi trả]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Thành công: Bạn đã sửa đổi cài đặt thanh toán Stripe!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id</key>
+		<value><![CDATA[Vị trí:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id_0</key>
+		<value><![CDATA[Tất cả các địa điểm]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status</key>
+		<value><![CDATA[Trạng thái:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_published_key</key>
+		<value><![CDATA[Khóa đã xuất bản:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_autoselect</key>
+		<value><![CDATA[Tự động chọn: <br/><span class="help">Bạn có thể thiết lập bỏ qua trang lựa chọn thanh toán nếu chỉ có một tùy chọn thanh toán. Phương thức thanh toán này sẽ được chọn tự động</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list</key>
+		<value><![CDATA[Phương thức thanh toán được phép. <br/><span class="help">Để trống để tự động chọn</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_card</key>
+		<value><![CDATA[Thẻ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_klarna</key>
+		<value><![CDATA[Tiền mặt]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_acss_debit</key>
+		<value><![CDATA[ACSS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_afterpay_clearpay</key>
+		<value><![CDATA[Afterpay/Clearpay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_alipay</key>
+		<value><![CDATA[Alipay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_au_becs_debit</key>
+		<value><![CDATA[Trả nợ trực tiếp BECS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bacs_debit</key>
+		<value><![CDATA[Trả nợ trực tiếp Bacs]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_affirm</key>
+		<value><![CDATA[Khẳng định]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bancontact</key>
+		<value><![CDATA[Bancontact]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_blik</key>
+		<value><![CDATA[Blik]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_boleto</key>
+		<value><![CDATA[Boleto]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_interac_present</key>
+		<value><![CDATA[Tương tác]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_pix</key>
+		<value><![CDATA[Ảnh]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_revolut_pay</key>
+		<value><![CDATA[Thanh toán Revolut]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_swish</key>
+		<value><![CDATA[Vút]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_mobilepay</key>
+		<value><![CDATA[Thanh toán di động]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_zip</key>
+		<value><![CDATA[Mã bưu chính]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_eps</key>
+		<value><![CDATA[EPS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_fpx</key>
+		<value><![CDATA[FPX]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_giropay</key>
+		<value><![CDATA[giropay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_grabpay</key>
+		<value><![CDATA[Grabpay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_ideal</key>
+		<value><![CDATA[lý tưởng]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_konbini</key>
+		<value><![CDATA[Cửa hàng]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_link</key>
+		<value><![CDATA[Liên kết]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_oxxo</key>
+		<value><![CDATA[OXXO]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sofort</key>
+		<value><![CDATA[Sofort]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_p24</key>
+		<value><![CDATA[Przelewy24]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_paynow</key>
+		<value><![CDATA[Thanh toán ngay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_promptpay</key>
+		<value><![CDATA[Thanh toán nhanh]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sepa_debit</key>
+		<value><![CDATA[Ghi nợ trực tiếp SEPA]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_us_bank_account</key>
+		<value><![CDATA[ACH Trực tiếp ghi nợ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_wechat_pay</key>
+		<value><![CDATA[Thanh toán WeChat]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_twint</key>
+		<value><![CDATA[ĐÔI]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_connect</key>
+		<value><![CDATA[Bạn cần kết nối với Stripe để thiết lập thông tin thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_settings</key>
+		<value><![CDATA[Cài đặt sọc]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Kết nối với Stripe	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Ngắt kết nối Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Không thể kết nối?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Đã kết nối thành công với Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Đã ngắt kết nối khỏi Stripe thành công]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sort_order</key>
+		<value><![CDATA[Thứ tự sắp xếp]]></value>
+	</definition>
+	<definition>
+		<key>stripe_test_mode</key>
+		<value><![CDATA[Chế độ kiểm tra: <br/><span class="help">Đặt thành BẬT nếu bạn muốn sử dụng phím kiểm tra</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_live</key>
+		<value><![CDATA[Khóa bí mật trực tiếp: <br/><span class="help">Tìm mục này trong mục Khóa API Stripe. Khóa bắt đầu bằng sk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_live</key>
+		<value><![CDATA[Khóa có thể xuất bản trực tiếp: <br/><span class="help">Tìm mục này trong mục Khóa API Stripe. Khóa bắt đầu bằng pk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_test</key>
+		<value><![CDATA[Khóa bí mật kiểm tra: <br/><span class="help">Tìm khóa này trong mục Khóa API Stripe. Khóa bắt đầu bằng sk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_test</key>
+		<value><![CDATA[Khóa có thể xuất bản thử nghiệm: <br/><span class="help">Tìm mục này trong mục Khóa API Stripe. Khóa bắt đầu bằng pk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement</key>
+		<value><![CDATA[Loại thanh toán: <br/><span class="help">Nếu đặt thành &#39;tự động&#39;, thì giao dịch sẽ được bao gồm trong thanh toán ngày hôm nay. Nếu đặt thành &#39;trì hoãn&#39;, thì giao dịch sẽ được ủy quyền nhưng không được thanh toán (đã nắm bắt). Bạn phải nắm bắt giao dịch thủ công trong vòng 7 ngày kể từ ngày ủy quyền</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_settled</key>
+		<value><![CDATA[Thành công &amp; đã giải quyết: <br/><span class="help">Chọn trạng thái đơn hàng chính mà bạn muốn đặt để phản hồi trạng thái bộ xử lý thanh toán</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_unsettled</key>
+		<value><![CDATA[Thành công &amp; chưa thanh toán: <br/><span class="help">Chọn trạng thái đơn hàng chính mà bạn muốn đặt để phản hồi trạng thái bộ xử lý thanh toán</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_decline</key>
+		<value><![CDATA[Từ chối: <br/><span class="help">Trạng thái đơn hàng bạn muốn ghi lại trong lịch sử để phản hồi trạng thái bộ xử lý thanh toán. Trạng thái đơn hàng chính không bị ảnh hưởng. Đơn hàng sẽ không được đặt chỉ sau khi thanh toán thành công.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_void</key>
+		<value><![CDATA[Đã hủy: <br/><span class="help">Trạng thái đơn hàng bạn muốn thiết lập nếu thanh toán bị hủy trong mục admin/đơn hàng.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_refund</key>
+		<value><![CDATA[Đã hoàn tiền: <br/><span class="help">Trạng thái đơn hàng bạn muốn thiết lập nếu thanh toán được hoàn lại trong admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Ngày giao dịch]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Số lượng]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Quỹ đã được thu thập thành công]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Đã chụp thành công, trạng thái đơn hàng được cập nhật thành công - đã thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Hoàn tiền đã được xử lý thành công]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Hoàn tiền thành công, trạng thái đơn hàng được cập nhật thành đã hoàn tiền]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Hủy thành công, trạng thái đơn hàng được cập nhật thành đã hủy]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_auto</key>
+		<value><![CDATA[Tự động (ủy quyền và chụp)]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_delayed</key>
+		<value><![CDATA[Trì hoãn (chỉ cho phép)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Chi tiết thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Thanh toán đã được ghi nhận]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Thanh toán đã bị hủy bỏ]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Thanh toán đã được hoàn lại]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Số lượng bắt giữ]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Số tiền hoàn lại]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID thanh toán Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Tổng số tiền được ủy quyền]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Số dư]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Giao dịch hoàn tiền]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Vui lòng xác nhận bạn muốn hủy thanh toán?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Vui lòng xác nhận bạn muốn nhận thanh toán?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Vui lòng xác nhận bạn muốn hoàn lại tiền thanh toán?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Đền bù]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Hư vô]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Chiếm lấy]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Lỗi nội bộ. Kiểm tra nhật ký lỗi hoặc tham số đầu vào!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Vui lòng nhập số tiền dương]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Không thể nắm bắt, làm mới thông tin chi tiết giao dịch và kiểm tra số tiền nắm bắt]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Không thể hủy giao dịch, làm mới và kiểm tra chi tiết giao dịch]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Không thể hoàn tiền, làm mới thông tin giao dịch và kiểm tra số tiền hoàn lại]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_test</key>
+		<value><![CDATA[Khóa Stripe đã xuất bản là bắt buộc]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_live</key>
+		<value><![CDATA[Khóa Stripe đã xuất bản là bắt buộc]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_test</key>
+		<value><![CDATA[Cần có khóa kiểm tra Stripe]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_live</key>
+		<value><![CDATA[Cần có khóa trực tiếp Stripe]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Cảnh báo: Bạn không có quyền sửa đổi Stripe Payment!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_webhook_howto_text</key>
+		<value><![CDATA[Lưu ý: Để hoàn tất thiết lập, bạn nên tạo webhook trên Stripe Account Side. 
+ <br/> Đi đến <a href="https://dashboard.stripe.com/webhooks" target="_new">Stripe Dashboard Developer Section</a> 
+ và Add Endpoints nhận sự kiện từ tài khoản của bạn. Sau khi Endpoint đã được tạo, hãy sao chép Signing Secret và lưu vào cài đặt Stripe Subscription Extension. 
+]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_url</key>
+		<value><![CDATA[URL điểm cuối:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_signing_secret</key>
+		<value><![CDATA[Bí mật ký điểm cuối:]]></value>
+	</definition>
+</definitions>

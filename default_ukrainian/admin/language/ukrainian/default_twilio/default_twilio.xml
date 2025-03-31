@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_twilio_name</key>
+		<value><![CDATA[Твіліо]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_note</key>
+		<value><![CDATA[Щоб увімкнути sms-повідомлення, перейдіть до System -&gt; Settings -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
+ і виберіть Twilio як стандартний sms-драйвер. Не забудьте включити розділ, від якого ви хочете отримувати смс (адміністратор або вітрина). <br/> 
+ Це розширення дозволить надавати адміністраторам і клієнтам поле мобільного телефону. Пам’ятайте, що вимкнення цього розширення приховає це поле. 
+ У разі додавання до існуючого магазину з клієнтами майте на увазі, що ця інформація буде відсутня. 
+		]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_username</key>
+		<value><![CDATA[API AccountSID]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_token</key>
+		<value><![CDATA[API AuthToken]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test</key>
+		<value><![CDATA[Тестовий режим]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[
+ Телефон відправника (Twilio): <span class="help">номер телефону відправника в міжнародному форматі (наприклад, +14158675309)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_send_to</key>
+		<value><![CDATA[
+ Надішліть тестове SMS на адресу: ]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_0</key>
+		<value><![CDATA[немає]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_1</key>
+		<value><![CDATA[так]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_connection</key>
+		<value><![CDATA[Перевірте підключення. <span class="help">Ви можете перевірити, чи введені вами облікові дані API правильні.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_logging</key>
+		<value><![CDATA[Статус реєстрації помилок <span class="help">Якщо ви хочете реєструвати всі помилки розширення Twilio, увімкніть цей параметр.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[ Мобільний телефон ]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[ Тест ]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Помилка! Будь ласка, перевірте, чи розширення ввімкнено.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Підключення успішне, облікові дані API налаштовано правильно.]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[
+ Телефон відправника (Twilio): <span class="help">номер телефону відправника в міжнародному форматі (наприклад, +14158675309)</span>]]></value>
+	</definition>
+</definitions>

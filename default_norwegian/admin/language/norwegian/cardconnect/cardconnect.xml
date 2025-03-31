@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[For å få API-legitimasjon, besøk https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[Selger-ID]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[API-brukernavn]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[API-passord]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[Logging: <br/><span class="help">Loggfil ligger i system/logs/cardconnect.txt-fil</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[Test tilkobling]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[Få test API-legitimasjon]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[Testmodus]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[Domenedel til API: <br/><span class="help">Denne verdien skal ikke endres, med mindre annet er spesifisert av cardConnent.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[Tilkoblingen er vellykket og API-legitimasjonen er riktig konfigurert.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[Alle steder]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[Sted]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[Refundert: <br/><span class="help">Ordrestatus du ønsker skal settes dersom betaling refunderes i admin/ordre</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[Avslå: <br/><span class="help">Ordrestatus du ønsker å registrere i historikken som svar på betalingsbehandlerstatus. Hovedordrestatus påvirkes ikke. Bestillingen vil ikke bli plassert først etter at betalingen er vellykket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[Suksess og ikke avgjort: <br/><span class="help">Velg hovedordrestatus du vil angi som svar på betalingsbehandlerstatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[Vellykket og avgjort: <br/><span class="help">Velg hovedordrestatus du vil angi som svar på betalingsbehandlerstatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[Annullert: <br/><span class="help">Ordrestatus du ønsker skal settes dersom betaling annulleres i admin/ordre.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[Auto (autorisere og ta opp)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[Forsinket (bare autoriser)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Oppgjørstype: <br/><span class="help">Hvis satt til &quot;auto&quot;, vil transaksjonen inkluderes i dagens oppgjør. Hvis satt til &quot;forsinket&quot;, vil transaksjonen bli autorisert, men ikke avgjort (fanget). Du må registrere transaksjoner manuelt innen 7 dager etter autorisasjon</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[Maks. lagrede kredittkort: <br/><span class="help">Angi maksimalt antall kredittkort som skal lagres av kunder (opptil 100). Hvis satt til 0 eller tom, vil lagring av kort ikke være tillatt. Sikkerhetsmerknad: Kundens kredittkortopplysninger lagres på CardConnects sikre servere for å sikre maksimale datasikkerhetstiltak. Ingen kredittkortdetaljer vil bli lagret på nettstedet ditt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Transaksjonsdato]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Beløp]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Midlene ble tatt opp med hell]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Capture var vellykket, ordrestatus oppdatert til suksess - avgjort]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Tilbakebetalingen ble behandlet]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Tilbakebetaling var vellykket, ordrestatus oppdatert til refundert]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Annullering var vellykket, ordrestatus oppdatert til annullert]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Betalingsdetaljer]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Betaling fanget]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Betaling annullert]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Betaling refundert]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Capture Mengde]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Refusjonsbeløp]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[CardConnect Charge ID]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[Totalbeløp autorisert]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Saldobeløp]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Refusjonstransaksjoner]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Bekreft at du vil annullere betalingen?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Bekreft at du ønsker å motta betalingen?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Bekreft at du vil refundere betalingen?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Tilbakebetaling]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Ugyldig]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Fangst]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Intern feil. Sjekk feillogg eller inndataparametere!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Vennligst skriv inn positivt beløp]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Kan ikke annullere transaksjonen, oppdatere og sjekke transaksjonsdetaljer]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Kan ikke fange opp, oppdatere transaksjonsdetaljer og sjekke fangstbeløp]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Kan ikke refundere, oppdater transaksjonsdetaljer og kontroller refusjonsbeløpet]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[Gjeldende oppgjørsstatus]]></value>
+	</definition>
+</definitions>

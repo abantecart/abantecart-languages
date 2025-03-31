@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Authorize.Net Payment]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[Lisäasetukset tarvitaan Authorize.Net-maksun määrittämiseen. Katso lisäasetukset-välilehti.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Maksu]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Onnistui: Olet muokannut Authorize.Net-maksuasetuksia!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[Sijainti:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[Kaikki paikat]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[API-kirjautumistunnus:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Testitila:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[Tapahtumaavain:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[Julkinen avain:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[
+ Automaattinen valinta: <br/><span class="help">Voit asettaa ohittamaan maksuvalintasivun, jos maksuvaihtoehtoja on vain yksi. Tämä maksutapa valitaan automaattisesti</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[
+ Voi tallentaa luottokortteja: <br/><span class="help">Aseta asiakkaiden tallentamien luottokorttien enimmäismäärä (enintään 100). Jos asetus on 0 tai tyhjä, korttien tallentaminen ei ole sallittua. Turvahuomautus: Asiakkaan luottokorttitiedot tallennetaan suojatuille Authorizenet-palvelimille parhaan mahdollisen tietoturvan varmistamiseksi. Luottokorttitietoja ei tallenneta sivustollesi.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[Sinun on otettava yhteys Authorizenetiin maksutietojen määrittämiseksi]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Authorize.Net-asetukset]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Ota yhteyttä Authorize.Netiin	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Katkaise yhteys Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Ei voi muodostaa yhteyttä?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Yhteys Authorize.Net-verkkoon onnistui]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Yhteys Authorize.Net-verkkoon katkaistiin onnistuneesti]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[Lajittelujärjestys]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Testitila:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[Live Secret Key: <br/><span class="help">Etsi tämä Authorize.Net API Keys -osiosta. Avain alkaa sanalla sk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[Live Publishable Key: <br/><span class="help">Etsi tämä Authorize.Net API Keys -osiosta. Avain alkaa pk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[Testauksen salainen avain: <br/><span class="help">Etsi tämä Authorize.Net API Keys -osiosta. Avain alkaa sanalla sk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[Testaa julkaistava avain: <br/><span class="help">Etsi tämä Authorize.Net API Keys -osiosta. Avain alkaa pk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[Selvitystyyppi:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[Vain valtuutus]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[Valtuuta ja kaappaa ]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[Onnistuminen ja suoritettu: <br/><span class="help">Valitse päätilauksen tila, jonka haluat asettaa vastauksena maksunkäsittelijän tilaan</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[Onnistui ja ei selvitetty: <br/><span class="help">Valitse päätilauksen tila, jonka haluat asettaa vastauksena maksunkäsittelijän tilaan</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Tapahtuman päivämäärä]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Määrä]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[Automaattinen (valtuuta ja kaappaa)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[Viivästynyt (vain valtuutus)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Maksutiedot]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Authorize.Net Transaction ID]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[Tapahtuman tila]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Sallittu kokonaismäärä]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Saldo summa]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Sisäinen virhe. Tarkista virheloki tai syöttöparametrit!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Anna positiivinen summa]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[Authorize.Net testiavain vaaditaan]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[Authorize.Net live-avain vaaditaan]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata Authorize.Net-maksua!]]></value>
+	</definition>
+</definitions>

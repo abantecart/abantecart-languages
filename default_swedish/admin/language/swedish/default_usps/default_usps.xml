@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_usps_name</key>
+		<value><![CDATA[United States Postal Service]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[ Frakt]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[USPS-inställningar]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Framgång: Du har ändrat United States Postal Service!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[Express Mail International]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[Priority Mail International]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[Global Express Guaranteed (dokument och icke-dokument)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[Global Express Guaranteed Document används]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[Global Express Garanterad icke-dokument rektangulär form]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[Global Express Garanterat icke-dokument, icke-rektangulär]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[Priority Mail Fast Rate Kuvert]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[Priority Mail Fast Rate Box]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[Express Mail International Fast Rate Kuvert]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[Prioriterad post Stor schablonlåda]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[Global Express Guaranteed Kuvert]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[First Class Mail International Letters]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[First Class Mail International Flats]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[First Class Mail Internationella paket]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[Prioriterad post Liten schablonlåda]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[Vykort]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[Regelbunden]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[Stor]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[Oversize]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[Rektangulär]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[Ej rektangulär]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[Variabel]]></value>
+	</definition>
+	<definition>
+		<key>entry_user_id</key>
+		<value><![CDATA[Användar-ID: <span class="help">USPS ska skicka användar-ID och lösenord via e-post. Om inte, kontakta USPS för att bekräfta ditt USPS användar-ID. Du bör ringa USPS för att aktivera ditt konto på produktionsservrarna.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_password</key>
+		<value><![CDATA[Lösenord:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Postnummer: <span class="help">Postnummer för startplatsen för ditt paket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[Hushållstjänster:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[Internationella tjänster:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[Storlek: <span class="help">Välj behållarstorleken som du vanligtvis använder för att paketera produkterna som beställts från din butik.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[Behållare: <span class="help">Välj den typ av behållare som du vanligtvis använder för att paketera produkterna som beställts från din butik. USPS kommer endast att leverera paket som väger upp till 70 lbs</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[Bearbetningsbar: <br/><span class="help">Det rekommenderas att du väljer Ja. Ange om det är OK att hantera dina försändelser med maskiner. Om du aktiverar det här alternativet minskar fraktkostnaderna.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[Mått (L x B x H):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[Mått Längd: <br/><span class="help">Genomsnittlig paketdimension för fraktpaket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Mått Bredd: <br/><span class="help">Genomsnittlig paketdimension för fraktpaket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Mått Höjd: <br/><span class="help">Genomsnittlig paketdimension för fraktpaket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[Omkrets: <br/><span class="help">För att hitta omkretsen på ditt paket, mät avståndet runt den tjockaste delen av det icke-rektangulära paketet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[Visa leveranstid: <br/><span class="help">Vill du visa leveranstiden? (t.ex. skickas inom 3 till 5 dagar)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[Visa leveransvikt: <br/><span class="help">Vill du visa fraktvikten? (t.ex. leveransvikt: 2,7674 kg)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Viktklass: <br/><span class="help">Ställ in på pounds.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Längdklass: <br/><span class="help">Måtten eller standardlängdklassen för din butik.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Skatteklass: <br/><span class="help">Om du måste ta ut skatt på denna artikel, välj skatteklass.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[Plats:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Sorteringsordning:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra United States Postal Service!]]></value>
+	</definition>
+	<definition>
+		<key>error_user_id</key>
+		<value><![CDATA[Användar-ID krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Postnummer krävs!]]></value>
+	</definition>
+	<definition>
+		<key>entry_free_domestic_method</key>
+		<value><![CDATA[Alternativ för fri frakt <span class="help">Vänligen välj vilken metod som ska väljas för fall då varukorgen endast innehåller produkter med fri frakt</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_free_international_method</key>
+		<value><![CDATA[Alternativ för fri frakt av internationella paket <span class="help">Vänligen välj vilken metod som ska väljas för fall då varukorgen endast innehåller produkter med fri frakt</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_usps_debug</key>
+		<value><![CDATA[Felsökningsloggningsstatus]]></value>
+	</definition>
+</definitions>

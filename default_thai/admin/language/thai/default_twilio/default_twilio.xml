@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_twilio_name</key>
+		<value><![CDATA[ทวิลิโอ]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_note</key>
+		<value><![CDATA[หากต้องการเปิดใช้งานการส่งข้อความ SMS ให้ไปที่ ระบบ -&gt; การตั้งค่า -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
+ และเลือก Twilio เป็นโปรแกรมควบคุม SMS เริ่มต้น อย่าลืมเปิดใช้งานส่วนที่คุณต้องการรับ SMS จาก (ผู้ดูแลระบบหรือหน้าร้าน) <br/> 
+ ส่วนขยายนี้จะเปิดใช้งานช่องโทรศัพท์มือถือสำหรับให้ผู้ดูแลระบบและลูกค้าจัดเตรียม โปรดจำไว้ว่าการปิดใช้งานส่วนขยายนี้จะซ่อนช่องนี้ 
+ หากเพิ่มลงในร้านค้าที่มีลูกค้าอยู่แล้ว โปรดทราบว่าข้อมูลนี้จะสูญหายไป 
+		]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_username</key>
+		<value><![CDATA[API บัญชี SID]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_token</key>
+		<value><![CDATA[API โทเค็นการตรวจสอบสิทธิ์]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test</key>
+		<value><![CDATA[โหมดทดสอบ]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[
+ ผู้ส่ง (Twilio) โทรศัพท์: <span class="help">หมายเลขโทรศัพท์ของผู้ส่งในรูปแบบสากล (ตัวอย่าง +14158675309)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_send_to</key>
+		<value><![CDATA[
+ ส่ง SMS ทดสอบไปที่: ]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_0</key>
+		<value><![CDATA[เลขที่]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_1</key>
+		<value><![CDATA[ใช่]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_connection</key>
+		<value><![CDATA[ทดสอบการเชื่อมต่อของคุณ: <span class="help">คุณสามารถทดสอบได้ว่าข้อมูลประจำตัว API ที่คุณป้อนถูกต้องหรือไม่</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_logging</key>
+		<value><![CDATA[สถานะการบันทึกข้อผิดพลาด <span class="help">หากคุณต้องการบันทึกข้อผิดพลาดทั้งหมดของส่วนขยาย Twilio ให้เปิดการตั้งค่านี้</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[ โทรศัพท์มือถือ ]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[ ทดสอบ ]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[ข้อผิดพลาด! กรุณาตรวจสอบว่าส่วนขยายถูกเปิดอยู่หรือไม่]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[การเชื่อมต่อสำเร็จและข้อมูลรับรอง API ได้รับการกำหนดค่าอย่างถูกต้อง]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[
+ ผู้ส่ง (Twilio) โทรศัพท์: <span class="help">หมายเลขโทรศัพท์ของผู้ส่งในรูปแบบสากล (ตัวอย่าง +14158675309)</span>]]></value>
+	</definition>
+</definitions>

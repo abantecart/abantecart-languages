@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Wysyłka]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sukces: Zmodyfikowano wysyłkę FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[
+ Klucz produkcyjny Fedex: <br/><span class="help">Wprowadź przydzielony Ci klucz produkcyjny Fedex (pole wymagane).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Hasło produkcyjne Fedex: <br/><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[
+ Numer konta: <br/><span class="help">Wprowadź numer konta FedEx przypisany Tobie (wymagane).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Numer licznika FedEx: <br/><span class="help">Wprowadź numer licznika FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Adres: <br/><span class="help">Wysyłka z adresu ulicznego.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[Miasto: <br/><span class="help">Wysyłka z miasta.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Stan: <br/><span class="help">Wysyłka ze stanu (dwie litery).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[Kod pocztowy: <br/><span class="help">Wysyłka z kodu pocztowego.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Kraj: <br/><span class="help">Wysyłka z kraju (dwie litery).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[
+ Typ oferty: <br/><span class="help">Oferta na dostawę do domu lub firmy.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Mieszkaniowy]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Handlowy]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[
+ Opłaty dodatkowe: <br/><span class="help">Dodatkowa opłata naliczona do wyceny FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[ FEDEX First Overnight ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[ FEDEX Priority Overnight	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[ FedEx Standard Overnight	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[ FEDEX 2 dzień ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[ FEDEX Express Oszczędność	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[ FEDEX naziemny	]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Ostrzeżenie: Nie masz uprawnień do modyfikowania wysyłki FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Wymagany identyfikator konta!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Wymagany identyfikator licznika FedEx!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[Aby uzyskać numer licznika i klucz autoryzacyjny, należy wykonać następujące czynności:</br> 
+ Przejdź do <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br/> 
+ Zaloguj się za pomocą nazwy użytkownika i hasła FedEx lub kliknij Zarejestruj się teraz, jeśli ich nie mają. <br/> 
+ Kliknij „Zasoby techniczne” (lewa strona). <br/> 
+ Poniżej kliknij „Usługi internetowe FedEx do wysyłki”. <br/> 
+ Kliknij „Przenieś do produkcji” (prawa strona). <br/> 
+ Przewiń w dół do przycisku i kliknij „Uzyskaj klucz produkcyjny”. <br/> 
+ W formularzu wybierz „Nie” w pytaniu 1. <br/> 
+ Zaznacz pierwsze pole w pytaniu 2. <br/> 
+ Wybierz „Programista korporacyjny” w pytaniu 3. <br/> 
+ Zaakceptuj umowę. <br/> 
+ Wypełnij formularz (nie używaj myślników w numerze konta). <br/> 
+ Natychmiast otrzymaj numer licznika i klucz. Twoje hasło produkcyjne zostanie wysłane do Ciebie e-mailem po wykonaniu powyższych kroków.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Tryb testowy: <br/><span class="help">Czy używać serwera bramy produkcyjnej czy testowej?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[ Tak ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[ NIE ]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Przetestuj swoje połączenie: <span class="help">Możesz sprawdzić, czy wprowadzone przez Ciebie dane uwierzytelniające API są poprawne.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Połączenie zostało nawiązane pomyślnie, a dane uwierzytelniające API są prawidłowo skonfigurowane.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Błąd! Sprawdź, czy rozszerzenie jest włączone.]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Expédition]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Succès : Vous avez modifié l&#39;expédition FEDEX !]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[
+ Clé de production Fedex : <br/><span class="help">Saisissez la clé de production Fedex qui vous est attribuée, obligatoire.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Mot de passe de production Fedex : <br/><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[
+ Numéro de compte : <br/><span class="help">Saisissez le numéro de compte FedEx qui vous est attribué, obligatoire.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Numéro de compteur FedEx : <br/><span class="help">Saisissez le numéro de compteur FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Adresse : <br/><span class="help">Expédition à partir de l&#39;adresse postale.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[Ville : <br/><span class="help">Expédition depuis la ville.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[État : <br/><span class="help">Expédition depuis l&#39;état (deux lettres).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[Code postal : <br/><span class="help">Expédition à partir du code postal.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Pays : <br/><span class="help">Expédition depuis le pays (deux lettres).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[
+ Type de devis : <br/><span class="help">Devis pour livraison résidentielle ou commerciale.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Résidentiel]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Commercial]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[
+ Frais supplémentaires : <br/><span class="help">Frais supplémentaires appliqués au devis FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[ FEDEX First Overnight ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[ FEDEX Priority Overnight	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[ FEDEX Standard Overnight	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[ FEDEX 2e jour ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[ FEDEX Express Saver	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[ FEDEX Ground	]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Attention : vous n&#39;avez pas la permission de modifier les conditions d&#39;expédition FEDEX !]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[ID de compte requis !]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[ID de compteur Fedex requis !]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[Pour obtenir votre numéro de compteur et votre clé d&#39;autorisation, vous devrez suivre ces étapes :</br> 
+ Allez sur <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br/> 
+ Connectez-vous avec le nom d&#39;utilisateur et le mot de passe FedEx ou cliquez sur S&#39;inscrire maintenant s&#39;ils n&#39;en ont pas. <br/> 
+ Cliquez sur « Ressources techniques » (côté gauche). <br/> 
+ En dessous, cliquez sur « Services Web FedEx pour l&#39;expédition ». <br/> 
+ Cliquez sur « Passer à la production » (côté droit). <br/> 
+ Faites défiler jusqu&#39;au bouton et cliquez sur « Obtenir la clé de production ». <br/> 
+ Sur le formulaire, choisissez « Non » à la question 1. <br/> 
+ Cochez la première case à la question 2. <br/> 
+ Choisissez « Développeur d&#39;entreprise » à la question 3. <br/> 
+ Acceptez l&#39;accord. <br/> 
+ Remplissez le formulaire (n&#39;utilisez pas de tirets dans le numéro de compte). <br/> 
+ Recevez instantanément le numéro de compteur et la clé. Votre mot de passe de production vous sera envoyé par e-mail une fois les étapes ci-dessus terminées.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Mode test : <br/><span class="help">Utiliser le serveur de passerelle en direct ou de test ?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[ Oui ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[ Non ]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Testez votre connexion : <span class="help">vous pouvez tester si les informations d’identification API que vous avez saisies sont correctes.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[La connexion est réussie et les informations d’identification de l’API sont correctement configurées.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Erreur ! Veuillez vérifier si l&#39;extension est activée.]]></value>
+	</definition>
+</definitions>

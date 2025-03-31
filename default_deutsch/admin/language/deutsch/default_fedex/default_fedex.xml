@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Versand]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Erfolg: Sie haben den Versand mit FEDEX geändert!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[
+ Fedex-Produktionsschlüssel: <br/><span class="help">Geben Sie den Ihnen zugewiesenen Fedex-Produktionsschlüssel ein (erforderlich).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Fedex Produktionskennwort: <br/><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[
+ Kontonummer: <br/><span class="help">Geben Sie die Ihnen zugewiesene FedEx-Kontonummer ein (erforderlich).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Fedex-Zählernummer: <br/><span class="help">Geben Sie die FedEx-Zählernummer ein.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Adresse: <br/><span class="help">Versand von Straßenadresse.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[Stadt: <br/><span class="help">Versand aus der Stadt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Staat: <br/><span class="help">Versand aus Staat (zwei Buchstaben).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[PLZ: <br/><span class="help">Versand ab PLZ.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Land: <br/><span class="help">Versand aus Land (zwei Buchstaben).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[
+ Angebotstyp: <br/><span class="help">Angebot für private oder gewerbliche Lieferung.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Wohnen]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Kommerziell]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[
+ Zusätzliche Gebühren: <br/><span class="help">Zusätzliche Gebühren werden auf das FedEx-Angebot angewendet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[ FEDEX First Overnight ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[ FEDEX Priority Overnight	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[ FEDEX Standard Overnight	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[ FEDEX 2. Tag ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[ FEDEX Express Saver	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[ FEDEX Ground	]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Achtung: Sie haben keine Berechtigung, den Versand per FEDEX zu ändern!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Konto-ID erforderlich!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Fedex-Zähler-ID erforderlich!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[Um Ihre Zählernummer und Ihren Autorisierungsschlüssel zu erhalten, müssen Sie die folgenden Schritte ausführen:</br> 
+ Gehen Sie zu <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br/> 
+ Melden Sie sich mit Ihrem FedEx-Benutzernamen und -Passwort an oder klicken Sie auf „Jetzt registrieren“, falls Sie noch keines haben. <br/> 
+ Klicken Sie auf „Technische Ressourcen“ (linke Seite). <br/> 
+ Klicken Sie darunter auf „FedEx-Webservices für den Versand“. <br/> 
+ Klicken Sie auf „In Produktion verschieben“ (rechte Seite). <br/> 
+ Blättern Sie nach unten zur Schaltfläche und klicken Sie auf „Produktionsschlüssel erhalten“. <br/> 
+ Wählen Sie im Formular bei Frage 1 „Nein“. <br/> 
+ Aktivieren Sie das erste Kästchen bei Frage 2. <br/> 
+ Wählen Sie bei Frage 3 „Corporate Developer“. <br/> 
+ Akzeptieren Sie die Vereinbarung. <br/> 
+ Füllen Sie das Formular aus (verwenden Sie keine Bindestriche in der Kontonummer). <br/> 
+ Erhalten Sie sofort Zählernummer und Schlüssel. Ihr Produktionspasswort wird Ihnen per E-Mail zugeschickt, sobald Sie die obigen Schritte abgeschlossen haben.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Testmodus: <br/><span class="help">Den Live- oder Test-Gateway-Server verwenden?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[ Ja ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[ NEIN ]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Testen Sie Ihre Verbindung: <span class="help">Sie können testen, ob die von Ihnen eingegebenen API-Anmeldeinformationen korrekt sind.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Prüfen]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Die Verbindung ist erfolgreich und die API-Anmeldeinformationen sind korrekt konfiguriert.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Fehler! Bitte überprüfen Sie, ob die Erweiterung aktiviert ist.]]></value>
+	</definition>
+</definitions>

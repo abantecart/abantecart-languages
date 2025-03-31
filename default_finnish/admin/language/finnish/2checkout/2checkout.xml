@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2 Kassalle]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Maksu]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Onnistuminen: Olet muokannut 2Checkout-tilin tietoja!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[
+ Tämän laajennuksen avulla voit käyttää 2Checkout-maksujärjestelmää vastaanottaaksesi maksuja asiakkailtasi. <br/> 
+ <b>Rekisteröidy ilmaiseksi jo tänään! Käytä kampanjakoodia ABANTECART2CO vapauttaaksesi sovelluksesi palvelumaksusta (10,99 dollarin säästö) ja aloita myynti verkossa jo tänään!</b> Käy osoitteessa <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> , täytä hakemus ja kirjoita sitten koodi tarjouskoodikenttään hyödyntääksesi tämän erikoistarjouksen tänään! 
+ <br/> Kun rekisteröidyt kirjautumalla saadaksesi tilin tunnistetiedot tämän laajennuksen määrittämistä varten 
+ <br/> Älä unohda määrittää INS-URL-osoitetta ja uudelleenohjaus-URL-osoitetta täällä <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>. 
+ <br/><br/> INS-URL-osoitteesi on<h4> #storefront#rt=laajennus/2kassa/takaisinsoitto</h4> 
+ <br/><br/> Määritä myös uudelleenohjaus-URL ja valitse Paluutapa &quot;Otsikon uudelleenohjaus&quot;. 
+ <br/><br/> Uudelleenohjaus-URL-osoite on<h4> #storefront#rt=kassa/menestys</h4> 
+		 ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2Checkout-kauppiaskoodi:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[
+ Salainen avain: <br/><span class="help">Salainen sana, jolla tapahtumat vahvistetaan (täytyy olla sama kuin kauppiastilin asetussivulla määritetty.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Testitila:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Kyllä]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Ei]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Tilauksen tila:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Sijainti:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Kaikki paikat]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata maksua 2Tsekkaa!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Kauppiaskoodi vaaditaan!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Salainen avain vaaditaan!]]></value>
+	</definition>
+</definitions>

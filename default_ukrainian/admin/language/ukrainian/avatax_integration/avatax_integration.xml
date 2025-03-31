@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Інтеграція Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Якщо у вас увімкнено стандартний податок, він працюватиме разом із Avatax, і вам, можливо, доведеться вимкнути стандартні податки. Перевірте System -&gt; Localization -&gt; <a target="_new" href="#admin#rt=localisation/tax_class">Tax Class</a><br/> Також не забудьте ввімкнути розширення <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br/> Важливо! Порядок обчислення підсумків інтеграції Avatax у підсумках розширення має бути після проміжних підсумків. Розрахунок проміжних підсумків має передувати цьому розширенню. Перевірте це в загальних налаштуваннях розширень.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Номер рахунку: <br/><span class="help">Номер рахунку, наданий Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Ліцензійний ключ: <br/><span class="help">ліцензійних ключа надає Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[URL-адреса служби: <br/><span class="help">URL-адреси служби Avalara (активна або розроблена)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Назва податку: <br/><span class="help">Назва податку, яка буде показана клієнту в розділі підсумків</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Код компанії: <br/><span class="help">Код компанії для використання з Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[Поштовий індекс магазину:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Помилка! Будь ласка, перевірте, чи розширення ввімкнено.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Податковий код продукту за умовчанням]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Методи доставки Стандартні податкові коди]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Спосіб доставки]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Податковий кодекс вантажних перевезень]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Тестове підключення]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Підключення успішне, облікові дані API налаштовано правильно.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Тестове підключення:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Перевірка адреси: <br/><span class="help">Перевірка адреси буде виконана на етапі оформлення клієнта</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Заголовок для кнопки перевірки адреси:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Закріплення документів у службі Avatax: <br/><span class="help">Якщо ввімкнено, податковий документ буде закріплено за вказаним статусом замовлення</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Документи на повернення в сервісі Avatax: <br/><span class="help">Повернення буде записано при визначеному статусі замовлення</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[зберегти]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Очистити податковий код]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Код податку на продукт:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Знайти Податковий кодекс]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Статус звільнення:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[В очікуванні]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Затверджено]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Відхилено]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Ваш номер звільнення від оподаткування відхилено]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Ваш номер звільнення від оподаткування відхилено. Щоб перевірити дійсність, будь ласка, перейдіть на сторінку даних свого облікового запису %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Номер звільнення: <br/><span class="help">Номер звільнення від податку</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entity\Use Code: <br/><span class="help">AvaTax має групу кодів, які вказують на тип звільнення. Перегляньте стандартні коди або створіть спеціальні коди на сайті AvaTax</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Прийняти статус замовлення:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Статус повернення замовлення:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Скасувати статус замовлення:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Помилка номера рахунку. Перевір це!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Обидва]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[США]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Канада]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Країни для підтвердження адреси]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Усього інтеграції Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Увімкнути журнал транзакцій]]></value>
+	</definition>
+</definitions>

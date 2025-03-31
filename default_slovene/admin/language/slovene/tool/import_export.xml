@@ -1,127 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions>
-  <definition>
-    <key>import_export_title</key>
-    <value><![CDATA[Uvozno-izvoznih]]></value>
-  </definition>
-  <definition>
-    <key>tab_import</key>
-    <value><![CDATA[Uvoz]]></value>
-  </definition>
-  <definition>
-    <key>tab_export</key>
-    <value><![CDATA[izvoz]]></value>
-  </definition>
-  <definition>
-    <key>text_tables</key>
-    <value><![CDATA[mize]]></value>
-  </definition>
-  <definition>
-    <key>text_options</key>
-    <value><![CDATA[Opcije]]></value>
-  </definition>
-  <definition>
-    <key>text_file_format</key>
-    <value><![CDATA[Format datoteke:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_name</key>
-    <value><![CDATA[Ime datoteke:]]></value>
-  </definition>
-  <definition>
-    <key>text_load_file</key>
-    <value><![CDATA[Naloži datoteko]]></value>
-  </definition>
-  <definition>
-    <key>text_load</key>
-    <value><![CDATA[Load]]></value>
-  </definition>
-  <definition>
-    <key>text_import_loaded</key>
-    <value><![CDATA[Skupaj naložen:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_field</key>
-    <value><![CDATA[Datoteka za uvoz: <br/><span class="help">Podprti formati za uvozne datoteke: XML, CSV, TXT</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_id_range_from</key>
-    <value><![CDATA[ID razpon od:]]></value>
-  </definition>
-  <definition>
-    <key>text_to</key>
-    <value><![CDATA[da:]]></value>
-  </definition>
-  <definition>
-    <key>text_csv_delimiter</key>
-    <value><![CDATA[CSV / TXT ločilo:]]></value>
-  </definition>
-  <definition>
-    <key>text_export_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Vsa polja bodo zaprti v dvojne narekovaje.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_import_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Vsa polja morajo biti zaprti v dvojne narekovaje.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_test_mode</key>
-    <value><![CDATA[Deluje v testnem načinu <br/><span class="help">Priporočljivo je, da delujejo uvoz podatkov v testnem načinu najprej videti, če je navzoča kakršna koli vprašanja.</span>]]></value>
-  </definition>
-  <definition>
-    <key>error_file_format</key>
-    <value><![CDATA[Napačna oblika datoteke!]]></value>
-  </definition>
-  <definition>
-    <key>error_xml_import</key>
-    <value><![CDATA[Napaka pri uvozu datoteke XML!]]></value>
-  </definition>
-  <definition>
-    <key>error_csv_import</key>
-    <value><![CDATA[Napaka pri uvozu datoteke CSV / TXT! Preverite polja ločilo.]]></value>
-  </definition>
-  <definition>
-    <key>error_data_corrupted</key>
-    <value><![CDATA[Podatki so prazna ali poškodovana.]]></value>
-  </definition>
-  <definition>
-    <key>error_file_empty</key>
-    <value><![CDATA[Datoteka je prazna.]]></value>
-  </definition>
-  <definition>
-    <key>error_writable_backup</key>
-    <value><![CDATA[Backup imenik mora biti zapisljiv za CSV / TXT izvoz na delo.]]></value>
-  </definition>
-  <definition>
-    <key>text_updated</key>
-    <value><![CDATA[Posodobljeno:]]></value>
-  </definition>
-  <definition>
-    <key>text_created</key>
-    <value><![CDATA[Ustvarjeno:]]></value>
-  </definition>
-  <definition>
-    <key>text_errors</key>
-    <value><![CDATA[napake:]]></value>
-  </definition>
-  <definition>
-    <key>text_show_details</key>
-    <value><![CDATA[Pokaži podrobnosti]]></value>
-  </definition>
-  <definition>
-    <key>text_no_children</key>
-    <value><![CDATA[Ni podrejeni elementi]]></value>
-  </definition>
-  <definition>
-    <key>text_some_errors</key>
-    <value><![CDATA[Obstaja nekaj napak.]]></value>
-  </definition>
-  <definition>
-    <key>text_test_completed</key>
-    <value><![CDATA[Testna vožnja končana. Skupaj SQL poizvedb:]]></value>
-  </definition>
-  <definition>
-    <key>text_sort_by</key>
-    <value><![CDATA[Razvrsti po:]]></value>
-  </definition>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Uvozno-izvoznih]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[Uvoz]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[izvoz]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[mize]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[Opcije]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Format datoteke:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Ime datoteke:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[Naloži datoteko]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[obremenitev]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Skupaj naložen:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Datoteka za uvoz: <br/><span class="help">Podprti formati za uvozne datoteke: XML, CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[ID razpon od:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[da:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV / TXT ločilo:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Vsa polja bodo zaprti v dvojne narekovaje.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Vsa polja morajo biti zaprti v dvojne narekovaje.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Deluje v testnem načinu <br/><span class="help">Priporočljivo je, da delujejo uvoz podatkov v testnem načinu najprej videti, če je navzoča kakršna koli vprašanja.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Napačna oblika datoteke!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Napaka pri uvozu datoteke XML!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Napaka pri uvozu datoteke CSV / TXT! Preverite polja ločilo.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Podatki so prazna ali poškodovana.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[Datoteka je prazna.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[Backup imenik mora biti zapisljiv za CSV / TXT izvoz na delo.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Posodobljeno:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[Ustvarjeno:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[napake:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Pokaži podrobnosti]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Ni podrejeni elementi]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Obstaja nekaj napak.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Testna vožnja končana. Skupaj SQL poizvedb:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Razvrsti po:]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Čarovnik za uvoz podatkov]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Čarovnik za uvoz]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Za uvoz podatkov lahko naložite CSV ali besedilno datoteko. Za strukturo podatkov lahko sledite lastniški obliki (glejte izvoz) ali prosti obliki. <br/> Za podatke v prosti obliki boste morali ročno preslikati podatkovne elemente ali uporabiti preslikavo JSON. <br/> Za uvoz v prosti obliki so podprti samo izdelki, kategorije in blagovne znamke/proizvajalci. <br/> Stolpec z dejanji je mogoče vključiti za navodilo uvozu za »vstavi«, »posodobi« ali »izbriši«. Privzeto dejanje je update_or_insert. ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Izberite ciljno tabelo in ustrezno polje zbirke podatkov za vsak ponujen stolpec uvoznih podatkov. Če ni izbrano nobeno polje, bodo podatki vnosnega stolpca prezrti. <br/><b>Opomba:</b> Vrednosti podatkov, specifičnih za jezik in shranjevanje, bodo dodeljene trenutni izbrani trgovini vsebine in jeziku]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[V tem uvozu bo naloženih in obdelanih %s zapisov!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Izvaja se postopek uvoza]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Uvozi stolpec datoteke]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Uvoz vzorca podatkov]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Izberite ciljno tabelo]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Posodobite, če obstaja]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Razdeli podatke po]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Izberite, kopirajte in shranite to preslikavo za prihodnjo uporabo.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Izvoz preslikave]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Objavite v polje pod vnaprej shranjenimi podatki za preslikavo]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Preslikava obremenitev]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Izbrana ni nobena ciljna tabela ali polja za uvoz!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Manjka obvezno podatkovno polje &#39;%s&#39; za ciljno tabelo!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Začasni imenik %s ni zapisljiv! Za nadaljevanje spremenite dovoljenja.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Prazna zahteva.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Postopek uvoza je zaključen. %s vrstica(e) obdelana.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s vrstica(e) z napakami.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Za več podrobnosti glejte <a href="%s" target="_new">dnevniško datoteko %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Naloga je bila uspešno prekinjena.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Uvoz urnika]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Uspeh: Uspešno ste ustvarili nalogo načrtovanega uvoza! <a href="%s">Glej podrobnosti</a>]]></value>
+	</definition>
 </definitions>

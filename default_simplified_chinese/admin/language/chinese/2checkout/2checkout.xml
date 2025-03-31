@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[支付]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[成功：您已修改2Checkout帐户详细信息！]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[
+使用此扩展程序，您可以使用 2Checkout 支付系统接受客户的付款。 <br/> 
+<b>立即免费注册！使用促销代码 ABANTECART2CO 免除您的申请服务费（节省 10.99 美元）并立即开始在线销售！</b>访问<a href="https://www.2checkout.com/signup/">www.2checkout.com</a> ，完成申请，然后在促销代码字段中输入代码，立即享受此特别优惠！ 
+ <br/>注册后登录以获取帐户凭据来配置此扩展程序
+ <br/>不要忘记在此处设置 INS URL 和重定向 URL <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a> 。 
+ <br/><br/>您的 INS URL 是<h4>#storefront#rt=extension/2checkout/callback</h4> 
+ <br/><br/>还要设置重定向 URL 并选择返回方法“标头重定向”。 
+ <br/><br/>您的重定向 URL 是<h4>#店面#rt=结账/成功</h4>
+		 ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2Checkout 商户代码：]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[
+密钥： <br/><span class="help">用于确认交易的密码（必须与商户配置页面上定义的相同）。</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[测试模式：]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[是的]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[不]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[订单状态：]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[地点：]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[所有地点]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[警告：您无权修改付款2Checkout！]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[需要商家代码！]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[需要密钥！]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Encryption Data sohwɛfo]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Ntrɛwmu ahorow]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[ Encryption Data Nnwinnade a Wɔde Di Dwuma ]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Gyinabea:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Nhyehyɛe a Wɔhyehyɛ:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Generate Key Pair no]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Encrypt Data a Wɔde Sie]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Kɔkɔbɔ: Wunni kwan sɛ wobɛsesa nneɛma a wɔde mena a egyina mu duru so!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Mfomso: Safoa din abien a wɔapaw no wɔ hɔ dedaw!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[
+ <b>Saa ntrɛwmu yi hwehwɛ sɛ wɔyɛ nhyehyɛe ne adwene a ɛkɔ akyiri</b><br/> 
+ <b>Sɛ wɔma ɛyɛ adwuma na wɔde data no sie wie a, undo BIARA nni hɔ na wontumi nsiw ntrɛwmu no ano!</b><br/> 
+ <br/> 
+<b>​</b><b>​</b> 
+ <br/> 
+ <br/>]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Kɔkɔbɔ: OpenSSL ma PHP nni hɔ anaasɛ ɛnnyɛ adwuma. Worentumi mfa encryption anaa saa ntrɛwmu yi nni dwuma! <br/> Hwɛ HELP ma ntrɛwmu yi na woanya nsɛm pii.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Kɔkɔbɔ: Wɔnnyɛ Data Encryption adwuma wɔ wo AbanteCart so. Worentumi mfa saa ntrɛwmu yi nkyerɛw/decrypt data! <br/> Hwɛ HELP ma ntrɛwmu yi na woanya nsɛm pii.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Generate Key Pair no]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Encrypt Data a Wɔde Sie]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Data field(s) a wɔhwehwɛ a ɛyera. Yɛsrɛ sɛ hwɛ gyinapɛn ahorow a wɔde ama no]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Unique key pair name: <br/><span class="help">Ɛnsɛ sɛ edin no kura spaces anaa nkyerɛwde soronko biara. Ɛma ɛyɛ tiawa na ɛnyɛ den.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Safoa tenten (bits): <br/><span class="help">Kyerɛ safoa encryption bit tenten. Dodow kɛse gyina hɔ ma encryption a emu yɛ den, nanso ebetumi ama adwumayɛ ayɛ brɛoo (Range 256 - 8192 ) .</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Ecncryption type: <br/><span class="help">Eyi yɛ encryption nhyehyɛe. Fa default RSA di dwuma sɛ wonyɛ advanced user a.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Enable password based key: <br/><span class="help">Sɛ enable a, ɛho behia sɛ wode passphrase foforo ka ho na wode private key adi dwuma de akyerɛkyerɛ nsɛm mu. HYƐ NSO. Mprempren wɔmfa eyi ntom wɔ data encryption mu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Passphrase anaa key password: <br/><span class="help">Kae sɛ mfaso biara nni passphrase anaa key(s) no so na ebia data bɛyera</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Wɔabɔ key pair. Hwɛ safe a ɛwɔ aseɛ ha na fa sie dwoodwoo.</b><br/><br/> %s <br/><br/> %s. Nkyem ]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Key pair awo ntoatoaso no dii nkogu. Hwɛ wo nhyehyɛe no na hwɛ mfomso ho kyerɛwtohɔ.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Key pair name: <br/><span class="help">Paw safoa a wode bedi dwuma de ayɛ encryption. NEA ƐHO HIA: Kae safoa a wode dii dwuma no</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Table(s) to encrypt: <br/><span class="help">Wɔde safoa a wɔapaw no bɛhyɛ table(s) a wɔakyerɛ no mu. Saa safoa yi nkutoo na wobetumi abue data</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Test Mode: <br/><span class="help">Di kan hwɛ sɛ ne nyinaa yɛ OK sɛ wɔde encrepted.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Yi source data: <br/><span class="help">Yi source un-encrepted data records bere a encryption no awie no</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Wɔayɛ data no encrypted. <br/> Hwɛ nsɛm no mu nsɛm:</b><br/><br/> %s <br/><br/><b>Sɛ wopɛ sɛ wɔde saa safoa yi di dwuma ma data encryption foforo a, fa line a edidi so yi ka fael system/config.php ho : define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;%s&#39;);</b> ]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Data encryption test result</b> Hwɛ mfomso log sɛ mfomso biara a ebetumi aba! <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Data encryption no antumi anyɛ yiye. Hwɛ wo nhyehyɛe no na hwɛ mfomso ho kyerɛwtohɔ.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Nsɛm a ɛho hia a wɔakyerɛw ato hɔ! Sɛ wɔwie encryption wie a, wɔbɛkyerɛw data akɔ mirror tables a data encrypted wɔ mu no so. 
+ <br/> Di akwankyerɛ akyi na fa nhyehyeɛ bɛka system/config.php ho ama AbanteCart adan akenkan/kyerɛw dwumadie akɔ encrypted tables so.</b><br/> Fa nkyerɛwde a edidi so yi ka nhyehyɛe fael no ho: define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;wo_safoa_din&#39;); <br/> Eyi bɛyɛ default key ama akenkan/kyerɛw dwumadi ahorow ]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Encryption a Wɔde Di Dwuma]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Data kyerɛwtohɔ ahorow a wɔmfa encrypted]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Fa &#39;Encrypt Data&#39; Tab di dwuma ma encryption a edi kan]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Data kyerɛwtohɔ ahorow a wɔabɔ no kokoam]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[Key ID no]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Edin Titiriw]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Encrypted Tables a Wɔde Di Dwuma]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Dannan (sesa) Encryption kɔ safoa foforo so]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[kyerɛwtohɔ (nsɛm) .]]></value>
+	</definition>
+</definitions>

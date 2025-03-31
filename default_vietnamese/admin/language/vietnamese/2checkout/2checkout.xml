@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Kiểm tra]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Sự chi trả]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Thành công: Bạn đã sửa đổi thông tin tài khoản 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[
+ Với tiện ích mở rộng này, bạn có thể sử dụng hệ thống thanh toán 2Checkout để chấp nhận thanh toán từ khách hàng của mình. <br/> 
+ <b>Đăng ký miễn phí ngay hôm nay! Sử dụng mã khuyến mại ABANTECART2CO để được miễn phí dịch vụ ứng dụng (tiết kiệm 10,99 đô la) và bắt đầu bán hàng trực tuyến ngay hôm nay!</b> Truy cập <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> , hoàn tất ứng dụng, sau đó nhập mã vào trường mã khuyến mại để tận dụng ưu đãi đặc biệt này ngay hôm nay! 
+ <br/> Sau khi đăng ký, hãy đăng nhập để lấy thông tin đăng nhập tài khoản để cấu hình tiện ích mở rộng này 
+ <br/> Đừng quên thiết lập URL INS và URL chuyển hướng tại đây <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>. 
+ <br/><br/> URL INS của bạn là<h4> #storefront#rt=phần mở rộng/2kiểm tra/gọi lại</h4> 
+ <br/><br/> Cũng thiết lập URL chuyển hướng và chọn phương thức trả về &quot;Chuyển hướng tiêu đề&quot;. 
+ <br/><br/> URL chuyển hướng của bạn là<h4> #storefront#rt=thanh toán/thành công</h4> 
+		 ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2Mã thanh toán của người bán:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[
+ Khóa bí mật: <br/><span class="help">Từ khóa bí mật để xác nhận giao dịch (phải giống với từ khóa được định nghĩa trên trang cấu hình tài khoản thương gia.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Chế độ kiểm tra:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Đúng]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[KHÔNG]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Trạng thái đơn hàng:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Vị trí:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Tất cả các địa điểm]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Cảnh báo: Bạn không có quyền sửa đổi phương thức thanh toán 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Cần có mã thương gia!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Cần có khóa bí mật!]]></value>
+	</definition>
+</definitions>

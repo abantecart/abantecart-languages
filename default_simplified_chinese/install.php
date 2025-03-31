@@ -1,45 +1,83 @@
 <?php
+/** @noinspection SqlNoDataSourceInspection */
 
-
-if (! defined ( 'DIR_CORE' )) {
- header ( 'Location: static_pages/' );
+if (!defined('DIR_CORE')) {
+    header('Location: static_pages/');
 }
-
-
-
-
 
 //before install validate it is unique
-$lng_code = "cn";
-$lng_name = "中文";
-$lng_directory = "chinese";
-$lng_locale = "zh,zh-hk,zh-cn,zh_CN.UTF-8,cn-gb,chinese";
-$lng_flag_path = "extensions/default_simplified_chinese/storefront/language/chinese/flag.png";
-$lng_sort = 2; // sorting order with other languages
-$lng_status = 0; // Status on installation of extension
+$extName = "default_simplified_chinese";
+$lngCode = "zh";
+$lngName = "中文";
+$lngDir = "chinese";
+$lngLocale = "zh,zh-hk,zh-cn,zh_CN.UTF-8,cn-gb,chinese";
+$lngFlagPath = "extensions/" . $extName . "/storefront/language/" . $lngDir . "/flag.png";
+$lngSortOrder = 2; // sorting order with other languages
+$lngStatus = 0; // Status on installation of extension
 
-$query = $this->db->query("SELECT language_id
-							FROM ".$this->db->table("languages")."
-							WHERE code='".$this->db->escape($lng_code)."'");
-if ($query->row["language_id"]) {
-	$this->session->data["error"] = "Error: Language with ".$lng_code." code is already installed! Can not install duplicate languages! Uninstall this extension before attempting again.";
-	$error = new AError ($this->session->data["error"]);
-	$error->toLog()->toDebug();
-	return false;
+
+$query = $this->db->query(
+    "SELECT language_id 
+    FROM " . $this->db->table('languages') . " 
+    WHERE code='" . $lngCode . "'"
+);
+
+if ($query->row['language_id']) {
+    $this->session->data['error'] = "Error: Language with " . $lngCode . " code is already installed! "
+        . "Can not install duplicate languages! Uninstall this extension before attempting again.";
+    $error = new AError ($this->session->data['error']);
+    $error->toLog()->toDebug();
+    return false;
 }
 
-$this->db->query("INSERT INTO ".$this->db->table("languages")."
-				(`name`,`code`,`locale`,`image`,`directory`,`filename`,`sort_order`, `status`)
-				VALUES (
-				'".$this->db->escape($lng_name)."',
-				'".$this->db->escape($lng_code)."',
-				'".$this->db->escape($lng_locale)."',
-				'".$this->db->escape($lng_flag_path)."',
-				'".$this->db->escape($lng_directory)."',
-				'".$lng_directory."',
-				".(int)$lng_sort.",
-				".(int)$lng_status.");");
-$new_language_id = $this->db->getLastId();
+$this->db->query(
+    "INSERT INTO " . $this->db->table('languages') . " 
+        (`name`,`code`,`locale`,`image`,`directory`,`filename`, `sort_order`, `status`)
+	 VALUES ('" . $lngName . "', '" . $lngCode . "', '" . $lngLocale . "', '" . $lngFlagPath . "','" . $lngDir . "',
+	 '" . $lngDir . "','" . $lngSortOrder . "'," . $lngStatus . ");");
+
+$newLanguageId = (int)$this->db->getLastId();
+
+$xml = simplexml_load_file(DIR_EXT . $extName . '/menu.xml');
+
+$routes = [
+    'text_index_home_menu'        => 'index/home',
+    'text_product_special_menu'   => 'product/special',
+    'text_account_login_menu'     => 'account/login',
+    'text_account_logout_menu'    => 'account/logout',
+    'text_account_account_menu'   => 'account/account',
+    'text_account_history_menu'   => 'account/history',
+    'text_checkout_cart_menu'     => 'checkout/cart',
+    'text_checkout_shipping_menu' => 'checkout/fast_checkout',
+];
+
+if ($xml) {
+    foreach ($xml->definition as $item) {
+        $translates[$routes[(string)$item->key]] = (string)$item->value;
+    }
+
+    $storefront_menu = new AMenu_Storefront();
+    $storefront_menu->addLanguage($newLanguageId, $translates);
+}
+
+$countryList = (array)include('countries_zones.php');
+foreach ($countryList['countries'] as $id => $name) {
+    $this->db->query(
+        "INSERT INTO " . $this->db->table('country_descriptions') . " 
+            (`country_id`, `language_id`, `name`)
+        VALUES 
+            (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
+    );
+}
+
+foreach ($countryList['zones'] as $id => $name) {
+    $this->db->query(
+        "INSERT INTO " . $this->db->table('zone_descriptions') . " 
+            (`zone_id`,`language_id`, `name`)
+        VALUES 
+            (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
+    );
+}
 
 //Load language specific data
 $xml = simplexml_load_file(DIR_EXT . 'default_simplified_chinese/menu.xml');
@@ -62,3 +100,4 @@ if($xml){
 	$storefront_menu = new AMenu_Storefront();
 	$storefront_menu->addLanguage($new_language_id,$translates);
 }
+include('translated_descriptions.php');

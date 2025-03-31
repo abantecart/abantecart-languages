@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[Щоб увімкнути sms-повідомлення, перейдіть до System -&gt; Settings -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
+ і виберіть TextMarketer як стандартний sms-драйвер. Не забудьте включити розділ, від якого ви хочете отримувати смс (адміністратор або вітрина). <br/> 
+ Це розширення дозволить надавати адміністраторам і клієнтам поле мобільного телефону. Пам’ятайте, що вимкнення цього розширення приховає це поле. 
+ У разі додавання до існуючого магазину з клієнтами майте на увазі, що ця інформація буде відсутня. 
+		]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[Ім&#39;я користувача API]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[Пароль API]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Автор: <span class="help">від кого надійшло повідомлення (ідентифікатор автора або відправника). Це може бути 11 буквено-цифрових символів або 16 лише цифр.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Тестовий режим]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[немає]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[так]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Статус реєстрації помилок <span class="help">Якщо ви хочете реєструвати всі помилки розширення TextMarketer, увімкніть цей параметр.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[ Мобільний телефон ]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Перевірте підключення. <span class="help">Ви можете перевірити, чи введені вами облікові дані API правильні.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[ Тест ]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Помилка! Будь ласка, перевірте, чи розширення ввімкнено.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Помилка! Будь ласка, вкажіть номер телефону одержувача.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Подробиці дивіться в журналі помилок.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Підключення успішне, облікові дані API налаштовано правильно.]]></value>
+	</definition>
+</definitions>

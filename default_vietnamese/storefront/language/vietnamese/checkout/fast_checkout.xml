@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Xe đẩy]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_basket</key>
+		<value><![CDATA[Chỉnh sửa giỏ hàng]]></value>
+	</definition>
+	<definition>
+		<key>text_accept_agree</key>
+		<value><![CDATA[
+ Bằng cách nhấp vào Xác nhận đơn hàng, bạn chấp nhận và đồng ý với tất cả các điều khoản của]]></value>
+	</definition>
+	<definition>
+		<key>text_cart_items</key>
+		<value><![CDATA[Các mặt hàng trong giỏ hàng của bạn]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Vận chuyển]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_shipping</key>
+		<value><![CDATA[Chỉnh sửa Vận chuyển]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Sự chi trả]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_payment</key>
+		<value><![CDATA[Chỉnh sửa thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Xác nhận]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_address</key>
+		<value><![CDATA[Địa chỉ giao hàng]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_method</key>
+		<value><![CDATA[Phương thức vận chuyển]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_address</key>
+		<value><![CDATA[Địa chỉ thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_method</key>
+		<value><![CDATA[Phương thức thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>text_change</key>
+		<value><![CDATA[Thay đổi]]></value>
+	</definition>
+	<definition>
+		<key>text_comment</key>
+		<value><![CDATA[Bình luận của bạn]]></value>
+	</definition>
+	<definition>
+		<key>text_discount</key>
+		<value><![CDATA[Phiếu giảm giá]]></value>
+	</definition>
+	<definition>
+		<key>column_product</key>
+		<value><![CDATA[Sản phẩm]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[Người mẫu]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[Số lượng]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[Giá]]></value>
+	</definition>
+	<definition>
+		<key>column_total</key>
+		<value><![CDATA[Tổng cộng]]></value>
+	</definition>
+	<definition>
+		<key>text_add_coupon</key>
+		<value><![CDATA[Chỉnh sửa phiếu giảm giá]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_name</key>
+		<value><![CDATA[Thanh toán nhanh]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_fast_checkout_title</key>
+		<value><![CDATA[Thanh toán nhanh]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Thanh toán nhanh]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_buy_now</key>
+		<value><![CDATA[Mua ngay]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_incorrect_request</key>
+		<value><![CDATA[Ồ! Yêu cầu không đúng.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_handler</key>
+		<value><![CDATA[Không tìm thấy trình xử lý thanh toán! Vui lòng kiểm tra tệp %s hoặc %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_handler</key>
+		<value><![CDATA[Không có bộ xử lý thanh toán nào khả dụng.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unknown_payment</key>
+		<value><![CDATA[Thanh toán không xác định!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unexpected</key>
+		<value><![CDATA[Đã xảy ra lỗi không mong muốn! Vui lòng thử lại.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unexpected_log</key>
+		<value><![CDATA[Đã xảy ra lỗi không mong muốn. Không thể xây dựng dữ liệu thứ tự dựa trên mảng: %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_handler_object</key>
+		<value><![CDATA[Không thể xác nhận đơn hàng. Trình xử lý thanh toán không phải là đối tượng.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_system_issue</key>
+		<value><![CDATA[Ồ! Có vấn đề về hệ thống. Liên hệ với quản trị viên trang web.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_payment</key>
+		<value><![CDATA[Không có phương thức thanh toán nào khả dụng.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_product_option</key>
+		<value><![CDATA[Lỗi tùy chọn sản phẩm. %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_address</key>
+		<value><![CDATA[Không tìm thấy địa chỉ nào trong tài khoản của bạn! Vui lòng thêm địa chỉ vào tài khoản của bạn.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_low_balance</key>
+		<value><![CDATA[Số dư tài khoản của bạn không đủ để thực hiện đơn hàng này!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_balance_pay</key>
+		<value><![CDATA[Có sự cố khi xử lý thanh toán tín dụng tài khoản! Vui lòng thử lại.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_payment_address</key>
+		<value><![CDATA[Địa chỉ thanh toán bị thiếu hoặc không được chọn.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_payment_unavailable</key>
+		<value><![CDATA[Không thể thanh toán tại nơi bạn ở.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_shipping_address</key>
+		<value><![CDATA[Địa chỉ giao hàng bị thiếu hoặc không được chọn.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_shipping_method</key>
+		<value><![CDATA[Phương thức giao hàng chưa được chọn.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_phone</key>
+		<value><![CDATA[Không cung cấp số điện thoại liên lạc của bạn.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_owner</key>
+		<value><![CDATA[Tên của bạn chưa được cung cấp.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_email</key>
+		<value><![CDATA[Email của bạn không được cung cấp hoặc không hợp lệ.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_card_number</key>
+		<value><![CDATA[Không cung cấp số thẻ tín dụng.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_cvv</key>
+		<value><![CDATA[Không cung cấp số CVV.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_expire</key>
+		<value><![CDATA[Ngày hết hạn của thẻ tín dụng không được cung cấp hoặc không hợp lệ.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_balance_apply</key>
+		<value><![CDATA[Ngày hết hạn của thẻ tín dụng không được cung cấp hoặc không hợp lệ.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_account_created</key>
+		<value><![CDATA[Tài khoản đã được tạo và hướng dẫn đăng nhập đã được gửi tới email của bạn.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_mail_login_password</key>
+		<value><![CDATA[Tên đăng nhập của bạn: %s <br/> Mật khẩu của bạn: %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_success_message</key>
+		<value><![CDATA[Thành công! Đơn hàng của bạn đã được tạo thành công!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_processing_message</key>
+		<value><![CDATA[Thành công! Đang xử lý đơn hàng!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_payment_address</key>
+		<value><![CDATA[Địa chỉ thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_shipping_address</key>
+		<value><![CDATA[Địa chỉ giao hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_shipping_method</key>
+		<value><![CDATA[Chọn phương thức giao hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay_with</key>
+		<value><![CDATA[Thanh toán bằng:]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_credit_card</key>
+		<value><![CDATA[Thẻ tín dụng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_account_credit</key>
+		<value><![CDATA[Tài khoản tín dụng (%s)]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay</key>
+		<value><![CDATA[Chi trả]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_enter_cc_details</key>
+		<value><![CDATA[Nhập thông tin thẻ tín dụng bên dưới]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_your_balance</key>
+		<value><![CDATA[Số dư tín dụng tài khoản của bạn là]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay_from_balance</key>
+		<value><![CDATA[Thanh toán %s bằng thẻ tín dụng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_telephone_placeholder</key>
+		<value><![CDATA[Số điện thoại liên lạc Ví dụ: +1.212.555.5555]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_same_as_shipping_address</key>
+		<value><![CDATA[Tương tự cho việc giao hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_enter_address</key>
+		<value><![CDATA[Tiếp tục]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_card_number</key>
+		<value><![CDATA[Số thẻ]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_bill_me_monthly</key>
+		<value><![CDATA[Thanh toán cho tôi hàng tháng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_create_account</key>
+		<value><![CDATA[Tạo tài khoản]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_please_login</key>
+		<value><![CDATA[Vui lòng đăng nhập với thông tin chi tiết bên dưới]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_login</key>
+		<value><![CDATA[ĐĂNG NHẬP]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_reset_login</key>
+		<value><![CDATA[Đăng ký / Đặt lại đăng nhập]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_login</key>
+		<value><![CDATA[Đăng nhập]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_logout</key>
+		<value><![CDATA[Đăng xuất]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_address</key>
+		<value><![CDATA[Địa chỉ]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_new_customer</key>
+		<value><![CDATA[Tôi là khách hàng mới]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_loading</key>
+		<value><![CDATA[Đang tải...]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_is_completed</key>
+		<value><![CDATA[Đơn hàng đã hoàn tất!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_thank_you</key>
+		<value><![CDATA[Cảm ơn bạn đã đặt hàng!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_start_download</key>
+		<value><![CDATA[Bắt đầu tải xuống]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_downloads</key>
+		<value><![CDATA[Đặt hàng Tải xuống]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_order_details</key>
+		<value><![CDATA[Chi tiết đơn hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_delivery</key>
+		<value><![CDATA[Vui lòng chọn các tùy chọn giao hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_payment</key>
+		<value><![CDATA[Vui lòng chọn phương thức thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_download_pending</key>
+		<value><![CDATA[Hiện tại chưa thể tải xuống sản phẩm trong đơn hàng của bạn. Vui lòng đợi xác minh đơn hàng!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_info_duplicate_order</key>
+		<value><![CDATA[Có vẻ như bạn vừa đặt một đơn hàng khác. <a href="%s">Xem chi tiết đơn hàng</a>]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_start_download</key>
+		<value><![CDATA[Bạn có thể truy cập vào mục tải xuống của mình bằng liên kết bên dưới.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_order_downloads</key>
+		<value><![CDATA[Bạn có thể truy cập để tải xuống đơn hàng theo liên kết bên dưới.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_download_subject</key>
+		<value><![CDATA[Tải xuống đơn hàng của bạn.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_apply</key>
+		<value><![CDATA[Áp dụng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_remove</key>
+		<value><![CDATA[Di dời]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_coupon_code</key>
+		<value><![CDATA[Nhập mã giảm giá]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_comment</key>
+		<value><![CDATA[Thêm bình luận đơn hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_coupon</key>
+		<value><![CDATA[Phiếu giảm giá không hợp lệ hoặc đã hết hạn!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_back_to_cart</key>
+		<value><![CDATA[Quay lại giỏ hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_summary</key>
+		<value><![CDATA[Tóm tắt đơn hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_no_shipments_available</key>
+		<value><![CDATA[Không có lô hàng nào khả dụng.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_telephone_placeholder</key>
+		<value><![CDATA[Số điện thoại của bạn]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_placeholder</key>
+		<value><![CDATA[Email của bạn]]></value>
+	</definition>
+	<definition>
+		<key>button_history</key>
+		<value><![CDATA[Lịch sử]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Mã bưu chính không đúng]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Xe đẩy]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_comment_placeholder</key>
+		<value><![CDATA[Thêm bình luận đơn hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_not_enough_stock</key>
+		<value><![CDATA[Không đủ hàng]]></value>
+	</definition>
+	<definition>
+		<key>order_confirm</key>
+		<value><![CDATA[Xác nhận đơn hàng]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_login_or_email</key>
+		<value><![CDATA[Tên đăng nhập hoặc Địa chỉ Email]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_password</key>
+		<value><![CDATA[Mật khẩu]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_authenticating</key>
+		<value><![CDATA[Đang xác thực ... ]]></value>
+	</definition>
+	<definition>
+		<key>text_message_account</key>
+		<value><![CDATA[
+<p> Đơn hàng số #%s của bạn đã được tạo!</p> 
+<p> Bạn có thể xem chi tiết đơn hàng của mình bằng cách vào <a href="%s">trang hóa đơn</a> .</p> 
+<p> Vui lòng gửi bất kỳ câu hỏi nào bạn có cho <a href="%s">chủ cửa hàng</a> .</p> 
+<p> Cảm ơn bạn đã mua sắm cùng chúng tôi!</p>]]></value>
+	</definition>
+	<definition>
+		<key>text_message_guest</key>
+		<value><![CDATA[
+<p> Đơn hàng của bạn đã được xử lý thành công!</p> 
+<p> Bạn có thể xem chi tiết đơn hàng của mình bằng cách vào <a href="%s">trang hóa đơn</a> .</p> 
+<p> Vui lòng gửi bất kỳ câu hỏi nào bạn có cho <a href="%s">chủ cửa hàng</a> .</p> 
+<p> Cảm ơn bạn đã mua sắm cùng chúng tôi!</p>]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Xe đẩy]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Vận chuyển]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Sự chi trả]]></value>
+	</definition>
+	<definition>
+		<key>text_guest</key>
+		<value><![CDATA[Khách hàng thanh toán]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Xác nhận]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Thành công]]></value>
+	</definition>
+	<definition>
+		<key>text_message_failed_order</key>
+		<value><![CDATA[Ồ! Chúng tôi đã gặp một số vấn đề với giao dịch của bạn. Đơn hàng của bạn sẽ được quản trị viên xác minh thủ công.]]></value>
+	</definition>
+	<definition>
+		<key>text_title_failed_order_to_admin</key>
+		<value><![CDATA[Đơn hàng không thành công #%s]]></value>
+	</definition>
+	<definition>
+		<key>text_message_failed_order_to_admin</key>
+		<value><![CDATA[Phản hồi xác minh thanh toán không thành công hoặc bị thiếu. Cần phải xác minh thủ công!]]></value>
+	</definition>
+</definitions>

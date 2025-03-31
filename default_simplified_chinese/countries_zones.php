@@ -1,0 +1,4 @@
+<?php
+//translated
+ return array (
+);

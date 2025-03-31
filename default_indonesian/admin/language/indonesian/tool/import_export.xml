@@ -1,127 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions>
-  <definition>
-    <key>import_export_title</key>
-    <value><![CDATA[Ekspor Impor]]></value>
-  </definition>
-  <definition>
-    <key>tab_import</key>
-    <value><![CDATA[Impor]]></value>
-  </definition>
-  <definition>
-    <key>tab_export</key>
-    <value><![CDATA[Ekspor]]></value>
-  </definition>
-  <definition>
-    <key>text_tables</key>
-    <value><![CDATA[tabel]]></value>
-  </definition>
-  <definition>
-    <key>text_options</key>
-    <value><![CDATA[Pilihan]]></value>
-  </definition>
-  <definition>
-    <key>text_file_format</key>
-    <value><![CDATA[File Format:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_name</key>
-    <value><![CDATA[Nama file:]]></value>
-  </definition>
-  <definition>
-    <key>text_load_file</key>
-    <value><![CDATA[load file]]></value>
-  </definition>
-  <definition>
-    <key>text_load</key>
-    <value><![CDATA[Beban]]></value>
-  </definition>
-  <definition>
-    <key>text_import_loaded</key>
-    <value><![CDATA[Total dimuat:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_field</key>
-    <value><![CDATA[File untuk impor: <br/><span class="help">format untuk file impor: XML, CSV, TXT</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_id_range_from</key>
-    <value><![CDATA[ID berkisar dari:]]></value>
-  </definition>
-  <definition>
-    <key>text_to</key>
-    <value><![CDATA[untuk:]]></value>
-  </definition>
-  <definition>
-    <key>text_csv_delimiter</key>
-    <value><![CDATA[CSV / TXT pembatas:]]></value>
-  </definition>
-  <definition>
-    <key>text_export_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Semua bidang akan tertutup dalam tanda kutip ganda.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_import_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Semua bidang harus diapit tanda kutip ganda.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_test_mode</key>
-    <value><![CDATA[Berjalan dalam mode uji <br/><span class="help">Dianjurkan untuk menjalankan data impor dalam mode tes pertama untuk melihat apakah masalah yang hadir.</span>]]></value>
-  </definition>
-  <definition>
-    <key>error_file_format</key>
-    <value><![CDATA[format file yang salah!]]></value>
-  </definition>
-  <definition>
-    <key>error_xml_import</key>
-    <value><![CDATA[Kesalahan selama file XML impor!]]></value>
-  </definition>
-  <definition>
-    <key>error_csv_import</key>
-    <value><![CDATA[Kesalahan selama impor mengajukan CSV / TXT! Silakan periksa bidang pembatas.]]></value>
-  </definition>
-  <definition>
-    <key>error_data_corrupted</key>
-    <value><![CDATA[Data kosong atau rusak.]]></value>
-  </definition>
-  <definition>
-    <key>error_file_empty</key>
-    <value><![CDATA[File kosong.]]></value>
-  </definition>
-  <definition>
-    <key>error_writable_backup</key>
-    <value><![CDATA[direktori backup harus dapat ditulis untuk CSV / TXT ekspor untuk bekerja.]]></value>
-  </definition>
-  <definition>
-    <key>text_updated</key>
-    <value><![CDATA[Diperbarui:]]></value>
-  </definition>
-  <definition>
-    <key>text_created</key>
-    <value><![CDATA[dibuat:]]></value>
-  </definition>
-  <definition>
-    <key>text_errors</key>
-    <value><![CDATA[kesalahan:]]></value>
-  </definition>
-  <definition>
-    <key>text_show_details</key>
-    <value><![CDATA[Tampilkan rincian]]></value>
-  </definition>
-  <definition>
-    <key>text_no_children</key>
-    <value><![CDATA[Tidak ada item anak]]></value>
-  </definition>
-  <definition>
-    <key>text_some_errors</key>
-    <value><![CDATA[Ada beberapa kesalahan.]]></value>
-  </definition>
-  <definition>
-    <key>text_test_completed</key>
-    <value><![CDATA[Uji coba selesai. Total query SQL:]]></value>
-  </definition>
-  <definition>
-    <key>text_sort_by</key>
-    <value><![CDATA[Sortir dengan:]]></value>
-  </definition>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Ekspor Impor]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[Impor]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[Ekspor]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[tabel]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[Pilihan]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[File Format:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Nama file:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[load file]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[Beban]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Total dimuat:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[File untuk impor: <br/><span class="help">format untuk file impor: XML, CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[ID berkisar dari:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[untuk:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV / TXT pembatas:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Semua bidang akan tertutup dalam tanda kutip ganda.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Semua bidang harus diapit tanda kutip ganda.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Berjalan dalam mode uji <br/><span class="help">Dianjurkan untuk menjalankan data impor dalam mode tes pertama untuk melihat apakah masalah yang hadir.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[format file yang salah!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Kesalahan selama file XML impor!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Kesalahan selama impor mengajukan CSV / TXT! Silakan periksa bidang pembatas.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Data kosong atau rusak.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[File kosong.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[direktori backup harus dapat ditulis untuk CSV / TXT ekspor untuk bekerja.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Diperbarui:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[dibuat:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[kesalahan:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Tampilkan rincian]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Tidak ada item anak]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Ada beberapa kesalahan.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Uji coba selesai. Total query SQL:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Sortir dengan:]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Panduan Impor Data]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Panduan Impor]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Anda dapat mengunggah file CSV atau Teks untuk mengimpor data. Untuk struktur data, Anda dapat mengikuti format kepemilikan (lihat ekspor) atau format bebas. <br/> Untuk data dengan format bebas, Anda perlu memetakan elemen data secara manual atau menggunakan peta JSON. <br/> Hanya produk, kategori, dan merek/produsen yang didukung untuk impor format bebas. <br/> Kolom tindakan dapat disertakan untuk menginstruksikan impor untuk &#39;menyisipkan&#39;, &#39;memperbarui&#39;, atau &#39;menghapus&#39;. Tindakan default adalah update_or_insert. ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Pilih tabel tujuan dan bidang basis data yang sesuai untuk setiap kolom data impor yang disediakan. Jika tidak ada bidang yang dipilih, data kolom input akan diabaikan. <br/><b>Catatan:</b> Nilai data khusus bahasa dan penyimpanan akan ditetapkan ke penyimpanan konten saat ini &amp; bahasa yang dipilih]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Akan ada %s catatan yang dimuat dan diproses dalam impor ini!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Menjalankan Proses Impor]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Kolom File Impor]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Contoh Data Impor]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Pilih tabel tujuan]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Perbarui jika ada]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Memisahkan data berdasarkan]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Pilih, salin, dan simpan pemetaan ini untuk penggunaan di masa mendatang.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Pemetaan ekspor]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Posting ke bidang di bawah data pemetaan yang telah disimpan sebelumnya]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Pemetaan beban]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Tidak ada tabel atau bidang tujuan impor yang dipilih!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Tidak ada bidang data yang diperlukan &#39;%s&#39; untuk tabel tujuan!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Direktori Sementara %s tidak dapat ditulis! Harap ubah izin untuk melanjutkan.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Permintaan kosong.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Proses Impor telah selesai. %s baris diproses.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s baris dengan kesalahan.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Untuk detail lebih lanjut lihat <a href="%s" target="_new">file log %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Tugas berhasil dihentikan.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Jadwal Impor]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Berhasil: Anda telah berhasil membuat tugas impor terjadwal! <a href="%s">Lihat detailnya</a>]]></value>
+	</definition>
 </definitions>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Manajer Data Enkripsi]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Ekstensi]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[ Alat Enkripsi Data ]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Urutan Jenis:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Hasilkan Pasangan Kunci]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Enkripsi Data]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Peringatan: Anda tidak memiliki izin untuk mengubah pengiriman berdasarkan berat!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Kesalahan: Pasangan nama kunci yang dipilih sudah ada!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[
+ <b>Ekstensi ini memerlukan konfigurasi dan perhatian LANJUTAN</b><br/> 
+ <b>Setelah diaktifkan dan data dienkripsi, TIDAK ADA pembatalan dan ekstensi tidak dapat dinonaktifkan!</b><br/> 
+ Ekstensi ini membantu mengelola pembuatan kunci enkripsi dan migrasi data dari tabel terbuka ke tabel terenkripsi (migrasi awal) <br/> 
+ <b>HARAP DIPERHATIKAN:</b> Anda perlu mengaktifkan PHP dengan <b>Enkripsi</b> SSL 
+ <br/> 
+ <br/> Untuk mengaktifkan enkripsi data, baca petunjuk bantuan (tombol CARA)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Peringatan: OpenSSL untuk PHP tidak tersedia atau tidak diaktifkan. Anda tidak dapat menggunakan enkripsi atau ekstensi ini! <br/> Periksa BANTUAN untuk ekstensi ini untuk keterangan lebih lanjut.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Peringatan: Enkripsi Data tidak diaktifkan pada AbanteCart Anda. Anda tidak dapat mengenkripsi/mendekripsi data menggunakan ekstensi ini! <br/> Periksa BANTUAN untuk ekstensi ini untuk keterangan lebih lanjut.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Hasilkan Pasangan Kunci]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Enkripsi Data]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Bidang data yang diperlukan tidak ada. Harap periksa nilai yang diberikan]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Nama pasangan kunci unik: <br/><span class="help">Nama tidak boleh mengandung spasi atau karakter khusus. Tetap singkat dan sederhana.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Panjang kunci (bit): <br/><span class="help">Tentukan panjang bit enkripsi kunci. Angka yang lebih besar menunjukkan enkripsi yang lebih kuat, tetapi dapat memperlambat kinerja (Rentang 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Jenis enkripsi: <br/><span class="help">Ini adalah algoritma enkripsi. Gunakan RSA default jika Anda bukan pengguna tingkat lanjut.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Aktifkan kunci berbasis kata sandi: <br/><span class="help">Jika diaktifkan, frasa sandi tambahan akan diperlukan untuk mendekripsi teks dengan menggunakan kunci pribadi. CATATAN. Saat ini, hal ini tidak didukung dalam enkripsi data.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Frase sandi atau kata sandi utama: <br/><span class="help">Ingat frase sandi atau kunci tidak akan berguna dan data mungkin hilang</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Pasangan kunci telah dibuat. Lihat kunci di bawah dan simpan dengan aman.</b><br/><br/> %s <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Pembuatan pasangan kunci gagal. Periksa pengaturan Anda dan periksa log kesalahan.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Nama pasangan kunci: <br/><span class="help">Pilih kunci yang akan digunakan untuk enkripsi. PENTING: Ingat kunci yang Anda gunakan</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabel yang akan dienkripsi: <br/><span class="help">Tabel yang ditampilkan akan dienkripsi dengan kunci yang dipilih. Data hanya dapat dibuka dengan kunci ini</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Mode Uji: <br/><span class="help">Periksa terlebih dahulu apakah semuanya OK untuk dienkripsi.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Hapus data sumber: <br/><span class="help">Hapus catatan data sumber yang tidak dienkripsi setelah enkripsi selesai</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Data telah dienkripsi. <br/> Lihat detailnya:</b><br/><br/> %s <br/><br/><b>Jika Anda ingin kunci ini digunakan untuk enkripsi data baru, tambahkan baris berikut ke file system/config.php : define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;%s&#39;);</b> ]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Hasil uji enkripsi data</b> Periksa log kesalahan untuk kemungkinan kesalahan! <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Enkripsi data gagal. Periksa pengaturan Anda dan periksa log kesalahan.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Catatan penting! Setelah enkripsi selesai, data akan disalin ke tabel mirror dengan data terenkripsi di dalamnya. 
+ <br/> Ikuti petunjuk untuk menambahkan konfigurasi ke system/config.php agar AbanteCart dapat mengalihkan operasi baca/tulis ke tabel terenkripsi.</b><br/> Tambahkan baris berikut ke berkas konfigurasi: define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;your_key_name&#39;); <br/> Ini akan menjadi kunci default untuk operasi baca/tulis ]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Penggunaan Enkripsi]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Catatan data tidak terenkripsi]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Gunakan Tab &#39;Enkripsi Data&#39; untuk enkripsi awal]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Catatan data terenkripsi]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[ID Kunci]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Nama Kunci]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Penggunaan Tabel Terenkripsi]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Putar (ubah) Enkripsi ke kunci baru]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[catatan]]></value>
+	</definition>
+</definitions>

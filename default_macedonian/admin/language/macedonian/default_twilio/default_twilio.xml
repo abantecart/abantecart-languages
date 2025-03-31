@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_twilio_name</key>
+		<value><![CDATA[Твилио]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_note</key>
+		<value><![CDATA[За да овозможите испраќање смс-пораки, одете до Систем -&gt; Поставки -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
+ и изберете Twilio како стандарден двигател за смс. Не заборавајте да го вклучите делот од каде сакате да примате смс (администратор или излог). <br/> 
+ Оваа екстензија ќе овозможи полето за мобилен телефон да го обезбедат администраторите и клиентите. Запомнете дека оневозможувањето на оваа екстензија ќе го скрие ова поле. 
+ Ако се додаде во постоечката продавница со клиенти, имајте на ум дека овие информации ќе недостасуваат. 
+		]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_username</key>
+		<value><![CDATA[API AccountSID]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_token</key>
+		<value><![CDATA[API AuthToken]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test</key>
+		<value><![CDATA[Тест режим]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[
+ Испраќач (Twilio) Телефон: <span class="help">Телефонски број на испраќачот во меѓународен формат (пр. +14158675309)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_send_to</key>
+		<value><![CDATA[
+ Испратете тест SMS на: ]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_0</key>
+		<value><![CDATA[бр]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_1</key>
+		<value><![CDATA[Да]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_connection</key>
+		<value><![CDATA[Тестирајте ја вашата врска: <span class="help">можете да тестирате дали акредитациите за API што сте ги внесле се точни.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_logging</key>
+		<value><![CDATA[Статус на евиденција на грешки <span class="help">Ако сакате да ги евидентирате сите грешки на екстензијата Twilio, вклучете ја оваа поставка.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[ Мобилен телефон ]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[ Тест ]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Грешка! Проверете дали екстензијата е вклучена.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Поврзувањето е успешно и акредитивите на API се правилно конфигурирани.]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[
+ Испраќач (Twilio) Телефон: <span class="help">Телефонски број на испраќачот во меѓународен формат (пр. +14158675309)</span>]]></value>
+	</definition>
+</definitions>

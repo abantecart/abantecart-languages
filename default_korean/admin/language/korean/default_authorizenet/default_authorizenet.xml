@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Authorize.Net 결제]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[Authorize.Net 결제 설정을 완료하려면 추가 설정이 필요합니다. 추가 설정 탭을 참조하세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[지불]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[성공: Authorize.Net 결제 설정을 수정했습니다!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[위치:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[모든 위치]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[API 로그인 ID:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[테스트 모드:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[거래 키:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[공개 키:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[
+ 자동 선택: <br/><span class="help">결제 옵션이 하나뿐인 경우 결제 선택 페이지를 건너뛰도록 설정할 수 있습니다. 이 결제 방법은 자동으로 선택됩니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[
+ 신용 카드 저장 가능: <br/><span class="help">고객이 저장할 수 있는 최대 신용 카드 수를 설정합니다(최대 100개). 0 또는 공백으로 설정하면 카드 저장이 허용되지 않습니다. 보안 참고: 고객 신용 카드 세부 정보는 최대한의 데이터 보안 조치를 보장하기 위해 authorizenet 보안 서버에 저장됩니다. 귀하의 사이트에는 신용 카드 세부 정보가 저장되지 않습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[결제 세부 정보를 설정하려면 authorizenet에 연결해야 합니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Authorize.Net 설정]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Authorize.Net에 연결하세요	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Authorize.Net 연결 해제]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[연결할 수 없나요?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Authorize.Net에 성공적으로 연결되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Authorize.Net에서 연결이 성공적으로 끊어졌습니다.]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[정렬 순서]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[테스트 모드:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[라이브 비밀 키: <br/><span class="help">Authorize.Net API 키 섹션에서 찾으세요. 키는 sk_live_...로 시작합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[Live Publishable Key: <br/><span class="help">Authorize.Net API Keys 섹션에서 찾으세요. 키는 pk_live_...로 시작합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[테스트 비밀 키: <br/><span class="help">Authorize.Net API 키 섹션에서 이것을 찾으세요. 키는 sk_test_...로 시작합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[테스트 게시 가능 키: <br/><span class="help">Authorize.Net API 키 섹션에서 이것을 찾으세요. 키는 pk_test_...로 시작합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[결제 유형:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[권한 부여만]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[승인 및 캡처 ]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[성공 및 정착: <br/><span class="help">결제 프로세서 상태에 대한 응답으로 설정하려는 주요 주문 상태를 선택합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[성공 및 미결제: <br/><span class="help">결제 프로세서 상태에 대한 응답으로 설정하려는 주 주문 상태를 선택합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[거래일자]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[양]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[자동(권한 부여 및 캡처)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[지연됨(승인만 가능)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[결제 세부 정보]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Authorize.Net 거래 ID]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[거래 상태]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[총 승인 금액]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[잔액금액]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[내부 오류입니다. 오류 로그나 입력 매개변수를 확인하세요!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[양수를 입력해주세요]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[Authorize.Net 테스트 키가 필요합니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[Authorize.Net 라이브 키가 필요합니다]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[경고: Authorize.Net Payment를 수정할 수 있는 권한이 없습니다!]]></value>
+	</definition>
+</definitions>

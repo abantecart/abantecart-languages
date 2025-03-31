@@ -1,30 +1,26 @@
 <?php
 
-
 if (! defined ( 'DIR_CORE' )) {
  header ( 'Location: static_pages/' );
 }
 
-
-
-
-		
-$language_code = "ga";
-$language_directory = "irish";
+$lngCode = "ga";
+$lngDir = "irish";
 
 $query = $this->db->query(
-	"SELECT language_id FROM ".$this->db->table("languages")." 
-	WHERE code='".$language_code."' AND directory='".$language_directory."'");
+    "SELECT language_id 
+    FROM " . $this->db->table("languages") . " 
+	WHERE code='" . $lngCode . "' AND directory='" . $lngDir . "'");
 $language_id = $query->row["language_id"];
 //delete menu
 $storefront_menu = new AMenu_Storefront();
 $storefront_menu->deleteLanguage($language_id);
 
 //delete all other language related tables
-$lm = new ALanguageManager($this->registry, $language_code);
+$lm = new ALanguageManager($this->registry, $lngCode);
 $lm->deleteAllLanguageEntries($language_id);
 
 //delete language
-$this->db->query("DELETE FROM ".$this->db->table("languages")." WHERE `code`='".$language_code."'");
+$this->db->query("DELETE FROM " . $this->db->table("languages") . " WHERE `code`='" . $lngCode . "'");
 
 $this->cache->remove("localization");

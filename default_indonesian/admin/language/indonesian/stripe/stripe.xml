@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>stripe_name</key>
+		<value><![CDATA[Pembayaran Stripe]]></value>
+	</definition>
+	<definition>
+		<key>stripe_note</key>
+		<value><![CDATA[Pengaturan tambahan diperlukan untuk menyelesaikan pengaturan pembayaran Stripe. Lihat tab pengaturan tambahan.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Pembayaran]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Berhasil: Anda telah mengubah pengaturan pembayaran Stripe!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id</key>
+		<value><![CDATA[Lokasi:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id_0</key>
+		<value><![CDATA[Semua Lokasi]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_published_key</key>
+		<value><![CDATA[Kunci yang Diterbitkan:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_autoselect</key>
+		<value><![CDATA[Pemilihan Otomatis: <br/><span class="help">Anda dapat mengatur untuk melewati halaman pemilihan pembayaran jika hanya ada satu pilihan pembayaran. Metode pembayaran ini akan dipilih secara otomatis</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list</key>
+		<value><![CDATA[Metode pembayaran yang diizinkan. <br/><span class="help">Kosongkan untuk pemilihan otomatis</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_card</key>
+		<value><![CDATA[Kartu]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_klarna</key>
+		<value><![CDATA[Klarna]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_acss_debit</key>
+		<value><![CDATA[ACSS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_afterpay_clearpay</key>
+		<value><![CDATA[Pembayaran setelahnya/Pembayaran yang jelas]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_alipay</key>
+		<value><![CDATA[Layanan pembayaran Alipay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_au_becs_debit</key>
+		<value><![CDATA[Debit Langsung BECS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bacs_debit</key>
+		<value><![CDATA[Debit Langsung Bacs]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_affirm</key>
+		<value><![CDATA[Menegaskan]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bancontact</key>
+		<value><![CDATA[Kontak Ban]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_blik</key>
+		<value><![CDATA[Berkedip]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_boleto</key>
+		<value><![CDATA[Bahasa Inggris]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_interac_present</key>
+		<value><![CDATA[Interaksi]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_pix</key>
+		<value><![CDATA[Gambar]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_revolut_pay</key>
+		<value><![CDATA[Revolusi Pembayaran]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_swish</key>
+		<value><![CDATA[Desir]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_mobilepay</key>
+		<value><![CDATA[Pembayaran Seluler]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_zip</key>
+		<value><![CDATA[Ritsleting]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_eps</key>
+		<value><![CDATA[Bahasa Inggris: EPS (Eng. EPS)]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_fpx</key>
+		<value><![CDATA[FPX]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_giropay</key>
+		<value><![CDATA[pembayaran cicilan]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_grabpay</key>
+		<value><![CDATA[GrabPay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_ideal</key>
+		<value><![CDATA[ideal]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_konbini</key>
+		<value><![CDATA[Konbini]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_link</key>
+		<value><![CDATA[Link]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_oxxo</key>
+		<value><![CDATA[OXXO]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sofort</key>
+		<value><![CDATA[segera]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_p24</key>
+		<value><![CDATA[Przelewy24]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_paynow</key>
+		<value><![CDATA[Bayar Sekarang]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_promptpay</key>
+		<value><![CDATA[Pembayaran Cepat]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sepa_debit</key>
+		<value><![CDATA[Debit Langsung SEPA]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_us_bank_account</key>
+		<value><![CDATA[Debit Langsung ACH]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_wechat_pay</key>
+		<value><![CDATA[Pembayaran WeChat]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_twint</key>
+		<value><![CDATA[KEMBAR]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_connect</key>
+		<value><![CDATA[Anda perlu terhubung dengan stripe untuk mengatur detail pembayaran]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_settings</key>
+		<value><![CDATA[Pengaturan garis]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Terhubung dengan Stripe	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Putuskan Sambungan Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Tidak dapat terhubung?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Berhasil terhubung ke Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Berhasil terputus dari Stripe]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sort_order</key>
+		<value><![CDATA[Urutan Jenis]]></value>
+	</definition>
+	<definition>
+		<key>stripe_test_mode</key>
+		<value><![CDATA[Mode uji: <br/><span class="help">Atur ke AKTIF jika Anda ingin menggunakan tombol uji</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_live</key>
+		<value><![CDATA[Live Secret Key: <br/><span class="help">Temukan ini di Bagian Kunci API Stripe. Kunci dimulai dengan sk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_live</key>
+		<value><![CDATA[Live Publishable Key: <br/><span class="help">Temukan ini di Bagian Kunci API Stripe. Kunci dimulai dengan pk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_test</key>
+		<value><![CDATA[Kunci Rahasia Uji: <br/><span class="help">Temukan ini di Bagian Kunci API Stripe. Kunci dimulai dengan sk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_test</key>
+		<value><![CDATA[Uji Kunci yang Dapat Diterbitkan: <br/><span class="help">Temukan ini di Bagian Kunci API Stripe. Kunci dimulai dengan pk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement</key>
+		<value><![CDATA[Jenis penyelesaian: <br/><span class="help">Jika diatur ke &#39;otomatis&#39;, maka transaksi akan dimasukkan dalam penyelesaian hari ini. Jika diatur ke &#39;tertunda&#39;, maka transaksi akan diotorisasi tetapi tidak diselesaikan (ditangkap). Anda harus menangkap transaksi secara manual dalam waktu 7 hari sejak otorisasi</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_settled</key>
+		<value><![CDATA[Sukses &amp; diselesaikan: <br/><span class="help">Pilih status pesanan utama yang ingin Anda tetapkan sebagai respons terhadap status pemroses pembayaran</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_unsettled</key>
+		<value><![CDATA[Berhasil &amp; belum diselesaikan: <br/><span class="help">Pilih status pesanan utama yang ingin Anda tetapkan sebagai respons terhadap status pemroses pembayaran</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_decline</key>
+		<value><![CDATA[Tolak: <br/><span class="help">Status pesanan yang ingin Anda catat dalam riwayat sebagai respons terhadap status pemroses pembayaran. Status pesanan utama tidak terpengaruh. Pesanan tidak akan dilakukan hanya setelah pembayaran berhasil.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_void</key>
+		<value><![CDATA[Batal: <br/><span class="help">Status pesanan yang ingin Anda tetapkan jika pembayaran dibatalkan di admin/pesanan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_refund</key>
+		<value><![CDATA[Dikembalikan: <br/><span class="help">Status pesanan yang ingin Anda atur jika pembayaran dikembalikan di admin/pesanan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Tanggal Transaksi]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Jumlah]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Dana berhasil dihimpun]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Penangkapan berhasil, status pesanan diperbarui menjadi berhasil - diselesaikan]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Pengembalian dana berhasil diproses]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Pengembalian dana berhasil, status pesanan diperbarui menjadi pengembalian dana]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Pembatalan berhasil, status pesanan diperbarui menjadi batal]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_auto</key>
+		<value><![CDATA[Otomatis (otorisasi dan penangkapan)]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_delayed</key>
+		<value><![CDATA[Tertunda (hanya otorisasi)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Rincian Pembayaran]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Pembayaran telah ditangkap]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Pembayaran dibatalkan]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Pembayaran telah dikembalikan]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Jumlah Tangkapan]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Jumlah Pengembalian Dana]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID Biaya Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Jumlah total yang diotorisasi]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Jumlah saldo]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Transaksi Pengembalian Dana]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Harap konfirmasi Anda ingin membatalkan pembayaran?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Harap konfirmasi apakah Anda ingin menangkap pembayaran?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Mohon konfirmasi apakah Anda ingin mengembalikan pembayaran?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Pengembalian dana]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Ruang kosong]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Menangkap]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Kesalahan internal. Periksa log kesalahan atau parameter input!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Harap masukkan jumlah positif]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Tidak dapat menangkap, menyegarkan detail transaksi dan memeriksa jumlah penangkapan]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Tidak dapat membatalkan transaksi, menyegarkan dan memeriksa detail transaksi]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Tidak dapat melakukan pengembalian dana, menyegarkan detail transaksi dan memeriksa jumlah pengembalian dana]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_test</key>
+		<value><![CDATA[Kunci Stripe yang Diterbitkan diperlukan]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_live</key>
+		<value><![CDATA[Kunci Stripe yang Diterbitkan diperlukan]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_test</key>
+		<value><![CDATA[Diperlukan kunci uji Stripe]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_live</key>
+		<value><![CDATA[Diperlukan kunci Stripe Live]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Peringatan: Anda tidak memiliki izin untuk mengubah Stripe Payment!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_webhook_howto_text</key>
+		<value><![CDATA[Catatan: Untuk menyelesaikan pengaturan, Anda harus membuat webhook di Sisi Akun Stripe. 
+ <br/> Buka <a href="https://dashboard.stripe.com/webhooks" target="_new">Bagian Pengembang Dasbor Stripe</a> Anda 
+ dan Tambahkan Titik Akhir yang menerima peristiwa dari akun Anda. Setelah Titik Akhir dibuat, salin Rahasia Penandatanganan dan simpan ke pengaturan Ekstensi Langganan Stripe. 
+]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_url</key>
+		<value><![CDATA[URL titik akhir:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_signing_secret</key>
+		<value><![CDATA[Rahasia Penandatanganan Titik Akhir:]]></value>
+	</definition>
+</definitions>

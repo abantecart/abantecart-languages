@@ -1,24 +1,29 @@
 <?php
-
-
 if (! defined ( 'DIR_CORE' )) {
  header ( 'Location: static_pages/' );
 }
 
-$controllers = array(
-    'storefront' => array(),
-    'admin' => array());
+$controllers = [
+    'storefront' => [],
+    'admin' => []
+];
 
-$models = array(
-    'storefront' => array(),
-    'admin' => array());
+$models = [
+    'storefront' => [],
+    'admin' => []
+];
 
-$templates = array(
-    'storefront' => array(),
-    'admin' => array());
+$templates = [
+    'storefront' => [],
+    'admin' => []
+];
 
-$languages = array(
-    'storefront' => array(),
-    'admin' => array(
-        'english/default_danish/default_danish'));
+$languages = [
+    'storefront' => [
+        'default_danish/default_danish'
+    ],
+    'admin' => [
+        'default_danish/default_danish'
+    ]
+];
 

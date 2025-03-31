@@ -1,127 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions>
-  <definition>
-    <key>import_export_title</key>
-    <value><![CDATA[Імпорт-експорт]]></value>
-  </definition>
-  <definition>
-    <key>tab_import</key>
-    <value><![CDATA[імпорт]]></value>
-  </definition>
-  <definition>
-    <key>tab_export</key>
-    <value><![CDATA[експорт]]></value>
-  </definition>
-  <definition>
-    <key>text_tables</key>
-    <value><![CDATA[таблиці]]></value>
-  </definition>
-  <definition>
-    <key>text_options</key>
-    <value><![CDATA[опції]]></value>
-  </definition>
-  <definition>
-    <key>text_file_format</key>
-    <value><![CDATA[Формат файлу:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_name</key>
-    <value><![CDATA[Файл:]]></value>
-  </definition>
-  <definition>
-    <key>text_load_file</key>
-    <value><![CDATA[Завантажити файл]]></value>
-  </definition>
-  <definition>
-    <key>text_load</key>
-    <value><![CDATA[навантаження]]></value>
-  </definition>
-  <definition>
-    <key>text_import_loaded</key>
-    <value><![CDATA[Максимальна дозволена:]]></value>
-  </definition>
-  <definition>
-    <key>text_file_field</key>
-    <value><![CDATA[Файл для імпорту: <br/><span class="help">Формати для імпорту файлів: XML, CSV, TXT</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_id_range_from</key>
-    <value><![CDATA[ID діапазон від:]]></value>
-  </definition>
-  <definition>
-    <key>text_to</key>
-    <value><![CDATA[щоб:]]></value>
-  </definition>
-  <definition>
-    <key>text_csv_delimiter</key>
-    <value><![CDATA[CSV / TXT роздільник:]]></value>
-  </definition>
-  <definition>
-    <key>text_export_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Всі поля будуть укладені в подвійні лапки.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_import_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">Всі поля повинні бути укладені в подвійні лапки.</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_test_mode</key>
-    <value><![CDATA[Запуск в тестовому режимі <br/><span class="help">Рекомендується запускати імпорт даних в тестовому режимі перших, щоб побачити, якщо будь які проблеми присутні.</span>]]></value>
-  </definition>
-  <definition>
-    <key>error_file_format</key>
-    <value><![CDATA[Неправильний формат файлу!]]></value>
-  </definition>
-  <definition>
-    <key>error_xml_import</key>
-    <value><![CDATA[Помилка під час імпорту файлу XML!]]></value>
-  </definition>
-  <definition>
-    <key>error_csv_import</key>
-    <value><![CDATA[Помилка при імпорті файлу CSV / TXT! Будь ласка, перевірте поля роздільники.]]></value>
-  </definition>
-  <definition>
-    <key>error_data_corrupted</key>
-    <value><![CDATA[Дані порожній або пошкоджений.]]></value>
-  </definition>
-  <definition>
-    <key>error_file_empty</key>
-    <value><![CDATA[Файл порожній.]]></value>
-  </definition>
-  <definition>
-    <key>error_writable_backup</key>
-    <value><![CDATA[Каталог резервного копіювання повинен бути доступний для запису для експорту CSV / TXT працювати.]]></value>
-  </definition>
-  <definition>
-    <key>text_updated</key>
-    <value><![CDATA[Оновлене:]]></value>
-  </definition>
-  <definition>
-    <key>text_created</key>
-    <value><![CDATA[створено:]]></value>
-  </definition>
-  <definition>
-    <key>text_errors</key>
-    <value><![CDATA[помилки:]]></value>
-  </definition>
-  <definition>
-    <key>text_show_details</key>
-    <value><![CDATA[Показати деталі]]></value>
-  </definition>
-  <definition>
-    <key>text_no_children</key>
-    <value><![CDATA[Немає дочірніх елементів]]></value>
-  </definition>
-  <definition>
-    <key>text_some_errors</key>
-    <value><![CDATA[Є деякі помилки.]]></value>
-  </definition>
-  <definition>
-    <key>text_test_completed</key>
-    <value><![CDATA[Тестовий прогін завершено. Всього запитів SQL:]]></value>
-  </definition>
-  <definition>
-    <key>text_sort_by</key>
-    <value><![CDATA[Сортувати за:]]></value>
-  </definition>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Імпорт-експорт]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[імпорт]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[експорт]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[таблиці]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[опції]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Формат файлу:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Файл:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[Завантажити файл]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[навантаження]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Максимальна дозволена:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Файл для імпорту: <br/><span class="help">Формати для імпорту файлів: XML, CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[ID діапазон від:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[щоб:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV / TXT роздільник:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Всі поля будуть укладені в подвійні лапки.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Всі поля повинні бути укладені в подвійні лапки.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Запуск в тестовому режимі <br/><span class="help">Рекомендується запускати імпорт даних в тестовому режимі перших, щоб побачити, якщо будь які проблеми присутні.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Неправильний формат файлу!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Помилка під час імпорту файлу XML!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Помилка при імпорті файлу CSV / TXT! Будь ласка, перевірте поля роздільники.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Дані порожній або пошкоджений.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[Файл порожній.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[Каталог резервного копіювання повинен бути доступний для запису для експорту CSV / TXT працювати.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Оновлене:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[створено:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[помилки:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Показати деталі]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Немає дочірніх елементів]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Є деякі помилки.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Тестовий прогін завершено. Всього запитів SQL:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Сортувати за:]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Майстер імпорту даних]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Майстер імпорту]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Ви можете завантажити CSV або текстовий файл для імпорту даних. Для структури даних ви можете використовувати власний формат (див. експорт) або вільний формат. <br/> Для даних у вільному форматі вам потрібно буде відобразити елементи даних вручну або використати карту JSON. <br/> Для імпорту у вільному форматі підтримуються лише продукти, категорії та бренди/виробники. <br/> Стовпець «Дія» можна включити, щоб імпортувати «вставити», «оновити» або «видалити». Дія за замовчуванням — update_or_insert. ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Виберіть таблицю призначення та відповідне поле бази даних для кожного наданого стовпця даних імпорту. Якщо поля не вибрано, дані стовпця введення ігноруватимуться. <br/><b>Примітка.</b> Значення даних про мову та збереження буде призначено поточному сховищу вмісту та вибраній мові]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Під час цього імпорту буде завантажено та оброблено %s записів!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Виконується процес імпорту]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Стовпець файлу імпорту]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Зразок даних імпорту]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Виберіть цільову таблицю]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Оновити, якщо існує]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Розділити дані за]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Виберіть, скопіюйте та збережіть це відображення для майбутнього використання.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Експорт картографування]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Опублікуйте в полі під попередньо збереженими картографічними даними]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Відображення навантаження]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Не вибрано цільову таблицю імпорту чи поля!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Відсутнє обов’язкове поле даних «%s» для цільової таблиці!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Тимчасовий каталог %s не доступний для запису! Щоб продовжити, змініть дозволи.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Порожній запит.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Процес імпорту завершено. %s рядок(и) оброблено.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s рядок(и) з помилками.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Для отримання додаткової інформації дивіться <a href="%s" target="_new">файл журналу %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Завдання успішно перервано.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Розклад імпорту]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Успіх: ви успішно створили заплановане завдання імпорту! <a href="%s">Дивіться деталі</a>]]></value>
+	</definition>
 </definitions>

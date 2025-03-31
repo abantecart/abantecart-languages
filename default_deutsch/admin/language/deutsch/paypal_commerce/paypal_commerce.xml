@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_title</key>
+		<value><![CDATA[Kreditkarte / Debitkarte (über Paypal)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_name</key>
+		<value><![CDATA[Paypal Commerce]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_manual_connect</key>
+		<value><![CDATA[&nbsp;]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_client_id</key>
+		<value><![CDATA[Ihre API-Client-ID <br/><span class="help">Sie finden diese im Abschnitt „Meine Apps und Anmeldeinformationen“ des PayPal-Dashboards -&gt; Entwickler</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_client_secret</key>
+		<value><![CDATA[Ihr geheimer API-Schlüssel <br/><span class="help">Finden Sie ihn im Abschnitt „Meine Apps und Anmeldeinformationen“ des PayPal-Dashboards -&gt; Entwickler</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_mode</key>
+		<value><![CDATA[Testmodus]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type</key>
+		<value><![CDATA[Transaktionsmethode: <br/><span class="help">PayPal-Transaktionen werden an der Kasse des Kunden ausgeführt, bevor der Bestellstatus festgelegt wird. Nur Autorisierung oder Erfassung.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type_capture</key>
+		<value><![CDATA[Erfassen]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type_authorize</key>
+		<value><![CDATA[Nur autorisieren]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_connection</key>
+		<value><![CDATA[Verbindung testen]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_test</key>
+		<value><![CDATA[Jetzt testen]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_update_webhooks</key>
+		<value><![CDATA[Webhooks aktualisieren]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_tooltip_update_webhooks</key>
+		<value><![CDATA[ Webhooks werden automatisch bei der Verbindung mit PayPal eingerichtet. Mit dieser Schaltfläche können Sie Webhooks in PayPal aktualisieren. ]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_connection_success</key>
+		<value><![CDATA[Die Verbindung wurde erfolgreich hergestellt.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Zahlung]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Erfolg: Sie haben die Paypal-Zahlungseinstellungen geändert!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_location_id</key>
+		<value><![CDATA[Standort:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_location_id_0</key>
+		<value><![CDATA[Alle Standorte]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_autoselect</key>
+		<value><![CDATA[
+ Automatische Auswahl: <br/><span class="help">Sie können festlegen, dass die Zahlungsauswahlseite übersprungen wird, wenn nur eine Zahlungsoption verfügbar ist. Diese Zahlungsmethode wird automatisch ausgewählt</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_paypal_commerce_connect</key>
+		<value><![CDATA[Sie müssen sich mit PayPal verbinden, um die Zahlungsdetails einzurichten]]></value>
+	</definition>
+	<definition>
+		<key>text_paypal_commerce_settings</key>
+		<value><![CDATA[Paypal-Einstellungen]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_sort_order</key>
+		<value><![CDATA[Sortierreihenfolge]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_mode</key>
+		<value><![CDATA[Testmodus]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_register_webhooks</key>
+		<value><![CDATA[Aktualisieren Sie die Webhook-Endpunkte auf der API-Seite]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_register_webhooks_success</key>
+		<value><![CDATA[Webhooks-Endpunkte wurden erfolgreich aktualisiert!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_success_settled</key>
+		<value><![CDATA[Erfolgreich &amp; erfasst: <br/><span class="help">Wählen Sie den Hauptbestellstatus aus, den Sie als Reaktion auf den Status des Zahlungsprozessors festlegen möchten</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_success_unsettled</key>
+		<value><![CDATA[Erfolgreich &amp; nicht erfasst: <br/><span class="help">Wählen Sie den Hauptbestellstatus aus, den Sie als Reaktion auf den Status des Zahlungsprozessors festlegen möchten</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_decline</key>
+		<value><![CDATA[
+ Ablehnung: <br/><span class="help">Bestellstatus, den Sie als Reaktion auf den Status des Zahlungsabwicklers im Verlauf erfassen möchten. Der Hauptbestellstatus bleibt unberührt. Die Bestellung wird erst nach erfolgreicher Zahlung aufgegeben.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_capture_pending</key>
+		<value><![CDATA[Ausstehend:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_refund</key>
+		<value><![CDATA[Erstattet: <br/><span class="help">Bestellstatus, der festgelegt werden soll, wenn die Zahlung in der Verwaltung/Bestellung erstattet wird.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Transaktionsdatum]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Menge]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Gelder wurden erfolgreich eingezogen]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Die Erfassung war erfolgreich, der Bestellstatus wurde auf „Erfolgreich – erfasst“ aktualisiert.]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Rückerstattung wurde erfolgreich bearbeitet]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Rückerstattung war erfolgreich, Bestellstatus auf „Erstattet“ aktualisiert]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Stornierung erfolgreich, Bestellstatus auf „Storniert“ aktualisiert]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_auto</key>
+		<value><![CDATA[Automatisch (Autorisieren und Erfassen)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_delayed</key>
+		<value><![CDATA[Verzögert (nur autorisieren)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Zahlungsdetails]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Zahlung wurde erfasst]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Die Zahlung wurde storniert]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Zahlung wurde zurückerstattet]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Erfassungsbetrag]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Rückerstattungsbetrag]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Paypal-Gebühren-ID]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Autorisierter Gesamtbetrag]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Saldobetrag]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Rückerstattungstransaktionen]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Bitte bestätigen Sie, dass Sie die Zahlung stornieren möchten.]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Bitte bestätigen Sie, dass Sie die Zahlung erfassen möchten.]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Bitte bestätigen Sie, dass Sie die Zahlung zurückerstatten möchten.]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Erstattung]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Leere]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Erfassen]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Interner Fehler. Fehlerprotokoll oder Eingabeparameter prüfen!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Bitte geben Sie einen positiven Betrag ein]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Erfassung nicht möglich. Transaktionsdetails aktualisieren und Erfassungsbetrag prüfen]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Die Transaktion kann nicht storniert werden. Aktualisieren und Überprüfen der Transaktionsdetails ist nicht möglich.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Rückerstattung nicht möglich. Aktualisieren Sie die Transaktionsdetails und prüfen Sie den Rückerstattungsbetrag.]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Mit Paypal verbinden	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Paypal trennen]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Verbindung kann nicht hergestellt werden?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Erfolgreich mit Paypal verbunden]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Die Verbindung zu Paypal wurde erfolgreich getrennt.]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Achtung: Sie haben keine Berechtigung, die Paypal Commerce-Zahlung zu ändern!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_auto</key>
+		<value><![CDATA[Auto (Autorisieren und Erfassen)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_delayed</key>
+		<value><![CDATA[Verzögert (nur autorisieren)]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Interner Fehler. Fehlerprotokoll oder Eingabeparameter prüfen!]]></value>
+	</definition>
+	<definition>
+		<key>error_paypal_commerce_client_id</key>
+		<value><![CDATA[App-Client-ID ist erforderlich]]></value>
+	</definition>
+	<definition>
+		<key>error_paypal_commerce_client_secret</key>
+		<value><![CDATA[Geheimer App-Schlüssel erforderlich]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Achtung: Sie haben keine Berechtigung, die Paypal Commerce-Zahlung zu ändern!]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Fehler! Bitte überprüfen Sie, ob die Erweiterung aktiviert ist.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_back</key>
+		<value><![CDATA[Zurück]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_webhook_howto_text</key>
+		<value><![CDATA[Hinweis: Um die Einrichtung abzuschließen, sollten Sie Webhooks auf der PayPal-Kontoseite erstellen. 
+ <br/> Gehen Sie zu Ihrem <a href="https://dashboard.paypal.com/webhooks" target="_new">PayPal-Dashboard im Entwicklerbereich</a> 
+ und fügen Sie Endpunkte hinzu, die Ereignisse von Ihrem Konto empfangen. Nachdem der Endpunkt erstellt wurde, kopieren Sie das Signaturgeheimnis und speichern Sie es in den Einstellungen der PayPal-Abonnementerweiterung. 
+]]></value>
+	</definition>
+</definitions>

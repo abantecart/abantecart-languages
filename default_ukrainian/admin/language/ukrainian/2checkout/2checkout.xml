@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Оформлення замовлення]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Оплата]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Успіх: ви змінили дані облікового запису 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[
+ За допомогою цього розширення ви можете використовувати платіжну систему 2Checkout для прийому платежів від ваших клієнтів. <br/> 
+ <b>Зареєструйтеся безкоштовно сьогодні! Скористайтеся промокодом ABANTECART2CO, щоб не сплачувати комісію за обслуговування заявки (економія 10,99 доларів США) і почніть продавати в Інтернеті вже сьогодні!</b> Відвідайте <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> , заповніть заявку, а потім введіть код у поле промо-коду, щоб скористатися цією спеціальною пропозицією вже сьогодні! 
+ <br/> Після реєстрації ввійдіть, щоб отримати облікові дані облікового запису для налаштування цього розширення 
+ <br/> Не забудьте налаштувати URL-адресу INS і URL-адресу перенаправлення тут <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>. 
+ <br/><br/> Ваша URL-адреса INS<h4> #storefront#rt=extension/2checkout/callback</h4> 
+ <br/><br/> Також налаштуйте URL-адресу перенаправлення та виберіть метод повернення «Перенаправлення заголовка». 
+ <br/><br/> Ваша URL-адреса перенаправлення<h4> #storefront#rt=оплата/успіх</h4> 
+		 ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2Код продавця Checkout:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[
+ Секретний ключ: <br/><span class="help">Секретне слово для підтвердження транзакцій (має бути таким самим, як визначено на сторінці конфігурації облікового запису продавця.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Тестовий режим:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[так]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[немає]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Статус замовлення:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Розташування:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Усі локації]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Попередження: у вас немає дозволу на зміну платежу 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Необхідний код продавця!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Потрібен секретний ключ!]]></value>
+	</definition>
+</definitions>

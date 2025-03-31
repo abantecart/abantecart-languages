@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2チェックアウト]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[支払い]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[成功: 2Checkout アカウントの詳細を変更しました。]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[
+この拡張機能を使用すると、2Checkout 支払いシステムを使用して顧客からの支払いを受け取ることができます。 <br/> 
+<b>今すぐ無料でサインアップしてください。プロモーション コード ABANTECART2CO を使用して、アプリケーション サービス料金を免除し (10.99 ドル節約)、今日からオンライン販売を開始してください</b><a href="https://www.2checkout.com/signup/">。www.2checkout.com</a>にアクセスしてアプリケーションを完了し、プロモーション コード フィールドにコードを入力して、この特別オファーを今すぐご利用ください。 
+ <br/> 
+ <br/> INS URL とリダイレクト URL を設定することを忘れないでください<a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a> 。 
+ <br/><br/> INS URL は<h4>#storefront#rt=拡張機能/2checkout/コールバック</h4>
+ <br/><br/>また、リダイレクトURLを設定し、戻り方法として「ヘッダーリダイレクト」を選択します。 
+ <br/><br/>リダイレクトURLは<h4>#storefront#rt=チェックアウト/成功</h4>
+		 ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2Checkout 加盟店コード:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[
+秘密キー: <br/><span class="help">取引を確認するための秘密の単語 (販売者アカウント設定ページで定義されているものと同じである必要があります)。</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[テストモード:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[はい]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[いいえ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[注文状況:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[位置：]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[すべての場所]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[警告: 2Checkout の支払いを変更する権限がありません。]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[販売者コードが必要です!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[秘密鍵が必要です!]]></value>
+	</definition>
+</definitions>

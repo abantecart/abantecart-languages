@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>stripe_name</key>
+		<value><![CDATA[스트라이프 결제]]></value>
+	</definition>
+	<definition>
+		<key>stripe_note</key>
+		<value><![CDATA[Stripe 결제 설정을 완료하려면 추가 설정이 필요합니다. 추가 설정 탭을 참조하세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[지불]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[성공: Stripe 결제 설정을 수정했습니다!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id</key>
+		<value><![CDATA[위치:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id_0</key>
+		<value><![CDATA[모든 위치]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status</key>
+		<value><![CDATA[상태:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_published_key</key>
+		<value><![CDATA[공개된 키:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_autoselect</key>
+		<value><![CDATA[자동 선택: <br/><span class="help">결제 옵션이 하나뿐인 경우 결제 선택 페이지를 건너뛰도록 설정할 수 있습니다. 이 결제 방법은 자동으로 선택됩니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list</key>
+		<value><![CDATA[허용된 결제 수단. <br/><span class="help">자동 선택을 위해 비워두세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_card</key>
+		<value><![CDATA[카드]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_klarna</key>
+		<value><![CDATA[클라르나]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_acss_debit</key>
+		<value><![CDATA[영어: ACSS는 영어를 구사하는 사람입니다.]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_afterpay_clearpay</key>
+		<value><![CDATA[애프터페이/클리어페이]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_alipay</key>
+		<value><![CDATA[알리페이]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_au_becs_debit</key>
+		<value><![CDATA[BECS 직불]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bacs_debit</key>
+		<value><![CDATA[Bacs 직불카드]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_affirm</key>
+		<value><![CDATA[확인하다]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bancontact</key>
+		<value><![CDATA[밴컨택트]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_blik</key>
+		<value><![CDATA[블릭]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_boleto</key>
+		<value><![CDATA[볼레토]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_interac_present</key>
+		<value><![CDATA[인터랙]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_pix</key>
+		<value><![CDATA[픽스]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_revolut_pay</key>
+		<value><![CDATA[레볼루트 페이]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_swish</key>
+		<value><![CDATA[쳐서 자르다]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_mobilepay</key>
+		<value><![CDATA[모바일페이]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_zip</key>
+		<value><![CDATA[지퍼]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_eps</key>
+		<value><![CDATA[주당 순이익]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_fpx</key>
+		<value><![CDATA[에프엑스]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_giropay</key>
+		<value><![CDATA[지로페이]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_grabpay</key>
+		<value><![CDATA[그랩페이]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_ideal</key>
+		<value><![CDATA[이상적인]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_konbini</key>
+		<value><![CDATA[콘비니]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_link</key>
+		<value><![CDATA[링크]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_oxxo</key>
+		<value><![CDATA[옥소]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sofort</key>
+		<value><![CDATA[소포트]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_p24</key>
+		<value><![CDATA[프르젤레비24]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_paynow</key>
+		<value><![CDATA[지금 결제하기]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_promptpay</key>
+		<value><![CDATA[프롬프트페이]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sepa_debit</key>
+		<value><![CDATA[SEPA 직불]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_us_bank_account</key>
+		<value><![CDATA[ACH 직불]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_wechat_pay</key>
+		<value><![CDATA[위챗페이]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_twint</key>
+		<value><![CDATA[트윈트]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_connect</key>
+		<value><![CDATA[결제 세부 정보를 설정하려면 Stripe에 연결해야 합니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_settings</key>
+		<value><![CDATA[스트라이프 설정]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Stripe에 연결	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[스트라이프 연결 해제]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[연결할 수 없나요?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Stripe에 성공적으로 연결되었습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Stripe에서 성공적으로 연결이 끊어졌습니다.]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sort_order</key>
+		<value><![CDATA[정렬 순서]]></value>
+	</definition>
+	<definition>
+		<key>stripe_test_mode</key>
+		<value><![CDATA[테스트 모드 : <br/><span class="help">테스트 키를 사용하려면 ON으로 설정하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_live</key>
+		<value><![CDATA[라이브 비밀 키: <br/><span class="help">Stripe API 키 섹션에서 찾으세요. 키는 sk_live_...로 시작합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_live</key>
+		<value><![CDATA[라이브 게시 가능 키: <br/><span class="help">Stripe API 키 섹션에서 이것을 찾으세요. 키는 pk_live_...로 시작합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_test</key>
+		<value><![CDATA[테스트 비밀 키: <br/><span class="help">Stripe API 키 섹션에서 이것을 찾으세요. 키는 sk_test_...로 시작합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_test</key>
+		<value><![CDATA[테스트 게시 가능 키: <br/><span class="help">Stripe API 키 섹션에서 이것을 찾으세요. 키는 pk_test_...로 시작합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement</key>
+		<value><![CDATA[결제 유형: <br/><span class="help">&#39;자동&#39;으로 설정하면 거래가 오늘의 결제에 포함됩니다. &#39;지연&#39;으로 설정하면 거래가 승인되지만 결제(캡처)되지 않습니다. 승인 후 7일 이내에 수동으로 거래를 캡처해야 합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_settled</key>
+		<value><![CDATA[성공 및 정착: <br/><span class="help">결제 프로세서 상태에 대한 응답으로 설정하려는 주요 주문 상태를 선택합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_unsettled</key>
+		<value><![CDATA[성공 및 미결제: <br/><span class="help">결제 프로세서 상태에 대한 응답으로 설정하려는 주 주문 상태를 선택합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_decline</key>
+		<value><![CDATA[거부: <br/><span class="help">결제 프로세서 상태에 대한 응답으로 기록하려는 주문 상태입니다. 주요 주문 상태는 영향을 받지 않습니다. 결제가 성공한 후에만 주문이 이루어지지 않습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_void</key>
+		<value><![CDATA[무효화: <br/><span class="help">관리자/주문에서 결제가 무효화될 경우 설정하려는 주문 상태입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_refund</key>
+		<value><![CDATA[환불: <br/><span class="help">관리자/주문에서 결제가 환불될 경우 설정하려는 주문 상태입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[거래일자]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[양]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[자금이 성공적으로 확보되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[캡처가 성공했습니다. 주문 상태가 성공(결제됨)으로 업데이트되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[환불이 성공적으로 처리되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[환불이 성공적으로 완료되었습니다. 주문 상태가 환불됨으로 업데이트되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[무효화가 성공했으며 주문 상태가 무효화로 업데이트되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_auto</key>
+		<value><![CDATA[자동(권한 부여 및 캡처)]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_delayed</key>
+		<value><![CDATA[지연됨(승인만 가능)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[결제 세부 정보]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[결제가 캡처되었습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[결제가 무효화되었습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[결제가 환불되었습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[캡처량]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[환불 금액]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[스트라이프 요금 ID]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[총 승인 금액]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[잔액금액]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[환불 거래]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[결제를 취소하시겠습니까?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[결제를 처리하시겠습니까?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[환불하시겠습니까?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[환불하다]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[무효의]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[포착]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[내부 오류입니다. 오류 로그나 입력 매개변수를 확인하세요!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[양수를 입력해주세요]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[캡처, 거래 세부 정보 새로 고침 및 캡처 금액 확인이 불가능합니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[거래 무효화, 새로 고침 및 거래 세부 정보 확인이 불가능합니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[환불이 불가능하고, 거래내역을 새로고침하고 환불금액을 확인할 수 없습니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_test</key>
+		<value><![CDATA[Stripe 게시 키가 필요합니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_live</key>
+		<value><![CDATA[Stripe 게시 키가 필요합니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_test</key>
+		<value><![CDATA[Stripe 테스트 키가 필요합니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_live</key>
+		<value><![CDATA[Stripe 라이브 키가 필요합니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[경고: Stripe 결제를 수정할 수 있는 권한이 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_webhook_howto_text</key>
+		<value><![CDATA[참고: 설정을 완료하려면 Stripe 계정 측에서 웹훅을 만들어야 합니다. 
+ <br/><a href="https://dashboard.stripe.com/webhooks" target="_new">Stripe 대시보드 개발자 섹션</a> 
+ 로 이동하여 계정에서 이벤트를 수신하는 엔드포인트를 추가합니다. 엔드포인트가 생성된 후 Signing Secret을 복사하여 Stripe 구독 확장 설정에 저장합니다. 
+]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_url</key>
+		<value><![CDATA[엔드포인트 URL:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_signing_secret</key>
+		<value><![CDATA[엔드포인트 서명 비밀:]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_twilio_name</key>
+		<value><![CDATA[トゥイリオ]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_note</key>
+		<value><![CDATA[SMS メッセージングを有効にするには、[システム] -&gt; [設定] -&gt; <a href="#admin#rt=setting/setting/im" target="_im">[IM</a><br/> 
+移動し、Twilio を既定の SMS ドライバーとして選択します。SMS を受信するセクション (管理者またはストアフロント) を有効にすることを忘れないでください。 <br/> 
+この拡張機能により、管理者と顧客が提供できる携帯電話フィールドが有効になります。この拡張機能を無効にすると、このフィールドが非表示になることに注意してください。 
+顧客がいる既存のストアに追加する場合、この情報が欠落することに注意してください。 
+		]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_username</key>
+		<value><![CDATA[API アカウント SID]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_token</key>
+		<value><![CDATA[API 認証トークン]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test</key>
+		<value><![CDATA[テストモード]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[
+送信者（Twilio）電話番号：<span class="help">送信者の国際電話番号（例：+14158675309）</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_send_to</key>
+		<value><![CDATA[
+テストSMSを次の宛先に送信します: ]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_0</key>
+		<value><![CDATA[いいえ]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_1</key>
+		<value><![CDATA[はい]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_connection</key>
+		<value><![CDATA[接続をテストする:<span class="help">入力した API 資格情報が正しいかどうかをテストできます。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_logging</key>
+		<value><![CDATA[エラー ログのステータス<span class="help">Twilio 拡張機能のすべてのエラーをログに記録する場合は、この設定をオンにします。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[ 携帯電話 ]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[ テスト ]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[エラー! 拡張機能がオンになっているかどうかを確認してください。]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[接続は成功し、API 資格情報が正しく構成されています。]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[
+送信者（Twilio）電話番号：<span class="help">送信者の国際電話番号（例：+14158675309）</span>]]></value>
+	</definition>
+</definitions>

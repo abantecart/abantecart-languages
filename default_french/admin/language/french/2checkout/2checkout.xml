@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Paiement]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Paiement]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Succès : vous avez modifié les détails du compte 2Checkout !]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[
+ Avec cette extension, vous pouvez utiliser le système de paiement 2Checkout pour accepter les paiements de vos clients. <br/> 
+ <b>Inscrivez-vous gratuitement dès aujourd&#39;hui ! Utilisez le code promo ABANTECART2CO pour bénéficier d&#39;une exonération des frais de service de votre demande (une économie de 10,99 $) et commencez à vendre en ligne dès aujourd&#39;hui !</b> Visitez <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> , remplissez la demande, puis saisissez le code dans le champ prévu à cet effet pour profiter de cette offre spéciale dès aujourd&#39;hui ! 
+ <br/> Une fois inscrit, connectez-vous pour obtenir les identifiants de votre compte et configurer cette extension. 
+ <br/> N&#39;oubliez pas de configurer l&#39;URL INS et l&#39;URL de redirection ici <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>. 
+ <br/><br/> Votre URL INS est<h4> #vitrine#rt=extension/2checkout/callback</h4> 
+ <br/><br/> Configurez également l&#39;URL de redirection et choisissez la méthode de retour « Redirection d&#39;en-tête ». 
+ <br/><br/> Votre URL de redirection est<h4> #vitrine#rt=paiement/succès</h4> 
+		 ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[Code marchand 2Checkout :]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[
+ Clé secrète : <br/><span class="help">Le mot secret pour confirmer les transactions (doit être le même que celui défini sur la page de configuration du compte marchand).</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Mode test :]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Oui]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Non]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Statut de la commande :]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Emplacement:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Tous les emplacements]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Attention : vous n&#39;avez pas la permission de modifier le paiement 2Checkout !]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Code marchand requis !]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Clé secrète requise !]]></value>
+	</definition>
+</definitions>

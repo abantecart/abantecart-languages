@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Šifravimo duomenų tvarkyklė]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Plėtiniai]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[ Duomenų šifravimo įrankiai ]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Būsena:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Rūšiavimo tvarka:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Sukurkite raktų porą]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Šifruoti duomenis]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Įspėjimas: Jūs neturite leidimo keisti siuntimo pagal svorį!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Klaida: pasirinkta rakto pavadinimo pora jau egzistuoja!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[
+ <b>Šiam plėtiniui reikia IŠPLĖSTINĖS konfigūracijos ir dėmesio.</b><br/> 
+ <b>Įjungus ir užšifravus duomenis, anuliuoti NĖRA, o plėtinio išjungti negalima!</b><br/> 
+ Šis plėtinys padeda valdyti šifravimo raktų kūrimą ir duomenų perkėlimą iš atvirų į šifruotas lenteles (pradinis perkėlimas) <br/> 
+ <b>ATKREIPKITE DĖMESĮ:</b> turite turėti PHP su SSL šifravimu <b>ĮJUNGTA</b> 
+ <br/> 
+ <br/> Norėdami įjungti duomenų šifravimą, perskaitykite pagalbos instrukcijas (mygtukas KAIP)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Įspėjimas: „OpenSSL“, skirta PHP, nepasiekiama arba nesuaktyvinta. Negalite naudoti šifravimo ar šio plėtinio! <br/> Norėdami gauti daugiau informacijos, žr. šio plėtinio PAGALBA.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Įspėjimas: jūsų AbanteCart neįjungtas duomenų šifravimas. Negalite užšifruoti / iššifruoti duomenų naudodami šį plėtinį! <br/> Norėdami gauti daugiau informacijos, žr. šio plėtinio PAGALBA.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Sukurkite raktų porą]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Šifruoti duomenis]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Trūksta būtino duomenų lauko (-ų). Patikrinkite pateiktas vertes]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Unikalus raktų poros pavadinimas: <br/><span class="help">Pavadinimas neturi būti tarpų ar specialiųjų simbolių. Trumpai ir paprastai.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Rakto ilgis (bitais): <br/><span class="help">Nurodykite rakto šifravimo bitų ilgį. Didesnis skaičius reiškia stipresnį šifravimą, bet gali sulėtinti veikimą (diapazonas 256–8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Šifravimo tipas: <br/><span class="help">Tai šifravimo algoritmas. Jei nesate pažengęs vartotojas, naudokite numatytąjį RSA.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Įgalinti slaptažodžiu pagrįstą raktą: <br/><span class="help">Jei įjungsite, reikės papildomos slaptafrazės, kad būtų galima iššifruoti tekstą naudojant privatų raktą. PASTABA. Šiuo metu tai nepalaiko duomenų šifravimo.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Slaptafrazė arba rakto slaptažodis: <br/><span class="help">Atminkite, kad slaptafrazė arba raktas (-ai) bus nenaudingi ir duomenys gali būti prarasti</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Raktų pora sukurta. Žiūrėkite toliau pateiktus raktus ir saugokite juos.</b><br/><br/> %s <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Raktų poros generavimas nepavyko. Patikrinkite nustatymus ir klaidų žurnalą.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Raktų poros pavadinimas: <br/><span class="help">Pasirinkite raktą, kuris bus naudojamas šifravimui. SVARBU: prisiminkite raktą, kurį naudojote</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Šifruotina lentelė (-ės): <br/><span class="help">parodyta (-os) lentelė (-ės) bus užšifruota (-os) pasirinktu raktu. Duomenis galima atidaryti tik šiuo raktu</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Bandymo režimas: <br/><span class="help">Pirmiausia patikrinkite, ar viskas gerai, kad būtų užšifruota.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Pašalinti šaltinio duomenis: <br/><span class="help">Pašalinkite šaltinio neužšifruotus duomenų įrašus, kai šifravimas bus baigtas</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Duomenys buvo užšifruoti. <br/> Žr. išsamią informaciją:</b><br/><br/> %s <br/><br/><b>Jei norite, kad šis raktas būtų naudojamas naujiems duomenims šifruoti, prie failo system/config.php pridėkite šią eilutę: define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;%s&#39;);</b> ]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Duomenų šifravimo testo rezultatas</b> Patikrinkite klaidų žurnalą, ar nėra galimų klaidų! <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Duomenų šifravimas nepavyko. Patikrinkite nustatymus ir klaidų žurnalą.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Svarbios pastabos! Kai šifravimas bus baigtas, duomenys bus nukopijuoti į veidrodines lenteles su jose užšifruotais duomenimis. 
+ <br/> Vykdykite instrukcijas, kad pridėtumėte konfigūraciją prie system/config.php, kad AbanteCart skaitymo / rašymo operacijas perjungtų į šifruotas lenteles.</b><br/> Konfigūracijos faile pridėkite šią eilutę: define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;your_key_name&#39;); <br/> Tai bus numatytasis skaitymo / rašymo operacijų klavišas ]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Šifravimo naudojimas]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Nešifruoti duomenų įrašai]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Pradiniam šifravimui naudokite skirtuką „Šifruoti duomenis“.]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Šifruoti duomenų įrašai]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[Rakto ID]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Rakto pavadinimas]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Šifruotų lentelių naudojimas]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Pasukti (pakeisti) šifravimą į naują raktą]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[įrašas (-ai)]]></value>
+	</definition>
+</definitions>

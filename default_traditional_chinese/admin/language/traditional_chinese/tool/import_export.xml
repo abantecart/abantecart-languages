@@ -1,127 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions>
-  <definition>
-    <key>import_export_title</key>
-    <value><![CDATA[進出口]]></value>
-  </definition>
-  <definition>
-    <key>tab_import</key>
-    <value><![CDATA[進口]]></value>
-  </definition>
-  <definition>
-    <key>tab_export</key>
-    <value><![CDATA[出口]]></value>
-  </definition>
-  <definition>
-    <key>text_tables</key>
-    <value><![CDATA[表]]></value>
-  </definition>
-  <definition>
-    <key>text_options</key>
-    <value><![CDATA[選項]]></value>
-  </definition>
-  <definition>
-    <key>text_file_format</key>
-    <value><![CDATA[文件格式：]]></value>
-  </definition>
-  <definition>
-    <key>text_file_name</key>
-    <value><![CDATA[文件名：]]></value>
-  </definition>
-  <definition>
-    <key>text_load_file</key>
-    <value><![CDATA[加載文件]]></value>
-  </definition>
-  <definition>
-    <key>text_load</key>
-    <value><![CDATA[加載]]></value>
-  </definition>
-  <definition>
-    <key>text_import_loaded</key>
-    <value><![CDATA[總負載：]]></value>
-  </definition>
-  <definition>
-    <key>text_file_field</key>
-    <value><![CDATA[要導入的文件： <br/><span class="help">支持的格式導入文件：XML，CSV，TXT</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_id_range_from</key>
-    <value><![CDATA[ID範圍為：]]></value>
-  </definition>
-  <definition>
-    <key>text_to</key>
-    <value><![CDATA[至：]]></value>
-  </definition>
-  <definition>
-    <key>text_csv_delimiter</key>
-    <value><![CDATA[CSV / TXT分隔符：]]></value>
-  </definition>
-  <definition>
-    <key>text_export_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">所有字段將被雙引號括起來。</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_import_note_csv_delimiter</key>
-    <value><![CDATA[<span class="help">所有字段必須用雙引號。</span>]]></value>
-  </definition>
-  <definition>
-    <key>text_test_mode</key>
-    <value><![CDATA[在測試模式下運行<br/><span class="help">，建議在測試模式下運行數據導入第一，看是否有問題存在。</span>]]></value>
-  </definition>
-  <definition>
-    <key>error_file_format</key>
-    <value><![CDATA[錯誤的文件格式！]]></value>
-  </definition>
-  <definition>
-    <key>error_xml_import</key>
-    <value><![CDATA[導入XML文件時出錯！]]></value>
-  </definition>
-  <definition>
-    <key>error_csv_import</key>
-    <value><![CDATA[在導入過程中出錯CSV / TXT文件！請檢查字段分隔符。]]></value>
-  </definition>
-  <definition>
-    <key>error_data_corrupted</key>
-    <value><![CDATA[數據為空或損壞。]]></value>
-  </definition>
-  <definition>
-    <key>error_file_empty</key>
-    <value><![CDATA[文件是空的。]]></value>
-  </definition>
-  <definition>
-    <key>error_writable_backup</key>
-    <value><![CDATA[備份目錄必須是可寫的CSV / TXT出口工作。]]></value>
-  </definition>
-  <definition>
-    <key>text_updated</key>
-    <value><![CDATA[更新：]]></value>
-  </definition>
-  <definition>
-    <key>text_created</key>
-    <value><![CDATA[創建：]]></value>
-  </definition>
-  <definition>
-    <key>text_errors</key>
-    <value><![CDATA[錯誤：]]></value>
-  </definition>
-  <definition>
-    <key>text_show_details</key>
-    <value><![CDATA[顯示詳細資料]]></value>
-  </definition>
-  <definition>
-    <key>text_no_children</key>
-    <value><![CDATA[沒有子項]]></value>
-  </definition>
-  <definition>
-    <key>text_some_errors</key>
-    <value><![CDATA[有一些錯誤。]]></value>
-  </definition>
-  <definition>
-    <key>text_test_completed</key>
-    <value><![CDATA[測試運行完成。總的SQL查詢：]]></value>
-  </definition>
-  <definition>
-    <key>text_sort_by</key>
-    <value><![CDATA[排序方式：]]></value>
-  </definition>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[進出口]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[進口]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[出口]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[表]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[選項]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[文件格式：]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[文件名：]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[加載文件]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[加載]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[總負載：]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[要導入的文件： <br/><span class="help">支持的格式導入文件：XML，CSV，TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[ID範圍為：]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[至：]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV / TXT分隔符：]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">所有字段將被雙引號括起來。</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">所有字段必須用雙引號。</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[在測試模式下運行<br/><span class="help">，建議在測試模式下運行數據導入第一，看是否有問題存在。</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[錯誤的文件格式！]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[導入XML文件時出錯！]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[在導入過程中出錯CSV / TXT文件！請檢查字段分隔符。]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[數據為空或損壞。]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[文件是空的。]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[備份目錄必須是可寫的CSV / TXT出口工作。]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[更新：]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[創建：]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[錯誤：]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[顯示詳細資料]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[沒有子項]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[有一些錯誤。]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[測試運行完成。總的SQL查詢：]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[排序方式：]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Fa Data Wizard a Wɔde Ba amannɔne]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Import Wizard no ho asɛm]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Wubetumi de CSV anaa Text fael akɔ so de data aba. Sɛ wopɛ data nhyehyeɛ a, wobɛtumi adi proprietary format (hwɛ export) anaa free format akyi. <br/> Sɛ wopɛ data a ɛwɔ free format no a, ɛho behia sɛ wode nsa yɛ data elements map anaasɛ wode JSON map bedi dwuma. <br/> Aguadeɛ, akuo ne brands/manufacturers nko ara na wɔboa ma free format import. <br/> Wobetumi de adeyɛ kɔla aka ho de akyerɛ import sɛ ‘insert’, ‘update’ anaa ‘delete’. Adeyɛ a wɔahyɛ da ayɛ ne update_or_insert. ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Paw destination table ne database field a ɛne no hyia kɔ import data kɔla biara a wɔde ama no so. Sɛ wɔanpaw field biara a, wobebu ani agu input column data so. <br/><b>Hyɛ no nsow:</b> Wɔde kasa ne store pɔtee data values bɛma mprempren content store &amp; kasa a wɔapaw]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Wɔbɛma %s kyerɛwtohɔ ahorow a wɔde ahyɛ mu na wɔadi ho dwuma wɔ saa import yi mu!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Import Adeyɛ a Wɔreyɛ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Fa Fael Kɔlam no Fa Ba]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Import Data Nhwɛsode]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Paw baabi a worekɔ pon]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Update sɛ ɛwɔ hɔ a]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Kyekyɛ data mu denam]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Paw, kɔpi na sie saa asase mfonini yi ma wode bedi dwuma daakye.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Wɔde asase mfonini a wɔde kɔ amannɔne]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Fa kɔ afuw a ɛwɔ aseɛ ha a wɔadi kan akora map data so]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Adesoa ho mfoniniyɛ]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Wɔanpaw import destination table anaa afuw biara!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Data field &#39;%s&#39; a wɔhwehwɛ a ɛyera ma destination table!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Bere tiaa mu Directory %s nyɛ nea wobetumi akyerɛw! Yɛsrɛ sɛ sesa tumi krataa no na woatoa so.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Adesrɛ hunu.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Wɔawie Import Process no. %s row(s) a wɔayɛ ho adwuma.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s row(s) a mfomso ahorow wom.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Sɛ wopɛ nsɛm pii a hwɛ <a href="%s" target="_new">log file %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Adwuma no twaa mu yiye.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Nhyehyɛe a Wɔde Ba amannɔne]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Odi nkonim: Woayɛ adwuma a wɔahyɛ da ayɛ sɛ wode bɛba no yiye! <a href="%s">Hwɛ nsɛm a ɛkɔ akyiri</a>]]></value>
+	</definition>
 </definitions>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Encryption Data Manager]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Razširitve]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[ Orodja za šifriranje podatkov ]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Vrstni red:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Ustvari par ključev]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Šifriranje podatkov]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Opozorilo: Nimate dovoljenja za spreminjanje pošiljanja glede na težo!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Napaka: Izbrani par imen ključev že obstaja!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[
+ <b>Ta razširitev zahteva NAPREDNO konfiguracijo in pozornost</b><br/> 
+ <b>Ko je enkrat omogočena in so podatki šifrirani, NI razveljavitve in razširitve ni mogoče onemogočiti!</b><br/> 
+ Ta razširitev pomaga pri upravljanju ustvarjanja šifrirnih ključev in selitvi podatkov iz odprtih v šifrirane tabele (začetna selitev) <br/> 
+ <b>OPOMBA:</b> imeti morate PHP z <b>OMOGOČENIM</b> šifriranjem SSL 
+ <br/> 
+ <br/> Če želite omogočiti šifriranje podatkov, preberite navodila za pomoč (gumb KAKO)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Opozorilo: OpenSSL za PHP ni na voljo ali ni aktiviran. Ne morete uporabljati šifriranja ali te razširitve! <br/> Za več podrobnosti preverite POMOČ za to razširitev.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Opozorilo: šifriranje podatkov ni omogočeno na vašem AbanteCart. S to razširitvijo ne morete šifrirati/dešifrirati podatkov! <br/> Za več podrobnosti preverite POMOČ za to razširitev.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Ustvari par ključev]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Šifriranje podatkov]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Manjkajo zahtevana podatkovna polja. Preverite navedene vrednosti]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Enolično ime para ključev: <br/><span class="help">Ime ne sme vsebovati presledkov ali posebnih znakov. Naj bo kratko in preprosto.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Dolžina ključa (biti): <br/><span class="help">Določite dolžino bitov ključa za šifriranje. Večje število pomeni močnejše šifriranje, vendar lahko upočasni delovanje (razpon 256–8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Vrsta šifriranja: <br/><span class="help">To je algoritem šifriranja. Uporabite privzeti RSA, če niste napredni uporabnik.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Omogoči ključ na podlagi gesla: <br/><span class="help">Če je omogočeno, bo za dešifriranje besedila z uporabo zasebnega ključa potrebno dodatno geslo. OPOMBA. To trenutno ni podprto v šifriranju podatkov.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Geslo ali ključno geslo: <br/><span class="help">Ne pozabite, da bo geslo ali ključ(-i) neuporaben in podatki se lahko izgubijo</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Par ključev je ustvarjen. Oglejte si spodnje ključe in jih shranite na varno.</b><br/><br/> %s <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Generiranje para ključev ni uspelo. Preverite svoje nastavitve in preverite dnevnik napak.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Ime para ključev: <br/><span class="help">Izberite ključ, ki bo uporabljen za šifriranje. POMEMBNO: Zapomnite si ključ, ki ste ga uporabili</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabele za šifriranje: <br/><span class="help">prikazane tabele bodo šifrirane z izbranim ključem. Podatke je mogoče odpreti samo s tem ključem</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Testni način: <br/><span class="help">Najprej preverite, ali je vse v redu, da se lahko šifrira.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Odstranite izvorne podatke: <br/><span class="help">Ko je šifriranje končano, odstranite izvorne nešifrirane zapise podatkov</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Podatki so šifrirani. <br/> Glej podrobnosti:</b><br/><br/> %s <br/><br/><b>Če želite, da se ta ključ uporablja za novo šifriranje podatkov, dodajte naslednjo vrstico v datotečni sistem/config.php : define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;%s&#39;);</b> ]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Rezultat testa šifriranja podatkov</b> Preverite dnevnik napak za morebitne napake! <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Šifriranje podatkov ni uspelo. Preverite svoje nastavitve in preverite dnevnik napak.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Pomembne opombe! Po končanem šifriranju bodo podatki kopirani v zrcalne tabele s šifriranimi podatki v njih. 
+ <br/> Sledite navodilom za dodajanje konfiguracije v system/config.php za AbanteCart za preklop branja/pisanja na šifrirane tabele.</b><br/> V konfiguracijsko datoteko dodajte naslednjo vrstico: define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;your_key_name&#39;); <br/> To bo privzeti ključ za operacije branja/pisanja ]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Uporaba šifriranja]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Nešifrirani zapisi podatkov]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Za začetno šifriranje uporabite zavihek &#39;Šifriraj podatke&#39;]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Šifrirani zapisi podatkov]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[ID ključa]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Ime ključa]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Uporaba šifriranih tabel]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Zavrni (spremeni) šifriranje na nov ključ]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[zapis(i)]]></value>
+	</definition>
+</definitions>

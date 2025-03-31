@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[การ์ดคอนเน็กต์]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[หากต้องการรับข้อมูลรับรอง API โปรดไปที่ https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[รหัสร้านค้า]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[ชื่อผู้ใช้ API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[รหัสผ่าน API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[การบันทึก: <br/><span class="help">ไฟล์บันทึกอยู่ในไฟล์ system/logs/cardconnect.txt</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[ทดสอบ]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[ทดสอบการเชื่อมต่อ]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[รับข้อมูลรับรอง API ทดสอบ]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[โหมดทดสอบ]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[ส่วนโดเมนของ API: <br/><span class="help">ไม่ควรเปลี่ยนแปลงค่านี้ เว้นแต่จะมีการระบุเป็นอย่างอื่นโดย cardConnent</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[การเชื่อมต่อสำเร็จและข้อมูลรับรอง API ได้รับการกำหนดค่าอย่างถูกต้อง]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[ทุกสถานที่]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[ที่ตั้ง]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[คืนเงิน: <br/><span class="help">สถานะการสั่งซื้อที่คุณต้องการตั้งค่าหากการชำระเงินได้รับการคืนเงินในระบบดูแลระบบ/คำสั่งซื้อ</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[ปฏิเสธ: <br/><span class="help">สถานะการสั่งซื้อที่คุณต้องการบันทึกในประวัติเพื่อตอบสนองต่อสถานะของผู้ประมวลผลการชำระเงิน สถานะการสั่งซื้อหลักจะไม่ได้รับผลกระทบ การสั่งซื้อจะไม่เกิดขึ้นหลังจากการชำระเงินสำเร็จเท่านั้น</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[สำเร็จและไม่เสร็จสิ้น: <br/><span class="help">เลือกสถานะคำสั่งซื้อหลักที่คุณต้องการตั้งค่าเพื่อตอบสนองต่อสถานะของผู้ประมวลผลการชำระเงิน</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[สำเร็จและชำระเงิน: <br/><span class="help">เลือกสถานะคำสั่งซื้อหลักที่คุณต้องการตั้งค่าตามสถานะผู้ประมวลผลการชำระเงิน</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[เป็นโมฆะ: สถานะคำสั่งซื้อ <br/><span class="help">ที่คุณต้องการตั้งค่าหากการชำระเงินเป็นโมฆะในระบบดูแลระบบ/คำสั่งซื้อ</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[อัตโนมัติ (อนุญาตและจับภาพ)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[ล่าช้า (อนุญาตเท่านั้น)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[ประเภทการชำระเงิน: <br/><span class="help">หากตั้งค่าเป็น &quot;อัตโนมัติ&quot; ธุรกรรมดังกล่าวจะรวมอยู่ในรายการชำระเงินของวันนี้ หากตั้งค่าเป็น &quot;ล่าช้า&quot; ธุรกรรมดังกล่าวจะได้รับการอนุมัติแต่ยังไม่ได้รับการชำระเงิน (ถูกบันทึก) คุณต้องบันทึกธุรกรรมด้วยตนเองภายใน 7 วันหลังจากได้รับอนุมัติ</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[จำนวนบัตรเครดิตสูงสุดที่บันทึกได้: <br/><span class="help">กำหนดจำนวนบัตรเครดิตสูงสุดที่ลูกค้าจะบันทึกได้ (สูงสุด 100 ใบ) หากตั้งค่าเป็น 0 หรือเว้นว่างไว้ จะไม่อนุญาตให้บันทึกบัตร หมายเหตุด้านความปลอดภัย: รายละเอียดบัตรเครดิตของลูกค้าจะถูกบันทึกไว้ในเซิร์ฟเวอร์ที่ปลอดภัยของ CardConnect เพื่อให้มั่นใจถึงมาตรการรักษาความปลอดภัยข้อมูลสูงสุด จะไม่มีการบันทึกรายละเอียดบัตรเครดิตใดๆ บนไซต์ของคุณ</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[วันที่ทำรายการ]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[จำนวน]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[เงินทุนถูกยึดสำเร็จแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[การจับภาพสำเร็จ สถานะการสั่งซื้ออัปเดตเป็นสำเร็จ - ชำระเงินแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[การคืนเงินได้รับการดำเนินการเรียบร้อยแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[การคืนเงินสำเร็จแล้ว สถานะคำสั่งซื้อได้รับการอัปเดตเป็นคืนเงินแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[การยกเลิกสำเร็จแล้ว สถานะคำสั่งซื้อได้รับการอัปเดตเป็นยกเลิกแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[รายละเอียดการชำระเงิน]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[การชำระเงินถูกจับกุม]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[การชำระเงินเป็นโมฆะ]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[คืนเงินการชำระเงินแล้ว]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[จำนวนการจับ]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[จำนวนเงินที่ขอคืน]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[รหัสการชาร์จ CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[ยอดเงินรวมที่ได้รับอนุมัติ]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[ยอดเงินคงเหลือ]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[การคืนเงินธุรกรรม]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[กรุณายืนยันว่าคุณต้องการยกเลิกการชำระเงินหรือไม่?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[กรุณายืนยันว่าคุณต้องการบันทึกการชำระเงินหรือไม่?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[กรุณายืนยันว่าคุณต้องการคืนเงินการชำระเงินหรือไม่?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[คืนเงิน]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[ความว่างเปล่า]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[การจับกุม]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[ข้อผิดพลาดภายใน ตรวจสอบบันทึกข้อผิดพลาดหรือพารามิเตอร์อินพุต!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[กรุณากรอกจำนวนเงินบวก]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[ไม่สามารถยกเลิกธุรกรรม รีเฟรชและตรวจสอบรายละเอียดธุรกรรมได้]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[ไม่สามารถจับภาพ รีเฟรชรายละเอียดธุรกรรมและตรวจสอบจำนวนเงินที่จับภาพได้]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[ไม่สามารถคืนเงินได้ รีเฟรชรายละเอียดธุรกรรมและตรวจสอบจำนวนเงินคืน]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[สถานะการชำระเงินปัจจุบัน]]></value>
+	</definition>
+</definitions>

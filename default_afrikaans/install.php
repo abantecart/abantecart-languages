@@ -78,3 +78,5 @@ foreach($countryList['zones'] as $id =>$name) {
             (".$id.",".$newLanguageId.",'".$this->db->escape(htmlspecialchars($name))."')"
     );
 }
+
+include('translated_descriptions.php');

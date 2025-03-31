@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Integrasi Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Jika Anda mengaktifkan pajak standar, maka pajak tersebut akan berfungsi bersama dengan Avatax dan Anda mungkin perlu menonaktifkan pajak standar. Periksa Sistem -&gt; Lokalisasi -&gt; <a target="_new" href="#admin#rt=localisation/tax_class">Kelas Pajak</a><br/> Jangan lupa juga untuk mengaktifkan ekstensi <a href="#admin#rt=total/avatax_integration_total">Integrasi Avatax Total</a><br/> Penting! Urutan perhitungan Integrasi Avatax Total dalam total ekstensi harus setelah subtotal. Perhitungan subtotal harus mendahului perhitungan total ekstensi ini. Periksa ini dalam pengaturan total ekstensi.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Nomor Rekening: <br/><span class="help">Nomor rekening disediakan oleh Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Kunci Lisensi: <br/><span class="help">Kunci lisensi disediakan oleh Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[URL Layanan: <br/><span class="help">URL layanan Avalara (aktif atau pengembangan)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Nama Pajak: <br/><span class="help">Nama pajak yang akan ditampilkan kepada pelanggan di bagian total</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Kode Perusahaan: <br/><span class="help">Kode perusahaan yang akan digunakan dengan Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[Kode pos/ZIP toko:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Kesalahan! Harap periksa apakah ekstensi diaktifkan.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Kode Pajak Default Produk]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Metode Pengiriman Kode Pajak Default]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Metode Pengiriman]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Kode Pajak Pengangkutan Barang]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Uji koneksi]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Koneksi berhasil dan Kredensial API dikonfigurasi dengan benar.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Uji koneksi:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Validasi Alamat: <br/><span class="help">Validasi alamat akan dilakukan pada langkah pembayaran pelanggan</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Judul untuk Tombol Validasi Alamat:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Komit dokumen pada Layanan Avatax: <br/><span class="help">Jika mengaktifkan dokumen pajak akan dikomit pada status pesanan yang ditentukan</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Pengembalian dokumen pada Layanan Avatax: <br/><span class="help">Pengembalian akan dicatat pada status pesanan yang ditentukan</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Menyimpan]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Hapus Kode Pajak]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Kode Pajak Produk:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Temukan Kode Pajak]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Status Pengecualian:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[Tertunda]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Disetujui]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Ditolak]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Nomor bebas pajak Anda telah ditolak]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Nomor bebas pajak Anda telah ditolak. Untuk memeriksa keabsahannya, silakan kunjungi halaman detail akun Anda %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Nomor Pembebasan Pajak: <br/><span class="help">Nomor pembebasan pajak</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entity\Use Code: <br/><span class="help">AvaTax memiliki sekelompok kode yang menunjukkan jenis pengecualian. Lihat kode standar atau buat kode khusus di situs AvaTax</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Komit pada status Pesanan:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Pengembalian pada status pesanan:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Batal pada status pesanan:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Kesalahan Nomor Rekening. Periksa!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Keduanya]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[Amerika Serikat]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Kanada]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Negara untuk validasi alamat]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Integrasi Avatax Total]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Aktifkan pencatatan transaksi]]></value>
+	</definition>
+</definitions>

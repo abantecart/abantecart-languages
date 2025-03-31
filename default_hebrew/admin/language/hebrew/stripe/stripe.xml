@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>stripe_name</key>
+		<value><![CDATA[תשלום פס]]></value>
+	</definition>
+	<definition>
+		<key>stripe_note</key>
+		<value><![CDATA[נדרשות הגדרות נוספות כדי להשלים את הגדרת תשלום Stripe. ראה כרטיסיית הגדרות נוספות.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[תַשְׁלוּם]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[הצלחה: שינית את הגדרות התשלום של Stripe!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id</key>
+		<value><![CDATA[מִקוּם:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id_0</key>
+		<value><![CDATA[כל המיקומים]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status</key>
+		<value><![CDATA[סטָטוּס:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_published_key</key>
+		<value><![CDATA[מפתח פורסם:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_autoselect</key>
+		<value><![CDATA[בחירה אוטומטית: <br/><span class="help">אתה יכול להגדיר לדלג על דף בחירת התשלום אם יש רק אפשרות תשלום אחת. אמצעי תשלום זה ייבחר באופן אוטומטי</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list</key>
+		<value><![CDATA[אמצעי תשלום מותרים. <br/><span class="help">השאר ריק לבחירה אוטומטית</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_card</key>
+		<value><![CDATA[קלפים]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_klarna</key>
+		<value><![CDATA[קלרנה]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_acss_debit</key>
+		<value><![CDATA[ACSS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_afterpay_clearpay</key>
+		<value><![CDATA[לאחר תשלום/Clearpay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_alipay</key>
+		<value><![CDATA[אליפיי]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_au_becs_debit</key>
+		<value><![CDATA[הוראת קבע BECS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bacs_debit</key>
+		<value><![CDATA[Bacs הוראת קבע]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_affirm</key>
+		<value><![CDATA[לְאַשֵׁר]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bancontact</key>
+		<value><![CDATA[Bancontact]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_blik</key>
+		<value><![CDATA[בליק]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_boleto</key>
+		<value><![CDATA[בולטו]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_interac_present</key>
+		<value><![CDATA[אינטראק]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_pix</key>
+		<value><![CDATA[פיקס]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_revolut_pay</key>
+		<value><![CDATA[Revolut Pay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_swish</key>
+		<value><![CDATA[לְהַצְלִיף]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_mobilepay</key>
+		<value><![CDATA[MobilePay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_zip</key>
+		<value><![CDATA[רוֹכְסָן]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_eps</key>
+		<value><![CDATA[EPS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_fpx</key>
+		<value><![CDATA[FPX]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_giropay</key>
+		<value><![CDATA[giropay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_grabpay</key>
+		<value><![CDATA[Grabpay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_ideal</key>
+		<value><![CDATA[אִידֵאָלִי]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_konbini</key>
+		<value><![CDATA[קונביני]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_link</key>
+		<value><![CDATA[לְקַשֵׁר]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_oxxo</key>
+		<value><![CDATA[OXXO]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sofort</key>
+		<value><![CDATA[סופורט]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_p24</key>
+		<value><![CDATA[Przelewy24]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_paynow</key>
+		<value><![CDATA[שלם עכשיו]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_promptpay</key>
+		<value><![CDATA[PromptPay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sepa_debit</key>
+		<value><![CDATA[הוראת קבע SEPA]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_us_bank_account</key>
+		<value><![CDATA[הוראת קבע של ACH]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_wechat_pay</key>
+		<value><![CDATA[WeChat Pay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_twint</key>
+		<value><![CDATA[TWINT]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_connect</key>
+		<value><![CDATA[עליך להתחבר לסטריפ כדי להגדיר פרטי תשלום]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_settings</key>
+		<value><![CDATA[הגדרות פס]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[התחבר עם Stripe	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[נתק את ה-Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[לא מצליח להתחבר?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[מחובר ל-Stripe בהצלחה]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[התנתק מ-Stripe בהצלחה]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sort_order</key>
+		<value><![CDATA[סדר מיון]]></value>
+	</definition>
+	<definition>
+		<key>stripe_test_mode</key>
+		<value><![CDATA[מצב בדיקה: <br/><span class="help">הגדר למצב ON אם ברצונך להשתמש במפתח בדיקה</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_live</key>
+		<value><![CDATA[מפתח סודי חי: <br/><span class="help">אתר אותו בקטע מפתחות API של Stripe. מפתח מתחיל ב-sk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_live</key>
+		<value><![CDATA[מפתח בר פרסום חי: <br/><span class="help">אתר אותו בקטע מפתחות API של Stripe. מפתח מתחיל ב-pk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_test</key>
+		<value><![CDATA[בדוק מפתח סודי: <br/><span class="help">אתר אותו בקטע מפתחות API של Stripe. המפתח מתחיל ב-sk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_test</key>
+		<value><![CDATA[בדוק מפתח שניתן לפרסום: <br/><span class="help">אתר אותו בקטע מפתחות API של Stripe. המפתח מתחיל ב-pk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement</key>
+		<value><![CDATA[סוג הפשרה: <br/><span class="help">אם הוגדר כ&#39;אוטומטי&#39;, העסקה תיכלל בחישוב היום. אם הוגדר כ&#39;מעוכב&#39;, העסקה תאושר אך לא תסולק (תפוס). עליך ללכוד עסקאות באופן ידני בתוך 7 ימים ממועד ההרשאה</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_settled</key>
+		<value><![CDATA[הצלחה והסדרה: <br/><span class="help">בחר את סטטוס ההזמנה הראשית שברצונך להגדיר בתגובה לסטטוס מעבד התשלומים</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_unsettled</key>
+		<value><![CDATA[הצלחה ולא מסודרת: <br/><span class="help">בחר את סטטוס ההזמנה הראשית שברצונך להגדיר בתגובה לסטטוס מעבד התשלומים</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_decline</key>
+		<value><![CDATA[דחייה: <br/><span class="help">סטטוס הזמנה שברצונך לרשום בהיסטוריה בתגובה לסטטוס מעבד התשלומים. מצב ההזמנה הראשית אינו מושפע. הזמנה לא תתבצע רק לאחר שהתשלום יצליח.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_void</key>
+		<value><![CDATA[בוטלה: <br/><span class="help">סטטוס הזמנה שברצונך לקבוע אם התשלום מבוטל ב-admin/הזמנה.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_refund</key>
+		<value><![CDATA[החזר כספי: <br/><span class="help">סטטוס הזמנה שברצונך לקבוע אם התשלום יוחזר בניהול/הזמנה.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[תאריך עסקה]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[סְכוּם]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[הכספים נתפסו בהצלחה]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[הלכידה הצליחה, סטטוס ההזמנה עודכן להצלחה - הוסדר]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[ההחזר עובד בהצלחה]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[ההחזר הצליח, סטטוס ההזמנה עודכן להחזר]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[הביטול הצליח, סטטוס ההזמנה עודכן לבטלה]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_auto</key>
+		<value><![CDATA[אוטומטי (הרשאה ולכידה)]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_delayed</key>
+		<value><![CDATA[מתעכב (הרשאה בלבד)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[פרטי תשלום]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[התשלום נתפס]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[התשלום בוטל]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[התשלום הוחזר]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[כמות לכידה]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[סכום החזר]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[מזהה חיוב פס]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[הסכום הכולל מורשה]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[סכום יתרה]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[עסקאות החזר]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[נא לאשר שברצונך לבטל את התשלום?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[נא לאשר שברצונך ללכוד את התשלום?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[נא לאשר שברצונך להחזיר את התשלום?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[הֶחזֵר]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[בָּטֵל]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[לִלְכּוֹד]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[שגיאה פנימית. בדוק יומן שגיאות או פרמטרים של קלט!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[נא להזין סכום חיובי]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[לא ניתן ללכוד, לרענן את פרטי העסקה ולבדוק את כמות הלכידה]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[לא ניתן לבטל עסקה, לרענן ולבדוק את פרטי העסקה]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[לא ניתן להחזיר, רענן את פרטי העסקה ובדוק את סכום ההחזר]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_test</key>
+		<value><![CDATA[נדרש מפתח פס שפורסם]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_live</key>
+		<value><![CDATA[נדרש מפתח פס שפורסם]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_test</key>
+		<value><![CDATA[נדרש מפתח בדיקת פסים]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_live</key>
+		<value><![CDATA[יש צורך במפתח פס חי]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[אזהרה: אין לך הרשאה לשנות את תשלום Stripe!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_webhook_howto_text</key>
+		<value><![CDATA[הערה: כדי להשלים את ההגדרה, עליך ליצור webhooks ב-Stripe Account Side. 
+ <br/> עבור ל- <a href="https://dashboard.stripe.com/webhooks" target="_new">Stripe Dashboard Developer סעיף</a> 
+ והוסף נקודות קצה המקבלות אירועים מחשבונך. לאחר יצירת נקודת הקצה, העתק את סוד החתימה ושמור ב-Stripe Subscription Extension הגדרות שייכות. 
+]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_url</key>
+		<value><![CDATA[כתובת אתר של נקודת קצה:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_signing_secret</key>
+		<value><![CDATA[סוד חתימת נקודות קצה:]]></value>
+	</definition>
+</definitions>

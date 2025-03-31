@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_title</key>
+		<value><![CDATA[Hitelkártya / betéti kártya (Paypal-on keresztül)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_name</key>
+		<value><![CDATA[Paypal kereskedelem]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_manual_connect</key>
+		<value><![CDATA[&nbsp;]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_client_id</key>
+		<value><![CDATA[Az Ön API-ügyfélazonosítója <br/><span class="help">Keresse meg ezt a Paypal irányítópult Saját alkalmazások és hitelesítő adatok szakaszában -&gt; Fejlesztő</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_client_secret</key>
+		<value><![CDATA[Az Ön API titkos kulcsa <br/><span class="help">Keresse meg ezt a Paypal irányítópult Saját alkalmazások és hitelesítő adatok részében -&gt; Fejlesztő</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_mode</key>
+		<value><![CDATA[Teszt mód]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type</key>
+		<value><![CDATA[Tranzakciós mód: <br/><span class="help">PayPal-tranzakció, amelyet az ügyfél pénztáránál kell lefuttatni a megrendelés állapotának beállítása előtt. Csak engedélyezés vagy rögzítés.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type_capture</key>
+		<value><![CDATA[Elfog]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type_authorize</key>
+		<value><![CDATA[Csak engedélyezés]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_connection</key>
+		<value><![CDATA[Kapcsolat tesztelése]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_test</key>
+		<value><![CDATA[Tesztelje most]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_update_webhooks</key>
+		<value><![CDATA[Webhooks frissítése]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_tooltip_update_webhooks</key>
+		<value><![CDATA[ A Webhook beállítása automatikusan történik a PayPalhoz való csatlakozás során. Ezzel a gombbal frissítheti a webhookat a PayPalban ]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_connection_success</key>
+		<value><![CDATA[A kapcsolat sikeresen létrejött.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Fizetés]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sikeres: Módosítottad a Paypal fizetési beállításait!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_location_id</key>
+		<value><![CDATA[Elhelyezkedés:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_location_id_0</key>
+		<value><![CDATA[Minden hely]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status</key>
+		<value><![CDATA[Állapot:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_autoselect</key>
+		<value><![CDATA[
+ Automatikus kiválasztás: <br/><span class="help">Beállíthatja, hogy kihagyja a fizetési kiválasztási oldalt, ha csak egy fizetési lehetőség van. Ez a fizetési mód automatikusan kiválasztásra kerül</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_paypal_commerce_connect</key>
+		<value><![CDATA[A fizetési részletek beállításához csatlakoznia kell a paypalhoz]]></value>
+	</definition>
+	<definition>
+		<key>text_paypal_commerce_settings</key>
+		<value><![CDATA[Paypal beállítások]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_sort_order</key>
+		<value><![CDATA[Rendezési sorrend]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_mode</key>
+		<value><![CDATA[Teszt mód]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_register_webhooks</key>
+		<value><![CDATA[Frissítse a Webhooks végpontokat az API-oldalon]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_register_webhooks_success</key>
+		<value><![CDATA[A Webhooks végpontok frissítése sikeresen megtörtént!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_success_settled</key>
+		<value><![CDATA[Siker és rögzítés: <br/><span class="help">Válassza ki azt a fő rendelési állapotot, amelyet a fizetésfeldolgozó állapotára válaszul szeretne beállítani</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_success_unsettled</key>
+		<value><![CDATA[Sikeres és nem rögzített: <br/><span class="help">Válassza ki a fő rendelés állapotát, amelyet be kíván állítani a fizetésfeldolgozó állapotára válaszul</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_decline</key>
+		<value><![CDATA[
+ Elutasítás: <br/><span class="help">Az előzményekben rögzíteni kívánt megrendelés állapota válaszul a fizetésfeldolgozó állapotára. A főrendelés állapotát ez nem érinti. A megrendelés csak a fizetés sikeressége után kerül feladásra.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_capture_pending</key>
+		<value><![CDATA[Függőben levő:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_refund</key>
+		<value><![CDATA[Visszatérítve: <br/><span class="help">Megrendelés állapota, amelyet be kíván állítani, ha a fizetés visszatérítésre kerül az admin/orderben.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Tranzakció dátuma]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Összeg]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[A pénzeszközöket sikeresen lefoglalták]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[A rögzítés sikeres volt, a rendelés állapota sikeres volt – rögzítve]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[A visszatérítés feldolgozása sikeresen megtörtént]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[A visszatérítés sikeres volt, a rendelés állapota frissítve visszatérített értékre]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Az érvénytelenítés sikeres volt, a rendelés állapotát érvénytelenítettük]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_auto</key>
+		<value><![CDATA[Automatikus (engedélyezés és rögzítés)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_delayed</key>
+		<value><![CDATA[Késik (csak engedélyezés)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Fizetési részletek]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[A fizetést rögzítették]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[A fizetés érvénytelen lett]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[A befizetést visszatérítették]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Rögzítési mennyiség]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Visszatérítés összege]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Paypal díj azonosítója]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Teljes engedélyezett összeg]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Egyenleg összege]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Tranzakciók visszatérítése]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Kérjük, erősítse meg, hogy érvényteleníteni szeretné a fizetést?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Kérjük, erősítse meg, hogy rögzíteni szeretné a fizetést?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Kérjük, erősítse meg, hogy vissza szeretné téríteni a fizetést?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Visszatérítés]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Üres]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Elfog]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Belső hiba. Ellenőrizze a hibanaplót vagy a bemeneti paramétereket!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Kérjük, adja meg a pozitív összeget]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Nem sikerült rögzíteni, frissíteni a tranzakció részleteit és ellenőrizni a rögzítési összeget]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Nem lehet érvényteleníteni a tranzakciót, frissíteni és ellenőrizni a tranzakció részleteit]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Nem sikerült a visszatérítés, frissítse a tranzakció adatait és ellenőrizze a visszatérítés összegét]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Csatlakozzon a Paypalhoz	]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[A Paypal leválasztása]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Nem tud csatlakozni?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Sikeresen csatlakozott a Paypalhoz]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Sikeresen leválasztották a Paypalról]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Nincs jogosultsága a Paypal kereskedelmi fizetés módosítására!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_auto</key>
+		<value><![CDATA[Automatikus (engedélyezés és rögzítés)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_delayed</key>
+		<value><![CDATA[Késik (csak engedélyezés)]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Belső hiba. Ellenőrizze a hibanaplót vagy a bemeneti paramétereket!]]></value>
+	</definition>
+	<definition>
+		<key>error_paypal_commerce_client_id</key>
+		<value><![CDATA[App Client ID szükséges]]></value>
+	</definition>
+	<definition>
+		<key>error_paypal_commerce_client_secret</key>
+		<value><![CDATA[Az alkalmazás titkos kulcsa szükséges]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Nincs jogosultsága a Paypal kereskedelmi fizetés módosítására!]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Hiba! Kérjük, ellenőrizze, hogy a bővítmény be van-e kapcsolva.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_back</key>
+		<value><![CDATA[Vissza]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_webhook_howto_text</key>
+		<value><![CDATA[Megjegyzés: A beállítás befejezéséhez webhookot kell létrehoznia a Paypal-fiók oldalán. 
+ <br/> Nyissa meg <a href="https://dashboard.paypal.com/webhooks" target="_new">a Paypal Dashboard fejlesztői</a> 
+ szakaszát, és adja hozzá a fiókjából eseményeket fogadó végpontokat. A végpont létrehozása után másolja ki az aláírási titkot és mentse el a Paypal előfizetési bővítmény beállításait. 
+]]></value>
+	</definition>
+</definitions>

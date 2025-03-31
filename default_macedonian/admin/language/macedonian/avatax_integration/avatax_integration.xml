@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Аватакс интеграција]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Ако имате овозможено стандарден данок, тој ќе функционира заедно со Avatax и можеби ќе треба да ги оневозможите стандардните даноци. Проверете систем -&gt; Локализација -&gt; <a target="_new" href="#admin#rt=localisation/tax_class">Даночна класа</a><br/> Исто така, не заборавајте да ја овозможите екстензијата <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Вкупно</a><br/> Важно! Интеграција на Avatax Вкупниот редослед на пресметување во вкупните вкупни наставки мора да биде по подзбирот. Пресметка на субтот треба да претходи на оваа вкупна пресметка. Проверете го ова во вкупните поставки за екстензии.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Број на сметка: <br/><span class="help">Број на сметка обезбеден од Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Лиценца клуч: <br/><span class="help">Лиценца клуч обезбеден од Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[УРЛ на услугата: <br/><span class="help">URL на услугата Avalara (во живо или развој)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Даночно име: <br/><span class="help">Даночно име треба да му се прикаже на клиентот во делот вкупни суми</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Код на компанијата: <br/><span class="help">Код на компанијата што ќе се користи со Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[Продавница поштенски/поштенски број:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Грешка! Проверете дали екстензијата е вклучена.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Стандарден даночен код на производот]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Методи за испорака Стандардни даночни кодови]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Начин на испорака]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Кодекс за данок на товар]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Тест за поврзување]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Поврзувањето е успешно и акредитивите на API се правилно конфигурирани.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Тест за поврзување:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Валидација на адресата: <br/><span class="help">Потврдата на адресата ќе се изврши на чекорот за наплата на клиентот</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Наслов за копче за валидација на адреса:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Документи за обврзување на услугата Avatax: <br/><span class="help">Доколку е овозможено даночниот документ ќе се приложи во одреден статус на нарачка</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Документи за враќање на услугата Avatax: <br/><span class="help">Враќањето ќе се евидентира во одреден статус на нарачка</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Зачувај]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Исчистете го даночниот код]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Даночен код на производи:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Најдете даночен код]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Статус на ослободување:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[Во очекување]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Одобрено]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Одбиено]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Вашиот број за даночно ослободување е одбиен]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Вашиот број за даночно ослободување е одбиен. За да ја проверите валидноста, посетете ја страницата со детали за вашата сметка %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Број на ослободување: <br/><span class="help">Број на даночно ослободување</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entity\Use Code: <br/><span class="help">AvaTax има група шифри кои го означуваат типот на изземање. Видете ги стандардните кодови или креирајте сопствени кодови на страницата AvaTax</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Посветете се на статус на нарачка:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Статус на враќање на нарачката:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Статус на откажување при нарачка:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Грешка со број на сметка. Проверете го!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[И двете]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[САД]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Канада]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Земји за валидација на адресата]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Вкупен интеграција на Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Овозможете евиденција на трансакции]]></value>
+	</definition>
+</definitions>

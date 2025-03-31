@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Frakt]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Suksess: Du har endret frakt FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[
+ Fedex-produksjonsnøkkel: <br/><span class="help">Skriv inn Fedex-produksjonsnøkkelen som er tildelt deg, nødvendig.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Fedex produksjonspassord: <br/><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[
+ Kontonummer: <br/><span class="help">Skriv inn fedex-kontonummeret som er tildelt deg, påkrevd.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Fedex-målernummer: <br/><span class="help">Skriv inn FedEx-målernummer.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Adresse: <br/><span class="help">Frakt fra gateadresse.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[By: <br/><span class="help">Frakt fra by.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Stat: <br/><span class="help">Frakt fra stat (to bokstaver).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[Postnummer: <br/><span class="help">Frakt fra postnummer.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Land: <br/><span class="help">Frakt fra land (to bokstaver).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[
+ Tilbud Type: <br/><span class="help">Tilbud for bolig eller kommersiell levering.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Bolig]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Kommersiell]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[
+ tilleggsgebyrer: <br/><span class="help">tilleggsgebyr pålagt Fedex-tilbud.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[ FEDEX First Overnight ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[ FEDEX-prioritet over natten	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[ FEDEX Standard over natten	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[ FEDEX 2. dag ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[ FEDEX Express Saver	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[ FEDEX bakken	]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advarsel: Du har ikke tillatelse til å endre frakt FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Konto-ID kreves!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Fedex måler-ID kreves!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[For å få ditt målernummer og autorisasjonsnøkkel, må du følge disse trinnene:</br> 
+ Gå til <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br/> 
+ Logg på med FedEx-brukernavn og passord eller klikk Registrer nå hvis de ikke har et. <br/> 
+ Klikk på &quot;Tekniske ressurser&quot; (venstre side). <br/> 
+ Under det klikker du på &quot;FedEx webtjenester for frakt. <br/> 
+ Klikk på &quot;Flytt til produksjon&quot; (høyre side). <br/> 
+ Rull ned til knappen og klikk på &quot;Obtain Production Key&quot;. <br/> 
+ På skjemaet velger du &quot;Nei&quot; på spørsmål 1. <br/> 
+ Kryss av 
+ den første boksen på spørsmål 2. <br/> 
+ Velg &quot;Corporate Accept Developer Agreement&quot; på <br/><br/> 
+. (ikke bruk bindestreker i kontonummeret). <br/> 
+ Motta målernummer og nøkkel umiddelbart. Ditt produksjonspassord sendes til deg når du har fullført trinnene ovenfor.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Testmodus: <br/><span class="help">Vil du bruke live- eller testgateway-serveren?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[ Ja ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[ Ingen ]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Test tilkoblingen din: <span class="help">Du kan teste om API-legitimasjonen du har angitt er riktig.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Tilkoblingen er vellykket og API-legitimasjonen er riktig konfigurert.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Feil! Vennligst sjekk om utvidelsen er slått PÅ.]]></value>
+	</definition>
+</definitions>

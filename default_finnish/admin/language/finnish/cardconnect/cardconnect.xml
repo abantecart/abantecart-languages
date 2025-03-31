@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[Voit hankkia API-tunnistetiedot osoitteesta https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[Kauppiaan tunnus]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[API-käyttäjänimi]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[API-salasana]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[Kirjaaminen: <br/><span class="help">Lokitiedosto sijaitsee system/logs/cardconnect.txt-tiedostossa</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[Testata]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[Testaa yhteys]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[Hanki Test API -tunnistetiedot]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[Testitila]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[Verkkotunnuksen osa API:ksi: <br/><span class="help">Tätä arvoa ei pidä muuttaa, ellei cardConnent ole määrittänyt muuta.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[Yhteyden muodostaminen onnistui ja API-tunnistetiedot on määritetty oikein.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[Kaikki paikat]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[Sijainti]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[Hyvitetty: <br/><span class="help">Tilauksen tila, jonka haluat asettaa, jos maksu palautetaan järjestelmänvalvojassa/tilauksessa</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[Hylkääminen: <br/><span class="help">Tilauksen tila, jonka haluat tallentaa historiaan vastauksena maksunkäsittelijän tilaan. Päätilauksen tila ei vaikuta. Tilausta ei tehdä vasta maksun onnistumisen jälkeen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[Onnistui ja ei selvitetty: <br/><span class="help">Valitse päätilauksen tila, jonka haluat asettaa vastauksena maksunkäsittelijän tilaan</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[Onnistuminen ja suoritettu: <br/><span class="help">Valitse päätilauksen tila, jonka haluat asettaa vastauksena maksunkäsittelijän tilaan</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[Mitätöity: <br/><span class="help">Tilauksen tila, jonka haluat asettaa, jos maksu mitätöidään admin/tilauksessa.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[Automaattinen (valtuuta ja kaappaa)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[Viivästynyt (vain valtuutus)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Selvitystyyppi: <br/><span class="help">Jos asetuksena on &quot;auto&quot;, tapahtuma sisällytetään tämän päivän selvitykseen. Jos asetukseksi on asetettu &#39;viivästetty&#39;, tapahtuma valtuutetaan, mutta sitä ei suoriteta (saaputetaan). Sinun on kerättävä tapahtumat manuaalisesti 7 päivän kuluessa valtuutuksen tekemisestä</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[Tallennettujen luottokorttien enimmäismäärä: <br/><span class="help">Aseta asiakkaiden tallentamien luottokorttien enimmäismäärä (enintään 100). Jos asetus on 0 tai tyhjä, korttien tallentaminen ei ole sallittua. Turvahuomautus: Asiakkaan luottokorttitiedot tallennetaan suojatuille CardConnect-palvelimille parhaan mahdollisen tietoturvan varmistamiseksi. Luottokorttitietoja ei tallenneta sivustollesi.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Tapahtuman päivämäärä]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Määrä]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Rahat kerättiin onnistuneesti]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Sieppaus onnistui, tilauksen tila päivitetty onnistuneeksi - ratkaistu]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Hyvityksen käsittely onnistui]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Hyvitys onnistui, tilauksen tilaksi päivitettiin hyvitetty]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Void onnistui, tilauksen tilaksi päivitettiin mitätöity]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Maksutiedot]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Maksu talletettu]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Maksu mitätöity]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Maksu palautettu]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Kaappauksen määrä]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Hyvityssumma]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[CardConnect-veloitustunnus]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[Sallittu kokonaismäärä]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Saldo summa]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Hyvitystapahtumat]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Vahvista, että haluat mitätöidä maksun?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Vahvista, että haluat kaapata maksun?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Vahvista, että haluat hyvittää maksun?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Palauttaa]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Tyhjä]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Kaapata]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Sisäinen virhe. Tarkista virheloki tai syöttöparametrit!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Anna positiivinen summa]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Tapahtumaa ei voi mitätöidä, päivittää ja tarkistaa tapahtumatietoja]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Ei voi siepata, päivittää tapahtumatietoja ja tarkistaa keräyssumma]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Hyvitys epäonnistui, päivitä tapahtumatiedot ja tarkista hyvityssumma]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[Selvityksen nykyinen tila]]></value>
+	</definition>
+</definitions>

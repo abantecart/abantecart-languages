@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Avatax integracija]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Ako imate omogućen standardni porez, funkcionirat će zajedno s Avataxom i možda ćete morati onemogućiti standardne poreze. Provjerite Sustav -&gt; Lokalizacija -&gt; <a target="_new" href="#admin#rt=localisation/tax_class">Porezna klasa</a><br/> Također ne zaboravite omogućiti proširenje <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br/> Važno! Avatax Integration Ukupni redoslijed izračuna u zbrojevima proširenja mora biti iza međuzbroja. Izračun međuzbroja trebao bi prethoditi ovom proširenom ukupnom izračunu. Provjerite ovo u ukupnim postavkama proširenja.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Broj računa: <br/><span class="help">Broj računa osigurava Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Ključ licence: <br/><span class="help">ključa licence osigurava Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[URL usluge: <br/><span class="help">URL usluge Avalara (uživo ili u razvoju)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Naziv poreza: <br/><span class="help">Naziv poreza koji se prikazuje kupcu u odjeljku ukupnih iznosa</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Šifra tvrtke: <br/><span class="help">Šifra tvrtke koja se koristi s Avalarom</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[Poštanski broj trgovine:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Greška! Provjerite je li proširenje UKLJUČENO.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Zadani porezni broj proizvoda]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Metode dostave Zadani porezni kodovi]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Način dostave]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Šifra poreza na teret]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Testirajte vezu]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Veza je uspješna i API vjerodajnice su ispravno konfigurirane.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Probna veza:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Provjera valjanosti adrese: <br/><span class="help">Provjera valjanosti adrese izvršit će se prilikom odjave kupca</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Naslov za gumb za provjeru adrese:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Upućivanje dokumenata na uslugu Avatax: <br/><span class="help">Ako je omogućeno, porezni dokument bit će angažiran u navedenom statusu naloga</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Dokumenti za povrat na usluzi Avatax: <br/><span class="help">Povrat će biti zabilježen u navedenom statusu narudžbe</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Uštedjeti]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Obriši porezni broj]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Porezni broj proizvoda:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Pronađite porezni broj]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Status izuzeća:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[Na čekanju]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Odobreno]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Odbijeno]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Vaš broj oslobođenja od poreza je odbijen]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Vaš broj oslobođenja od poreza je odbijen. Za provjeru valjanosti posjetite stranicu s detaljima računa %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Broj izuzeća: <br/><span class="help">Broj izuzeća od poreza</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entitet\Korisnički kod: <br/><span class="help">AvaTax ima grupu kodova koji označavaju vrstu izuzeća. Pogledajte standardne kodove ili kreirajte prilagođene kodove na AvaTax stranici</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Obaveza statusa narudžbe:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Status povrata narudžbe:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Otkaži status narudžbe:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Greška u broju računa. Provjerite!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Oba]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[SAD]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Kanada]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Zemlje za provjeru adrese]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Ukupna integracija Avataxa]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Omogući bilježenje transakcija]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Gestionnaire de données de chiffrement]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Extensions]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[ Outils de cryptage des données ]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Statut:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Ordre de tri :]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Générer une paire de clés]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Crypter les données]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Attention : vous n&#39;avez pas l&#39;autorisation de modifier les frais d&#39;expédition en fonction du poids !]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Erreur : la paire de noms de clés sélectionnée existe déjà !]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[
+ <b>Cette extension nécessite une configuration et une attention AVANCÉES</b><br/> 
+ <b>Une fois activée et les données chiffrées, il n&#39;y a AUCUNE annulation et l&#39;extension ne peut pas être désactivée !</b><br/> 
+ Cette extension permet de gérer la création des clés de chiffrement et la migration des données des tables ouvertes vers les tables chiffrées (migration initiale) <br/> 
+ <b>REMARQUE :</b> vous devez avoir PHP avec le chiffrement SSL <b>ACTIVÉ</b> 
+ <br/> 
+ <br/> Pour activer le chiffrement des données, veuillez lire les instructions d&#39;aide (bouton COMMENT FAIRE)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Attention : OpenSSL pour PHP n&#39;est pas disponible ou activé. Vous ne pouvez pas utiliser le chiffrement ni cette extension ! <br/> Consultez l&#39;AIDE de cette extension pour plus de détails.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Attention : le chiffrement des données n&#39;est pas activé sur votre AbanteCart. Vous ne pouvez pas chiffrer/déchiffrer les données avec cette extension ! <br/> Consultez l&#39;AIDE de cette extension pour plus de détails.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Générer une paire de clés]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Crypter les données]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Champs de données obligatoires manquants. Veuillez vérifier les valeurs fournies.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Nom unique de la paire de clés : <br/><span class="help">Le nom ne doit contenir aucun espace ni caractère spécial. Il doit être court et simple.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Longueur de la clé (bits) : <br/><span class="help">Spécifiez la longueur de la clé de chiffrement. Un nombre plus élevé représente un chiffrement plus puissant, mais peut ralentir les performances (plage de 256 à 8 192).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Type de chiffrement : <br/><span class="help">Il s&#39;agit d&#39;un algorithme de chiffrement. Utilisez le RSA par défaut si vous n&#39;êtes pas un utilisateur expérimenté.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Activer la clé basée sur un mot de passe : <br/><span class="help">Si cette option est activée, une phrase secrète supplémentaire sera requise pour déchiffrer le texte à l&#39;aide d&#39;une clé privée. REMARQUE : cette option n&#39;est actuellement pas prise en charge pour le chiffrement des données.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Mot de passe ou phrase de passe clé : <br/><span class="help">N&#39;oubliez pas que la phrase de passe ou la ou les clés seront inutiles et que les données pourraient être perdues</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>La paire de clés a été créée. Consultez les clés ci-dessous et conservez-les précieusement.</b><br/><br/> %s <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Échec de la génération de la paire de clés. Vérifiez vos paramètres et le journal des erreurs.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Nom de la paire de clés : <br/><span class="help">Sélectionnez la clé à utiliser pour le chiffrement. IMPORTANT : mémorisez la clé que vous avez utilisée.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Table(s) à chiffrer : <br/><span class="help">tables affichées seront chiffrées avec la clé sélectionnée. Les données ne peuvent être ouvertes qu&#39;avec cette clé.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Mode test : <br/><span class="help">Vérifiez d&#39;abord que tout est OK pour être encré.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Supprimer les données sources : <br/><span class="help"> supprimer les enregistrements de données sources non chiffrés une fois le chiffrement terminé</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Les données ont été chiffrées. <br/> Voir les détails :</b><br/><br/> %s <br/><br/><b>Si vous souhaitez que cette clé soit utilisée pour un nouveau chiffrement de données, ajoutez la ligne suivante au fichier system/config.php : define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;%s&#39;);</b> ]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Résultat du test de cryptage des données</b> Vérifiez le journal des erreurs pour détecter d&#39;éventuelles erreurs ! <br/><br/> %s ]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Échec du chiffrement des données. Vérifiez vos paramètres et le journal des erreurs.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Remarques importantes ! Une fois le chiffrement terminé, les données seront copiées dans des tables miroirs chiffrées. 
+ <br/> Suivez les instructions pour configurer le fichier system/config.php afin qu&#39;AbanteCart bascule les opérations de lecture/écriture vers les tables chiffrées.</b><br/> Ajoutez la ligne suivante au fichier de configuration : define(&#39;DATA_ENCRYPTION_KEYPAIR&#39;, &#39;your_key_name&#39;); <br/> Cette clé sera la clé par défaut pour les opérations de lecture/écriture. ]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Utilisation du cryptage]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Enregistrements de données non chiffrés]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Utilisez l&#39;onglet « Crypter les données » pour le cryptage initial]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Enregistrements de données cryptées]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[ID de clé]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Nom de la clé]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Utilisation des tables cryptées]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Faire pivoter (modifier) le chiffrement vers une nouvelle clé]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[enregistrement(s)]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Toimitus]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Onnistui: Olet muokannut toimitusta FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[
+ Fedex-tuotantoavain: <br/><span class="help">Anna sinulle määritetty Fedex-tuotantoavain, pakollinen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Fedex-tuotannon salasana: <br/><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[
+ Tilinumero: <br/><span class="help">Syötä sinulle määritetty fedex-tilinumero, pakollinen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Fedex-mittarin numero: <br/><span class="help">Syötä FedEx-mittarin numero.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Osoite: <br/><span class="help">Toimitus katuosoitteesta.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[Kaupunki: <br/><span class="help">Toimitus kaupungista.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Tila: <br/><span class="help">Toimitus osavaltiosta (kaksi kirjainta).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[Postinumero: <br/><span class="help">Toimitus postinumerosta.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Maa: <br/><span class="help">Toimitus maasta (kaksi kirjainta).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[
+ Tarjoustyyppi: <br/><span class="help">Tarjous kotiin tai kaupalliseen toimitukseen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Asuin]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[kaupallinen]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[
+ Lisämaksut: <br/><span class="help">Lisämaksua sovelletaan fedex-tarjoukseen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[ FEDEX First Overnight ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[ FEDEX Priority Overnight	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[ FEDEX Standard Yöpyminen	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[ FEDEX 2. päivä ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[ FEDEX Express Saver	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[ FEDEX Ground	]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muuttaa toimitusta FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Tilitunnus vaaditaan!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Fedex-mittarin tunnus vaaditaan!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[Saadaksesi mittarin numeron ja valtuutusavaimen, sinun on noudatettava näitä vaiheita:</br> 
+ Siirry osoitteeseen <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br/> 
+ Kirjaudu sisään FedEx-käyttäjätunnuksella ja salasanalla tai napsauta Rekisteröidy nyt, jos heillä ei ole sellaista. <br/> 
+ Napsauta &quot;Tekniset resurssit&quot; (vasemmalla). <br/> 
+ Napsauta sen alta &quot;FedEx-verkkopalvelut lähetystä varten. <br/> 
+ Napsauta &quot;Siirrä tuotantoon&quot; (oikealla). <br/> 
+ Vieritä alas painikkeeseen ja napsauta &quot;Obtain Production Key&quot;. <br/> 
+ Valitse lomakkeella &quot;Ei&quot; kysymyksessä 1. <br/> 
+ Valitse ensimmäinen valintaruutu kysymyksessä 2. <br/> 
+ Valitse &quot;Yrityskehittäjä <br/> 
+ <br/> 
+ lomake (älä käytä viivoja tilinumerossa 
+ <br/>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Testitila: <br/><span class="help">Käytätkö live- tai testausyhdyskäytäväpalvelinta?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[ Kyllä ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[ Ei ]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Testaa yhteytesi: <span class="help">Voit testata, ovatko antamasi API-tunnistetiedot oikein.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Testata]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Yhteyden muodostaminen onnistui ja API-tunnistetiedot on määritetty oikein.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Virhe! Tarkista, onko laajennus päällä.]]></value>
+	</definition>
+</definitions>

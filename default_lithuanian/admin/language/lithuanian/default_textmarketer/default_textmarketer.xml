@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[Norėdami įjungti SMS žinutes, eikite į Sistema -&gt; Nustatymai -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
+ ir pasirinkite TextMarketer kaip numatytąją SMS tvarkyklę. Nepamirškite įjungti skilties, iš kurios norite gauti SMS (administratoriaus ar parduotuvės filialo). <br/> 
+ Šis plėtinys leis administratoriams ir klientams pateikti mobiliojo telefono lauką. Atminkite, kad išjungus šį plėtinį šis laukas bus paslėptas. 
+ Jei pridėsite prie esamos parduotuvės su klientais, atminkite, kad šios informacijos trūks. 
+		]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API vartotojo vardas]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API slaptažodis]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Pranešėjas: <span class="help">iš kas yra pranešimas (pranešėjas arba siuntėjo ID). Tai gali būti 11 raidinių ir skaitinių simbolių arba 16 tik skaitinių simbolių.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Bandymo režimas]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[Nr]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[Taip]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Klaidų registravimo būsena <span class="help">Jei norite registruoti visas „TextMarketer“ plėtinio klaidas, įjunkite šį nustatymą.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[ Mobilusis Telefonas ]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Išbandykite ryšį: <span class="help">galite patikrinti, ar įvesti API kredencialai yra teisingi.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[ Testas ]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Klaida! Patikrinkite, ar plėtinys įjungtas.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Klaida! Įveskite gavėjo telefono numerį.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Daugiau informacijos rasite klaidų žurnale.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Prisijungimas sėkmingas, o API kredencialai sukonfigūruoti tinkamai.]]></value>
+	</definition>
+</definitions>
