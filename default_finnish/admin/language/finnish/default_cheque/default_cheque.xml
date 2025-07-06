@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>default_cheque_name</key>
-		<value><![CDATA[Sekki / maksumääräys]]></value>
+		<value><![CDATA[Sekki / Rahalähetys]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -10,15 +10,15 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Onnistuminen: Olet muokannut sekki-/maksumääräystilin tietoja!]]></value>
+		<value><![CDATA[Onnistui: olet muokannut shekki-/rahalähetys-tilin tietoja!]]></value>
 	</definition>
 	<definition>
 		<key>default_cheque_payable</key>
-		<value><![CDATA[Maksettava vastaanottaja: <br/><span class="help">Anna nimisekki, johon on kirjoitettava</span>]]></value>
+		<value><![CDATA[Maksettavaksi:<br /><span class="help">Anna nimi, johon sekki pitää kirjoittaa</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_cheque_address</key>
-		<value><![CDATA[Postitus tai lähetys: <br/><span class="help">Anna osoite, johon sekki lähetetään. Päämyymälän osoitetta käytetään, jos se on tyhjä</span>]]></value>
+		<value><![CDATA[Lähetä osoitteeseen:<br /><span class="help">Anna osoite, johon shekki lähetetään. Jos kenttä on tyhjä, käytetään päämyymälän osoitetta</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_cheque_order_status_id</key>
@@ -30,14 +30,14 @@
 	</definition>
 	<definition>
 		<key>default_cheque_location_id_0</key>
-		<value><![CDATA[Kaikki paikat]]></value>
+		<value><![CDATA[Kaikki sijainnit]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muuttaa maksusekkiä/maksumääräystä!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata maksutsekkiä / rahalähetettä!]]></value>
 	</definition>
 	<definition>
 		<key>error_payable</key>
-		<value><![CDATA[Maksettava Pakollinen!]]></value>
+		<value><![CDATA[Maksunsaaja on pakollinen!]]></value>
 	</definition>
 </definitions>

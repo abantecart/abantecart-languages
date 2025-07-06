@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Виробники і бренди]]></value>
+		<value><![CDATA[Бренди]]></value>
 	</definition>
 	<definition>
 		<key>text_manufacturer</key>
-		<value><![CDATA[Виробник або марка]]></value>
+		<value><![CDATA[Бренд]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: Ви змінили виробників!]]></value>
+		<value><![CDATA[Успіх: Ви змінили бренди!]]></value>
 	</definition>
 	<definition>
 		<key>text_default</key>
-		<value><![CDATA[дефолт]]></value>
+		<value><![CDATA[За замовчуванням]]></value>
 	</definition>
 	<definition>
 		<key>text_image_manager</key>
-		<value><![CDATA[Диспетчер зображень]]></value>
+		<value><![CDATA[Менеджер зображень]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[Назва виробника]]></value>
+		<value><![CDATA[Назва бренду]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
@@ -30,27 +30,31 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[дію]]></value>
+		<value><![CDATA[Дія]]></value>
+	</definition>
+	<definition>
+		<key>column_products</key>
+		<value><![CDATA[Кількість товарів]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Найменування Виробник:]]></value>
+		<value><![CDATA[Назва бренду:]]></value>
 	</definition>
 	<definition>
 		<key>entry_store</key>
-		<value><![CDATA[магазини:]]></value>
+		<value><![CDATA[Магазини:]]></value>
 	</definition>
 	<definition>
 		<key>entry_keyword</key>
-		<value><![CDATA[SEO Ключове слово:]]></value>
+		<value><![CDATA[SEO ключове слово:]]></value>
 	</definition>
 	<definition>
 		<key>entry_edit</key>
-		<value><![CDATA[редагувати]]></value>
+		<value><![CDATA[Редагувати]]></value>
 	</definition>
 	<definition>
 		<key>entry_image</key>
-		<value><![CDATA[зображення:]]></value>
+		<value><![CDATA[Зображення:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -58,26 +62,22 @@
 	</definition>
 	<definition>
 		<key>error_manufacturer_not_found</key>
-		<value><![CDATA[Помилка: Виробник не найден!]]></value>
+		<value><![CDATA[Помилка: Бренд не знайдено!]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Увага: У вас немає дозволу на зміну виробників!]]></value>
+		<value><![CDATA[Увага: Ви не маєте дозволу змінювати бренди!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Виробник Назва повинна бути від 2 до 64 символів!]]></value>
+		<value><![CDATA[Назва бренду повинна бути від 2 до 64 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_product</key>
-		<value><![CDATA[Увага: цей виробник не може бути видалений, як це в даний час віднесені до продукції %s!]]></value>
+		<value><![CDATA[Увага: Цей бренд не можна видалити, оскільки він наразі призначений для %s товарів!]]></value>
 	</definition>
 	<definition>
 		<key>text_success_layout</key>
 		<value><![CDATA[Успіх: Ви змінили макет сторінки категорії.]]></value>
-	</definition>
-	<definition>
-		<key>column_products</key>
-		<value><![CDATA[Кількість продуктів]]></value>
 	</definition>
 </definitions>

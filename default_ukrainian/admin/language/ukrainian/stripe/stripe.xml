@@ -2,11 +2,11 @@
 <definitions>
 	<definition>
 		<key>stripe_name</key>
-		<value><![CDATA[Смуговий платіж]]></value>
+		<value><![CDATA[Платіж Stripe]]></value>
 	</definition>
 	<definition>
 		<key>stripe_note</key>
-		<value><![CDATA[Для завершення налаштування платежу Stripe потрібні додаткові налаштування. Перегляньте вкладку додаткових налаштувань.]]></value>
+		<value><![CDATA[Для завершення налаштування платежів Stripe потрібні додаткові налаштування. Див. вкладку «Додаткові налаштування».]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -14,15 +14,15 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: ви змінили налаштування платежів Stripe!]]></value>
+		<value><![CDATA[Успіх: Ви змінили налаштування оплати Stripe!]]></value>
 	</definition>
 	<definition>
 		<key>stripe_location_id</key>
-		<value><![CDATA[Розташування:]]></value>
+		<value><![CDATA[Місцезнаходження:]]></value>
 	</definition>
 	<definition>
 		<key>stripe_location_id_0</key>
-		<value><![CDATA[Усі локації]]></value>
+		<value><![CDATA[Всі локації]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status</key>
@@ -34,15 +34,15 @@
 	</definition>
 	<definition>
 		<key>stripe_autoselect</key>
-		<value><![CDATA[Автоматичний вибір: <br/><span class="help">Ви можете налаштувати пропуск сторінки вибору платежу, якщо є лише один варіант оплати. Цей спосіб оплати буде вибрано автоматично</span>]]></value>
+		<value><![CDATA[Автоматичний вибір:<br /><span class="help">Ви можете налаштувати пропуск сторінки вибору способу оплати, якщо є лише один варіант оплати. Цей метод оплати буде вибрано автоматично</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list</key>
-		<value><![CDATA[Дозволені способи оплати. <br/><span class="help">Залиште порожнім для автоматичного вибору</span>]]></value>
+		<value><![CDATA[Дозволені методи оплати. <br /><span class="help">Залиште порожнім для автоматичного вибору</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_card</key>
-		<value><![CDATA[картки]]></value>
+		<value><![CDATA[Картки]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_klarna</key>
@@ -62,15 +62,15 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_au_becs_debit</key>
-		<value><![CDATA[Прямий дебет BECS]]></value>
+		<value><![CDATA[BECS Пряме дебетування]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_bacs_debit</key>
-		<value><![CDATA[Прямий дебет Bacs]]></value>
+		<value><![CDATA[Пряме дебетування через Bacs]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_affirm</key>
-		<value><![CDATA[Підтвердити]]></value>
+		<value><![CDATA[Affirm]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_bancontact</key>
@@ -78,19 +78,19 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_blik</key>
-		<value><![CDATA[Blik]]></value>
+		<value><![CDATA[Блік]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_boleto</key>
-		<value><![CDATA[Boleto]]></value>
+		<value><![CDATA[Болето]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_interac_present</key>
-		<value><![CDATA[Interac]]></value>
+		<value><![CDATA[Інтерак]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_pix</key>
-		<value><![CDATA[Пікс]]></value>
+		<value><![CDATA[Pix]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_revolut_pay</key>
@@ -98,7 +98,7 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_swish</key>
-		<value><![CDATA[Свист]]></value>
+		<value><![CDATA[Swish]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_mobilepay</key>
@@ -106,7 +106,7 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_zip</key>
-		<value><![CDATA[Zip]]></value>
+		<value><![CDATA[Поштовий індекс]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_eps</key>
@@ -126,7 +126,7 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_ideal</key>
-		<value><![CDATA[IDEAL]]></value>
+		<value><![CDATA[iDEAL]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_konbini</key>
@@ -150,7 +150,7 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_paynow</key>
-		<value><![CDATA[PayNow]]></value>
+		<value><![CDATA[Оплатити зараз]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_promptpay</key>
@@ -158,11 +158,11 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_sepa_debit</key>
-		<value><![CDATA[Прямий дебет SEPA]]></value>
+		<value><![CDATA[SEPA пряме дебетування]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_us_bank_account</key>
-		<value><![CDATA[Прямий дебет ACH]]></value>
+		<value><![CDATA[ACH Пряме дебетування]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_wechat_pay</key>
@@ -174,23 +174,23 @@
 	</definition>
 	<definition>
 		<key>text_stripe_connect</key>
-		<value><![CDATA[Вам потрібно підключитися до Stripe, щоб налаштувати платіжні деталі]]></value>
+		<value><![CDATA[Вам потрібно підключитися до Stripe, щоб налаштувати платіжні дані.]]></value>
 	</definition>
 	<definition>
 		<key>text_stripe_settings</key>
-		<value><![CDATA[Налаштування смуги]]></value>
+		<value><![CDATA[Налаштування Stripe]]></value>
 	</definition>
 	<definition>
 		<key>text_connect</key>
-		<value><![CDATA[Підключіться до Stripe	]]></value>
+		<value><![CDATA[Підключитися до Stripe]]></value>
 	</definition>
 	<definition>
 		<key>text_disconnect</key>
-		<value><![CDATA[Відключіть Stripe]]></value>
+		<value><![CDATA[Відключити Stripe]]></value>
 	</definition>
 	<definition>
 		<key>text_skip_connect</key>
-		<value><![CDATA[Не можете підключитися?]]></value>
+		<value><![CDATA[Не вдається підключитися?]]></value>
 	</definition>
 	<definition>
 		<key>text_connect_success</key>
@@ -206,47 +206,47 @@
 	</definition>
 	<definition>
 		<key>stripe_test_mode</key>
-		<value><![CDATA[Тестовий режим: <br/><span class="help">Увімкніть, якщо ви хочете використовувати тестовий ключ</span>]]></value>
+		<value><![CDATA[Тестовий режим:<br /><span class="help">Увімкніть, якщо ви хочете використовувати тестовий ключ</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_sk_live</key>
-		<value><![CDATA[Секретний ключ Live: <br/><span class="help">Знайдіть це в розділі ключів Stripe API. Ключ починається на sk_live_...</span>]]></value>
+		<value><![CDATA[Секретний ключ робочого режиму:<br /><span class="help">Знайдіть його в розділі API-ключів Stripe. Ключ починається з sk_live_...</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_pk_live</key>
-		<value><![CDATA[Ключ для публікації в реальному часі: <br/><span class="help">Знайдіть це в розділі ключів Stripe API. Ключ починається з pk_live_...</span>]]></value>
+		<value><![CDATA[Живий публічний ключ:<br /><span class="help">Знайдіть це в розділі ключів API Stripe. Ключ починається з pk_live_... </span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_sk_test</key>
-		<value><![CDATA[Перевірте секретний ключ: <br/><span class="help">Знайдіть це в розділі ключів Stripe API. Ключ починається з sk_test_...</span>]]></value>
+		<value><![CDATA[Тестовий секретний ключ:<br /><span class="help">Знайдіть його в розділі API-ключів Stripe. Ключ починається з sk_test_... </span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_pk_test</key>
-		<value><![CDATA[Перевірте опублікований ключ: <br/><span class="help">Знайдіть це в розділі ключів Stripe API. Ключ починається з pk_test_...</span>]]></value>
+		<value><![CDATA[Тестовий публічний ключ:<br /><span class="help">Знайдіть це в розділі Ключі API Stripe. Ключ починається з pk_test_...</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_settlement</key>
-		<value><![CDATA[Тип розрахунку: <br/><span class="help">Якщо встановлено «автоматичний», транзакцію буде включено до сьогоднішнього розрахунку. Якщо встановлено значення «відкладено», транзакція буде авторизована, але не розрахована (зафіксована). Ви повинні вручну зафіксувати транзакції протягом 7 днів після авторизації</span>]]></value>
+		<value><![CDATA[Тип розрахунку:<br /><span class="help">Якщо встановлено 'auto', транзакція буде включена в сьогоднішній розрахунок. Якщо встановлено 'delayed', транзакція буде авторизована, але не розрахована (не захоплена). Ви повинні вручну захопити транзакції протягом 7 днів з моменту авторизації</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_success_settled</key>
-		<value><![CDATA[Успіх і завершено: <br/><span class="help">Виберіть статус основного замовлення, який потрібно встановити у відповідь на статус платіжного процесора</span>]]></value>
+		<value><![CDATA[Успішно та зараховано:<br /><span class="help">Виберіть основний статус замовлення, який потрібно встановити у відповідь на статус платіжного процесора</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_success_unsettled</key>
-		<value><![CDATA[Успішно та не здійснено: <br/><span class="help">Виберіть статус основного замовлення, який потрібно встановити у відповідь на статус платіжного процесора</span>]]></value>
+		<value><![CDATA[Успішно, але не зараховано:<br /><span class="help">Виберіть основний статус замовлення, який ви хочете встановити у відповідь на статус платіжного процесора</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_decline</key>
-		<value><![CDATA[Відхилити: <br/><span class="help">Статус замовлення, який потрібно записати в історію відповідно до статусу платіжного процесора. Статус основного замовлення не впливає. Замовлення не буде розміщено лише після успішної оплати.</span>]]></value>
+		<value><![CDATA[Відмова:<br /><span class="help">Статус замовлення, який ви хочете записати в історію у відповідь на статус платіжного процесора. Основний статус замовлення не змінюється. Замовлення буде оформлене лише після успішного завершення платежу.</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_void</key>
-		<value><![CDATA[Анульовано: <br/><span class="help">Статус замовлення, який потрібно встановити, якщо платіж анульовано в адмін/замовленні.</span>]]></value>
+		<value><![CDATA[Анулювано:<br /><span class="help">Стан замовлення, який буде встановлено, якщо платіж анульовано в admin/order.</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_refund</key>
-		<value><![CDATA[Повернено: <br/><span class="help">статуси замовлення, які ви бажаєте встановити, якщо платіж повернуто в адмін/замовлення.</span>]]></value>
+		<value><![CDATA[Повернено:<br /><span class="help">Статус замовлення, який ви хочете встановити, якщо оплата буде повернена в admin/order.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_column_date_added</key>
@@ -258,27 +258,27 @@
 	</definition>
 	<definition>
 		<key>text_captured_ok</key>
-		<value><![CDATA[Кошти були успішно залучені]]></value>
+		<value><![CDATA[Кошти були успішно списані]]></value>
 	</definition>
 	<definition>
 		<key>text_captured_order</key>
-		<value><![CDATA[Захоплення пройшло успішно, статус замовлення оновлено до успішного – вирішено]]></value>
+		<value><![CDATA[Захоплення пройшло успішно, статус замовлення оновлено на успішно - врегульовано]]></value>
 	</definition>
 	<definition>
 		<key>text_refunded_ok</key>
-		<value><![CDATA[Відшкодування оброблено успішно]]></value>
+		<value><![CDATA[Повернення коштів успішно оброблено]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_order</key>
-		<value><![CDATA[Відшкодування виконано, статус замовлення оновлено на відшкодовано]]></value>
+		<value><![CDATA[Повернення пройшло успішно, статус замовлення оновлено на «Поверено»]]></value>
 	</definition>
 	<definition>
 		<key>text_voided</key>
-		<value><![CDATA[Анулювання виконано успішно, статус замовлення змінено на анульовано]]></value>
+		<value><![CDATA[Скасування пройшло успішно, статус замовлення оновлено на анульований]]></value>
 	</definition>
 	<definition>
 		<key>stripe_settlement_auto</key>
-		<value><![CDATA[Автоматично (авторизувати та захопити)]]></value>
+		<value><![CDATA[Авто (авторизація та списання)]]></value>
 	</definition>
 	<definition>
 		<key>stripe_settlement_delayed</key>
@@ -286,23 +286,23 @@
 	</definition>
 	<definition>
 		<key>text_payment_info</key>
-		<value><![CDATA[Платіжні реквізити]]></value>
+		<value><![CDATA[Деталі платежу]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_status</key>
-		<value><![CDATA[Платіж зафіксовано]]></value>
+		<value><![CDATA[Платіж було списано]]></value>
 	</definition>
 	<definition>
 		<key>text_void_status</key>
-		<value><![CDATA[Платіж анульовано]]></value>
+		<value><![CDATA[Платіж було анульовано]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_status</key>
-		<value><![CDATA[Оплату повернули]]></value>
+		<value><![CDATA[Платіж було повернуто]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_amount</key>
-		<value><![CDATA[Сума захоплення]]></value>
+		<value><![CDATA[Сума списання]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_amount</key>
@@ -310,27 +310,27 @@
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[Stripe Charge ID]]></value>
+		<value><![CDATA[Ідентифікатор платежу Stripe]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total</key>
-		<value><![CDATA[Загальна дозволена сума]]></value>
+		<value><![CDATA[Загальна авторизована сума]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[Сума залишку]]></value>
+		<value><![CDATA[Сума балансу]]></value>
 	</definition>
 	<definition>
 		<key>text_transactions</key>
-		<value><![CDATA[Трансакції повернення коштів]]></value>
+		<value><![CDATA[Транзакції повернення]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_void</key>
-		<value><![CDATA[Будь ласка, підтвердьте, що ви хочете анулювати платіж?]]></value>
+		<value><![CDATA[Будь ласка, підтвердіть, що ви хочете анулювати платіж?]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_capture</key>
-		<value><![CDATA[Підтвердьте, що ви хочете отримати платіж?]]></value>
+		<value><![CDATA[Будь ласка, підтвердіть, що ви хочете списати платіж?]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_refund</key>
@@ -342,11 +342,11 @@
 	</definition>
 	<definition>
 		<key>button_void</key>
-		<value><![CDATA[Пустота]]></value>
+		<value><![CDATA[Скасувати]]></value>
 	</definition>
 	<definition>
 		<key>button_capture</key>
-		<value><![CDATA[захоплення]]></value>
+		<value><![CDATA[Списати]]></value>
 	</definition>
 	<definition>
 		<key>error_system</key>
@@ -354,27 +354,27 @@
 	</definition>
 	<definition>
 		<key>error_missing_amount</key>
-		<value><![CDATA[Введіть позитивну суму]]></value>
+		<value><![CDATA[Будь ласка, введіть позитивну суму]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_capture</key>
-		<value><![CDATA[Не вдалося зафіксувати, оновити деталі транзакції та перевірити отриману суму]]></value>
+		<value><![CDATA[Не вдається здійснити захоплення, оновити інформацію про транзакцію та перевірити суму захоплення]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_void</key>
-		<value><![CDATA[Неможливо анулювати транзакцію, оновити та перевірити деталі транзакції]]></value>
+		<value><![CDATA[Не вдалося анулювати транзакцію, оновіть і перевірте деталі транзакції]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_refund</key>
-		<value><![CDATA[Неможливо відшкодувати, оновити дані транзакції та перевірити суму відшкодування]]></value>
+		<value><![CDATA[Не вдається здійснити повернення, оновіть деталі транзакції та перевірте суму повернення]]></value>
 	</definition>
 	<definition>
 		<key>error_stripe_pk_test</key>
-		<value><![CDATA[Потрібен ключ Stripe Published]]></value>
+		<value><![CDATA[Публічний ключ Stripe є обов’язковим.]]></value>
 	</definition>
 	<definition>
 		<key>error_stripe_pk_live</key>
-		<value><![CDATA[Потрібен ключ Stripe Published]]></value>
+		<value><![CDATA[Публічний ключ Stripe є обов’язковим.]]></value>
 	</definition>
 	<definition>
 		<key>error_stripe_sk_test</key>
@@ -382,22 +382,21 @@
 	</definition>
 	<definition>
 		<key>error_stripe_sk_live</key>
-		<value><![CDATA[Потрібен живий ключ Stripe]]></value>
+		<value><![CDATA[Потрібний live-ключ Stripe.]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Попередження: у вас немає дозволу змінювати платіж Stripe!]]></value>
+		<value><![CDATA[Попередження: Ви не маєте дозволу змінювати оплату Stripe!]]></value>
 	</definition>
 	<definition>
 		<key>stripe_webhook_howto_text</key>
-		<value><![CDATA[Примітка: щоб завершити налаштування, вам слід створити веб-хуки на стороні облікового запису Stripe. 
- <br/> Перейдіть до <a href="https://dashboard.stripe.com/webhooks" target="_new">розділу</a> 
- розробника інформаційної панелі Stripe і додайте кінцеві точки, які отримують події з вашого облікового запису. Після створення кінцевої точки скопіюйте Signing Secret і збережіть у налаштуваннях Stripe Subscription Extension. 
-]]></value>
+		<value><![CDATA[Примітка: щоб завершити налаштування, вам слід створити вебхуки в обліковому записі Stripe.	
+<br> Перейдіть у ваш <a href="https://dashboard.stripe.com/webhooks" target="_new">розділ розробників панелі керування Stripe</a>	
+та додайте кінцеві точки (Endpoints) для отримання подій із вашого облікового запису. Після створення кінцевої точки скопіюйте Signing Secret і збережіть його в налаштуваннях розширення Stripe Subscription Extension.]]></value>
 	</definition>
 	<definition>
 		<key>stripe_entry_endpoint_url</key>
-		<value><![CDATA[URL кінцевої точки:]]></value>
+		<value><![CDATA[URL-адреса кінцевої точки:]]></value>
 	</definition>
 	<definition>
 		<key>stripe_entry_endpoint_signing_secret</key>

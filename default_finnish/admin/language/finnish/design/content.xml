@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Sisällönhallinta]]></value>
+		<value><![CDATA[Sisällönpäällikkö]]></value>
 	</definition>
 	<definition>
 		<key>insert_title</key>
-		<value><![CDATA[Lisää uutta sisältöä]]></value>
+		<value><![CDATA[Lisää uusi sisältö]]></value>
 	</definition>
 	<definition>
 		<key>update_title</key>
@@ -14,31 +14,31 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Sinulla on muutettu sisältöä!]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut sisältöä!]]></value>
 	</definition>
 	<definition>
 		<key>text_success_layout</key>
-		<value><![CDATA[Success: Olet muokannut sisältöä sivun asettelua.]]></value>
+		<value><![CDATA[Onnistui: olet muokannut sisältösivun asettelua.]]></value>
 	</definition>
 	<definition>
 		<key>text_hidden</key>
-		<value><![CDATA[kätketty]]></value>
+		<value><![CDATA[Piilotettu]]></value>
 	</definition>
 	<definition>
 		<key>text_default</key>
-		<value><![CDATA[oletusarvo]]></value>
+		<value><![CDATA[Oletus]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[sisältö Otsikko]]></value>
+		<value><![CDATA[Sisällön otsikko]]></value>
 	</definition>
 	<definition>
 		<key>column_parent</key>
-		<value><![CDATA[Parent sisältö]]></value>
+		<value><![CDATA[Ylätason sisältö]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent</key>
-		<value><![CDATA[Parent Sisältö Sivu]]></value>
+		<value><![CDATA[Vanhempi sisältösivu]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
@@ -49,20 +49,24 @@
 		<value><![CDATA[Status]]></value>
 	</definition>
 	<definition>
+		<key>column_publish_date</key>
+		<value><![CDATA[Julkaisupäivä]]></value>
+	</definition>
+	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Toiminta]]></value>
+		<value><![CDATA[Toiminto]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Sisältö Otsikko:]]></value>
+		<value><![CDATA[Sisältöotsikko:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[Kuvaus:]]></value>
+		<value><![CDATA[Kuvaus:<br /><span class="help">HTML-tageja ei suositella sisällön kuvaukseen! Tämä riippuu verkkokauppasi mallipohjasta</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_content</key>
-		<value><![CDATA[sisältö:]]></value>
+		<value><![CDATA[Sisältö:]]></value>
 	</definition>
 	<definition>
 		<key>entry_store</key>
@@ -74,104 +78,99 @@
 	</definition>
 	<definition>
 		<key>entry_keyword</key>
-		<value><![CDATA[SEO Avainsana:]]></value>
+		<value><![CDATA[SEO-avainsana:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
 		<value><![CDATA[Lajittelujärjestys:]]></value>
 	</definition>
 	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata sisältöä!]]></value>
-	</definition>
-	<definition>
-		<key>error_title</key>
-		<value><![CDATA[Sisältö Otsikko on oltava 2 ja 64 merkkiä!]]></value>
-	</definition>
-	<definition>
-		<key>error_description</key>
-		<value><![CDATA[Kuvaus on enemmän kuin 1 merkkiä!]]></value>
-	</definition>
-	<definition>
-		<key>error_content</key>
-		<value><![CDATA[Sisältö on enemmän kuin 1 merkkiä!]]></value>
-	</definition>
-	<definition>
-		<key>error_seo_url</key>
-		<value><![CDATA[SEO URL-osoitteen on oltava yli 1 merkkiä!]]></value>
-	</definition>
-	<definition>
-		<key>error_account</key>
-		<value><![CDATA[Varoitus: Tämä sisältö ei voi poistaa, koska se on tällä hetkellä määrätty oletussäilössä tiliehtojen!]]></value>
-	</definition>
-	<definition>
-		<key>error_checkout</key>
-		<value><![CDATA[Varoitus: Tämä sisältö ei voi poistaa, koska se on tällä hetkellä määritetty oletukseksi kaupan kassalla ehdot!]]></value>
-	</definition>
-	<definition>
-		<key>error_required_data</key>
-		<value><![CDATA[Tarvittavat tiedot ei ole kirjattu. Tarkista kentän virheitä!]]></value>
-	</definition>
-	<definition>
-		<key>text_top_level</key>
-		<value><![CDATA[Huipputaso]]></value>
-	</definition>
-	<definition>
-		<key>text_any</key>
-		<value><![CDATA[minkä tahansa]]></value>
-	</definition>
-	<definition>
-		<key>tab_form</key>
-		<value><![CDATA[Muokata]]></value>
-	</definition>
-	<definition>
-		<key>column_publish_date</key>
-		<value><![CDATA[Julkaisupäivämäärä]]></value>
-	</definition>
-	<definition>
 		<key>entry_publish_date</key>
-		<value><![CDATA[Julkaisupäivämäärä:]]></value>
+		<value><![CDATA[Julkaisupäivä:]]></value>
 	</definition>
 	<definition>
 		<key>entry_expire_date</key>
-		<value><![CDATA[Viimeinen voimassaolopäivä:]]></value>
+		<value><![CDATA[Erääntymispäivämäärä:]]></value>
 	</definition>
 	<definition>
 		<key>entry_content_bar</key>
-		<value><![CDATA[Sisällön tietopalkki: <br/><span class="help">Ota tämä asetus käyttöön, jos haluat näyttää tekijän ja julkaisupäivämäärän sisältävän palkin sisältösivulla</span>]]></value>
+		<value><![CDATA[Sisällön tietopalkki:<br /><span class="help">Ota tämä asetus käyttöön näyttääksesi palkin, jossa on kirjoittaja ja julkaisuajankohta sisältösivulla</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_icon</key>
-		<value><![CDATA[Pääkuva tai -kuvake:]]></value>
+		<value><![CDATA[Pääkuva tai kuvake:]]></value>
 	</definition>
 	<definition>
 		<key>entry_tags</key>
-		<value><![CDATA[Sisältötunnisteet: <br/><span class="help">pilkulla erotettu luettelo</span>]]></value>
+		<value><![CDATA[Sisällön tunnisteet:<br /><span class="help">pilkuin eroteltu luettelo</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_author</key>
 		<value><![CDATA[Tekijä:]]></value>
 	</definition>
 	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeuksia muokata sisältöä!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[Sisällön otsikon pituuden on oltava 2–255 merkkiä!]]></value>
+	</definition>
+	<definition>
 		<key>error_title_html</key>
-		<value><![CDATA[Sisällön otsikko ei saa sisältää HTML-tageja!]]></value>
+		<value><![CDATA[Sisällön otsikko ei voi sisältää HTML-tageja!]]></value>
+	</definition>
+	<definition>
+		<key>error_description</key>
+		<value><![CDATA[Kuvauksen on oltava yli 1 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_description_html</key>
-		<value><![CDATA[Sisällönkuvauksen HTML-tageja ei tueta!]]></value>
+		<value><![CDATA[Sisällönkuvauksen HTML-tunnisteita ei tueta!]]></value>
+	</definition>
+	<definition>
+		<key>error_content</key>
+		<value><![CDATA[Sisällön on oltava yli 1 merkkiä!]]></value>
+	</definition>
+	<definition>
+		<key>error_seo_url</key>
+		<value><![CDATA[SEO-URLin on oltava yli 1 merkkiä!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Varoitus: Tätä sisältöä ei voi poistaa, koska se on tällä hetkellä määritelty oletuskaupan tiliehdoiksi!]]></value>
+	</definition>
+	<definition>
+		<key>error_checkout</key>
+		<value><![CDATA[Varoitus: Tätä sisältöä ei voi poistaa, koska se on tällä hetkellä asetettu oletusmyymälän kassaehdoiksi!]]></value>
 	</definition>
 	<definition>
 		<key>error_delete_parent</key>
-		<value><![CDATA[
- Varoitus: vanhempien sisältöä ei voi poistaa! Siirrä tai poista ensin lapsisisältösivut.]]></value>
+		<value><![CDATA[Varoitus: Vanhempien sisältösivuja ei voi poistaa! Siirrä tai poista ensin alasisältösivut.]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Pakollisia tietoja ei ole syötetty. Tarkista kenttävirheet!]]></value>
+	</definition>
+	<definition>
+		<key>text_top_level</key>
+		<value><![CDATA[Ylin taso]]></value>
+	</definition>
+	<definition>
+		<key>text_any</key>
+		<value><![CDATA[mikä tahansa]]></value>
+	</definition>
+	<definition>
+		<key>tab_form</key>
+		<value><![CDATA[Muokkaa]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[ Sisällönkuvauskentän kuvaus: ]]></value>
+		<value><![CDATA[Meta-tagin kuvaus:]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_keywords</key>
-		<value><![CDATA[Sisällönkuvauskentän avainsanat:]]></value>
+		<value><![CDATA[Meta-avainsanat:]]></value>
 	</definition>
 	<definition>
 		<key>text_clone</key>
@@ -179,14 +178,14 @@
 	</definition>
 	<definition>
 		<key>text_success_copy</key>
-		<value><![CDATA[Onnistuminen: Olet onnistuneesti kopioinut sisältösivun <b>%s</b> !]]></value>
+		<value><![CDATA[Onnistuminen: Sinä olet onnistuneesti kopioinut sisältösivun <b>%s</b>!]]></value>
 	</definition>
 	<definition>
 		<key>text_success_copy_layout</key>
-		<value><![CDATA[ Huomautus: Myös sisältösivun asettelu on kloonattu.]]></value>
+		<value><![CDATA[Huomautus: Sisältösivun asettelu on myös kloonattu.]]></value>
 	</definition>
 	<definition>
 		<key>text_error_copy</key>
-		<value><![CDATA[Kloonaus on epäonnistunut! Alkuperäinen sisältösivu ei ole saatavilla]]></value>
+		<value><![CDATA[Kopiointi epäonnistui! Alkuperäinen sisältösivu ei ole saatavilla]]></value>
 	</definition>
 </definitions>

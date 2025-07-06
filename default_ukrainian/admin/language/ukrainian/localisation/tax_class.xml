@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[податкові Класи]]></value>
+		<value><![CDATA[Класи податків]]></value>
 	</definition>
 	<definition>
 		<key>text_class</key>
-		<value><![CDATA[Податковий клас]]></value>
+		<value><![CDATA[Податкова група]]></value>
 	</definition>
 	<definition>
 		<key>text_rate</key>
-		<value><![CDATA[Ставка податку]]></value>
+		<value><![CDATA[Податкова ставка]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -18,27 +18,27 @@
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[Податковий Назва Клас]]></value>
+		<value><![CDATA[Назва податкового класу]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[дію]]></value>
+		<value><![CDATA[Дія]]></value>
 	</definition>
 	<definition>
 		<key>tab_details</key>
-		<value><![CDATA[деталі]]></value>
+		<value><![CDATA[Деталі]]></value>
 	</definition>
 	<definition>
 		<key>tab_rates</key>
-		<value><![CDATA[ставки]]></value>
+		<value><![CDATA[Тарифи]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Податковий клас Назва:]]></value>
+		<value><![CDATA[Назва податкового класу:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[Опис видимим для клієнтів]]></value>
+		<value><![CDATA[Опис, видимий клієнтам]]></value>
 	</definition>
 	<definition>
 		<key>entry_location</key>
@@ -46,31 +46,31 @@
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[Розташування зони]]></value>
+		<value><![CDATA[Зона розташування]]></value>
 	</definition>
 	<definition>
 		<key>entry_priority</key>
-		<value><![CDATA[пріоритет]]></value>
+		<value><![CDATA[Пріоритет]]></value>
 	</definition>
 	<definition>
 		<key>entry_rate</key>
-		<value><![CDATA[Ставка податку]]></value>
+		<value><![CDATA[Податкова ставка]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Увага: Ви не маєте права змінювати податкові класи!]]></value>
+		<value><![CDATA[Попередження: Ви не маєте дозволу змінювати податкові класи!]]></value>
 	</definition>
 	<definition>
 		<key>error_tax_title</key>
-		<value><![CDATA[Податковий клас Назва повинна бути від 2 до 32 символів!]]></value>
+		<value><![CDATA[Назва податкового класу має бути від 2 до 32 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_rate</key>
-		<value><![CDATA[Ставка податку не потрібно!]]></value>
+		<value><![CDATA[Ставка податку обов'язкова!]]></value>
 	</definition>
 	<definition>
 		<key>error_product</key>
-		<value><![CDATA[Увага: Цей податок клас не може бути видалений, як це в даний час віднесені до продукції %s!]]></value>
+		<value><![CDATA[Увага: цей клас податку не може бути видалений, оскільки він наразі призначений %s товарам!]]></value>
 	</definition>
 	<definition>
 		<key>text_tax_all_zones</key>
@@ -78,18 +78,18 @@
 	</definition>
 	<definition>
 		<key>entry_tax_rate_threshold</key>
-		<value><![CDATA[Застосувати податок, якщо <br/><span class="help">застосувати цей податок тільки</span> в тому <span class="help">випадку, обкладатися податком сума (продукт, відправка, субтотальная і т.д.) ...</span>]]></value>
+		<value><![CDATA[Нараховувати податок, якщо<br /><span class="help">Нараховувати цей податок лише якщо оподатковувана сума (товарів, доставки, проміжного підсумку тощо) є ...</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_exempt_groups</key>
-		<value><![CDATA[Звільняється від податку Групи <br/><span class="help">Виберіть групи клієнтів, щоб звільнити від цього податку</span>]]></value>
+		<value><![CDATA[Групи, звільнені від податку<br /><span class="help">Виберіть групи клієнтів для звільнення від цього податку</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_absolute</key>
-		<value><![CDATA[абсолют]]></value>
+		<value><![CDATA[Абсолютний]]></value>
 	</definition>
 	<definition>
 		<key>text_percent</key>
-		<value><![CDATA[відсотків]]></value>
+		<value><![CDATA[Відсоток]]></value>
 	</definition>
 </definitions>

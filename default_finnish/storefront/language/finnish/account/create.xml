@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -14,7 +14,7 @@
 	</definition>
 	<definition>
 		<key>text_account_already</key>
-		<value><![CDATA[Jos sinulla on jo tili meillä, kirjaudu klo <a style="text-decoration: underline" href="%s">kirjautumissivulla</a> .]]></value>
+		<value><![CDATA[Jos sinulla on jo tili meillä, kirjaudu sisään <a style="text-decoration: underline" href="%s">kirjautumissivulle</a>.]]></value>
 	</definition>
 	<definition>
 		<key>text_your_details</key>
@@ -22,11 +22,11 @@
 	</definition>
 	<definition>
 		<key>text_your_address</key>
-		<value><![CDATA[Osoitteesi]]></value>
+		<value><![CDATA[Sinun osoitteesi]]></value>
 	</definition>
 	<definition>
 		<key>text_newsletter</key>
-		<value><![CDATA[tiedote]]></value>
+		<value><![CDATA[Uutiskirje]]></value>
 	</definition>
 	<definition>
 		<key>text_your_password</key>
@@ -42,7 +42,7 @@
 	</definition>
 	<definition>
 		<key>entry_loginname</key>
-		<value><![CDATA[Kirjautumisnimi:]]></value>
+		<value><![CDATA[Käyttäjätunnus:]]></value>
 	</definition>
 	<definition>
 		<key>entry_firstname</key>
@@ -66,7 +66,7 @@
 	</definition>
 	<definition>
 		<key>entry_company</key>
-		<value><![CDATA[Yhtiö:]]></value>
+		<value><![CDATA[Yritys:]]></value>
 	</definition>
 	<definition>
 		<key>entry_address_1</key>
@@ -102,7 +102,7 @@
 	</definition>
 	<definition>
 		<key>entry_confirm</key>
-		<value><![CDATA[Salasana Hyväksy:]]></value>
+		<value><![CDATA[Salasanan vahvistus:]]></value>
 	</definition>
 	<definition>
 		<key>error_exists</key>
@@ -110,23 +110,23 @@
 	</definition>
 	<definition>
 		<key>error_loginname</key>
-		<value><![CDATA[Kirjaudu nimen on oltava aakkosnumeerinen vain välillä 5 ja 64 merkkiä!]]></value>
+		<value><![CDATA[Käyttäjätunnuksen on oltava pelkästään kirjaimia ja numeroita, ja sen pituuden on oltava 5–64 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_loginname_notunique</key>
-		<value><![CDATA[Tämä kirjautumisnimi ei ole käytettävissä. Kokeile eri kirjautumisnimi!]]></value>
+		<value><![CDATA[Tämä käyttäjätunnus ei ole käytettävissä. Kokeile eri käyttäjätunnusta!]]></value>
 	</definition>
 	<definition>
 		<key>error_firstname</key>
-		<value><![CDATA[Etunimi on oltava 1 ja 32 merkkiä!]]></value>
+		<value><![CDATA[Etunimen on oltava 1–32 merkin pituinen!]]></value>
 	</definition>
 	<definition>
 		<key>error_lastname</key>
-		<value><![CDATA[Sukunimi on oltava 1 ja 32 merkkiä!]]></value>
+		<value><![CDATA[Sukunimen pituuden on oltava 1-32 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[Sähköpostiosoite ei näytä olevan voimassa!]]></value>
+		<value><![CDATA[Sähköpostiosoite ei näytä olevan kelvollinen!]]></value>
 	</definition>
 	<definition>
 		<key>error_email_exists</key>
@@ -134,23 +134,23 @@
 	</definition>
 	<definition>
 		<key>error_password</key>
-		<value><![CDATA[Salasanan on oltava 4 ja 20 merkkiä!]]></value>
+		<value><![CDATA[Salasanan pituuden on oltava 4–20 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_confirm</key>
-		<value><![CDATA[Salasanan vahvistus ei täsmää salasana!]]></value>
+		<value><![CDATA[Salasanan vahvistus ei täsmää salasanan kanssa!]]></value>
 	</definition>
 	<definition>
 		<key>error_address_1</key>
-		<value><![CDATA[Osoite 1 on oltava 3 ja 128 merkkiä!]]></value>
+		<value><![CDATA[Osoitteen 1 pituuden on oltava 3 ja 128 merkin välillä!]]></value>
 	</definition>
 	<definition>
 		<key>error_city</key>
-		<value><![CDATA[Kaupunki on oltava välillä 3 ja 128 merkkiä!]]></value>
+		<value><![CDATA[Kaupungin on oltava 3 ja 128 merkin välillä!]]></value>
 	</definition>
 	<definition>
 		<key>error_postcode</key>
-		<value><![CDATA[Zip / postinumero oltava välillä 3 ja 10 merkkiä!]]></value>
+		<value><![CDATA[ZIP-koodi/postinumero on oltava välillä 3–10 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_country</key>
@@ -158,23 +158,23 @@
 	</definition>
 	<definition>
 		<key>error_zone</key>
-		<value><![CDATA[Valitse alue / valtio!]]></value>
+		<value><![CDATA[Valitse alue / osavaltio!]]></value>
 	</definition>
 	<definition>
 		<key>error_telephone</key>
-		<value><![CDATA[Puhelin tulee olla välillä 3 ja 32 merkkiä!]]></value>
+		<value><![CDATA[Puhelinnumeron pituuden on oltava 3–32 merkkiä ja sen on koostuttava pelkistä numeroista!]]></value>
 	</definition>
 	<definition>
 		<key>error_agree</key>
-		<value><![CDATA[Virhe: on hyväksyttävä %s!]]></value>
+		<value><![CDATA[Virhe: Sinun täytyy hyväksyä %s!]]></value>
 	</definition>
 	<definition>
 		<key>text_full_register</key>
-		<value><![CDATA[Tule asiakkaaksi ja rekisteröidyttävä tietosi]]></value>
+		<value><![CDATA[Liity asiakkaaksi ja rekisteröidy antamalla tietosi]]></value>
 	</definition>
 	<definition>
 		<key>text_subscribe_register</key>
-		<value><![CDATA[Ryhdy uutiskirjeen tilaaja]]></value>
+		<value><![CDATA[Liity uutiskirjeen tilaajaksi]]></value>
 	</definition>
 	<definition>
 		<key>text_success_subscribe_heading</key>
@@ -182,22 +182,22 @@
 	</definition>
 	<definition>
 		<key>text_success_subscribe</key>
-		<value><![CDATA[Success: Uutiskirjeen tilaus on onnistuneesti luotu!]]></value>
+		<value><![CDATA[Onnistui: Sinun uutiskirjeen tilauksesi on luotu onnistuneesti!]]></value>
 	</definition>
 	<definition>
 		<key>error_subscriber_exists</key>
-		<value><![CDATA[Tietojemme mukaan sinulla on tili meillä. Kirjaudu tilillesi hallita uutiskirjeen tilaus.]]></value>
+		<value><![CDATA[Tietojemme mukaan sinulla on meillä tili. Kirjaudu sisään tilillesi hallitaksesi uutiskirjeen tilaustasi.]]></value>
 	</definition>
 	<definition>
 		<key>text_new_customer</key>
-		<value><![CDATA[Uusi asiakas rekisteröinti hyväksyntä on vireillä]]></value>
+		<value><![CDATA[Uuden asiakkaan rekisteröinnin hyväksyntä on vireillä]]></value>
 	</definition>
 	<definition>
 		<key>text_pending_customer_approval</key>
-		<value><![CDATA[Asiakas %s on rekisteröity uuden tilin. Toiminta hyväksyntä vaaditaan! Klikkaa nähdäksesi #admin#rt=sale/customer/update&customer_id=%s]]></value>
+		<value><![CDATA[Asiakas %s on rekisteröitynyt uudelle tilille. Hyväksyntä vaaditaan! Klikkaa nähdäksesi #admin#rt=sale/customer/update&customer_id=%s]]></value>
 	</definition>
 	<definition>
 		<key>text_pending_subscriber_approval</key>
-		<value><![CDATA[Tilaaja %s on rekisteröity uuden tilin. Toiminta hyväksyntä vaaditaan! Klikkaa nähdäksesi #admin#rt=sale/customer/update&customer_id=%s]]></value>
+		<value><![CDATA[Tilaaja %s on rekisteröitynyt uudelle tilille. Tarvitaan hyväksyntä! Klikkaa nähdäksesi #admin#rt=sale/customer/update&customer_id=%s]]></value>
 	</definition>
 </definitions>

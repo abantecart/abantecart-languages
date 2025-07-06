@@ -1,36 +1,40 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>im_text_notification</key>
-		<value><![CDATA[повідомлення]]></value>
+		<value><![CDATA[Повідомлення]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_order_update</key>
-		<value><![CDATA[порядок поновлення]]></value>
+		<value><![CDATA[Оновлення замовлень]]></value>
 	</definition>
 	<definition>
 		<key>im_order_update_text_to_customer</key>
-		<value><![CDATA[Ваше замовлення <a href="%s">#%s</a> був оновлений. Для отримання більш детальної інформації, увійдіть в %s рахунок.]]></value>
+		<value><![CDATA[Ваше замовлення <a href="%s">#%s</a> було оновлено. Для отримання додаткової інформації увійдіть у свій обліковий запис %s.]]></value>
+	</definition>
+	<definition>
+		<key>im_order_update_text_to_guest</key>
+		<value><![CDATA[Ваше замовлення <a href="%s">#%s</a> було оновлено. Для отримання детальнішої інформації, будь ласка, відвідайте сторінку замовлення %s.]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_order</key>
-		<value><![CDATA[нові замовлення]]></value>
+		<value><![CDATA[Нові замовлення]]></value>
 	</definition>
 	<definition>
 		<key>im_new_order_text_to_admin</key>
-		<value><![CDATA[Новий порядок <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a> був створений!]]></value>
+		<value><![CDATA[Нове замовлення <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a> було створено!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_customer</key>
-		<value><![CDATA[Зареєстрований клієнтів]]></value>
+		<value><![CDATA[Реєстрації клієнтів]]></value>
 	</definition>
 	<definition>
 		<key>im_new_customer_text_to_admin</key>
-		<value><![CDATA[Новий клієнт #%s був зареєстрований!]]></value>
+		<value><![CDATA[Новий клієнт #%s було зареєстровано!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_account_update</key>
-		<value><![CDATA[Оновлення облікового запису адміністратора користувачів]]></value>
+		<value><![CDATA[Оновлення облікового запису користувача-адміністратора]]></value>
 	</definition>
 	<definition>
 		<key>im_account_update_text_to_admin</key>
@@ -38,23 +42,23 @@
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_admin</key>
-		<value><![CDATA[Новий клієнт #%s був оновлено!]]></value>
+		<value><![CDATA[Новий клієнт #%s був оновлений!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_customer_contact</key>
-		<value><![CDATA[запити клієнтів]]></value>
+		<value><![CDATA[Запити клієнтів]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_out_of_stock</key>
-		<value><![CDATA[Продукти Немає на складі]]></value>
+		<value><![CDATA[Товари відсутні на складі]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_review</key>
-		<value><![CDATA[Нові Огляди продукції]]></value>
+		<value><![CDATA[Нові відгуки про товари]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_newsletter</key>
-		<value><![CDATA[Інформаційні бюлетені]]></value>
+		<value><![CDATA[Розсилки]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_system_messages</key>
@@ -62,30 +66,26 @@
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_customer</key>
-		<value><![CDATA[Нова транзакція була розміщена на ваш рахунок %s в розмірі %s. Для отримання більш детальної інформації, увійдіть в %s рахунок.]]></value>
+		<value><![CDATA[Нова транзакція зарахована на ваш %s обліковий запис на суму %s. Для отримання додаткових відомостей увійдіть у %s обліковий запис.]]></value>
 	</definition>
 	<definition>
 		<key>text_notification_for</key>
-		<value><![CDATA[Повідомлення для користувачів %s]]></value>
+		<value><![CDATA[Сповіщення для користувача %s]]></value>
 	</definition>
 	<definition>
 		<key>error_unknown_sendpoint</key>
-		<value><![CDATA[Sendpoint %s не найден в списку sendpoints!]]></value>
+		<value><![CDATA[Sendpoint %s не знайдено у списку sendpoints!]]></value>
 	</definition>
 	<definition>
 		<key>text_settings_success_saved</key>
-		<value><![CDATA[Налаштування повідомлень успішно збережені!]]></value>
+		<value><![CDATA[Налаштування сповіщень успішно збережено!]]></value>
 	</definition>
 	<definition>
 		<key>im_error_mail_address</key>
-		<value><![CDATA[Адреса електронної пошти %s виглядає недійсним!]]></value>
-	</definition>
-	<definition>
-		<key>im_order_update_text_to_guest</key>
-		<value><![CDATA[Ваше замовлення <a href="%s">#%s</a> оновлений. Для отримання більш детальної інформації, будь ласка, відвідайте сторінку замовлення %s.]]></value>
+		<value><![CDATA[Електронна адреса %s виглядає недійсною!]]></value>
 	</definition>
 	<definition>
 		<key>im_threshold</key>
-		<value><![CDATA[Мінімальний поріг рівня запасів]]></value>
+		<value><![CDATA[Мінімальний поріг рівня запасу]]></value>
 	</definition>
 </definitions>

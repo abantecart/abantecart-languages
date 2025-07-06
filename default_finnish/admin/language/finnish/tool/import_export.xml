@@ -1,28 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>import_export_title</key>
-		<value><![CDATA[Tuonti ja vienti]]></value>
+		<value><![CDATA[Tuo & Vie]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Tietojen tuontivelho]]></value>
 	</definition>
 	<definition>
 		<key>tab_import</key>
 		<value><![CDATA[Tuonti]]></value>
 	</definition>
 	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Tuontiavustaja]]></value>
+	</definition>
+	<definition>
 		<key>tab_export</key>
-		<value><![CDATA[Viedä]]></value>
+		<value><![CDATA[Vie]]></value>
 	</definition>
 	<definition>
 		<key>text_tables</key>
-		<value><![CDATA[taulukot]]></value>
+		<value><![CDATA[Taulukot]]></value>
 	</definition>
 	<definition>
 		<key>text_options</key>
-		<value><![CDATA[Vaihtoehdot]]></value>
+		<value><![CDATA[Valinnat]]></value>
 	</definition>
 	<definition>
 		<key>text_file_format</key>
-		<value><![CDATA[Tiedosto muoto:]]></value>
+		<value><![CDATA[Tiedostomuoto:]]></value>
 	</definition>
 	<definition>
 		<key>text_file_name</key>
@@ -30,11 +38,31 @@
 	</definition>
 	<definition>
 		<key>text_load_file</key>
-		<value><![CDATA[Lataa tiedosto]]></value>
+		<value><![CDATA[Lataa tuontitiedosto]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Voit ladata CSV- tai tekstitiedoston tietojen tuontia varten.	
+Tietorakenteen osalta voit noudattaa omaa muotoa (katso vienti) tai vapaata muotoa.	
+Vapaassa muodossa olevan datan osalta tietoelementit on kartoitettava manuaalisesti tai voit käyttää JSON-karttaa.	
+Vapaamuotoisessa tuonnissa tuetaan vain tuotteita, kategorioita ja merkit/valmistajat.	
+Toimintosarake voidaan sisällyttää tuontiin ohjaamaan 'insert', 'update' tai 'delete'-toimintoa. Oletustoiminto on 'update_or_insert'.]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Valitse kohdetaulukko ja vastaava tietokantakenttä kullekin tuontidatan sarakkeelle. Jos kenttää ei valita, saraketiedot ohitetaan. <br/> <b>Huomautus:</b> Kieli- ja myymäläkohtaiset arvot kohdistuvat nykyiseen sisältötallennukseen ja valittuun kieleen.]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Tässä tuonnissa ladataan ja käsitellään %s tietuetta!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Tuontiprosessi käynnissä]]></value>
 	</definition>
 	<definition>
 		<key>text_load</key>
-		<value><![CDATA[Ladata]]></value>
+		<value><![CDATA[Lataa]]></value>
 	</definition>
 	<definition>
 		<key>text_import_loaded</key>
@@ -42,47 +70,83 @@
 	</definition>
 	<definition>
 		<key>text_file_field</key>
-		<value><![CDATA[Tiedosto tuonti: <br/><span class="help">tuetut formaatit tuoda tiedostoja: XML, CSV, TXT</span>]]></value>
+		<value><![CDATA[Tiedosto tuontia varten:<br><span class="help">Tuontitiedostojen tuetut muodot: CSV, TXT</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_id_range_from</key>
-		<value><![CDATA[ID vaihtelevat:]]></value>
+		<value><![CDATA[ID-väli alkaen:]]></value>
 	</definition>
 	<definition>
 		<key>text_to</key>
-		<value><![CDATA[että:]]></value>
+		<value><![CDATA[vastaanottaja:]]></value>
 	</definition>
 	<definition>
 		<key>text_csv_delimiter</key>
-		<value><![CDATA[CSV / TXT erotin:]]></value>
+		<value><![CDATA[CSV/TXT erotin:]]></value>
 	</definition>
 	<definition>
 		<key>text_export_note_csv_delimiter</key>
-		<value><![CDATA[<span class="help">Kaikki kentät tulee lainausmerkkeihin.</span>]]></value>
+		<value><![CDATA[Kaikki kentät suljetaan tuplalainausmerkkien sisään.]]></value>
 	</definition>
 	<definition>
 		<key>text_import_note_csv_delimiter</key>
-		<value><![CDATA[<span class="help">Kaikki kentät on laitettu lainausmerkkeihin.</span>]]></value>
+		<value><![CDATA[<span class="help">Kaikki kentät on suljettava kaksoislainausmerkkeihin.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_test_mode</key>
-		<value><![CDATA[Suorita testi tilassa <br/><span class="help">On suositeltavaa tehdä tietojen tuonti on testitilassa ensin nähdä, jos mitään ongelmia esiintyy.</span>]]></value>
+		<value><![CDATA[Suorita testitilassa <br><span class="help">On suositeltavaa suorittaa tietojen tuonti ensin testitilassa, jotta mahdolliset ongelmat havaitaan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Tuontitiedoston sarake]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Tuontidatan näyte]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Valitse kohdetietokantataulu]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Päivitä, jos se on olemassa]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Jaa tiedot mukaan]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Valitse, kopioi ja tallenna tämä kartoitus tulevaa käyttöä varten.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Vientikartoitus]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Lähetä alla olevaan kenttään ennalta tallennetut kartoitustiedot]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Lataa kartoitus]]></value>
 	</definition>
 	<definition>
 		<key>error_file_format</key>
-		<value><![CDATA[Väärä tiedostomuoto!]]></value>
+		<value><![CDATA[Tuontitiedoston formaatti ei ole tuettu!]]></value>
 	</definition>
 	<definition>
 		<key>error_xml_import</key>
-		<value><![CDATA[Virhe tuonti XML-tiedoston!]]></value>
+		<value><![CDATA[Virhe XML-tiedoston tuonnissa!]]></value>
 	</definition>
 	<definition>
 		<key>error_csv_import</key>
-		<value><![CDATA[Virhe tuonti CSV / TXT-tiedoston! Tarkista kenttien erotin.]]></value>
+		<value><![CDATA[Virhe CSV/TXT-tiedoston tuonnin aikana! Tarkista kenttien erotin.]]></value>
 	</definition>
 	<definition>
 		<key>error_data_corrupted</key>
-		<value><![CDATA[Data on tyhjä tai vioittunut.]]></value>
+		<value><![CDATA[Tiedot ovat tyhjiä tai vioittuneita.]]></value>
 	</definition>
 	<definition>
 		<key>error_file_empty</key>
@@ -90,7 +154,7 @@
 	</definition>
 	<definition>
 		<key>error_writable_backup</key>
-		<value><![CDATA[Varmuuskopiosta on oltava kirjoitettavissa CSV / TXT viedä töihin.]]></value>
+		<value><![CDATA[Varmuuskopiohakemiston on oltava kirjoitettavissa, jotta CSV/TXT-vienti toimii.]]></value>
 	</definition>
 	<definition>
 		<key>text_updated</key>
@@ -102,15 +166,15 @@
 	</definition>
 	<definition>
 		<key>text_errors</key>
-		<value><![CDATA[virheet:]]></value>
+		<value><![CDATA[Virheet:]]></value>
 	</definition>
 	<definition>
 		<key>text_show_details</key>
-		<value><![CDATA[Näytä yksityiskohdat]]></value>
+		<value><![CDATA[Näytä tiedot]]></value>
 	</definition>
 	<definition>
 		<key>text_no_children</key>
-		<value><![CDATA[Ei lapsi kohteita]]></value>
+		<value><![CDATA[Ei alikohteita]]></value>
 	</definition>
 	<definition>
 		<key>text_some_errors</key>
@@ -118,83 +182,23 @@
 	</definition>
 	<definition>
 		<key>text_test_completed</key>
-		<value><![CDATA[Koeajo suoritettu. Yhteensä SQL-kyselyt:]]></value>
+		<value><![CDATA[Testiajo suoritettu. Yhteensä SQL-kyselyjä:]]></value>
 	</definition>
 	<definition>
 		<key>text_sort_by</key>
-		<value><![CDATA[Järjestä:]]></value>
-	</definition>
-	<definition>
-		<key>import_wizard_title</key>
-		<value><![CDATA[Ohjattu tietojen tuontitoiminto]]></value>
-	</definition>
-	<definition>
-		<key>tab_import_wizard</key>
-		<value><![CDATA[Ohjattu tuontitoiminto]]></value>
-	</definition>
-	<definition>
-		<key>text_load_file_notes</key>
-		<value><![CDATA[Voit ladata CSV- tai tekstitiedoston tietojen tuomiseksi. Tietojen rakenteessa voit seurata omaa muotoa (katso vienti) tai vapaata muotoa. <br/> Jos haluat tietoja vapaassa muodossa, sinun on kartoitettava tietoelementit manuaalisesti tai käytettävä JSON-kartta. <br/> Vain tuotteet, luokat ja merkit/valmistajat ovat tuettuja vapaamuotoisessa tuonnissa. <br/> Toiminto-sarake voidaan sisällyttää ohjaamaan tuontia &quot;lisää&quot;, &quot;päivitä&quot; tai &quot;poista&quot;. Oletustoiminto on update_or_insert. ]]></value>
-	</definition>
-	<definition>
-		<key>text_import_wizard_notes</key>
-		<value><![CDATA[Valitse kohdetaulukko ja vastaava tietokantakenttä kullekin syötetylle tuontitietosarakkeelle. Jos mitään kenttää ei valita, syöttösarakkeen tiedot jätetään huomioimatta. <br/><b>Huomautus:</b> Kieli- ja tallennustietoarvot määritetään nykyiselle sisältösäilölle ja valitulle kielelle]]></value>
-	</definition>
-	<definition>
-		<key>text_records_to_be_loaded</key>
-		<value><![CDATA[Tässä tuonnissa ladataan ja käsitellään %s tietueita!]]></value>
-	</definition>
-	<definition>
-		<key>text_import_task_title</key>
-		<value><![CDATA[Tuontiprosessi käynnissä]]></value>
-	</definition>
-	<definition>
-		<key>text_import_file_col</key>
-		<value><![CDATA[Tuo tiedosto -sarake]]></value>
-	</definition>
-	<definition>
-		<key>text_import_file_data</key>
-		<value><![CDATA[Tuo datanäyte]]></value>
-	</definition>
-	<definition>
-		<key>text_destination_col</key>
-		<value><![CDATA[Valitse kohdetaulukko]]></value>
-	</definition>
-	<definition>
-		<key>text_import_update_on</key>
-		<value><![CDATA[Päivitä jos on]]></value>
-	</definition>
-	<definition>
-		<key>text_import_split</key>
-		<value><![CDATA[Jaa tiedot:]]></value>
-	</definition>
-	<definition>
-		<key>title_export_map</key>
-		<value><![CDATA[Valitse, kopioi ja tallenna tämä kartta tulevaa käyttöä varten.]]></value>
-	</definition>
-	<definition>
-		<key>text_export_map</key>
-		<value><![CDATA[Vie kartoitus]]></value>
-	</definition>
-	<definition>
-		<key>title_load_map</key>
-		<value><![CDATA[Lähetä valmiiksi tallennettujen karttatietojen alla olevaan kenttään]]></value>
-	</definition>
-	<definition>
-		<key>text_load_map</key>
-		<value><![CDATA[Kuormakartoitus]]></value>
+		<value><![CDATA[Lajittele:]]></value>
 	</definition>
 	<definition>
 		<key>error_table_selection</key>
-		<value><![CDATA[Tuonnin kohdetaulukkoa tai -kenttiä ei ole valittu!]]></value>
+		<value><![CDATA[Tuonnin kohdetaulukkoa tai kenttiä ei ole valittu!]]></value>
 	</definition>
 	<definition>
 		<key>error_required_selection</key>
-		<value><![CDATA[Kohdetaulukon pakollinen tietokenttä &#39;%s&#39; puuttuu!]]></value>
+		<value><![CDATA[Puuttuu vaadittu tietokenttä '%s' kohdetaulukosta!]]></value>
 	</definition>
 	<definition>
 		<key>error_tmp_dir_non_writable</key>
-		<value><![CDATA[Väliaikainen hakemisto %s ei ole kirjoitettava! Muuta käyttöoikeuksia jatkaaksesi.]]></value>
+		<value><![CDATA[Väliaikainen hakemisto %s ei ole kirjoitettavissa! Muuta käyttöoikeuksia jatkaaksesi.]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_request</key>
@@ -202,15 +206,15 @@
 	</definition>
 	<definition>
 		<key>text_complete_import</key>
-		<value><![CDATA[Tuontiprosessi on valmis. %s rivi(t) käsitelty.]]></value>
+		<value><![CDATA[Tuontiprosessi on suoritettu. %s rivi(ä) käsitelty.]]></value>
 	</definition>
 	<definition>
 		<key>text_complete_import_with_errors</key>
-		<value><![CDATA[%s rivi(t), joissa on virheitä.]]></value>
+		<value><![CDATA[%s rivi(ä), joissa on virhe(itä).]]></value>
 	</definition>
 	<definition>
 		<key>text_see_log</key>
-		<value><![CDATA[Katso lisätietoja <a href="%s" target="_new">lokitiedostosta %s</a>]]></value>
+		<value><![CDATA[Lisätietoja: katso <a href="%s" target="_new">lokitiedosto %s</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_success_abort</key>
@@ -218,10 +222,10 @@
 	</definition>
 	<definition>
 		<key>button_schedule_import</key>
-		<value><![CDATA[Ajoita tuonti]]></value>
+		<value><![CDATA[Aikatauluta tuonti]]></value>
 	</definition>
 	<definition>
 		<key>text_success_scheduled</key>
-		<value><![CDATA[Onnistui: Olet luonut ajoitetun tuontitehtävän onnistuneesti! <a href="%s">Katso yksityiskohdat</a>]]></value>
+		<value><![CDATA[Onnistui: Olet onnistuneesti luonut ajastetun tuontitehtävän! <a href="%s">Näytä tiedot</a>]]></value>
 	</definition>
 </definitions>

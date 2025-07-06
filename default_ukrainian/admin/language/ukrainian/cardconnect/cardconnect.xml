@@ -6,15 +6,15 @@
 	</definition>
 	<definition>
 		<key>cardconnect_note</key>
-		<value><![CDATA[Щоб отримати облікові дані API, відвідайте https://cardconnect.com/signup/developer]]></value>
+		<value><![CDATA[Щоб отримати облікові дані API, будь ласка, відвідайте https://cardconnect.com/signup/developer]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_merchant_id</key>
-		<value><![CDATA[ID продавця]]></value>
+		<value><![CDATA[Ідентифікатор продавця]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_username</key>
-		<value><![CDATA[Ім&#39;я користувача API]]></value>
+		<value><![CDATA[Ім’я користувача API]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_password</key>
@@ -22,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>cardconnect_logging</key>
-		<value><![CDATA[Ведення журналу: <br/><span class="help">Файл журналу знаходиться у файлі system/logs/cardconnect.txt</span>]]></value>
+		<value><![CDATA[Логування:<br /><span class="help">Файл журналу розташований у файлі system/logs/cardconnect.txt</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_test</key>
@@ -30,11 +30,11 @@
 	</definition>
 	<definition>
 		<key>cardconnect_test_connection</key>
-		<value><![CDATA[Тестове підключення]]></value>
+		<value><![CDATA[Перевірити з’єднання]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_get_test_api_credentials</key>
-		<value><![CDATA[Отримайте облікові дані тестового API]]></value>
+		<value><![CDATA[Отримати тестові облікові дані API]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_test_mode</key>
@@ -42,43 +42,43 @@
 	</definition>
 	<definition>
 		<key>cardconnect_site</key>
-		<value><![CDATA[Частина домену для API: <br/><span class="help">Це значення не слід змінювати, якщо інше не вказано cardConnent.</span>]]></value>
+		<value><![CDATA[Доменна частина для API:<br /><span class="help">Це значення не слід змінювати, якщо не вказано інакше в cardConnent.</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_connection_success</key>
-		<value><![CDATA[Підключення успішне, облікові дані API налаштовано правильно.]]></value>
+		<value><![CDATA[Підключення успішне і облікові дані API налаштовані правильно.]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_location_id_0</key>
-		<value><![CDATA[Усі локації]]></value>
+		<value><![CDATA[Всі локації]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_location_id</key>
-		<value><![CDATA[Розташування]]></value>
+		<value><![CDATA[Місцезнаходження]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_refund</key>
-		<value><![CDATA[Повернено: <br/><span class="help">статуси замовлення, які ви бажаєте встановити, якщо платіж повернуто в адмін/замовлення</span>]]></value>
+		<value><![CDATA[Повернено:<br /><span class="help">Статус замовлення, який буде встановлено, якщо оплата повернена в admin/order</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_decline</key>
-		<value><![CDATA[Відхилити: <br/><span class="help">Статус замовлення, який потрібно записати в історію відповідно до статусу платіжного процесора. Статус основного замовлення не впливає. Замовлення не буде розміщено лише після успішної оплати.</span>]]></value>
+		<value><![CDATA[Відмова:<br /><span class="help">Статус замовлення, який необхідно записати в історії у відповідь на статус платіжного процесора. Основний статус замовлення не змінюється. Замовлення буде розміщено тільки після успішної оплати.</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_success_unsettled</key>
-		<value><![CDATA[Успішно та не здійснено: <br/><span class="help">Виберіть статус основного замовлення, який потрібно встановити у відповідь на статус платіжного процесора</span>]]></value>
+		<value><![CDATA[Успішно та не врегульовано:<br /><span class="help">Виберіть основний статус замовлення, який ви хочете встановити у відповідь на статус платіжного процесора</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_success_settled</key>
-		<value><![CDATA[Успіх і завершено: <br/><span class="help">Виберіть статус основного замовлення, який потрібно встановити у відповідь на статус платіжного процесора</span>]]></value>
+		<value><![CDATA[Успіх & врегульовано:<br /><span class="help">Виберіть основний статус замовлення, який ви хочете встановити у відповідь на статус платіжного процесора</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_void</key>
-		<value><![CDATA[Анульовано: <br/><span class="help">Статус замовлення, який потрібно встановити, якщо платіж анульовано в адмін/замовленні.</span>]]></value>
+		<value><![CDATA[Voided:<br /><span class="help">Статус замовлення, який ви хочете встановити, якщо оплата анульована в адмін/замовлення.</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_settlement_payment</key>
-		<value><![CDATA[Автоматично (авторизувати та захопити)]]></value>
+		<value><![CDATA[Авто (авторизація та списання)]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_settlement_auth</key>
@@ -86,11 +86,11 @@
 	</definition>
 	<definition>
 		<key>cardconnect_settlement</key>
-		<value><![CDATA[Тип розрахунку: <br/><span class="help">Якщо встановлено &quot;автоматичний&quot;, транзакцію буде включено до сьогоднішнього розрахунку. Якщо встановлено значення «відкладено», транзакція буде авторизована, але не розрахована (зафіксована). Ви повинні вручну зафіксувати транзакції протягом 7 днів після авторизації</span>]]></value>
+		<value><![CDATA[Тип розрахунку:<br /><span class="help">Якщо встановлено "auto", транзакція буде включена до сьогоднішнього розрахунку. Якщо встановлено "delayed", транзакція буде авторизована, але не проведена (захоплена). Ви повинні вручну захопити транзакції протягом 7 днів після авторизації</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_save_cards_limit</key>
-		<value><![CDATA[Максимальна кількість збережених кредитних карток: <br/><span class="help">Встановіть максимальну кількість кредитних карток, яку мають зберегти клієнти (до 100). Якщо встановлено значення 0 або пусте, збереження карток не буде дозволено. Примітка щодо безпеки: дані кредитної картки клієнта зберігаються на захищених серверах CardConnect для забезпечення максимальної безпеки даних. Дані кредитної картки не зберігатимуться на вашому сайті.</span>]]></value>
+		<value><![CDATA[Максимальна кількість збережених кредитних карток: <br/><span class="help">Встановіть максимальну кількість кредитних карток, що можуть бути збережені клієнтами (до 100). Якщо встановити 0 або залишити порожнім, збереження карток не дозволяється. Примітка щодо безпеки: дані кредитних карток клієнтів зберігаються на захищених серверах CardConnect для забезпечення максимальної безпеки даних. Жодні дані кредитних карток не зберігаються на вашому сайті.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_column_date_added</key>
@@ -102,31 +102,31 @@
 	</definition>
 	<definition>
 		<key>text_captured_ok</key>
-		<value><![CDATA[Кошти були успішно залучені]]></value>
+		<value><![CDATA[Кошти успішно списані]]></value>
 	</definition>
 	<definition>
 		<key>text_captured_order</key>
-		<value><![CDATA[Захоплення пройшло успішно, статус замовлення оновлено до успішного – вирішено]]></value>
+		<value><![CDATA[Списання коштів пройшло успішно, статус замовлення оновлено на 'Успішно - Врегульовано']]></value>
 	</definition>
 	<definition>
 		<key>text_refunded_ok</key>
-		<value><![CDATA[Відшкодування оброблено успішно]]></value>
+		<value><![CDATA[Повернення коштів успішно оброблено]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_order</key>
-		<value><![CDATA[Відшкодування виконано, статус замовлення оновлено на відшкодовано]]></value>
+		<value><![CDATA[Повернення коштів виконано успішно, статус замовлення оновлено на «Повернено»]]></value>
 	</definition>
 	<definition>
 		<key>text_voided</key>
-		<value><![CDATA[Анулювання виконано успішно, статус замовлення змінено на анульовано]]></value>
+		<value><![CDATA[Скасування пройшло успішно, статус замовлення оновлено на «скасовано»]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_info</key>
-		<value><![CDATA[Платіжні реквізити]]></value>
+		<value><![CDATA[Деталі платежу]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_status</key>
-		<value><![CDATA[Платіж зафіксовано]]></value>
+		<value><![CDATA[Платіж проведено]]></value>
 	</definition>
 	<definition>
 		<key>text_void_status</key>
@@ -134,7 +134,7 @@
 	</definition>
 	<definition>
 		<key>text_refund_status</key>
-		<value><![CDATA[Оплата повернута]]></value>
+		<value><![CDATA[Платіж повернено]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_amount</key>
@@ -146,43 +146,43 @@
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[CardConnect Charge ID]]></value>
+		<value><![CDATA[Ідентифікатор списання CardConnect]]></value>
 	</definition>
 	<definition>
 		<key>text_authorized_ammount</key>
-		<value><![CDATA[Загальна дозволена сума]]></value>
+		<value><![CDATA[Загальна авторизована сума]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[Сума залишку]]></value>
+		<value><![CDATA[Сума балансу]]></value>
 	</definition>
 	<definition>
 		<key>text_transactions</key>
-		<value><![CDATA[Трансакції повернення коштів]]></value>
+		<value><![CDATA[Транзакції повернення коштів]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_void</key>
-		<value><![CDATA[Будь ласка, підтвердьте, що ви хочете анулювати платіж?]]></value>
+		<value><![CDATA[Будь ласка, підтвердіть, що ви хочете анулювати платіж?]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_capture</key>
-		<value><![CDATA[Підтвердьте, що ви хочете отримати платіж?]]></value>
+		<value><![CDATA[Будь ласка, підтвердіть, що ви хочете провести оплату?]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_refund</key>
-		<value><![CDATA[Будь ласка, підтвердьте, що ви хочете повернути платіж?]]></value>
+		<value><![CDATA[Будь ласка, підтвердіть, що ви хочете повернути платіж?]]></value>
 	</definition>
 	<definition>
 		<key>button_refund</key>
-		<value><![CDATA[Повернення]]></value>
+		<value><![CDATA[Відшкодування]]></value>
 	</definition>
 	<definition>
 		<key>button_void</key>
-		<value><![CDATA[Пустота]]></value>
+		<value><![CDATA[Пусто]]></value>
 	</definition>
 	<definition>
 		<key>button_capture</key>
-		<value><![CDATA[захоплення]]></value>
+		<value><![CDATA[Захопити]]></value>
 	</definition>
 	<definition>
 		<key>error_system</key>
@@ -190,22 +190,22 @@
 	</definition>
 	<definition>
 		<key>error_missing_amount</key>
-		<value><![CDATA[Введіть позитивну суму]]></value>
+		<value><![CDATA[Будь ласка, введіть позитивну суму]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_void</key>
-		<value><![CDATA[Неможливо анулювати транзакцію, оновити та перевірити деталі транзакції]]></value>
+		<value><![CDATA[Неможливо анулювати транзакцію, оновіть і перевірте деталі транзакції]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_capture</key>
-		<value><![CDATA[Не вдалося зафіксувати, оновити деталі транзакції та перевірити отриману суму]]></value>
+		<value><![CDATA[Не вдалося захопити, оновити деталі транзакції та перевірити суму захоплення]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_refund</key>
-		<value><![CDATA[Неможливо відшкодувати, оновити дані транзакції та перевірити суму відшкодування]]></value>
+		<value><![CDATA[Не вдалося виконати повернення, оновіть деталі транзакції та перевірте суму повернення.]]></value>
 	</definition>
 	<definition>
 		<key>text_settlement_status</key>
-		<value><![CDATA[Поточний статус поселення]]></value>
+		<value><![CDATA[Поточний статус розрахунків]]></value>
 	</definition>
 </definitions>

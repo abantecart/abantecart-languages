@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[tuote tiedostot]]></value>
+		<value><![CDATA[Tuotetiedostot]]></value>
 	</definition>
 	<definition>
 		<key>text_product</key>
@@ -10,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>text_edit_product_file</key>
-		<value><![CDATA[Muokkaa Tuotekansio]]></value>
+		<value><![CDATA[Muokkaa tuotetiedostoa]]></value>
 	</definition>
 	<definition>
 		<key>tab_files</key>
@@ -18,11 +18,11 @@
 	</definition>
 	<definition>
 		<key>tab_general</key>
-		<value><![CDATA[yleinen]]></value>
+		<value><![CDATA[Yleinen]]></value>
 	</definition>
 	<definition>
 		<key>tab_attributes</key>
-		<value><![CDATA[Lataa Ominaisuudet]]></value>
+		<value><![CDATA[Latausominaisuudet]]></value>
 	</definition>
 	<definition>
 		<key>entry_file_icon</key>
@@ -42,19 +42,19 @@
 	</definition>
 	<definition>
 		<key>entry_download_name</key>
-		<value><![CDATA[Lataa Name]]></value>
+		<value><![CDATA[Latauksen nimi]]></value>
 	</definition>
 	<definition>
 		<key>entry_mask</key>
-		<value><![CDATA[Lataa naamio <span class="help">Tiedoston alias asiakkaiden ladattavaksi ulostulo</span>]]></value>
+		<value><![CDATA[Latausmaski <span class="help">Tiedostonimen alias asiakkaalle ladattavalle tiedostolle</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_file_full_path</key>
-		<value><![CDATA[File Server Path]]></value>
+		<value><![CDATA[Tiedostopalvelimen polku]]></value>
 	</definition>
 	<definition>
 		<key>entry_file_max_downloads</key>
-		<value><![CDATA[max Lataa]]></value>
+		<value><![CDATA[Enimmäislataus]]></value>
 	</definition>
 	<definition>
 		<key>entry_file_sort_order</key>
@@ -65,8 +65,12 @@
 		<value><![CDATA[Status]]></value>
 	</definition>
 	<definition>
+		<key>entry_also_mapped_to</key>
+		<value><![CDATA[Jaettu kenen kanssa]]></value>
+	</definition>
+	<definition>
 		<key>entry_file_push_to_customers</key>
-		<value><![CDATA[Push asiakkaille]]></value>
+		<value><![CDATA[Työnnä asiakkaille]]></value>
 	</definition>
 	<definition>
 		<key>entry_file_activation</key>
@@ -82,15 +86,15 @@
 	</definition>
 	<definition>
 		<key>text_download_attributes</key>
-		<value><![CDATA[Lataa Ominaisuudet]]></value>
+		<value><![CDATA[Lataa attribuutit]]></value>
 	</definition>
 	<definition>
 		<key>text_download_information</key>
-		<value><![CDATA[yleinen]]></value>
+		<value><![CDATA[Yleinen]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_added</key>
-		<value><![CDATA[lisätty]]></value>
+		<value><![CDATA[Lisätty]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_modified</key>
@@ -98,11 +102,11 @@
 	</definition>
 	<definition>
 		<key>entry_max_downloads</key>
-		<value><![CDATA[Max lataukset <span class="help">Kreivi lataukset sallittua asiakkaan</span>]]></value>
+		<value><![CDATA[Enimmäislataukset <span class="help">Asiakkaan sallittujen latausten lukumäärä</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_activate</key>
-		<value><![CDATA[Aktivoidut <span class="help">Lataa on aktivoi tapahtumasta valittu. <br/> Esimerkki: Heti. Download on aktivoida jälkeen tilauksen, riippumatta tilauksen tilan</span>]]></value>
+		<value><![CDATA[Aktivoitu<span class="help">Lataus aktivoidaan valitun tapahtuman perusteella.<br>Esimerkki: Välittömästi. Lataus aktivoidaan tilauksen tekemisen jälkeen, riippumatta tilauksen tilasta</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -110,59 +114,59 @@
 	</definition>
 	<definition>
 		<key>entry_expire_days</key>
-		<value><![CDATA[Vanhenee päivän <span class="help">Kreivi päivän ostopäivästä</span>]]></value>
+		<value><![CDATA[Erääntymispäivät<span class="help">Päivien lukumäärä ostopäivästä alkaen</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_before_order</key>
-		<value><![CDATA[ennen Tilaa]]></value>
+		<value><![CDATA[Ennen tilausta]]></value>
 	</definition>
 	<definition>
 		<key>text_immediately</key>
-		<value><![CDATA[Heti]]></value>
+		<value><![CDATA[Välittömästi]]></value>
 	</definition>
 	<definition>
 		<key>text_on_order_status</key>
-		<value><![CDATA[on Tilauksen tila]]></value>
+		<value><![CDATA[tilauksen tilassa]]></value>
 	</definition>
 	<definition>
 		<key>text_manually</key>
-		<value><![CDATA[Käsin]]></value>
+		<value><![CDATA[Manuaalisesti]]></value>
 	</definition>
 	<definition>
 		<key>text_success_download_save</key>
-		<value><![CDATA[Success: Olette muokatun tiedoston!]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut tiedostoa!]]></value>
 	</definition>
 	<definition>
 		<key>error_download_exists</key>
-		<value><![CDATA[Virhe: Ei voida päivittää ladata, koska se ei ole olemassa tietokannassa!]]></value>
+		<value><![CDATA[Virhe: Latausta ei voi päivittää, koska sitä ei löydy tietokannasta!]]></value>
 	</definition>
 	<definition>
 		<key>error_download_name</key>
-		<value><![CDATA[Virhe: Lataa nimen on oltava pituudeltaan välillä 2 ja 128 merkkiä!]]></value>
+		<value><![CDATA[Virhe: Latauksen nimen pituuden tulee olla 2–128 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_max_downloads</key>
-		<value><![CDATA[Virhe: suurin lataukset count on oltava suurempi 0!]]></value>
+		<value><![CDATA[Virhe: latausten enimmäismäärän on oltava suurempi kuin 0!]]></value>
 	</definition>
 	<definition>
 		<key>error_activate</key>
-		<value><![CDATA[Virhe: Valitse toiminta aktivoinnin ladata!]]></value>
+		<value><![CDATA[Virhe: valitse toiminto latauksen aktivointia varten!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_status</key>
-		<value><![CDATA[Virhe: valitse tilauksen tilan aktivointia ladata!]]></value>
+		<value><![CDATA[Virhe: Valitse tilauksen tila latauksen aktivointia varten!]]></value>
 	</definition>
 	<definition>
 		<key>error_download_attributes</key>
-		<value><![CDATA[Lataa määritteet Error (t):]]></value>
+		<value><![CDATA[Latausattribuuttivirheet:]]></value>
 	</definition>
 	<definition>
 		<key>text_shared_downloads</key>
-		<value><![CDATA[Jaettu Lataukset]]></value>
+		<value><![CDATA[Jaetut lataukset]]></value>
 	</definition>
 	<definition>
 		<key>text_create_download</key>
-		<value><![CDATA[Luo uusi download]]></value>
+		<value><![CDATA[Luo uusi lataus]]></value>
 	</definition>
 	<definition>
 		<key>text_path</key>
@@ -170,90 +174,86 @@
 	</definition>
 	<definition>
 		<key>text_preview</key>
-		<value><![CDATA[preview]]></value>
+		<value><![CDATA[Esikatselu]]></value>
 	</definition>
 	<definition>
 		<key>entry_shared</key>
-		<value><![CDATA[Jaettu Lataa]]></value>
+		<value><![CDATA[Jaettu lataus]]></value>
 	</definition>
 	<definition>
 		<key>text_assign</key>
-		<value><![CDATA[Tallentaa]]></value>
+		<value><![CDATA[Tallenna]]></value>
 	</definition>
 	<definition>
 		<key>text_assigned_to</key>
-		<value><![CDATA[Myös osoitettu:]]></value>
+		<value><![CDATA[Myös määrätty:]]></value>
 	</definition>
 	<definition>
 		<key>text_select_shared_downloads</key>
-		<value><![CDATA[Valitse jaettu lataukset]]></value>
+		<value><![CDATA[Valitse jaetut lataukset]]></value>
 	</definition>
 	<definition>
 		<key>error_selected_downloads</key>
-		<value><![CDATA[Varoitus: Valitse jaetun ladattavat assign.]]></value>
+		<value><![CDATA[Varoitus: Valitse jaettavat ladattavat tiedostot määrittämistä varten.]]></value>
 	</definition>
 	<definition>
 		<key>text_map_success</key>
-		<value><![CDATA[Success: Olet määrittänyt jaetun lataukset tuote!]]></value>
+		<value><![CDATA[Onnistui: olet liittänyt jaetut lataukset tuotteeseen!]]></value>
 	</definition>
 	<definition>
 		<key>text_delete_or_refuse</key>
-		<value><![CDATA[poistaa tai hylätä (yhteiskäytössä)]]></value>
+		<value><![CDATA[poista tai hylkää (jaettujen osalta)]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_delete</key>
-		<value><![CDATA[Vahvista lataus poistaa / kieltäytyä]]></value>
+		<value><![CDATA[Vahvista latauksen poisto/hylkäys]]></value>
 	</definition>
 	<definition>
 		<key>text_success_remove</key>
-		<value><![CDATA[Success: tuotetiedostot lista muuttunut!]]></value>
+		<value><![CDATA[Onnistui: tuotetiedostoluettelo muutettu!]]></value>
 	</definition>
 	<definition>
 		<key>text_push</key>
-		<value><![CDATA[Työntää]]></value>
+		<value><![CDATA[Työnnä]]></value>
 	</definition>
 	<definition>
 		<key>text_push_to_customers</key>
-		<value><![CDATA[Push asiakkaille]]></value>
+		<value><![CDATA[Työnnä asiakkaille]]></value>
 	</definition>
 	<definition>
 		<key>text_push_to_orders</key>
-		<value><![CDATA[Push Lataa %s Tilaukset]]></value>
+		<value><![CDATA[Lähetä lataus %s tilauksille]]></value>
 	</definition>
 	<definition>
 		<key>success_push_to_orders</key>
-		<value><![CDATA[Success: Lataa työnnettiin %s järjestyksessä (t) onnistuneesti]]></value>
+		<value><![CDATA[Onnistui: Lataus työnnettiin onnistuneesti %s tilaukseen(tilauksiin)]]></value>
 	</definition>
 	<definition>
 		<key>text_no_download_attributes_yet</key>
-		<value><![CDATA[Ei latauksia ominaisuuksia vielä. <a href="%s" target="_blank">Klikkaa ja lisää</a>]]></value>
+		<value><![CDATA[Ei latausattribuutteja vielä. <a href="%s" target="_blank">Klikkaa lisätäksesi</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_push</key>
-		<value><![CDATA[Vahvistaa?]]></value>
+		<value><![CDATA[Vahvista?]]></value>
 	</definition>
 	<definition>
 		<key>error_downloads_disabled</key>
-		<value><![CDATA[Varoitus: Lataukset on poistettu käytöstä asetukset tallentaa. <a href="#admin#rt=setting/setting&active=general" target="new">Klikkaa Muokkaa</a> !]]></value>
+		<value><![CDATA[Varoitus: Lataukset on poistettu käytöstä kaupan asetuksissa. <a href="#admin#rt=setting/setting&active=general" target="new">Napsauta muokataksesi</a>!]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata tuotetiedostot!]]></value>
+		<value><![CDATA[Varoitus: sinulla ei ole oikeutta muokata tuotetiedostoja!]]></value>
 	</definition>
 	<definition>
 		<key>error_file</key>
-		<value><![CDATA[Aseta tiedoston ladattavaksi.]]></value>
+		<value><![CDATA[Aseta tiedosto ladattavaksi.]]></value>
 	</definition>
 	<definition>
 		<key>attention_shared</key>
-		<value><![CDATA[Olet muokata jaettua ladata. Edit vaikut- muita tuotteita.]]></value>
+		<value><![CDATA[Olet muokkaamassa jaettua latausta. Muokkaus vaikuttaa muihin tuotteisiin.]]></value>
 	</definition>
 	<definition>
 		<key>text_shared_with</key>
 		<value><![CDATA[Jaettu:]]></value>
-	</definition>
-	<definition>
-		<key>entry_also_mapped_to</key>
-		<value><![CDATA[Jaettu kanssa]]></value>
 	</definition>
 </definitions>

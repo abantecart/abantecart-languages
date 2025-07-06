@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>date_format_long</key>
-		<value><![CDATA[l dS FY]]></value>
+		<value><![CDATA[l, j F Y]]></value>
 	</definition>
 	<definition>
 		<key>time_format</key>
-		<value><![CDATA[h:i:s A]]></value>
+		<value><![CDATA[h:i:s]]></value>
 	</definition>
 	<definition>
 		<key>time_format_short</key>
@@ -30,11 +30,11 @@
 	</definition>
 	<definition>
 		<key>thousand_point</key>
-		<value><![CDATA[ ]]></value>
+		<value><![CDATA[.]]></value>
 	</definition>
 	<definition>
 		<key>text_yes</key>
-		<value><![CDATA[Joo]]></value>
+		<value><![CDATA[Kyllä]]></value>
 	</definition>
 	<definition>
 		<key>text_no</key>
@@ -50,19 +50,19 @@
 	</definition>
 	<definition>
 		<key>text_enabled</key>
-		<value><![CDATA[käytössä]]></value>
+		<value><![CDATA[Käytössä]]></value>
 	</definition>
 	<definition>
 		<key>text_disabled</key>
-		<value><![CDATA[Liikuntarajoitteinen]]></value>
+		<value><![CDATA[Poissa käytöstä]]></value>
 	</definition>
 	<definition>
 		<key>text_none</key>
-		<value><![CDATA[--- Ei mitään ---]]></value>
+		<value><![CDATA[Ei mitään]]></value>
 	</definition>
 	<definition>
 		<key>text_select</key>
-		<value><![CDATA[--- Ole hyvä ja valitse ---]]></value>
+		<value><![CDATA[--- Valitse ---]]></value>
 	</definition>
 	<definition>
 		<key>text_select_all</key>
@@ -74,7 +74,7 @@
 	</definition>
 	<definition>
 		<key>text_all_zones</key>
-		<value><![CDATA[kaikki alueet]]></value>
+		<value><![CDATA[Kaikki vyöhykkeet]]></value>
 	</definition>
 	<definition>
 		<key>text_default</key>
@@ -82,35 +82,35 @@
 	</definition>
 	<definition>
 		<key>text_close</key>
-		<value><![CDATA[kiinni]]></value>
+		<value><![CDATA[Sulje]]></value>
 	</definition>
 	<definition>
 		<key>text_pagination</key>
-		<value><![CDATA[Näytetään {start} ja {end} of {total} ({pages} Sivut)]]></value>
+		<value><![CDATA[Näytetään {start} to {end}/{total} ({pages} sivua)]]></value>
 	</definition>
 	<definition>
 		<key>text_per_page</key>
-		<value><![CDATA[Per sivu]]></value>
+		<value><![CDATA[Sivua kohden]]></value>
 	</definition>
 	<definition>
 		<key>text_no_results</key>
-		<value><![CDATA[Ei tuloksia.]]></value>
+		<value><![CDATA[Tulosta ei löytynyt.]]></value>
 	</definition>
 	<definition>
 		<key>text_separator</key>
-		<value><![CDATA[&gt;]]></value>
+		<value><![CDATA[>]]></value>
 	</definition>
 	<definition>
 		<key>text_edit</key>
-		<value><![CDATA[Muokata]]></value>
+		<value><![CDATA[Muokkaa]]></value>
 	</definition>
 	<definition>
 		<key>text_view</key>
-		<value><![CDATA[näkymä]]></value>
+		<value><![CDATA[Näytä]]></value>
 	</definition>
 	<definition>
 		<key>text_home</key>
-		<value><![CDATA[Koti]]></value>
+		<value><![CDATA[Etusivu]]></value>
 	</definition>
 	<definition>
 		<key>button_insert</key>
@@ -118,27 +118,27 @@
 	</definition>
 	<definition>
 		<key>button_delete</key>
-		<value><![CDATA[Poistaa]]></value>
+		<value><![CDATA[Poista]]></value>
 	</definition>
 	<definition>
 		<key>button_save</key>
-		<value><![CDATA[Tallentaa]]></value>
+		<value><![CDATA[Tallenna]]></value>
 	</definition>
 	<definition>
 		<key>button_save_and_close</key>
-		<value><![CDATA[Tallenna &amp; Sulje]]></value>
+		<value><![CDATA[Tallenna & Sulje]]></value>
 	</definition>
 	<definition>
 		<key>button_cancel</key>
-		<value><![CDATA[Peruuttaa]]></value>
+		<value><![CDATA[Peruuta]]></value>
 	</definition>
 	<definition>
 		<key>button_reset</key>
-		<value><![CDATA[asettaa uudelleen]]></value>
+		<value><![CDATA[Nollaa]]></value>
 	</definition>
 	<definition>
 		<key>button_reload</key>
-		<value><![CDATA[ladata]]></value>
+		<value><![CDATA[Lataa uudelleen]]></value>
 	</definition>
 	<definition>
 		<key>button_clear</key>
@@ -146,31 +146,31 @@
 	</definition>
 	<definition>
 		<key>button_close</key>
-		<value><![CDATA[kiinni]]></value>
+		<value><![CDATA[Sulje]]></value>
 	</definition>
 	<definition>
 		<key>button_upgrade</key>
-		<value><![CDATA[parantaa]]></value>
+		<value><![CDATA[Päivitä]]></value>
 	</definition>
 	<definition>
 		<key>button_filter</key>
-		<value><![CDATA[Suodattaa]]></value>
+		<value><![CDATA[Suodatin]]></value>
 	</definition>
 	<definition>
 		<key>button_send</key>
-		<value><![CDATA[Lähettää]]></value>
+		<value><![CDATA[Lähetä]]></value>
 	</definition>
 	<definition>
 		<key>button_edit</key>
-		<value><![CDATA[Muokata]]></value>
+		<value><![CDATA[Muokkaa]]></value>
 	</definition>
 	<definition>
 		<key>button_copy</key>
-		<value><![CDATA[Kopio]]></value>
+		<value><![CDATA[Kopioi]]></value>
 	</definition>
 	<definition>
 		<key>button_agree</key>
-		<value><![CDATA[Olla samaa mieltä]]></value>
+		<value><![CDATA[Hyväksy]]></value>
 	</definition>
 	<definition>
 		<key>button_back</key>
@@ -178,23 +178,23 @@
 	</definition>
 	<definition>
 		<key>button_continue</key>
-		<value><![CDATA[Jatkaa]]></value>
+		<value><![CDATA[Jatka]]></value>
 	</definition>
 	<definition>
 		<key>button_remove</key>
-		<value><![CDATA[Poistaa]]></value>
+		<value><![CDATA[Poista]]></value>
 	</definition>
 	<definition>
 		<key>button_backup</key>
-		<value><![CDATA[Varmuuskopioida]]></value>
+		<value><![CDATA[Varmuuskopio]]></value>
 	</definition>
 	<definition>
 		<key>button_restore</key>
-		<value><![CDATA[Palauttaa]]></value>
+		<value><![CDATA[Palauta]]></value>
 	</definition>
 	<definition>
 		<key>button_invoice</key>
-		<value><![CDATA[Tulosta Lasku]]></value>
+		<value><![CDATA[Tulosta lasku]]></value>
 	</definition>
 	<definition>
 		<key>button_invoices</key>
@@ -202,11 +202,11 @@
 	</definition>
 	<definition>
 		<key>button_add_option</key>
-		<value><![CDATA[Lisää Vaihtoehto]]></value>
+		<value><![CDATA[Lisää vaihtoehto]]></value>
 	</definition>
 	<definition>
 		<key>button_add_option_value</key>
-		<value><![CDATA[Lisää Vaihtoehto Arvo]]></value>
+		<value><![CDATA[Lisää vaihtoehdon arvo]]></value>
 	</definition>
 	<definition>
 		<key>button_add_discount</key>
@@ -214,7 +214,7 @@
 	</definition>
 	<definition>
 		<key>button_add_special</key>
-		<value><![CDATA[Lisää Special]]></value>
+		<value><![CDATA[Lisää erikoishinta]]></value>
 	</definition>
 	<definition>
 		<key>button_add_image</key>
@@ -222,11 +222,11 @@
 	</definition>
 	<definition>
 		<key>button_add_location_zone</key>
-		<value><![CDATA[Lisää sijainti Zone]]></value>
+		<value><![CDATA[Lisää sijaintivyöhyke]]></value>
 	</definition>
 	<definition>
 		<key>button_add_rate</key>
-		<value><![CDATA[Lisää Veroprosentti]]></value>
+		<value><![CDATA[Lisää verokanta]]></value>
 	</definition>
 	<definition>
 		<key>button_add_history</key>
@@ -234,47 +234,47 @@
 	</definition>
 	<definition>
 		<key>button_actas</key>
-		<value><![CDATA[Laki puolesta]]></value>
+		<value><![CDATA[Toimia puolesta]]></value>
 	</definition>
 	<definition>
 		<key>button_message</key>
-		<value><![CDATA[Ota yhteyttä tähän asiakas]]></value>
+		<value><![CDATA[Ota yhteyttä tähän asiakkaaseen]]></value>
 	</definition>
 	<definition>
 		<key>button_approve</key>
-		<value><![CDATA[Hyväksyä]]></value>
+		<value><![CDATA[Hyväksy]]></value>
 	</definition>
 	<definition>
 		<key>button_generate</key>
-		<value><![CDATA[Tuottaa]]></value>
+		<value><![CDATA[Generoi]]></value>
 	</definition>
 	<definition>
 		<key>tab_admin</key>
-		<value><![CDATA[admin]]></value>
+		<value><![CDATA[Ylläpito]]></value>
 	</definition>
 	<definition>
 		<key>tab_data</key>
-		<value><![CDATA[data]]></value>
+		<value><![CDATA[Tiedot]]></value>
 	</definition>
 	<definition>
 		<key>tab_discount</key>
-		<value><![CDATA[alennukset]]></value>
+		<value><![CDATA[Alennukset]]></value>
 	</definition>
 	<definition>
 		<key>tab_details</key>
-		<value><![CDATA[Store tiedot]]></value>
+		<value><![CDATA[Kaupan tiedot]]></value>
 	</definition>
 	<definition>
 		<key>tab_checkout</key>
-		<value><![CDATA[Tarkista]]></value>
+		<value><![CDATA[Kassa]]></value>
 	</definition>
 	<definition>
 		<key>tab_appearance</key>
-		<value><![CDATA[Ulkomuoto]]></value>
+		<value><![CDATA[Ulkonäkö]]></value>
 	</definition>
 	<definition>
 		<key>tab_im</key>
-		<value><![CDATA[OLEN]]></value>
+		<value><![CDATA[IM]]></value>
 	</definition>
 	<definition>
 		<key>tab_api</key>
@@ -282,7 +282,7 @@
 	</definition>
 	<definition>
 		<key>tab_general</key>
-		<value><![CDATA[yleinen]]></value>
+		<value><![CDATA[Yleinen]]></value>
 	</definition>
 	<definition>
 		<key>tab_image</key>
@@ -294,31 +294,31 @@
 	</definition>
 	<definition>
 		<key>tab_system</key>
-		<value><![CDATA[järjestelmä]]></value>
+		<value><![CDATA[Järjestelmä]]></value>
 	</definition>
 	<definition>
 		<key>tab_store</key>
-		<value><![CDATA[kauppa]]></value>
+		<value><![CDATA[Kauppa]]></value>
 	</definition>
 	<definition>
 		<key>tab_special</key>
-		<value><![CDATA[Tarjoukset]]></value>
+		<value><![CDATA[Erikoistarjoukset]]></value>
 	</definition>
 	<definition>
 		<key>tab_local</key>
-		<value><![CDATA[paikallinen]]></value>
+		<value><![CDATA[Paikallinen]]></value>
 	</definition>
 	<definition>
 		<key>tab_mail</key>
-		<value><![CDATA[posti]]></value>
+		<value><![CDATA[Sähköposti]]></value>
 	</definition>
 	<definition>
 		<key>tab_order</key>
-		<value><![CDATA[Tilauksen tiedot]]></value>
+		<value><![CDATA[Tilaustiedot]]></value>
 	</definition>
 	<definition>
 		<key>tab_history</key>
-		<value><![CDATA[tilaushistoria]]></value>
+		<value><![CDATA[Tilaushistoria]]></value>
 	</definition>
 	<definition>
 		<key>tab_product</key>
@@ -330,7 +330,7 @@
 	</definition>
 	<definition>
 		<key>tab_payment</key>
-		<value><![CDATA[maksu Osoite]]></value>
+		<value><![CDATA[Maksuosoite]]></value>
 	</definition>
 	<definition>
 		<key>entry_discount</key>
@@ -338,19 +338,19 @@
 	</definition>
 	<definition>
 		<key>entry_special</key>
-		<value><![CDATA[erityinen]]></value>
+		<value><![CDATA[Erikoistarjous]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_1</key>
-		<value><![CDATA[Varoitus: Lähetetty tiedosto ylittää upload_max_filesize yhtäkään!]]></value>
+		<value><![CDATA[Varoitus: Ladattu tiedosto ylittää php.ini:n upload_max_filesize-direktiivin!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_2</key>
-		<value><![CDATA[Varoitus: Lähetetty tiedosto ylittää MAX_FILE_SIZE-asetuksen arvon määritetty HTML muodossa!]]></value>
+		<value><![CDATA[Varoitus: Lähetetty tiedosto ylittää HTML-lomakkeessa määritellyn MAX_FILE_SIZE-rajoituksen!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_3</key>
-		<value><![CDATA[Varoitus: Tiedosto lähetettiin vain osittain ladattu!]]></value>
+		<value><![CDATA[Varoitus: Ladattu tiedosto ladattiin vain osittain!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_4</key>
@@ -358,27 +358,27 @@
 	</definition>
 	<definition>
 		<key>error_upload_6</key>
-		<value><![CDATA[Varoitus: Puuttuu tilapäiskansioon!]]></value>
+		<value><![CDATA[Varoitus: Väliaikainen kansio puuttuu!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_7</key>
-		<value><![CDATA[Varoitus: Tiedostoon ei voida kirjoittaa levylle!]]></value>
+		<value><![CDATA[Varoitus: Tiedoston kirjoittaminen levylle epäonnistui!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_8</key>
-		<value><![CDATA[Varoitus: keskeytti tiedoston lähetyksen laajennus!]]></value>
+		<value><![CDATA[Varoitus: Tiedoston lataus pysäytettiin laajennuksen toimesta!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_999</key>
-		<value><![CDATA[Varoitus: Ei virhekoodi tarjotut!]]></value>
+		<value><![CDATA[Varoitus: virhekoodia ei ole saatavilla!]]></value>
 	</definition>
 	<definition>
 		<key>text_choose_action</key>
-		<value><![CDATA[valita toiminta ..]]></value>
+		<value><![CDATA[Valitse toiminto..]]></value>
 	</definition>
 	<definition>
 		<key>text_delete</key>
-		<value><![CDATA[Poistaa]]></value>
+		<value><![CDATA[Poista]]></value>
 	</definition>
 	<definition>
 		<key>text_delete_selected</key>
@@ -394,19 +394,23 @@
 	</definition>
 	<definition>
 		<key>text_select_status</key>
-		<value><![CDATA[- Valitse Tila -]]></value>
+		<value><![CDATA[- Valitse tila -]]></value>
 	</definition>
 	<definition>
 		<key>text_all_orders</key>
-		<value><![CDATA[kaikki tilaukset]]></value>
+		<value><![CDATA[Kaikki tilaukset]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_password</key>
-		<value><![CDATA[vahvista salasana]]></value>
+		<value><![CDATA[Vahvista salasana]]></value>
 	</definition>
 	<definition>
 		<key>text_insert</key>
-		<value><![CDATA[Insert]]></value>
+		<value><![CDATA[Lisää]]></value>
+	</definition>
+	<definition>
+		<key>text_edit</key>
+		<value><![CDATA[Muokkaa]]></value>
 	</definition>
 	<definition>
 		<key>text_select_items</key>
@@ -414,35 +418,35 @@
 	</definition>
 	<definition>
 		<key>button_go</key>
-		<value><![CDATA[MENNÄ]]></value>
+		<value><![CDATA[MENE]]></value>
 	</definition>
 	<definition>
 		<key>search_everywhere</key>
-		<value><![CDATA[Hae koko sivustosta]]></value>
+		<value><![CDATA[Etsi koko sivustosta]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Toiminta]]></value>
+		<value><![CDATA[Toiminto]]></value>
 	</definition>
 	<definition>
 		<key>error_permission_access</key>
-		<value><![CDATA[Varoitus: Et ole lupaa käyttää %s!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta käyttää %s!]]></value>
 	</definition>
 	<definition>
 		<key>error_permission_modify</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata %s!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata %s!]]></value>
 	</definition>
 	<definition>
 		<key>text_add</key>
-		<value><![CDATA[Lisätä]]></value>
+		<value><![CDATA[Lisää]]></value>
 	</definition>
 	<definition>
 		<key>text_add_block</key>
-		<value><![CDATA[Lisää Block]]></value>
+		<value><![CDATA[Lisää lohko]]></value>
 	</definition>
 	<definition>
 		<key>text_resource_library</key>
-		<value><![CDATA[resurssikirjasto]]></value>
+		<value><![CDATA[Resurssikirjasto]]></value>
 	</definition>
 	<definition>
 		<key>text_add_media</key>
@@ -450,23 +454,24 @@
 	</definition>
 	<definition>
 		<key>confirm_unmap_title</key>
-		<value><![CDATA[Vahvista resurssi (t) Poista linkki]]></value>
+		<value><![CDATA[Vahvista resurssi(t)
+Poista linkki]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_unmap</key>
-		<value><![CDATA[Oletko varma, että haluat linkitys resurssi (t)?]]></value>
+		<value><![CDATA[Oletko varma, että haluat poistaa resurssi(t) linkityksen?]]></value>
 	</definition>
 	<definition>
 		<key>confirm_del_title</key>
-		<value><![CDATA[Vahvista resurssi (t) Poista]]></value>
+		<value><![CDATA[Vahvista resurssi(t) poisto]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_del</key>
-		<value><![CDATA[Oletko varma, että haluat poistaa resurssi (t)?]]></value>
+		<value><![CDATA[Oletko varma, että haluat poistaa resurssi(t)?]]></value>
 	</definition>
 	<definition>
 		<key>text_type_image</key>
-		<value><![CDATA[kuvat]]></value>
+		<value><![CDATA[Kuvat]]></value>
 	</definition>
 	<definition>
 		<key>text_type_audio</key>
@@ -478,7 +483,7 @@
 	</definition>
 	<definition>
 		<key>text_type_pdf</key>
-		<value><![CDATA[PDF-dokumentti]]></value>
+		<value><![CDATA[PDF-asiakirja]]></value>
 	</definition>
 	<definition>
 		<key>text_type_archive</key>
@@ -490,31 +495,31 @@
 	</definition>
 	<definition>
 		<key>button_unmap</key>
-		<value><![CDATA[Poista yhteys]]></value>
+		<value><![CDATA[Poista linkki]]></value>
 	</definition>
 	<definition>
 		<key>button_select_resource</key>
-		<value><![CDATA[valita]]></value>
+		<value><![CDATA[valitse]]></value>
 	</definition>
 	<definition>
 		<key>text_click_to_change</key>
-		<value><![CDATA[Klikkaa kuvaa muuttaa sitä]]></value>
+		<value><![CDATA[Napsauta kuvaa vaihtaaksesi sen]]></value>
 	</definition>
 	<definition>
 		<key>text_select_from_list</key>
-		<value><![CDATA[Valitse listalta]]></value>
+		<value><![CDATA[Valitse luettelosta]]></value>
 	</definition>
 	<definition>
 		<key>text_count_selected</key>
-		<value><![CDATA[Laske valittujen kohteiden:]]></value>
+		<value><![CDATA[Valittujen kohteiden määrä:]]></value>
 	</definition>
 	<definition>
 		<key>text_delete_confirm</key>
-		<value><![CDATA[Ole hyvä, Vahvista poistaminen]]></value>
+		<value><![CDATA[Ole hyvä ja vahvista poisto]]></value>
 	</definition>
 	<definition>
 		<key>text_save_edit</key>
-		<value><![CDATA[Lisää / muokkaa]]></value>
+		<value><![CDATA[Lisää/Muokkaa]]></value>
 	</definition>
 	<definition>
 		<key>text_apply</key>
@@ -522,27 +527,31 @@
 	</definition>
 	<definition>
 		<key>text_on_top</key>
-		<value><![CDATA[takaisin päälle]]></value>
+		<value><![CDATA[Takaisin ylös]]></value>
 	</definition>
 	<definition>
 		<key>text_all</key>
 		<value><![CDATA[Kaikki]]></value>
 	</definition>
 	<definition>
+		<key>text_all_stores</key>
+		<value><![CDATA[Kaikki kaupat]]></value>
+	</definition>
+	<definition>
 		<key>text_create_new_block</key>
-		<value><![CDATA[Luo uusi Block]]></value>
+		<value><![CDATA[Luo uusi lohko]]></value>
 	</definition>
 	<definition>
 		<key>button_unlink</key>
-		<value><![CDATA[Poista yhteys]]></value>
+		<value><![CDATA[Poista linkki]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_unlink</key>
-		<value><![CDATA[Oletko varma, että haluat linkityksen resurssi?]]></value>
+		<value><![CDATA[Oletko varma, että haluat poistaa resurssin linkityksen?]]></value>
 	</definition>
 	<definition>
 		<key>confirm_unlink_title</key>
-		<value><![CDATA[Vahvista resurssi Poista linkki]]></value>
+		<value><![CDATA[Vahvista resurssin irrotus]]></value>
 	</definition>
 	<definition>
 		<key>text_select_store</key>
@@ -550,11 +559,11 @@
 	</definition>
 	<definition>
 		<key>text_click_browse_file</key>
-		<value><![CDATA[Klikkaa selaa tiedostoon]]></value>
+		<value><![CDATA[Klikkaa valitaksesi tiedoston]]></value>
 	</definition>
 	<definition>
 		<key>text_browse</key>
-		<value><![CDATA[selailla]]></value>
+		<value><![CDATA[Selaa]]></value>
 	</definition>
 	<definition>
 		<key>text_or</key>
@@ -562,11 +571,11 @@
 	</definition>
 	<definition>
 		<key>error_seo_keyword</key>
-		<value><![CDATA[SEO Hakusanalla <a target="_blank" href="%s">&quot;%s&quot;</a> on jo olemassa!]]></value>
+		<value><![CDATA[SEO-avainsana <a target="_blank" href="%s">"%s"</a> on jo olemassa!]]></value>
 	</definition>
 	<definition>
 		<key>column_update_date</key>
-		<value><![CDATA[Päivityspäivä]]></value>
+		<value><![CDATA[Päivitetty päivämäärä]]></value>
 	</definition>
 	<definition>
 		<key>text_automatic</key>
@@ -578,7 +587,7 @@
 	</definition>
 	<definition>
 		<key>text_select_copy_layout</key>
-		<value><![CDATA[Valitse kopioida asettelu]]></value>
+		<value><![CDATA[Valitse, mistä asettelu kopioidaan]]></value>
 	</definition>
 	<definition>
 		<key>text_apply_layout</key>
@@ -586,11 +595,11 @@
 	</definition>
 	<definition>
 		<key>text_new_download</key>
-		<value><![CDATA[uusi Lataa]]></value>
+		<value><![CDATA[Uusi lataus]]></value>
 	</definition>
 	<definition>
 		<key>text_free</key>
-		<value><![CDATA[Vapaa]]></value>
+		<value><![CDATA[Ilmainen]]></value>
 	</definition>
 	<definition>
 		<key>text_sure</key>
@@ -598,23 +607,23 @@
 	</definition>
 	<definition>
 		<key>button_add</key>
-		<value><![CDATA[Lisätä]]></value>
+		<value><![CDATA[Lisää]]></value>
 	</definition>
 	<definition>
 		<key>text_please_confirm</key>
-		<value><![CDATA[Ole hyvä ja vahvista]]></value>
+		<value><![CDATA[Vahvista]]></value>
 	</definition>
 	<definition>
 		<key>button_confirm</key>
-		<value><![CDATA[Vahvistaa]]></value>
+		<value><![CDATA[Vahvista]]></value>
 	</definition>
 	<definition>
 		<key>button_download</key>
-		<value><![CDATA[ladata]]></value>
+		<value><![CDATA[Lataa]]></value>
 	</definition>
 	<definition>
 		<key>recent_customers</key>
-		<value><![CDATA[Äskettäin Rekisteröityneet asiakkaat]]></value>
+		<value><![CDATA[Äskettäin rekisteröityneet asiakkaat]]></value>
 	</definition>
 	<definition>
 		<key>new_orders</key>
@@ -626,7 +635,7 @@
 	</definition>
 	<definition>
 		<key>text_processing</key>
-		<value><![CDATA[Käsitellään...]]></value>
+		<value><![CDATA[Käsitellään ...]]></value>
 	</definition>
 	<definition>
 		<key>text_next</key>
@@ -638,35 +647,35 @@
 	</definition>
 	<definition>
 		<key>text_on</key>
-		<value><![CDATA[PÄÄLLÄ]]></value>
+		<value><![CDATA[Päällä]]></value>
 	</definition>
 	<definition>
 		<key>text_off</key>
-		<value><![CDATA[POIS PÄÄLTÄ]]></value>
+		<value><![CDATA[Pois]]></value>
 	</definition>
 	<definition>
 		<key>text_external_help</key>
-		<value><![CDATA[ulkoinen ohje]]></value>
+		<value><![CDATA[Ulkopuolinen apu]]></value>
 	</definition>
 	<definition>
 		<key>text_select_from_lookup</key>
-		<value><![CDATA[Aloita kirjoittamaan (nimi, malli, SKU, jne) etsiä ja valitse tulos]]></value>
+		<value><![CDATA[Aloita kirjoittaminen (nimi, malli, sku jne.) löytääksesi ja valitaksesi tuloksen]]></value>
 	</definition>
 	<definition>
 		<key>text_continue_typing</key>
-		<value><![CDATA[Jatkaa kirjoittamista ...]]></value>
+		<value><![CDATA[Jatka kirjoittamista ...]]></value>
 	</definition>
 	<definition>
 		<key>text_looking_for</key>
-		<value><![CDATA[Etsii]]></value>
+		<value><![CDATA[Etsitkö]]></value>
 	</definition>
 	<definition>
 		<key>button_manage_extensions</key>
-		<value><![CDATA[Hallinnoi laajennuksia]]></value>
+		<value><![CDATA[Hallitse laajennuksia]]></value>
 	</definition>
 	<definition>
 		<key>text_abc_notification</key>
-		<value><![CDATA[Ohjelmistopäivitykset ja ilmoitukset]]></value>
+		<value><![CDATA[Ohjelmistopäivitykset & Ilmoitukset]]></value>
 	</definition>
 	<definition>
 		<key>text_not_applicable</key>
@@ -674,11 +683,15 @@
 	</definition>
 	<definition>
 		<key>text_share_embed_code</key>
-		<value><![CDATA[Hae upotettu koodi]]></value>
+		<value><![CDATA[Hanki upotuskoodi]]></value>
 	</definition>
 	<definition>
 		<key>text_copy_embed_code</key>
-		<value><![CDATA[Сopy ja liitä tämä HTML-koodia, jos haluat myydä]]></value>
+		<value><![CDATA[Kopioi ja liitä tämä HTML-koodiisi siihen kohtaan, jossa haluat myydä.]]></value>
+	</definition>
+	<definition>
+		<key>text_copy_embed_url</key>
+		<value><![CDATA[Kopioi ja liitä tämä URL-osoite toiselle sivustolle, jossa haluat myydä.]]></value>
 	</definition>
 	<definition>
 		<key>button_retry</key>
@@ -686,23 +699,23 @@
 	</definition>
 	<definition>
 		<key>text_system_error</key>
-		<value><![CDATA[System error on kohdattu. Tarkista järjestelmä <a target="_blank" href="%s">viestejä</a> tai <a target="_blank" href="%s">virhelokin</a>]]></value>
+		<value><![CDATA[Järjestelmävirhe on ilmennyt. Tarkista järjestelmän <a target="_blank" href="%s">viestit</a> tai <a target="_blank" href="%s">virheloki</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_system_warning</key>
-		<value><![CDATA[Järjestelmän varoitus on raportoitu. Tarkista järjestelmä <a target="_blank" href="%s">viestejä</a>]]></value>
+		<value><![CDATA[Järjestelmän varoitus on raportoitu. Tarkista järjestelmän <a target="_blank" href="%s">viestit</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_system_notice</key>
-		<value><![CDATA[Järjestelmän ilmoitus on raportoitu. Tarkista järjestelmä <a target="_blank" href="%s">viestejä</a>]]></value>
+		<value><![CDATA[Järjestelmäilmoitus on raportoitu. Tarkista järjestelmän <a target="_blank" href="%s">viestit</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_set_related</key>
-		<value><![CDATA[Aseta Related]]></value>
+		<value><![CDATA[Aseta liittyvät]]></value>
 	</definition>
 	<definition>
 		<key>tab_text</key>
-		<value><![CDATA[HTML / Text]]></value>
+		<value><![CDATA[HTML/Teksti]]></value>
 	</definition>
 	<definition>
 		<key>tab_visual</key>
@@ -713,8 +726,12 @@
 		<value><![CDATA[Lisää media]]></value>
 	</definition>
 	<definition>
+		<key>button_field_history</key>
+		<value><![CDATA[Näytä kentän historia]]></value>
+	</definition>
+	<definition>
 		<key>text_view_more</key>
-		<value><![CDATA[Katso lisää]]></value>
+		<value><![CDATA[Näytä lisää]]></value>
 	</definition>
 	<definition>
 		<key>text_admin</key>
@@ -722,39 +739,27 @@
 	</definition>
 	<definition>
 		<key>text_storefront</key>
-		<value><![CDATA[Myymälä]]></value>
+		<value><![CDATA[Kaupan etusivu]]></value>
 	</definition>
 	<definition>
 		<key>text_texteditor_extended_mode</key>
-		<value><![CDATA[<a class="texteditor_ext_mode" href="%s" ><i class="fa fa-external-link"></i> Muokkaa Laajennettu tilassa</a>]]></value>
+		<value><![CDATA[<a class="texteditor_ext_mode" href="%s" ><i class="fa fa-external-link"></i> Muokkaa laajennetussa tilassa</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_view</key>
-		<value><![CDATA[Katsaus]]></value>
+		<value><![CDATA[Pikakatselu]]></value>
 	</definition>
 	<definition>
 		<key>text_more_current</key>
-		<value><![CDATA[Koko sivun muokkaa]]></value>
+		<value><![CDATA[Koko sivun muokkaus]]></value>
 	</definition>
 	<definition>
 		<key>text_more_new</key>
-		<value><![CDATA[Uusi välilehti muokkaa]]></value>
+		<value><![CDATA[Uuden välilehden muokkaus]]></value>
 	</definition>
 	<definition>
 		<key>text_back_to_list</key>
-		<value><![CDATA[Takaisin listalle]]></value>
-	</definition>
-	<definition>
-		<key>text_all_stores</key>
-		<value><![CDATA[Kaikki kaupat]]></value>
-	</definition>
-	<definition>
-		<key>text_copy_embed_url</key>
-		<value><![CDATA[Kopioi ja liitä tämä URL-osoite toiseen sivustoosi, jossa haluat myydä]]></value>
-	</definition>
-	<definition>
-		<key>button_field_history</key>
-		<value><![CDATA[Näytä kenttähistoria]]></value>
+		<value><![CDATA[Takaisin listaukseen]]></value>
 	</definition>
 	<definition>
 		<key>text_help_link</key>
@@ -762,7 +767,7 @@
 	</definition>
 	<definition>
 		<key>text_subtract_order</key>
-		<value><![CDATA[Vähennä järjestys]]></value>
+		<value><![CDATA[Vähennä tilausta]]></value>
 	</definition>
 	<definition>
 		<key>button_preview</key>
@@ -770,7 +775,7 @@
 	</definition>
 	<definition>
 		<key>warning_extensions_with_layouts</key>
-		<value><![CDATA[ Seuraavat laajennukset <br/> sisältävät sivuja tai asetteluja <br/> joita ei ole valitussa mallissa. Jos haluat sisällyttää ominaisuuksia näistä laajennuksista, sinun on asennettava laajennukset uudelleen, kun olet ottanut uuden mallin käyttöön. Jos uudelleenasennus ei auta, ota yhteyttä yllä olevien laajennusten alkuperäisiin kehittäjiin saadaksesi apua.	]]></value>
+		<value><![CDATA[Seuraavat laajennukset <br> %s <br> sisältävät sivuja tai asetteluja, joita valitussa mallissa ei ole. Jos haluat sisällyttää näiden laajennusten ominaisuuksia, sinun on asennettava laajennukset uudelleen sen jälkeen, kun olet ottanut käyttöön uuden mallin. Jos uudelleenasennus ei auta, ota yhteyttä edellä mainittujen laajennusten alkuperäisiin kehittäjiin saadaksesi apua.]]></value>
 	</definition>
 	<definition>
 		<key>column_sku</key>

@@ -6,11 +6,11 @@
 	</definition>
 	<definition>
 		<key>default_textmarketer_note</key>
-		<value><![CDATA[Ota tekstiviestit käyttöön siirtymällä kohtaan Järjestelmä -&gt; Asetukset -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
- ja valitsemalla TextMarketer oletussms-ohjaimeksi. Älä unohda ottaa käyttöön osiota, josta haluat vastaanottaa tekstiviestejä (järjestelmänvalvoja tai myymälä). <br/> 
- Tämä laajennus mahdollistaa Matkapuhelin-kentän järjestelmänvalvojille ja asiakkaille. Muista, että tämän laajennuksen poistaminen käytöstä piilottaa tämän kentän. 
- Jos lisäät olemassa olevaan myymälään asiakkaiden kanssa, muista, että nämä tiedot puuttuvat. 
-		]]></value>
+		<value><![CDATA[SMS-viestinnän käyttöönotto: siirry kohtaan Järjestelmä -> Asetukset -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a> ja valitse oletus-SMS-ohjaimeksi TextMarketer. Älä unohda ottaa käyttöön sitä osiota, josta haluat vastaanottaa SMS-viestejä (ylläpitäjästä tai kaupan etusivulta).
+
+Tämä laajennus lisää Mobiilipuhelin-kentän, jonka ylläpitäjät ja asiakkaat voivat täyttää. Muista, että jos poistat tämän laajennuksen käytöstä, kenttä piilotetaan.
+
+Jos lisäät laajennuksen olemassa olevaan kauppaan, jossa on jo asiakkaita, ota huomioon, että nämä tiedot puuttuvat.]]></value>
 	</definition>
 	<definition>
 		<key>default_textmarketer_username</key>
@@ -22,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>default_textmarketer_originator</key>
-		<value><![CDATA[Lähettäjä: <span class="help">Keneltä viesti on peräisin (lähettäjä tai lähettäjän tunnus). Tämä voi olla 11 aakkosnumeerista tai 16 vain numeerista merkkiä.</span>]]></value>
+		<value><![CDATA[Lähettäjä: <span class="help">Kuka viestin lähettää (alkuperäinen lähettäjä tai lähettäjä-ID). Tämä voi olla 11 alfanumeerista tai 16 pelkästään numeerista merkkiä.</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_textmarketer_test</key>
@@ -38,23 +38,23 @@
 	</definition>
 	<definition>
 		<key>default_textmarketer_logging</key>
-		<value><![CDATA[Error Logging Status <span class="help">Jos haluat kirjata kaikki TextMarketer-laajennuksen virheet, laita tämä asetus PÄÄLLE.</span>]]></value>
+		<value><![CDATA[Virheiden kirjaustila<span class="help">Jos haluat kirjata kaikki TextMarketer-laajennuksen virheet, ota tämä asetus käyttöön.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_sms</key>
-		<value><![CDATA[ Matkapuhelin ]]></value>
+		<value><![CDATA[Matkapuhelin]]></value>
 	</definition>
 	<definition>
 		<key>default_textmarketer_test_connection</key>
-		<value><![CDATA[Testaa yhteytesi: <span class="help">Voit testata, ovatko antamasi API-tunnistetiedot oikein.</span>]]></value>
+		<value><![CDATA[Testaa yhteyttäsi:<span class="help">Voit testata, ovatko antamasi API-tunnistetiedot oikein.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_test</key>
-		<value><![CDATA[ Testata ]]></value>
+		<value><![CDATA[Testi]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Virhe! Tarkista, onko laajennus päällä.]]></value>
+		<value><![CDATA[Virhe! Tarkista, että laajennus on käytössä.]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_test_phone_number</key>
@@ -62,10 +62,10 @@
 	</definition>
 	<definition>
 		<key>text_see_log</key>
-		<value><![CDATA[Katso lisätietoja virhelokista.]]></value>
+		<value><![CDATA[Katso virheloki saadaksesi lisätietoja.]]></value>
 	</definition>
 	<definition>
 		<key>text_connection_success</key>
-		<value><![CDATA[Yhteyden muodostaminen onnistui ja API-tunnistetiedot on määritetty oikein.]]></value>
+		<value><![CDATA[Yhteys on onnistunut ja API-tunnistetiedot on määritetty oikein.]]></value>
 	</definition>
 </definitions>

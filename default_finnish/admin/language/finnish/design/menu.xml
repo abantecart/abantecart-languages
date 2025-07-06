@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[valikko]]></value>
+		<value><![CDATA[Valikko]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Olet muokannut valikosta!]]></value>
+		<value><![CDATA[Onnistui: olet muokannut valikkoa!]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_id</key>
-		<value><![CDATA[Uniikki tunniste]]></value>
+		<value><![CDATA[Uniikki tunnus]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_icon</key>
-		<value><![CDATA[ikoni]]></value>
+		<value><![CDATA[Kuvake]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_text</key>
@@ -22,19 +22,27 @@
 	</definition>
 	<definition>
 		<key>entry_item_url</key>
-		<value><![CDATA[Link <br/><span class="help">ulkoiseen linkit lisätä http:// tai https:// alussa</span>]]></value>
+		<value><![CDATA[Linkki<br /><span class="help">Ulkoisiin linkkeihin lisää alussa http:// tai https://. Voit myös käyttää suhteellista URL-osoitetta, kuten ../subfolder/index.php</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_item_target</key>
+		<value><![CDATA[Kohde<br/><span class="help">_self - avaa linkitetyn asiakirjan samassa kehyksessä, jossa sitä napsautettiin.<br>_blank - avaa linkitetyn asiakirjan uudessa ikkunassa tai välilehdessä</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent_id</key>
-		<value><![CDATA[vanhempi]]></value>
+		<value><![CDATA[Ylätaso]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
 		<value><![CDATA[Lajittelujärjestys]]></value>
 	</definition>
 	<definition>
+		<key>entry_link_type</key>
+		<value><![CDATA[Linkkityyppi]]></value>
+	</definition>
+	<definition>
 		<key>text_select_parent_id</key>
-		<value><![CDATA[- Päävalikko -]]></value>
+		<value><![CDATA[- Juurivalikko -]]></value>
 	</definition>
 	<definition>
 		<key>error_empty</key>
@@ -42,34 +50,26 @@
 	</definition>
 	<definition>
 		<key>error_non_unique</key>
-		<value><![CDATA[Tunnus ole ainutlaatuinen!]]></value>
+		<value><![CDATA[Tuote-ID ei ole yksilöllinen!]]></value>
 	</definition>
 	<definition>
 		<key>error_non_ascii</key>
-		<value><![CDATA[Vain aakkosnumeeriset merkit sallitaan menu ID kenttä!]]></value>
-	</definition>
-	<definition>
-		<key>entry_link_type</key>
-		<value><![CDATA[Linkin tyyppi]]></value>
+		<value><![CDATA[Menu ID-kentässä saa olla vain aakkosnumeerisia merkkejä!]]></value>
 	</definition>
 	<definition>
 		<key>text_category_link_type</key>
-		<value><![CDATA[luokkasivu]]></value>
+		<value><![CDATA[Kategoriasivu]]></value>
 	</definition>
 	<definition>
 		<key>text_content_link_type</key>
-		<value><![CDATA[sisältö Sivu]]></value>
+		<value><![CDATA[Sisältösivu]]></value>
 	</definition>
 	<definition>
 		<key>text_custom_link_type</key>
-		<value><![CDATA[Custom Link tai URL]]></value>
-	</definition>
-	<definition>
-		<key>entry_item_target</key>
-		<value><![CDATA[Target <br/><span class="help">_self - avaa linkitetyn asiakirjan samassa kehyksessä, jossa sitä napsautettiin. <br/> _blank - avaa linkitetyn asiakirjan uuteen ikkunaan tai välilehteen</span>]]></value>
+		<value><![CDATA[Mukautettu linkki tai URL-osoite]]></value>
 	</definition>
 	<definition>
 		<key>entry_include_children_items</key>
-		<value><![CDATA[Sisällytä lasten esineitä]]></value>
+		<value><![CDATA[Sisällytä alakohteet]]></value>
 	</definition>
 </definitions>

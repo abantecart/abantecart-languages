@@ -6,19 +6,22 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_note</key>
-		<value><![CDATA[Jos sinulla on vakiovero käytössä, se toimii yhdessä Avataxin kanssa ja saatat joutua poistamaan vakioverot käytöstä. Tarkista järjestelmä -&gt; Lokalisointi -&gt; <a target="_new" href="#admin#rt=localisation/tax_class">Veroluokka</a><br/> Älä myöskään unohda ottaa käyttöön laajennus <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br/> Tärkeää! Avatax Integration Laajennussumman kokonaislaskennan järjestyksen on oltava välisumman jälkeen. Välisummalaskennan tulisi edeltää tätä laajennuksen kokonaislaskelmaa. Tarkista tämä laajennusten kokonaisasetuksista.]]></value>
+		<value><![CDATA[Jos olet ottanut vakioveron käyttöön, se toimii yhdessä Avataxin kanssa, ja saatat joutua poistamaan vakioverot käytöstä.	
+Tarkista Järjestelmä -> Lokalisaatio -> <a target="_new" href="#admin#rt=localisation/tax_class">Veroluokka</a><br>	
+Älä unohda ottaa käyttöön laajennusta <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br>	
+Tärkeää! Avatax Integration Total -laajennuksen laskentajärjestyksen laajennusten kokonaissummissa on oltava välisumman jälkeen. Välisumma tulee laskea ennen tämän laajennuksen kokonaissumman laskentaa. Tarkista tämä laajennusten kokonaissummien asetuksista.]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_account_number</key>
-		<value><![CDATA[Tilinumero: <br/><span class="help">Avalaran antama tilinumero</span>]]></value>
+		<value><![CDATA[Tilinumero:<br /><span class="help">Avalaran toimittama tilinumero</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_license_key</key>
-		<value><![CDATA[Lisenssiavain: <br/><span class="help">Avalaran toimittama lisenssiavain</span>]]></value>
+		<value><![CDATA[Lisenssiavain:<br /><span class="help">Avalaran toimittama lisenssiavain</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_service_url</key>
-		<value><![CDATA[Palvelun URL-osoite: <br/><span class="help">Avalara-palvelun URL-osoite (live tai kehitystyö)</span>]]></value>
+		<value><![CDATA[Palvelun URL:<br /><span class="help">Avalara-palvelun URL (tuotanto- tai kehitysympäristö)</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
@@ -30,27 +33,27 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
-		<value><![CDATA[Tax Name: <br/><span class="help">Veron nimi, joka näytetään asiakkaalle summat-osiossa</span>]]></value>
+		<value><![CDATA[Veron nimi:<br /><span class="help">Veron nimi, joka näytetään asiakkaalle yhteenveto-osiossa</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
-		<value><![CDATA[Yrityskoodi: <br/><span class="help">Avalaran kanssa käytettävä yrityskoodi</span>]]></value>
+		<value><![CDATA[Yrityskoodi:<br /><span class="help">Yrityskoodi, jota käytetään Avalaran kanssa</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Myymälän postinumero:]]></value>
+		<value><![CDATA[Myymälän ZIP/postinumero:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Virhe! Tarkista, onko laajennus päällä.]]></value>
+		<value><![CDATA[Virhe! Tarkista, että laajennus on päällä.]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_default_taxcode</key>
-		<value><![CDATA[Tuotteen oletusverokoodi]]></value>
+		<value><![CDATA[Tuotteen oletusarvoinen verokoodi]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_shipping_taxcode</key>
-		<value><![CDATA[Toimitustavat Oletusverokoodit]]></value>
+		<value><![CDATA[Toimitustapojen oletusverokoodit]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_text_shipping_method</key>
@@ -66,31 +69,31 @@
 	</definition>
 	<definition>
 		<key>text_connection_success</key>
-		<value><![CDATA[Yhteyden muodostaminen onnistui ja API-tunnistetiedot on määritetty oikein.]]></value>
+		<value><![CDATA[Yhteys onnistui ja API-tunnistetiedot on määritetty oikein.]]></value>
 	</definition>
 	<definition>
 		<key>text_test_connection</key>
-		<value><![CDATA[Testiyhteys:]]></value>
+		<value><![CDATA[Testaa yhteys:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
-		<value><![CDATA[Osoitteen vahvistus: <br/><span class="help">Osoitteen vahvistus suoritetaan asiakkaan kassalla</span>]]></value>
+		<value><![CDATA[Osoitteen vahvistus:<br /><span class="help">Osoitteen vahvistus suoritetaan asiakkaan kassavaiheessa</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validate_button_title</key>
-		<value><![CDATA[Osoitteen vahvistuspainikkeen otsikko:]]></value>
+		<value><![CDATA[Otsikko osoitteen tarkistuspainikkeelle:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_commit_documents</key>
-		<value><![CDATA[Avatax-palvelun sitomisasiakirjat: <br/><span class="help">Jos otat käyttöön veroasiakirjat, sitoudutaan määritetyssä tilaustilassa</span>]]></value>
+		<value><![CDATA[Lähetä asiakirjat Avatax-palveluun:<br /><span class="help">Jos ominaisuus on käytössä, verodokumentti lähetetään määritetyssä tilauksen tilassa</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_return_documents</key>
-		<value><![CDATA[Palautusasiakirjat Avatax-palvelussa: <br/><span class="help">Palautus kirjataan määritettyyn tilaustilaan</span>]]></value>
+		<value><![CDATA[Palautusdokumentit Avatax-palvelussa:<br /><span class="help">Palautus kirjataan määritettyyn tilauksen tilaan</span>]]></value>
 	</definition>
 	<definition>
 		<key>button_add_tax_code</key>
-		<value><![CDATA[Tallentaa]]></value>
+		<value><![CDATA[Tallenna]]></value>
 	</definition>
 	<definition>
 		<key>button_delete_tax_code</key>
@@ -106,7 +109,7 @@
 	</definition>
 	<definition>
 		<key>exemption_status</key>
-		<value><![CDATA[Vapautustila:]]></value>
+		<value><![CDATA[Vapautuksen tila:]]></value>
 	</definition>
 	<definition>
 		<key>exemption_status_pending</key>
@@ -122,31 +125,31 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_subject</key>
-		<value><![CDATA[Verovapaa numerosi on hylätty]]></value>
+		<value><![CDATA[Sinun verovapaustunnuksesi on hylätty.]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_mail_text</key>
-		<value><![CDATA[Verovapaa numerosi on hylätty. Tarkista kelvollisuus käymällä tilisi tietosivulla %s]]></value>
+		<value><![CDATA[Verovapaustunnuksesi on hylätty. Voimassaolon tarkistamiseksi käy tilitietosivullasi %s]]></value>
 	</definition>
 	<definition>
 		<key>exemption_number_name</key>
-		<value><![CDATA[Vapautusnumero: <br/><span class="help">Verovapautusnumero</span>]]></value>
+		<value><![CDATA[Vapautusnumero:<br /><span class="help">Verovapautusnumero</span>]]></value>
 	</definition>
 	<definition>
 		<key>entity_use_code_name</key>
-		<value><![CDATA[Entity\Use Code: <br/><span class="help">AvaTaxilla on joukko koodeja, jotka osoittavat vapautuksen tyypin. Katso vakiokoodit tai luo mukautettuja koodeja AvaTax-sivustolla</span>]]></value>
+		<value><![CDATA[Entiteetti\Käyttökoodi:<br /><span class="help">AvaTaxissa on joukko koodeja, jotka ilmaisevat vapautuksen tyypin. Katso standardikoodit tai luo mukautettuja koodeja AvaTax-sivustolla</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_status_success_settled</key>
-		<value><![CDATA[Sitoudu tilaukseen:]]></value>
+		<value><![CDATA[Vahvista, kun tilauksen tila on:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_status_return_settled</key>
-		<value><![CDATA[Tilauksen palautuksen tila:]]></value>
+		<value><![CDATA[Palautus tilauksen tilasta:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_status_cancel_settled</key>
-		<value><![CDATA[Peruuta tilauksen tilasta:]]></value>
+		<value><![CDATA[Peruuta tilauksen tilassa:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_account_number_validation_error</key>
@@ -166,14 +169,14 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation_countries</key>
-		<value><![CDATA[Osoitteen vahvistamisen maat]]></value>
+		<value><![CDATA[Maat osoitteen validointia varten]]></value>
 	</definition>
 	<definition>
 		<key>total_name</key>
-		<value><![CDATA[Avatax-integraatio yhteensä]]></value>
+		<value><![CDATA[Avatax-integraation yhteissumma]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_logging</key>
-		<value><![CDATA[Ota tapahtumaloki käyttöön]]></value>
+		<value><![CDATA[Ota tapahtumien lokitus käyttöön]]></value>
 	</definition>
 </definitions>

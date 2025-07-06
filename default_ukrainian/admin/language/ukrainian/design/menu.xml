@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[меню]]></value>
+		<value><![CDATA[Меню]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -10,23 +10,27 @@
 	</definition>
 	<definition>
 		<key>entry_item_id</key>
-		<value><![CDATA[унікальний ID]]></value>
+		<value><![CDATA[Унікальний ідентифікатор]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_icon</key>
-		<value><![CDATA[іконка]]></value>
+		<value><![CDATA[Іконка]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_text</key>
-		<value><![CDATA[текст]]></value>
+		<value><![CDATA[Текст]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_url</key>
-		<value><![CDATA[Посилання <br/><span class="help">Для зовнішніх посилань додати HTTP: // або https:// на початку</span>]]></value>
+		<value><![CDATA[Link<br /><span class="help">Для зовнішніх посилань додавайте http:// або https:// на початку. Ви також можете використовувати відносний URL, наприклад ../subfolder/index.php</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_item_target</key>
+		<value><![CDATA[Ціль<br/><span class="help">_self - відкриває пов’язаний документ у тому ж фреймі, де було натиснуто.<br>_blank - відкриває пов’язаний документ у новому вікні або вкладці</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent_id</key>
-		<value><![CDATA[батько]]></value>
+		<value><![CDATA[Батько]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -34,11 +38,11 @@
 	</definition>
 	<definition>
 		<key>entry_link_type</key>
-		<value><![CDATA[Тип зв&#39;язку]]></value>
+		<value><![CDATA[Тип посилання]]></value>
 	</definition>
 	<definition>
 		<key>text_select_parent_id</key>
-		<value><![CDATA[- Головне Меню -]]></value>
+		<value><![CDATA[Кореневе меню]]></value>
 	</definition>
 	<definition>
 		<key>error_empty</key>
@@ -46,30 +50,26 @@
 	</definition>
 	<definition>
 		<key>error_non_unique</key>
-		<value><![CDATA[Item ID не унікальний!]]></value>
+		<value><![CDATA[Ідентифікатор товару не унікальний!]]></value>
 	</definition>
 	<definition>
 		<key>error_non_ascii</key>
-		<value><![CDATA[Тільки буквено-цифрові символи дозволені для меню ID поля!]]></value>
+		<value><![CDATA[Для поля ID меню допускаються тільки буквено-цифрові символи!]]></value>
 	</definition>
 	<definition>
 		<key>text_category_link_type</key>
-		<value><![CDATA[Категорія Page]]></value>
+		<value><![CDATA[Сторінка категорії]]></value>
 	</definition>
 	<definition>
 		<key>text_content_link_type</key>
-		<value><![CDATA[зміст сторінки]]></value>
+		<value><![CDATA[Сторінка вмісту]]></value>
 	</definition>
 	<definition>
 		<key>text_custom_link_type</key>
-		<value><![CDATA[Призначені для користувача посилання або URL]]></value>
-	</definition>
-	<definition>
-		<key>entry_item_target</key>
-		<value><![CDATA[Target <br/><span class="help">_self - відкриває пов’язаний документ у тому ж фреймі, у якому його було клацнуто. <br/> _blank - відкриває пов&#39;язаний документ у новому вікні чи вкладці</span>]]></value>
+		<value><![CDATA[Користувацьке посилання або URL]]></value>
 	</definition>
 	<definition>
 		<key>entry_include_children_items</key>
-		<value><![CDATA[Включайте дитячі елементи]]></value>
+		<value><![CDATA[Включити дочірні елементи]]></value>
 	</definition>
 </definitions>

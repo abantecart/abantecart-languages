@@ -14,15 +14,15 @@
 	</definition>
 	<definition>
 		<key>text_invoice</key>
-		<value><![CDATA[рахунок-фактура]]></value>
+		<value><![CDATA[Рахунок]]></value>
 	</definition>
 	<definition>
 		<key>text_invoice_id</key>
-		<value><![CDATA[Ідентифікатор рахунку-фактури]]></value>
+		<value><![CDATA[Ідентифікатор рахунку]]></value>
 	</definition>
 	<definition>
 		<key>text_order_id</key>
-		<value><![CDATA[ID замовлення]]></value>
+		<value><![CDATA[Ідентифікатор замовлення]]></value>
 	</definition>
 	<definition>
 		<key>text_email</key>
@@ -62,7 +62,7 @@
 	</definition>
 	<definition>
 		<key>text_product</key>
-		<value><![CDATA[Продукт]]></value>
+		<value><![CDATA[Товар]]></value>
 	</definition>
 	<definition>
 		<key>text_model</key>
@@ -70,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>text_sku</key>
-		<value><![CDATA[SKU]]></value>
+		<value><![CDATA[Артикул]]></value>
 	</definition>
 	<definition>
 		<key>text_quantity</key>
@@ -94,7 +94,7 @@
 	</definition>
 	<definition>
 		<key>text_error</key>
-		<value><![CDATA[Замовлення, яке ви запитували, не знайдено!]]></value>
+		<value><![CDATA[Замовлення, яке ви запросили, не знайдено!]]></value>
 	</definition>
 	<definition>
 		<key>column_date_added</key>
@@ -106,7 +106,7 @@
 	</definition>
 	<definition>
 		<key>column_comment</key>
-		<value><![CDATA[Коментар до замовлення клієнта]]></value>
+		<value><![CDATA[Коментар клієнта до замовлення]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation</key>
@@ -114,12 +114,11 @@
 	</definition>
 	<definition>
 		<key>text_request_cancellation_from_customer</key>
-		<value><![CDATA[Вимагати від Клієнта скасування замовлення ]]></value>
+		<value><![CDATA[Запит на скасування замовлення від клієнта]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_confirm</key>
-		<value><![CDATA[
- Ваш запит на скасування може бути не подано в деяких випадках, наприклад, коли товар уже відправлено. Продовжити?]]></value>
+		<value><![CDATA[Ваш запит на скасування може бути неможливим у деяких випадках, наприклад, коли товари вже відправлено. Продовжити?]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_success</key>
@@ -131,14 +130,14 @@
 	</definition>
 	<definition>
 		<key>text_order_cancelation_message_body</key>
-		<value><![CDATA[Клієнт %s подав запит на скасування замовлення №%s. Щоб переглянути, перейдіть до %s]]></value>
+		<value><![CDATA[Клієнт %s запросив скасування замовлення #%s. Щоб переглянути, перейдіть до %s]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[Адреса електронної пошти недійсна!]]></value>
+		<value><![CDATA[Адреса електронної пошти не є дійсною!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_id</key>
-		<value><![CDATA[Ідентифікатор замовлення обов&#39;язковий для заповнення!]]></value>
+		<value><![CDATA[ID замовлення є обов’язковим полем!]]></value>
 	</definition>
 </definitions>

@@ -1,40 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[клієнти]]></value>
+		<value><![CDATA[Клієнти]]></value>
 	</definition>
 	<definition>
 		<key>text_customer</key>
-		<value><![CDATA[клієнт]]></value>
+		<value><![CDATA[Клієнт]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: У вас є модифіковані клієнти!]]></value>
+		<value><![CDATA[Успіх: Ви змінили клієнтів!]]></value>
 	</definition>
 	<definition>
 		<key>text_approved</key>
-		<value><![CDATA[Ви схвалили %s рахунок!]]></value>
+		<value><![CDATA[Ви схвалили обліковий запис %s!]]></value>
 	</definition>
 	<definition>
 		<key>tab_customer_address</key>
-		<value><![CDATA[адреса]]></value>
+		<value><![CDATA[Адреса]]></value>
 	</definition>
 	<definition>
 		<key>text_customer_addresses</key>
-		<value><![CDATA[адреси клієнтів]]></value>
+		<value><![CDATA[Адреси клієнтів]]></value>
 	</definition>
 	<definition>
 		<key>text_add_address</key>
-		<value><![CDATA[Додати нову адресу]]></value>
+		<value><![CDATA[Додати адресу]]></value>
 	</definition>
 	<definition>
 		<key>button_add</key>
-		<value><![CDATA[додавати]]></value>
+		<value><![CDATA[Додати]]></value>
+	</definition>
+	<definition>
+		<key>column_id</key>
+		<value><![CDATA[ідентифікатор]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[Ім&#39;я клієнта]]></value>
+		<value><![CDATA[Ім’я клієнта]]></value>
 	</definition>
 	<definition>
 		<key>column_email</key>
@@ -46,31 +50,31 @@
 	</definition>
 	<definition>
 		<key>column_group</key>
-		<value><![CDATA[група]]></value>
+		<value><![CDATA[Група]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
-		<value><![CDATA[статус]]></value>
+		<value><![CDATA[Статус]]></value>
 	</definition>
 	<definition>
 		<key>column_approved</key>
-		<value><![CDATA[затверджений]]></value>
+		<value><![CDATA[Схвалено]]></value>
 	</definition>
 	<definition>
 		<key>column_date_added</key>
-		<value><![CDATA[дату додано]]></value>
+		<value><![CDATA[Дата додавання]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[дію]]></value>
+		<value><![CDATA[Дія]]></value>
 	</definition>
 	<definition>
 		<key>entry_loginname</key>
-		<value><![CDATA[Логін:]]></value>
+		<value><![CDATA[Ім’я користувача:]]></value>
 	</definition>
 	<definition>
 		<key>entry_firstname</key>
-		<value><![CDATA[Ім&#39;я:]]></value>
+		<value><![CDATA[Ім'я:]]></value>
 	</definition>
 	<definition>
 		<key>entry_lastname</key>
@@ -90,7 +94,7 @@
 	</definition>
 	<definition>
 		<key>entry_newsletter</key>
-		<value><![CDATA[Інформаційний бюлетень:]]></value>
+		<value><![CDATA[Розсилка новин:]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_group</key>
@@ -98,23 +102,23 @@
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[статус:]]></value>
+		<value><![CDATA[Статус:]]></value>
 	</definition>
 	<definition>
 		<key>entry_approved</key>
-		<value><![CDATA[затверджено:]]></value>
+		<value><![CDATA[Затверджено:]]></value>
 	</definition>
 	<definition>
 		<key>entry_password</key>
-		<value><![CDATA[пароль:]]></value>
+		<value><![CDATA[Пароль:]]></value>
 	</definition>
 	<definition>
 		<key>entry_confirm</key>
-		<value><![CDATA[підтвердження:]]></value>
+		<value><![CDATA[Підтвердити:]]></value>
 	</definition>
 	<definition>
 		<key>entry_company</key>
-		<value><![CDATA[компанія:]]></value>
+		<value><![CDATA[Компанія:]]></value>
 	</definition>
 	<definition>
 		<key>entry_address_1</key>
@@ -126,7 +130,7 @@
 	</definition>
 	<definition>
 		<key>entry_city</key>
-		<value><![CDATA[місто:]]></value>
+		<value><![CDATA[Місто:]]></value>
 	</definition>
 	<definition>
 		<key>entry_postcode</key>
@@ -146,55 +150,55 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Увага: У вас немає дозволу на зміну клієнтів!]]></value>
+		<value><![CDATA[Попередження: У вас немає дозволу змінювати клієнтів!]]></value>
 	</definition>
 	<definition>
 		<key>error_loginname</key>
-		<value><![CDATA[Вхід Ім&#39;я повинно бути тільки та від 5 до 64 алфавітно-цифрових символів!]]></value>
+		<value><![CDATA[Ім’я користувача повинно бути лише буквено-цифровим та мати довжину від 5 до 64 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_loginname_notunique</key>
-		<value><![CDATA[Це ім&#39;я Логін не доступний. Спробуйте інше ім&#39;я входу в систему!]]></value>
+		<value><![CDATA[Цей логін недоступний. Спробуйте інший логін!]]></value>
 	</definition>
 	<definition>
 		<key>error_firstname</key>
-		<value><![CDATA[Ім&#39;я повинно бути від 1 до 32 символів!]]></value>
+		<value><![CDATA[Ім’я повинно містити від 1 до 32 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_lastname</key>
-		<value><![CDATA[Прізвище повинна бути від 1 до 32 символів!]]></value>
+		<value><![CDATA[Прізвище має містити від 1 до 32 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[E-Mail, схоже, не дійсні!]]></value>
+		<value><![CDATA[Адреса електронної пошти, здається, недійсна!]]></value>
 	</definition>
 	<definition>
 		<key>error_telephone</key>
-		<value><![CDATA[Телефон повинен бути в межах від 3 до 32 символів!]]></value>
+		<value><![CDATA[Телефон повинен містити від 3 до 32 символів, що складаються виключно з цифр!]]></value>
 	</definition>
 	<definition>
 		<key>error_password</key>
-		<value><![CDATA[Пароль повинен бути від 3 до 20 символів!]]></value>
+		<value><![CDATA[Пароль повинен містити від 3 до 20 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_confirm</key>
-		<value><![CDATA[Пароль і підтвердження пароля не збігаються!]]></value>
+		<value><![CDATA[Пароль та підтвердження пароля не збігаються!]]></value>
 	</definition>
 	<definition>
 		<key>error_address_firstname</key>
-		<value><![CDATA[Ім&#39;я повинно бути від 1 до 32 символів!]]></value>
+		<value><![CDATA[Ім’я має містити від 1 до 32 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_address_lastname</key>
-		<value><![CDATA[Прізвище повинна бути від 1 до 32 символів!]]></value>
+		<value><![CDATA[Прізвище повинно бути від 1 до 32 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_address_1</key>
-		<value><![CDATA[Адреса повинен знаходитися в діапазоні від 3 до 128 символів!]]></value>
+		<value><![CDATA[Адреса повинна містити від 3 до 128 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_city</key>
-		<value><![CDATA[Місто повинно бути в межах від 3 до 128 символів!]]></value>
+		<value><![CDATA[Місто має бути від 3 до 128 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_country</key>
@@ -202,11 +206,11 @@
 	</definition>
 	<definition>
 		<key>error_zone</key>
-		<value><![CDATA[Будь ласка, виберіть регіон / стан!]]></value>
+		<value><![CDATA[Будь ласка, виберіть регіон / штат!]]></value>
 	</definition>
 	<definition>
 		<key>text_select_approved</key>
-		<value><![CDATA[- Виберіть Approved -]]></value>
+		<value><![CDATA[- Оберіть затверджені -]]></value>
 	</definition>
 	<definition>
 		<key>text_select_group</key>
@@ -214,15 +218,15 @@
 	</definition>
 	<definition>
 		<key>tab_customer_details</key>
-		<value><![CDATA[реквізити клієнта]]></value>
+		<value><![CDATA[Деталі клієнта]]></value>
 	</definition>
 	<definition>
 		<key>tab_transactions</key>
-		<value><![CDATA[операції]]></value>
+		<value><![CDATA[Транзакції]]></value>
 	</definition>
 	<definition>
 		<key>heading_title_transactions</key>
-		<value><![CDATA[операції Клієнта]]></value>
+		<value><![CDATA[Транзакції клієнта]]></value>
 	</definition>
 	<definition>
 		<key>column_create_date</key>
@@ -230,43 +234,43 @@
 	</definition>
 	<definition>
 		<key>column_created_by</key>
-		<value><![CDATA[Створений]]></value>
+		<value><![CDATA[Створено]]></value>
 	</definition>
 	<definition>
 		<key>column_debit</key>
-		<value><![CDATA[дебет]]></value>
+		<value><![CDATA[Дебет]]></value>
 	</definition>
 	<definition>
 		<key>column_credit</key>
-		<value><![CDATA[кредит]]></value>
+		<value><![CDATA[Кредит]]></value>
 	</definition>
 	<definition>
 		<key>column_transaction_type</key>
-		<value><![CDATA[тип операції]]></value>
+		<value><![CDATA[Тип транзакції]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[залишок:]]></value>
+		<value><![CDATA[Баланс:]]></value>
 	</definition>
 	<definition>
 		<key>text_last_login</key>
-		<value><![CDATA[Останній вхід в систему:]]></value>
+		<value><![CDATA[Останній вхід:]]></value>
 	</definition>
 	<definition>
 		<key>text_never</key>
-		<value><![CDATA[ніколи]]></value>
+		<value><![CDATA[Ніколи]]></value>
 	</definition>
 	<definition>
 		<key>popup_title_info</key>
-		<value><![CDATA[інформація про операції]]></value>
+		<value><![CDATA[Інформація про транзакцію]]></value>
 	</definition>
 	<definition>
 		<key>popup_title_insert</key>
-		<value><![CDATA[Вставте нову транзакцію]]></value>
+		<value><![CDATA[Додати нову транзакцію]]></value>
 	</definition>
 	<definition>
 		<key>entry_credit</key>
-		<value><![CDATA[Кредит (збільшення балансу)]]></value>
+		<value><![CDATA[Кредит (збільшити баланс)]]></value>
 	</definition>
 	<definition>
 		<key>entry_debit</key>
@@ -274,19 +278,23 @@
 	</definition>
 	<definition>
 		<key>entry_transaction_type</key>
-		<value><![CDATA[Тип операції:]]></value>
+		<value><![CDATA[Тип транзакції:]]></value>
 	</definition>
 	<definition>
 		<key>entry_other_type</key>
-		<value><![CDATA[Інший тип призначеного для користувача дії:]]></value>
+		<value><![CDATA[Додати новий власний тип транзакції:]]></value>
+	</definition>
+	<definition>
+		<key>text_other_type_placeholder</key>
+		<value><![CDATA[Введіть тут нове ім’я]]></value>
 	</definition>
 	<definition>
 		<key>text_option_other_type</key>
-		<value><![CDATA[Інший...]]></value>
+		<value><![CDATA[Інше...]]></value>
 	</definition>
 	<definition>
 		<key>entry_transaction_description</key>
-		<value><![CDATA[Опис (для клієнта):]]></value>
+		<value><![CDATA[Опис (для покупця):]]></value>
 	</definition>
 	<definition>
 		<key>entry_transaction_comment</key>
@@ -294,7 +302,7 @@
 	</definition>
 	<definition>
 		<key>entry_update_date</key>
-		<value><![CDATA[Дата поновлення:]]></value>
+		<value><![CDATA[Дата оновлення:]]></value>
 	</definition>
 	<definition>
 		<key>entry_create_date</key>
@@ -302,27 +310,35 @@
 	</definition>
 	<definition>
 		<key>error_transaction_type</key>
-		<value><![CDATA[Помилка: Будь ласка, заповніть поля форми угоди типу.]]></value>
+		<value><![CDATA[Помилка: будь ласка, заповніть поле типу транзакції.]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_debit_credit</key>
-		<value><![CDATA[Помилка: Будь ласка, заповніть дебетову або кредитну цінність для клієнта операції.]]></value>
+		<value><![CDATA[Помилка: будь ласка, вкажіть значення дебету або кредиту для транзакції клієнта.]]></value>
+	</definition>
+	<definition>
+		<key>error_incorrect_debit_credit</key>
+		<value><![CDATA[Помилка: значення дебету або кредиту не може перевищувати 99999999999.9999.]]></value>
 	</definition>
 	<definition>
 		<key>text_transaction_success</key>
-		<value><![CDATA[Успіх: Ви змінили угоду!]]></value>
+		<value><![CDATA[Успіх: Ви змінили транзакцію!]]></value>
+	</definition>
+	<definition>
+		<key>text_add_address</key>
+		<value><![CDATA[Додати адресу]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_address</key>
-		<value><![CDATA[змінити адресу]]></value>
+		<value><![CDATA[Редагувати адресу]]></value>
 	</definition>
 	<definition>
 		<key>entry_default</key>
-		<value><![CDATA[За замовчуванням Адреса:]]></value>
+		<value><![CDATA[Адреса за замовчуванням:]]></value>
 	</definition>
 	<definition>
 		<key>error_delete_default</key>
-		<value><![CDATA[Помилка: Адреса за замовчуванням не може бути знищений!]]></value>
+		<value><![CDATA[Помилка: адресу за замовчуванням не можна видалити!]]></value>
 	</definition>
 	<definition>
 		<key>error_delete_last</key>
@@ -330,7 +346,7 @@
 	</definition>
 	<definition>
 		<key>entry_date_added</key>
-		<value><![CDATA[Дату додано:]]></value>
+		<value><![CDATA[Дата додавання:]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_modified</key>
@@ -338,35 +354,23 @@
 	</definition>
 	<definition>
 		<key>warning_actonbehalf_additional_store</key>
-		<value><![CDATA[Для того, щоб діяти від імені клієнта в додатковому магазині вам необхідно увійти в адмін сторону іншого магазину. Продовжити?]]></value>
+		<value><![CDATA[Щоб діяти від імені клієнта в додатковому магазині, вам слід увійти в адмін-панель іншого магазину. Продовжити?]]></value>
 	</definition>
 	<definition>
 		<key>entry_notify</key>
-		<value><![CDATA[Повідомити Замовника:]]></value>
+		<value><![CDATA[Повідомити клієнта:]]></value>
 	</definition>
 	<definition>
 		<key>text_transaction_notification_subject</key>
-		<value><![CDATA[Нова транзакція була розміщена на ваш рахунок %s]]></value>
+		<value><![CDATA[Нова транзакція була додана до вашого %s облікового запису]]></value>
 	</definition>
 	<definition>
 		<key>text_transaction_notification_message</key>
-		<value><![CDATA[Нова транзакція була розміщена на ваш рахунок %s в розмірі %s. Для отримання більш детальної інформації, увійдіть в %s рахунок]]></value>
+		<value><![CDATA[Нова транзакція була зарахована на ваш %s обліковий запис на суму %s. Для отримання додаткових відомостей увійдіть у свій %s обліковий запис.]]></value>
 	</definition>
 	<definition>
 		<key>text_total_order</key>
-		<value><![CDATA[Усього замовлень:]]></value>
-	</definition>
-	<definition>
-		<key>column_id</key>
-		<value><![CDATA[ID]]></value>
-	</definition>
-	<definition>
-		<key>text_other_type_placeholder</key>
-		<value><![CDATA[введіть тут нову назву ]]></value>
-	</definition>
-	<definition>
-		<key>error_incorrect_debit_credit</key>
-		<value><![CDATA[Помилка: значення дебету або кредиту не може перевищувати 99999999999,9999]]></value>
+		<value><![CDATA[Всього замовлень:]]></value>
 	</definition>
 	<definition>
 		<key>text_register_date</key>
@@ -374,6 +378,6 @@
 	</definition>
 	<definition>
 		<key>error_email_exists</key>
-		<value><![CDATA[Клієнт із цією електронною адресою вже існує!]]></value>
+		<value><![CDATA[Клієнт з цією електронною адресою вже існує!]]></value>
 	</definition>
 </definitions>

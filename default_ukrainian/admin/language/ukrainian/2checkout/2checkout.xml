@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>2checkout_name</key>
-		<value><![CDATA[2Оформлення замовлення]]></value>
+		<value><![CDATA[2Checkout]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -10,28 +10,25 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: ви змінили дані облікового запису 2Checkout!]]></value>
+		<value><![CDATA[Успіх: Ви змінили деталі облікового запису 2Checkout!]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_note</key>
-		<value><![CDATA[
- За допомогою цього розширення ви можете використовувати платіжну систему 2Checkout для прийому платежів від ваших клієнтів. <br/> 
- <b>Зареєструйтеся безкоштовно сьогодні! Скористайтеся промокодом ABANTECART2CO, щоб не сплачувати комісію за обслуговування заявки (економія 10,99 доларів США) і почніть продавати в Інтернеті вже сьогодні!</b> Відвідайте <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> , заповніть заявку, а потім введіть код у поле промо-коду, щоб скористатися цією спеціальною пропозицією вже сьогодні! 
- <br/> Після реєстрації ввійдіть, щоб отримати облікові дані облікового запису для налаштування цього розширення 
- <br/> Не забудьте налаштувати URL-адресу INS і URL-адресу перенаправлення тут <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>. 
- <br/><br/> Ваша URL-адреса INS<h4> #storefront#rt=extension/2checkout/callback</h4> 
- <br/><br/> Також налаштуйте URL-адресу перенаправлення та виберіть метод повернення «Перенаправлення заголовка». 
- <br/><br/> Ваша URL-адреса перенаправлення<h4> #storefront#rt=оплата/успіх</h4> 
-		 ]]></value>
+		<value><![CDATA[За допомогою цього розширення ви можете використовувати платіжну систему 2Checkout для приймання платежів від ваших клієнтів.<br>
+<b>Реєструйтесь безкоштовно вже сьогодні! Використайте промокод ABANTECART2CO, щоб уникнути плати за сервісний збір за заявку (економія $10.99) і почніть продавати онлайн вже сьогодні!</b> Відвідайте <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, заповніть заявку і введіть код у поле промокоду, щоб скористатися цією спеціальною пропозицією вже сьогодні!<br>
+Після реєстрації увійдіть, щоб отримати облікові дані для налаштування цього розширення.<br>
+Не забудьте налаштувати INS URL та Redirect URL тут <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.<br><br>
+Ваш INS URL: <h4>#storefront#rt=extension/2checkout/callback</h4><br><br>
+Також налаштуйте Redirect URL і виберіть Return method "Header redirect".<br><br>
+Ваш Redirect URL: <h4>#storefront#rt=checkout/success</h4>]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_account</key>
-		<value><![CDATA[2Код продавця Checkout:]]></value>
+		<value><![CDATA[Код продавця 2Checkout:]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_secret</key>
-		<value><![CDATA[
- Секретний ключ: <br/><span class="help">Секретне слово для підтвердження транзакцій (має бути таким самим, як визначено на сторінці конфігурації облікового запису продавця.</span>]]></value>
+		<value><![CDATA[Секретний ключ:<br /><span class="help">Секретне слово для підтвердження транзакцій (має збігатися з вказаним на сторінці налаштування облікового запису продавця).</span>]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_test</key>
@@ -39,11 +36,11 @@
 	</definition>
 	<definition>
 		<key>2checkout_test_1</key>
-		<value><![CDATA[так]]></value>
+		<value><![CDATA[Так]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_test_0</key>
-		<value><![CDATA[немає]]></value>
+		<value><![CDATA[Ні]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_order_status_id</key>
@@ -51,7 +48,7 @@
 	</definition>
 	<definition>
 		<key>2checkout_location_id</key>
-		<value><![CDATA[Розташування:]]></value>
+		<value><![CDATA[Місцезнаходження:]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_location_id_0</key>
@@ -59,14 +56,14 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Попередження: у вас немає дозволу на зміну платежу 2Checkout!]]></value>
+		<value><![CDATA[Попередження: Ви не маєте дозволу змінювати спосіб оплати 2Checkout!]]></value>
 	</definition>
 	<definition>
 		<key>error_account</key>
-		<value><![CDATA[Необхідний код продавця!]]></value>
+		<value><![CDATA[Код продавця обов'язковий!]]></value>
 	</definition>
 	<definition>
 		<key>error_secret</key>
-		<value><![CDATA[Потрібен секретний ключ!]]></value>
+		<value><![CDATA[Необхідний секретний ключ!]]></value>
 	</definition>
 </definitions>

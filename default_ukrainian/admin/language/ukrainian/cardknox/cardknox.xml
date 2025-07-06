@@ -5,16 +5,12 @@
 		<value><![CDATA[CardKnox]]></value>
 	</definition>
 	<definition>
-		<key>cardknox_note</key>
-		<value><![CDATA[]]></value>
-	</definition>
-	<definition>
 		<key>cardknox_transaction_key</key>
 		<value><![CDATA[Ключ транзакції (xKey)]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_token</key>
-		<value><![CDATA[Маркер транзакції (xToken)]]></value>
+		<value><![CDATA[Токен транзакції (xToken)]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_test</key>
@@ -22,11 +18,11 @@
 	</definition>
 	<definition>
 		<key>cardknox_success_order_status</key>
-		<value><![CDATA[Статус замовлення: <br/><span class="help">Статус замовлення буде встановлено після завершення замовлення клієнта на основі встановленого методу транзакції</span>]]></value>
+		<value><![CDATA[Order Status:<br /><span class="help">Статус замовлення, який буде встановлено після завершення замовлення клієнта на основі встановленого методу транзакції</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_location_id</key>
-		<value><![CDATA[Розташування: <br/><span class="help">Обмежити, щоб дозволити лише вибраним місцям використовувати цей спосіб оплати.</span>]]></value>
+		<value><![CDATA[Місцезнаходження:<br /><span class="help">Обмежити використання цього методу оплати лише для вибраних місцезнаходжень.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_location_id_0</key>
@@ -34,15 +30,15 @@
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method</key>
-		<value><![CDATA[Метод транзакції: <br/><span class="help">транзакції CardKnox, які виконуються на касі клієнта до встановлення статусу замовлення. Лише авторизація або захоплення.</span>]]></value>
+		<value><![CDATA[Метод транзакції:<br /><span class="help">Транзакція CardKnox, що виконується при оформленні замовлення клієнтом до встановлення статусу замовлення. Лише авторизація або захоплення.</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method_capture</key>
-		<value><![CDATA[захоплення]]></value>
+		<value><![CDATA[Захоплення]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method_authorization</key>
-		<value><![CDATA[Лише авторизація]]></value>
+		<value><![CDATA[Тільки авторизація]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_ifields_key</key>
@@ -50,15 +46,15 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_pending_authorization</key>
-		<value><![CDATA[Очікує авторизації]]></value>
+		<value><![CDATA[Очікується авторизація]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_capture_funds</key>
-		<value><![CDATA[Захоплення коштів]]></value>
+		<value><![CDATA[Списати кошти]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_capture</key>
-		<value><![CDATA[захоплення]]></value>
+		<value><![CDATA[Списання]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_payment_status</key>
@@ -66,7 +62,7 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_capture_success</key>
-		<value><![CDATA[Успіх! Кошти успішно залучені.]]></value>
+		<value><![CDATA[Успіх! Кошти успішно списані.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_processing</key>
@@ -74,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_do_refund</key>
-		<value><![CDATA[Відшкодування CardKnox: <span class="help">Ви можете ввести суму, яку потрібно відшкодувати.</span>]]></value>
+		<value><![CDATA[Здійснити відшкодування через CardKnox:<span class="help">Ви можете ввести суму, яка має бути повернена.</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_refunded</key>
@@ -82,26 +78,26 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_refund</key>
-		<value><![CDATA[Повернення]]></value>
+		<value><![CDATA[Повернення коштів]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_refund_title</key>
-		<value><![CDATA[Відшкодування CardKnox]]></value>
+		<value><![CDATA[Повернення CardKnox]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_refund_success</key>
-		<value><![CDATA[Успіх! Замовлення успішно відшкодовано.]]></value>
+		<value><![CDATA[Успіх! Замовлення було успішно повернено.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_error_empty_amount</key>
-		<value><![CDATA[Помилка! Сума неправильна.]]></value>
+		<value><![CDATA[Помилка! Невірна сума.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_error_no_payment_method_data</key>
-		<value><![CDATA[Помилка! Для цього замовлення немає даних про спосіб оплати.]]></value>
+		<value><![CDATA[Помилка! Немає даних про спосіб оплати для цього замовлення.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_error_no_order_id</key>
-		<value><![CDATA[Помилка! Немає ідентифікатора замовлення.]]></value>
+		<value><![CDATA[Помилка! Відсутній ідентифікатор замовлення.]]></value>
 	</definition>
 </definitions>

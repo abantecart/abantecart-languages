@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Менеджер контенту]]></value>
+		<value><![CDATA[Менеджер вмісту]]></value>
 	</definition>
 	<definition>
 		<key>insert_title</key>
-		<value><![CDATA[Додати Вміст]]></value>
+		<value><![CDATA[Додати новий контент]]></value>
 	</definition>
 	<definition>
 		<key>update_title</key>
-		<value><![CDATA[оновлення контенту]]></value>
+		<value><![CDATA[Оновити вміст]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: Ви змінили зміст!]]></value>
+		<value><![CDATA[Успішно: Ви змінили вміст!]]></value>
 	</definition>
 	<definition>
 		<key>text_success_layout</key>
@@ -22,23 +22,23 @@
 	</definition>
 	<definition>
 		<key>text_hidden</key>
-		<value><![CDATA[прихований]]></value>
+		<value><![CDATA[Приховано]]></value>
 	</definition>
 	<definition>
 		<key>text_default</key>
-		<value><![CDATA[дефолт]]></value>
+		<value><![CDATA[За замовчуванням]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[зміст Назва]]></value>
+		<value><![CDATA[Заголовок вмісту]]></value>
 	</definition>
 	<definition>
 		<key>column_parent</key>
-		<value><![CDATA[батько Зміст]]></value>
+		<value><![CDATA[Батьківський вміст]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent</key>
-		<value><![CDATA[Батько Вміст сторінки]]></value>
+		<value><![CDATA[Батьківська сторінка контенту]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
@@ -46,87 +46,43 @@
 	</definition>
 	<definition>
 		<key>column_status</key>
-		<value><![CDATA[статус]]></value>
-	</definition>
-	<definition>
-		<key>column_action</key>
-		<value><![CDATA[дію]]></value>
-	</definition>
-	<definition>
-		<key>entry_title</key>
-		<value><![CDATA[Зміст Назва:]]></value>
-	</definition>
-	<definition>
-		<key>entry_description</key>
-		<value><![CDATA[опис:]]></value>
-	</definition>
-	<definition>
-		<key>entry_content</key>
-		<value><![CDATA[зміст:]]></value>
-	</definition>
-	<definition>
-		<key>entry_store</key>
-		<value><![CDATA[магазини:]]></value>
-	</definition>
-	<definition>
-		<key>entry_status</key>
-		<value><![CDATA[статус:]]></value>
-	</definition>
-	<definition>
-		<key>entry_keyword</key>
-		<value><![CDATA[SEO Ключове слово:]]></value>
-	</definition>
-	<definition>
-		<key>entry_sort_order</key>
-		<value><![CDATA[Порядок сортування:]]></value>
-	</definition>
-	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Увага: У вас немає дозволу на зміну змісту!]]></value>
-	</definition>
-	<definition>
-		<key>error_title</key>
-		<value><![CDATA[Зміст Назва повинна бути від 2 до 64 символів!]]></value>
-	</definition>
-	<definition>
-		<key>error_description</key>
-		<value><![CDATA[Опис повинен бути більше, ніж 1 символів!]]></value>
-	</definition>
-	<definition>
-		<key>error_content</key>
-		<value><![CDATA[Контент повинен бути більше 1 символів!]]></value>
-	</definition>
-	<definition>
-		<key>error_seo_url</key>
-		<value><![CDATA[SEO URL повинен бути більше 1 символів!]]></value>
-	</definition>
-	<definition>
-		<key>error_account</key>
-		<value><![CDATA[Попередження: Цей вміст не може бути видалена, як це в даний час призначений в якості термінів в сховище облікових записів за замовчуванням!]]></value>
-	</definition>
-	<definition>
-		<key>error_checkout</key>
-		<value><![CDATA[Попередження: Цей вміст не може бути видалена, як це в даний час призначений в якості термінів за замовчуванням магазин касі!]]></value>
-	</definition>
-	<definition>
-		<key>error_required_data</key>
-		<value><![CDATA[Необхідні дані не були введені. Перевірка на наявність помилок на місцях!]]></value>
-	</definition>
-	<definition>
-		<key>text_top_level</key>
-		<value><![CDATA[Вищий рівень]]></value>
-	</definition>
-	<definition>
-		<key>text_any</key>
-		<value><![CDATA[будь-який]]></value>
-	</definition>
-	<definition>
-		<key>tab_form</key>
-		<value><![CDATA[редагувати]]></value>
+		<value><![CDATA[Статус]]></value>
 	</definition>
 	<definition>
 		<key>column_publish_date</key>
 		<value><![CDATA[Дата публікації]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[Дія]]></value>
+	</definition>
+	<definition>
+		<key>entry_title</key>
+		<value><![CDATA[Заголовок вмісту:]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[Опис:<br /><span class="help">HTML-теги не рекомендуються для опису вмісту! Це залежить від шаблону вашого інтернет-магазину</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_content</key>
+		<value><![CDATA[Вміст:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store</key>
+		<value><![CDATA[Магазини:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Статус:]]></value>
+	</definition>
+	<definition>
+		<key>entry_keyword</key>
+		<value><![CDATA[Ключове слово SEO:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Порядок сортування:]]></value>
 	</definition>
 	<definition>
 		<key>entry_publish_date</key>
@@ -138,55 +94,98 @@
 	</definition>
 	<definition>
 		<key>entry_content_bar</key>
-		<value><![CDATA[Рядок відомостей про вміст: <br/><span class="help">Увімкніть цей параметр, щоб на сторінці вмісту відображався рядок із автором і датою публікації</span>]]></value>
+		<value><![CDATA[Панель деталей вмісту:<br /><span class="help">Увімкніть це налаштування, щоб показати панель із автором і датою публікації на сторінці вмісту</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_icon</key>
-		<value><![CDATA[Основне зображення або значок:]]></value>
+		<value><![CDATA[Головне зображення або значок:]]></value>
 	</definition>
 	<definition>
 		<key>entry_tags</key>
-		<value><![CDATA[Теги вмісту: <span class="help">список, розділений</span><br/>]]></value>
+		<value><![CDATA[Теги вмісту:<br /><span class="help">список, розділений комами</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_author</key>
 		<value><![CDATA[Автор:]]></value>
 	</definition>
 	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Попередження: Ви не маєте дозволу змінювати вміст!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[Заголовок вмісту повинен бути довжиною від 2 до 255 символів!]]></value>
+	</definition>
+	<definition>
 		<key>error_title_html</key>
-		<value><![CDATA[Назва вмісту не може містити теги HTML!]]></value>
+		<value><![CDATA[Заголовок вмісту не може містити HTML-теги!]]></value>
+	</definition>
+	<definition>
+		<key>error_description</key>
+		<value><![CDATA[Опис повинен містити більше ніж 1 символ!]]></value>
 	</definition>
 	<definition>
 		<key>error_description_html</key>
-		<value><![CDATA[HTML-теги опису вмісту не підтримуються!]]></value>
+		<value><![CDATA[HTML-теги в описі вмісту не підтримуються!]]></value>
+	</definition>
+	<definition>
+		<key>error_content</key>
+		<value><![CDATA[Вміст повинен містити більше 1 символу!]]></value>
+	</definition>
+	<definition>
+		<key>error_seo_url</key>
+		<value><![CDATA[SEO URL має містити більше ніж 1 символ!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Попередження: цей вміст не можна видалити, оскільки він наразі призначений як умови облікового запису магазину за замовчуванням!]]></value>
+	</definition>
+	<definition>
+		<key>error_checkout</key>
+		<value><![CDATA[Попередження: цей вміст не можна видалити, оскільки він зараз призначений як стандартні умови оформлення замовлення магазину за замовчуванням!]]></value>
 	</definition>
 	<definition>
 		<key>error_delete_parent</key>
-		<value><![CDATA[
- Попередження: батьківський вміст не можна видалити! Спочатку перемістіть або видаліть дочірні сторінки вмісту.]]></value>
+		<value><![CDATA[Попередження: батьківський вміст не може бути видалений! Спочатку перемістіть або видаліть дочірні сторінки вмісту.]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Не введено обов’язкові дані. Перевірте поля на помилки!]]></value>
+	</definition>
+	<definition>
+		<key>text_top_level</key>
+		<value><![CDATA[Верхній рівень]]></value>
+	</definition>
+	<definition>
+		<key>text_any</key>
+		<value><![CDATA[будь-який]]></value>
+	</definition>
+	<definition>
+		<key>tab_form</key>
+		<value><![CDATA[Редагувати]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[ Опис метатегу: ]]></value>
+		<value><![CDATA[Опис мета-тегу:]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_keywords</key>
-		<value><![CDATA[Ключові слова метатегів:]]></value>
+		<value><![CDATA[Ключові слова метатега:]]></value>
 	</definition>
 	<definition>
 		<key>text_clone</key>
-		<value><![CDATA[Клон]]></value>
+		<value><![CDATA[Клонувати]]></value>
 	</definition>
 	<definition>
 		<key>text_success_copy</key>
-		<value><![CDATA[Успіх: Ви успішно скопіювали сторінку вмісту <b>%s</b> !]]></value>
+		<value><![CDATA[Успіх: Ви успішно скопіювали сторінку вмісту <b>%s</b>!]]></value>
 	</definition>
 	<definition>
 		<key>text_success_copy_layout</key>
-		<value><![CDATA[ Примітка. Макет сторінки вмісту також клоновано.]]></value>
+		<value><![CDATA[Примітка: макет сторінки вмісту також клоновано.]]></value>
 	</definition>
 	<definition>
 		<key>text_error_copy</key>
-		<value><![CDATA[Клонування не вдалося! Сторінка оригінального вмісту недоступна]]></value>
+		<value><![CDATA[Клонування не вдалося! Оригінальна сторінка вмісту недоступна]]></value>
 	</definition>
 </definitions>
