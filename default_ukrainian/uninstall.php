@@ -12,7 +12,7 @@ $query = $this->db->query(
     "SELECT language_id 
     FROM " . $this->db->table("languages") . " 
 	WHERE code='" . $lngCode . "' AND directory='" . $lngDir . "'");
-$language_id = $query->row["language_id"];
+$language_id = (int)$query->row["language_id"];
 //delete menu
 $storefront_menu = new AMenu_Storefront();
 $storefront_menu->deleteLanguage($language_id);
