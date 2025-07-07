@@ -26,5 +26,4 @@ return array (
   24 => 'UPS',
   25 => 'https://avatax.avalara.net',
   26 => 'https://development.avalara.net',
-  27 => '',
 );
