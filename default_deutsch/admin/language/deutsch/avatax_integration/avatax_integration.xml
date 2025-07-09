@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Avatax-Integration]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Wenn Sie die Standardsteuern aktiviert haben, funktionieren sie zusammen mit Avatax und Sie müssen möglicherweise die Standardsteuern deaktivieren. Überprüfen Sie System -> Lokalisierung -> <a target="_new" href="#admin#rt=localisation/tax_class">Steuerklasse</a><br>Vergessen Sie außerdem nicht, die Erweiterung <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a> zu aktivieren.<br>Wichtig! Die Berechnungsreihenfolge von Avatax Integration Total in den Gesamtbeträgen der Erweiterungen muss nach der Zwischensumme erfolgen. Die Zwischensummenberechnung sollte der Berechnung dieser Erweiterung vorausgehen. Prüfen Sie dies in den Einstellungen der Gesamtbeträge der Erweiterungen.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Kontonummer:<br /><span class="help">Von Avalara bereitgestellte Kontonummer</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Lizenzschlüssel:<br /><span class="help">Von Avalara bereitgestellter Lizenzschlüssel</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[Service-URL:<br /><span class="help">Avalara-Service-URL (Live oder Entwicklung)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Steuername:<br /><span class="help">Steuername, der dem Kunden im Bereich Gesamtbeträge angezeigt wird</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Unternehmenscode:<br /><span class="help">Unternehmenscode zur Verwendung mit Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[Geschäfts-PLZ/Postleitzahl:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Fehler! Bitte überprüfen Sie, ob die Erweiterung eingeschaltet ist.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Standard-Steuercode des Produkts]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Versandmethoden Standard-Steuercodes]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Versandmethode]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Frachtsteuercode]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Verbindung testen]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Verbindung ist erfolgreich und die API-Anmeldeinformationen sind korrekt konfiguriert.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Verbindung testen:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Adressvalidierung:<br /><span class="help">Die Adressvalidierung wird beim Kunden-Checkout durchgeführt</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Titel für den Adressvalidierungs-Button:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Dokumente an den Avatax-Dienst übermitteln:<br /><span class="help">Wenn aktiviert, wird das Steuerdokument beim angegebenen Bestellstatus übermittelt</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Dokumente an Avatax Service zurücksenden:<br /><span class="help">Die Rücksendung wird im angegebenen Bestellstatus protokolliert</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Speichern]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Steuercode löschen]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Produkt-Steuercode:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Steuercode suchen]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Befreiungsstatus:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[Ausstehend]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Genehmigt]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Abgelehnt]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Ihre Steuerbefreiungsnummer wurde abgelehnt.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Ihre Steuerbefreiungsnummer wurde abgelehnt. Um die Gültigkeit zu prüfen, besuchen Sie bitte Ihre Kontodetails-Seite %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Befreiungsnummer:<br /><span class="help">Steuerbefreiungsnummer</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entität\Verwendungscode:<br /><span class="help">AvaTax verfügt über eine Gruppe von Codes, die den Typ der Befreiung anzeigen. Siehe die Standardcodes oder erstellen Sie benutzerdefinierte Codes auf der AvaTax-Website</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Einzug beim Bestellstatus:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Rückgabe beim Bestellstatus:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Stornieren beim Bestellstatus:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Fehler bei der Kontonummer. Überprüfen Sie es!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Beide]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[USA]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Kanada]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Länder für Adressvalidierung]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Gesamtsumme der Avatax-Integration]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Transaktionsprotokollierung aktivieren]]></value>
+	</definition>
+</definitions>

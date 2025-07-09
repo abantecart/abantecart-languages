@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardknox_name</key>
+		<value><![CDATA[CardKnox]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_key</key>
+		<value><![CDATA[Transaktionsschlüssel (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_token</key>
+		<value><![CDATA[Transaktions-Token (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_test</key>
+		<value><![CDATA[Testmodus]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_success_order_status</key>
+		<value><![CDATA[Bestellstatus:<br /><span class="help">Bestellstatus, der nach Abschluss der Kundenbestellung basierend auf der festgelegten Transaktionsmethode gesetzt wird</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id</key>
+		<value><![CDATA[Standort:<br /><span class="help">Beschränken Sie die Nutzung dieser Zahlungsmethode auf ausgewählte Standorte.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id_0</key>
+		<value><![CDATA[Alle Standorte]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method</key>
+		<value><![CDATA[Transaktionsmethode:<br /><span class="help">CardKnox-Transaktion, die beim Checkout des Kunden ausgeführt wird, bevor der Bestellstatus festgelegt ist. Nur Autorisierung oder Erfassung.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_capture</key>
+		<value><![CDATA[Erfassen]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_authorization</key>
+		<value><![CDATA[Nur Autorisierung]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_ifields_key</key>
+		<value><![CDATA[iFields Schlüssel]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_pending_authorization</key>
+		<value><![CDATA[Ausstehende Autorisierung]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_funds</key>
+		<value><![CDATA[Gelder erfassen]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture</key>
+		<value><![CDATA[Einzug]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_payment_status</key>
+		<value><![CDATA[Zahlungsstatus]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_success</key>
+		<value><![CDATA[Erfolg! Gelder wurden erfolgreich eingezogen.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_processing</key>
+		<value><![CDATA[In Bearbeitung]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_do_refund</key>
+		<value><![CDATA[CardKnox-Rückerstattung durchführen:<span class="help">Sie können den zu erstattenden Betrag eingeben.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refunded</key>
+		<value><![CDATA[Erstattet]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund</key>
+		<value><![CDATA[Erstattung]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_refund_title</key>
+		<value><![CDATA[CardKnox Rückerstattung]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund_success</key>
+		<value><![CDATA[Erfolg! Bestellung wurde erfolgreich zurückerstattet.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_empty_amount</key>
+		<value><![CDATA[Fehler! Der Betrag ist falsch.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_payment_method_data</key>
+		<value><![CDATA[Fehler! Es liegen keine Daten zur Zahlungsmethode für diese Bestellung vor.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_order_id</key>
+		<value><![CDATA[Fehler! Es gibt keine Bestell-ID.]]></value>
+	</definition>
+</definitions>

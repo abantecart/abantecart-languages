@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Importieren & Exportieren]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Datenimport-Assistent]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[Importieren]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Import-Assistent]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[Export]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[Tabellen]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[Optionen]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Dateiformat:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Dateiname:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[Importdatei hochladen]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Sie können CSV- oder Textdateien hochladen, um Daten zu importieren. Für die Datenstruktur können Sie dem proprietären Format (siehe Export) oder dem freien Format folgen.<br/>Für Daten im freien Format müssen Sie Datenelemente manuell zuordnen oder eine JSON-Map verwenden.<br/>Nur Produkte, Kategorien und Marken/Hersteller werden für den Import im freien Format unterstützt.<br/>Die Action-Spalte kann verwendet werden, um den Import mit 'insert', 'update' oder 'delete' zu steuern. Standardaktion ist update_or_insert.]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Wählen Sie eine Zieltabelle und das entsprechende Datenbankfeld für jede Spalte der Importdaten. Wenn kein Feld ausgewählt ist, werden die Daten der Eingabespalte ignoriert. <br/> <b>Note:</b> Sprach- und shopspezifische Datenwerte werden dem aktuell ausgewählten Inhalts-Shop & der ausgewählten Sprache zugewiesen.]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Es werden %s Datensätze in diesem Import geladen und verarbeitet!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Importvorgang läuft]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[Laden]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Insgesamt geladen:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Zu importierende Datei:<br><span class="help">Unterstützte Formate für Importdateien: CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[ID-Bereich von:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[An:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV/TXT Trennzeichen:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Alle Felder werden in doppelte Anführungszeichen eingeschlossen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Alle Felder müssen in doppelte Anführungszeichen eingeschlossen werden.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Im Testmodus ausführen <br><span class="help">Es wird empfohlen, den Datenimport zuerst im Testmodus durchzuführen, um zu sehen, ob Probleme auftreten.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Importdateispalte]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Datenimport-Beispiel]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Zieltabelle auswählen]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Aktualisieren, falls vorhanden]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Daten aufteilen nach]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Wählen, kopieren und speichern Sie diese Zuordnung für die zukünftige Verwendung.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Export-Zuordnung]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Tragen Sie die untenstehenden, vorab gespeicherten Zuordnungsdaten in das Feld ein.]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Zuordnung laden]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Nicht unterstütztes Importdateiformat!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Fehler beim Importieren der XML-Datei!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Fehler beim Import der CSV/TXT-Datei! Bitte prüfen Sie das Trennzeichen der Felder.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Daten sind leer oder beschädigt.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[Datei ist leer.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[Das Backup-Verzeichnis muss beschreibbar sein, damit der CSV/TXT-Export funktioniert.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Aktualisiert:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[Erstellt:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[Fehler:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Details anzeigen]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Keine untergeordneten Elemente]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Es gibt einige Fehler.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Testlauf abgeschlossen. Gesamtzahl der SQL-Abfragen:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Sortieren nach:]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Keine Import-Zieltabelle oder Felder ausgewählt!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Erforderliches Datenfeld '%s' für die Zieltabelle fehlt!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Temporäres Verzeichnis %s ist nicht beschreibbar! Bitte ändern Sie die Berechtigungen, um fortzufahren.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Leere Anfrage.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Importvorgang wurde abgeschlossen. %s Zeile(n) verarbeitet.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s Zeile(n) mit Fehlern.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Für weitere Details siehe <a href="%s" target="_new">Logdatei %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Aufgabe erfolgreich unterbrochen.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Import planen]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Erfolg: Sie haben erfolgreich eine geplante Importaufgabe erstellt! <a href="%s">Details anzeigen</a>]]></value>
+	</definition>
+</definitions>

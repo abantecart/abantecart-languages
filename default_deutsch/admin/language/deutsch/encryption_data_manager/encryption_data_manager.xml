@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Verschlüsselungs-Daten-Manager]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Erweiterungen]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Verschlüsselungsdatenwerkzeuge]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Sortierreihenfolge:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Schlüsselpaar generieren]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Daten verschlüsseln]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, den gewichtsbasierten Versand zu ändern!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Fehler: Ausgewähltes Schlüsselname-Paar existiert bereits!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>Diese Erweiterung erfordert eine ERWEITERTE Konfiguration und Aufmerksamkeit</b><br/> 
+<b>Sobald sie aktiviert und die Daten verschlüsselt sind, gibt es KEIN Zurück und die Erweiterung kann nicht deaktiviert werden!</b><br/> 
+Diese Erweiterung unterstützt die Verwaltung der Erstellung von Verschlüsselungsschlüsseln und die Datenmigration von offenen zu verschlüsselten Tabellen (initiale Migration)<br/> 
+<b>BITTE BEACHTEN:</b> Sie benötigen PHP mit SSL-Verschlüsselung <b>AKTIVIERT</b>
+<br/>
+<br/>Um die Datenverschlüsselung zu aktivieren, lesen Sie bitte die Hilfsanweisungen (HOW TO-Schaltfläche)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Warnung: OpenSSL für PHP ist nicht verfügbar oder nicht aktiviert. Sie können die Verschlüsselung oder diese Erweiterung nicht verwenden! <br> Prüfen Sie die Hilfe für diese Erweiterung für weitere Details.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Warnung: Datenverschlüsselung ist in Ihrem AbanteCart nicht aktiviert. Sie können mit dieser Erweiterung keine Daten verschlüsseln/entschlüsseln! <br> Überprüfen Sie die Hilfe für diese Erweiterung für weitere Details.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Schlüsselpaar generieren]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Daten verschlüsseln]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Erforderliche Datenfeld(er) fehlen. Bitte überprüfen Sie die angegebenen Werte.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Eindeutiger Schlüsselpaarname:<br /><span class="help">Der Name darf keine Leerzeichen oder Sonderzeichen enthalten. Halten Sie ihn kurz und einfach.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Schlüssellänge (Bit):<br /><span class="help">Geben Sie die Bitlänge des Verschlüsselungsschlüssels an. Größere Werte stehen für eine stärkere Verschlüsselung, können jedoch die Leistung verlangsamen (Bereich 256 - 8192).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Verschlüsselungstyp:<br /><span class="help">Dies ist ein Verschlüsselungsalgorithmus. Verwenden Sie die Standard-RSA, wenn Sie kein fortgeschrittener Benutzer sind.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Passwortbasierten Schlüssel aktivieren:<br /><span class="help">Wenn aktiviert, wird eine zusätzliche Passphrase benötigt, um Text mit dem privaten Schlüssel zu entschlüsseln. HINWEIS. Dies wird derzeit in der Datenverschlüsselung nicht unterstützt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Passphrase oder Schlüsselpasswort:<br /><span class="help">Beachten Sie, dass die Passphrase oder der Schlüssel(s) nutzlos sein wird und Daten verloren gehen könnten</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Schlüsselpaar wurde erstellt. Siehe die untenstehenden Schlüssel und bewahren Sie diese sicher auf.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Erzeugung des Schlüsselpaares fehlgeschlagen. Überprüfen Sie Ihre Einstellungen und das Fehlerprotokoll.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Schlüsselpaarname:<br /><span class="help">Wählen Sie den für die Verschlüsselung zu verwendenden Schlüssel aus. WICHTIG: Merken Sie sich den von Ihnen verwendeten Schlüssel.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabelle(n) zu verschlüsseln:<br /><span class="help">Die angezeigten Tabelle(n) werden mit dem ausgewählten Schlüssel verschlüsselt. Daten können nur mit diesem Schlüssel geöffnet werden.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Testmodus:<br /><span class="help">Überprüfen Sie zuerst, ob alles für die Verschlüsselung in Ordnung ist.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Quelldaten entfernen:<br /><span class="help">Unverschlüsselte Quelldatensätze nach Abschluss der Verschlüsselung entfernen</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Daten wurden verschlüsselt. <br /> Siehe Details:</b> <br/><br/> %s <br /><br /> <b>Wenn Sie möchten, dass dieser Schlüssel für die Verschlüsselung neuer Daten verwendet wird, fügen Sie folgende Zeile in die Datei system/config.php ein: define('DATA_ENCRYPTION_KEYPAIR', '%s');</b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Testergebnis der Datenverschlüsselung</b> Überprüfen Sie das Fehlerprotokoll auf mögliche Fehler! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Datenverschlüsselung fehlgeschlagen. Überprüfen Sie Ihre Einstellungen und das Fehlerprotokoll.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Wichtige Hinweise! Nach Abschluss der Verschlüsselung werden die Daten in Spiegel-Tabellen kopiert, in denen die Daten verschlüsselt sind.
+<br />Befolgen Sie die Anweisungen, um die Konfiguration in system/config.php für AbanteCart hinzuzufügen, damit Lese-/Schreiboperationen auf verschlüsselte Tabellen umgestellt werden. </b><br />Fügen Sie folgende Zeile in die Konfigurationsdatei ein: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name'); <br>Dies wird der Standardschlüssel für Lese-/Schreiboperationen sein.]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Verwendung der Verschlüsselung]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Unverschlüsselte Datensätze]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Verwenden Sie die Registerkarte 'Encrypt Data' für die anfängliche Verschlüsselung]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Verschlüsselte Datensätze]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[Schlüssel-ID]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Schlüsselname]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Verwendung verschlüsselter Tabellen]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Verschlüsselung (ändern) auf neuen Schlüssel rotieren]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[Datensatz(e)]]></value>
+	</definition>
+</definitions>
