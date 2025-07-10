@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Frais de manutention]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Frais de manutention]]></value>
+	</definition>
+	<definition>
+		<key>text_total</key>
+		<value><![CDATA[Totaux de la commande]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Succès : Vous avez mis à jour les frais de manutention totaux !]]></value>
+	</definition>
+	<definition>
+		<key>entry_total</key>
+		<value><![CDATA[Order Total:<span class="help">Montant minimum de la commande à atteindre pour appliquer les frais. Si le total de la commande du client dépasse ce montant, les frais de gestion ne seront pas appliqués. Cette valeur est remplacée par le réglage spécifique au paiement.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_placeholder</key>
+		<value><![CDATA[Montant de la commande]]></value>
+	</definition>
+	<definition>
+		<key>entry_fee</key>
+		<value><![CDATA[Frais:<span class="help">Frais à ajouter au total de la commande si la condition de montant minimum n'est pas remplie. Ce montant est remplacé par le paramètre spécifique au moyen de paiement</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment_fee</key>
+		<value><![CDATA[Frais:<span class="help">Frais à ajouter au total de la commande si la condition de montant minimum du sous-total n’est pas remplie. Ce montant remplace le paramètre principal des frais</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment</key>
+		<value><![CDATA[Paiement:<span class="help">Sélectionnez un mode de paiement spécifique auquel vous souhaitez ajouter les frais. Ces paramètres remplaceront les paramètres principaux si ce mode de paiement est utilisé par le client.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_subtotal</key>
+		<value><![CDATA[Sous-total de la commande:<span class="help">Montant minimum du sous-total de la commande à atteindre pour appliquer les frais. Cela remplace le réglage principal</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Classe fiscale:<span class="help">Sélectionnez si vous souhaitez que la taxe soit appliquée en sus des frais de manutention</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Statut :]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Ordre de tri :]]></value>
+	</definition>
+	<definition>
+		<key>entry_calculation_order</key>
+		<value><![CDATA[Ordre de calcul :]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Attention : Vous n’avez pas l’autorisation de modifier les frais de manutention totaux !]]></value>
+	</definition>
+	<definition>
+		<key>error_number</key>
+		<value><![CDATA[Attention : le total de la commande et les frais de manutention doivent être des nombres !]]></value>
+	</definition>
+</definitions>
