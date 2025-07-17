@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[联邦快递]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[配送]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[成功：您已修改 FEDEX 运输方式！]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[Fedex生产密钥：<br /><span class="help">请输入分配给您的Fedex生产密钥，必填。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Fedex 生产密码：]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[帐户号码：<br /><span class="help">输入分配给您的 fedex 帐户号码，必填。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Fedex 表号：<br /><span class="help">请输入 Fedex 表号。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[地址：<br /><span class="help">从街道地址发货。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[城市:<br /><span class="help">发货城市。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[州:<br /><span class="help">发货州（两个字母）。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[邮编/邮政编码：<br /><span class="help">从邮政编码发货。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[国家：<br /><span class="help">发货国家（两位字母）。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[报价类型：<br /><span class="help">用于住宅或商业配送的报价。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[住宅]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[商业]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[附加费用：<br /><span class="help">应用于 fedex 报价的额外费用。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[联邦快递优先隔夜]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[联邦快递 优先隔夜]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[FEDEX 标准隔夜]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[FEDEX 第二天]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[FEDEX经济快递]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[联邦快递地面]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[警告：您没有权限修改 FEDEX 运输！]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[需要账户ID！]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[需要 Fedex Meter ID！]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[要获取您的表计号码和授权密钥，您需要执行以下步骤：</br>
+访问 <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br>
+使用 FedEx 用户名和密码登录；如果还没有，则点击“Register Now”。<br>
+点击左侧的“Technical Resources”。<br>
+在此项下，点击“FedEx web services for shipping”。<br>
+点击右侧的“Move To Production”。<br>
+向下滚动到按钮并点击“Obtain Production Key”。<br>
+在表单中，第1题选择“No”。<br>
+在第2题中勾选第一个复选框。<br>
+在第3题选择“Corporate Developer”。<br>
+接受协议。<br>
+填写表单（账号中不要使用连字符）。<br>
+即可立即接收表计号码和密钥。完成上述步骤后，您的生产密码将通过电子邮件发送给您。]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[测试模式：<br /><span class="help">使用实时网关服务器还是测试网关服务器？</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[是]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[否]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[测试您的连接：<span class="help">您可以测试所输入的API凭证是否正确。</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[测试]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[连接成功，API 凭证已正确配置。]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[错误！请检查扩展是否已启用。]]></value>
+	</definition>
+</definitions>

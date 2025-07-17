@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_twilio_name</key>
+		<value><![CDATA[特维利奥]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_note</key>
+		<value><![CDATA[要启用短信功能，请转到 系统 -> 设置 -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/>
+并选择 Twilio 作为默认短信驱动。不要忘记启用您希望接收短信的部分（管理员或前台）。<br/>
+此扩展会为管理员和客户启用手机号码字段。请记住，禁用此扩展后此字段会被隐藏。<br/>
+若将此扩展添加至已有客户的商店，请注意此信息将会缺失。]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_username</key>
+		<value><![CDATA[API 帐户SID]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_token</key>
+		<value><![CDATA[API 认证令牌]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test</key>
+		<value><![CDATA[测试模式]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[发件人 (Twilio) 电话: <span class="help">发送者的电话号码，国际格式 (例如 +14158675309)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_send_to</key>
+		<value><![CDATA[发送测试短信到：]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_0</key>
+		<value><![CDATA[否]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_1</key>
+		<value><![CDATA[是]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_connection</key>
+		<value><![CDATA[测试您的连接:<span class="help">您可以测试您输入的 API 凭证是否正确。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_logging</key>
+		<value><![CDATA[错误日志记录状态<span class="help">如果您想记录 Twilio 扩展的所有错误，请将此设置打开。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[手机]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[测试]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[错误！请检查扩展是否已启用。]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[连接成功，API 凭证已正确配置。]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[发送者（Twilio）电话：<span class="help">发送者的电话号码，国际格式（例如 +14158675309）</span>]]></value>
+	</definition>
+</definitions>

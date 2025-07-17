@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[加密数据管理器]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[扩展]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[加密数据工具]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[状态：]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[排序顺序:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[生成密钥对]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[加密数据]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[警告：您没有权限修改基于重量的运输方式！]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[错误：所选的键名对已存在！]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>此扩展需要高级配置和关注</b><br/>
+<b>启用并加密数据后，无法撤销且无法禁用此扩展！</b><br/>
+此扩展有助于管理加密密钥的创建以及将数据从开放表迁移到加密表（初始迁移）<br/>
+<b>请注意：</b>您需要具有 <b>已启用</b> SSL 加密的 PHP<br/><br/>
+要启用数据加密，请阅读帮助说明（HOW TO 按钮）]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[警告：PHP 的 OpenSSL 不可用或未被激活。您不能使用加密或此扩展！<br>请查看此扩展的帮助以获取更多详情。]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[警告：您的 AbanteCart 未启用数据加密。您无法使用此扩展对数据进行加密/解密！<br>请查看此扩展的帮助以获取更多详细信息。]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[生成密钥对]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[加密数据]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[缺少必需的数据字段。请检查提供的值。]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[唯一密钥对名称：<br /><span class="help">名称不应包含任何空格或特殊字符。保持简短明了。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[密钥长度（位）：
+指定密钥加密位长度。数值越大代表加密强度越高，但可能会降低性能（范围 256 - 8192）]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[加密类型：<br /><span class="help">这是一种加密算法。如果您不是高级用户，请使用默认RSA。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[启用基于密码的密钥:<br /><span class="help">如果启用，需要额外的密码短语才能使用私钥解密文本。注意：此功能目前不支持数据加密。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[密码短语或密钥密码:<br /><span class="help">请记住，否则密码短语或密钥(s)将无效，数据可能丢失</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>密钥对已创建。请查看下方密钥并妥善保管。</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[密钥对生成失败。请检查您的设置并查看错误日志。]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[密钥对名称:<br /><span class="help">请选择用于加密的密钥。重要：请记住您所使用的密钥</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[要加密的表格：<br /><span class="help">所示表格将使用所选密钥进行加密。数据只能使用此密钥打开。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[测试模式：<br /><span class="help">首先检查一切是否可以被加密。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[删除源数据:<br /><span class="help">在加密完成后删除源未加密的数据记录</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>数据已被加密。<br/>	查看详情：</b><br/><br/>%s<br/><br/><b>如果您希望此密钥用于新数据加密，请将以下行添加到文件 system/config.php：define('DATA_ENCRYPTION_KEYPAIR', '%s');</b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>数据加密测试结果</b> 检查错误日志是否有任何可能的错误！<br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[数据加密失败。请检查您的设置并查看错误日志。]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>重要提示！加密完成后，数据将复制到镜像表，并在其中以加密形式存储。<br />请按照说明将配置添加到 system/config.php，以便 AbanteCart 将读/写 操作切换到加密表。</b><br />在配置文件中添加以下行：define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name');<br />这将作为读/写操作的默认密钥]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[加密使用]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[未加密的数据记录]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[使用“加密数据”选项卡进行初始加密。]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[加密数据记录]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[密钥 ID]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[键名称]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[加密表的使用]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[将加密更改为新密钥]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[记录]]></value>
+	</definition>
+</definitions>

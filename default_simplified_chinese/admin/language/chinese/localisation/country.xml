@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[国家]]></value>
+	</definition>
+	<definition>
+		<key>text_country</key>
+		<value><![CDATA[国家]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[成功：您已修改国家！]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[国家名称]]></value>
+	</definition>
+	<definition>
+		<key>column_iso_code_2</key>
+		<value><![CDATA[ISO 代码 (2)]]></value>
+	</definition>
+	<definition>
+		<key>column_iso_code_3</key>
+		<value><![CDATA[ISO代码 (3)]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[操作]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[状态]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[国家状态：]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[国家名称：]]></value>
+	</definition>
+	<definition>
+		<key>entry_iso_code_2</key>
+		<value><![CDATA[ISO 代码（2）：]]></value>
+	</definition>
+	<definition>
+		<key>entry_iso_code_3</key>
+		<value><![CDATA[ISO 代码 (3):]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_format</key>
+		<value><![CDATA[地址格式：<br /><span class="help">
+名字 = {firstname}<br />
+姓氏 = {lastname}<br />
+公司 = {company}<br />
+地址 1 = {address_1}<br />
+地址 2 = {address_2}<br />
+城市 = {city}<br />
+邮编 = {postcode}<br />
+区域 = {zone}<br />
+区域代码 = {zone_code}<br />
+国家 = {country}</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[警告: 您没有权限修改国家！]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[国家名称长度必须在2到128个字符之间！]]></value>
+	</definition>
+	<definition>
+		<key>error_default</key>
+		<value><![CDATA[警告：无法删除此国家，因为它当前被设为默认商店国家！]]></value>
+	</definition>
+	<definition>
+		<key>error_store</key>
+		<value><![CDATA[警告: 无法删除该国家，因为它当前已分配给 %s 家商店！]]></value>
+	</definition>
+	<definition>
+		<key>error_address</key>
+		<value><![CDATA[警告：此国家当前已分配给 %s 个地址簿条目，无法删除！]]></value>
+	</definition>
+	<definition>
+		<key>error_zone</key>
+		<value><![CDATA[警告：该国家无法删除，因为它目前被分配到%s个区域！]]></value>
+	</definition>
+	<definition>
+		<key>error_zone_to_location</key>
+		<value><![CDATA[警告：此国家无法删除，因为它当前已被分配到 %s 个区域到位置！]]></value>
+	</definition>
+</definitions>

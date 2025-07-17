@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[文本营销者]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[要启用短信发送，请转到 系统 -> 设置 -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/>
+并选择 TextMarketer 作为默认短信驱动。不要忘记启用您希望接收短信的部分（管理后台或 storefront）。<br/>
+此扩展将为管理员和客户启用 Mobile Phone 字段。请记住，禁用此扩展后将隐藏此字段。	
+如果在已有客户的现有商店中添加此扩展，请注意这些信息将缺失。]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API 用户名]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API 密码]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[发起者: <span class="help">消息来自谁（发起者或发送者ID）。此项可由11个字母数字字符或16个数字字符组成。</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[测试模式]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[不]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[是]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[错误日志记录状态<span class="help">如果您想记录 TextMarketer 扩展的所有错误，请开启此设置。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[手机]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[测试您的连接：您可以测试您输入的 API 凭证是否正确。]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[测试]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[错误！请检查扩展是否已开启。]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[错误！请输入收件人电话号码。]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[查看错误日志以获取详细信息。]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[连接成功且 API 凭证已正确配置。]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>im_text_notification</key>
+		<value><![CDATA[通知]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_order_update</key>
+		<value><![CDATA[订单更新]]></value>
+	</definition>
+	<definition>
+		<key>im_order_update_text_to_customer</key>
+		<value><![CDATA[您的订单 <a href="%s">#%s</a> 已更新。要了解更多详情，请登录%s账户。]]></value>
+	</definition>
+	<definition>
+		<key>im_order_update_text_to_guest</key>
+		<value><![CDATA[您的订单 <a href="%s">#%s</a> 已更新。如需更多详情，请访问订单页面 %s。]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_new_order</key>
+		<value><![CDATA[新订单]]></value>
+	</definition>
+	<definition>
+		<key>im_new_order_text_to_admin</key>
+		<value><![CDATA[新订单 <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a> 已创建！]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_new_customer</key>
+		<value><![CDATA[客户注册]]></value>
+	</definition>
+	<definition>
+		<key>im_new_customer_text_to_admin</key>
+		<value><![CDATA[新客户 #%s 已注册！]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_account_update</key>
+		<value><![CDATA[管理员用户账户更新]]></value>
+	</definition>
+	<definition>
+		<key>im_account_update_text_to_admin</key>
+		<value><![CDATA[您的管理员用户帐户详细信息已被更改。]]></value>
+	</definition>
+	<definition>
+		<key>im_customer_account_update_text_to_admin</key>
+		<value><![CDATA[新客户 #%s 已更新！]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_customer_contact</key>
+		<value><![CDATA[客户咨询]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_product_out_of_stock</key>
+		<value><![CDATA[产品缺货]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_product_review</key>
+		<value><![CDATA[新产品评论]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_newsletter</key>
+		<value><![CDATA[新闻通讯]]></value>
+	</definition>
+	<definition>
+		<key>im_sendpoint_name_system_messages</key>
+		<value><![CDATA[系统消息]]></value>
+	</definition>
+	<definition>
+		<key>im_customer_account_update_text_to_customer</key>
+		<value><![CDATA[一笔新交易已记入您的 %s 账户，金额为 %s。如需更多详情，请登录您的 %s 账户。]]></value>
+	</definition>
+	<definition>
+		<key>text_notification_for</key>
+		<value><![CDATA[用户 %s 的通知]]></value>
+	</definition>
+	<definition>
+		<key>error_unknown_sendpoint</key>
+		<value><![CDATA[Sendpoint %s 未在 sendpoints 列表中找到！]]></value>
+	</definition>
+	<definition>
+		<key>text_settings_success_saved</key>
+		<value><![CDATA[通知设置已成功保存！]]></value>
+	</definition>
+	<definition>
+		<key>im_error_mail_address</key>
+		<value><![CDATA[电子邮件地址 %s 看起来无效！]]></value>
+	</definition>
+	<definition>
+		<key>im_threshold</key>
+		<value><![CDATA[最低库存水平阈值]]></value>
+	</definition>
+</definitions>
