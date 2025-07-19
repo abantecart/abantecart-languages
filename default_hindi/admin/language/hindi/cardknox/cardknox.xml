@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardknox_name</key>
+		<value><![CDATA[कार्डनॉक्स]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_key</key>
+		<value><![CDATA[लेन-देन की कुंजी (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_token</key>
+		<value><![CDATA[लेनदेन टोकन (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_test</key>
+		<value><![CDATA[परीक्षण मोड]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_success_order_status</key>
+		<value><![CDATA[ऑर्डर स्थिति:<br /><span class="help">सेट की गई लेन-देन विधि के आधार पर ग्राहक का ऑर्डर पूरा होने के बाद सेट की जाने वाली ऑर्डर स्थिति</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id</key>
+		<value><![CDATA[स्थान:<br /><span class="help">केवल चयनित स्थानों को इस भुगतान विधि का उपयोग करने की अनुमति देने के लिए प्रतिबंधित करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id_0</key>
+		<value><![CDATA[सभी स्थान]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method</key>
+		<value><![CDATA[Transaction Method:<br /><span class="help">CardKnox लेनदेन ग्राहक के चेकआउट पर आदेश की स्थिति सेट होने से पहले चलाया जाएगा। केवल प्राधिकरण या कैप्चर।</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_capture</key>
+		<value><![CDATA[पकड़ें]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_authorization</key>
+		<value><![CDATA[केवल प्राधिकरण]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_ifields_key</key>
+		<value><![CDATA[iFields कुंजी]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_pending_authorization</key>
+		<value><![CDATA[अनुमोदन लंबित]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_funds</key>
+		<value><![CDATA[धन वसूलें]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture</key>
+		<value><![CDATA[कैप्चर]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_payment_status</key>
+		<value><![CDATA[भुगतान स्थिति]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_success</key>
+		<value><![CDATA[सफलता! धनराशि सफलतापूर्वक कैप्चर की गई है।]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_processing</key>
+		<value><![CDATA[प्रसंस्करण]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_do_refund</key>
+		<value><![CDATA[CardKnox रिफंड करें:<span class="help">आप वह राशि दर्ज कर सकते हैं जिसे रिफंड किया जाना है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refunded</key>
+		<value><![CDATA[रिफंड किया गया]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund</key>
+		<value><![CDATA[वापसी]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_refund_title</key>
+		<value><![CDATA[CardKnox रिफंड]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund_success</key>
+		<value><![CDATA[सफलता! ऑर्डर सफलतापूर्वक रिफंड कर दिया गया है।]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_empty_amount</key>
+		<value><![CDATA[त्रुटि! राशि गलत है।]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_payment_method_data</key>
+		<value><![CDATA[त्रुटि! इस आदेश के लिए कोई भुगतान विधि डेटा नहीं है।]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_order_id</key>
+		<value><![CDATA[त्रुटि! कोई ऑर्डर आईडी नहीं है।]]></value>
+	</definition>
+</definitions>

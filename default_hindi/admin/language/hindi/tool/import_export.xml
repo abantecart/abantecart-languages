@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[आयात & निर्यात]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[डेटा आयात विज़ार्ड]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[आयात]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[आयात विज़ार्ड]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[निर्यात]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[तालिकाएँ]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[विकल्प]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[फ़ाइल प्रारूप:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[फ़ाइल का नाम:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[आयात फ़ाइल अपलोड करें]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[आप डेटा आयात करने के लिए CSV या टेक्स्ट फ़ाइल अपलोड कर सकते हैं। <br/>	
+डेटा संरचना के लिए, आप मालिकाना प्रारूप (देखें निर्यात) या मुक्त प्रारूप का पालन कर सकते हैं। <br/>	
+मुक्त प्रारूप वाले डेटा के लिए, आपको डेटा तत्वों को मैन्युअली मैप करना होगा या JSON मैप का उपयोग करना होगा। <br/>	
+केवल उत्पाद, श्रेणियाँ और ब्रांड्स/निर्माता मुक्त प्रारूप आयात के लिए समर्थित हैं। <br/>	
+एक्शन कॉलम आयात को 'सम्मिलित', 'अद्यतन' या 'हटाने' के लिए निर्देशित करने हेतु शामिल किया जा सकता है। डिफ़ॉल्ट एक्शन update_or_insert है।]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[प्रत्येक प्रदान किए गए आयात डेटा कॉलम के लिए एक गंतव्य तालिका और संबंधित डेटाबेस फ़ील्ड का चयन करें। यदि कोई फ़ील्ड चयनित नहीं है, तो इनपुट कॉलम डेटा को अनदेखा किया जाएगा।<br/> <b>नोट:</b> भाषा और स्टोर-विशिष्ट डेटा मान वर्तमान सामग्री स्टोर & चयनित भाषा को आवंटित किए जाएंगे।]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[इस आयात में %s रिकॉर्ड लोड और संसाधित किए जाएंगे!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[आयात प्रक्रिया चल रही है]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[लोड]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[कुल लोड किए गए:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[आयात करने के लिए फ़ाइल:<br><span class="help">आयात फ़ाइलों के लिए समर्थित स्वरूप: CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[आईडी सीमा की शुरुआत:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[प्रति:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[सीएसवी/टीएक्सटी विभाजक:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">सभी फ़ील्ड्स दोहरे उद्धरण चिह्नों में संलग्न किए जाएंगे।</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[सभी फ़ील्ड्स को डबल कोट्स में संलग्न किया जाना चाहिए।]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[परीक्षण मोड में चलाएँ <br><span class="help">पहले डेटा आयात को परीक्षण मोड में चलाने की सलाह दी जाती है ताकि किसी भी समस्या का पता चल सके।</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[आयात फ़ाइल स्तंभ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[डेटा नमूना आयात]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[लक्ष्य तालिका चुनें]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[यदि मौजूद हो तो अपडेट करें]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[के आधार पर डेटा विभाजित करें]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[इस मैपिंग को भविष्य के उपयोग के लिए चुनें, कॉपी करें और सहेजें।]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[निर्यात मैपिंग]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[निम्नलिखित फ़ील्ड में पहले से सहेजे गए मैपिंग डेटा को पोस्ट करें]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[मैपिंग लोड करें]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[असमर्थित आयात फ़ाइल प्रारूप!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[XML फ़ाइल आयात करने के दौरान त्रुटि!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[CSV/TXT फ़ाइल आयात के दौरान त्रुटि! कृपया फ़ील्ड विभाजक की जाँच करें।]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[डेटा खाली है या दूषित है।]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[फ़ाइल खाली है।]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[CSV/TXT निर्यात के काम करने के लिए बैकअप निर्देशिका लिखने योग्य होनी चाहिए।]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[अद्यतनित:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[निर्मित:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[त्रुटियाँ:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[विवरण दिखाएं]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[कोई उप-आइटम नहीं]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[कुछ त्रुटियाँ हैं।]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[टेस्ट रन पूरा हो गया। कुल SQL क्वेरीज:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[क्रमबद्ध करें:]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[कोई आयात गंतव्य तालिका या फ़ील्ड्स चयनित नहीं हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[गंतव्य तालिका के लिए आवश्यक डेटा फ़ील्ड '%s' गायब है!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[अस्थायी निर्देशिका %s लिखने योग्य नहीं है! कृपया आगे बढ़ने के लिए अनुमतियाँ बदलें।]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[रिक्त अनुरोध।]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[आयात प्रक्रिया पूरी हो गई है. %s पंक्ति(याँ) संसाधित की गईं.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s पंक्ति(याँ) त्रुटियों के साथ.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[अधिक जानकारी के लिए देखें <a href="%s" target="_new">लॉग फाइल %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[कार्य सफलतापूर्वक बाधित किया गया।]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[आयात अनुसूची]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[सफलता: आपने सफलतापूर्वक अनुसूचित आयात कार्य बनाया! <a href="%s">विवरण देखें</a>]]></value>
+	</definition>
+</definitions>

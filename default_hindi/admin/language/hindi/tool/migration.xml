@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[कार्ट स्थानांतरण]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_one</key>
+		<value><![CDATA[- चरण 1]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_two</key>
+		<value><![CDATA[- चरण 2]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_three</key>
+		<value><![CDATA[- समाप्त करें]]></value>
+	</definition>
+	<definition>
+		<key>text_description</key>
+		<value><![CDATA[माइग्रेशन टूल आपको अन्य कार्ट्स से डेटा आयात करने की अनुमति देता है।<br>नोट: AbanteCart फिलहाल केवल mysql से आयात का समर्थन करता है।<br>जारी रखने के लिए स्टार्ट माइग्रेशन बटन दबाएं...]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[सफलता: आपका डेटा सफलतापूर्वक AbanteCart में स्थानांतरित किया गया!]]></value>
+	</definition>
+	<definition>
+		<key>text_cart_info</key>
+		<value><![CDATA[स्रोत कार्ट जानकारी<span class="help">स्रोत शॉपिंग कार्ट एप्लिकेशन विवरण.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_db_info</key>
+		<value><![CDATA[डेटाबेस जानकारी<span class="help">नोट: AbanteCart वर्तमान में केवल MySQL के लिए इम्पोर्ट का समर्थन करता है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_type</key>
+		<value><![CDATA[स्रोत कार्ट प्रकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_url</key>
+		<value><![CDATA[स्रोत कार्ट URL:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_host</key>
+		<value><![CDATA[डेटाबेस होस्ट:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_user</key>
+		<value><![CDATA[डेटाबेस उपयोगकर्ता:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_password</key>
+		<value><![CDATA[पासवर्ड:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_name</key>
+		<value><![CDATA[डेटाबेस का नाम:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_prefix</key>
+		<value><![CDATA[डेटाबेस उपसर्ग:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_select</key>
+		<value><![CDATA[- कार्ट प्रकार चुनें -]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_osc</key>
+		<value><![CDATA[ओएसकॉमर्स 2.2आरसी2]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_oscmax</key>
+		<value><![CDATA[ओएससीमैक्स]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_zen</key>
+		<value><![CDATA[ZenCart 1.3.9h]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_cre</key>
+		<value><![CDATA[सीआरई लोडेड 6.4.1 एसटीडी]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_opencart</key>
+		<value><![CDATA[ओपनकार्ट 1.4.9]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data</key>
+		<value><![CDATA[स्थानांतरित करने के लिए डेटा का चयन करें]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_categories</key>
+		<value><![CDATA[श्रेणियाँ]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_products</key>
+		<value><![CDATA[उत्पाद, श्रेणियाँ, ब्रांड्स]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_customers</key>
+		<value><![CDATA[ग्राहक]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_orders</key>
+		<value><![CDATA[ऑर्डर]]></value>
+	</definition>
+	<definition>
+		<key>entry_erase_existing_data</key>
+		<value><![CDATA[मौजूदा डेटा मिटाएं?]]></value>
+	</definition>
+	<definition>
+		<key>button_start_migration</key>
+		<value><![CDATA[स्थानांतरण शुरू करें]]></value>
+	</definition>
+	<definition>
+		<key>button_continue</key>
+		<value><![CDATA[जारी रखें]]></value>
+	</definition>
+	<definition>
+		<key>button_back</key>
+		<value><![CDATA[वापस]]></value>
+	</definition>
+	<definition>
+		<key>button_cancel</key>
+		<value><![CDATA[रद्द करें]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास माइग्रेशन करने की अनुमति नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_host</key>
+		<value><![CDATA[होस्ट आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_user</key>
+		<value><![CDATA[उपयोगकर्ता आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_name</key>
+		<value><![CDATA[डेटाबेस नाम आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_connection</key>
+		<value><![CDATA[त्रुटि: डेटाबेस से कनेक्ट नहीं हो सका, कृपया सुनिश्चित करें कि डेटाबेस सर्वर, उपयोगकर्ता नाम और पासवर्ड सही हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_not_exist</key>
+		<value><![CDATA[त्रुटि: डेटाबेस मौजूद नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_type</key>
+		<value><![CDATA[त्रुटि: कृपया कार्ट का प्रकार चुनें!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_url</key>
+		<value><![CDATA[त्रुटि: कार्ट URL आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_not_supported</key>
+		<value><![CDATA[चेतावनी: चयनित कार्ट अब समर्थित नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>error_migrate_data</key>
+		<value><![CDATA[त्रुटि: कृपया कम से कम एक आइटम चुनें!]]></value>
+	</definition>
+	<definition>
+		<key>text_no_customers</key>
+		<value><![CDATA[ध्यान दें: कोई भी ग्राहक आयात नहीं किया गया।]]></value>
+	</definition>
+	<definition>
+		<key>text_no_products</key>
+		<value><![CDATA[नोट: कोई भी उत्पाद आयात नहीं किया गया।]]></value>
+	</definition>
+	<definition>
+		<key>text_no_orders</key>
+		<value><![CDATA[नोट: एक भी ऑर्डर आयात नहीं किया गया।]]></value>
+	</definition>
+	<definition>
+		<key>text_no_brands</key>
+		<value><![CDATA[नोट: एक भी ब्रांड आयात नहीं किया गया।]]></value>
+	</definition>
+	<definition>
+		<key>text_no_categories</key>
+		<value><![CDATA[नोट: कोई भी उत्पाद श्रेणी आयात नहीं की गई थी।]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_source_cart</key>
+		<value><![CDATA[चेतावनी: चयनित स्रोत कार्ट खाली है! कृपया डेटाबेस और टेबल प्रीफ़िक्स की जाँच करें।]]></value>
+	</definition>
+	<definition>
+		<key>text_finished</key>
+		<value><![CDATA[स्थानांतरण पूरा हो गया है।]]></value>
+	</definition>
+</definitions>

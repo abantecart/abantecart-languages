@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_quick_start</key>
+		<value><![CDATA[त्वरित प्रारंभ विज़ार्ड]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_start_note</key>
+		<value><![CDATA[AbanteCart प्रशासन में आपका स्वागत है।<br />
+यह एक विज़ार्ड है जो आपको सबसे सामान्य सेटिंग्स के साथ अपने शॉपिंग कार्ट को जल्दी सेटअप करने में मदद करता है।<br />]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_start_general</key>
+		<value><![CDATA[नीचे सबसे आम सामान्य सेटिंग्स दी गई हैं।	
+अधिक सेटिंग्स उपलब्ध हैं <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_start_details</key>
+		<value><![CDATA[नीचे आपकी दुकान से संबंधित सबसे सामान्य सेटिंग्स दी गई हैं।	
+और भी सेटिंग्स उपलब्ध हैं <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_start_checkout</key>
+		<value><![CDATA[नीचे चेकआउट प्रक्रिया के लिए सबसे सामान्य सेटिंग्स दी गई हैं।	
+अधिक सेटिंग्स उपलब्ध हैं <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_start_appearance</key>
+		<value><![CDATA[नीचे स्टोरफ़्रंट की उपस्थिति के लिए सबसे सामान्य सेटिंग्स हैं। अधिक सेटिंग्स उपलब्ध हैं <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_start_mail</key>
+		<value><![CDATA[नीचे ईमेल को सक्षम करने के लिए सबसे सामान्य सेटिंग्स हैं।	
+यदि आप ईमेल भेजने के लिए बाहरी ईमेल सर्वर (गूगल आदि) का उपयोग करते हैं, तो आपको SMTP विकल्प का उपयोग करना होगा।	
+इस सर्वर से ईमेल भेजने के लिए मेल विकल्प का उपयोग करें।	
+
+अधिक सेटिंग्स उपलब्ध हैं <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_start_last</key>
+		<value><![CDATA[नीचे आप अपनी वांछित भुगतान और शिपिंग विधियाँ, अतिरिक्त भाषाएँ और कई अन्य सुविधाएँ चुन सकते हैं ताकि आप अपनी ई-कॉमर्स कार्यक्षमता का विस्तार कर सकें।	
+याद रखें कि पेशेवर डेवलपर्स के समुदाय द्वारा पेश किए गए एक्सटेंशंस का चयन <a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart मार्केटप्लेस</a> पर अवश्य देखें।]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_start_last_footer</key>
+		<value><![CDATA[आपने क्विक स्टार्टर विज़ार्ड पूरा कर लिया है।<br /><br />
+आप सभी सेटिंग्स <a href="%s">इस लिंक <i class="fa fa-link fa-fw"></i></a> पर पा सकते हैं।]]></value>
+	</definition>
+	<definition>
+		<key>payments_selection</key>
+		<value><![CDATA[<div class="info alert alert-info">
+		<i class="fa fa-money fa-fw"></i> अपनी भुगतान विधियाँ चुनें।
+</div>
+<div class="row">
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=stripe" target="_extension">
+				<img style="width: 94px; width: height: 94px;" src="extensions/stripe/image/icon.png"><br>Stripe</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=cardknox" target="_extension">
+				<img style="width: 94px; width: height: 94px;" src="extensions/cardknox/image/icon.png"><br>CardKnox</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=paypal_commerce" target="_extension">
+				<img style="width: 94px; width: height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br>Paypal Commerce</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/payment" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br>और भुगतान विधियाँ</a>
+		</div>
+</div>]]></value>
+	</definition>
+	<definition>
+		<key>shipping_selection</key>
+		<value><![CDATA[<div class="info alert alert-info">
+		<i class="fa fa-truck fa-fw"></i> अपनी शिपिंग विधियाँ चुनें।
+</div>
+<div class="row">
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=default_free_shipping" target="_extension">
+				<img src="extensions/default_free_shipping/image/icon.png"><br>मुफ्त शिपिंग</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=default_fedex" target="_extension">
+				<img src="extensions/default_fedex/image/icon.png"><br>Fedex</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=default_local_delivery" target="_extension">
+				<img src="extensions/default_local_delivery/image/icon.png"><br>स्थानीय वितरण</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/shipping" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br>और शिपिंग विधियाँ</a>
+		</div>
+</div>]]></value>
+	</definition>
+	<definition>
+		<key>language_selection</key>
+		<value><![CDATA[<div class="info alert alert-info">
+		<i class="fa fa-language fa-fw"></i> अतिरिक्त भाषाएँ चुनें।
+</div>
+<div class="row">
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=default_italian" target="_extension">
+				<img src="extensions/default_italian/image/icon.png"><br>इटालियन</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=default_spanish" target="_extension">
+				<img src="extensions/default_spanish/image/icon.png"><br>स्पैनिश</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions/install&extension=default_russian" target="_extension">
+				<img src="extensions/default_russian/image/icon.png"><br>रूसी</a>
+		</div>
+		<div class="col-sm-3 h5 center">
+				<a href="#admin#rt=extension/extensions_store&category_id=67&sidx=date_modified" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br>और भाषाएँ</a>
+		</div>
+</div>]]></value>
+	</definition>
+	<definition>
+		<key>more_extensions</key>
+		<value><![CDATA[<div class="info alert alert-info">
+		<i class="fa fa-puzzle-piece fa-fw"></i> AbanteCart मार्केटप्लेस पर और एक्सटेंशन।
+</div>
+<div class="row center">
+		<div class="btn-group center">
+				<a class="btn btn-primary" href="#admin#rt=extension/extensions_store" target="_extension">
+						<i class="fa fa-cloud-download fa-fw"></i> एक्सटेंशन मार्केटप्लेस
+				</a>
+		</div>
+</div>]]></value>
+	</definition>
+</definitions>

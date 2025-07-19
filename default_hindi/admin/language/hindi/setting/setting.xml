@@ -1,0 +1,1065 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[सेटिंग्स]]></value>
+	</definition>
+	<definition>
+		<key>column_store_alias</key>
+		<value><![CDATA[दुकान]]></value>
+	</definition>
+	<definition>
+		<key>column_group</key>
+		<value><![CDATA[समूह]]></value>
+	</definition>
+	<definition>
+		<key>column_key</key>
+		<value><![CDATA[कुंजी]]></value>
+	</definition>
+	<definition>
+		<key>column_value</key>
+		<value><![CDATA[मान]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[सफलता: आपने अपनी सेटिंग्स सफलतापूर्वक सहेज लीं!]]></value>
+	</definition>
+	<definition>
+		<key>text_image_manager</key>
+		<value><![CDATA[छवि प्रबंधक]]></value>
+	</definition>
+	<definition>
+		<key>text_select_group</key>
+		<value><![CDATA[- समूह चुनें -]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[डिफ़ॉल्ट]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store_settings</key>
+		<value><![CDATA[सेटिंग्स संपादित करें:]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_template_settings</key>
+		<value><![CDATA[टेम्पलेट सेटिंग्स संपादित करें:]]></value>
+	</definition>
+	<definition>
+		<key>text_common_template_settings</key>
+		<value><![CDATA[टेम्पलेट चयन]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store</key>
+		<value><![CDATA[स्टोर संपादित करें]]></value>
+	</definition>
+	<definition>
+		<key>text_mail</key>
+		<value><![CDATA[आंतरिक मेलर]]></value>
+	</definition>
+	<definition>
+		<key>text_smtp</key>
+		<value><![CDATA[एसएमटीपी]]></value>
+	</definition>
+	<definition>
+		<key>text_native</key>
+		<value><![CDATA[स्थानीय (sendmail बाइनरी और php.ini की "sendmail_path" सेटिंग)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[system/config.php से लें]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[Mailer config.php फ़ाइल से एक <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> संयोजित करता है। विवरणों के लिए कृपया <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">हमारी दस्तावेज़ीकरण</a> पढ़ें।]]></value>
+	</definition>
+	<definition>
+		<key>tab_all</key>
+		<value><![CDATA[सभी]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[स्टोर का नाम:]]></value>
+	</definition>
+	<definition>
+		<key>entry_url</key>
+		<value><![CDATA[Store URL:<br /><span class="help">अपने स्टोर का पूरा URL शामिल करें। अंत में '/' जोड़ना सुनिश्चित करें। उदाहरण: http://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_owner</key>
+		<value><![CDATA[स्टोर मालिक:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address</key>
+		<value><![CDATA[पता:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[ई-मेल:]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_emails</key>
+		<value><![CDATA[अतिरिक्त अलर्ट ई-मेल:<br /><span class="help">कोई भी अतिरिक्त ई-मेल पता जिसे आप मुख्य स्टोर ई-मेल के अलावा अलर्ट ई-मेल प्राप्त करने के लिए शामिल करना चाहते हैं। (अल्पविराम से अलग)</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[अलर्ट ई-मेल्स वैध और अल्पविराम से पृथक होने चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[दूरभाष:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[फ़ैक्स:]]></value>
+	</definition>
+	<definition>
+		<key>entry_title</key>
+		<value><![CDATA[शीर्षक:<br /><span class="help">यह स्टोरफ़्रंट ब्राउज़र शीर्षक में प्रदर्शित होता है</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[मेटा टैग विवरण:<br /><span class="help">स्टोरफ़्रंट मुख्य पृष्ठ मेटा टैग विवरण</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[मेटा कीवर्ड्स:<br /><span class="help">स्टोरफ्रंट मुख्य पृष्ठ मेटा टैग कीवर्ड्स (कॉमा से पृथक)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[स्वागत संदेश:]]></value>
+	</definition>
+	<definition>
+		<key>entry_template</key>
+		<value><![CDATA[Template:<span class="help">स्टोरफ्रंट टेम्प्लेट। यह मुख्य या एक्सटेंशन टेम्प्लेट हो सकता है</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_template</key>
+		<value><![CDATA[कंट्रोल पैनल टेम्पलेट:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[देश:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[क्षेत्र / राज्य:]]></value>
+	</definition>
+	<definition>
+		<key>entry_language</key>
+		<value><![CDATA[स्टोरफ़्रंट भाषा:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_language</key>
+		<value><![CDATA[प्रशासन भाषा: <span class="help">नोट: ब्राउज़र में उपयोगकर्ता की पसंदीदा भाषा न मिलने पर काम करता है</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency</key>
+		<value><![CDATA[Base Currency:<span class="help">यह सभी स्टोर्स के लिए मूल मुद्रा है। यदि आपको समझ नहीं आ रहा कि क्या होगा तो इसे बदलें नहीं। चेतावनी: मूल मुद्रा बदलने से आपके उत्पादों की मूल कीमतें नहीं बदलेंगी। यदि आवश्यक हो तो आपको सभी कीमतों की समीक्षा और समायोजन करना होगा। मूल मुद्रा का विनिमय दर 1.00 पर सेट हो जाएगा तथा अन्य सभी मुद्राओं के विनिमय दर नई मूल मुद्रा के अनुरूप समायोजित कर दिए जाएँगे।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency_auto</key>
+		<value><![CDATA[मुद्रा का स्वचालित अद्यतन:<br /><span class="help">अपने स्टोर को दैनिक रूप से मुद्राओं को स्वचालित रूप से अपडेट करने के लिए सेट करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[वजन वर्ग:]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[लंबाई वर्ग:]]></value>
+	</definition>
+	<definition>
+		<key>entry_auto_translate_status</key>
+		<value><![CDATA[स्वचालित अनुवाद स्थिति:<br /><span class="help">यह उपयोग की जा रही भाषा के लिए पाठ मान उपलब्ध न होने पर लापता पाठ परिभाषाओं या भाषा-विशिष्ट डेटा के अनुवाद को सक्षम करता है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_src_lang_code</key>
+		<value><![CDATA[अनुवाद के लिए स्रोत भाषा:
+स्वचालित अनुवाद के लिए उपयोग की जाने वाली स्रोत भाषा चुनें।]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_method</key>
+		<value><![CDATA[पाठ अनुवाद विधि:<br /><span class="help">अनुवाद के लिए वह विधि चुनें जिसका आप उपयोग करना चाहते हैं। डिफ़ॉल्ट विधि मूल भाषा पाठ की सीधे प्रतिलिपि है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_override_existing</key>
+		<value><![CDATA[ओवरराइड करें यदि स्रोत भाषा का पाठ बदला गया हो:<br /><span class="help">यदि सेट किया गया है, तो स्रोत भाषा के पाठ में संपादन करने पर सभी भाषाओं में पाठ नए अनुवाद से प्रतिस्थापित कर दिया जाएगा। नोट: इससे कई अनुवाद हो सकते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_warn_lang_text_missing</key>
+		<value><![CDATA[भाषा के गायब पाठ के लिए चेतावनी दें:<br /><span class="help">यदि भाषा का पाठ गायब पाया जाता है तो चेतावनी संदेश प्राप्त करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[टैक्स सहित कीमतें दिखाएँ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store</key>
+		<value><![CDATA[डिफ़ॉल्ट स्टोर कर दर:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_0</key>
+		<value><![CDATA[कोई कर नहीं]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_1</key>
+		<value><![CDATA[स्टोर डिफ़ॉल्ट ज़ोन]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer</key>
+		<value><![CDATA[ग्राहक का कर पता उपयोग करें:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_0</key>
+		<value><![CDATA[शिपिंग पता]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_1</key>
+		<value><![CDATA[बिलिंग पता]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice</key>
+		<value><![CDATA[चालान प्रारंभ संख्या:<br /><span class="help">जिस संख्या से चालान शुरू होंगे, वह प्रारंभिक संख्या सेट करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice_prefix</key>
+		<value><![CDATA[चालान उपसर्ग:<br /><span class="help">चालान उपसर्ग सेट करें, उदाहरण के लिए IN/001</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[ग्राहक समूह:<br /><span class="help">डिफ़ॉल्ट ग्राहक समूह।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_price</key>
+		<value><![CDATA[लॉग इन मूल्य दिखाएं:<br /><span class="help">ग्राहक लॉग इन नहीं होने पर भी कीमतें दिखाएं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_approval</key>
+		<value><![CDATA[नए पंजीकरणों की समीक्षा करें:<br /><span class="help">यदि सक्षम है, तो नए ग्राहक को उनके खाते की स्वीकृति तक लॉगिन करने की अनुमति न दें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_prevent_email_as_login</key>
+		<value><![CDATA[Require Login Name:<br /><span class="help">सुरक्षा बढ़ाने के लिए, ग्राहकों को ईमेल पते के बजाय एक विशिष्ट लॉगिन नाम बनाने की आवश्यकता करें। यदि ON पर सेट है, मौजूदा ग्राहकों से पहले लॉगिन पर नया लॉगिन नाम बनाने के लिए कहा जाएगा। यदि OFF पर है, तो लॉगिन नाम ग्राहक के ईमेल पते के रूप में सेट किया जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_guest_checkout</key>
+		<value><![CDATA[Guest Checkout:<br /><span class="help">ग्राहकों को बिना खाता बनाए चेकआउट करने की अनुमति दें। जब शॉपिंग कार्ट में डाउनलोड करने योग्य उत्पाद(ओं) हो तो यह उपलब्ध नहीं होगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account</key>
+		<value><![CDATA[खाता शर्तें:<br /><span class="help">खाता बनाने से पहले लोगों को शर्तों से सहमत होने के लिए बाध्य करता है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_checkout</key>
+		<value><![CDATA[चेकआउट की शर्तें:<br /><span class="help">ग्राहकों को चेकआउट करने से पहले शर्तों से सहमत होने के लिए बाध्य करता है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_status</key>
+		<value><![CDATA[ऑर्डर स्थिति:<br /><span class="help">जब कोई ऑर्डर संसाधित किया जाए तो डिफ़ॉल्ट ऑर्डर स्थिति सेट करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_cancelation_order_status</key>
+		<value><![CDATA[ग्राहक को स्थिति पर आदेश रद्द करने की अनुमति दें:]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_display</key>
+		<value><![CDATA[स्टॉक मात्रा दिखाएँ:<br /><span class="help">उत्पाद पृष्ठ पर स्टॉक मात्रा दिखाएँ।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_nostock_autodisable</key>
+		<value><![CDATA[स्टॉक खत्म होने पर स्वचालित रूप से अक्षम:<br /><span class="help">अगर स्टॉक 0 हो जाए तो अपने उत्पाद या विकल्प मान को देखने के लिए अक्षम करें। संदेश अधिसूचना भेजी जाएगी </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[डिफ़ॉल्ट स्टॉक चेकआउट:<br /><span class="help">उत्पाद स्टॉक से बाहर होने पर भी ग्राहकों को चेकआउट करने की अनुमति देने के लिए डिफ़ॉल्ट सेटिंग निर्धारित करें</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_status</key>
+		<value><![CDATA[डिफ़ॉल्ट प्री-ऑर्डर स्टॉक स्थिति:<br /><span class="help">उत्पाद के लिए प्री-ऑर्डर स्थिति संदेश की डिफ़ॉल्ट सेटिंग। उत्पाद संपादन पृष्ठ पर उपयोग किया जाता है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_logo</key>
+		<value><![CDATA[स्टोर लोगो:]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[ईमेल लोगो:]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Icon:<br /><span class="help">आइकन PNG या ICON प्रकार का हो सकता है जो 16px x 16px का हो।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[ऊँचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb</key>
+		<value><![CDATA[उत्पाद छवि थंब आकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_width</key>
+		<value><![CDATA[उत्पाद छवि थंब की चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_height</key>
+		<value><![CDATA[उत्पाद छवि थंब ऊँचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup</key>
+		<value><![CDATA[उत्पाद छवि पॉपअप आकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_width</key>
+		<value><![CDATA[बड़ी विंडो पूर्वावलोकन की चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_height</key>
+		<value><![CDATA[बड़ी विंडो पूर्वावलोकन ऊंचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category</key>
+		<value><![CDATA[श्रेणी सूची का आकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_width</key>
+		<value><![CDATA[श्रेणी सूची चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_height</key>
+		<value><![CDATA[श्रेणी सूची की ऊँचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_width</key>
+		<value><![CDATA[ब्रांड आइकन सूची चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_height</key>
+		<value><![CDATA[ब्रांड आइकन सूची की ऊँचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product</key>
+		<value><![CDATA[उत्पाद सूची का आकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_height</key>
+		<value><![CDATA[Product List Height:<br /><span class="help">यह एडमिन और स्टोरफ़्रंट पर अन्य स्थानों में लिस्टिंग पेजों में पूर्वावलोकन छवि की ऊँचाई नियंत्रित करने के लिए है। ध्यान दें, यह सेटिंग एडमिन और डिफ़ॉल्ट स्टोरफ़्रंट टेम्पलेट के बीच साझा होती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_width</key>
+		<value><![CDATA[उत्पाद सूची चौड़ाई:<br /><span class="help">यह एडमिन और स्टोरफ्रंट में सूची पृष्ठों और अन्य स्थानों पर पूर्वावलोकन छवि की चौड़ाई को नियंत्रित करने के लिए है। ध्यान दें, यह सेटिंग एडमिन और डिफ़ॉल्ट स्टोरफ्रंट टेम्पलेट के बीच साझा की जाती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional</key>
+		<value><![CDATA[अतिरिक्त उत्पाद छवि का आकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_width</key>
+		<value><![CDATA[अतिरिक्त उत्पाद छवि की चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_height</key>
+		<value><![CDATA[अतिरिक्त उत्पाद छवि की ऊँचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related</key>
+		<value><![CDATA[संबंधित उत्पाद छवि का आकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_width</key>
+		<value><![CDATA[संबंधित उत्पाद छवि की चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_height</key>
+		<value><![CDATA[संबंधित उत्पाद छवि ऊँचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart</key>
+		<value><![CDATA[कार्ट छवि का आकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_width</key>
+		<value><![CDATA[कार्ट छवि चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_height</key>
+		<value><![CDATA[कार्ट छवि ऊँचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid</key>
+		<value><![CDATA[ग्रिड छवि का आकार:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_width</key>
+		<value><![CDATA[Grid Image Width:<br /><span class="help">यह एडमिन के लिस्टिंग ग्रिड्स और स्टोरफ़्रंट के अन्य स्थानों में बहुत छोटे पूर्वावलोकन छवि की चौड़ाई को नियंत्रित करने के लिए है। ध्यान दें, यह सेटिंग एडमिन और डिफ़ॉल्ट स्टोरफ़्रंट टेम्पलेट के बीच साझा की जाती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_height</key>
+		<value><![CDATA[Grid Image Height:<br /><span class="help">यह एडमिन और स्टोरफ्रंट के अन्य स्थानों पर लिस्टिंग ग्रिड्स में बहुत छोटे प्रीव्यू इमेज की ऊँचाई को नियंत्रित करने के लिए है। ध्यान दें, यह सेटिंग एडमिन और डिफ़ॉल्ट स्टोरफ्रंट टेम्पलेट के बीच साझा की जाती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_mail</key>
+		<value><![CDATA[Alert Mail:<br /><span class="help">जब एक नया ऑर्डर बनाया जाता है तो स्टोर के मालिक को एक ईमेल भेजें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_download</key>
+		<value><![CDATA[डाउनलोड की अनुमति दें:]]></value>
+	</definition>
+	<definition>
+		<key>entry_download_status</key>
+		<value><![CDATA[Download Order Status:<br /><span class="help">ग्राहक को अपने डाउनलोड करने योग्य उत्पाद एक्सेस करने की अनुमति मिलने से पहले उनका ऑर्डर जिस स्थिति तक पहुँचना चाहिए, वह स्थिति निर्धारित करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[मेल परिवहन:]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[मेलर उस sendmail बाइनरी और विकल्पों का उपयोग करता है जो php.ini की sendmail_path सेटिंग में कॉन्फ़िगर किए गए हैं।]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_host</key>
+		<value><![CDATA[SMTP होस्ट:<br /><span class="help">सुरक्षित smtp कनेक्शन के लिए ssl://smtp.yourdomain.com का उपयोग करें</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_username</key>
+		<value><![CDATA[SMTP उपयोगकर्ता नाम:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_password</key>
+		<value><![CDATA[SMTP पासवर्ड:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_port</key>
+		<value><![CDATA[SMTP पोर्ट:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_timeout</key>
+		<value><![CDATA[SMTP समय समाप्ति:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl</key>
+		<value><![CDATA[SSL का उपयोग करें:<br /><span class="help">SSL का उपयोग करने के लिए अपने होस्ट से जांचें कि SSL प्रमाणपत्र स्थापित है या नहीं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_session_ttl</key>
+		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">यह मान उस समय अंतराल (मिनटों में) को नियंत्रित करता है, जिसके बाद बिना किसी गतिविधि के आपको पुनः लॉगिन करने के लिए कहा जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encryption</key>
+		<value><![CDATA[एन्क्रिप्शन कुंजी:<br /><span class="help">v1.2.1 से यह सेटिंग कॉन्फ़िग फ़ाइल में स्थानांतरित कर दी गई है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_seo_url</key>
+		<value><![CDATA[SEO URL's का उपयोग करें:<br /><span class="help">SEO URL's का उपयोग करने के लिए apache मॉड्यूल mod-rewrite इंस्टॉल होना चाहिए और आप htaccess.txt को .htaccess में पुनःनामित करें। नोट: यदि abantecart डोमेन की रूट में इंस्टॉल नहीं है तो .htaccess फ़ाइल के अंदर rewriteBase नियम बदलना होगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_retina_enable</key>
+		<value><![CDATA[Generate high-res (retina) images:<br /><span class="help">इस अपाचे मॉड्यूल का उपयोग करने के लिए mod-rewrite इंस्टॉल होना चाहिए और आपको htaccess.txt का नाम बदलकर .htaccess करना होगा। नोट: यदि abantecart डोमेन की रूट में इंस्टॉल नहीं है, तो .htaccess फ़ाइल के भीतर rewriteBase नियम बदलना होगा।<br>सक्षम करने के बाद कैश की गई छवियों को साफ़ करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_quality</key>
+		<value><![CDATA[जेपीईजी छवियों का संपीड़न स्तर]]></value>
+	</definition>
+	<definition>
+		<key>entry_compression</key>
+		<value><![CDATA[आउटपुट संपीड़न स्तर:<br /><span class="help">अनुरोध करने वाले क्लाइंट्स तक अधिक कुशलतापूर्वक स्थानांतरण के लिए GZIP। संपीड़न स्तर 0 - 9 के बीच होना चाहिए।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_display</key>
+		<value><![CDATA[त्रुटियाँ प्रदर्शित करें:<br /><span class="help">यदि आप अपवादों और त्रुटियों को देखना चाहते हैं तो इसे हाँ पर सेट करें</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_log</key>
+		<value><![CDATA[लॉग त्रुटियाँ:<br /><span class="help">यदि आप अपवादों और त्रुटियों को लॉग में सहेजना चाहते हैं, तो इसे हाँ पर सेट करें</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enable_reviews</key>
+		<value><![CDATA[समीक्षाएँ सक्षम करें:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cache_enable</key>
+		<value><![CDATA[Cache enabled:<br /><span class="help">कृपया कैशिंग अक्षम करते समय सावधान रहें। कैश्ड पृष्ठ पुनः नहीं बनाए जाएंगे और साइट लोडिंग धीमी हो सकती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_cache_drivers</key>
+		<value><![CDATA[वर्तमान में कैश <b>%s</b> ड्राइवर का उपयोग किया जा रहा है। कॉन्फ़िगरेशन के लिए अन्य ड्राइवर उपलब्ध हैं: <i>%s</i>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_status</key>
+		<value><![CDATA[स्टोरफ़्रंट एपीआई स्थिति:]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_key</key>
+		<value><![CDATA[Storefront API कुंजी:<br /><span class="help">इस कुंजी को सेट करें ताकि स्टोरफ्रंट API के लिए प्रतिबंधित (अधिक सुरक्षित) पहुँच प्रदान की जा सके।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_stock_check</key>
+		<value><![CDATA[स्टोरफ्रंट एपीआई स्टॉक एक्सेस:<br /><span class="help">स्टोरफ्रंट एपीआई को स्टॉक उपलब्धता जांचने की अनुमति देने पर इसे सक्षम करें</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_status</key>
+		<value><![CDATA[व्यवस्थापक API की स्थिति:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_key</key>
+		<value><![CDATA[प्रशासक API कुंजी:<br /><span class="help">इस कुंजी को सेट करें ताकि प्रशासक API तक सीमित (अधिक सुरक्षित) पहुंच प्रदान की जा सके।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_access_ip_list</key>
+		<value><![CDATA[Admin API Access IPs:<br /><span class="help">ऐसे IPs की सूची प्रदान करें (कॉमा से अलग की गई) जिन्हें एडमिन API तक पहुँच की अनुमति होगी। अन्य IPs ब्लॉक कर दिए जाएंगे</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_max_size</key>
+		<value><![CDATA[संसाधन पुस्तकालय अपलोड अधिकतम फ़ाइल आकार, kB]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug</key>
+		<value><![CDATA[Show Debug Info:<br /><span class="help">इसे ON करें यदि आप निष्पादन विवरण देखना और डिबग विवरण दिखाना चाहते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_0</key>
+		<value><![CDATA[बंद]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_1</key>
+		<value><![CDATA[दिखाएँ]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_2</key>
+		<value><![CDATA[लॉग]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level</key>
+		<value><![CDATA[डिबग स्तर:<br /><span class="help">डिबग आउटपुट में आप जो विवरण देखना चाहते हैं, उसकी गहराई चुनें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_0</key>
+		<value><![CDATA[स्तर 0 - कोई लॉग नहीं, केवल अपवाद त्रुटियाँ]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_1</key>
+		<value><![CDATA[स्तर 1 - त्रुटियाँ और चेतावनियाँ]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_2</key>
+		<value><![CDATA[स्तर 2 - #1 + मायएसक्यूएल साइट लोड, पीएचपी फ़ाइल निष्पादन समय और पृष्ठ तत्व लोड समय]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_3</key>
+		<value><![CDATA[स्तर 3 - #2 + बुनियादी लॉग और निष्पादन स्टैक]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_4</key>
+		<value><![CDATA[स्तर 4 - #3 + MySQL स्टेटमेंट्स का डंप]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_5</key>
+		<value><![CDATA[स्तर 5 - #4 + मध्यवर्ती चर]]></value>
+	</definition>
+	<definition>
+		<key>entry_template_debug</key>
+		<value><![CDATA[टेम्पलेट डिबग:<br /><span class="help">यदि आपको स्टोरफ़्रंट और कंट्रोल पैनल में टेम्पलेट से संबंधित समस्याओं की जांच करने की आवश्यकता है, तो इस सेटिंग को सक्षम करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_filename</key>
+		<value><![CDATA[त्रुटि लॉग फ़ाइल का नाम:<br /><span class="help">यह एक फ़ाइल है जहाँ त्रुटियाँ सहेजी जाती हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_session</key>
+		<value><![CDATA[Use Shipping Session:<br /><span class="help">शिपिंग दरों के अनुमान को सेशन में सहेजता है, जिससे अनावश्यक रूप से पुनः अनुमान लेने से बचा जा सके। अनुमान केवल तब पुनः लिए जाएंगे जब कार्ट या पता बदल जाए।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_catalog_limit</key>
+		<value><![CDATA[डिफ़ॉल्ट आइटम प्रति पृष्ठ (स्टोरफ़्रंट):<br /><span class="help">निर्धारित करता है कि प्रत्येक पृष्ठ पर कितने स्टोरफ़्रंट आइटम दिखाए जाते हैं (उत्पाद, श्रेणियाँ, आदि)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_limit</key>
+		<value><![CDATA[प्रति पृष्ठ डिफ़ॉल्ट आइटम्स (एडमिन):<br /><span class="help">सेट करता है कि लिस्टिंग ग्रिड्स (ऑर्डर्स, ग्राहक, आदि) में एडमिन आइटम्स प्रति पृष्ठ कितने दिखाए जाएं</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_bestseller_limit</key>
+		<value><![CDATA[बेस्टसेलर ब्लॉक में वस्तुओं की संख्या]]></value>
+	</definition>
+	<definition>
+		<key>entry_featured_limit</key>
+		<value><![CDATA[फ़ीचर्ड ब्लॉक में आइटमों की संख्या]]></value>
+	</definition>
+	<definition>
+		<key>entry_latest_limit</key>
+		<value><![CDATA[नवीनतम ब्लॉक में आइटमों की संख्या]]></value>
+	</definition>
+	<definition>
+		<key>entry_special_limit</key>
+		<value><![CDATA[विशेष ब्लॉक में आइटमों की संख्या]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[सामग्री ब्लॉकों में आइटमों की संख्या]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_weight</key>
+		<value><![CDATA[कार्ट पृष्ठ पर वजन दिखाएँ:<br /><span class="help">कार्ट पृष्ठ पर कार्ट का वजन दिखाएँ</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_reviews</key>
+		<value><![CDATA[समीक्षा पोस्ट करें:<br /><span class="help">सीमित करें कि उत्पादों के लिए कौन समीक्षा पोस्ट कर सकता है</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maintenance</key>
+		<value><![CDATA[रखरखाव मोड:<br /><span class="help">ग्राहकों को आपके स्टोर ब्राउज़ करने से रोकता है। इसके बजाय उन्हें एक रखरखाव संदेश दिखाई देगा। यदि आप एडमिन के रूप में लॉग इन हैं, तो आपको स्टोर सामान्य रूप से दिखाई देगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_voicecontrol</key>
+		<value><![CDATA[वॉयस नियंत्रण:	
+वॉयस कमांड सुविधा को सक्रिय करने के लिए व्यवस्थापक वॉयस नियंत्रण सक्षम करें। वर्तमान में केवल Chrome संस्करण 25 या बाद में समर्थित है।]]></value>
+	</definition>
+	<definition>
+		<key>entry_help_links</key>
+		<value><![CDATA[Help Links:<br /><span class="help">यदि आप सहायता आइकन और AbanteCart साइट के लिंक देखना चाहते हैं। यह आपको सुविधाओं और उन्हें उपयोग करने के तरीके को समझने में मदद करेगा। यदि आप एक उन्नत उपयोगकर्ता हैं और ये सहायता आइकन नहीं देखना चाहते हैं, तो आप इन्हें अक्षम कर सकते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_tree_data</key>
+		<value><![CDATA[ट्री ग्रिड सक्षम करें:<br /><span class="help">एडमिन ग्रिड्स को सक्षम करता है ताकि एक ग्रिड लिस्टिंग में parent/children प्रकार दिखाए जा सकें। नोट: इन ग्रिड्स के लिए पेजिनेशन और मल्टी-एक्शन्स अक्षम हैं</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_ajax</key>
+		<value><![CDATA[एक ही पृष्ठ पर कार्ट में जोड़ें:<br /><span class="help">यह AJAX द्वारा कार्ट में जोड़ने की सुविधा सक्षम करेगा। उत्पाद को कार्ट पेज पर पुनर्निर्देशित किए बिना कार्ट में जोड़ा जा सकता है</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_width</key>
+		<value><![CDATA[स्टोरफ़्रंट साइट की चौड़ाई:<br /><span class="help">उदाहरण: 100% या 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_width</key>
+		<value><![CDATA[प्रशासनिक साइट की चौड़ाई:<br /><span class="help">उदाहरण: 100% या 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_maximum</key>
+		<value><![CDATA[अधिकतम ऑर्डर राशि की अनुमति:<br /><span class="help">बड़े ऑर्डर सब-टोटल राशियों पर चेकआउट को रोकें। 0 = कोई सीमा नहीं</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_minimum</key>
+		<value><![CDATA[न्यूनतम ऑर्डर राशि:<br /><span class="help">यदि ऑर्डर का उप-योग निर्धारित न्यूनतम राशि तक नहीं पहुँचता है, तो चेकआउट रोकें। 0 = कोई न्यूनतम नहीं</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_system_check</key>
+		<value><![CDATA[सिस्टम जांच:<br /><span class="help">यदि आप AbanteCart की कार्यक्षमता के संदर्भ में अपनी प्रणाली की स्थिति की जांच करना चाहते हैं, तो इस सेटिंग को सक्षम करें। AbanteCart को प्रभावित करने वाली प्रणालीगत समस्याएँ एडमिन में दिखाई देने वाले संदेशों के रूप में रिपोर्ट की जाएँगी।</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_store</key>
+		<value><![CDATA[नया स्टोर]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास सेटिंग्स को संशोधित करने की अनुमति नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[लॉगिन नाम केवल अल्फ़ान्यूमेरिक होना चाहिए और यह 5 से 64 अक्षरों के बीच होना चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname_notunique</key>
+		<value><![CDATA[यह लॉगिन नाम उपलब्ध नहीं है। अलग लॉगिन नाम आज़माएँ!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[स्टोर का नाम 2 से 32 वर्णों के बीच होना चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>error_url</key>
+		<value><![CDATA[मान्य स्टोर यूआरएल आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[शीर्षक 2 और 32 अक्षरों के बीच होना चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>error_owner</key>
+		<value><![CDATA[स्टोर मालिक को 2 और 64 अक्षरों के बीच होना चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>error_address</key>
+		<value><![CDATA[स्टोर पता 10 से 256 वर्णों के बीच होना चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[ई-मेल पता वैध प्रतीत नहीं होता!]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[फ़ोन 2 से 32 वर्णों के बीच होना चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_thumb</key>
+		<value><![CDATA[उत्पाद छवि थंब आकार आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_popup</key>
+		<value><![CDATA[उत्पाद छवि पॉपअप आकार के आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_category</key>
+		<value><![CDATA[श्रेणी सूची के आकार के आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_manufacturer</key>
+		<value><![CDATA[ब्रांड आइकन सूची आकार आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_product</key>
+		<value><![CDATA[उत्पाद सूची के आकार आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_additional</key>
+		<value><![CDATA[अतिरिक्त उत्पाद छवि आकार आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_related</key>
+		<value><![CDATA[संबंधित उत्पाद छवि के आकार आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_cart</key>
+		<value><![CDATA[कार्ट छवि आकार आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_grid</key>
+		<value><![CDATA[ग्रिड छवि आकार आयाम आवश्यक हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_error_filename</key>
+		<value><![CDATA[त्रुटि लॉग फ़ाइल नाम आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[आवश्यक डेटा दर्ज नहीं किया गया है। फ़ील्ड त्रुटियों की जाँच करें!]]></value>
+	</definition>
+	<definition>
+		<key>error_uploaded_image</key>
+		<value><![CDATA[अपलोड की गई फ़ाइल %s छवि नहीं है या क्षतिग्रस्त है!]]></value>
+	</definition>
+	<definition>
+		<key>error_limit</key>
+		<value><![CDATA[सीमा आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>text_front</key>
+		<value><![CDATA[दुकान का मुखपृष्ठ]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[प्रशासक]]></value>
+	</definition>
+	<definition>
+		<key>error_mail</key>
+		<value><![CDATA[कृपया एसएमटीपी-प्रोटोकॉल के लिए आवश्यक फ़ील्ड्स भरें!]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_sort_order_asc</key>
+		<value><![CDATA[उत्पाद का छंटाई क्रम कम > उच्च]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_asc</key>
+		<value><![CDATA[नाम A - Z]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_desc</key>
+		<value><![CDATA[नाम Z - A]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_asc</key>
+		<value><![CDATA[कीमत कम > अधिक]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_desc</key>
+		<value><![CDATA[कीमत उच्च > निम्न]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_asc</key>
+		<value><![CDATA[न्यूनतम रेटिंग]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_desc</key>
+		<value><![CDATA[उच्चतम रेटिंग]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_asc</key>
+		<value><![CDATA[दिनांक पुराना > नया]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_desc</key>
+		<value><![CDATA[तारीख नया > पुराना]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_default_sort_order</key>
+		<value><![CDATA[डिफ़ॉल्ट रूप से उत्पादों को इस आधार पर क्रमबद्ध करें:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zero_customer_balance</key>
+		<value><![CDATA[Show Zero Customer Balance:<br /><span class="help">नोट: ग्राहक का खाता शेष 0 होने पर शेष संदेश के प्रदर्शन को सक्षम/अक्षम करें</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_tax_estimate</key>
+		<value><![CDATA[शिपिंग और कर अनुमान:<br /><span class="help">ग्राहकों को शॉपिंग कार्ट में त्वरित शिपिंग और कर अनुमान प्राप्त करने की अनुमति दें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_coupon_on_cart_page</key>
+		<value><![CDATA[शॉपिंग कार्ट पेज पर कूपन:<br /><span class="help">ग्राहकों को कूपन कोड दर्ज करने और शॉपिंग कार्ट में छूट देखने की अनुमति दें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_analytics</key>
+		<value><![CDATA[Google Analytics 4 टैग आईडी:<br /><span class="help">साइट गतिविधि ट्रैकिंग सक्षम करने के लिए अपना <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">Google Analytics टैग आईडी</a> जोड़ें। यह ईकॉमर्स गतिविधि ट्रैकिंग को भी सक्षम करता है। आपको अपनी वेबसाइट के प्रोफ़ाइल सेटिंग्स पेज पर Google में ईकॉमर्स ट्रैकिंग सक्षम करनी होगी।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Google API कुंजी (Google मैप्स सक्षम करने के लिए):<br /><span class="help">आप नक्शे पर पता देख सकते हैं। Google मैप्स को सक्षम करने के लिए अपनी Google मैप्स API कुंजी जोड़ें <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google प्रमाण-पत्र पृष्ठ</a>।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[देखे गए उत्पादों की सीमा:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[देखे गए उत्पादों की छवि की चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[देखे गए उत्पादों की छवि की ऊँचाई:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl_url</key>
+		<value><![CDATA[Secure Store URL:<br /><span class="help">अपने स्टोर के लिए पूरा SSL URL(HTTPS) शामिल करें। अंत में '/' जोड़ना न भूलें। उदाहरण: https://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_ssl_url</key>
+		<value><![CDATA[मान्य सुरक्षित URL आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_email_activation</key>
+		<value><![CDATA[Email Activation for New Customers:<br /><span class="help">नए ग्राहक को लॉगिन करने की अनुमति न दें जब तक उनका खाता ईमेल द्वारा भेजे गए सक्रियण लिंक से पुष्टि नहीं हो जाता। इसके काम करने के लिए, सुनिश्चित करें कि "नए ग्राहकों को स्वीकृत करें" OFF पर सेट हो।</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_clone_template</key>
+		<value><![CDATA[AbanteCart डेवलपर टूल्स के साथ टेम्पलेट क्लोन करें]]></value>
+	</definition>
+	<definition>
+		<key>text_set_template</key>
+		<value><![CDATA[इस टेम्पलेट को स्टोरफ़्रंट के लिए सेट करें।]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_status</key>
+		<value><![CDATA[स्टोरफ़्रंट एम्बेड सक्षम करें:]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_click_action</key>
+		<value><![CDATA[एम्बेड क्लिक क्रिया:]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_modal</key>
+		<value><![CDATA[उसी पृष्ठ पर मॉडल संवाद]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_new_window</key>
+		<value><![CDATA[नया पेज नए टैब में खोलें।]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_same_window</key>
+		<value><![CDATA[उसी विंडो में नया पेज खोलें]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_create_captcha</key>
+		<value><![CDATA[खाता बनाने के फ़ॉर्म पर कैप्चा :<br /><span class="help">मानव सत्यापन कैप्चा सक्षम करके स्पैम/रोबोट खाता निर्माण को रोकें</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_site_key</key>
+		<value><![CDATA[Google reCAPTCHA साइट कुंजी:<br /><span class="help">अपने आगंतुकों को बेहतर कैप्चा प्रविष्टि में मदद करने के लिए <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a> जोड़ें। यदि आप reCAPTCHA साइट/सीक्रेट कुंजियाँ सक्षम करते हैं, तो Google reCAPTCHA v2 डिफ़ॉल्ट AbanteCart कैप्चा इमेज की बजाय सक्रिय हो जाएगा</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_secret_key</key>
+		<value><![CDATA[Google reCAPTCHA गुप्त कुंजी:<br /><span class="help">अपने आगंतुकों को बेहतर कैप्चा प्रविष्टि में मदद करने के लिए <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a> जोड़ें। यदि आप reCAPTCHA साइट/सीक्रेट कुंजियाँ सक्षम करते हैं, तो Google reCAPTCHA v2 डिफ़ॉल्ट AbanteCart कैप्चा छवि के स्थान पर सक्रिय हो जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_php_exceed</key>
+		<value><![CDATA[यह मान आपके php.ini निर्देश %s (<=%s) से अधिक नहीं हो सकता]]></value>
+	</definition>
+	<definition>
+		<key>entry_start_order_id</key>
+		<value><![CDATA[Order प्रारंभ संख्या:<br /><span class="help">उस प्रारंभिक संख्या को सेट करें जिससे ऑर्डर शुरू होंगे.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_start_order_id</key>
+		<value><![CDATA[ऑर्डर प्रारंभ संख्या संख्यात्मक होनी चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>error_starting_invoice_id</key>
+		<value><![CDATA[इनवॉइस की प्रारंभ संख्या संख्यात्मक होनी चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_order_days</key>
+		<value><![CDATA[Incomplete Order Expiration:<br /><span class="help">यह मान उन दिनों की अवधि को नियंत्रित करता है जिसके बाद अधूरे ऑर्डर हटाए जाएंगे। खाली मान का मतलब है कि कोई ऑर्डर हटाया नहीं जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_expire_order_days</key>
+		<value><![CDATA[अपूर्ण ऑर्डर समाप्ति मान संख्यात्मक होना चाहिए!]]></value>
+	</definition>
+	<definition>
+		<key>text_storefront</key>
+		<value><![CDATA[दुकान का मुखपृष्ठ]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[प्रशासक]]></value>
+	</definition>
+	<definition>
+		<key>text_im_driver</key>
+		<value><![CDATA[चालक]]></value>
+	</definition>
+	<definition>
+		<key>text_im_protocol</key>
+		<value><![CDATA[IM प्रोटोकॉल]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver</key>
+		<value><![CDATA[SMS प्रदाता]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver_tooltip</key>
+		<value><![CDATA[SMS सेवा प्रदाता के लिए एक्सटेंशन चुनें]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_status_tooltip</key>
+		<value><![CDATA[ग्राहकों के लिए एसएमएस सक्षम करें]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_status_tooltip</key>
+		<value><![CDATA[प्रशासकों के लिए एसएमएस सक्षम करें]]></value>
+	</definition>
+	<definition>
+		<key>text_no_driver</key>
+		<value><![CDATA[कोई IM ड्राइवर नहीं मिला]]></value>
+	</definition>
+	<definition>
+		<key>text_im_settings_attention</key>
+		<value><![CDATA[ये समायोजन AbanteCart की घटनाओं के दौरान स्टोरफ्रंट और प्रशासन में स्वचालित रूप से भेजे जाने वाले तत्काल संदेशों के लिए हैं।]]></value>
+	</definition>
+	<definition>
+		<key>entry_task_api_key</key>
+		<value><![CDATA[टास्क API कुंजी:<br/><span class="help">यह एक गुप्त कुंजी है जो AbanteCart को ब्राउज़र से /task.php फ़ाइल के माध्यम से अनुसूचित प्रक्रियाओं को चलाने की अनुमति देती है। यदि यह सेट नहीं है, तो ब्राउज़र द्वारा टास्क नहीं चलेंगे।<br/>नोट: इस API कुंजी की टास्क कमांड लाइन से चलाने के लिए आवश्यकता नहीं है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_duplicate_contact_us</key>
+		<value><![CDATA[संपर्क पूछताछ को संदेशों में कॉपी करें]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_class</key>
+		<value><![CDATA[डिफ़ॉल्ट कर वर्ग:<br/><span class="help">नए बनाए जा रहे उत्पाद के कर वर्ग के लिए डिफ़ॉल्ट मान के रूप में यह मान लिया जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_recaptcha_v3</key>
+		<value><![CDATA[reCaptcha v3 सक्षम करें]]></value>
+	</definition>
+	<definition>
+		<key>text_review_disable</key>
+		<value><![CDATA[अनुमति न दें]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_all</key>
+		<value><![CDATA[कोई भी ग्राहक या आगंतुक]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_only_registered</key>
+		<value><![CDATA[पंजीकृत ग्राहक]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_who_purchase</key>
+		<value><![CDATA[सत्यापित आदेश वाला ग्राहक]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_reviews</key>
+		<value><![CDATA[समीक्षाएँ दिखाएँ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[शहर:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[डाक कोड:]]></value>
+	</definition>
+	<definition>
+		<key>entry_latitude</key>
+		<value><![CDATA[अक्षांश:]]></value>
+	</definition>
+	<definition>
+		<key>entry_longitude</key>
+		<value><![CDATA[देशांतर:]]></value>
+	</definition>
+	<definition>
+		<key>entry_opening_hours</key>
+		<value><![CDATA[खुलने का समय:]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[डाक सूचकांक आवश्यक है]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[शहर का नाम आवश्यक है]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_resize_fill_color</key>
+		<value><![CDATA[छवि आकार बदलने के लिए भराव का रंग<br/><span class="help">आयत से वर्ग में छवि आकार बदलने के दौरान खाली क्षेत्रों में भरा जाने वाला रंग</span>]]></value>
+	</definition>
+	<definition>
+		<key>warning_https_store_url</key>
+		<value><![CDATA[सभी ब्राउज़रों में सही प्लेटफ़ॉर्म कार्यक्षमता बनाए रखने और डेटा सुरक्षा सुनिश्चित करने के लिए HTTPS प्रोटोकॉल आवश्यक है। सभी अनुरोध HTTPS पर भेजे जाने चाहिए।]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_logo</key>
+		<value><![CDATA[डिफ़ॉल्ट स्टोर लोगो:]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_mail_logo</key>
+		<value><![CDATA[डिफ़ॉल्ट ईमेल लोगो:]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[फोन सत्यापन रेगेक्स पैटर्न:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cron_command</key>
+		<value><![CDATA[Linux में Crontab कमांड <span class="help">AbanteCart के लिए वेब सर्वर चलाने वाले उसी Linux उपयोगकर्ता के साथ crontab -e कमांड चलाएँ। संपादक में कमांड जोड़ें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_allow_coupon</key>
+		<value><![CDATA[चेकआउट पर कूपन प्रवेश की अनुमति दें <br /><span class="help">ग्राहकों और अतिथियों द्वारा कूपन प्रविष्टि सक्षम करें</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_payment_address_equal_shipping</key>
+		<value><![CDATA[भुगतान का पता शिपिंग पते के समान होना चाहिए]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_require_phone_number</key>
+		<value><![CDATA[चेकआउट पर फ़ोन नंबर अनिवार्य करें <br /><span class="help">जब सक्षम किया जाए, तो यह सेटिंग ग्राहकों या अतिथियों से चेकआउट प्रक्रिया के दौरान फ़ोन नंबर प्रदान करने की आवश्यकता करती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_create_account</key>
+		<value><![CDATA[अतिथि चेकआउट खाता बनाएँ <br /><span class="help">चेकआउट के अंत में अतिथि को खाता बनाने का विकल्प दें। यह अतिथियों के लिए पारदर्शी है और लॉगिन विवरणों के साथ ईमेल भेजा जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_buy_now_status</key>
+		<value><![CDATA[दिखाएँ "अभी खरीदें" बटन]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_show_order_comment_field</key>
+		<value><![CDATA[ऑर्डर टिप्पणी फ़ील्ड दिखाएं<br/><span class="help">चेकआउट प्रक्रिया के दौरान टिप्पणी टेक्स्टएरिया दिखाया जाएगा</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_unauth_customer</key>
+		<value><![CDATA[Allow returning customers to browse:<br /><span class="help">अप्रमाणित ग्राहक जो साइट पर लौट रहे हैं, उत्पाद ब्राउज़ कर सकेंगे, कार्ट में जोड़ सकेंगे, और विशलिस्ट कर सकेंगे।</span>]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[बैकअप / पुनर्स्थापना / लोड]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[डाउनलोड बैकअप]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[सफलता: आपने बैकअप फ़ाइल सफलतापूर्वक बना ली है!]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[सफलता: आपने सफलतापूर्वक अपना डेटाबेस आयात कर लिया है!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[सफलता: आपने अपना xml सफलतापूर्वक आयात किया!]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[बैकअप पुनर्स्थापित करें:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[तालिकाओं का बैकअप:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[बैकअप पुनर्स्थापित करें:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[XML-फ़ाइल लोड करें:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[बैकअप]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[पुनर्स्थापित करें]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[लेआउट और डेटासेट XML लोड]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास बैकअप्स को संशोधित करने की अनुमति नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[चेतावनी: कृपया निर्धारित करें कि आप क्या बैकअप या इम्पोर्ट करना चाहते हैं!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[चेतावनी: आपके द्वारा अपलोड की गई फ़ाइल खाली थी या फ़ाइल का प्रकार गलत था!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value><![CDATA[चेतावनी: फ़ाइल अपलोड नहीं की गई। अपनी php.ini फ़ाइल में post_max_size या file_upload निर्देशों की जाँच करें।]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value><![CDATA[चेतावनी: आपके द्वारा अपलोड की गई फ़ाइल XML के रूप में लोड नहीं हुई है! कृपया विवरण के लिए लॉग-फ़ाइल देखें।]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_code</key>
+		<value><![CDATA[Backup Code (%s)<br/><span class="help">डायनामिक फ़ाइलों जैसे कैश, लॉग फ़ाइलें, छवियाँ, संसाधन आदि को छोड़कर कोड फ़ाइलों वाली उप-निर्देशिकाएँ</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_content</key>
+		<value><![CDATA[बैकअप सामग्री (%s)<br/><span class="help">छवियाँ, डाउनलोड्स, संसाधन आदि जैसी गतिशील फ़ाइलों वाली उप-निर्देशिकाएँ</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_compress_backup</key>
+		<value><![CDATA[बैकअप निर्देशिका %s को संपीडित करें?<br/><span class="help">एक *.tar.gz आर्काइव बनाई जाएगी।<br/>नोट: इसमें लंबा समय लग सकता है। अन्यथा आप संपीड़न अक्षम कर सकते हैं और फ़ोल्डर %s में अपना बैकअप पा सकते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[अब बैकअप करें]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[लोड]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[बैकअप अनुसूची]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[सफलता: आपने सफलतापूर्वक अनुसूचित बैकअप कार्य बनाया है! <a href="%s">विवरण देखें</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[NOTE: इस प्रक्रिया का निष्पादन आपके AbanteCart डेटा आकार तथा आपके सर्वर की आभासी मेमोरी आकार पर निर्भर करता है। यदि प्रक्रिया त्रुटियों के साथ समाप्त होती है, तो निर्देशिका %s की अनुमतियाँ -rw-rw-rw पर सेट होने का सत्यापन करें और <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>। मेमोरी सेटिंग बढ़ाएँ या यदि प्रक्रिया अभी भी विफल होती है तो बैकअप मैन्युअल रूप से चलाएँ।]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[बैकअप-फ़ाइल डाउनलोड करने के लिए कृपया <a href="#admin#rt=tool/install_upgrade_history">इंस्टॉल/अपग्रेड इतिहास</a> पर जाएँ]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[बैकअप-फ़ाइलों वाली निर्देशिका %s है</a>]]></value>
+	</definition>
+</definitions>
