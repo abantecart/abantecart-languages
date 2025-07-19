@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardknox_name</key>
+		<value><![CDATA[카드녹스]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_key</key>
+		<value><![CDATA[거래 키 (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_token</key>
+		<value><![CDATA[거래 토큰 (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_test</key>
+		<value><![CDATA[테스트 모드]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_success_order_status</key>
+		<value><![CDATA[Order Status:<br /><span class="help">설정된 거래 방법에 따라 고객의 주문이 완료된 후에 설정될 주문 상태</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id</key>
+		<value><![CDATA[위치:<br /><span class="help">선택된 위치만 이 결제 방법을 사용할 수 있도록 제한합니다.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id_0</key>
+		<value><![CDATA[모든 위치]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method</key>
+		<value><![CDATA[거래 방식:<br /><span class="help">CardKnox 거래는 고객의 체크아웃 단계에서 주문 상태가 설정되기 전에 실행됩니다. 승인만 또는 캡처.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_capture</key>
+		<value><![CDATA[청구]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_authorization</key>
+		<value><![CDATA[승인 전용]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_ifields_key</key>
+		<value><![CDATA[iFields 키]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_pending_authorization</key>
+		<value><![CDATA[승인 대기 중]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_funds</key>
+		<value><![CDATA[금액 청구]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture</key>
+		<value><![CDATA[캡처]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_payment_status</key>
+		<value><![CDATA[결제 상태]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_success</key>
+		<value><![CDATA[성공! 자금이 성공적으로 청구되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_processing</key>
+		<value><![CDATA[처리 중]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_do_refund</key>
+		<value><![CDATA[CardKnox 환불 수행:<span class="help">귀하는 환불할 금액을 입력할 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refunded</key>
+		<value><![CDATA[환불됨]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund</key>
+		<value><![CDATA[환불]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_refund_title</key>
+		<value><![CDATA[카드녹스 환불]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund_success</key>
+		<value><![CDATA[성공! 주문이 성공적으로 환불되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_empty_amount</key>
+		<value><![CDATA[오류! 금액이 잘못되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_payment_method_data</key>
+		<value><![CDATA[오류! 이 주문에 대한 결제 수단 데이터가 없습니다.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_order_id</key>
+		<value><![CDATA[오류! 주문 ID가 없습니다.]]></value>
+	</definition>
+</definitions>

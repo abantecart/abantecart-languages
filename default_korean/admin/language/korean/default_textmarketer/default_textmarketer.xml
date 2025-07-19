@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[텍스트마케터]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[SMS 메시징을 활성화하려면 System -> Settings -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a>으로 이동하여 기본 SMS 드라이버로 TextMarketer를 선택하세요. SMS를 수신할 위치(admin 또는 스토어프런트) 섹션을 활성화하는 것을 잊지 마세요. 이 확장 기능은 관리자와 고객에게 휴대폰 번호 필드를 제공합니다. 이 확장 기능을 비활성화하면 해당 필드가 숨겨집니다. 기존 고객이 있는 스토어에 추가하는 경우 이 정보가 누락된다는 점을 유의하세요.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API 사용자 이름]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API 비밀번호]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[발신자: 메시지를 보낸 사람(원본 발신자 또는 송신자 ID). 11자리 영숫자 또는 16자리 숫자로만 구성될 수 있습니다.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[테스트 모드]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[아니요]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[예]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[오류 로깅 상태<span class="help">TextMarketer 확장 프로그램의 모든 오류를 기록하려면 이 설정을 ON으로 설정하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[휴대폰]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[연결을 테스트하세요:<span class="help">입력하신 API 자격 증명이 올바른지 테스트할 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[테스트]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[오류! 확장 기능이 켜져 있는지 확인하세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[오류! 수신자 전화번호를 입력해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[자세한 내용은 오류 로그를 참조하세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[연결에 성공했으며 API 자격 증명이 올바르게 구성되었습니다.]]></value>
+	</definition>
+</definitions>

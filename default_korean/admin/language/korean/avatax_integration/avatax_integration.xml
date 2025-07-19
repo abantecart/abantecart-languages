@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Avatax 통합]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[표준 세금 기능이 활성화된 경우 Avatax와 함께 작동하므로 표준 세금을 비활성화해야 할 수 있습니다.	
+시스템 -> 현지화 -> <a target="_new" href="#admin#rt=localisation/tax_class">세금 분류</a><br>	
+또한 확장 기능 <a href="#admin#rt=total/avatax_integration_total">Avatax 통합 합계</a>를 활성화하는 것을 잊지 마세요.<br>	
+중요! 확장 합계에서 Avatax 통합 합계의 계산 순서는 소계 이후여야 합니다. 소계 계산이 이 확장 합계의 계산보다 먼저 수행되어야 합니다. 확장 합계 설정에서 이를 확인하세요.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[계정 번호:<br /><span class="help">Avalara에서 제공한 계정 번호</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[라이선스 키:<br /><span class="help">Avalara에서 제공한 라이선스 키</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[서비스 URL:<br /><span class="help">Avalara 서비스 URL (실제 또는 개발)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[세금 이름:<br /><span class="help">합계 섹션에서 고객에게 표시될 세금 이름</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[회사 코드:<br /><span class="help">Avalara에 사용할 회사 코드</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[상점 ZIP/우편번호:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[오류! 확장 기능이 활성화되어 있는지 확인하세요.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[제품 기본 세금 코드]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[배송 방법들 기본 세금 코드들]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[배송 방법]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[운송료 세금 코드]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[연결 테스트]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[연결이 성공했으며 API 자격 증명이 올바르게 구성되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[연결 테스트:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[주소 검증:<br /><span class="help">주소 검증은 고객 체크아웃 단계에서 수행됩니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[주소 검증 버튼 제목:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Avatax 서비스에서 문서 커밋:<br /><span class="help">활성화 시 세금 문서는 지정된 주문 상태에서 커밋됩니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Avatax 서비스에서 문서 반환:<br /><span class="help">반환은 지정된 주문 상태에서 기록됩니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[저장]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[세금 코드 지우기]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[제품 세금 코드:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[세금 코드 찾기]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[면제 상태:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[보류 중]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[승인됨]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[거절됨]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[귀하의 면세 번호가 거부되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[귀하의 면세 번호가 거부되었습니다. 유효성을 확인하려면 계정 세부정보 페이지 %s를 방문하십시오.]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[면세번호:<br /><span class="help">세금 면제 번호</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entity\Use Code:<br /><span class="help">AvaTax에는 면제 유형을 나타내는 코드 그룹이 있습니다. 표준 코드를 확인하거나 AvaTax 사이트에서 사용자 정의 코드를 생성하세요</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[주문 상태에서 커밋:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[반품 주문 상태:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[주문 상태에서 취소:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[계정 번호 오류입니다. 확인하세요!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[둘 다]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[미국]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[캐나다]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[주소 검증을 위한 국가]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Avatax 통합 합계]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[거래 기록 활성화]]></value>
+	</definition>
+</definitions>

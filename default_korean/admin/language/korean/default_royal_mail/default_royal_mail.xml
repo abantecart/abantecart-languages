@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_royal_mail_name</key>
+		<value><![CDATA[로열 메일]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[배송]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[성공: Royal Mail 배송을 수정했습니다!]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class</key>
+		<value><![CDATA[1등급 (영국 전용)<br/><span class="help">편지 및 소포에 대한 익일 배송을 목표로 합니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_rates</key>
+		<value><![CDATA[1등급 요율:<br/><span class="help">예: .1:1.58,.25:1.96,.5:2.48 무게:비용,무게:비용 등. 이 예에서는 0.1kg = £1.58입니다. 여기서 KG는 Royal Mail 설정에서 지정된 무게 분류이고 £는 상점 기본 통화입니다. 상점 무게 분류는 무시됩니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_compensation_rates</key>
+		<value><![CDATA[1등급 보상 요율]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class</key>
+		<value><![CDATA[2등급 (영국 전용)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_rates</key>
+		<value><![CDATA[2등급 요금]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_compensation_rates</key>
+		<value><![CDATA[제2등급 보상 요율]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24</key>
+		<value><![CDATA[추적 24® (영국 전용)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_rates</key>
+		<value><![CDATA[Tracked 24® 배송 요금]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_compensation_rates</key>
+		<value><![CDATA[추적된 24® 보상 비율]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48</key>
+		<value><![CDATA[Tracked 48® (영국 전용)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_rates</key>
+		<value><![CDATA[Tracked 48® 요금]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_compensation_rates</key>
+		<value><![CDATA[Tracked 48® 보상 요율]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24</key>
+		<value><![CDATA[Mail 24® (영국 전용)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_rates</key>
+		<value><![CDATA[메일 24® 요금]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_compensation_rates</key>
+		<value><![CDATA[Mail 24® 보상 요율]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48</key>
+		<value><![CDATA[Mail 48® (영국에서만)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_rates</key>
+		<value><![CDATA[우편 48® 요금]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_compensation_rates</key>
+		<value><![CDATA[Mail 48® 보상 요율]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday</key>
+		<value><![CDATA[Sameday® (영국 전용)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_rates</key>
+		<value><![CDATA[Sameday® 요금]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_compensation_rates</key>
+		<value><![CDATA[Sameday® 보상 요율]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed</key>
+		<value><![CDATA[특급 배달 보장® (영국 전용)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_rates</key>
+		<value><![CDATA[특급 배송 보장® 요금]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_compensation_rates</key>
+		<value><![CDATA[특급 배송 보장® 보상 요율]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb</key>
+		<value><![CDATA[무료 배송을 위한 배송 방법 (영국 전용)<span class="help">장바구니에 무료 배송 상품만 있을 때 적용할 배송 방법을 선택하세요</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_1st_class</key>
+		<value><![CDATA[퍼스트 클래스]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_2nd_class</key>
+		<value><![CDATA[2등급]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked24</key>
+		<value><![CDATA[추적된 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked48</key>
+		<value><![CDATA[추적된 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail24</key>
+		<value><![CDATA[메일 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail48</key>
+		<value><![CDATA[메일 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_sameday</key>
+		<value><![CDATA[세임데이®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_special_delivery_guaranteed</key>
+		<value><![CDATA[특별 배송 보장®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_1</key>
+		<value><![CDATA[국제 가격 책정 유럽 제1구역]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_2</key>
+		<value><![CDATA[국제 가격 유럽 2지역]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_3</key>
+		<value><![CDATA[국제 가격 책정 유럽 지역 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_1</key>
+		<value><![CDATA[국제 가격 책정 세계 구역 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_2</key>
+		<value><![CDATA[국제 가격 책정 세계 지역 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_3</key>
+		<value><![CDATA[국제 가격 책정 세계 지역 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1</key>
+		<value><![CDATA[국제 표준 이코노미 (유럽 1구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1_rates</key>
+		<value><![CDATA[표준 이코노미 요금 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2</key>
+		<value><![CDATA[국제 스탠다드 이코노미 (유럽 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2_rates</key>
+		<value><![CDATA[표준 이코노미 요금 (유럽 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3</key>
+		<value><![CDATA[국제 표준 이코노미 (유럽 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3_rates</key>
+		<value><![CDATA[표준 이코노미 요금 (유럽 구역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1</key>
+		<value><![CDATA[국제 스탠다드 이코노미 (세계 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1_rates</key>
+		<value><![CDATA[표준 이코노미 요금 (세계 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2</key>
+		<value><![CDATA[국제 스탠다드 이코노미 (월드 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2_rates</key>
+		<value><![CDATA[표준 이코노미 요금 (세계 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3</key>
+		<value><![CDATA[국제 스탠다드 이코노미 (월드 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3_rates</key>
+		<value><![CDATA[표준 이코노미 요금 (월드 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1</key>
+		<value><![CDATA[국제 표준 우선 (유럽 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1_rates</key>
+		<value><![CDATA[표준 우선 순위 요금 (유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2</key>
+		<value><![CDATA[국제 표준 우선 (유럽 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2_rates</key>
+		<value><![CDATA[표준 우선 배송비 (유럽 2구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3</key>
+		<value><![CDATA[국제 표준 우선 (유럽 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3_rates</key>
+		<value><![CDATA[표준 우선 배송 요금 (유럽 3구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1</key>
+		<value><![CDATA[국제 표준 우선 (세계 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1_rates</key>
+		<value><![CDATA[표준 우선 배송료 (세계 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2</key>
+		<value><![CDATA[국제 표준 우선 (세계 구역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2_rates</key>
+		<value><![CDATA[표준 우선 요율 (세계 구역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3</key>
+		<value><![CDATA[국제 표준 우선(세계 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3_rates</key>
+		<value><![CDATA[표준 우선 배송 요금 (세계 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1</key>
+		<value><![CDATA[국제 서명 확인 (유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1_rates</key>
+		<value><![CDATA[서명 배송 요금 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2</key>
+		<value><![CDATA[국제 서명(유럽 제2지역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2_rates</key>
+		<value><![CDATA[서명 서비스 요율 (유럽 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3</key>
+		<value><![CDATA[국제 등기 (유럽 지역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3_rates</key>
+		<value><![CDATA[서명된 요금 (유럽 3구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1</key>
+		<value><![CDATA[국제 서명 배송 (세계 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1_rates</key>
+		<value><![CDATA[서명 요금 (세계 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2</key>
+		<value><![CDATA[국제 서명 배송 (세계 2구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2_rates</key>
+		<value><![CDATA[서명 요금 (세계 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3</key>
+		<value><![CDATA[국제 서명 확인 (세계 구역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3_rates</key>
+		<value><![CDATA[서명 요금 (세계 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[국제 추적 서명 (Europe Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1_rates</key>
+		<value><![CDATA[추적 서명 요금 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[국제 추적 서명 (유럽 2구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2_rates</key>
+		<value><![CDATA[추적 서명 요금(유럽 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[국제 추적 서명 (유럽 구역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3_rates</key>
+		<value><![CDATA[추적 서명 요금 (유럽 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1</key>
+		<value><![CDATA[국제 추적 서명 (세계 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1_rates</key>
+		<value><![CDATA[추적 서명 요금 (세계 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2</key>
+		<value><![CDATA[국제 추적 서명 (세계 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2_rates</key>
+		<value><![CDATA[서명 추적 요금 (세계 2존)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3</key>
+		<value><![CDATA[국제 추적 서명 (World Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3_rates</key>
+		<value><![CDATA[추적 서명 요금 (세계 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1</key>
+		<value><![CDATA[국제 추적 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1_rates</key>
+		<value><![CDATA[추적 요금 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2</key>
+		<value><![CDATA[국제 추적 배송 (Europe Zone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2_rates</key>
+		<value><![CDATA[추적 배송료 (유럽 2구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3</key>
+		<value><![CDATA[국제 추적 (유럽 3권역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3_rates</key>
+		<value><![CDATA[추적 요금 (유럽 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1</key>
+		<value><![CDATA[국제 추적 배송 (세계 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1_rates</key>
+		<value><![CDATA[추적 요금 (세계 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2</key>
+		<value><![CDATA[국제 추적 (세계 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2_rates</key>
+		<value><![CDATA[추적 요금 (세계 구역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3</key>
+		<value><![CDATA[국제 추적 (세계 구역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3_rates</key>
+		<value><![CDATA[추적 요금 (세계 구역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[국제 추적형 중량 초과(유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1_rates</key>
+		<value><![CDATA[추적 중량 요율 (유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[국제 추적 중량물 (유럽 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2_rates</key>
+		<value><![CDATA[추적 중량 요금 (유럽 구역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[국제 추적 중량 화물 (유럽 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3_rates</key>
+		<value><![CDATA[추적 중량별 요율 (유럽 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[국제 추적 무거운 (세계 제1권역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1_rates</key>
+		<value><![CDATA[추적 중량별 요금 (세계 1구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[국제 추적 더 무거운 (세계 2지역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2_rates</key>
+		<value><![CDATA[추적 고중량 요율 (세계 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[국제 추적 중량물 (World Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3_rates</key>
+		<value><![CDATA[추적 중량 운임 (세계 지역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free</key>
+		<value><![CDATA[무료 배송을 위한 국제 배송 방법 <span class="help">장바구니에 무료 배송 상품만 있는 경우 사용할 배송 방법을 선택하세요</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[표준 이코노미 (유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[표준 이코노미 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_2</key>
+		<value><![CDATA[스탠다드 이코노미 (유럽 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_3</key>
+		<value><![CDATA[표준 이코노미 (유럽 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_1</key>
+		<value><![CDATA[표준 이코노미 (세계 1구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_2</key>
+		<value><![CDATA[표준 이코노미 (세계 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_3</key>
+		<value><![CDATA[표준 이코노미 (세계 지역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[표준 우선 (유럽 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[표준 우선 순위 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_2</key>
+		<value><![CDATA[표준 우선 (유럽 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_3</key>
+		<value><![CDATA[표준 우선 배송 (유럽 지역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_1</key>
+		<value><![CDATA[표준 우선 (세계 구역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_2</key>
+		<value><![CDATA[표준 우선 배송 (월드 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_3</key>
+		<value><![CDATA[표준 우선 순위 (세계 구역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[서명됨 (유럽 권역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[서명 (유럽 제1구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_2</key>
+		<value><![CDATA[서명됨 (유럽 제2지역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_3</key>
+		<value><![CDATA[서명됨 (유럽 지역 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_1</key>
+		<value><![CDATA[서명됨 (세계 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_2</key>
+		<value><![CDATA[서명됨 (세계 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_3</key>
+		<value><![CDATA[서명됨 (세계 3권역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[추적 및 서명 (유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[추적 서명 (유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[추적 서명 (유럽 존 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[추적 서명 (유럽 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_1</key>
+		<value><![CDATA[추적 서명 (세계 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_2</key>
+		<value><![CDATA[추적 서명 (세계 구역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_3</key>
+		<value><![CDATA[추적 서명 (세계 존 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[추적됨 (유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[추적 배송 (유럽 존 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_2</key>
+		<value><![CDATA[추적 (유럽 2구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_3</key>
+		<value><![CDATA[추적됨(유럽 3구역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_1</key>
+		<value><![CDATA[추적 (세계 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_2</key>
+		<value><![CDATA[추적 (세계 구역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_3</key>
+		<value><![CDATA[추적됨 (World Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[추적 무게 초과 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[추적 더 무거운 (유럽 지역 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[추적 무거운 (유럽 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[추적 더 무거운 (Europe Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[추적된 더 무거운 (World Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[추적된 더 무거운 (세계 지역 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[추적 중량물 (세계 3권역)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_weight</key>
+		<value><![CDATA[배송 무게 표시:<br /><span class="help">배송 무게를 표시하시겠습니까? (예: 배송 무게 : 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_insurance</key>
+		<value><![CDATA[보험 표시:<br /><span class="help">배송 보험을 표시하시겠습니까? (예: 최대 &pound;500까지 보장됨)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_time</key>
+		<value><![CDATA[배송 시간 표시:<br /><span class="help">배송 시간을 표시하시겠습니까? (예: 3~5일 이내 배송)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_weight_class</key>
+		<value><![CDATA[중량 등급:<br /><span class="help">요금의 중량 등급입니다. 상점의 중량 등급은 무시됩니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax</key>
+		<value><![CDATA[세금 등급:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax_0</key>
+		<value><![CDATA[없음]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id</key>
+		<value><![CDATA[위치:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id_0</key>
+		<value><![CDATA[모든 위치]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[경고: Royal Mail 배송을 수정할 권한이 없습니다!]]></value>
+	</definition>
+</definitions>

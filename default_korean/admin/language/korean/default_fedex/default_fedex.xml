@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[페덱스]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[배송]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[성공: 당신은 FEDEX 배송을 수정했습니다!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[Fedex Production Key:<br /><span class="help">귀하에게 할당된 Fedex 프로덕션 키를 입력하세요. 필수입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Fedex 프로덕션 비밀번호:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[계정 번호:<br /><span class="help">귀하에게 할당된 FedEx 계정 번호를 입력하세요. (필수)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Fedex 미터 번호:<br /><span class="help">FedEx 미터 번호를 입력하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[주소:<br /><span class="help">도로명 주소에서 배송.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[도시:<br /><span class="help">이 도시에서 배송합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[주:<br /><span class="help">발송 주(두 글자).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[우편번호/우편번호:<br /><span class="help">우편번호에서 발송됩니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[국가:<br /><span class="help">발송 국가(두 문자).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[견적 유형:<br /><span class="help">주거용 또는 상업용 배송 견적입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[주거용]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[상업용]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[추가 요금:<br /><span class="help">FedEx 견적에 추가 요금이 적용됩니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[페덱스 퍼스트 오버나이트]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[FEDEX 우선 익일]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[FEDEX 스탠다드 오버나이트]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[FEDEX 2일 배송]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[페덱스 익스프레스 세이버]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[FEDEX 지상]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[경고: FEDEX 배송을 수정할 권한이 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[계정 ID가 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Fedex 미터 ID가 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[미터 번호와 인증 키를 얻으려면 다음 단계를 따르세요:	
+• http://fedex.com/us/developer로 이동하세요	
+• FedEx 사용자 이름과 비밀번호로 로그인하거나 계정이 없으면 "Register Now"를 클릭하세요	
+• 왼쪽에서 "Technical Resources"를 클릭하세요	
+• 그 아래에서 "FedEx web services for shipping"를 클릭하세요	
+• 오른쪽에서 "Move To Production"를 클릭하세요	
+• 아래로 스크롤하여 "Obtain Production Key" 버튼을 클릭하세요	
+• 양식 질문 1에서 "No"를 선택하세요	
+• 질문 2의 첫 번째 상자를 체크하세요	
+• 질문 3에서 "Corporate Developer"를 선택하세요	
+• 약관에 동의하세요	
+• 양식을 작성하세요(계정 번호에 대시(-)를 사용하지 마세요)	
+• 위 단계를 완료하면 즉시 미터 번호와 키를 받을 수 있습니다. 완료 후 Production 비밀번호가 이메일로 전송됩니다]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[테스트 모드:<br /><span class="help">실제 또는 테스트 게이트웨이 서버를 사용하시겠습니까?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[예]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[아니요]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[연결 테스트:<span class="help">입력하신 API 자격 증명이 올바른지 테스트할 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[테스트]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[연결이 성공적이며 API 자격 증명이 올바르게 구성되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[오류! 확장 기능이 켜져 있는지 확인해 주세요.]]></value>
+	</definition>
+</definitions>

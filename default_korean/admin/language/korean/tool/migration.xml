@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[장바구니 마이그레이션]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_one</key>
+		<value><![CDATA[- 단계 1]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_two</key>
+		<value><![CDATA[- 2단계]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_three</key>
+		<value><![CDATA[- 완료]]></value>
+	</definition>
+	<definition>
+		<key>text_description</key>
+		<value><![CDATA[마이그레이션 도구를 사용하여 다른 카트에서 데이터를 가져올 수 있습니다.<br>참고: AbanteCart는 현재 mysql만 가져오기를 지원합니다.<br>계속하려면 ‘마이그레이션 시작’ 버튼을 누르세요...]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[성공: 당신의 데이터가 Abantecart에 성공적으로 전송되었습니다!]]></value>
+	</definition>
+	<definition>
+		<key>text_cart_info</key>
+		<value><![CDATA[소스 장바구니 정보<span class="help">소스 장바구니 애플리케이션 세부 정보.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_db_info</key>
+		<value><![CDATA[데이터베이스 정보<span class="help">참고: AbanteCart는 현재 mysql만 가져오기를 지원합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_type</key>
+		<value><![CDATA[소스 카트 유형:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_url</key>
+		<value><![CDATA[원본 카트 URL:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_host</key>
+		<value><![CDATA[데이터베이스 호스트:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_user</key>
+		<value><![CDATA[데이터베이스 사용자:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_password</key>
+		<value><![CDATA[비밀번호:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_name</key>
+		<value><![CDATA[데이터베이스 이름:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_prefix</key>
+		<value><![CDATA[데이터베이스 접두사:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_select</key>
+		<value><![CDATA[- 장바구니 유형 선택 -]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_osc</key>
+		<value><![CDATA[오에스커머스 2.2RC2]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_oscmax</key>
+		<value><![CDATA[OscMAX]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_zen</key>
+		<value><![CDATA[젠카트 1.3.9h]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_cre</key>
+		<value><![CDATA[CRE Loaded 6.4.1 표준]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_opencart</key>
+		<value><![CDATA[오픈카트 1.4.9]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data</key>
+		<value><![CDATA[마이그레이션할 데이터를 선택してください]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_categories</key>
+		<value><![CDATA[카테고리]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_products</key>
+		<value><![CDATA[상품, 카테고리, 브랜드]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_customers</key>
+		<value><![CDATA[고객]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_orders</key>
+		<value><![CDATA[주문]]></value>
+	</definition>
+	<definition>
+		<key>entry_erase_existing_data</key>
+		<value><![CDATA[기존 데이터를 지우시겠습니까?]]></value>
+	</definition>
+	<definition>
+		<key>button_start_migration</key>
+		<value><![CDATA[마이그레이션 시작]]></value>
+	</definition>
+	<definition>
+		<key>button_continue</key>
+		<value><![CDATA[계속]]></value>
+	</definition>
+	<definition>
+		<key>button_back</key>
+		<value><![CDATA[뒤로]]></value>
+	</definition>
+	<definition>
+		<key>button_cancel</key>
+		<value><![CDATA[취소]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[경고: 마이그레이션을 수행할 권한이 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_host</key>
+		<value><![CDATA[호스트가 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_user</key>
+		<value><![CDATA[사용자가 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_name</key>
+		<value><![CDATA[데이터베이스 이름이 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_connection</key>
+		<value><![CDATA[오류: 데이터베이스에 연결할 수 없습니다. 데이터베이스 서버, 사용자 이름 및 비밀번호가 정확한지 확인해 주십시오!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_not_exist</key>
+		<value><![CDATA[오류: 데이터베이스가 존재하지 않습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_type</key>
+		<value><![CDATA[오류: 장바구니 유형을 선택해주세요!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_url</key>
+		<value><![CDATA[오류: 장바구니 URL이 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_not_supported</key>
+		<value><![CDATA[경고: 선택된 카트는 현재 지원되지 않습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_migrate_data</key>
+		<value><![CDATA[오류: 최소 하나 이상의 항목을 선택해 주세요!]]></value>
+	</definition>
+	<definition>
+		<key>text_no_customers</key>
+		<value><![CDATA[참고: 단 한 명의 고객도 가져오지 않았습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_no_products</key>
+		<value><![CDATA[참고: 어떤 제품도 가져오지 않았습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_no_orders</key>
+		<value><![CDATA[참고: 주문이 하나도 가져오지 못했습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_no_brands</key>
+		<value><![CDATA[참고: 어떤 브랜드도 가져오지 않았습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_no_categories</key>
+		<value><![CDATA[참고: 어떠한 상품 카테고리도 가져오지 않았습니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_source_cart</key>
+		<value><![CDATA[경고: 선택한 원본 카트가 비어 있습니다! 데이터베이스와 테이블 접두사를 확인하십시오.]]></value>
+	</definition>
+	<definition>
+		<key>text_finished</key>
+		<value><![CDATA[마이그레이션이 완료되었습니다.]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,655 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[상품]]></value>
+	</definition>
+	<definition>
+		<key>text_product</key>
+		<value><![CDATA[제품]]></value>
+	</definition>
+	<definition>
+		<key>tab_media</key>
+		<value><![CDATA[미디어]]></value>
+	</definition>
+	<definition>
+		<key>tab_shipping</key>
+		<value><![CDATA[배송]]></value>
+	</definition>
+	<definition>
+		<key>tab_files</key>
+		<value><![CDATA[파일]]></value>
+	</definition>
+	<definition>
+		<key>tab_relations</key>
+		<value><![CDATA[관계]]></value>
+	</definition>
+	<definition>
+		<key>tab_promotions</key>
+		<value><![CDATA[프로모션]]></value>
+	</definition>
+	<definition>
+		<key>tab_extensions</key>
+		<value><![CDATA[확장 기능]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[성공: 제품을 수정하셨습니다!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy</key>
+		<value><![CDATA[성공: 제품 <b>%s</b>을 성공적으로 복제했습니다!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[참고: 사용자 정의 상품 레이아웃도 복제되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_error_copy</key>
+		<value><![CDATA[복제에 실패했습니다! 원본 상품을 사용할 수 없습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_plus</key>
+		<value><![CDATA[+]]></value>
+	</definition>
+	<definition>
+		<key>text_minus</key>
+		<value><![CDATA[-]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[기본값]]></value>
+	</definition>
+	<definition>
+		<key>text_product_summary</key>
+		<value><![CDATA[제품 요약]]></value>
+	</definition>
+	<definition>
+		<key>text_image_manager</key>
+		<value><![CDATA[이미지 관리자]]></value>
+	</definition>
+	<definition>
+		<key>text_option</key>
+		<value><![CDATA[옵션]]></value>
+	</definition>
+	<definition>
+		<key>text_option_value</key>
+		<value><![CDATA[옵션 값]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[상품명]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[모델]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[재고 관리 단위]]></value>
+	</definition>
+	<definition>
+		<key>column_image</key>
+		<value><![CDATA[이미지]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[수량]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[상태]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[가격]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[작업]]></value>
+	</definition>
+	<definition>
+		<key>entry_featured</key>
+		<value><![CDATA[추천 상품:]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[상품명:]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[메타 태그 키워드:]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[메타 태그 설명:]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[설명:]]></value>
+	</definition>
+	<definition>
+		<key>entry_blurb</key>
+		<value><![CDATA[소개글:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store</key>
+		<value><![CDATA[상점:]]></value>
+	</definition>
+	<definition>
+		<key>entry_keyword</key>
+		<value><![CDATA[SEO Keyword:<br/><span class="help">이 제품의 URL에 표시될 SEO 키입니다. 제품 이름으로부터 키를 생성할 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_model</key>
+		<value><![CDATA[모델:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sku</key>
+		<value><![CDATA[재고 관리 단위:]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[기타 위치:]]></value>
+	</definition>
+	<definition>
+		<key>entry_manufacturer</key>
+		<value><![CDATA[브랜드:]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping</key>
+		<value><![CDATA[배송 필요:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ship_individually</key>
+		<value><![CDATA[상품 개별 배송:<br/><span class="help">상품은 별도의 패키지로 배송되며, 다수 아이템을 포함한 주문에는 추가 배송비가 부과됩니다. 활성화된 경우, 고정 배송 가격을 설정해야 합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_price</key>
+		<value><![CDATA[고정 배송비:<br/><span class="help">이 제품의 고정 배송비를 설정하는 마스터 설정입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_free_shipping</key>
+		<value><![CDATA[무료 배송:<br/><span class="help">이 상품에 대해 무료 배송을 활성화하는 마스터 설정입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_available</key>
+		<value><![CDATA[판매 가능일:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_quantity</key>
+		<value><![CDATA[수량:]]></value>
+	</definition>
+	<definition>
+		<key>entry_quantity</key>
+		<value><![CDATA[수량:<br/><span class="help">재고 추적 설정에 연결됨</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_minimum</key>
+		<value><![CDATA[최소 수량:<br/><span class="help">최소 주문 수량을 강제합니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maximum</key>
+		<value><![CDATA[최대 수량:<br/><span class="help">주문당 선택할 수 있는 수량의 상한을 설정하세요. 0 = 제한 없음</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_status</key>
+		<value><![CDATA[사전 주문 재고 상태:<br/><span class="help">제품이 품절이지만 구매가 허용될 때 표시되는 텍스트</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[재고 체크아웃:<br /><span class="help">제품이 재고가 없더라도 고객이 결제할 수 있도록 허용합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[상태:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_class</key>
+		<value><![CDATA[세금 분류:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cost</key>
+		<value><![CDATA[원가:<br/><span class="help">수익 보고에 사용되는 도매 원가</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_price</key>
+		<value><![CDATA[가격:]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_option_cost</key>
+		<value><![CDATA[실제 비용 (총):<span class="help">이 상품 옵션의 실제 비용 (총)을 입력하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_track_option_stock</key>
+		<value><![CDATA[재고 추적:]]></value>
+	</definition>
+	<definition>
+		<key>entry_subtract</key>
+		<value><![CDATA[재고 추적:<br/><span class="help">이 제품의 재고 수량을 추적하려면 ‘예’로 설정하십시오. 옵션을 사용하는 경우 각 옵션 값의 차감 설정을 확인하십시오</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[중량 등급:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight</key>
+		<value><![CDATA[무게:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_change</key>
+		<value><![CDATA[무게: 중요! 값이 %(percent) 옵션 무게로 제공될 경우 옵션의 무게는 기본 상품 무게를 기준으로 지정된 백분율만큼 변경됩니다. 무게 값이 직접 제공될 경우 해당 값이 옵션의 절대값으로 사용되며, 기본 무게는 무시됩니다.]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[길이 등급:]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[제품 패키지 길이: <span class="help">패키지 치수는 귀하의 상품이 배송될 상자, 파우치 또는 소포의 크기를 의미합니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[상품 패키지 너비: <span class="help">패키지 치수는 귀하의 상품이 배송될 상자, 파우치 또는 소포의 크기를 의미합니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[제품 패키지 높이:<span class="help">패키지 치수는 상품이 배송될 상자, 파우치 또는 소포의 크기를 의미합니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[치수 (길이 x 너비 x 높이):]]></value>
+	</definition>
+	<definition>
+		<key>entry_image</key>
+		<value><![CDATA[이미지:<br /><span class="help">이미지를 클릭하여 변경합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[고객 그룹:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_start</key>
+		<value><![CDATA[시작일:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_end</key>
+		<value><![CDATA[종료일:]]></value>
+	</definition>
+	<definition>
+		<key>entry_priority</key>
+		<value><![CDATA[우선 순위:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option</key>
+		<value><![CDATA[옵션:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_name</key>
+		<value><![CDATA[옵션 이름:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_value</key>
+		<value><![CDATA[옵션 값:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[정렬 순서:]]></value>
+	</definition>
+	<definition>
+		<key>entry_prefix</key>
+		<value><![CDATA[접두사:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_prefix</key>
+		<value><![CDATA[가격 조정:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_price</key>
+		<value><![CDATA[가격 조정자:]]></value>
+	</definition>
+	<definition>
+		<key>entry_category</key>
+		<value><![CDATA[카테고리:]]></value>
+	</definition>
+	<definition>
+		<key>entry_download</key>
+		<value><![CDATA[다운로드:]]></value>
+	</definition>
+	<definition>
+		<key>entry_related</key>
+		<value><![CDATA[관련 상품:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tags</key>
+		<value><![CDATA[상품 태그:<br /><span class="help">쉼표로 구분</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[경고: 상품을 수정할 권한이 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[상품 이름은 3자를 초과하고 255자 미만이어야 합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_model</key>
+		<value><![CDATA[상품 모델은 64자 미만이어야 합니다! 권장 길이: 5~25자]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[필수 데이터가 입력되지 않았습니다. 필드 오류를 확인하세요!]]></value>
+	</definition>
+	<definition>
+		<key>error_product_not_found</key>
+		<value><![CDATA[오류: 상품을 찾을 수 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_sku</key>
+		<value><![CDATA[오류: SKU를 찾을 수 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>filter_product</key>
+		<value><![CDATA[제품 검색]]></value>
+	</definition>
+	<definition>
+		<key>filter_any_word</key>
+		<value><![CDATA[이 단어들 중 어느 것이든]]></value>
+	</definition>
+	<definition>
+		<key>filter_all_words</key>
+		<value><![CDATA[이 모든 단어들]]></value>
+	</definition>
+	<definition>
+		<key>filter_exact_match</key>
+		<value><![CDATA[정확한 문구]]></value>
+	</definition>
+	<definition>
+		<key>filter_all_categories</key>
+		<value><![CDATA[- 모든 카테고리 -]]></value>
+	</definition>
+	<definition>
+		<key>filter_price_max</key>
+		<value><![CDATA[최대]]></value>
+	</definition>
+	<definition>
+		<key>text_view</key>
+		<value><![CDATA[보기]]></value>
+	</definition>
+	<definition>
+		<key>text_delete</key>
+		<value><![CDATA[삭제]]></value>
+	</definition>
+	<definition>
+		<key>text_choose_action</key>
+		<value><![CDATA[작업 선택]]></value>
+	</definition>
+	<definition>
+		<key>text_clone_selected</key>
+		<value><![CDATA[선택된 항목 복제]]></value>
+	</definition>
+	<definition>
+		<key>text_export_selected</key>
+		<value><![CDATA[선택된 항목 내보내기]]></value>
+	</definition>
+	<definition>
+		<key>text_delete_selected</key>
+		<value><![CDATA[선택된 항목 삭제]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_selected</key>
+		<value><![CDATA[선택된 항목 편집]]></value>
+	</definition>
+	<definition>
+		<key>text_clone</key>
+		<value><![CDATA[복제]]></value>
+	</definition>
+	<definition>
+		<key>text_export</key>
+		<value><![CDATA[내보내기]]></value>
+	</definition>
+	<definition>
+		<key>text_select_category</key>
+		<value><![CDATA[- 카테고리 선택 -]]></value>
+	</definition>
+	<definition>
+		<key>text_select_product</key>
+		<value><![CDATA[- 제품 선택 -]]></value>
+	</definition>
+	<definition>
+		<key>text_option_name</key>
+		<value><![CDATA[옵션 이름]]></value>
+	</definition>
+	<definition>
+		<key>text_group_option</key>
+		<value><![CDATA[그룹 옵션]]></value>
+	</definition>
+	<definition>
+		<key>text_option_type</key>
+		<value><![CDATA[옵션 유형]]></value>
+	</definition>
+	<definition>
+		<key>text_option_values</key>
+		<value><![CDATA[옵션 값]]></value>
+	</definition>
+	<definition>
+		<key>text_no_option_values</key>
+		<value><![CDATA[옵션 값 없음]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_option_values</key>
+		<value><![CDATA[옵션 값 수정]]></value>
+	</definition>
+	<definition>
+		<key>text_save_option_values</key>
+		<value><![CDATA[옵션 값 저장]]></value>
+	</definition>
+	<definition>
+		<key>button_remove_option</key>
+		<value><![CDATA[옵션 제거]]></value>
+	</definition>
+	<definition>
+		<key>text_option_removed</key>
+		<value><![CDATA[옵션 제거됨]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_type</key>
+		<value><![CDATA[무게 유형]]></value>
+	</definition>
+	<definition>
+		<key>text_product_pagination</key>
+		<value><![CDATA[제품(들) {start} to {end} of {total}]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_id</key>
+		<value><![CDATA[상품 ID]]></value>
+	</definition>
+	<definition>
+		<key>error_product_load</key>
+		<value><![CDATA[경고: 해당 ID의 상품이 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_attribute_not_selected</key>
+		<value><![CDATA[추가할 옵션을 선택하세요!]]></value>
+	</definition>
+	<definition>
+		<key>error_date</key>
+		<value><![CDATA[종료 날짜"는 "시작 날짜"보다 작을 수 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_required</key>
+		<value><![CDATA[이 필드는 필수입니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_option_in_group</key>
+		<value><![CDATA[옵션은 이미 그룹 옵션의 일부이므로 제품에 추가할 수 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_layout</key>
+		<value><![CDATA[성공: 상품 페이지 레이아웃을 수정했습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_option</key>
+		<value><![CDATA[성공: 제품 옵션을 수정했습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_add_new_option</key>
+		<value><![CDATA[- 새 옵션 추가 -]]></value>
+	</definition>
+	<definition>
+		<key>entry_required</key>
+		<value><![CDATA[필수:]]></value>
+	</definition>
+	<definition>
+		<key>entry_element_type</key>
+		<value><![CDATA[요소 유형:]]></value>
+	</definition>
+	<definition>
+		<key>entry_element_values</key>
+		<value><![CDATA[요소 값:]]></value>
+	</definition>
+	<definition>
+		<key>text_expand</key>
+		<value><![CDATA[+ 펼치기]]></value>
+	</definition>
+	<definition>
+		<key>text_hide</key>
+		<value><![CDATA[- 숨기기]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_placeholder</key>
+		<value><![CDATA[플레이스홀더:]]></value>
+	</definition>
+	<definition>
+		<key>entry_regexp_pattern</key>
+		<value><![CDATA[정규 표현식 패턴:]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_text</key>
+		<value><![CDATA[잘못된 값에 대한 오류 메시지:]]></value>
+	</definition>
+	<definition>
+		<key>text_product_condition</key>
+		<value><![CDATA[제품 상태:]]></value>
+	</definition>
+	<definition>
+		<key>text_product_available</key>
+		<value><![CDATA[사용 가능]]></value>
+	</definition>
+	<definition>
+		<key>text_product_disabled</key>
+		<value><![CDATA[비활성화됨]]></value>
+	</definition>
+	<definition>
+		<key>text_product_unavailable</key>
+		<value><![CDATA[사용 불가]]></value>
+	</definition>
+	<definition>
+		<key>text_product_out_of_stock</key>
+		<value><![CDATA[품절]]></value>
+	</definition>
+	<definition>
+		<key>text_product_in_stock</key>
+		<value><![CDATA[재고 있음]]></value>
+	</definition>
+	<definition>
+		<key>text_product_option_out_of_stock</key>
+		<value><![CDATA[제품 옵션 품절]]></value>
+	</definition>
+	<definition>
+		<key>text_call_to_order</key>
+		<value><![CDATA[전화로 주문]]></value>
+	</definition>
+	<definition>
+		<key>entry_call_to_order</key>
+		<value><![CDATA[상품 주문 차단:<br /><span class="help">이렇게 설정하면 상품이 디스플레이 모드로만 전환되어 주문할 수 없습니다. ‘주문을 위해 저희에게 문의하십시오’ 메시지가 표시됩니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_new_option</key>
+		<value><![CDATA[새 옵션]]></value>
+	</definition>
+	<definition>
+		<key>text_total_orders</key>
+		<value><![CDATA[총 주문 수]]></value>
+	</definition>
+	<definition>
+		<key>error_measure_value</key>
+		<value><![CDATA[999.99의 한도에 도달했습니다. 더 작은 숫자를 입력하세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_dimension_value</key>
+		<value><![CDATA[이 상품은 배송이 필요합니다. 모든 치수 값을 입력해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_weight_value</key>
+		<value><![CDATA[이 제품은 배송이 필요합니다. 무게 값을 설정해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_weight_class</key>
+		<value><![CDATA[무게 등급을 설정해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_length_class</key>
+		<value><![CDATA[길이 클래스를 설정해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>entry_allowed_extensions</key>
+		<value><![CDATA[허용된 파일 확장자 (txt, jpg …)]]></value>
+	</definition>
+	<definition>
+		<key>entry_min_size</key>
+		<value><![CDATA[최소 파일 크기 (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_max_size</key>
+		<value><![CDATA[최대 파일 크기 (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_dir</key>
+		<value><![CDATA[업로드 디렉토리 이름<br>%s]]></value>
+	</definition>
+	<definition>
+		<key>text_success_relation_set</key>
+		<value><![CDATA[선택한 제품들의 관계가 성공적으로 설정되었습니다!]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_locations</key>
+		<value><![CDATA[재고 위치:]]></value>
+	</definition>
+	<definition>
+		<key>entry_locations</key>
+		<value><![CDATA[위치:]]></value>
+	</definition>
+	<definition>
+		<key>text_create_collection</key>
+		<value><![CDATA[컬렉션 생성]]></value>
+	</definition>
+	<definition>
+		<key>text_warning_empty_set</key>
+		<value><![CDATA[하나 이상의 상품을 선택해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_enable_selected</key>
+		<value><![CDATA[선택한 항목 활성화]]></value>
+	</definition>
+	<definition>
+		<key>text_disable_selected</key>
+		<value><![CDATA[선택된 항목 비활성화]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_rule</key>
+		<value><![CDATA[세금 규칙]]></value>
+	</definition>
+	<definition>
+		<key>entry_price_with_tax</key>
+		<value><![CDATA[세금 포함 가격:]]></value>
+	</definition>
+	<definition>
+		<key>entry_txt_id</key>
+		<value><![CDATA[고유 텍스트 ID:]]></value>
+	</definition>
+	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[HTML-속성:<br /><span class="help">옵션 요소에 대한 사용자 정의 HTML 속성을 추가할 수 있습니다. 예: data-some-attribute="some value"</span>]]></value>
+	</definition>
+</definitions>

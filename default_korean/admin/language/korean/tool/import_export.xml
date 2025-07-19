@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[가져오기 및 내보내기]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[데이터 가져오기 마법사]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[가져오기]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[가져오기 마법사]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[내보내기]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[테이블]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[옵션]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[파일 형식:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[파일 이름:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[가져오기 파일 업로드]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[CSV 또는 텍스트 파일을 업로드하여 데이터를 가져올 수 있습니다.	
+데이터 구조의 경우, 독점 포맷(내보내기 참조) 또는 자유 포맷을 따를 수 있습니다.	
+자유 포맷 데이터의 경우, 데이터 요소를 수동으로 매핑하거나 JSON 맵을 사용해야 합니다.	
+자유 포맷 가져오기는 상품, 카테고리 및 브랜드/제조업체만 지원합니다.	
+Action 열을 포함하여 가져올 때 'insert', 'update' 또는 'delete'를 지시할 수 있습니다.	
+기본 동작은 update_or_insert입니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[각 제공된 가져오기 데이터 열에 대해 대상 테이블과 해당 데이터베이스 필드를 선택하십시오. 필드가 선택되지 않으면 입력 열 데이터는 무시됩니다. <br/> <b>참고:</b> 언어 및 스토어별 데이터 값은 현재 선택된 콘텐츠 스토어 및 언어에 할당됩니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[이 가져오기에서 %s개의 레코드가 로드되고 처리될 것입니다!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[가져오기 프로세스 실행 중]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[불러오기]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[총 로드됨:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[가져올 파일:<br><span class="help">가져오기 파일의 지원 형식: CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[ID 범위 시작:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[받는 사람:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV/TXT 구분 기호:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">모든 필드는 큰따옴표로 둘러싸입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">모든 필드는 큰따옴표로 감싸야 합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[테스트 모드에서 실행 <br><span class="help">문제가 있는지 확인하기 위해 먼저 테스트 모드에서 데이터 가져오기를 실행하는 것이 권장됩니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[파일 가져오기 열]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[데이터 가져오기 샘플]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[대상 테이블 선택]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[존재하면 업데이트]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[데이터를 기준으로 분할]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[향후 사용을 위해 이 매핑을 선택하여 복사하고 저장하십시오.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[매핑 내보내기]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[아래 필드에 미리 저장된 매핑 데이터를 입력하세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[매핑 불러오기]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[지원되지 않는 가져오기 파일 형식입니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[XML 파일 가져오기 중 오류가 발생했습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[CSV/TXT 파일 가져오기 중 오류가 발생했습니다! 필드 구분자를 확인하세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[데이터가 비어 있거나 손상되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[파일이 비어 있습니다.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[CSV/TXT 내보내기가 작동하려면 백업 디렉토리가 쓰기 가능해야 합니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[업데이트됨:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[생성됨:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[오류:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[세부 정보 보기]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[하위 항목 없음]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[몇 가지 오류가 있습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[테스트 실행 완료. 총 SQL 쿼리:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[정렬 기준:]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[가져오기 대상 테이블 또는 필드를 선택하지 않았습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[대상 테이블에 필요한 데이터 필드 ‘%s’이(가) 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[임시 디렉토리 %s에 쓰기 권한이 없습니다! 계속 진행하려면 권한을 변경하세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[빈 요청.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[가져오기 프로세스가 완료되었습니다. %s행이 처리되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s개의 행에 오류가 있습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[자세한 내용은 <a href="%s" target="_new">로그 파일 %s</a>을 참조하세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[작업이 성공적으로 중단되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[일정 가져오기]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[성공: 당신은 예약된 가져오기 작업을 성공적으로 생성했습니다! <a href="%s">자세히 보기</a>]]></value>
+	</definition>
+</definitions>

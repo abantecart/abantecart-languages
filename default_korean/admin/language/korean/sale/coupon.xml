@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[쿠폰]]></value>
+	</definition>
+	<definition>
+		<key>text_coupon</key>
+		<value><![CDATA[쿠폰]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[성공: 쿠폰을 수정했습니다!]]></value>
+	</definition>
+	<definition>
+		<key>text_percent</key>
+		<value><![CDATA[백분율]]></value>
+	</definition>
+	<definition>
+		<key>text_amount</key>
+		<value><![CDATA[고정 금액]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[쿠폰 이름]]></value>
+	</definition>
+	<definition>
+		<key>column_code</key>
+		<value><![CDATA[코드]]></value>
+	</definition>
+	<definition>
+		<key>column_discount</key>
+		<value><![CDATA[할인]]></value>
+	</definition>
+	<definition>
+		<key>column_date_start</key>
+		<value><![CDATA[시작일]]></value>
+	</definition>
+	<definition>
+		<key>column_date_end</key>
+		<value><![CDATA[종료 날짜]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[상태]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[작업]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[쿠폰 이름:]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[쿠폰 설명:]]></value>
+	</definition>
+	<definition>
+		<key>entry_code</key>
+		<value><![CDATA[Code:<br /><span class="help">할인을 받기 위해 고객이 입력하는 코드</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_type</key>
+		<value><![CDATA[유형:<br /><span class="help">백분율 또는 고정 금액</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_discount</key>
+		<value><![CDATA[할인:]]></value>
+	</definition>
+	<definition>
+		<key>entry_logged</key>
+		<value><![CDATA[고객 로그인:<br /><span class="help">쿠폰을 사용하려면 고객이 로그인되어 있어야 합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping</key>
+		<value><![CDATA[무료 배송:]]></value>
+	</definition>
+	<definition>
+		<key>entry_total</key>
+		<value><![CDATA[총 금액:<br/><span class="help">쿠폰이 유효해지기 전에 도달해야 하는 소계 금액입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_category</key>
+		<value><![CDATA[Categories:<br/><span class="help">선택된 카테고리 중 하나에 속하는 상품에 쿠폰을 적용합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_product</key>
+		<value><![CDATA[상품:<br/><span class="help">장바구니에 선택된 상품 중 하나 이상 포함되어 있을 때 쿠폰을 적용합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_start</key>
+		<value><![CDATA[시작 날짜:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_end</key>
+		<value><![CDATA[종료 날짜:]]></value>
+	</definition>
+	<definition>
+		<key>entry_uses_total</key>
+		<value><![CDATA[쿠폰당 사용 횟수:<br /><span class="help">고객당 이 쿠폰을 사용할 수 있는 최대 횟수입니다. 제한 없이 사용하려면 공란으로 두세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_uses_customer</key>
+		<value><![CDATA[고객당 사용 횟수:<br /><span class="help">쿠폰을 단일 고객이 사용할 수 있는 최대 횟수입니다. 무제한으로 하려면 비워두세요</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[상태:]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_coupon_usage</key>
+		<value><![CDATA[총 쿠폰 사용 횟수:<br /><span class="help">이 쿠폰을 사용하여 이루어진 모든 주문 건수</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[경고: 쿠폰을 수정할 권한이 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[쿠폰 이름은 2자에서 64자 사이여야 합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_description</key>
+		<value><![CDATA[쿠폰 설명은 2자 이상이어야 합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_code</key>
+		<value><![CDATA[코드는 2자 이상 10자 이하여야 합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_date</key>
+		<value><![CDATA[날짜 범위를 설정해주세요!]]></value>
+	</definition>
+	<definition>
+		<key>text_select_category</key>
+		<value><![CDATA[- 카테고리 선택 -]]></value>
+	</definition>
+	<definition>
+		<key>text_or</key>
+		<value><![CDATA[또는]]></value>
+	</definition>
+	<definition>
+		<key>text_and</key>
+		<value><![CDATA[및]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[아바택스 통합]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_error</key>
+		<value><![CDATA[귀하의 배송 주소를 확인하지 못했습니다. 아래의 주소를 확인하고 수정해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_tax_exemption</key>
+		<value><![CDATA[세금 면제 세부정보]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_exemption_number</key>
+		<value><![CDATA[세금 면제 증명서 번호]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_entity_use_code</key>
+		<value><![CDATA[세금 면제 고객 사용 유형]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status</key>
+		<value><![CDATA[현재 면제 상태]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_pending</key>
+		<value><![CDATA[검토 대기 중]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_declined</key>
+		<value><![CDATA[거부됨]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_approved</key>
+		<value><![CDATA[승인됨]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_review_number_title</key>
+		<value><![CDATA[고객 Avatax 면제 번호를 검토해야 합니다!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_review_number_message</key>
+		<value><![CDATA[고객의 세금 면제 번호를 검토해 주세요.	
+#admin#rt=sale/avatax_customer_data&customer_id=%s를 방문하세요.]]></value>
+	</definition>
+</definitions>

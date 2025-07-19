@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[API 자격 증명을 얻으려면 https://cardconnect.com/signup/developer 를 방문하세요]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[판매자 ID]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[API 사용자 이름]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[API 비밀번호]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[로깅:<br /><span class="help">로그 파일은 system/logs/cardconnect.txt 파일에 있습니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[테스트]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[연결 테스트]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[테스트 API 자격 증명 가져오기]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[테스트 모드]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[API로의 도메인 부분:<br /><span class="help">이 값은 cardConnent에서 다르게 지정되지 않는 한 변경해서는 안 됩니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[연결이 성공적으로 이루어졌으며 API 자격 증명이 올바르게 구성되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[모든 위치]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[위치]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[환불됨:<br /><span class="help">admin/order에서 결제가 환불되었을 때 설정할 주문 상태</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[거절:<br /><span class="help">결제 프로세서 상태에 대한 응답으로 히스토리에 기록할 주문 상태입니다. 메인 주문 상태에는 영향을 주지 않습니다. 결제가 성공하기 전까지는 주문이 접수되지 않습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[성공 및 미정산:<br /><span class="help">결제 프로세서 상태에 대한 응답으로 설정할 기본 주문 상태를 선택하세요</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[성공 및 정산됨:<br /><span class="help">결제 프로세서 상태에 따라 설정할 주요 주문 상태를 선택하세요</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[무효 처리됨:<br /><span class="help">관리자/주문에서 결제가 무효 처리되었을 때 설정될 주문 상태.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[자동 (승인 및 결제)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[지연됨 (승인만)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Settlement type:<br /><span class="help">"auto"로 설정하면 거래가 오늘 정산에 포함됩니다. 'delayed'로 설정하면 거래는 승인되지만 정산(캡처)되지 않습니다. 승인을 받은 날로부터 7일 이내에 거래를 수동으로 캡처해야 합니다</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[저장할 수 있는 최대 신용카드 수: <br/><span class="help">고객이 저장할 수 있는 신용카드의 최대 개수를 설정합니다 (최대 100장). 0 또는 공백으로 설정 시 카드를 저장할 수 없습니다. 보안 참고: 고객의 신용카드 정보는 최대한의 데이터 보안 조치를 보장하기 위해 CardConnect 보안 서버에 저장됩니다. 귀하의 사이트에는 신용카드 정보가 저장되지 않습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[거래 날짜]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[금액]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[금액이 성공적으로 청구되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[캡처가 성공했습니다, 주문 상태가 성공 - 정산됨으로 업데이트되었습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[환불이 성공적으로 처리되었습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[환불이 성공적으로 처리되었으며 주문 상태가 환불됨으로 업데이트되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[무효화가 성공적으로 완료되었으며, 주문 상태가 무효로 업데이트되었습니다.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[결제 세부 정보]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[결제가 완료되었습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[결제가 무효 처리되었습니다]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[결제 환불됨]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[캡처 금액]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[환불 금액]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[CardConnect 청구 ID]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[총 승인된 금액]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[잔액]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[환불 거래]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[결제를 취소하시겠습니까? 확인해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[결제를 확정하시겠습니까?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[결제를 환불하시겠습니까? 확인해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[환불]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[무효]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[캡처]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[내부 오류가 발생했습니다. 오류 로그 또는 입력 매개변수를 확인하세요!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[양수 금액을 입력해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[거래를 무효 처리할 수 없습니다. 새로고침하고 거래 세부 정보를 확인하세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[캡처할 수 없습니다. 거래 세부 정보를 새로 고치고 캡처 금액을 확인하세요.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[환불할 수 없습니다. 거래 세부정보를 새로고침하고 환불 금액을 확인하세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[현재 정산 상태]]></value>
+	</definition>
+</definitions>
