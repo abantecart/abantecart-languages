@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Payment]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Успешно: Вы изменили данные учетной записи 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[С помощью этого расширения вы можете использовать платежную систему 2Checkout для приёма платежей от ваших клиентов.<br>
+<b>Зарегистрируйтесь бесплатно уже сегодня! Используйте промокод ABANTECART2CO для освобождения от оплаты сервисного сбора за подачу заявки (экономия $10.99) и начните продавать онлайн уже сегодня!</b> Посетите <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, заполните заявку, затем введите код в поле промокода, чтобы воспользоваться этим специальным предложением уже сегодня!<br>
+После регистрации войдите в систему, чтобы получить учётные данные для настройки этого расширения<br>
+Не забудьте указать INS URL и Redirect URL здесь <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.<br><br>
+Ваш INS URL: <h4>#storefront#rt=extension/2checkout/callback</h4><br><br>
+Также настройте Redirect URL и выберите метод возврата "Header redirect".<br><br>
+Ваш Redirect URL: <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[Код торговца 2Checkout:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[Секретный ключ:<br /><span class="help">Секретное слово для подтверждения транзакций (должно совпадать с тем, что указано на странице настройки учётной записи продавца).</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Тестовый режим:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Да]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Нет]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Статус заказа:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Местоположение:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Все местоположения]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Внимание: У вас нет прав на изменение платежа 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Требуется код продавца!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Требуется секретный ключ!]]></value>
+	</definition>
+</definitions>

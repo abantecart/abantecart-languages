@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Интеграция Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Если у вас включён стандартный налог, он будет работать вместе с Avatax, и, возможно, вам потребуется отключить стандартные налоги. Проверьте Система -> Локализация -> <a target="_new" href="#admin#rt=localisation/tax_class">Класс налога</a><br>Также не забудьте включить расширение <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br>Важно! Порядок расчёта расширения Avatax Integration Total в итоговых суммах должен быть после промежуточной суммы (subtotal). Расчёт промежуточной суммы должен предшествовать расчёту этого расширения. Проверьте это в настройках итоговых сумм расширений.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Номер аккаунта:<br /><span class="help">Номер аккаунта, предоставленный Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Лицензионный ключ:<br /><span class="help">Лицензионный ключ, предоставленный Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[URL сервиса:<br /><span class="help">URL сервиса Avalara (рабочий или тестовый)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Название налога:<br /><span class="help">Название налога, отображаемое покупателю в разделе итогов</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Код компании:<br /><span class="help">Код компании, используемый для Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[ZIP/почтовый код магазина:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Ошибка! Пожалуйста, проверьте, включено ли расширение.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Налоговый код товара по умолчанию]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Способы доставки: налоговые коды по умолчанию]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Shipping Method]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Код налога на перевозку]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Проверить соединение]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Подключение успешно и учетные данные API сконфигурированы правильно.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Проверка соединения:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Проверка адреса:<br /><span class="help">Проверка адреса будет выполняться на этапе оформления заказа покупателем</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Заголовок для кнопки проверки адреса:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Отправка документов на Avatax Service:<br /><span class="help">Если включено, налоговый документ будет отправлен при указанном статусе заказа</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Возврат документов в сервисе Avatax:<br /><span class="help">Возврат будет зафиксирован при указанном статусе заказа</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Сохранить]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Очистить налоговый код]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Налоговый код товара:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Найти налоговый код]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Статус освобождения:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[В ожидании]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Одобрено]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Отклонено]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Ваш номер освобождения от налогов был отклонён.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Ваш номер налоговой льготы был отклонен. Чтобы проверить его действительность, перейдите на страницу сведений вашего аккаунта %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Номер освобождения от налога:<br /><span class="help">Номер налогового освобождения</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Сущность\Код использования:<br /><span class="help">У AvaTax есть набор кодов, указывающих тип освобождения от налога. См. стандартные коды или создайте собственные коды на сайте AvaTax</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Подтверждение при статусе заказа:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Возврат по статусу заказа:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Отменить при статусе заказа:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Ошибка номера счета. Проверьте это!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Оба]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[США]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Канада]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Страны для проверки адресов]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Итог интеграции Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Включить ведение журнала транзакций]]></value>
+	</definition>
+</definitions>
