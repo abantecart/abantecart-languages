@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Siker: A csomag sikeresen telepítve lett.]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Csomagtelepítő]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_license</key>
+		<value><![CDATA[Csomag licencszerződés]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_ftp</key>
+		<value><![CDATA[FTP hozzáférési paraméterek]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_download</key>
+		<value><![CDATA[Csomag betöltése]]></value>
+	</definition>
+	<definition>
+		<key>text_preloading</key>
+		<value><![CDATA[A %file% csomagfájl letöltésre kerül.]]></value>
+	</definition>
+	<definition>
+		<key>text_loading</key>
+		<value><![CDATA[Fájl letöltése. Méret: %s .<br/>Ez néhány másodpercet is igénybe vehet a kapcsolatodtól függően.]]></value>
+	</definition>
+	<definition>
+		<key>text_key_hint</key>
+		<value><![CDATA[Ide írja be a telepítési kulcsot]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_user</key>
+		<value><![CDATA[FTP felhasználónév:]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_password</key>
+		<value><![CDATA[FTP felhasználói jelszó:]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_host</key>
+		<value><![CDATA[FTP-kiszolgáló:]]></value>
+	</definition>
+	<definition>
+		<key>text_i_agree</key>
+		<value><![CDATA[Én elfogadom a licencet]]></value>
+	</definition>
+	<definition>
+		<key>text_agree</key>
+		<value><![CDATA[Elfogadom]]></value>
+	</definition>
+	<definition>
+		<key>text_retry</key>
+		<value><![CDATA[Újrapróbálkozás]]></value>
+	</definition>
+	<definition>
+		<key>text_disagree</key>
+		<value><![CDATA[Nem értek egyet]]></value>
+	</definition>
+	<definition>
+		<key>text_download_error</key>
+		<value><![CDATA[Sajnáljuk, de hiba történt a fájl feltöltésekor.</br>Próbálja meg még egyszer.</br>Ha a probléma továbbra is fennáll, töltse le a fájlt a rendelési előzményeiből és telepítse manuálisan.]]></value>
+	</definition>
+	<definition>
+		<key>text_continue</key>
+		<value><![CDATA[Folytatás]]></value>
+	</definition>
+	<definition>
+		<key>text_disclaimer_heading</key>
+		<value><![CDATA[Jogi nyilatkozat]]></value>
+	</definition>
+	<definition>
+		<key>text_disclaimer</key>
+		<value><![CDATA[<h3>Kedves AbanteCart ügyfél,</h3><br>
+Éppen harmadik féltől származó bővítményt fog telepíteni az AbanteCart rendszerébe.<br><br>
+Kérjük, olvassa el és értse meg ezt a felelősségkizáró nyilatkozatot a harmadik féltől származó bővítménnyel kapcsolatban, amelyet telepíteni készül.<br><br>
+A harmadik féltől származó bővítményeket és szolgáltatásokat harmadik féltől származó beszállítók biztosítják.<br><br>
+Bár az AbanteCart ellenőrzi a harmadik féltől származó bővítmények és szolgáltatások minőségét, az AbanteCart nem garantálja, hogy minden harmadik féltől származó bővítmény megfelelően működik vagy nem okoz konfliktusokat a rendszerben. Az AbanteCart tagjai és partnerei semmilyen módon nem felelősek a harmadik féltől származó beszállítók termékeivel vagy szolgáltatásaival kapcsolatos igényekért. Az AbanteCart nem garantálja a harmadik féltől származó bővítmények vagy szolgáltatások minőségét. Kérjük, forduljon a megfelelő harmadik féltől származó beszállítóhoz a bővítményekkel vagy szolgáltatásokkal kapcsolatos kérdéseivel.<br><br>
+Ha bármilyen aggálya van egy harmadik felelős szolgáltatóval kapcsolatban, kérjük, lépjen kapcsolatba az AbanteCart-csal a <a href="http://www.abantecart.com/contact-us" target="_blank">http://www.abantecart.com/contact-us</a><br><br>
+Üdvözlettel,<br>
+AbanteCart<br>
+Ideális nyílt forráskódú e-kereskedelmi megoldás]]></value>
+	</definition>
+	<definition>
+		<key>warning_ftp</key>
+		<value><![CDATA[Figyelmeztetés: Bizonyos könyvtárak vagy fájlok nem rendelkeznek írási jogosultsággal (<span id="see_details">további részletek</span>)<br>A szerverén módosíthatja a jogosultságokat, vagy FTP-hozzáférést használhat a telepítéshez (általában a szolgáltató ezt az információt e-mailben küldi, vagy kezelheti a tárhelykezelő eszközökben)<br>]]></value>
+	</definition>
+	<definition>
+		<key>warning_already_installed</key>
+		<value><![CDATA[<p class="success">Már telepítve van a %EXTENSION% kiterjesztés! Ha szeretné folytatni és frissíteni, kérjük erősítse meg.</p>]]></value>
+	</definition>
+	<definition>
+		<key>warning_already_installed_uninstall</key>
+		<value><![CDATA[Ön már telepítette a „%EXTENSION%” bővítményt! Ha folytatni szeretné az újratelepítést, kérjük, először távolítsa el és törölje a bővítményt.]]></value>
+	</definition>
+	<definition>
+		<key>error_pack_file_not_found</key>
+		<value><![CDATA[Hiba: Nem sikerült kicsomagolni a bővítményt az archívumból a %s helyre. A hibákért ellenőrizze a <a href="#admin#rt=tool/error_log" target="_blank">naplót</a>.]]></value>
+	</definition>
+	<definition>
+		<key>error_mp</key>
+		<value><![CDATA[Piactér hiba:]]></value>
+	</definition>
+	<definition>
+		<key>error_repository</key>
+		<value><![CDATA[Hiba: Nem lehet letölteni a fájlt. Tárolóhiba vagy érvénytelen bővítménykulcs. Próbálja meg újra. Ha a probléma továbbra is fennáll, töltse le a fájlt a rendelési előzményeiben, és telepítse manuálisan.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_user</key>
+		<value><![CDATA[Hiba: az FTP felhasználónév üres.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_password</key>
+		<value><![CDATA[Hiba: az FTP felhasználói jelszó üres.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_connect</key>
+		<value><![CDATA[Hiba: Nem lehet csatlakozni az FTP-szerverhez]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_login</key>
+		<value><![CDATA[Hiba: Nem lehet bejelentkezni az ftp-szerverre. Érvénytelen felhasználónév vagy jelszó.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_path</key>
+		<value><![CDATA[Hiba: Nem található az AbanteCart gyökérkönyvtára az FTP-útvonal alapján.<br>Hagyd üresen az automatikus kereséshez.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_path_array</key>
+		<value><![CDATA[Hiba: Nem ismerhető fel automatikusan az AbanteCart gyökérkönyvtára FTP-módban.<br>Kérjük, töltse ki az FTP-útvonal mezőjét.<br>Útvonaljavaslatok:]]></value>
+	</definition>
+	<definition>
+		<key>error_dir_permission</key>
+		<value><![CDATA[Nem lehet menteni a fájlt, mert a könyvtár nem írható:]]></value>
+	</definition>
+	<definition>
+		<key>error_package_structure</key>
+		<value><![CDATA[Hiba: A csomag valószínűleg sérült. A csomag szerkezeti hibája.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_config_xml</key>
+		<value><![CDATA[Hiba: Nem található a package.xml fájl a kibontott bővítményben. Lehetséges, hogy a bővítmény nem lett megfelelően kibontva. Ellenőrizze a <a href="#admin#rt=tool/error_log" target="_blank">naplót</a> hibákért.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_config2</key>
+		<value><![CDATA[Hiba: Nem található telepítési mód a package.xml-ben a csomagban.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_info_not_exists</key>
+		<value><![CDATA[Hiba: Nem található a csomag munkamenet-információja erről a letöltésről.]]></value>
+	</definition>
+	<definition>
+		<key>error_unpack</key>
+		<value><![CDATA[Hiba: Nem lehet kicsomagolni a "%PACKAGE%" csomagot a letöltés után. Archív hiba. Részletekért lásd a hibanaplót.]]></value>
+	</definition>
+	<definition>
+		<key>error_move</key>
+		<value><![CDATA[Hiba: Nem lehet áthelyezni a csomag kódját a kicsomagolás után. Kérjük, ellenőrizze a könyvtár írási jogosultságait:]]></value>
+	</definition>
+	<definition>
+		<key>error_install_mode</key>
+		<value><![CDATA[Hiba: A(z) “%package%” kiterjesztés telepítése nem hajtható végre, mert már telepítve van. Először távolítsa el és törölje, vagy szerezze be a frissítő csomagot.]]></value>
+	</definition>
+	<definition>
+		<key>error_install_mode2</key>
+		<value><![CDATA[Hiba: Nem lehet frissíteni a(z) "%package%" kiterjesztést, mert nincs telepítve. A telepítéshez be kell szerezned a csomagot.]]></value>
+	</definition>
+	<definition>
+		<key>error_version_compatibility</key>
+		<value><![CDATA[Hiba: Nem lehet telepíteni a csomagot. A kosarad verziója <b>%CURRENT_VERSION%</b>. Szükséges verzió(k): <b>%VERSIONS%</b>.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_version_compatibility</key>
+		<value><![CDATA[Hiba: Nem lehet frissíteni a csomagot. Egy újabb csomagverzió már telepítve van.]]></value>
+	</definition>
+	<definition>
+		<key>error_install</key>
+		<value><![CDATA[Hiba: Nem sikerült a csomag telepítése. A részletekért tekintse meg a Rendszer -> Hibanaplót.]]></value>
+	</definition>
+	<definition>
+		<key>error_core_version</key>
+		<value><![CDATA[Hiba: Önnek telepítve van az AbanteCart %VERSION% verziója.<br>Ez a frissítőcsomag csak az ennél alacsonyabb verziókhoz]]></value>
+	</definition>
+	<definition>
+		<key>text_interrupt</key>
+		<value><![CDATA[Megszákítás]]></value>
+	</definition>
+	<definition>
+		<key>text_continue</key>
+		<value><![CDATA[Tovább]]></value>
+	</definition>
+	<definition>
+		<key>confirm_version_incompatibility</key>
+		<value><![CDATA[A bővítmény jelenlegi másolata nincs ellenőrizve az Ön AbanteCart-verziójához (v%s).<br> A bővítmény buildje az AbanteCart v%s verzióra van megadva.<br> Ez nem jelent problémát, de ha hibákat vagy inkompatibilitást tapasztal, kérjük, forduljon a bővítmény fejlesztőjéhez.]]></value>
+	</definition>
+	<definition>
+		<key>error_move_ftp</key>
+		<value><![CDATA[Hiba: A csomagkódot nem lehet áthelyezni kibontás után. Valószínűleg az FTP-útvonal helytelen.<br>Kérjük, ellenőrizze a könyvtár írási jogosultságait:]]></value>
+	</definition>
+	<definition>
+		<key>text_network_install</key>
+		<value><![CDATA[Hálózati telepítés]]></value>
+	</definition>
+	<definition>
+		<key>text_extension_upload</key>
+		<value><![CDATA[Kiterjesztés feltöltése]]></value>
+	</definition>
+	<definition>
+		<key>error_archive_extension</key>
+		<value><![CDATA[Hiba: csak .tar.gz fájlok támogatottak.]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_file</key>
+		<value><![CDATA[Fájl feltöltése:]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_url</key>
+		<value><![CDATA[URL beillesztése:]]></value>
+	</definition>
+	<definition>
+		<key>error_move_backup</key>
+		<value><![CDATA[Hiba: Frissítés előtt nem lehet biztonsági mentést készíteni a fájlokról. Ellenőrizze a könyvtár írási jogosultságait:]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_title</key>
+		<value><![CDATA[Abantecart magfrissítés]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_attention</key>
+		<value><![CDATA[Figyelem!
+Az AbanteCart hamarosan a %s verzióra lesz frissítve!]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_warning</key>
+		<value><![CDATA[A frissítési folyamat elindítása után nem lehet visszavonni.	
+Az adatbázis és a kód teljes biztonsági mentése erősen ajánlott.	
+Először tesztelje a frissítést nem éles webhelyeken. Éles webhelyeken csak tesztelés után végezze el a frissítést.]]></value>
+	</definition>
+	<definition>
+		<key>text_upgrade_now</key>
+		<value><![CDATA[Frissíts most!]]></value>
+	</definition>
+	<definition>
+		<key>error_additional_help_text</key>
+		<value><![CDATA[Elakadtál? Semmi gond. Más módon is telepíthetsz bővítmény(eke)t. Nézd meg <a href="http://docs.abantecart.com/pages/extensions/install.html#FTPinstall" target="_blank">ezt a súgó linket</a>]]></value>
+	</definition>
+	<definition>
+		<key>error_notconnected</key>
+		<value><![CDATA[Nem lehet frissíteni vagy telepíteni a bővítményeket a piactérről. Ez az áruház nincs hitelesítve/kapcsolódva. Kérjük, hitelesítse és kapcsolódjon a <a href="%s">piactérhez</a>]]></value>
+	</definition>
+</definitions>

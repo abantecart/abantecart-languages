@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Biztonsági mentés / Visszaállítás / Betöltés]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[Biztonsági mentés letöltése]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[Siker: Sikeresen létrehozta a biztonsági mentés fájlt!]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Siker: Sikeresen importálta az adatbázisát!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[Siker: Sikeresen importálta az xml-t!]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Biztonsági mentés visszaállítása:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[Biztonsági mentés táblák:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Biztonsági mentés visszaállítása:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[XML-fájl betöltése:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[Biztonsági mentés]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[Visszaállítás]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[Elrendezés és adatkészlet betöltés XML]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelem: Önnek nincs jogosultsága a biztonsági mentések módosítására!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Figyelmeztetés: Kérjük, adja meg, mit szeretne menteni vagy importálni!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[Figyelmeztetés: a feltöltött fájl üres volt, vagy nem megfelelő fájltípust tartalmazott!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value><![CDATA[Figyelmeztetés: A fájl nem került feltöltésre. Ellenőrizze a php.ini fájl post_max_size vagy file_upload direktíváit.]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value><![CDATA[Figyelmeztetés: A fájl, amelyet feltöltött, nem töltődött be XML-ként! Kérjük, tekintse meg a naplófájlt a részletekért.]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_code</key>
+		<value><![CDATA[Kód biztonsági mentése (%s)<br/><span class="help">Almappák kódfájlokkal, dinamikus fájlok nélkül (például gyorsítótár, naplófájlok, képek, erőforrások stb.)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_content</key>
+		<value><![CDATA[Biztonsági másolat tartalma (%s)<br/><span class="help">Almappák dinamikus fájlokkal, például képekkel, letöltésekkel, erőforrásokkal stb </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_compress_backup</key>
+		<value><![CDATA[Tömörítse a %s biztonsági mentés könyvtárat?<br/><span class="help">Létrejön egy *.tar.gz archívum.<br/>Megjegyzés: ez hosszú időt igénybe vehet. Egyébként kikapcsolhatja a tömörítést, és a %s mappában találja a mentést.</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[Biztonsági mentés most]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[Betöltés]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[Biztonsági mentés ütemezése]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Siker: Sikeresen létrehoztad az ütemezett biztonsági mentési feladatot! <a href="%s">Részletek megtekintése</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[MEGJEGYZÉS: A folyamat végrehajtása függ az AbanteCart adatmennyiségétől, valamint a szerver virtuális memóriaméretétől. Ha a folyamat hibával leáll, ellenőrizze, hogy a %s könyvtár jogosultságai -rw-rw-rw legyenek beállítva, és <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memória beállítás]</a>. Növelje a memória beállítást, vagy futtassa a biztonsági mentést manuálisan, ha a folyamat továbbra is sikertelen.]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[A biztonsági mentés-fájl letöltéséhez kérjük, látogasson el a <a href="#admin#rt=tool/install_upgrade_history">Telepítési/Frissítési előzmények</a>]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[A biztonsági mentés-fájlokat tartalmazó könyvtár: %s</a>]]></value>
+	</definition>
+</definitions>

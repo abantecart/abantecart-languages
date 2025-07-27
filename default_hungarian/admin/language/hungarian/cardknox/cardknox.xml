@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardknox_name</key>
+		<value><![CDATA[CardKnox]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_key</key>
+		<value><![CDATA[Tranzakciós kulcs (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_token</key>
+		<value><![CDATA[Tranzakciós token (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_test</key>
+		<value><![CDATA[Teszt mód]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_success_order_status</key>
+		<value><![CDATA[Rendelés állapota:<br /><span class="help">A rendelés állapota a vásárló megrendelésének befejeződése után a beállított tranzakciós mód alapján kerül beállításra</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id</key>
+		<value><![CDATA[Hely:<br /><span class="help">Korlátozza, hogy csak kiválasztott helyek használhassák ezt a fizetési módot.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id_0</key>
+		<value><![CDATA[Összes helyszín]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method</key>
+		<value><![CDATA[Tranzakciós mód:<br /><span class="help">CardKnox-tranzakció fut le a vásárló pénztárán, mielőtt a rendelés állapota beállításra kerül. Csak engedélyezés vagy elszámolás.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_capture</key>
+		<value><![CDATA[Rögzítés]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_authorization</key>
+		<value><![CDATA[Csak engedélyezés]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_ifields_key</key>
+		<value><![CDATA[iFields kulcs]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_pending_authorization</key>
+		<value><![CDATA[Jóváhagyásra vár]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_funds</key>
+		<value><![CDATA[Összeg lehívása]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture</key>
+		<value><![CDATA[Megterhelés]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_payment_status</key>
+		<value><![CDATA[Fizetési állapot]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_success</key>
+		<value><![CDATA[Siker! A pénzeszközök sikeresen terhelésre kerültek.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_processing</key>
+		<value><![CDATA[Feldolgozás]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_do_refund</key>
+		<value><![CDATA[Hajtsa végre a CardKnox-visszatérítést:<span class="help">Megadhatja a visszatérítendő összeget.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refunded</key>
+		<value><![CDATA[Visszatérítve]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund</key>
+		<value><![CDATA[Visszatérítés]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_refund_title</key>
+		<value><![CDATA[CardKnox visszatérítés]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund_success</key>
+		<value><![CDATA[Siker! A rendelést sikeresen visszatérítettük.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_empty_amount</key>
+		<value><![CDATA[Hiba! Az összeg helytelen.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_payment_method_data</key>
+		<value><![CDATA[Hiba! Nincs fizetési módra vonatkozó adat ehhez a megrendeléshez.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_order_id</key>
+		<value><![CDATA[Hiba! Nincs megrendelésazonosító.]]></value>
+	</definition>
+</definitions>

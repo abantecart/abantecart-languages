@@ -96,4 +96,44 @@
 		<key>ups_packaging_02</key>
 		<value><![CDATA[Boîte]]></value>
 	</definition>
+	<definition>
+		<key>ups_manifest_order_status_id</key>
+		<value><![CDATA[Créer l’expédition lorsque le statut de la commande devient]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label</key>
+		<value><![CDATA[Imprimer l’étiquette UPS (commande d’origine)]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_title</key>
+		<value><![CDATA[Imprime l’étiquette UPS en utilisant le poids et les dimensions d’origine soumis par le client lors du passage en caisse. Toute modification apportée à la commande par l’administrateur n’affectera pas l’étiquette.]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_suggestion</key>
+		<value><![CDATA[Modifiez le statut de la commande en "%s" pour créer l’expédition via l’API UPS et obtenir les étiquettes de colis]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_weight</key>
+		<value><![CDATA[Poids:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_height</key>
+		<value><![CDATA[Hauteur :]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_width</key>
+		<value><![CDATA[Largeur :]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_depth</key>
+		<value><![CDATA[Profondeur:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_parcel_info</key>
+		<value><![CDATA[Infos sur le colis :]]></value>
+	</definition>
+	<definition>
+		<key>ups_shipment_created_success_message</key>
+		<value><![CDATA[L’expédition UPS a été créée avec succès. Voir plus d’infos <a href="%s">ici</a>.]]></value>
+	</definition>
 </definitions>

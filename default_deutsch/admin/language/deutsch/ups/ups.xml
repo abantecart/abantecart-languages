@@ -96,4 +96,44 @@
 		<key>ups_packaging_02</key>
 		<value><![CDATA[Box: Box]]></value>
 	</definition>
+	<definition>
+		<key>ups_manifest_order_status_id</key>
+		<value><![CDATA[Sendung erstellen, wenn der Bestellstatus wird]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label</key>
+		<value><![CDATA[UPS-Etikett drucken (Ursprüngliche Bestellung)]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_title</key>
+		<value><![CDATA[Druckt das UPS-Etikett mit dem ursprünglichen Gewicht und den ursprünglichen Abmessungen, die der Kunde beim Checkout angegeben hat. Änderungen an der Bestellung durch den Administrator wirken sich nicht auf das Etikett aus.]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_suggestion</key>
+		<value><![CDATA[Ändern Sie den Bestellstatus auf "%s", um über die UPS-API eine Sendung anzulegen und Paketetiketten zu erhalten.]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_weight</key>
+		<value><![CDATA[Gewicht:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_height</key>
+		<value><![CDATA[Höhe:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_width</key>
+		<value><![CDATA[Breite:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_depth</key>
+		<value><![CDATA[Tiefe:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_parcel_info</key>
+		<value><![CDATA[Paketinfo:]]></value>
+	</definition>
+	<definition>
+		<key>ups_shipment_created_success_message</key>
+		<value><![CDATA[UPS Sendung wurde erfolgreich erstellt. Weitere Informationen finden Sie <a href="%s">hier</a>.]]></value>
+	</definition>
 </definitions>

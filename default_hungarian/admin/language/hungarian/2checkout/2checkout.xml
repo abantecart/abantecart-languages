@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Fizetés]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Siker: Ön módosította a 2Checkout fiók adatait!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[Ezzel a bővítménnyel a 2Checkout fizetési rendszert használhatja vásárlói fizetéseinek fogadására.<br>
+<b>Iratkozzon fel ingyen még ma!	Használja az ABANTECART2CO promóciós kódot az alkalmazási szolgáltatási díj elengedéséhez (10,99 USD megtakarítás), és kezdjen el ma online értékesíteni!</b> Látogasson el a <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> oldalra, töltse ki a jelentkezési űrlapot, majd a promóciós kód mezőbe írja be a kódot, hogy ma kihasználhassa ezt a különleges ajánlatot!<br>
+Miután regisztrált, jelentkezzen be, hogy megkapja a fiók hitelesítő adatait a bővítmény konfigurálásához.<br>
+Ne felejtse el beállítani az INS URL-t és az átirányítási URL-t itt: <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.<br><br>
+Az Ön INS URL-je: <h4>#storefront#rt=extension/2checkout/callback</h4><br><br>
+Állítsa be továbbá az átirányítási URL-t, és válassza a "Header redirect" visszatérési módot.<br><br>
+Az Ön átirányítási URL-je: <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2Checkout kereskedői kód:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[Titkos kulcsszó:<br /><span class="help">A tranzakciók megerősítéséhez használandó titkos kulcsszó (ugyanolyan legyen, mint amit a kereskedői fiók konfigurációs oldalán definiáltak).</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Teszt mód:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Igen]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Nem]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Rendelés állapota:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Hely:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Összes helyszín]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Önnek nincs jogosultsága a 2Checkout fizetés módosításához!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Kereskedői kód szükséges!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Titkos kulcs szükséges!]]></value>
+	</definition>
+</definitions>

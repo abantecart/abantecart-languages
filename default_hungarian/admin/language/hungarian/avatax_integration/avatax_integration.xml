@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Avatax integráció]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Ha engedélyezve van a normál adó, az együttműködik az Avatax-szal, és előfordulhat, hogy le kell tiltania a normál adókat.	
+Ellenőrizze: Rendszer -> Lokalizáció -> <a target="_new" href="#admin#rt=localisation/tax_class">Adóosztály</a><br>	
+Ne feledkezzen meg a <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a> kiterjesztés engedélyezéséről.<br>	
+Fontos! Az Avatax Integration Total kiterjesztés összegszámítási sorrendjének a Részösszeg után kell következnie. A Részösszeg számítása előzze meg az Avatax Integration Total számítását. Ezt ellenőrizze a kiterjesztések összegbeállításaiban.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Számlaszám:<br /><span class="help">Az Avalara által biztosított számlaszám</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Licenckulcs:<br /><span class="help">Az Avalara által biztosított licenckulcs</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[Szolgáltatási URL:<br /><span class="help">Avalara szolgáltatási URL (éles vagy fejlesztői)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Adónév:<br /><span class="help">Az adó neve, amely a végösszeg-szakaszban jelenik meg a vásárlónál</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Vállalati kód:<br /><span class="help">Avalara használatához használandó vállalati kód</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[Bolt ZIP/Postal irányítószám:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Hiba! Kérjük, ellenőrizze, hogy a bővítmény engedélyezve van-e.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Termék alapértelmezett adókód]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Szállítási módok alapértelmezett adókódjai]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Szállítási mód]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Szállítási adókód]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Kapcsolat tesztelése]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[A kapcsolat sikeres, és az API-hitelesítő adatok helyesen vannak konfigurálva.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Kapcsolat tesztelése:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Cím ellenőrzése:<br /><span class="help">A cím ellenőrzése a vásárló pénztárnál történik</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Cím a címellenőrző gombhoz:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Dokumentumok rögzítése az Avatax-szolgáltatáson:<br /><span class="help">Ha engedélyezve van, az adódokumentum a megadott rendelési státusznál kerül rögzítésre</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Dokumentumok visszaküldése az Avatax szolgáltatásra:<br /><span class="help">A visszaküldés a megadott rendelési státusznál kerül rögzítésre</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Mentés]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Adókód törlése]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Termék adókód:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Adókód keresése]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Adómentességi státusz:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[Függőben]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Jóváhagyott]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Elutasítva]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Az Ön adómentességi számát elutasították.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Az Ön adómentességi száma elutasításra került. Az érvényesség ellenőrzéséhez kérjük, látogasson el az Ön fiókadatai oldalára %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Mentességi szám:<br /><span class="help">Adómentességi szám</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entity\Use Code:<br /><span class="help">Az AvaTax rendelkezik egy kódcsoporttal, amely a mentesség típusát jelzi. Tekintse meg az alapértelmezett kódokat vagy hozzon létre egyéni kódokat az AvaTax webhelyén</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Elkötelezés a rendelés állapotánál:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Visszatérés a megrendelés állapotához:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Törlés a megrendelés állapota esetén:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Számlaszám hiba. Ellenőrizze!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Mindkettő]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[Egyesült Államok]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Kanada]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Országok a cím érvényesítéséhez]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Avatax integráció összesen]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Tranzakciónaplózás engedélyezése]]></value>
+	</definition>
+</definitions>

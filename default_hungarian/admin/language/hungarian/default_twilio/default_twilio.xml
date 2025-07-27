@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_twilio_name</key>
+		<value><![CDATA[Twilio]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_note</key>
+		<value><![CDATA[Az SMS-üzenetküldés engedélyezéséhez lépj a Rendszer -> Beállítások -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a> menüpontra.<br/>
+És válaszd alapértelmezett SMS-meghajtóként a Twilio-t. Ne felejtsd el engedélyezni azt a szekciót (admin vagy webáruház), ahonnan SMS-eket szeretnél fogadni.<br/>
+Ez a kiterjesztés engedélyezi a mobiltelefon mezőt az adminisztrátorok és vásárlók számára. Ne feledd, hogy ha letiltod ezt a kiterjesztést, a mező elrejtésre kerül.<br/>
+Ha egy már meglévő, vásárlókkal rendelkező áruházhoz adod hozzá, vedd figyelembe, hogy ezek az adatok hiányozni fognak.]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_username</key>
+		<value><![CDATA[API Fiók SID]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_token</key>
+		<value><![CDATA[API hitelesítő token]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test</key>
+		<value><![CDATA[Teszt mód]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[Feladó (Twilio) telefonszáma: <span class="help">A feladó telefonszáma nemzetközi formátumban (pl. +14158675309)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_send_to</key>
+		<value><![CDATA[Teszt SMS küldése a következő számra:]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_0</key>
+		<value><![CDATA[Nem]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_1</key>
+		<value><![CDATA[Igen]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_connection</key>
+		<value><![CDATA[Teszteld a kapcsolatodat:<span class="help">Ellenőrizheted, hogy a megadott API-hitelesítő adatok helyesek-e.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_logging</key>
+		<value><![CDATA[Hiba naplózási állapot<span class="help">Ha szeretné a Twilio kiterjesztés összes hibáját naplózni, kapcsolja ezt a beállítást BE állásba.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[Mobiltelefon]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Teszt]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Hiba! Kérjük, ellenőrizze, hogy a bővítmény be van-e kapcsolva.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[A kapcsolat sikeres, és az API hitelesítő adatok helyesen vannak konfigurálva.]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[Feladó (Twilio) telefonszáma: <span class="help">A feladó telefonszáma nemzetközi formátumban (pl. +14158675309)</span>]]></value>
+	</definition>
+</definitions>
