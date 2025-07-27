@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Titkosítási Adatkezelő]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Bővítmények]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Titkosítási adateszközök]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Állapot:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Rendezési sorrend:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Kulcspár létrehozása]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Adatok titkosítása]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Önnek nincs jogosultsága a súly alapú szállítás módosítására!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Hiba: A kiválasztott kulcsnévpár már létezik!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>Ez a kiterjesztés HALADÓ beállításokat és fokozott figyelmet igényel</b><br/>
+<b>Ha egyszer engedélyezi és az adatok titkosítva lettek, nincs visszaút, és a kiterjesztést nem lehet kikapcsolni!</b><br/>
+Ez a kiterjesztés segít a titkosítási kulcsok létrehozásának kezelésében és az adatok migrálásában a nyílt táblákból a titkosított táblákba (kezdeti migráció)<br/>
+<b>FELHÍVJÜK FIGYELMÉT:</b> olyan PHP szükséges, amelyen az SSL-titkosítás <b>ENGEDÉLYEZVE</b> van<br/>
+<br/>Az adatok titkosításának engedélyezéséhez kérjük, olvassa el a súgó utasításait (HOGYAN gomb)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Figyelem: A PHP-hez való OpenSSL nem érhető el vagy nincs aktiválva. Nem használhat titkosítást vagy ezt a kiterjesztést! <br> További részletekért tekintse meg a HELP-et ehhez a kiterjesztéshez.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Figyelmeztetés: az Adattitkosítás nincs engedélyezve az Ön AbanteCartján. Ezzel a bővítménnyel nem tud adatokat titkosítani/dekódolni! <br> További részletekért tekintse meg ennek a bővítménynek a Súgóját.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Kulcspár generálása]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Adatok titkosítása]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Hiányzó kötelező adatmező(ke)t. Kérjük, ellenőrizze a megadott értékeket.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Egyedi kulcspár neve:<br /><span class="help">A név nem tartalmazhat szóközöket vagy speciális karaktereket. Tartsd röviden és egyszerűen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Kulcshossz (bit):<br /><span class="help">Adja meg a kulcs titkosítási hosszát bitekben. A nagyobb érték erősebb titkosítást jelent, de lassíthatja a teljesítményt (Tartomány: 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Ecncryption type:<br /><span class="help">Ez egy titkosítási algoritmus. Használja az alapértelmezett RSA-t, ha nem haladó felhasználó.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Jelszó alapú kulcs engedélyezése:<br /><span class="help">Ha engedélyezve van, a szöveg visszafejtéséhez privát kulcs használatakor kiegészítő jelszó szükséges. MEGJEGYZÉS: Ez jelenleg nem támogatott az adatok titkosításában.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Jelszómondat vagy kulcsjelszó:<br /><span class="help">Ne feledje, a jelszómondat vagy a kulcs(ok) haszontalanná válik, és az adatok elveszhetnek</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>A kulcspár létrejött. Lásd az alábbi kulcsokat, és tartsd őket biztonságban.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Kulcspár generálása sikertelen. Ellenőrizze a beállításait, és ellenőrizze a hibanaplót.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Kulcspár neve:<br /><span class="help">Válassza ki a titkosításhoz használni kívánt kulcsot. FONTOS: Emlékezzen a használt kulcsra</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Titkosítandó tábla(k):<br /><span class="help">A látható tábla(k) a kiválasztott kulccsal kerül titkosításra. Az adatokat csak ezzel a kulccsal lehet megnyitni</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Teszt mód:<br /><span class="help">Ellenőrizze először, hogy minden rendben van-e a titkosításhoz.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Forrásadatok eltávolítása:<br /><span class="help">A forrásbeli titkosítatlan adatrekordok eltávolítása a titkosítás befejezése után</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Az adatok titkosítva lettek. <br />	Részletek:</b> <br/><br/> %s <br /><br /> <b>Ha azt szeretné, hogy ez a kulcs új adatok titkosításához legyen használva, adja hozzá a következő sort a system/config.php fájlhoz: define('DATA_ENCRYPTION_KEYPAIR', '%s'); </b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Adattitkosítási teszt eredménye</b> Ellenőrizze a hibanaplót esetleges hibákért! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Az adatok titkosítása sikertelen volt. Ellenőrizze a beállításokat és a hibanaplót.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Fontos megjegyzések! A titkosítás befejezését követően az adatok átkerülnek a tükrözött táblákba, ahol titkosítva tárolódnak.
+<br />Kövesse az utasításokat a system/config.php fájl konfigurálásához, hogy az AbanteCart a titkosított táblákhoz irányítsa az írási/olvasási műveleteket.</b><br /> Adja hozzá a következő sort a konfigurációs fájlhoz: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name'); <br />Ez lesz az alapértelmezett kulcs az írási/olvasási műveletekhez]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Titkosítás használata]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Titkosítatlan adatrekordok]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Használja az ’Encrypt Data’ fület a kezdeti titkosításhoz.]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Titkosított adatrekordok]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[Kulcsazonosító]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Kulcs neve]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Titkosított táblák használata]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Titkosítás (cseréje) új kulcsra]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[rekord(ok)]]></value>
+	</definition>
+</definitions>

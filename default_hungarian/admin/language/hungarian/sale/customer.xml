@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Vásárlók]]></value>
+	</definition>
+	<definition>
+		<key>text_customer</key>
+		<value><![CDATA[Vásárló]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Siker: Ön módosította az ügyfeleket!]]></value>
+	</definition>
+	<definition>
+		<key>text_approved</key>
+		<value><![CDATA[Ön jóváhagyta a %s fiókot!]]></value>
+	</definition>
+	<definition>
+		<key>tab_customer_address</key>
+		<value><![CDATA[Cím]]></value>
+	</definition>
+	<definition>
+		<key>text_customer_addresses</key>
+		<value><![CDATA[Vásárlói címek]]></value>
+	</definition>
+	<definition>
+		<key>text_add_address</key>
+		<value><![CDATA[Cím hozzáadása]]></value>
+	</definition>
+	<definition>
+		<key>button_add</key>
+		<value><![CDATA[Hozzáad]]></value>
+	</definition>
+	<definition>
+		<key>column_id</key>
+		<value><![CDATA[Azonosító]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[Vevő neve]]></value>
+	</definition>
+	<definition>
+		<key>column_email</key>
+		<value><![CDATA[E-mail]]></value>
+	</definition>
+	<definition>
+		<key>column_customer_group</key>
+		<value><![CDATA[Vásárlói csoport]]></value>
+	</definition>
+	<definition>
+		<key>column_group</key>
+		<value><![CDATA[Csoport]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[Állapot]]></value>
+	</definition>
+	<definition>
+		<key>column_approved</key>
+		<value><![CDATA[Jóváhagyott]]></value>
+	</definition>
+	<definition>
+		<key>column_date_added</key>
+		<value><![CDATA[Hozzáadás dátuma]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[Művelet]]></value>
+	</definition>
+	<definition>
+		<key>entry_loginname</key>
+		<value><![CDATA[Bejelentkezési név:]]></value>
+	</definition>
+	<definition>
+		<key>entry_firstname</key>
+		<value><![CDATA[Keresztnév:]]></value>
+	</definition>
+	<definition>
+		<key>entry_lastname</key>
+		<value><![CDATA[Vezetéknév:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[E-mail:]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[Telefon:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[Fax:]]></value>
+	</definition>
+	<definition>
+		<key>entry_newsletter</key>
+		<value><![CDATA[Hírlevél:]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[Vásárlói csoport:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Állapot:]]></value>
+	</definition>
+	<definition>
+		<key>entry_approved</key>
+		<value><![CDATA[Jóváhagyva:]]></value>
+	</definition>
+	<definition>
+		<key>entry_password</key>
+		<value><![CDATA[Jelszó:]]></value>
+	</definition>
+	<definition>
+		<key>entry_confirm</key>
+		<value><![CDATA[Megerősítés:]]></value>
+	</definition>
+	<definition>
+		<key>entry_company</key>
+		<value><![CDATA[Cég:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_1</key>
+		<value><![CDATA[Cím 1:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_2</key>
+		<value><![CDATA[Cím 2:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[Város:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Irányítószám:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[Ország:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country_id</key>
+		<value><![CDATA[Ország:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[Régió / Állam:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Önnek nincs jogosultsága az ügyfelek módosítására!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[A bejelentkezési név csak alfanumerikus lehet, és 5–64 karakter hosszú kell, hogy legyen!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname_notunique</key>
+		<value><![CDATA[Ez a bejelentkezési név nem elérhető. Próbáljon meg egy másik bejelentkezési nevet!]]></value>
+	</definition>
+	<definition>
+		<key>error_firstname</key>
+		<value><![CDATA[A keresztnévnek 1 és 32 karakter hosszúnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_lastname</key>
+		<value><![CDATA[A vezetéknévnek 1 és 32 karakter között kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[Az e-mail cím nem tűnik érvényesnek!]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[A telefonszám csak számjegyeket tartalmazhat, és hossza 3–32 karakter között kell legyen!]]></value>
+	</definition>
+	<definition>
+		<key>error_password</key>
+		<value><![CDATA[A jelszónak 3 és 20 karakter hosszúnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_confirm</key>
+		<value><![CDATA[A jelszó és a jelszó megerősítése nem egyezik!]]></value>
+	</definition>
+	<definition>
+		<key>error_address_firstname</key>
+		<value><![CDATA[A keresztnévnek 1 és 32 karakter hosszúnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_address_lastname</key>
+		<value><![CDATA[A vezetéknévnek 1 és 32 karakter hosszúnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_address_1</key>
+		<value><![CDATA[A címnek 3 és 128 karakter között kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[A városnak 3 és 128 karakter hosszúnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_country</key>
+		<value><![CDATA[Kérjük, válasszon országot!]]></value>
+	</definition>
+	<definition>
+		<key>error_zone</key>
+		<value><![CDATA[Kérjük, válasszon régiót / államot!]]></value>
+	</definition>
+	<definition>
+		<key>text_select_approved</key>
+		<value><![CDATA[- Jóváhagyott kiválasztása -]]></value>
+	</definition>
+	<definition>
+		<key>text_select_group</key>
+		<value><![CDATA[- Csoport kiválasztása -]]></value>
+	</definition>
+	<definition>
+		<key>tab_customer_details</key>
+		<value><![CDATA[Vásárló adatai]]></value>
+	</definition>
+	<definition>
+		<key>tab_transactions</key>
+		<value><![CDATA[Tranzakciók]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_transactions</key>
+		<value><![CDATA[Vásárló tranzakciói]]></value>
+	</definition>
+	<definition>
+		<key>column_create_date</key>
+		<value><![CDATA[Létrehozás dátuma]]></value>
+	</definition>
+	<definition>
+		<key>column_created_by</key>
+		<value><![CDATA[Létrehozta]]></value>
+	</definition>
+	<definition>
+		<key>column_debit</key>
+		<value><![CDATA[Terhelés]]></value>
+	</definition>
+	<definition>
+		<key>column_credit</key>
+		<value><![CDATA[Hitel]]></value>
+	</definition>
+	<definition>
+		<key>column_transaction_type</key>
+		<value><![CDATA[Tranzakció típusa]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Egyenleg:]]></value>
+	</definition>
+	<definition>
+		<key>text_last_login</key>
+		<value><![CDATA[Utolsó bejelentkezés:]]></value>
+	</definition>
+	<definition>
+		<key>text_never</key>
+		<value><![CDATA[Soha]]></value>
+	</definition>
+	<definition>
+		<key>popup_title_info</key>
+		<value><![CDATA[Tranzakciós információk]]></value>
+	</definition>
+	<definition>
+		<key>popup_title_insert</key>
+		<value><![CDATA[Új tranzakció beszúrása]]></value>
+	</definition>
+	<definition>
+		<key>entry_credit</key>
+		<value><![CDATA[Hitel (egyenleg növelése)]]></value>
+	</definition>
+	<definition>
+		<key>entry_debit</key>
+		<value><![CDATA[Terhelés (egyenleg csökkentése)]]></value>
+	</definition>
+	<definition>
+		<key>entry_transaction_type</key>
+		<value><![CDATA[Tranzakció típusa:]]></value>
+	</definition>
+	<definition>
+		<key>entry_other_type</key>
+		<value><![CDATA[Új egyéni tranzakciótípus hozzáadása:]]></value>
+	</definition>
+	<definition>
+		<key>text_other_type_placeholder</key>
+		<value><![CDATA[Írja be ide az új nevet]]></value>
+	</definition>
+	<definition>
+		<key>text_option_other_type</key>
+		<value><![CDATA[Egyéb...]]></value>
+	</definition>
+	<definition>
+		<key>entry_transaction_description</key>
+		<value><![CDATA[Leírás (vásárlónak):]]></value>
+	</definition>
+	<definition>
+		<key>entry_transaction_comment</key>
+		<value><![CDATA[Megjegyzés (belső használatra):]]></value>
+	</definition>
+	<definition>
+		<key>entry_update_date</key>
+		<value><![CDATA[Frissítés dátuma:]]></value>
+	</definition>
+	<definition>
+		<key>entry_create_date</key>
+		<value><![CDATA[Létrehozás dátuma:]]></value>
+	</definition>
+	<definition>
+		<key>error_transaction_type</key>
+		<value><![CDATA[Hiba: Kérjük, töltse ki a tranzakciótípus mezőt.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_debit_credit</key>
+		<value><![CDATA[Hiba: Kérjük, töltse ki az ügyfél tranzakciójához tartozó tartozik vagy követel értéket.]]></value>
+	</definition>
+	<definition>
+		<key>error_incorrect_debit_credit</key>
+		<value><![CDATA[Hiba: a terhelési vagy jóváírási érték nem lehet nagyobb, mint 99999999999.9999.]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_success</key>
+		<value><![CDATA[Siker: Ön módosította a tranzakciót!]]></value>
+	</definition>
+	<definition>
+		<key>text_add_address</key>
+		<value><![CDATA[Cím hozzáadása]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_address</key>
+		<value><![CDATA[Cím szerkesztése]]></value>
+	</definition>
+	<definition>
+		<key>entry_default</key>
+		<value><![CDATA[Alapértelmezett cím:]]></value>
+	</definition>
+	<definition>
+		<key>error_delete_default</key>
+		<value><![CDATA[Hiba: Az alapértelmezett cím nem törölhető!]]></value>
+	</definition>
+	<definition>
+		<key>error_delete_last</key>
+		<value><![CDATA[Hiba: legalább egy címmel kell rendelkezned!]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_added</key>
+		<value><![CDATA[Hozzáadás dátuma:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_modified</key>
+		<value><![CDATA[Módosítás dátuma:]]></value>
+	</definition>
+	<definition>
+		<key>warning_actonbehalf_additional_store</key>
+		<value><![CDATA[Ahhoz, hogy a vásárló nevében járhass el egy másik áruházban, be kell jelentkezned annak az áruház admin felületére. Folytatod?]]></value>
+	</definition>
+	<definition>
+		<key>entry_notify</key>
+		<value><![CDATA[Ügyfél értesítése:]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_notification_subject</key>
+		<value><![CDATA[Új tranzakció került jóváírásra a(z) %s fiókodban]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_notification_message</key>
+		<value><![CDATA[Új tranzakció került rögzítésre az Ön %s fiókjában %s összeggel. További részletekért jelentkezzen be az %s fiókjába.]]></value>
+	</definition>
+	<definition>
+		<key>text_total_order</key>
+		<value><![CDATA[Rendelések összesen:]]></value>
+	</definition>
+	<definition>
+		<key>text_register_date</key>
+		<value><![CDATA[Regisztráció dátuma:]]></value>
+	</definition>
+	<definition>
+		<key>error_email_exists</key>
+		<value><![CDATA[Ezzel az e-mail címmel rendelkező ügyfél már létezik!]]></value>
+	</definition>
+</definitions>

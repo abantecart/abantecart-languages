@@ -1,0 +1,1064 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Beállítások]]></value>
+	</definition>
+	<definition>
+		<key>column_store_alias</key>
+		<value><![CDATA[Áruház]]></value>
+	</definition>
+	<definition>
+		<key>column_group</key>
+		<value><![CDATA[Csoport]]></value>
+	</definition>
+	<definition>
+		<key>column_key</key>
+		<value><![CDATA[Kulcs]]></value>
+	</definition>
+	<definition>
+		<key>column_value</key>
+		<value><![CDATA[Érték]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Siker: sikeresen elmentette a beállításait!]]></value>
+	</definition>
+	<definition>
+		<key>text_image_manager</key>
+		<value><![CDATA[Képkezelő]]></value>
+	</definition>
+	<definition>
+		<key>text_select_group</key>
+		<value><![CDATA[- Válasszon csoportot -]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[Alapértelmezett]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store_settings</key>
+		<value><![CDATA[Beállítások szerkesztése:]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_template_settings</key>
+		<value><![CDATA[Sablonbeállítások szerkesztése:]]></value>
+	</definition>
+	<definition>
+		<key>text_common_template_settings</key>
+		<value><![CDATA[Sablon kiválasztása]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store</key>
+		<value><![CDATA[Áruház szerkesztése]]></value>
+	</definition>
+	<definition>
+		<key>text_mail</key>
+		<value><![CDATA[Belső levélküldő]]></value>
+	</definition>
+	<definition>
+		<key>text_smtp</key>
+		<value><![CDATA[SMTP]]></value>
+	</definition>
+	<definition>
+		<key>text_native</key>
+		<value><![CDATA[Natív (a sendmail bináris és opciók, a php.ini "sendmail_path" beállítása)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[Vedd ki a system/config.php-ból]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[A Mailer a config.php fájlból veszi a <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a>-t. Kérjük, a részletekért olvassa el <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">dokumentációnkat</a>.]]></value>
+	</definition>
+	<definition>
+		<key>tab_all</key>
+		<value><![CDATA[Összes]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[Áruház neve:]]></value>
+	</definition>
+	<definition>
+		<key>entry_url</key>
+		<value><![CDATA[Áruház URL-je:<br /><span class="help">Adja meg a webáruház teljes URL-jét. Győződjön meg róla, hogy a '/' a végén szerepel. Példa: http://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_owner</key>
+		<value><![CDATA[Bolt tulajdonosa:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address</key>
+		<value><![CDATA[Cím:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[E-mail:]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_emails</key>
+		<value><![CDATA[További riasztó e-mailek:<br /><span class="help">Bármilyen további e-mail cím, amelyre a riasztó e-mailt a fő áruház e-mail címe mellett szeretné megkapni. (vesszővel elválasztva)</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[A figyelmeztető E-maileknek érvényesnek és vesszővel elválasztottnak kell lenniük!]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[Telefon:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[Fax:]]></value>
+	</definition>
+	<definition>
+		<key>entry_title</key>
+		<value><![CDATA[Cím:<br /><span class="help">Ez a webáruház böngésző címsorában jelenik meg</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[Meta címke leírás:<br /><span class="help">Bolt főoldalának meta címke leírása</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[Meta kulcsszavak:<br /><span class="help">Webáruház főoldal meta címke kulcsszavak (vesszővel elválasztva)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[Üdvözlő üzenet:]]></value>
+	</definition>
+	<definition>
+		<key>entry_template</key>
+		<value><![CDATA[Sablon:<span class="help">Áruház sablonja. Ez lehet fő vagy kiegészítő sablon</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_template</key>
+		<value><![CDATA[Vezérlőpult sablon:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[Ország:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[Régió / Állam:]]></value>
+	</definition>
+	<definition>
+		<key>entry_language</key>
+		<value><![CDATA[Áruház nyelve:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_language</key>
+		<value><![CDATA[Adminisztrációs nyelv: <span class="help">MEGJEGYZÉS: akkor működik, ha a böngészőben nem található a felhasználó által preferált nyelv</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency</key>
+		<value><![CDATA[Alappénznem:<span class="help">Ez az alap pénznem az összes üzlet számára. Ne változtassa meg, ha nem érti, mi fog történni. Figyelem: az alap pénznem módosítása nem változtatja meg a termékek alapárait. Szükség esetén át kell tekintenie és kiigazítania kell az összes árat. Az alap pénznem árfolyamát 1,00-ra állítjuk be, és az összes többi pénznem árfolyamát az új alap pénznemhez viszonyítva állítjuk be.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency_auto</key>
+		<value><![CDATA[Pénznem automatikus frissítése:<br /><span class="help">Állítsa be az áruházat, hogy naponta automatikusan frissítse a pénznemeket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Súlykategória:]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Hosszmérték osztály:]]></value>
+	</definition>
+	<definition>
+		<key>entry_auto_translate_status</key>
+		<value><![CDATA[Automatikus fordítás állapota:<br /><span class="help">Ez lehetővé teszi a hiányzó szövegdefiníciók vagy nyelvspecifikus adatok fordítását, ha a használt nyelvhez hiányoznak a szövegértékek.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_src_lang_code</key>
+		<value><![CDATA[Fordítás forrásnyelve:<br /><span class="help">Válassza ki az automatikus fordításhoz használandó forrásnyelvet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_method</key>
+		<value><![CDATA[Szövegfordítási módszer:<br /><span class="help">Válassza ki a fordításhoz használni kívánt módszert. Az alapértelmezett módszer a forrásnyelvi szöveg szó szerinti másolata.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_override_existing</key>
+		<value><![CDATA[Felülírás, ha a forrásnyelvű szöveg megváltozott:<br /><span class="help">Ha engedélyezve van, minden nyelv szövege lecserélésre kerül új fordítással, ha a forrásnyelvű szöveget szerkesztik. MEGJEGYZÉS: Sok fordítást eredményezhet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_warn_lang_text_missing</key>
+		<value><![CDATA[Figyelmeztetés hiányzó nyelvi szöveg esetén:<br /><span class="help">Kapjon figyelmeztető üzenetet, ha hiányzó nyelvi szöveget észlel.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Árak megjelenítése adóval:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store</key>
+		<value><![CDATA[Alapértelmezett áruház adókulcsa:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_0</key>
+		<value><![CDATA[Nincs adó]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_1</key>
+		<value><![CDATA[Áruház alapértelmezett zóna]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer</key>
+		<value><![CDATA[Vásárló adózási címének használata:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_0</key>
+		<value><![CDATA[Szállítási cím]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_1</key>
+		<value><![CDATA[Számlázási cím]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice</key>
+		<value><![CDATA[Számla kezdő sorszáma:<br /><span class="help">Állítsa be azt a kezdő számot, amelytől a számlák számozása indul.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice_prefix</key>
+		<value><![CDATA[Számla előtag:<br /><span class="help">Állítsa be a számla előtagját, pl. IN/001</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[Vásárlói csoport:<br /><span class="help">Alapértelmezett vásárlói csoport.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_price</key>
+		<value><![CDATA[Árak megjelenítése bejelentkezés nélkül:<br /><span class="help">Árak megjelenítése akkor is, ha az ügyfél nincs bejelentkezve.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_approval</key>
+		<value><![CDATA[Új regisztrációk felülvizsgálata:<br /><span class="help">Ha engedélyezve van, ne engedélyezze az új vásárlónak a bejelentkezést, amíg fiókját jóvá nem hagyták.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_prevent_email_as_login</key>
+		<value><![CDATA[Require Login Name:<br /><span class="help">A biztonság növelése érdekében kötelezze a vásárlókat egyedi belépési név létrehozására az e-mail cím belépési névként való használata helyett. Ha ON, a meglévő vásárlóktól már az első bejelentkezéskor új belépési név létrehozását kérjük. Ha OFF, a belépési név megegyezik a vásárló e-mail címével.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_guest_checkout</key>
+		<value><![CDATA[Vendég pénztár:<br /><span class="help">Engedélyezze a vásárlóknak, hogy fiók létrehozása nélkül fizethessenek. Ez nem érhető el, ha letölthető termék van a kosárban.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account</key>
+		<value><![CDATA[Fiók feltételei:<br /><span class="help">Megköveteli az emberektől, hogy elfogadják a feltételeket a fiók létrehozása előtt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_checkout</key>
+		<value><![CDATA[Pénztár feltételei:<br /><span class="help">Rákényszeríti a vásárlót, hogy elfogadja a feltételeket, mielőtt befejezheti a pénztár folyamatát.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_status</key>
+		<value><![CDATA[Rendelés állapota:<br /><span class="help">Állítsa be az alapértelmezett rendelés állapotát, amikor egy rendelést feldolgoznak.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_cancelation_order_status</key>
+		<value><![CDATA[Engedélyezze a vásárlónak a rendelés törlését a státusznál:]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_display</key>
+		<value><![CDATA[Készlet mennyiségének megjelenítése:<br /><span class="help">Készlet mennyiségének megjelenítése a termékoldalon.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_nostock_autodisable</key>
+		<value><![CDATA[Automatikus letiltás készlethiány esetén:<br /><span class="help">Letiltja a termék vagy az opcióérték megjelenítését, ha a készlet 0-ra csökken. Értesítő üzenet kerül kiküldésre.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Alapértelmezett pénztár készlethiány esetén:<br /><span class="help">Állítsa be az alapértelmezett beállítást, hogy a vásárlók akkor is fizetni tudjanak, ha a termékek nincsenek raktáron</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_status</key>
+		<value><![CDATA[Alapértelmezett előrendelési készletállapot:<br /><span class="help">Alapértelmezett beállítás a termék előrendelési státuszüzenetéhez. A termék szerkesztőoldalon használatos.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_logo</key>
+		<value><![CDATA[Áruház logó:]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[E-mail logó:]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Icon:<br /><span class="help">Az ikon lehet 16px x 16px méretű PNG vagy ICO típusú.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Szélesség:]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Magasság:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb</key>
+		<value><![CDATA[Termék kép bélyegkép méret:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_width</key>
+		<value><![CDATA[Termék képbélyeg szélessége:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_height</key>
+		<value><![CDATA[Termék képbélyeg magassága:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup</key>
+		<value><![CDATA[Termékkép felugró mérete:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_width</key>
+		<value><![CDATA[Nagy ablak előnézet szélessége:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_height</key>
+		<value><![CDATA[Nagy ablak előnézeti magassága:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category</key>
+		<value><![CDATA[Kategória lista mérete:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_width</key>
+		<value><![CDATA[Kategória lista szélessége:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_height</key>
+		<value><![CDATA[Kategória lista magassága:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_width</key>
+		<value><![CDATA[Márka ikonlista szélessége:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_height</key>
+		<value><![CDATA[Márka ikonlista magassága:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product</key>
+		<value><![CDATA[Terméklista mérete:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_height</key>
+		<value><![CDATA[Terméklista magassága:<br /><span class="help">Ez a beállítás szabályozza az admin felület listázó oldalain és a webáruház más részein megjelenő előnézeti kép magasságát. Megjegyzés: ez a beállítás közös az admin felület és az alapértelmezett webáruház sablon között.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_width</key>
+		<value><![CDATA[Terméklista szélessége:<br /><span class="help">Ez a beállítás az admin felület listázó oldalain és a bolti felületen más helyeken látható előnézeti kép szélességét szabályozza. Megjegyzés: ez a beállítás közös az admin és az alapértelmezett bolti sablon között.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional</key>
+		<value><![CDATA[További termékkép mérete:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_width</key>
+		<value><![CDATA[További termékkép szélessége:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_height</key>
+		<value><![CDATA[További termékkép magasság:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related</key>
+		<value><![CDATA[Kapcsolódó termék képének mérete:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_width</key>
+		<value><![CDATA[Kapcsolódó termék képének szélessége:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_height</key>
+		<value><![CDATA[Kapcsolódó termék képének magassága:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart</key>
+		<value><![CDATA[Kosárkép mérete:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_width</key>
+		<value><![CDATA[Kosárkép szélessége:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_height</key>
+		<value><![CDATA[Kosár kép magassága:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid</key>
+		<value><![CDATA[Rácsos kép mérete:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_width</key>
+		<value><![CDATA[Rácsos kép szélessége:<br /><span class="help">Ez a beállítás az admin felület listázó rácsaiban és más helyeken az áruház frontenden található kisméretű előnézeti kép szélességét szabályozza. Megjegyzés: ez a beállítás megosztott az admin és az alapértelmezett áruház sablon között.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_height</key>
+		<value><![CDATA[Rács kép magassága:<br /><span class="help">Ez a beállítás szabályozza a nagyon kisméretű előnézeti kép magasságát az admin listázási rácsokban és a boltfront egyéb helyein. Megjegyzés: ez a beállítás közös az admin és az alapértelmezett boltfront sablon között.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_mail</key>
+		<value><![CDATA[Értesítő e-mail:<br /><span class="help">E-mailt küld az áruház tulajdonosának, amikor új rendelés jön létre.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_download</key>
+		<value><![CDATA[Letöltések engedélyezése:]]></value>
+	</definition>
+	<definition>
+		<key>entry_download_status</key>
+		<value><![CDATA[Letölthető rendelés állapota:<br /><span class="help">Állítsa be azt a rendelési állapotot, amelyet a vásárló rendelésének el kell érnie, mielőtt hozzáférhet a letölthető termékeihez.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[Levelek szállítása:]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[A Mailer a sendmail binárist és a php.ini sendmail_path beállításában megadott opciókat használja.]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_host</key>
+		<value><![CDATA[SMTP-kiszolgáló:<br /><span class="help">Használja az ssl://smtp.yourdomain.com címet a biztonságos SMTP-kapcsolathoz</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_username</key>
+		<value><![CDATA[SMTP felhasználónév:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_password</key>
+		<value><![CDATA[SMTP Jelszó:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_port</key>
+		<value><![CDATA[SMTP port:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_timeout</key>
+		<value><![CDATA[SMTP időtúllépés:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl</key>
+		<value><![CDATA[SSL használata:<br /><span class="help">Az SSL használatához ellenőrizze a tárhelyszolgáltatójánál, hogy telepítve van-e SSL tanúsítvány.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_session_ttl</key>
+		<value><![CDATA[Vezérlőpult munkamenet lejárata:<br /><span class="help">Ez az érték határozza meg a percekben megadott időtartamot, amely után inaktivitás miatt újra be kell jelentkeznie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encryption</key>
+		<value><![CDATA[Titkosítási kulcs:<br /><span class="help">A beállítás a konfigurációs fájlba került a v1.2.1 verziótól kezdődően.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_seo_url</key>
+		<value><![CDATA[Use SEO URL's:<br /><span class="help">A SEO URL-ek használatához az Apache mod-rewrite modulnak telepítve kell lennie, és át kell nevezned a htaccess.txt fájlt .htaccess-re. Megjegyzés: Ha az abantecart nincs telepítve a domain gyökérkönyvtárában, módosítanod kell a .htaccess fájlban lévő rewriteBase szabályt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_retina_enable</key>
+		<value><![CDATA[Generálj nagyfelbontású (retina) képeket:<br /><span class="help">Az Apache mod-rewrite modul használatához telepíteni kell, és át kell nevezni a htaccess.txt fájlt .htaccess-re. Megjegyzés: ha az abantecart nincs telepítve a domain gyökérkönyvtárában, módosítani kell a rewriteBase szabályt a .htaccess fájlban.<br>Engedélyezés után üríteni kell a képgyorsítótárat.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_quality</key>
+		<value><![CDATA[JPEG képek tömörítési szintje]]></value>
+	</definition>
+	<definition>
+		<key>entry_compression</key>
+		<value><![CDATA[Kimeneti tömörítési szint:<br /><span class="help">GZIP a kérést indító kliensek számára történő hatékonyabb átvitel érdekében. A tömörítési szintnek 0 és 9 között kell lennie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_display</key>
+		<value><![CDATA[Hibák megjelenítése:<br /><span class="help">Állítsa igenné, ha szeretné látni a kivételeket és a hibákat</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_log</key>
+		<value><![CDATA[Hibák naplózása:<br /><span class="help">Állítsa Igenre, ha szeretné a kivételeket és hibákat a naplóba menteni</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enable_reviews</key>
+		<value><![CDATA[Vélemények engedélyezése:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cache_enable</key>
+		<value><![CDATA[Gyorsítótár engedélyezve:<br /><span class="help">Kérjük, légy óvatos a gyorsítótár letiltásakor. A gyorsítótárba mentett oldalak nem fognak újra létrejönni, és a webhely betöltődése lassúbbá válhat. </span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_cache_drivers</key>
+		<value><![CDATA[Jelenleg a(z) <b>%s</b> gyorsítótár-illesztőprogram van használatban. Egyéb konfigurációra rendelkezésre álló illesztőprogramok: <i>%s</i>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_status</key>
+		<value><![CDATA[Webáruház API állapota:]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_key</key>
+		<value><![CDATA[Áruházfelület API-kulcs:<br /><span class="help">Add meg ezt a kulcsot, hogy korlátozott (biztonságosabb) hozzáférést biztosíts az áruházfelület API-hoz.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_stock_check</key>
+		<value><![CDATA[Storefront API készlet-hozzáférés:<br /><span class="help">Engedélyezze, ha megengedi, hogy a Storefront API ellenőrizze a készlet elérhetőségét</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_status</key>
+		<value><![CDATA[Admin API állapota:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_key</key>
+		<value><![CDATA[Admin API-kulcs:<br /><span class="help">Állítsa be ezt a kulcsot, hogy korlátozott (biztonságosabb) hozzáférést biztosítson az admin API-hoz.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_access_ip_list</key>
+		<value><![CDATA[Admin API-hozzáférés IP-címei:	
+Add meg azoknak az IP-címeknek a listáját (vesszővel elválasztva), amelyek hozzáférhetnek az admin API-hoz. A többi IP-cím blokkolva lesz.]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_max_size</key>
+		<value><![CDATA[Erőforrás-könyvtár feltöltés maximális fájlmérete, kB]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug</key>
+		<value><![CDATA[Hibakeresési információk megjelenítése:<br /><span class="help">Kapcsold be, ha látni szeretnéd a végrehajtás részleteit és a hibakeresési részleteket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_0</key>
+		<value><![CDATA[Ki]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_1</key>
+		<value><![CDATA[Mutat]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_2</key>
+		<value><![CDATA[Napló]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level</key>
+		<value><![CDATA[Hibakeresési szint:<br /><span class="help">Válassza ki a részletek mélységét, amelyeket látni szeretne a hibakeresési kimenetben.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_0</key>
+		<value><![CDATA[0. szint - nincs napló, csak kivételhibák]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_1</key>
+		<value><![CDATA[1. szint - hibák és figyelmeztetések]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_2</key>
+		<value><![CDATA[2. szint - #1 + mysql webhely betöltés, php fájl végrehajtási idő és oldal elemeinek betöltési ideje]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_3</key>
+		<value><![CDATA[3. szint - #2 + alapvető naplók és végrehajtási verem]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_4</key>
+		<value><![CDATA[4. szint - #3 + dump mysql utasítások]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_5</key>
+		<value><![CDATA[5. szint – #4 + köztes változó]]></value>
+	</definition>
+	<definition>
+		<key>entry_template_debug</key>
+		<value><![CDATA[Sablon hibakeresés:<br /><span class="help">Kapcsold be ezt a beállítást, ha ellenőrizned kell a sablon problémáit a webáruház felületén és a vezérlőpulton.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_filename</key>
+		<value><![CDATA[Hibanapló fájlneve:<br /><span class="help">Ez egy fájl, ahová a hibák mentésre kerülnek.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_session</key>
+		<value><![CDATA[Szállítási munkamenet használata:<br /><span class="help">A szállítási árajánlatokat elmenti a munkamenetbe, hogy elkerülje a felesleges újrakalkulálást. Az árajánlatokat csak akkor számítja újra, ha a kosár vagy a cím megváltozik.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_catalog_limit</key>
+		<value><![CDATA[Alapértelmezett tételek száma oldalanként (Webáruház felület):<br /><span class="help">Beállítja, hogy a webáruház felületén oldalanként hány tétel jelenjen meg (termékek, kategóriák stb.)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_limit</key>
+		<value><![CDATA[Alapértelmezett elemek száma oldalanként (Admin):<br /><span class="help">Beállítja, hogy hány admin elem jelenjen meg oldalanként a listázó rácsokban (rendelések, ügyfelek stb.)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_bestseller_limit</key>
+		<value><![CDATA[Bestseller-blokk tételeinek száma]]></value>
+	</definition>
+	<definition>
+		<key>entry_featured_limit</key>
+		<value><![CDATA[Kiemelt blokkban található elemek száma]]></value>
+	</definition>
+	<definition>
+		<key>entry_latest_limit</key>
+		<value><![CDATA[Legutóbbi blokk elemeinek száma]]></value>
+	</definition>
+	<definition>
+		<key>entry_special_limit</key>
+		<value><![CDATA[Elemek száma a speciális blokkban]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[Tartalomblokkokban lévő elemek száma]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_weight</key>
+		<value><![CDATA[Súly megjelenítése a kosár oldalon:<br /><span class="help">Mutasd a kosár súlyát a kosár oldalon</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_reviews</key>
+		<value><![CDATA[Értékelések beküldése:<br /><span class="help">Korlátozza, hogy ki küldhet be értékelést a termékekre</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maintenance</key>
+		<value><![CDATA[Karbantartási mód:<br /><span class="help">Megakadályozza az ügyfeleket abban, hogy böngésszék az áruházát. Ehelyett egy karbantartási üzenetet fognak látni. Ha adminisztrátorként van bejelentkezve, az áruházat a megszokott módon fogja látni.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_voicecontrol</key>
+		<value><![CDATA[Voice Control:<br /><span class="help">Engedélyezze az adminisztrátori hangvezérlést a hangparancs funkció aktiválásához. Jelenleg csak a Chrome 25-ös vagy újabb verziója támogatott.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_help_links</key>
+		<value><![CDATA[Súgó hivatkozások:<br /><span class="help">Ha szeretné látni a súgó ikonokat és az AbanteCart webhely linkjeit. Ez segít megismerni a funkciókat és azok használatát. Ha Ön haladó felhasználó, és nem szeretné látni ezeket a súgó ikonokat, letilthatja.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_tree_data</key>
+		<value><![CDATA[Fa rács engedélyezése:<br /><span class="help">Lehetővé teszi az adminisztrátori rácsok számára, hogy egyetlen rácslistában jelenítsék meg a szülő/gyermek-típusokat. MEGJEGYZÉS: ezeknél a rácsoknál a lapozás és a többes műveletek ki vannak kapcsolva.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_ajax</key>
+		<value><![CDATA[Kosárba helyezés ugyanazon az oldalon:<br /><span class="help">Ez engedélyezi az AJAX kosárba helyezés funkciót. A termék kosárba helyezhető anélkül, hogy átirányítanánk a kosár oldalra.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_width</key>
+		<value><![CDATA[Áruház felületének szélessége:<br /><span class="help">Példa: 100% vagy 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_width</key>
+		<value><![CDATA[Admin felület szélessége:<br /><span class="help">Példa: 100% vagy 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_maximum</key>
+		<value><![CDATA[Maximálisan engedélyezett rendelési összeg:<br /><span class="help">Megakadályozza a pénztár használatát nagy rendelési részösszegek esetén. 0 = NINCS KORLÁT</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_minimum</key>
+		<value><![CDATA[Minimális rendelési összeg:<br /><span class="help">Megakadályozza a fizetési folyamatot, ha a rendelés részösszege nem éri el a beállított minimumot. 0 = NINCS MINIMUM</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_system_check</key>
+		<value><![CDATA[Rendszerellenőrzés:<br /><span class="help">Kapcsolja be ezt a beállítást, ha ellenőrizni szeretné a rendszer állapotát az AbanteCart funkcionalitása szempontjából. Az AbanteCart működését érintő rendszerproblémák az adminisztrátori felületen üzenetként jelennek meg.</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_store</key>
+		<value><![CDATA[Új áruház]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Önnek nincs engedélye a beállítások módosítására!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[A bejelentkezési név csak alfanumerikus karakterekből állhat, és 5 és 64 karakter között lehet!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname_notunique</key>
+		<value><![CDATA[Ez a felhasználónév nem elérhető. Próbáljon másik felhasználónevet!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[Az áruház nevének 2 és 32 karakter között kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_url</key>
+		<value><![CDATA[Érvényes áruház URL szükséges!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[A címnek 2 és 32 karakter között kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_owner</key>
+		<value><![CDATA[Az áruház tulajdonosnak 2 és 64 karakter között kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_address</key>
+		<value><![CDATA[A bolt címe 10 és 256 karakter között kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[Az e-mail cím nem tűnik érvényesnek!]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[A telefonnak 2 és 32 karakter hosszúnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_thumb</key>
+		<value><![CDATA[A termék kép bélyegkép méreteinek dimenziói megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_popup</key>
+		<value><![CDATA[A termékkép felugró méretének dimenziói megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_category</key>
+		<value><![CDATA[A kategória lista méretdimenziói megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_manufacturer</key>
+		<value><![CDATA[Márkaikon lista méretdimenziók megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_product</key>
+		<value><![CDATA[A terméklista méretdimenzióinak megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_additional</key>
+		<value><![CDATA[További termékkép méreteinek megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_related</key>
+		<value><![CDATA[A kapcsolódó termék képméretdimenzióinak megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_cart</key>
+		<value><![CDATA[A kosárkép méreteinek megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_grid</key>
+		<value><![CDATA[Rács képméret-dimenziók megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_error_filename</key>
+		<value><![CDATA[A hibanapló fájlnevének megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[A szükséges adatokat nem adták meg. Ellenőrizze a mezők hibáit!]]></value>
+	</definition>
+	<definition>
+		<key>error_uploaded_image</key>
+		<value><![CDATA[A feltöltött %s fájl nem kép, vagy sérült!]]></value>
+	</definition>
+	<definition>
+		<key>error_limit</key>
+		<value><![CDATA[Korlát megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>text_front</key>
+		<value><![CDATA[Áruház felület]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Adminisztrátor]]></value>
+	</definition>
+	<definition>
+		<key>error_mail</key>
+		<value><![CDATA[Kérjük, töltse ki az SMTP-protokollhoz szükséges mezőket!]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_sort_order_asc</key>
+		<value><![CDATA[Termék rendezési sorrend alacsony > magas]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_asc</key>
+		<value><![CDATA[Név A - Z]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_desc</key>
+		<value><![CDATA[Név Z – A]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_asc</key>
+		<value><![CDATA[Ár alacsony > magas]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_desc</key>
+		<value><![CDATA[Ár magas &gt; alacsony]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_asc</key>
+		<value><![CDATA[Legalacsonyabb értékelés]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_desc</key>
+		<value><![CDATA[Legmagasabb értékelés]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_asc</key>
+		<value><![CDATA[Dátum régi > új]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_desc</key>
+		<value><![CDATA[Dátum Új > Régi]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_default_sort_order</key>
+		<value><![CDATA[Termékek alapértelmezett rendezése:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zero_customer_balance</key>
+		<value><![CDATA[Nulla ügyfél egyenleg megjelenítése:<br /><span class="help">Megjegyzés: Engedélyezze/tiltsa le az egyenlegüzenet megjelenítését, ha az ügyfél számlaegyenlege 0</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_tax_estimate</key>
+		<value><![CDATA[Szállítási és adóbecslés:<br /><span class="help">Engedje meg a vásárlóknak, hogy a bevásárlókosárban gyors szállítási és adóbecslést kapjanak.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_coupon_on_cart_page</key>
+		<value><![CDATA[Kupon a bevásárlókosár oldalon:<br /><span class="help">Engedélyezze a vásárlóknak, hogy beírják a kuponkódot, és lássák a kedvezményt a bevásárlókosárban.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_analytics</key>
+		<value><![CDATA[Google Analytics 4 címkeazonosító:<br /><span class="help">Adja meg saját <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">Google Analytics címkeazonosítóját</a> a webhely tevékenységének nyomon követéséhez. Ez az e-kereskedelmi tevékenység nyomon követését is lehetővé teszi. A webhely profilbeállítási oldalán a Google-nál engedélyeznie kell az e-kereskedelmi nyomon követést</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Google API-kulcs (a Google Térképek bekapcsolásához):<br /><span class="help">Megtekintheti a címet a térképen. A Google Térképek bekapcsolásához adja meg Google API-kulcsát a <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google hitelesítési oldalon</a>.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[Megtekintett termékek korlátja:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[Megtekintett termékek képszélessége:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[Megtekintett termékek képmagassága:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl_url</key>
+		<value><![CDATA[Secure Store URL:<br /><span class="help">Adja meg az áruház teljes SSL URL-címét (HTTPS). Győződjön meg róla, hogy a végén '/' szerepel. Példa: https://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_ssl_url</key>
+		<value><![CDATA[Érvényes biztonságos URL szükséges!]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_email_activation</key>
+		<value><![CDATA[Új vásárlók e-mailes aktiválása:<br /><span class="help">Ne engedélyezze az új vásárló bejelentkezését, amíg fiókját az e-mailben küldött aktivációs linkkel nem erősítette meg. Ennek működéséhez győződjön meg róla, hogy az "Új vásárlók jóváhagyása" KI állásban van.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_clone_template</key>
+		<value><![CDATA[Sablon klónozása AbanteCart fejlesztői eszközökkel]]></value>
+	</definition>
+	<definition>
+		<key>text_set_template</key>
+		<value><![CDATA[Állítsa be ezt a sablont a webáruház felületéhez]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_status</key>
+		<value><![CDATA[Áruház beágyazás engedélyezése:]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_click_action</key>
+		<value><![CDATA[Kattintási művelet beágyazása:]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_modal</key>
+		<value><![CDATA[Oldalon belüli modális párbeszédablak]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_new_window</key>
+		<value><![CDATA[Új oldal megnyitása új lapon]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_same_window</key>
+		<value><![CDATA[Új oldal megnyitása ugyanabban az ablakban]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_create_captcha</key>
+		<value><![CDATA[Captcha a fiók létrehozásának űrlapján :<br /><span class="help">Megakadályozza a spam/robot fiók létrehozását emberi ellenőrző captcha engedélyezésével</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_site_key</key>
+		<value><![CDATA[Google reCAPTCHA Site Key:<br /><span class="help">Adja hozzá a <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a>-t, hogy jobb captcha-bevitelt biztosítson a látogatóinak. Ha engedélyezi a reCAPTCHA webhely-/titkos kulcsokat, a Google reCAPTCHA v2 aktiválódik az alapértelmezett AbanteCart captcha-kép helyett.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_secret_key</key>
+		<value><![CDATA[Google reCAPTCHA titkos kulcs:<br /><span class="help">Adjon hozzá <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a>-t, hogy a látogatók jobb captcha-bevitelt kapjanak. Ha engedélyezi a reCAPTCHA site/secret kulcsokat, a Google reCAPTCHA v2 aktiválódik az alapértelmezett AbanteCart captcha kép helyett.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_php_exceed</key>
+		<value><![CDATA[Ez az érték nem haladhatja meg a php.ini %s direktíváját (<=%s)]]></value>
+	</definition>
+	<definition>
+		<key>entry_start_order_id</key>
+		<value><![CDATA[Rendelések kezdő száma:<br /><span class="help">Állítsa be, melyik számtól kezdődjenek a rendelések.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_start_order_id</key>
+		<value><![CDATA[A rendelés kezdő számának numerikusnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>error_starting_invoice_id</key>
+		<value><![CDATA[A számla kezdőszámának numerikusnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_order_days</key>
+		<value><![CDATA[Befejezetlen rendelés lejárata:<br /><span class="help">Ez az érték napokban határozza meg azt az időtartamot, amely után a befejezetlen rendelések törlésre kerülnek. Üres érték esetén egyetlen rendelés sem kerül törlésre.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_expire_order_days</key>
+		<value><![CDATA[A befejezetlen rendelés lejárati értékének numerikusnak kell lennie!]]></value>
+	</definition>
+	<definition>
+		<key>text_storefront</key>
+		<value><![CDATA[Áruház]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Adminisztrátor]]></value>
+	</definition>
+	<definition>
+		<key>text_im_driver</key>
+		<value><![CDATA[Illesztőprogram]]></value>
+	</definition>
+	<definition>
+		<key>text_im_protocol</key>
+		<value><![CDATA[IM protokoll]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver</key>
+		<value><![CDATA[SMS szolgáltató]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver_tooltip</key>
+		<value><![CDATA[Válasszon bővítményt az SMS szolgáltatóhoz]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_status_tooltip</key>
+		<value><![CDATA[SMS engedélyezése vásárlók számára]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_status_tooltip</key>
+		<value><![CDATA[SMS engedélyezése az adminisztrátoroknak]]></value>
+	</definition>
+	<definition>
+		<key>text_no_driver</key>
+		<value><![CDATA[Nem található IM-illesztőprogram]]></value>
+	</definition>
+	<definition>
+		<key>text_im_settings_attention</key>
+		<value><![CDATA[Ezek a beállítások az azonnali üzenetekhez tartoznak, amelyeket az AbanteCart események során automatikusan küldenek a webáruházban és az admin felületen.]]></value>
+	</definition>
+	<definition>
+		<key>entry_task_api_key</key>
+		<value><![CDATA[Feladatok API-kulcs:<br/><span class="help">Ez egy titkos kulcs, amely lehetővé teszi az AbanteCart számára az ütemezett folyamatok futtatását a böngészőből a /task.php fájllal. Ha nincs beállítva, a feladatok nem fognak futni böngészőn keresztül.<br/>MEGJEGYZÉS: Ez az API-kulcs nem szükséges a feladatok parancssori futtatásához.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_duplicate_contact_us</key>
+		<value><![CDATA[Kapcsolatfelvételi megkeresések duplikálása üzenetekbe]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_class</key>
+		<value><![CDATA[Alapértelmezett adóosztály:<br/><span class="help">Az alapértelmezett érték az újonnan létrehozott termék adóosztályának alapértelmezett értékeként kerül beállításra.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_recaptcha_v3</key>
+		<value><![CDATA[Engedélyezze a reCaptcha v3-at]]></value>
+	</definition>
+	<definition>
+		<key>text_review_disable</key>
+		<value><![CDATA[Ne engedélyezze]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_all</key>
+		<value><![CDATA[Bármely ügyfél vagy látogató]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_only_registered</key>
+		<value><![CDATA[Regisztrált vásárló]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_who_purchase</key>
+		<value><![CDATA[Ellenőrzött rendelésű vásárló]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_reviews</key>
+		<value><![CDATA[Vélemények megjelenítése:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[Város:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Irányítószám:]]></value>
+	</definition>
+	<definition>
+		<key>entry_latitude</key>
+		<value><![CDATA[Szélesség:]]></value>
+	</definition>
+	<definition>
+		<key>entry_longitude</key>
+		<value><![CDATA[Hosszúság:]]></value>
+	</definition>
+	<definition>
+		<key>entry_opening_hours</key>
+		<value><![CDATA[Nyitvatartás:]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Irányítószám megadása kötelező]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[Városnév megadása kötelező]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_resize_fill_color</key>
+		<value><![CDATA[Kitöltő szín a kép átméretezéséhez<br/><span class="help">Az a szín, amellyel a kép téglalap alakjáról négyzet alakúra történő átméretezés során az üres területek ki lesznek töltve</span>]]></value>
+	</definition>
+	<definition>
+		<key>warning_https_store_url</key>
+		<value><![CDATA[A platform minden böngészőben történő helyes működésének és az adatok biztonságának fenntartásához HTTPS protokoll szükséges. Minden kérést HTTPS-re kell küldeni.]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_logo</key>
+		<value><![CDATA[Alapértelmezett áruház logója:]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_mail_logo</key>
+		<value><![CDATA[Alapértelmezett e-mail logó:]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Telefon érvényesítő regex minta:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cron_command</key>
+		<value><![CDATA[Crontab parancs Linuxon <span class="help">Futtassa a crontab -e parancsot ugyanazzal a Linux felhasználóval, amely az AbanteCart webszervert futtatja. A szerkesztőben adja hozzá a parancsot</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_allow_coupon</key>
+		<value><![CDATA[Kuponbevitel engedélyezése a pénztárnál <br /><span class="help">Kuponbevitel engedélyezése vásárlók és vendégek számára</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_payment_address_equal_shipping</key>
+		<value><![CDATA[A fizetési címnek meg kell egyeznie a szállítási címmel.]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_require_phone_number</key>
+		<value><![CDATA[Telefonszám kötelező a pénztárnál <br /><span class="help">Ha engedélyezve van, ez a beállítás megköveteli a vásárlóktól vagy vendégektől, hogy a pénztárfolyamat során telefonszámot adjanak meg.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_create_account</key>
+		<value><![CDATA[Vendég fizetés Fiók létrehozása<br /><span class="help">Ajánlja fel a vendégnek, hogy a fizetés végén hozzon létre fiókot. Ez átlátható a vendégek számára, és a bejelentkezési adatokkal együtt e-mail kerül kiküldésre.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_buy_now_status</key>
+		<value><![CDATA[„Vásárolj most” gomb megjelenítése]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_show_order_comment_field</key>
+		<value><![CDATA[Rendelési megjegyzés mező megjelenítése<br/><span class="help">A megjegyzés beviteli mező a pénztárfolyamat során jelenik meg</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_unauth_customer</key>
+		<value><![CDATA[Engedélyezze a visszatérő vásárlóknak a böngészést:<br /><span class="help">Az oldalra visszatérő, bejelentkezés nélküli vásárlók böngészhetik a termékeket, hozzáadhatják azokat a kosárba és a kívánságlistára.</span>]]></value>
+	</definition>
+</definitions>

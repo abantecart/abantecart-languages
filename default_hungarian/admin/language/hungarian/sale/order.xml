@@ -1,0 +1,387 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Rendelések]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_details</key>
+		<value><![CDATA[Rendelés részleteinek szerkesztése]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_shipping</key>
+		<value><![CDATA[Szállítási cím szerkesztése]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_payment</key>
+		<value><![CDATA[Fizetési cím szerkesztése]]></value>
+	</definition>
+	<definition>
+		<key>title_payment_details</key>
+		<value><![CDATA[Fizetési adatok]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Siker: A rendelés részletei frissítve lettek!]]></value>
+	</definition>
+	<definition>
+		<key>text_invoice</key>
+		<value><![CDATA[Számla]]></value>
+	</definition>
+	<definition>
+		<key>text_order_id</key>
+		<value><![CDATA[Rendelés azonosító:]]></value>
+	</definition>
+	<definition>
+		<key>text_invoice_id</key>
+		<value><![CDATA[Számlaszám:]]></value>
+	</definition>
+	<definition>
+		<key>text_date_added</key>
+		<value><![CDATA[Számla kelte:]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone</key>
+		<value><![CDATA[Telefon]]></value>
+	</definition>
+	<definition>
+		<key>text_fax</key>
+		<value><![CDATA[Fax]]></value>
+	</definition>
+	<definition>
+		<key>text_select_country</key>
+		<value><![CDATA[- Ország kiválasztása -]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[Címzett]]></value>
+	</definition>
+	<definition>
+		<key>text_ship_to</key>
+		<value><![CDATA[Szállítási cím (ha eltérő)]]></value>
+	</definition>
+	<definition>
+		<key>text_missing_orders</key>
+		<value><![CDATA[Hiányzó rendelések]]></value>
+	</definition>
+	<definition>
+		<key>text_wait</key>
+		<value><![CDATA[Kérjük, várjon!]]></value>
+	</definition>
+	<definition>
+		<key>column_order</key>
+		<value><![CDATA[Megrendelés azonosító]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[Vevő neve]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[Státusz]]></value>
+	</definition>
+	<definition>
+		<key>column_date_added</key>
+		<value><![CDATA[Hozzáadás dátuma]]></value>
+	</definition>
+	<definition>
+		<key>column_total</key>
+		<value><![CDATA[Összesen]]></value>
+	</definition>
+	<definition>
+		<key>column_product</key>
+		<value><![CDATA[Termék]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[Modell]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[Mennyiség]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[Egységár]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[raktári cikkszám]]></value>
+	</definition>
+	<definition>
+		<key>column_download</key>
+		<value><![CDATA[Letöltés neve]]></value>
+	</definition>
+	<definition>
+		<key>column_file</key>
+		<value><![CDATA[Fájl]]></value>
+	</definition>
+	<definition>
+		<key>column_remaining</key>
+		<value><![CDATA[Hátralévő]]></value>
+	</definition>
+	<definition>
+		<key>column_expire_date</key>
+		<value><![CDATA[Lejárati dátum]]></value>
+	</definition>
+	<definition>
+		<key>column_mask</key>
+		<value><![CDATA[Maszk]]></value>
+	</definition>
+	<definition>
+		<key>column_notify</key>
+		<value><![CDATA[Vevő értesítve]]></value>
+	</definition>
+	<definition>
+		<key>column_comment</key>
+		<value><![CDATA[Vevői rendelés megjegyzése]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[Művelet]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_id</key>
+		<value><![CDATA[Megrendelés azonosító:]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice_id</key>
+		<value><![CDATA[Számla azonosító:]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer</key>
+		<value><![CDATA[Vásárló:]]></value>
+	</definition>
+	<definition>
+		<key>entry_firstname</key>
+		<value><![CDATA[Keresztnév:]]></value>
+	</definition>
+	<definition>
+		<key>entry_lastname</key>
+		<value><![CDATA[Vezetéknév:]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[Vásárlói csoport:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[E-mail:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ip</key>
+		<value><![CDATA[IP-cím:]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[Telefon:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[Fax:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store_name</key>
+		<value><![CDATA[Áruház neve:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store_url</key>
+		<value><![CDATA[Áruház URL:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_added</key>
+		<value><![CDATA[Hozzáadás dátuma:]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_method</key>
+		<value><![CDATA[Szállítási mód:]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment_method</key>
+		<value><![CDATA[Fizetési mód:]]></value>
+	</definition>
+	<definition>
+		<key>entry_total</key>
+		<value><![CDATA[Eredeti rendelés összege:]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_status</key>
+		<value><![CDATA[Rendelés állapota:]]></value>
+	</definition>
+	<definition>
+		<key>entry_comment</key>
+		<value><![CDATA[Megjegyzés:]]></value>
+	</definition>
+	<definition>
+		<key>entry_company</key>
+		<value><![CDATA[Cég:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_1</key>
+		<value><![CDATA[Cím 1:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_2</key>
+		<value><![CDATA[Cím 2:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Irányítószám/Postai irányítószám:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[Város:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[Régió / Állam:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone_code</key>
+		<value><![CDATA[Régió / államkód:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[Ország:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Megrendelés állapota:]]></value>
+	</definition>
+	<definition>
+		<key>entry_notify</key>
+		<value><![CDATA[Vásárló értesítése:]]></value>
+	</definition>
+	<definition>
+		<key>entry_append</key>
+		<value><![CDATA[Megjegyzések hozzáfűzése:]]></value>
+	</definition>
+	<definition>
+		<key>entry_add_product</key>
+		<value><![CDATA[Elérhető termék hozzáadása:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Önnek nincs jogosultsága a megrendelések módosításához!]]></value>
+	</definition>
+	<definition>
+		<key>error_order_load</key>
+		<value><![CDATA[Figyelmeztetés: Nincs ilyen azonosítójú rendelés!]]></value>
+	</definition>
+	<definition>
+		<key>text_order_summary</key>
+		<value><![CDATA[Rendelés összefoglaló]]></value>
+	</definition>
+	<definition>
+		<key>tab_order_details</key>
+		<value><![CDATA[Rendelés részletei]]></value>
+	</definition>
+	<definition>
+		<key>tab_address</key>
+		<value><![CDATA[Megrendelés címe]]></value>
+	</definition>
+	<definition>
+		<key>tab_history</key>
+		<value><![CDATA[Állapot & Megjegyzések]]></value>
+	</definition>
+	<definition>
+		<key>tab_files</key>
+		<value><![CDATA[Megrendelési fájlok]]></value>
+	</definition>
+	<definition>
+		<key>tab_payment_details</key>
+		<value><![CDATA[Fizetési adatok]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_files</key>
+		<value><![CDATA[Megrendelés fájljainak szerkesztése]]></value>
+	</definition>
+	<definition>
+		<key>text_missing_file</key>
+		<value><![CDATA[Hiányzó fájl]]></value>
+	</definition>
+	<definition>
+		<key>order_download_history</key>
+		<value><![CDATA[Letöltési előzmények]]></value>
+	</definition>
+	<definition>
+		<key>text_time</key>
+		<value><![CDATA[Idő]]></value>
+	</definition>
+	<definition>
+		<key>text_filename</key>
+		<value><![CDATA[Fájlnév]]></value>
+	</definition>
+	<definition>
+		<key>text_mask</key>
+		<value><![CDATA[Maszk]]></value>
+	</definition>
+	<definition>
+		<key>text_download_percent</key>
+		<value><![CDATA[Letöltési százalékok]]></value>
+	</definition>
+	<definition>
+		<key>text_download_expired</key>
+		<value><![CDATA[Lejárt dátum]]></value>
+	</definition>
+	<definition>
+		<key>text_download_remaining_count</key>
+		<value><![CDATA[Hátralévő darabszám]]></value>
+	</definition>
+	<definition>
+		<key>text_order_status_required</key>
+		<value><![CDATA[Rendelési állapot "%s" megadása kötelező]]></value>
+	</definition>
+	<definition>
+		<key>text_select_product</key>
+		<value><![CDATA[- Válasszon terméket -]]></value>
+	</definition>
+	<definition>
+		<key>text_push_download</key>
+		<value><![CDATA[- Nyomja meg a Letöltés gombot -]]></value>
+	</definition>
+	<definition>
+		<key>text_add_product_to_order</key>
+		<value><![CDATA[Termék hozzáadása a #%s megrendeléshez]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_order_product</key>
+		<value><![CDATA[Termék szerkesztése]]></value>
+	</definition>
+	<definition>
+		<key>attention_check_total</key>
+		<value><![CDATA[Megjegyzés: A rendelés termékrészletei megváltoztak. A végösszeg automatikusan újraszámításra került. Ellenőrzés szükséges.]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total_add</key>
+		<value><![CDATA[Új összeg hozzáadása a teljes összeg számításához]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total_title</key>
+		<value><![CDATA[Megjelenítendő cím]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total_amount</key>
+		<value><![CDATA[Összeg]]></value>
+	</definition>
+	<definition>
+		<key>text_recalc</key>
+		<value><![CDATA[Újraszámítás beállítások szerint]]></value>
+	</definition>
+	<definition>
+		<key>entry_im</key>
+		<value><![CDATA[Azonnali üzenetküldés:]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_locations</key>
+		<value><![CDATA[Raktárhelyek:]]></value>
+	</definition>
+	<definition>
+		<key>edit_title_map</key>
+		<value><![CDATA[A térképen]]></value>
+	</definition>
+	<definition>
+		<key>text_enable_google_map</key>
+		<value><![CDATA[Ahhoz, hogy a címeket megtekinthesse az interaktív Google térképen, adja meg a Google API-kulcsot az általános beállításokban.]]></value>
+	</definition>
+</definitions>

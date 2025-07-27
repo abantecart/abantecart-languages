@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Importálás és exportálás]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Adatimport varázsló]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[Importálás]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Import varázsló]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[Exportálás]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[Táblázatok]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[Opciók]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Fájlformátum:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Fájlnév:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[Import fájl feltöltése]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Ön CSV vagy szövegfájlt tölthet fel az adatok importálásához.	
+Az adatszerkezetnél Ön követheti a saját formátumot vagy a szabad formátumot.	
+Szabad formátumú adatok esetén Önnek manuálisan kell leképeznie az adatelemeket, vagy használhat JSON-térképet.	
+A szabad formátumú import esetében csak a termékek, a kategóriák és a márkák/gyártók támogatottak.	
+Az 'Action' oszlop felvehető az importálási művelet ('insert', 'update' vagy 'delete') meghatározásához. Az alapértelmezett művelet a 'update_or_insert'.]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Válasszon cél táblát és a hozzá tartozó adatbázismezőt az egyes importált adatoszlopokhoz. Ha nincs kiválasztott mező, a bemeneti oszlop adatai figyelmen kívül lesznek.<br/> <b>Note:</b> A nyelv- és áruház-specifikus adatértékek az aktuálisan kiválasztott tartalomáruházhoz és nyelvhez lesznek rendelve.]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Ebben az importban %s rekord kerül betöltésre és feldolgozásra!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Importálási folyamat futtatása]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[Betöltés]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Összesen betöltve:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Importálandó fájl:<br><span class="help">Importfájlok támogatott formátumai: CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[Azonosító tartománya innen:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[Címzett:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV/TXT elválasztó karakter:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Minden mező dupla idézőjelek közé kerül.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Minden mezőt dupla idézőjelek közé kell zárni.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Futtassa tesztmódban <br><span class="help">Ajánlott először tesztmódban futtatni az adatimportálást, hogy megnézze, vannak-e hibák.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Import fájl oszlop]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Importálási adatminta]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Válassza ki a cél táblát]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Frissítés, ha létezik]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Adatok felosztása]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Válassza ki, másolja és mentse el ezt a leképezést a későbbi felhasználáshoz.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Export leképezés]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Küldje az előre mentett leképezési adatokat az alábbi mezőbe]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Leképezés betöltése]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Nem támogatott importfájlformátum!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Hiba az XML-fájl importálása közben!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Hiba a CSV/TXT fájl importálása során! Kérjük, ellenőrizze a mezők elválasztóját.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Az adat üres vagy sérült.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[A fájl üres.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[A CSV/TXT export működéséhez a biztonsági mentés könyvtárának írhatónak kell lennie.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Frissítve:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[Létrehozva:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[Hibák:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Részletek megjelenítése]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Nincsenek gyermek elemek]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Néhány hiba történt.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Tesztfuttatás befejezve. Összes SQL-lekérdezés:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Rendezés szerint:]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Nincs kiválasztva import cél tábla vagy mezők!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[A cél táblához szükséges kötelező '%s' adatmező hiányzik!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Az ideiglenes könyvtár %s nem írható! Kérjük, módosítsa a jogosultságokat a folytatáshoz.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Üres kérés.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Az importálási folyamat befejeződött. %s sor(ok) feldolgozva.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s sor(ok) hibákkal.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[További részletekért lásd a <a href="%s" target="_new">naplófájlt %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Feladat sikeresen megszakítva.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Import ütemezése]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Siker: Sikeresen létrehozta az ütemezett importálási feladatot! <a href="%s">Részletek megtekintése</a>]]></value>
+	</definition>
+</definitions>

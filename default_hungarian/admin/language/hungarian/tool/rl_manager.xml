@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Média erőforrás-könyvtár kezelő]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_latest</key>
+		<value><![CDATA[Legutóbb hozzáadott erőforrások]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_type</key>
+		<value><![CDATA[erőforrás típus]]></value>
+	</definition>
+	<definition>
+		<key>entry_type_name</key>
+		<value><![CDATA[Erőforrás-típus kulcs<br/><span class="help">Ez az erőforrás-típus kulcs/név értéke nem módosítható</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_directory</key>
+		<value><![CDATA[Erőforrás-könyvtár<br/><span class="help">A könyvtár, amely az adott típus erőforrásait tárolja. Ha megváltozik, a meglévő erőforrások nem lesznek elérhetők, és azokat át kell másolni az új könyvtárba!</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_icon</key>
+		<value><![CDATA[Alapértelmezett ikon<br/><span class="help">Az ikon képe, amely az erőforrások listájában jelenik meg (Elérési út: /image/... ).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_file_types</key>
+		<value><![CDATA[Engedélyezett fájlkiterjesztések<br/><span class="help">Reguláris kifejezés a megengedett fájlkiterjesztések listájával ehhez az erőforrástípushoz</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Siker: Frissítette az erőforrástípust!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_type_id</key>
+		<value><![CDATA[Hiba: Hiányzik az erőforrástípus-azonosítója!]]></value>
+	</definition>
+	<definition>
+		<key>error_type_name</key>
+		<value><![CDATA[Hiba: az erőforrástípus nevének 2 és 40 karakter hosszúnak kell lennie]]></value>
+	</definition>
+	<definition>
+		<key>error_default_directory</key>
+		<value><![CDATA[Hiba: Az erőforrástípus-könyvtár nevének 2 és 64 karakter között kell lennie.]]></value>
+	</definition>
+	<definition>
+		<key>error_default_icon</key>
+		<value><![CDATA[Hiba: Az erőforrástípus-ikonnak 2 és 64 karakter hosszúnak kell lennie.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_types</key>
+		<value><![CDATA[Hiba: Az erőforrás-típus fájlkiterjesztések regexének hossza 2 és 40 karakter között kell lennie.]]></value>
+	</definition>
+</definitions>

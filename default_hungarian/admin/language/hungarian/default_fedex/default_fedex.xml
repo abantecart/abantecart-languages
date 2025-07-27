@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Szállítás]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Siker: Ön módosította a FEDEX szállítást!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[Fedex Production Key:<br /><span class="help">Írja be az Önnek kiosztott Fedex éles kulcsot, kötelező.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[FedEx éles jelszó:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[Számlaszám:<br /><span class="help">Adja meg a FedEx által Önnek kiosztott számlaszámot, kötelező.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Fedex számláló száma:<br /><span class="help">Adja meg a Fedex számláló számát.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Cím:<br /><span class="help">Szállítás az utcai címről.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[Város:<br /><span class="help">Szállítás a városból.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Állam:<br /><span class="help">Szállítás indulási állam (két betű).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[Irányítószám/postai irányítószám:<br /><span class="help">Szállítás az irányítószámtól.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Ország:<br /><span class="help">Szállítási kiindulási ország (két betű).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[Árajánlat típusa:<br /><span class="help">Árajánlat lakossági vagy kereskedelmi kiszállításhoz.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Lakossági]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Kereskedelmi]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[További díjak:<br /><span class="help">További díj alkalmazva a FedEx-árajánlatra.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[FEDEX Első éjszakai]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[FEDEX Elsőbbségi Éjszakai]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[FEDEX Normál Másnapi]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[FEDEX 2. napos]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[FEDEX Expressz Takarékos]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[FEDEX Ground]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Önnek nincs jogosultsága a FEDEX szállítási mód módosítására!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Fiókazonosító megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Fedex Meter azonosító szükséges!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[A Meter Number és Authorization Key beszerzéséhez a következő lépéseket kell követnie:<br>
+Látogasson el a <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a> oldalra.<br>
+Jelentkezzen be FedEx felhasználónévvel és jelszóval, vagy kattintson a 'Register Now' gombra, ha még nincs fiókja.<br>
+Kattintson a 'Technical Resources' (bal oldalon) menüpontra.<br>
+Alatta kattintson a 'FedEx web services for shipping' elemre.<br>
+Kattintson a 'Move To Production' (jobb oldalon) lehetőségre.<br>
+Görgessen az oldal aljára, és kattintson az 'Obtain Production Key' gombra.<br>
+Az űrlapon az 1. kérdésnél válassza a 'No' lehetőséget.<br>
+A 2. kérdésnél jelölje be az első jelölőnégyzetet.<br>
+A 3. kérdésnél válassza a 'Corporate Developer' lehetőséget.<br>
+Fogadja el a szerződést.<br>
+Töltse ki az űrlapot (ne használjon kötőjeleket a számlaszámban).<br>
+A Meter Number és a kulcs azonnal megérkezik. A Production Password-t e-mailben kapja meg, miután elvégezte a fenti lépéseket.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Teszt mód:<br /><span class="help">Használja az éles vagy a teszt átjáró szervert?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[Igen]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[Nem]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Teszteld a kapcsolatot:<span class="help">Ellenőrizheted, hogy az általad megadott API hitelesítő adatok helyesek-e.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Teszt]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[A kapcsolat sikeres, és az API-hitelesítő adatok megfelelően vannak konfigurálva.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Hiba! Kérjük, ellenőrizze, hogy a bővítmény be van-e kapcsolva.]]></value>
+	</definition>
+</definitions>
