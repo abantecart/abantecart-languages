@@ -1,52 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Мито за обробку]]></value>
+		<value><![CDATA[Плата за обробку]]></value>
 	</definition>
 	<definition>
 		<key>total_name</key>
-		<value><![CDATA[Мито за обробку]]></value>
+		<value><![CDATA[Плата за обробку]]></value>
 	</definition>
 	<definition>
 		<key>text_total</key>
-		<value><![CDATA[Замовити Підсумкові]]></value>
+		<value><![CDATA[Підсумки замовлення]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: Ви оновили загальна комісія за доставку!]]></value>
+		<value><![CDATA[Успішно: Ви оновили загальний збір за обробку!]]></value>
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[Загальна сума замовлення: <span class="help">Мінімальна сума замовлення буде досягнута, щоб застосувати плату. Якщо загальна сума замовлення клієнта перевищить цю суму, обробку feee не застосовуватиметься. Це значення переопределяется з оплатою певної настройки.</span>]]></value>
+		<value><![CDATA[Order Total:<span class="help">Мінімальна сума замовлення, необхідна для застосування плати. Якщо загальна сума замовлення клієнта перевищить цю суму, плата за обробку не буде застосована. Це значення може бути перевизначене в налаштуваннях конкретного способу оплати.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_total_placeholder</key>
-		<value><![CDATA[сума замовлення]]></value>
+		<value><![CDATA[Сума замовлення]]></value>
 	</definition>
 	<definition>
 		<key>entry_fee</key>
-		<value><![CDATA[Плата: <span class="help">Плата буде додана на замовлення, якщо загальна мінімальна сума умова не виконується. Ця сума скасовується оплати певної настройки</span>]]></value>
+		<value><![CDATA[Комісія:<span class="help">Комісія, яка додається до загальної суми замовлення, якщо умова мінімальної суми не виконана. Ця сума перевизначається налаштуваннями конкретного способу оплати</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_payment_fee</key>
-		<value><![CDATA[Плата: <span class="help">Плата буде додана на замовлення, якщо загальна мінімальна Проміжні підсумки умова сума не виконується. Ця сума перевизначити основний параметр плату</span>]]></value>
+		<value><![CDATA[Комісія:<span class="help">Комісія додається до загальної суми замовлення, якщо умова мінімальної суми проміжного підсумку не виконана. Ця сума перевизначає основні налаштування комісії</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_payment</key>
-		<value><![CDATA[Оплата: <span class="help">Вибір конкретного платежу Вам потрібно додати плату. Ці настройки будуть перекривати основні параметри, якщо платіж використовується клієнтом.</span>]]></value>
+		<value><![CDATA[Оплата:<span class="help">Виберіть конкретний спосіб оплати, до якого потрібно додати комісію. Ці налаштування замінять основні налаштування, якщо клієнт скористається цим способом оплати.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_subtotal</key>
-		<value><![CDATA[Замовити Разом: <span class="help">Мінімальне замовлення до південь від загальної суми повинні бути досягнуті, щоб застосувати плату. Це скасовує основний параметр</span>]]></value>
+		<value><![CDATA[Проміжний підсумок замовлення:<span class="help">Мінімальна сума проміжного підсумку замовлення для застосування комісії. Це перевизначає основне налаштування</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax</key>
-		<value><![CDATA[Податки Клас: <span class="help">Виберіть, якщо вам потрібно податок для застосування на верхній частині мита за обробку</span>]]></value>
+		<value><![CDATA[Клас податку:<span class="help">Виберіть, чи потрібно застосувати податок зверху до плати за обробку</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[статус:]]></value>
+		<value><![CDATA[Статус:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -54,14 +54,14 @@
 	</definition>
 	<definition>
 		<key>entry_calculation_order</key>
-		<value><![CDATA[Розрахунок замовлення:]]></value>
+		<value><![CDATA[Порядок обчислення:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Увага: У вас немає дозволу на зміну загальної мита за обробку!]]></value>
+		<value><![CDATA[Попередження: У вас немає дозволу змінювати загальний збір за обробку!]]></value>
 	</definition>
 	<definition>
 		<key>error_number</key>
-		<value><![CDATA[Попередження: всього замовлення і внесок за обробку повинен бути номера!]]></value>
+		<value><![CDATA[Увага: загальна сума замовлення та плата за обробку повинні бути числами!]]></value>
 	</definition>
 </definitions>

@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Платеж через Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[Для завершения настройки платежей Authorize.Net требуются дополнительные настройки. Смотрите вкладку «Дополнительные настройки».]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Payment]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Успех: вы изменили настройки оплаты Authorize.Net!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[Местоположение:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[Все местоположения]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[Идентификатор входа в API:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Тестовый режим:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[Ключ транзакции:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[Публичный ключ:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[Автовыбор:<br /><span class="help">Вы можете настроить пропуск страницы выбора способа оплаты, если доступен только один вариант оплаты. Этот способ оплаты будет выбран автоматически</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[Можно сохранять кредитные карты:<br /><span class="help">Установите максимальное количество кредитных карт, которые могут сохранять клиенты (до 100). Если указано 0 или поле оставлено пустым, сохранение карт не будет разрешено. Примечание по безопасности: данные кредитных карт клиентов сохраняются на защищённых серверах authorizenet для обеспечения максимального уровня безопасности данных. Данные кредитных карт не будут сохранены на вашем сайте.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[Вам нужно подключиться к авторизенет, чтобы настроить платежные реквизиты.]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Настройки Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Подключиться к Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Отключить Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Не удаётся подключиться?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Успешно подключено к Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Успешно отключено от Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[Порядок сортировки]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Тестовый режим:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[Рабочий секретный ключ:<br /><span class="help">Найдите его в разделе Authorize.Net API Keys. Ключ начинается с sk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[Публикуемый ключ для боевого режима:<br /><span class="help">Найдите его в разделе API Keys в Authorize.Net. Ключ начинается с pk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[Тестовый секретный ключ:<br /><span class="help">Найдите его в разделе API-ключей Authorize.Net. Ключ начинается с sk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[Тестовый публичный ключ:<br /><span class="help">Найдите его в разделе API-ключей Authorize.Net. Ключ начинается с pk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[Тип расчёта:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[Только авторизация]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[Авторизация и списание средств]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[Успешно и проведено:<br /><span class="help">Выберите основной статус заказа, который вы хотите установить в ответ на статус платёжного процессора</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[Успешно и не завершено:<br /><span class="help">Выберите основной статус заказа, который вы хотите установить в ответ на статус платежного процессора</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Дата транзакции]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Сумма]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[Авто (авторизация и захват)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[Отложено (только авторизация)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Детали оплаты]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Идентификатор транзакции Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[Статус транзакции]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Общая авторизованная сумма]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Остаток баланса]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Внутренняя ошибка. Проверьте журнал ошибок или входные параметры!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Пожалуйста, введите положительную сумму]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[Требуется тестовый ключ Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[Требуется рабочий ключ Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Внимание: у вас нет разрешения на изменение Authorize.Net Payment!]]></value>
+	</definition>
+</definitions>

@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>default_cheque_name</key>
-		<value><![CDATA[支票/汇票]]></value>
+		<value><![CDATA[支票 / 汇票]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -10,15 +10,15 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：您已修改支票/汇票账户详细信息！]]></value>
+		<value><![CDATA[成功：您已修改支票/汇款单账户详细信息！]]></value>
 	</definition>
 	<definition>
 		<key>default_cheque_payable</key>
-		<value><![CDATA[付款给： <br/><span class="help">提供支票需要写给</span>]]></value>
+		<value><![CDATA[收款人：<br /><span class="help">提供支票抬头名称</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_cheque_address</key>
-		<value><![CDATA[邮寄或发送至： <br/><span class="help">提供支票寄送地址。如果为空，则使用主店地址</span>]]></value>
+		<value><![CDATA[邮寄或发送至：<br /><span class="help">提供寄送支票的地址。如果留空，将使用主商店地址。</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_cheque_order_status_id</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>default_cheque_location_id</key>
-		<value><![CDATA[地点：]]></value>
+		<value><![CDATA[位置:]]></value>
 	</definition>
 	<definition>
 		<key>default_cheque_location_id_0</key>
@@ -34,10 +34,10 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您无权修改付款支票/汇票！]]></value>
+		<value><![CDATA[警告：您没有权限修改支付支票 / 汇款单！]]></value>
 	</definition>
 	<definition>
 		<key>error_payable</key>
-		<value><![CDATA[付款给必填！]]></value>
+		<value><![CDATA[收款方为必填项!]]></value>
 	</definition>
 </definitions>

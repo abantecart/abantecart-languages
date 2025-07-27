@@ -2,78 +2,78 @@
 <definitions>
 	<definition>
 		<key>default_parcelforce_48_name</key>
-		<value><![CDATA[包裹快递 48]]></value>
+		<value><![CDATA[帕塞尔福斯 48]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
-		<value><![CDATA[船运]]></value>
+		<value><![CDATA[运输]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：您已修改 Parcelforce 48 运输方式！]]></value>
+		<value><![CDATA[成功：您已修改 Parcelforce 48 配送！]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_rate</key>
-		<value><![CDATA[Parcelforce 48 费率： <br/><span class="help">示例：0:0,10:15.99,12:19.99，- 重量小于或等于 10 磅的费用为 15.99 美元，重量小于 12 磅但大于 10 磅的费用为 19.99 美元。其中磅是您的商店重量等级，美元是商店基本货币。您可以在商店设置中更改两者。请勿输入 KG 或任何符号。输入最多 5.2 位小数的值。（12345.67）</span>]]></value>
+		<value><![CDATA[Parcelforce 48 费率：<br /><span class="help">示例：0:0,10:15.99,12:19.99，重量小于或等于10磅将花费$15.99；重量大于10磅且小于12磅将花费$19.99。 其中“磅”是您的商店重量类别，“$”是商店基础货币。您可以在商店设置中更改两者。请勿输入KG或任何符号。输入值最多为5位整数和2位小数。(12345.67)</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_weight</key>
-		<value><![CDATA[显示发货重量： <br/><span class="help">您是否想显示发货重量？（例如发货重量：2.7674 公斤）</span>]]></value>
+		<value><![CDATA[显示配送重量：<br /><span class="help">是否要显示运输重量？(例如: 配送重量 : 2.7674 千克)</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_weight_1</key>
-		<value><![CDATA[是的]]></value>
+		<value><![CDATA[是]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_weight_0</key>
-		<value><![CDATA[不]]></value>
+		<value><![CDATA[否]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_insurance</key>
-		<value><![CDATA[显示保险： <br/><span class="help">您是否要显示运输保险？（例如，保险金额最高为 500）</span>]]></value>
+		<value><![CDATA[显示保险：<br /><span class="help">您想显示运输保险吗？（例如：保险最高至 500）</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_insurance_1</key>
-		<value><![CDATA[是的]]></value>
+		<value><![CDATA[是]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_insurance_0</key>
-		<value><![CDATA[不]]></value>
+		<value><![CDATA[否]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_time</key>
-		<value><![CDATA[显示运送时间： <br/><span class="help">您是否想显示运送时间？（例如 3 至 5 天内发货）</span>]]></value>
+		<value><![CDATA[显示发货时间：<br /><span class="help">您想要显示发货时间吗？（例如：在3到5天内发货）</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_time_1</key>
-		<value><![CDATA[是的]]></value>
+		<value><![CDATA[是]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_display_time_0</key>
-		<value><![CDATA[不]]></value>
+		<value><![CDATA[否]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_compensation</key>
-		<value><![CDATA[Parcelforce48 赔偿率： <br/><span class="help">输入最多 5.2 位小数的值。（12345.67）示例：34:0,100:1,250:2.25 - 价值不超过 34 的购物车保险将额外收取 0.00，价值超过 100 且不超过 250 的购物车保险将额外收取 2.25。请勿输入货币符号。</span>]]></value>
+		<value><![CDATA[Parcelforce48 赔偿费率:<br /><span class="help">输入值最多可达5位整数和2位小数。(12345.67) 示例：34:0,100:1,250:2.25 - 购物车金额不超过34时保险额外费用为0.00；金额超过100且不超过250时额外费用为2.25。请勿输入货币符号。</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_tax</key>
-		<value><![CDATA[税級：]]></value>
+		<value><![CDATA[税类:]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_tax_0</key>
-		<value><![CDATA[- -没有任何 - -]]></value>
+		<value><![CDATA[---无---]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_location_id</key>
-		<value><![CDATA[地点：]]></value>
+		<value><![CDATA[位置：]]></value>
 	</definition>
 	<definition>
 		<key>default_parcelforce_48_location_id_0</key>
-		<value><![CDATA[所有地点]]></value>
+		<value><![CDATA[所有位置]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您无权修改 Parcelforce 48 运输方式！]]></value>
+		<value><![CDATA[警告：您没有权限修改 Parcelforce 48 运输！]]></value>
 	</definition>
 </definitions>

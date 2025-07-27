@@ -1,5 +1,5 @@
 <?php
-
+//translated
 $this->db->query("INSERT INTO ".$this->db->table('stock_statuses')." (`stock_status_id`, `language_id`, `name`)
 VALUES
 ('1', ".$newLanguageId.", '预购')");

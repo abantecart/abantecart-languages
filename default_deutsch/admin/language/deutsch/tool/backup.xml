@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,11 +6,11 @@
 	</definition>
 	<definition>
 		<key>text_backup</key>
-		<value><![CDATA[herunterladen Backup]]></value>
+		<value><![CDATA[Backup herunterladen]]></value>
 	</definition>
 	<definition>
 		<key>text_success_backup</key>
-		<value><![CDATA[Erfolg: Sie haben erfolgreich Backup-Datei erstellt!]]></value>
+		<value><![CDATA[Erfolg: Sie haben erfolgreich eine Sicherungsdatei erstellt!]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -18,23 +18,27 @@
 	</definition>
 	<definition>
 		<key>text_success_xml</key>
-		<value><![CDATA[Erfolg: Sie haben Ihre xml erfolgreich importiert!]]></value>
+		<value><![CDATA[Erfolg: Sie haben Ihr xml erfolgreich importiert!]]></value>
 	</definition>
 	<definition>
 		<key>entry_restore</key>
-		<value><![CDATA[Wiederherstellen von SQL oder XML-Datei:]]></value>
+		<value><![CDATA[Backup wiederherstellen:]]></value>
 	</definition>
 	<definition>
 		<key>entry_tables</key>
-		<value><![CDATA[Sicherungstabellen:]]></value>
+		<value><![CDATA[Backup-Tabellen:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Backup wiederherstellen:]]></value>
 	</definition>
 	<definition>
 		<key>entry_loadxml</key>
-		<value><![CDATA[Laden von XML-Datei:]]></value>
+		<value><![CDATA[XML-Datei laden:]]></value>
 	</definition>
 	<definition>
 		<key>tab_backup</key>
-		<value><![CDATA[Sicherungskopie]]></value>
+		<value><![CDATA[Sicherung]]></value>
 	</definition>
 	<definition>
 		<key>tab_restore</key>
@@ -42,7 +46,7 @@
 	</definition>
 	<definition>
 		<key>tab_loadxml</key>
-		<value><![CDATA[Layout und Daten-Set laden XML]]></value>
+		<value><![CDATA[Layout- und Datensatz-XML laden]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
@@ -50,31 +54,31 @@
 	</definition>
 	<definition>
 		<key>error_nothing_to_do</key>
-		<value><![CDATA[Achtung: Bitte stellen Sie, was Sie sichern oder importieren wollen!]]></value>
+		<value><![CDATA[Warnung: Bitte legen Sie fest, was Sie sichern oder importieren möchten!]]></value>
 	</definition>
 	<definition>
 		<key>error_empty</key>
-		<value><![CDATA[Achtung: Die Datei hochgeladen Sie war leer oder hatte falschen Dateityp!]]></value>
+		<value><![CDATA[Warnung: Die hochgeladene Datei war leer oder hatte einen falschen Dateityp!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload</key>
-		<value><![CDATA[Achtung: Die Datei wurde nicht hochgeladen. Prüfen Sie post_max_size oder file_upload Richtlinien Ihrer php.ini-Datei.]]></value>
+		<value><![CDATA[Warnung: Die Datei wurde nicht hochgeladen. Überprüfen Sie die post_max_size- oder file_upload-Direktiven Ihrer php.ini-Datei.]]></value>
 	</definition>
 	<definition>
 		<key>error_xml</key>
-		<value><![CDATA[Achtung: Die Datei, die Sie nicht als XML hochgeladen wird geladen! Bitte finden Sie unter Log-Datei für Details]]></value>
+		<value><![CDATA[Warnung: Die von Ihnen hochgeladene Datei wurde nicht als XML geladen! Bitte sehen Sie die Protokolldatei für Details an.]]></value>
 	</definition>
 	<definition>
 		<key>entry_backup_code</key>
-		<value><![CDATA[Sicherungscode (%s) <br/><span class="help">Unterverzeichnisse mit Code Dateien ohne dynamische Dateien wie Cache, Log Dateien, Bilder, Ressourcen usw.</span>]]></value>
+		<value><![CDATA[Code-Backup (%s)<br/><span class="help">Unterverzeichnisse mit Code-Dateien, ausgenommen dynamische Dateien wie Cache, Protokolldateien, Bilder, Ressourcen usw.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_backup_content</key>
-		<value><![CDATA[Backup - Inhalt (%s) <br/><span class="help">Unterverzeichnisse mit dynamischen Dateien wie Bilder, Downloads, Ressourcen usw.</span>]]></value>
+		<value><![CDATA[Backup-Inhalt (%s)<br/><span class="help">Unterverzeichnisse mit dynamischen Dateien wie Bilder, Downloads, Ressourcen usw.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_compress_backup</key>
-		<value><![CDATA[Compress Backup-Verzeichnis %s? <br/><span class="help">Archiv * .tar.gz wird erstellt. <br/> Anmerkung: Es könnte eine lange Zeit in Anspruch nehmen. Ansonsten können Sie die Komprimierung deaktivieren und die Sicherung in Ordner finden %s</span>]]></value>
+		<value><![CDATA[Backup-Verzeichnis %s komprimieren?<br/><span class="help">Ein *.tar.gz-Archiv wird erstellt.<br/>Hinweis: Dies kann lange dauern. Alternativ können Sie die Komprimierung deaktivieren und Ihr Backup im Ordner %s finden.</span>]]></value>
 	</definition>
 	<definition>
 		<key>button_backup_now</key>
@@ -82,26 +86,26 @@
 	</definition>
 	<definition>
 		<key>button_load</key>
-		<value><![CDATA[Belastung]]></value>
+		<value><![CDATA[Laden]]></value>
 	</definition>
 	<definition>
 		<key>button_backup_schedule</key>
-		<value><![CDATA[Backup planen]]></value>
+		<value><![CDATA[Sicherung planen]]></value>
 	</definition>
 	<definition>
 		<key>text_success_scheduled</key>
-		<value><![CDATA[Erfolg: Sie haben erfolgreich Backup-Task geplant! <a href="%s">Siehe Einzelheiten</a>]]></value>
+		<value><![CDATA[Erfolg: Sie haben die geplante Sicherungsaufgabe erfolgreich erstellt! <a href="%s">Details anzeigen</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_fail_note</key>
-		<value><![CDATA[Hinweis: Dieser Vorgang Ausführung hängt von Ihrer AbanteCart Datengröße sowie Ihre Server Größe des virtuellen Speichers. Wenn Prozess mit Fehlern beendet, überprüfen Verzeichnis %s Berechtigungen festgelegt werden, um -rw-rw-rw und <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP</a> - <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">Speichereinstellung]</a>. Speichereinstellung oder Lauf Sicherung erhöhen manuell, wenn Prozess noch scheitern.]]></value>
+		<value><![CDATA[HINWEIS: Die Ausführung dieses Prozesses hängt von der Größe Ihrer AbanteCart-Daten sowie der Größe des virtuellen Speichers Ihres Servers ab. Falls der Prozess mit Fehlern abbricht, prüfen Sie, ob die Berechtigungen des Verzeichnisses %s auf -rw-rw-rw gesetzt sind und <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>. Erhöhen Sie das Memory-Limit oder führen Sie das Backup manuell aus, falls der Prozess weiterhin fehlschlägt.]]></value>
 	</definition>
 	<definition>
 		<key>backup_complete_text_file</key>
-		<value><![CDATA[Zum Herunterladen der Backup-Datei finden Sie unter <a href="#admin#rt=tool/install_upgrade_history">Installieren / Upgrade</a> - <a href="#admin#rt=tool/install_upgrade_history">Geschichte</a>]]></value>
+		<value><![CDATA[Um die Backup-Datei herunterzuladen, besuchen Sie bitte <a href="#admin#rt=tool/install_upgrade_history">Installations-/Aktualisierungshistorie</a>]]></value>
 	</definition>
 	<definition>
 		<key>backup_complete_text_dir</key>
-		<value><![CDATA[Verzeichnis mit Backup-Dateien ist %s]]></value>
+		<value><![CDATA[Verzeichnis mit Sicherungsdateien ist %s</a>]]></value>
 	</definition>
 </definitions>

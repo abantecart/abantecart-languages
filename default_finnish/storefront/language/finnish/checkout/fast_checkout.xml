@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[Kärry]]></value>
+		<value><![CDATA[Ostoskori]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_basket</key>
@@ -10,8 +10,7 @@
 	</definition>
 	<definition>
 		<key>text_accept_agree</key>
-		<value><![CDATA[
- Napsauttamalla Vahvista tilaus hyväksyt ja hyväksyt kaikki ehdot]]></value>
+		<value><![CDATA[Napsauttamalla Vahvista tilaus hyväksyt ja sitoudut noudattamaan kaikkia ehtoja]]></value>
 	</definition>
 	<definition>
 		<key>text_cart_items</key>
@@ -35,7 +34,7 @@
 	</definition>
 	<definition>
 		<key>text_confirm</key>
-		<value><![CDATA[Vahvistaa]]></value>
+		<value><![CDATA[Vahvista]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping_address</key>
@@ -47,7 +46,7 @@
 	</definition>
 	<definition>
 		<key>text_payment_address</key>
-		<value><![CDATA[Maksuosoite]]></value>
+		<value><![CDATA[Laskutusosoite]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_method</key>
@@ -55,11 +54,11 @@
 	</definition>
 	<definition>
 		<key>text_change</key>
-		<value><![CDATA[Muuttaa]]></value>
+		<value><![CDATA[Muuta]]></value>
 	</definition>
 	<definition>
 		<key>text_comment</key>
-		<value><![CDATA[Kommenttisi]]></value>
+		<value><![CDATA[Sinun kommenttisi]]></value>
 	</definition>
 	<definition>
 		<key>text_discount</key>
@@ -83,7 +82,7 @@
 	</definition>
 	<definition>
 		<key>column_total</key>
-		<value><![CDATA[Kokonais]]></value>
+		<value><![CDATA[Yhteensä]]></value>
 	</definition>
 	<definition>
 		<key>text_add_coupon</key>
@@ -91,15 +90,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_name</key>
-		<value><![CDATA[Nopea kassa]]></value>
+		<value><![CDATA[Pikakassa]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_fast_checkout_title</key>
-		<value><![CDATA[Nopea kassa]]></value>
+		<value><![CDATA[Pikakassa]]></value>
 	</definition>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Nopea kassa]]></value>
+		<value><![CDATA[Pikakassa]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_buy_now</key>
@@ -107,15 +106,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_incorrect_request</key>
-		<value><![CDATA[Oho! Väärä pyyntö.]]></value>
+		<value><![CDATA[Hups! Virheellinen pyyntö.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_handler</key>
-		<value><![CDATA[Maksunkäsittelijää ei löydy! Tarkista tiedostot %s tai %s]]></value>
+		<value><![CDATA[Maksunkäsittelijää ei löytynyt! Tarkista tiedostot %s tai %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_handler</key>
-		<value><![CDATA[Maksuprosessoria ei ole saatavilla.]]></value>
+		<value><![CDATA[Maksunvälittäjää ei ole saatavilla.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unknown_payment</key>
@@ -123,19 +122,19 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unexpected</key>
-		<value><![CDATA[Tapahtui odottamaton virhe! Yritä uudelleen.]]></value>
+		<value><![CDATA[Odottamaton virhe on tapahtunut! Yritä uudelleen.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unexpected_log</key>
-		<value><![CDATA[Tapahtui odottamaton virhe. Tilaustietoja ei voida muodostaa taulukon %s perusteella]]></value>
+		<value><![CDATA[Odottamaton virhe on tapahtunut. Tilauksen tietoja ei voitu muodostaa taulukon perusteella: %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_handler_object</key>
-		<value><![CDATA[Tilausta ei voi vahvistaa. Maksunkäsittelijä ei ole objekti.]]></value>
+		<value><![CDATA[Tilausta ei voida vahvistaa. Maksunkäsittelijä ei ole objekti.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_system_issue</key>
-		<value><![CDATA[Oho! Järjestelmäongelma. Ota yhteyttä sivuston ylläpitäjään.]]></value>
+		<value><![CDATA[Hups! Järjestelmävirhe. Ota yhteyttä sivuston ylläpitäjään.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_payment</key>
@@ -143,19 +142,19 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_product_option</key>
-		<value><![CDATA[Tuotevaihtoehtovirhe. %s]]></value>
+		<value><![CDATA[Tuotevaihtoehdon virhe. %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_address</key>
-		<value><![CDATA[Tililtäsi ei löytynyt osoitteita! Lisää osoite tiliisi.]]></value>
+		<value><![CDATA[Tililläsi ei ole osoitteita! Lisää osoite tilillesi.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_low_balance</key>
-		<value><![CDATA[Sinulla ei ole tarpeeksi saldoa tälle tilaukselle!]]></value>
+		<value><![CDATA[Sinulla ei ole riittävästi tilisaldoa tähän tilaukseen!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_pay</key>
-		<value><![CDATA[Tilin luottomaksun käsittelyssä on ongelma! Yritä uudelleen.]]></value>
+		<value><![CDATA[Tililuottomaksun käsittelyssä ilmeni virhe! Yritä uudelleen.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_payment_address</key>
@@ -175,11 +174,11 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_phone</key>
-		<value><![CDATA[Yhteyspuhelinnumeroasi ei ole annettu.]]></value>
+		<value><![CDATA[Sinun yhteydenottopuhelinnumeroasi ei ole annettu.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_owner</key>
-		<value><![CDATA[Nimeäsi ei ole annettu.]]></value>
+		<value><![CDATA[Sinun nimesi ei ole annettu.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_email</key>
@@ -195,27 +194,27 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_expire</key>
-		<value><![CDATA[Luottokorin viimeistä voimassaolopäivää ei ole annettu tai se on virheellinen.]]></value>
+		<value><![CDATA[Luottokortin vanhentumispäivämäärää ei ole annettu tai se on virheellinen.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_apply</key>
-		<value><![CDATA[Luottokorin viimeistä voimassaolopäivää ei ole annettu tai se on virheellinen.]]></value>
+		<value><![CDATA[Luottokortin voimassaolopäivämäärä ei ole annettu tai se on virheellinen.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_account_created</key>
-		<value><![CDATA[Tili on luotu ja kirjautumisohjeet lähetetty sähköpostiisi.]]></value>
+		<value><![CDATA[Tili on luotu ja kirjautumisohjeet on lähetetty sähköpostiisi.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_mail_login_password</key>
-		<value><![CDATA[Kirjautumisnimesi: %s <br/> Salasanasi: %s]]></value>
+		<value><![CDATA[Käyttäjätunnuksesi: %s <br>Salasanasi: %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_order_success_message</key>
-		<value><![CDATA[Menestys! Tilauksesi on luotu onnistuneesti!]]></value>
+		<value><![CDATA[Onnistui! Tilauksesi on onnistuneesti luotu!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_order_processing_message</key>
-		<value><![CDATA[Menestys! Tilaus nyt käsittelyssä!]]></value>
+		<value><![CDATA[Onnistui! Tilaus käsitellään nyt!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_payment_address</key>
@@ -231,7 +230,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay_with</key>
-		<value><![CDATA[Maksa:]]></value>
+		<value><![CDATA[Maksa maksutavalla:]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_credit_card</key>
@@ -239,15 +238,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_account_credit</key>
-		<value><![CDATA[Tilin luotto (%s)]]></value>
+		<value><![CDATA[Tilin hyvitys (%s)]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay</key>
-		<value><![CDATA[Maksaa]]></value>
+		<value><![CDATA[Maksa]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_enter_cc_details</key>
-		<value><![CDATA[Anna luottokortin tiedot alle]]></value>
+		<value><![CDATA[Syötä luottokorttitiedot alla.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_your_balance</key>
@@ -259,15 +258,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_telephone_placeholder</key>
-		<value><![CDATA[Yhteyshenkilön puhelinnumero esim. +1 212 555 5555]]></value>
+		<value><![CDATA[Yhteystelefoninumero Esim. +1.212.555.5555]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_same_as_shipping_address</key>
-		<value><![CDATA[Sama toimitukseen]]></value>
+		<value><![CDATA[Sama toimitukselle]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_enter_address</key>
-		<value><![CDATA[Jatkaa]]></value>
+		<value><![CDATA[Jatka]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_card_number</key>
@@ -283,15 +282,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_please_login</key>
-		<value><![CDATA[Ole hyvä ja kirjaudu alla olevilla tiedoilla]]></value>
+		<value><![CDATA[Kirjaudu sisään alla olevilla tiedoilla.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_login</key>
-		<value><![CDATA[KIRJAUDU]]></value>
+		<value><![CDATA[Kirjaudu sisään]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_reset_login</key>
-		<value><![CDATA[Rekisteröidy / Palauta sisäänkirjautuminen]]></value>
+		<value><![CDATA[Rekisteröidy / Nollaa kirjautuminen]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_login</key>
@@ -315,7 +314,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_is_completed</key>
-		<value><![CDATA[Tilaus on valmis!]]></value>
+		<value><![CDATA[Tilaus on suoritettu!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_thank_you</key>
@@ -327,35 +326,35 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_downloads</key>
-		<value><![CDATA[Tilaa lataukset]]></value>
+		<value><![CDATA[Tilauslataukset]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_order_details</key>
-		<value><![CDATA[Tilauksen tiedot]]></value>
+		<value><![CDATA[Tilaustiedot]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_delivery</key>
-		<value><![CDATA[Ole hyvä ja valitse toimitusvaihtoehdot]]></value>
+		<value><![CDATA[Valitse toimitusvaihtoehdot]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_payment</key>
-		<value><![CDATA[Valitse maksutapa]]></value>
+		<value><![CDATA[Valitse maksuvaihtoehto]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_download_pending</key>
-		<value><![CDATA[Tilauksesi tuotteen lataus ei ole vielä saatavilla. Odota tilauksen vahvistusta!]]></value>
+		<value><![CDATA[Tuotteen lataus tilauksessasi ei ole vielä saatavilla. Odota tilauksen vahvistusta!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_info_duplicate_order</key>
-		<value><![CDATA[Näyttää siltä, että olet juuri tehnyt toisen tilauksen. <a href="%s">Katso tilaustiedot</a>]]></value>
+		<value><![CDATA[Näyttää siltä, että olet juuri tehnyt toisen tilauksen. <a href="%s">Katso tilauksen tiedot</a>]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_email_start_download</key>
-		<value><![CDATA[Voit käyttää latauksiasi alla olevasta linkistä.]]></value>
+		<value><![CDATA[Voit käyttää lataustasi(latauksiasi) alla olevan linkin kautta.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_email_order_downloads</key>
-		<value><![CDATA[Pääset tilauslatauksiin alla olevasta linkistä.]]></value>
+		<value><![CDATA[Voit käyttää tilauksen latauksia alla olevan linkin kautta.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_download_subject</key>
@@ -367,11 +366,11 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_remove</key>
-		<value><![CDATA[Poistaa]]></value>
+		<value><![CDATA[Poista]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_coupon_code</key>
-		<value><![CDATA[Anna kuponkikoodi]]></value>
+		<value><![CDATA[Syötä kuponkikoodi]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_comment</key>
@@ -399,7 +398,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_email_placeholder</key>
-		<value><![CDATA[Sähköpostisi]]></value>
+		<value><![CDATA[Sähköpostiosoitteesi]]></value>
 	</definition>
 	<definition>
 		<key>button_history</key>
@@ -407,27 +406,27 @@
 	</definition>
 	<definition>
 		<key>error_postcode</key>
-		<value><![CDATA[Postinumero väärä]]></value>
+		<value><![CDATA[Virheellinen postinumero]]></value>
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[Kärry]]></value>
+		<value><![CDATA[Ostoskori]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_comment_placeholder</key>
-		<value><![CDATA[Lisää tilauskommentti]]></value>
+		<value><![CDATA[Lisää tilauksen kommentti]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_not_enough_stock</key>
-		<value><![CDATA[Ei tarpeeksi varastoa]]></value>
+		<value><![CDATA[Varastoa ei ole tarpeeksi]]></value>
 	</definition>
 	<definition>
 		<key>order_confirm</key>
-		<value><![CDATA[Tilaus Vahvista]]></value>
+		<value><![CDATA[Vahvista tilaus]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_login_or_email</key>
-		<value><![CDATA[Kirjautumisnimi tai sähköpostiosoite]]></value>
+		<value><![CDATA[Käyttäjätunnus tai sähköpostiosoite]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_password</key>
@@ -435,27 +434,25 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_authenticating</key>
-		<value><![CDATA[Todennetaan... ]]></value>
+		<value><![CDATA[Todennetaan ...]]></value>
 	</definition>
 	<definition>
 		<key>text_message_account</key>
-		<value><![CDATA[
-<p> Tilauksesi #%s on luotu!</p> 
-<p> Voit tarkastella tilauksesi tietoja siirtymällä <a href="%s">laskusivulle</a> .</p> 
-<p> Osoita kaikki kysymyksesi <a href="%s">myymälän omistajalle</a> .</p> 
-<p> Kiitos ostoksista kanssamme!</p>]]></value>
+		<value><![CDATA[<p>Sinun tilauksesi #%s on luotu!</p>
+<p>Voit tarkastella tilauksesi tietoja siirtymällä <a href="%s">laskusivulle</a>.</p>
+<p>Lähetä mahdolliset kysymyksesi <a href="%s">kaupan omistajalle</a>.</p>
+<p>Kiitos, että asioit kanssamme!</p>]]></value>
 	</definition>
 	<definition>
 		<key>text_message_guest</key>
-		<value><![CDATA[
-<p> Tilauksesi on käsitelty onnistuneesti!</p> 
-<p> Voit tarkastella tilauksesi tietoja siirtymällä <a href="%s">laskusivulle</a> .</p> 
-<p> Osoita kaikki kysymyksesi <a href="%s">myymälän omistajalle</a> .</p> 
-<p> Kiitos ostoksista kanssamme!</p>]]></value>
+		<value><![CDATA[<p>Tilauksesi on käsitelty onnistuneesti!</p>
+<p>Voit tarkastella tilauksesi tietoja siirtymällä <a href="%s">laskusivulle</a>.</p>
+<p>Lähetä mahdolliset kysymyksesi <a href="%s">kaupan omistajalle</a>.</p>
+<p>Kiitos ostoksistasi!</p>]]></value>
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[Kärry]]></value>
+		<value><![CDATA[Ostoskori]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
@@ -467,19 +464,19 @@
 	</definition>
 	<definition>
 		<key>text_guest</key>
-		<value><![CDATA[Vieras Checkout]]></value>
+		<value><![CDATA[Osta ilman tiliä]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm</key>
-		<value><![CDATA[Vahvistaa]]></value>
+		<value><![CDATA[Vahvista]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Menestys]]></value>
+		<value><![CDATA[Onnistuminen]]></value>
 	</definition>
 	<definition>
 		<key>text_message_failed_order</key>
-		<value><![CDATA[Oho! Tapahtumassasi on ollut ongelmia. Järjestelmänvalvoja vahvistaa tilauksesi manuaalisesti.]]></value>
+		<value><![CDATA[Hups! Maksutapahtumassasi ilmeni ongelma. Tilauksesi tarkistetaan manuaalisesti ylläpitäjän toimesta.]]></value>
 	</definition>
 	<definition>
 		<key>text_title_failed_order_to_admin</key>
@@ -487,6 +484,6 @@
 	</definition>
 	<definition>
 		<key>text_message_failed_order_to_admin</key>
-		<value><![CDATA[Maksun vahvistuksen vastaus epäonnistui tai puuttuu. Manuaalinen vahvistus vaaditaan!]]></value>
+		<value><![CDATA[Maksunvarmistuksen vastaus epäonnistui tai puuttuu. Manuaalinen tarkistus vaaditaan!]]></value>
 	</definition>
 </definitions>

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[命令]]></value>
+		<value><![CDATA[订单]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_details</key>
-		<value><![CDATA[编辑订单详细信息]]></value>
+		<value><![CDATA[编辑订单详情]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_shipping</key>
-		<value><![CDATA[编辑送货地址]]></value>
+		<value><![CDATA[编辑配送地址]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_payment</key>
@@ -22,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：订单明细已更新！]]></value>
+		<value><![CDATA[成功：订单详细信息已更新！]]></value>
 	</definition>
 	<definition>
 		<key>text_invoice</key>
@@ -30,11 +30,11 @@
 	</definition>
 	<definition>
 		<key>text_order_id</key>
-		<value><![CDATA[订单ID：]]></value>
+		<value><![CDATA[订单编号:]]></value>
 	</definition>
 	<definition>
 		<key>text_invoice_id</key>
-		<value><![CDATA[发票号码。：]]></value>
+		<value><![CDATA[发票编号：]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
@@ -54,15 +54,15 @@
 	</definition>
 	<definition>
 		<key>text_to</key>
-		<value><![CDATA[至]]></value>
+		<value><![CDATA[到]]></value>
 	</definition>
 	<definition>
 		<key>text_ship_to</key>
-		<value><![CDATA[舰（如不同的地址）]]></value>
+		<value><![CDATA[寄送至（如果地址不同）]]></value>
 	</definition>
 	<definition>
 		<key>text_missing_orders</key>
-		<value><![CDATA[缺少订单]]></value>
+		<value><![CDATA[丢失的订单]]></value>
 	</definition>
 	<definition>
 		<key>text_wait</key>
@@ -70,11 +70,11 @@
 	</definition>
 	<definition>
 		<key>column_order</key>
-		<value><![CDATA[订单ID]]></value>
+		<value><![CDATA[订单编号]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[顾客姓名]]></value>
+		<value><![CDATA[客户姓名]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -86,7 +86,7 @@
 	</definition>
 	<definition>
 		<key>column_total</key>
-		<value><![CDATA[总]]></value>
+		<value><![CDATA[总计]]></value>
 	</definition>
 	<definition>
 		<key>column_product</key>
@@ -94,7 +94,7 @@
 	</definition>
 	<definition>
 		<key>column_model</key>
-		<value><![CDATA[模型]]></value>
+		<value><![CDATA[型号]]></value>
 	</definition>
 	<definition>
 		<key>column_quantity</key>
@@ -103,6 +103,10 @@
 	<definition>
 		<key>column_price</key>
 		<value><![CDATA[单价]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[库存单位]]></value>
 	</definition>
 	<definition>
 		<key>column_download</key>
@@ -126,27 +130,27 @@
 	</definition>
 	<definition>
 		<key>column_notify</key>
-		<value><![CDATA[客户通知]]></value>
+		<value><![CDATA[客户已通知]]></value>
 	</definition>
 	<definition>
 		<key>column_comment</key>
-		<value><![CDATA[客户的订单评论]]></value>
+		<value><![CDATA[客户的订单备注]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_id</key>
-		<value><![CDATA[订单ID：]]></value>
+		<value><![CDATA[订单编号：]]></value>
 	</definition>
 	<definition>
 		<key>entry_invoice_id</key>
-		<value><![CDATA[发票编号：]]></value>
+		<value><![CDATA[发票编号:]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer</key>
-		<value><![CDATA[顾客：]]></value>
+		<value><![CDATA[客户：]]></value>
 	</definition>
 	<definition>
 		<key>entry_firstname</key>
@@ -154,11 +158,11 @@
 	</definition>
 	<definition>
 		<key>entry_lastname</key>
-		<value><![CDATA[姓：]]></value>
+		<value><![CDATA[姓氏：]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_group</key>
-		<value><![CDATA[客户组：]]></value>
+		<value><![CDATA[客户组:]]></value>
 	</definition>
 	<definition>
 		<key>entry_email</key>
@@ -166,7 +170,7 @@
 	</definition>
 	<definition>
 		<key>entry_ip</key>
-		<value><![CDATA[IP地址：]]></value>
+		<value><![CDATA[IP 地址:]]></value>
 	</definition>
 	<definition>
 		<key>entry_telephone</key>
@@ -178,7 +182,7 @@
 	</definition>
 	<definition>
 		<key>entry_store_name</key>
-		<value><![CDATA[店铺名称：]]></value>
+		<value><![CDATA[商店名称：]]></value>
 	</definition>
 	<definition>
 		<key>entry_store_url</key>
@@ -190,15 +194,15 @@
 	</definition>
 	<definition>
 		<key>entry_shipping_method</key>
-		<value><![CDATA[邮寄方式：]]></value>
+		<value><![CDATA[配送方式:]]></value>
 	</definition>
 	<definition>
 		<key>entry_payment_method</key>
-		<value><![CDATA[付款方法：]]></value>
+		<value><![CDATA[支付方式：]]></value>
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[原始订单总计：]]></value>
+		<value><![CDATA[原始订单总额：]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_status</key>
@@ -206,35 +210,35 @@
 	</definition>
 	<definition>
 		<key>entry_comment</key>
-		<value><![CDATA[评论：]]></value>
+		<value><![CDATA[评论:]]></value>
 	</definition>
 	<definition>
 		<key>entry_company</key>
-		<value><![CDATA[公司：]]></value>
+		<value><![CDATA[公司:]]></value>
 	</definition>
 	<definition>
 		<key>entry_address_1</key>
-		<value><![CDATA[地址1：]]></value>
+		<value><![CDATA[地址 1：]]></value>
 	</definition>
 	<definition>
 		<key>entry_address_2</key>
-		<value><![CDATA[地址2：]]></value>
+		<value><![CDATA[地址 2：]]></value>
 	</definition>
 	<definition>
 		<key>entry_postcode</key>
-		<value><![CDATA[ZIP /邮编：]]></value>
+		<value><![CDATA[邮编/邮政编码:]]></value>
 	</definition>
 	<definition>
 		<key>entry_city</key>
-		<value><![CDATA[市：]]></value>
+		<value><![CDATA[城市:]]></value>
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[地区/国家：]]></value>
+		<value><![CDATA[地区 / 州：]]></value>
 	</definition>
 	<definition>
 		<key>entry_zone_code</key>
-		<value><![CDATA[地区/国家代码：]]></value>
+		<value><![CDATA[地区 / 州 代码：]]></value>
 	</definition>
 	<definition>
 		<key>entry_country</key>
@@ -242,7 +246,7 @@
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[订单状态：]]></value>
+		<value><![CDATA[订单状态:]]></value>
 	</definition>
 	<definition>
 		<key>entry_notify</key>
@@ -250,19 +254,19 @@
 	</definition>
 	<definition>
 		<key>entry_append</key>
-		<value><![CDATA[追加评论：]]></value>
+		<value><![CDATA[追加评论:]]></value>
 	</definition>
 	<definition>
 		<key>entry_add_product</key>
-		<value><![CDATA[添加产品：]]></value>
+		<value><![CDATA[添加可用产品：]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改订单！]]></value>
+		<value><![CDATA[警告：您没有修改订单的权限！]]></value>
 	</definition>
 	<definition>
 		<key>error_order_load</key>
-		<value><![CDATA[警告：这样的ID号订购！]]></value>
+		<value><![CDATA[警告：没有此ID的订单！]]></value>
 	</definition>
 	<definition>
 		<key>text_order_summary</key>
@@ -270,7 +274,11 @@
 	</definition>
 	<definition>
 		<key>tab_order_details</key>
-		<value><![CDATA[订单详细信息]]></value>
+		<value><![CDATA[订单详情]]></value>
+	</definition>
+	<definition>
+		<key>tab_address</key>
+		<value><![CDATA[订单地址]]></value>
 	</definition>
 	<definition>
 		<key>tab_history</key>
@@ -278,11 +286,11 @@
 	</definition>
 	<definition>
 		<key>tab_files</key>
-		<value><![CDATA[为了文件]]></value>
+		<value><![CDATA[订单文件]]></value>
 	</definition>
 	<definition>
 		<key>tab_payment_details</key>
-		<value><![CDATA[付款详情]]></value>
+		<value><![CDATA[支付详情]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_files</key>
@@ -294,7 +302,7 @@
 	</definition>
 	<definition>
 		<key>order_download_history</key>
-		<value><![CDATA[下载历史记录]]></value>
+		<value><![CDATA[下载历史]]></value>
 	</definition>
 	<definition>
 		<key>text_time</key>
@@ -310,19 +318,19 @@
 	</definition>
 	<definition>
 		<key>text_download_percent</key>
-		<value><![CDATA[下载百分比（％）]]></value>
+		<value><![CDATA[下载百分比]]></value>
 	</definition>
 	<definition>
 		<key>text_download_expired</key>
-		<value><![CDATA[截止日期]]></value>
+		<value><![CDATA[日期已过期]]></value>
 	</definition>
 	<definition>
 		<key>text_download_remaining_count</key>
-		<value><![CDATA[剩余计数]]></value>
+		<value><![CDATA[剩余数量]]></value>
 	</definition>
 	<definition>
 		<key>text_order_status_required</key>
-		<value><![CDATA[订单状态“〜”必需]]></value>
+		<value><![CDATA[订单状态 "%s" 为必填项]]></value>
 	</definition>
 	<definition>
 		<key>text_select_product</key>
@@ -330,11 +338,11 @@
 	</definition>
 	<definition>
 		<key>text_push_download</key>
-		<value><![CDATA[- 推下载 -]]></value>
+		<value><![CDATA[- 点击下载 -]]></value>
 	</definition>
 	<definition>
 		<key>text_add_product_to_order</key>
-		<value><![CDATA[供应产品订单＃〜]]></value>
+		<value><![CDATA[将商品添加到订单 #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_order_product</key>
@@ -342,39 +350,31 @@
 	</definition>
 	<definition>
 		<key>attention_check_total</key>
-		<value><![CDATA[注：订购产品的细节发生了变化。总被自动重新计算。审查是必需的。]]></value>
+		<value><![CDATA[注意：订单产品详细信息已更改。总金额已自动重新计算。需要审核。]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_add</key>
-		<value><![CDATA[新的量加入总计算]]></value>
+		<value><![CDATA[将新金额添加到总计算中]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_title</key>
-		<value><![CDATA[标题上显示]]></value>
+		<value><![CDATA[显示的标题]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_amount</key>
-		<value><![CDATA[量]]></value>
+		<value><![CDATA[金额]]></value>
 	</definition>
 	<definition>
 		<key>text_recalc</key>
-		<value><![CDATA[重新计算使用的设置]]></value>
+		<value><![CDATA[使用设置重新计算]]></value>
 	</definition>
 	<definition>
 		<key>entry_im</key>
-		<value><![CDATA[IM：]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[库存单位]]></value>
-	</definition>
-	<definition>
-		<key>tab_address</key>
-		<value><![CDATA[订单地址]]></value>
+		<value><![CDATA[即时消息:]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_locations</key>
-		<value><![CDATA[库存地点：]]></value>
+		<value><![CDATA[库存位置：]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_map</key>
@@ -382,6 +382,6 @@
 	</definition>
 	<definition>
 		<key>text_enable_google_map</key>
-		<value><![CDATA[要在交互式 Google 地图上查看地址，请在常规设置中提供 Google API 密钥]]></value>
+		<value><![CDATA[若要在交互式 Google 地图上查看地址，请在常规设置中提供 Google API 密钥。]]></value>
 	</definition>
 </definitions>

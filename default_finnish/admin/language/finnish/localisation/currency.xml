@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,15 +6,15 @@
 	</definition>
 	<definition>
 		<key>text_currency</key>
-		<value><![CDATA[valuutta]]></value>
+		<value><![CDATA[Valuutta]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Sinulla on muutettu valuuttojen!]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut valuuttoja!]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[valuutta Otsikko]]></value>
+		<value><![CDATA[Valuutan otsikko]]></value>
 	</definition>
 	<definition>
 		<key>column_code</key>
@@ -34,31 +34,31 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Toiminta]]></value>
+		<value><![CDATA[Toiminto]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Valuutta Otsikko:]]></value>
+		<value><![CDATA[Valuutan nimi:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[Koodi: <br/><span class="help">Älä muuta, jos tämä on oletusarvo valuutassa.</span>]]></value>
+		<value><![CDATA[Koodi:<br /><span class="help">Älä muuta, jos tämä on oletusvaluuttaasi.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_value</key>
-		<value><![CDATA[Arvo: <br/><span class="help">Aseta 1.00000 jos tämä on oletusarvo valuutassa.</span>]]></value>
+		<value><![CDATA[Arvo:<br /><span class="help">Aseta arvoksi 1.00000, jos tämä on oletusvaluuttasi.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_symbol_left</key>
-		<value><![CDATA[Symboli vasen:]]></value>
+		<value><![CDATA[Symboli vasemmalla:]]></value>
 	</definition>
 	<definition>
 		<key>entry_symbol_right</key>
-		<value><![CDATA[Symboli Right:]]></value>
+		<value><![CDATA[Symboli oikealla:]]></value>
 	</definition>
 	<definition>
 		<key>entry_decimal_place</key>
-		<value><![CDATA[Desimaalin tarkkuudella:]]></value>
+		<value><![CDATA[Desimaalien määrä:]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -66,26 +66,26 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata valuuttojen!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata valuuttoja!]]></value>
 	</definition>
 	<definition>
 		<key>error_title</key>
-		<value><![CDATA[Valuutta Otsikko on oltava 2 ja 32 merkkiä!]]></value>
+		<value><![CDATA[Valuutan nimen pituuden on oltava 2–32 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[Valuuttakoodi saa olla 3 merkkiä!]]></value>
+		<value><![CDATA[Valuuttakoodin on oltava 3 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[Varoitus: Tämä valuutta ei voi poistaa, koska se on tällä hetkellä määrätty oletussäilössä valuutta!]]></value>
+		<value><![CDATA[Varoitus: Tätä valuuttaa ei voi poistaa, koska se on tällä hetkellä asetettu kaupan oletusvaluutaksi!]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[Varoitus: Tämä valuutta ei voi poistaa, koska se on osoitettu tällä hetkellä %s myymälöissä!]]></value>
+		<value><![CDATA[Varoitus: Tätä valuuttaa ei voi poistaa, koska se on tällä hetkellä liitetty %s kauppoihin!]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[Varoitus: Tämä valuutta ei voi poistaa, koska se on osoitettu tällä hetkellä %s tilauksia!]]></value>
+		<value><![CDATA[Varoitus: Tätä valuuttaa ei voi poistaa, sillä se on tällä hetkellä liitetty %s tilauksiin!]]></value>
 	</definition>
 </definitions>

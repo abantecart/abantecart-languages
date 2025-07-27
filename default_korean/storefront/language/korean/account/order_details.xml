@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[주문 세부 정보]]></value>
+		<value><![CDATA[주문 상세 정보]]></value>
 	</definition>
 	<definition>
 		<key>text_account</key>
@@ -34,7 +34,7 @@
 	</definition>
 	<definition>
 		<key>text_mobile_phone</key>
-		<value><![CDATA[휴대전화:]]></value>
+		<value><![CDATA[휴대폰:]]></value>
 	</definition>
 	<definition>
 		<key>text_fax</key>
@@ -50,7 +50,7 @@
 	</definition>
 	<definition>
 		<key>text_payment_address</key>
-		<value><![CDATA[지불 주소]]></value>
+		<value><![CDATA[결제 주소]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_method</key>
@@ -62,7 +62,7 @@
 	</definition>
 	<definition>
 		<key>text_product</key>
-		<value><![CDATA[제품]]></value>
+		<value><![CDATA[상품]]></value>
 	</definition>
 	<definition>
 		<key>text_model</key>
@@ -70,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>text_sku</key>
-		<value><![CDATA[제품유형]]></value>
+		<value><![CDATA[재고 관리 단위]]></value>
 	</definition>
 	<definition>
 		<key>text_quantity</key>
@@ -82,23 +82,23 @@
 	</definition>
 	<definition>
 		<key>text_total</key>
-		<value><![CDATA[총]]></value>
+		<value><![CDATA[합계]]></value>
 	</definition>
 	<definition>
 		<key>text_comment</key>
-		<value><![CDATA[주문 코멘트]]></value>
+		<value><![CDATA[주문 메모]]></value>
 	</definition>
 	<definition>
 		<key>text_image</key>
-		<value><![CDATA[영상]]></value>
+		<value><![CDATA[이미지]]></value>
 	</definition>
 	<definition>
 		<key>text_error</key>
-		<value><![CDATA[요청하신 주문을 찾을 수 없습니다!]]></value>
+		<value><![CDATA[귀하가 요청하신 주문을 찾을 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>column_date_added</key>
-		<value><![CDATA[추가된 날짜]]></value>
+		<value><![CDATA[등록일]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -106,7 +106,7 @@
 	</definition>
 	<definition>
 		<key>column_comment</key>
-		<value><![CDATA[고객님의 주문 코멘트]]></value>
+		<value><![CDATA[고객의 주문 코멘트]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation</key>
@@ -114,12 +114,11 @@
 	</definition>
 	<definition>
 		<key>text_request_cancellation_from_customer</key>
-		<value><![CDATA[고객에게 주문 취소 요청 ]]></value>
+		<value><![CDATA[고객에게 주문 취소를 요청]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_confirm</key>
-		<value><![CDATA[
- 예를 들어 상품이 배송된 경우 등 일부 경우에는 취소 요청이 이루어지지 않을 수 있습니다. 계속하시겠습니까?]]></value>
+		<value><![CDATA[귀하의 취소 요청은 일부 경우(예: 상품이 이미 배송된 경우) 처리되지 않을 수 있습니다. 계속하시겠습니까?]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_success</key>
@@ -127,18 +126,18 @@
 	</definition>
 	<definition>
 		<key>text_order_cancelation_message_title</key>
-		<value><![CDATA[주문번호%s 취소요청]]></value>
+		<value><![CDATA[주문 #%s 취소 요청]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_message_body</key>
-		<value><![CDATA[고객 %s이 주문 #%s에 대한 주문 취소를 요청했습니다. 검토하려면 %s로 이동하세요.]]></value>
+		<value><![CDATA[고객 %s님이 주문 #%s 취소를 요청했습니다. 검토하려면 %s로 이동하세요.]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[이메일 주소가 유효하지 않습니다!]]></value>
+		<value><![CDATA[이메일 주소가 유효해 보이지 않습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_id</key>
-		<value><![CDATA[주문 ID는 필수 입력 항목입니다!]]></value>
+		<value><![CDATA[주문 ID는 필수 필드입니다!]]></value>
 	</definition>
 </definitions>

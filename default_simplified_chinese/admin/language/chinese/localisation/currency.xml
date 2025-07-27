@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,15 +10,15 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已修改的货币！]]></value>
+		<value><![CDATA[成功：您已修改货币！]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[货币名称]]></value>
+		<value><![CDATA[货币标题]]></value>
 	</definition>
 	<definition>
 		<key>column_code</key>
-		<value><![CDATA[码]]></value>
+		<value><![CDATA[代码]]></value>
 	</definition>
 	<definition>
 		<key>column_value</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>column_date_modified</key>
-		<value><![CDATA[最近更新时间]]></value>
+		<value><![CDATA[最后更新]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -34,31 +34,31 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[货币名称：]]></value>
+		<value><![CDATA[货币标题:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[代码： <br/><span class="help">如果这是您的默认货币不要更改。</span>]]></value>
+		<value><![CDATA[代码：<br /><span class="help">如果这是您的默认货币，请勿更改。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_value</key>
-		<value><![CDATA[值： <br/><span class="help">设置为1.00000，如果这是你的默认货币。</span>]]></value>
+		<value><![CDATA[Value:<br /><span class="help">如果这是您的默认货币，请将其设置为1.00000。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_symbol_left</key>
-		<value><![CDATA[符号左：]]></value>
+		<value><![CDATA[左侧符号：]]></value>
 	</definition>
 	<definition>
 		<key>entry_symbol_right</key>
-		<value><![CDATA[符号右：]]></value>
+		<value><![CDATA[右侧符号：]]></value>
 	</definition>
 	<definition>
 		<key>entry_decimal_place</key>
-		<value><![CDATA[小数位数：]]></value>
+		<value><![CDATA[小数位数:]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -66,11 +66,11 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改货币！]]></value>
+		<value><![CDATA[警告: 您没有权限修改货币！]]></value>
 	</definition>
 	<definition>
 		<key>error_title</key>
-		<value><![CDATA[货币名称必须在2到32个字符之间！]]></value>
+		<value><![CDATA[货币标题必须在2到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
@@ -78,14 +78,14 @@
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[警告：因为它是目前指定的默认存储货币该货币不能删除！]]></value>
+		<value><![CDATA[警告：此货币无法删除，因为它当前被指定为默认商店货币！]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[警告：因为它是目前分配给卖场〜此货币不能删除！]]></value>
+		<value><![CDATA[警告：此货币无法删除，因为它目前已分配给 %s 家商店！]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[警告：因为它是目前分配给订单〜此货币不能删除！]]></value>
+		<value><![CDATA[警告：该货币无法删除，因为它当前已分配给 %s 笔订单！]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,11 +10,11 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已修改的用户群体！]]></value>
+		<value><![CDATA[成功：您已修改用户组！]]></value>
 	</definition>
 	<definition>
 		<key>text_success_group_added</key>
-		<value><![CDATA[成功：你已创建的用户组成功！]]></value>
+		<value><![CDATA[成功：您已成功创建用户组！]]></value>
 	</definition>
 	<definition>
 		<key>text_go_to_page</key>
@@ -26,19 +26,19 @@
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[用户组名]]></value>
+		<value><![CDATA[用户组名称]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[用户组名：]]></value>
+		<value><![CDATA[用户组名称：]]></value>
 	</definition>
 	<definition>
 		<key>column_controller</key>
-		<value><![CDATA[调节器]]></value>
+		<value><![CDATA[控制器]]></value>
 	</definition>
 	<definition>
 		<key>column_access</key>
@@ -50,14 +50,14 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改的用户群体！]]></value>
+		<value><![CDATA[警告：您没有权限修改用户组！]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[用户组名称必须是2到64个字符！]]></value>
+		<value><![CDATA[用户组名称必须在2到64个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_user</key>
-		<value><![CDATA[警告：因为它是目前分配给用户的〜这个用户组不能被删除！]]></value>
+		<value><![CDATA[警告：此用户组无法被删除，因为它当前已分配给 %s 个用户！]]></value>
 	</definition>
 </definitions>

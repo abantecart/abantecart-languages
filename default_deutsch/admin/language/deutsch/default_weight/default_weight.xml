@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>default_weight_name</key>
-		<value><![CDATA[Versand nach Gewicht]]></value>
+		<value><![CDATA[Gewichtsbasierter Versand]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
@@ -10,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>text_additional_settings</key>
-		<value><![CDATA[ Zusätzliche Einstellungen ]]></value>
+		<value><![CDATA[Zusätzliche Einstellungen]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -18,7 +18,7 @@
 	</definition>
 	<definition>
 		<key>entry_rate</key>
-		<value><![CDATA[Preise: <br/><span class="help">Beispiel: 5:10,00, 7:12,00 Gewicht:Kosten, Gewicht:Kosten usw. In diesem Beispiel sind 5 Pfund = 10,00 $. Dabei ist Pfund die Gewichtsklasse Ihres Geschäfts und $ die Basiswährung Ihres Geschäfts. Sie können beides in den Geschäftseinstellungen ändern.</span>]]></value>
+		<value><![CDATA[Tarife:<br /><span class="help">Beispiel: 5:10.00,7:12.00 Gewicht:Kosten,Gewicht:Kosten usw. In diesem Beispiel entsprechen 5 Pfund = $10.00. Dabei ist „Pfund“ Ihre Shop-Gewichtsklasse und „$“ Ihre Shop-Basiswährung. Sie können beides in den Shop-Einstellungen ändern</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -38,14 +38,14 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Achtung: Sie sind nicht berechtigt, den gewichtsbasierten Versand zu ändern!]]></value>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, den gewichtsabhängigen Versand zu ändern!]]></value>
 	</definition>
 	<definition>
 		<key>example_weight_text</key>
-		<value><![CDATA[Gewicht: ]]></value>
+		<value><![CDATA[Gewicht:]]></value>
 	</definition>
 	<definition>
 		<key>example_currency_text</key>
-		<value><![CDATA[Währung: ]]></value>
+		<value><![CDATA[Währung:]]></value>
 	</definition>
 </definitions>

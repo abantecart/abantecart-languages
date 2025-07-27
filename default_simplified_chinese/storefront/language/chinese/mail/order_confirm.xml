@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>text_subject</key>
-		<value><![CDATA[〜 - 〜订购]]></value>
+		<value><![CDATA[%s - 订单 %s]]></value>
 	</definition>
 	<definition>
 		<key>text_greeting</key>
-		<value><![CDATA[感谢您〜产品的兴趣。您的订单已收到并确认付款后，将被处理。]]></value>
+		<value><![CDATA[感谢您对 %s 产品的关注。您的订单已被接收，并将在付款确认后处理。]]></value>
 	</definition>
 	<definition>
 		<key>text_received</key>
-		<value><![CDATA[您收到的订单。]]></value>
+		<value><![CDATA[您已收到一份订单。]]></value>
 	</definition>
 	<definition>
 		<key>text_order_detail</key>
-		<value><![CDATA[订单详细信息]]></value>
+		<value><![CDATA[订单详情]]></value>
 	</definition>
 	<definition>
 		<key>text_order_id</key>
-		<value><![CDATA[订单ID：]]></value>
+		<value><![CDATA[订单编号:]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
-		<value><![CDATA[有序日期：]]></value>
+		<value><![CDATA[订购日期：]]></value>
 	</definition>
 	<definition>
 		<key>text_order_status</key>
@@ -30,19 +30,19 @@
 	</definition>
 	<definition>
 		<key>text_invoice</key>
-		<value><![CDATA[要查看下面的链接您的订单点击：]]></value>
+		<value><![CDATA[要查看您的订单，请点击以下链接：]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping_method</key>
-		<value><![CDATA[邮寄方式：]]></value>
+		<value><![CDATA[配送方式：]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_method</key>
-		<value><![CDATA[付款方法：]]></value>
+		<value><![CDATA[支付方式：]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping_address</key>
-		<value><![CDATA[邮寄地址]]></value>
+		<value><![CDATA[送货地址]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_address</key>
@@ -50,15 +50,15 @@
 	</definition>
 	<definition>
 		<key>text_email</key>
-		<value><![CDATA[电子邮件：]]></value>
+		<value><![CDATA[电子邮件:]]></value>
 	</definition>
 	<definition>
 		<key>text_telephone</key>
-		<value><![CDATA[电话：]]></value>
+		<value><![CDATA[电话:]]></value>
 	</definition>
 	<definition>
 		<key>text_mobile_phone</key>
-		<value><![CDATA[移动电话：]]></value>
+		<value><![CDATA[手机：]]></value>
 	</definition>
 	<definition>
 		<key>text_fax</key>
@@ -66,11 +66,11 @@
 	</definition>
 	<definition>
 		<key>text_ip</key>
-		<value><![CDATA[IP地址：]]></value>
+		<value><![CDATA[IP 地址:]]></value>
 	</definition>
 	<definition>
 		<key>text_product</key>
-		<value><![CDATA[产品介绍：]]></value>
+		<value><![CDATA[产品:]]></value>
 	</definition>
 	<definition>
 		<key>text_total</key>
@@ -78,27 +78,27 @@
 	</definition>
 	<definition>
 		<key>text_download</key>
-		<value><![CDATA[一旦您的款项已被证实可以点击下面的链接访问您下载的产品：]]></value>
+		<value><![CDATA[一旦您的付款被确认，您就可以点击下面的链接来访问您的可下载产品：]]></value>
 	</definition>
 	<definition>
 		<key>text_comment</key>
-		<value><![CDATA[您的订单的意见是：]]></value>
+		<value><![CDATA[您的订单评论如下：]]></value>
 	</definition>
 	<definition>
 		<key>text_footer</key>
-		<value><![CDATA[如果您有任何疑问，请回覆此邮件。]]></value>
+		<value><![CDATA[如果您有任何问题，请回复此电子邮件。]]></value>
 	</definition>
 	<definition>
 		<key>text_powered_by</key>
-		<value><![CDATA[供电]]></value>
+		<value><![CDATA[由...提供技术支持]]></value>
 	</definition>
 	<definition>
 		<key>text_new_order</key>
-		<value><![CDATA[新命令 - ＃]]></value>
+		<value><![CDATA[新订单 - #]]></value>
 	</definition>
 	<definition>
 		<key>text_new_order_text</key>
-		<value><![CDATA[客户〜添加新秩序]]></value>
+		<value><![CDATA[客户 %s 添加了新订单]]></value>
 	</definition>
 	<definition>
 		<key>column_product</key>
@@ -106,7 +106,7 @@
 	</definition>
 	<definition>
 		<key>column_model</key>
-		<value><![CDATA[模型]]></value>
+		<value><![CDATA[型号]]></value>
 	</definition>
 	<definition>
 		<key>column_quantity</key>
@@ -114,10 +114,10 @@
 	</definition>
 	<definition>
 		<key>column_price</key>
-		<value><![CDATA[价钱]]></value>
+		<value><![CDATA[价格]]></value>
 	</definition>
 	<definition>
 		<key>column_total</key>
-		<value><![CDATA[总]]></value>
+		<value><![CDATA[总计]]></value>
 	</definition>
 </definitions>

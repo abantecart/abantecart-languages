@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,15 +10,15 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[성공 : 당신은 수정 통화를!]]></value>
+		<value><![CDATA[성공: 통화를 수정했습니다!]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[환율 제목]]></value>
+		<value><![CDATA[통화 제목]]></value>
 	</definition>
 	<definition>
 		<key>column_code</key>
-		<value><![CDATA[암호]]></value>
+		<value><![CDATA[코드]]></value>
 	</definition>
 	<definition>
 		<key>column_value</key>
@@ -26,66 +26,66 @@
 	</definition>
 	<definition>
 		<key>column_date_modified</key>
-		<value><![CDATA[최근 업데이트]]></value>
+		<value><![CDATA[최종 업데이트]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
-		<value><![CDATA[지위]]></value>
+		<value><![CDATA[상태]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[동작]]></value>
+		<value><![CDATA[작업]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[환율 제목 :]]></value>
+		<value><![CDATA[통화명:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[코드 : <br/><span class="help">이 기본 통화의 경우 변경하지 마십시오.</span>]]></value>
+		<value><![CDATA[코드:<br /><span class="help">이것이 기본 통화라면 변경하지 마십시오.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_value</key>
-		<value><![CDATA[값 : <br/><span class="help">이 기본 통화의 경우 1.00000로 설정합니다.</span>]]></value>
+		<value><![CDATA[값:<br /><span class="help">기본 통화인 경우 1.00000으로 설정하세요.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_symbol_left</key>
-		<value><![CDATA[기호 왼쪽 :]]></value>
+		<value><![CDATA[왼쪽 기호:]]></value>
 	</definition>
 	<definition>
 		<key>entry_symbol_right</key>
-		<value><![CDATA[기호 오른쪽 :]]></value>
+		<value><![CDATA[기호 오른쪽:]]></value>
 	</definition>
 	<definition>
 		<key>entry_decimal_place</key>
-		<value><![CDATA[소수 자릿수 :]]></value>
+		<value><![CDATA[소수점 자릿수:]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[지위:]]></value>
+		<value><![CDATA[상태:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[경고 : 통화를 수정할 수있는 권한이 없습니다!]]></value>
+		<value><![CDATA[경고: 통화를 수정할 권한이 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_title</key>
-		<value><![CDATA[환율 제목이 32 자 사이 여야합니다!]]></value>
+		<value><![CDATA[통화 제목은 2자 이상 32자 이하이어야 합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[통화 코드는 3 문자를 포함해야합니다!]]></value>
+		<value><![CDATA[통화 코드는 3자로 구성되어야 합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[경고 :이 통화는이 현재 기본 상점 통화로 할당 삭제 될 수 없습니다!]]></value>
+		<value><![CDATA[경고: 이 통화는 현재 기본 상점 통화로 지정되어 있어 삭제할 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[경고 : 현재 %s 매장에 할당으로이 통화를 삭제할 수 없습니다!]]></value>
+		<value><![CDATA[경고: 이 통화는 현재 %s개 매장에 할당되어 있으므로 삭제할 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[경고 : 현재 %s 주문에 할당으로이 통화를 삭제할 수 없습니다!]]></value>
+		<value><![CDATA[경고: 이 통화는 현재 %s 건의 주문에 할당되어 있어 삭제할 수 없습니다!]]></value>
 	</definition>
 </definitions>

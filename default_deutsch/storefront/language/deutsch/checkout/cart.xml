@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Einkaufswagen]]></value>
+		<value><![CDATA[Warenkorb]]></value>
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[Korb]]></value>
+		<value><![CDATA[Warenkorb]]></value>
 	</definition>
 	<definition>
 		<key>text_sub_total</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>text_weight</key>
-		<value><![CDATA[Warenkorb Gewicht:]]></value>
+		<value><![CDATA[Warenkorbgewicht:]]></value>
 	</definition>
 	<definition>
 		<key>text_error</key>
-		<value><![CDATA[Dein Einkaufswagen ist leer!]]></value>
+		<value><![CDATA[Ihr Warenkorb ist leer!]]></value>
 	</definition>
 	<definition>
 		<key>column_remove</key>
@@ -37,12 +37,16 @@
 		<value><![CDATA[Modell]]></value>
 	</definition>
 	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[Artikelnummer]]></value>
+	</definition>
+	<definition>
 		<key>column_quantity</key>
-		<value><![CDATA[Anzahl]]></value>
+		<value><![CDATA[Menge]]></value>
 	</definition>
 	<definition>
 		<key>column_price</key>
-		<value><![CDATA[Einzelpreis]]></value>
+		<value><![CDATA[Stückpreis]]></value>
 	</definition>
 	<definition>
 		<key>column_total</key>
@@ -50,27 +54,27 @@
 	</definition>
 	<definition>
 		<key>text_continue_shopping</key>
-		<value><![CDATA[Mit dem Einkaufen fortfahren]]></value>
+		<value><![CDATA[Weiter einkaufen]]></value>
 	</definition>
 	<definition>
 		<key>text_coupon_codes</key>
-		<value><![CDATA[Bewerben Gutscheincode]]></value>
+		<value><![CDATA[Gutscheincode anwenden]]></value>
 	</definition>
 	<definition>
 		<key>text_estimate_shipping_tax</key>
-		<value><![CDATA[Estimate Shipping &amp; Steuern]]></value>
+		<value><![CDATA[Versand- und Steuern schätzen]]></value>
 	</definition>
 	<definition>
 		<key>text_estimate_country</key>
-		<value><![CDATA[Land und Staat]]></value>
+		<value><![CDATA[Land und Bundesland]]></value>
 	</definition>
 	<definition>
 		<key>text_estimate_postcode</key>
-		<value><![CDATA[PLZ / Postleitzahl]]></value>
+		<value><![CDATA[PLZ/Postleitzahl]]></value>
 	</definition>
 	<definition>
 		<key>button_text_estimate</key>
-		<value><![CDATA[Schätzen]]></value>
+		<value><![CDATA[Schätzung]]></value>
 	</definition>
 	<definition>
 		<key>text_estimate_shipments</key>
@@ -78,27 +82,27 @@
 	</definition>
 	<definition>
 		<key>error_coupon</key>
-		<value><![CDATA[Fehler: Coupon ist ungültig, abgelaufen oder erreicht es Nutzungsbeschränkung!]]></value>
+		<value><![CDATA[Fehler: Der Gutschein ist entweder ungültig, abgelaufen oder hat sein Nutzungslimit erreicht!]]></value>
 	</definition>
 	<definition>
 		<key>error_stock</key>
-		<value><![CDATA[Produkte mit *** gekennzeichnete Bilder sind in der gewünschten Menge nicht verfügbar oder ausverkauft!]]></value>
+		<value><![CDATA[Produkte, die mit *** gekennzeichnet sind, sind nicht in der gewünschten Menge verfügbar oder nicht vorrätig!]]></value>
 	</definition>
 	<definition>
 		<key>error_required_options</key>
-		<value><![CDATA[Bitte wählen Sie alle gewünschten Optionen!]]></value>
+		<value><![CDATA[Bitte wählen Sie alle erforderlichen Optionen aus!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_minimum</key>
-		<value><![CDATA[Ihre Bestellung Untergesamtbetrag entspricht nicht den Mindestbetrag von %s erforderlich. Bitte fügen Sie weitere Produkte in den Warenkorb!]]></value>
+		<value><![CDATA[Die Zwischensumme Ihrer Bestellung erreicht nicht den erforderlichen Mindestbetrag von %s. Bitte fügen Sie weitere Produkte zu Ihrem Warenkorb hinzu!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_maximum</key>
-		<value><![CDATA[Ihre Bestellung Untergesamtmenge überschreitet die maximale Menge %s pro Bestellung erlaubt. Bitte entfernen Sie einige Elemente aus Ihrem Warenkorb!]]></value>
+		<value><![CDATA[Der Zwischensummenbetrag Ihrer Bestellung überschreitet den maximal zulässigen Betrag von %s pro Bestellung. Bitte entfernen Sie einige Artikel aus Ihrem Warenkorb!]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_file_data</key>
-		<value><![CDATA[Datei-Daten ist beschädigt oder leer.]]></value>
+		<value><![CDATA[Dateidaten sind beschädigt oder leer.]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_file_name</key>
@@ -106,34 +110,30 @@
 	</definition>
 	<definition>
 		<key>error_file_extension</key>
-		<value><![CDATA[Nur Dateien mit der Erweiterung (en) %s ist (sind) erlaubt!]]></value>
+		<value><![CDATA[Nur Dateien mit der Erweiterung(en) %s sind erlaubt!]]></value>
 	</definition>
 	<definition>
 		<key>error_min_file_size</key>
-		<value><![CDATA[Mindestdateigröße für den Upload ist %s Kb.]]></value>
+		<value><![CDATA[Die minimale Dateigröße für den Upload beträgt %s Kb.]]></value>
 	</definition>
 	<definition>
 		<key>error_max_file_size</key>
-		<value><![CDATA[Die maximale Dateigröße für den Upload ist %s Kb.]]></value>
+		<value><![CDATA[Maximale Dateigröße für den Upload ist %s Kb.]]></value>
 	</definition>
 	<definition>
 		<key>text_coupon_success</key>
-		<value><![CDATA[Erfolg: Ihr Gutschein Rabatt angewendet worden ist!]]></value>
+		<value><![CDATA[Erfolg: Ihr Gutscheinrabatt wurde angewendet!]]></value>
 	</definition>
 	<definition>
 		<key>text_coupon_removal</key>
-		<value><![CDATA[Erfolg: Coupon wurde entfernt!]]></value>
+		<value><![CDATA[Erfolg: Gutschein wurde entfernt!]]></value>
 	</definition>
 	<definition>
 		<key>error_quantity_maximum</key>
-		<value><![CDATA[Erlaubt Produktmenge überschreitet. Menge wurde auf Maximum eingestellt.]]></value>
+		<value><![CDATA[Die zulässige Produktmenge wurde überschritten. Die Menge wurde auf das Maximum gesetzt.]]></value>
 	</definition>
 	<definition>
 		<key>error_quantity_minimum</key>
-		<value><![CDATA[Erlaubt Produkt Mindestmenge ist unter erforderlich. Menge wurde auf Mindestbetrag festgelegt.]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[Artikelnummer]]></value>
+		<value><![CDATA[Die zulässige Produktmenge liegt unter der erforderlichen Mindestmenge. Die Menge wurde auf die Mindestmenge eingestellt.]]></value>
 	</definition>
 </definitions>

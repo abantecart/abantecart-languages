@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>im_text_notification</key>
-		<value><![CDATA[ilmoitukset]]></value>
+		<value><![CDATA[Ilmoitukset]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_order_update</key>
-		<value><![CDATA[Tilaa päivitykset]]></value>
+		<value><![CDATA[Tilauspäivitykset]]></value>
 	</definition>
 	<definition>
 		<key>im_order_update_text_to_customer</key>
-		<value><![CDATA[Tilauksesi <a href="%s">#%s</a> on päivitetty. Lisätietoja, kirjaudu %s tilille.]]></value>
+		<value><![CDATA[Tilauksesi <a href="%s">#%s</a> on päivitetty. Lisätietoja saat kirjautumalla sisään %s-tilillesi.]]></value>
+	</definition>
+	<definition>
+		<key>im_order_update_text_to_guest</key>
+		<value><![CDATA[Tilauksesi <a href="%s">#%s</a> on päivitetty. Lisätietoja saat vierailemalla tilauksen sivulla %s.]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_order</key>
@@ -18,11 +22,11 @@
 	</definition>
 	<definition>
 		<key>im_new_order_text_to_admin</key>
-		<value><![CDATA[New Order <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a> on luotu!]]></value>
+		<value><![CDATA[Uusi tilaus <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a> on luotu!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_customer</key>
-		<value><![CDATA[asiakas rekisteröinnit]]></value>
+		<value><![CDATA[Asiakasrekisteröinnit]]></value>
 	</definition>
 	<definition>
 		<key>im_new_customer_text_to_admin</key>
@@ -30,11 +34,11 @@
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_account_update</key>
-		<value><![CDATA[Ylläpitäjä User Account päivitykset]]></value>
+		<value><![CDATA[Järjestelmänvalvojan käyttäjätilipäivitykset]]></value>
 	</definition>
 	<definition>
 		<key>im_account_update_text_to_admin</key>
-		<value><![CDATA[Järjestelmänvalvoja käyttäjätilin tiedot ovat muuttuneet.]]></value>
+		<value><![CDATA[Sinun järjestelmänvalvojan käyttäjätilisi tiedot on muutettu.]]></value>
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_admin</key>
@@ -42,27 +46,27 @@
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_customer_contact</key>
-		<value><![CDATA[asiakkaan Tiedusteluja]]></value>
+		<value><![CDATA[Asiakaskyselyt]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_out_of_stock</key>
-		<value><![CDATA[Tuotteet varastossa]]></value>
+		<value><![CDATA[Varastosta loppuneet tuotteet]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_review</key>
-		<value><![CDATA[Uusi Tuotearvostelut]]></value>
+		<value><![CDATA[Uudet tuotearvostelut]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_newsletter</key>
-		<value><![CDATA[uutiskirjeet]]></value>
+		<value><![CDATA[Uutiskirjeet]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_system_messages</key>
-		<value><![CDATA[Järjestelmäilmoitukset]]></value>
+		<value><![CDATA[Järjestelmäviestit]]></value>
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_customer</key>
-		<value><![CDATA[Uusi tapahtuma on lähetetty oman %s tilille määrän %s. Lisätietoja, kirjaudu %s tilille.]]></value>
+		<value><![CDATA[Uusi tapahtuma on kirjattu %s-tilillesi summalla %s. Lisätietoja saat kirjautumalla %s-tilillesi.]]></value>
 	</definition>
 	<definition>
 		<key>text_notification_for</key>
@@ -70,22 +74,18 @@
 	</definition>
 	<definition>
 		<key>error_unknown_sendpoint</key>
-		<value><![CDATA[Sendpoint %s ei löydy sendpoints lista!]]></value>
+		<value><![CDATA[Sendpoint %s ei löydy sendpoints-listasta!]]></value>
 	</definition>
 	<definition>
 		<key>text_settings_success_saved</key>
-		<value><![CDATA[Ilmoitus-asetukset tallennettu!]]></value>
+		<value><![CDATA[Ilmoitusasetukset tallennettiin onnistuneesti!]]></value>
 	</definition>
 	<definition>
 		<key>im_error_mail_address</key>
-		<value><![CDATA[Sähköpostiosoite %s näyttää kelpaa!]]></value>
-	</definition>
-	<definition>
-		<key>im_order_update_text_to_guest</key>
-		<value><![CDATA[Tilauksesi <a href="%s">#%s</a> on päivitetty. Lisätietoja osoitteessa tilaussivulle %s.]]></value>
+		<value><![CDATA[Sähköpostiosoite %s näyttää virheelliseltä!]]></value>
 	</definition>
 	<definition>
 		<key>im_threshold</key>
-		<value><![CDATA[Varastotason vähimmäisraja]]></value>
+		<value><![CDATA[Vähimmäisvarastotason kynnys]]></value>
 	</definition>
 </definitions>

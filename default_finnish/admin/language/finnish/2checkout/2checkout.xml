@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>2checkout_name</key>
-		<value><![CDATA[2 Kassalle]]></value>
+		<value><![CDATA[2Checkout]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -10,28 +10,25 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Onnistuminen: Olet muokannut 2Checkout-tilin tietoja!]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut 2Checkout-tilin tietoja!]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_note</key>
-		<value><![CDATA[
- Tämän laajennuksen avulla voit käyttää 2Checkout-maksujärjestelmää vastaanottaaksesi maksuja asiakkailtasi. <br/> 
- <b>Rekisteröidy ilmaiseksi jo tänään! Käytä kampanjakoodia ABANTECART2CO vapauttaaksesi sovelluksesi palvelumaksusta (10,99 dollarin säästö) ja aloita myynti verkossa jo tänään!</b> Käy osoitteessa <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> , täytä hakemus ja kirjoita sitten koodi tarjouskoodikenttään hyödyntääksesi tämän erikoistarjouksen tänään! 
- <br/> Kun rekisteröidyt kirjautumalla saadaksesi tilin tunnistetiedot tämän laajennuksen määrittämistä varten 
- <br/> Älä unohda määrittää INS-URL-osoitetta ja uudelleenohjaus-URL-osoitetta täällä <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>. 
- <br/><br/> INS-URL-osoitteesi on<h4> #storefront#rt=laajennus/2kassa/takaisinsoitto</h4> 
- <br/><br/> Määritä myös uudelleenohjaus-URL ja valitse Paluutapa &quot;Otsikon uudelleenohjaus&quot;. 
- <br/><br/> Uudelleenohjaus-URL-osoite on<h4> #storefront#rt=kassa/menestys</h4> 
-		 ]]></value>
+		<value><![CDATA[Tämän laajennuksen avulla voit käyttää 2Checkout-maksujärjestelmää hyväksyäksesi maksut asiakkailtasi.<br>
+<b>Rekisteröidy tänään ilmaiseksi! Käytä kampanjakoodia ABANTECART2CO saadaksesi sovelluspalvelumaksustasi vapautuksen (10,99 $ säästö) ja aloita verkkomyynti jo tänään! </b> Vieraile <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, täytä hakemus ja anna koodi kampanjakoodikenttään hyödyntääksesi tämän erikoistarjouksen jo tänään!
+<br>Kun olet rekisteröitynyt, kirjaudu sisään saadaksesi tilin tunnistetiedot tämän laajennuksen konfigurointiin
+<br>Muista määrittää INS-URL ja uudelleenohjaus-URL tässä <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.
+<br><br>INS-URL-osoitteesi on <h4>#storefront#rt=extension/2checkout/callback</h4>
+<br><br>Määritä myös uudelleenohjaus-URL ja valitse paluutapa "Header redirect".
+<br><br>Uudelleenohjaus-URL-osoitteesi on <h4>#storefront#rt=checkout/success</h4>]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_account</key>
-		<value><![CDATA[2Checkout-kauppiaskoodi:]]></value>
+		<value><![CDATA[2Checkout-kauppiastunnus:]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_secret</key>
-		<value><![CDATA[
- Salainen avain: <br/><span class="help">Salainen sana, jolla tapahtumat vahvistetaan (täytyy olla sama kuin kauppiastilin asetussivulla määritetty.</span>]]></value>
+		<value><![CDATA[Salainen avain:<br /><span class="help">Salainen sana, jolla tapahtumat vahvistetaan (sen on oltava sama kuin kauppiastilin konfigurointisivulla määritelty).</span>]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_test</key>
@@ -55,15 +52,15 @@
 	</definition>
 	<definition>
 		<key>2checkout_location_id_0</key>
-		<value><![CDATA[Kaikki paikat]]></value>
+		<value><![CDATA[Kaikki sijainnit]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata maksua 2Tsekkaa!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata maksutapaa 2Checkout!]]></value>
 	</definition>
 	<definition>
 		<key>error_account</key>
-		<value><![CDATA[Kauppiaskoodi vaaditaan!]]></value>
+		<value><![CDATA[Kauppakoodi vaaditaan!]]></value>
 	</definition>
 	<definition>
 		<key>error_secret</key>

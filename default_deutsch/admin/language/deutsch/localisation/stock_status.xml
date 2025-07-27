@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Auf Status]]></value>
+		<value><![CDATA[Bestandsstatus]]></value>
 	</definition>
 	<definition>
 		<key>text_status</key>
-		<value><![CDATA[Lagerbestand]]></value>
+		<value><![CDATA[Lagerstatus]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben Lager Status geändert!]]></value>
+		<value><![CDATA[Erfolg: Sie haben die Status der Lagerbestände geändert!]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[Auf Status Name]]></value>
+		<value><![CDATA[Name des Lagerstatus]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
@@ -22,18 +22,18 @@
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Lagerstatus Name:]]></value>
+		<value><![CDATA[Name des Lagerstatus:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Warnung: Sie haben keine Berechtigung, Lager Statuen zu ändern!]]></value>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, den Lagerstatus zu ändern!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Auf Status Name muss zwischen 2 und 32 Zeichen lang sein!]]></value>
+		<value><![CDATA[Der Name des Lagerbestandsstatus muss zwischen 2 und 32 Zeichen lang sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_product</key>
-		<value><![CDATA[Achtung: Dieser Lagerbestand nicht gelöscht werden kann, wie es derzeit %s Produkte zugeordnet!]]></value>
+		<value><![CDATA[Warnung: Dieser Lagerstatus kann nicht gelöscht werden, da er derzeit %s Produkten zugewiesen ist!]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben geändert Menü!]]></value>
+		<value><![CDATA[Erfolg: Sie haben das Menü geändert!]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_id</key>
@@ -22,7 +22,13 @@
 	</definition>
 	<definition>
 		<key>entry_item_url</key>
-		<value><![CDATA[Link - <br/><span class="help">Für externe Links hinzufügen http:// oder https:// am Anfang</span>]]></value>
+		<value><![CDATA[Link<br /><span class="help">Für externe Links fügen Sie am Anfang http:// oder https:// hinzu. Sie können auch eine relative URL wie ../subfolder/index.php verwenden.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_item_target</key>
+		<value><![CDATA[Ziel
+_self - öffnet das verknüpfte Dokument im selben Frame, in dem es angeklickt wurde.
+_blank - öffnet das verknüpfte Dokument in einem neuen Fenster oder einer neuen Registerkarte.]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent_id</key>
@@ -33,8 +39,12 @@
 		<value><![CDATA[Sortierreihenfolge]]></value>
 	</definition>
 	<definition>
+		<key>entry_link_type</key>
+		<value><![CDATA[Linktyp]]></value>
+	</definition>
+	<definition>
 		<key>text_select_parent_id</key>
-		<value><![CDATA[- Root-Menü -]]></value>
+		<value><![CDATA[- Hauptmenü -]]></value>
 	</definition>
 	<definition>
 		<key>error_empty</key>
@@ -42,19 +52,15 @@
 	</definition>
 	<definition>
 		<key>error_non_unique</key>
-		<value><![CDATA[Artikel ID nicht eindeutig!]]></value>
+		<value><![CDATA[Artikel-ID nicht eindeutig!]]></value>
 	</definition>
 	<definition>
 		<key>error_non_ascii</key>
-		<value><![CDATA[Nur alphanumerische Zeichen für das Menü ID-Feld erlaubt!]]></value>
-	</definition>
-	<definition>
-		<key>entry_link_type</key>
-		<value><![CDATA[Link-Typ]]></value>
+		<value><![CDATA[Nur alphanumerische Zeichen sind im Menü-ID-Feld erlaubt!]]></value>
 	</definition>
 	<definition>
 		<key>text_category_link_type</key>
-		<value><![CDATA[Kategorie Seite]]></value>
+		<value><![CDATA[Kategorieseite]]></value>
 	</definition>
 	<definition>
 		<key>text_content_link_type</key>
@@ -62,14 +68,10 @@
 	</definition>
 	<definition>
 		<key>text_custom_link_type</key>
-		<value><![CDATA[Benutzerdefinierte Verknüpfung oder URL]]></value>
-	</definition>
-	<definition>
-		<key>entry_item_target</key>
-		<value><![CDATA[Ziel <br/><span class="help">_self – öffnet das verknüpfte Dokument im selben Frame, in dem es angeklickt wurde. <br/> _blank – öffnet das verknüpfte Dokument in einem neuen Fenster oder Tab</span>]]></value>
+		<value><![CDATA[Benutzerdefinierter Link oder URL]]></value>
 	</definition>
 	<definition>
 		<key>entry_include_children_items</key>
-		<value><![CDATA[Untergeordnete Elemente einschließen]]></value>
+		<value><![CDATA[Untergeordnete Artikel einschließen]]></value>
 	</definition>
 </definitions>

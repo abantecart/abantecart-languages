@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>cardconnect_name</key>
-		<value><![CDATA[卡连接]]></value>
+		<value><![CDATA[CardConnect]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_note</key>
@@ -10,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>cardconnect_merchant_id</key>
-		<value><![CDATA[商户编号]]></value>
+		<value><![CDATA[商户 ID]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_username</key>
@@ -22,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>cardconnect_logging</key>
-		<value><![CDATA[日志记录： <br/><span class="help">日志文件位于 system/logs/cardconnect.txt 文件中</span>]]></value>
+		<value><![CDATA[日志记录：<br /><span class="help">日志文件位于 system/logs/cardconnect.txt 文件</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_test</key>
@@ -34,7 +34,7 @@
 	</definition>
 	<definition>
 		<key>cardconnect_get_test_api_credentials</key>
-		<value><![CDATA[获取测试 API 凭证]]></value>
+		<value><![CDATA[获取测试API凭据]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_test_mode</key>
@@ -42,55 +42,57 @@
 	</definition>
 	<definition>
 		<key>cardconnect_site</key>
-		<value><![CDATA[API 的域部分： <br/><span class="help">此值不应更改，除非 cardConnent 另有规定。</span>]]></value>
+		<value><![CDATA[到 API 的域名部分：<br /><span class="help">除非 cardConnent 作了另行指定，否则不应更改此值。</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_connection_success</key>
-		<value><![CDATA[连接成功并且 API 凭证配置正确。]]></value>
+		<value><![CDATA[连接成功，并且 API 凭证已正确配置。]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_location_id_0</key>
-		<value><![CDATA[所有地点]]></value>
+		<value><![CDATA[所有位置]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_location_id</key>
-		<value><![CDATA[地点]]></value>
+		<value><![CDATA[位置]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_refund</key>
-		<value><![CDATA[已退款： <br/><span class="help">如果付款已在 admin/order 中退款，则需要设置订单状态</span>]]></value>
+		<value><![CDATA[已退款:<br /><span class="help">当在 admin/order 中付款被退款时，您希望将订单状态设置为什么</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_decline</key>
-		<value><![CDATA[拒绝： <br/><span class="help">您想要记录在历史记录中的订单状态以响应付款处理器状态。主要订单状态不受影响。只有付款成功后才会下订单。</span>]]></value>
+		<value><![CDATA[拒绝：<br /><span class="help">您想在响应支付处理器状态时记录到历史中的订单状态。主订单状态不受影响。订单只有在支付成功后才会生成。</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_success_unsettled</key>
-		<value><![CDATA[成功且未结算： <br/><span class="help">选择您想要设置的主要订单状态以响应支付处理器状态</span>]]></value>
+		<value><![CDATA[成功且未结算：<br /><span class="help">选择在响应支付处理器状态时，您想要设置的主要订单状态</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_success_settled</key>
-		<value><![CDATA[成功并结算： <br/><span class="help">选择您想要设置的主要订单状态以响应支付处理器状态</span>]]></value>
+		<value><![CDATA[成功 & 已结算:<br /><span class="help">选择要根据支付处理器状态设置的主要订单状态</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_status_void</key>
-		<value><![CDATA[作废： <br/><span class="help">如果付款在管理/订单中作废，您需要设置订单状态。</span>]]></value>
+		<value><![CDATA[作废：<br /><span class="help">如果在管理/订单中付款被作废时，您希望设置的订单状态。</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_settlement_payment</key>
-		<value><![CDATA[自动（授权和捕获）]]></value>
+		<value><![CDATA[自动（授权并捕获）]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_settlement_auth</key>
-		<value><![CDATA[延迟（仅授权）]]></value>
+		<value><![CDATA[延迟 (仅授权)]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_settlement</key>
-		<value><![CDATA[结算类型： <br/><span class="help">如果设置为“自动”，则交易将包含在今天的结算中。如果设置为“延迟”，则交易将被授权但不会结算（捕获）。您必须在授权后的 7 天内手动捕获交易</span>]]></value>
+		<value><![CDATA[结算类型：	
+如果设置为"auto"，则该交易将包含在今天的结算中。	
+如果设置为'delayed'，则该交易将被授权但不会结算。您必须在授权后7天内手动捕获交易。]]></value>
 	</definition>
 	<definition>
 		<key>cardconnect_save_cards_limit</key>
-		<value><![CDATA[保存的最大信用卡数量： <br/><span class="help">设置客户可保存的最大信用卡数量（最多 100 张）。如果设置为 0 或空白，则不允许保存信用卡。安全注意事项：客户信用卡详细信息保存在 CardConnect 安全服务器上，以确保最大程度的数据安全措施。您的网站上不会保存任何信用卡详细信息。</span>]]></value>
+		<value><![CDATA[Max credit cards saved: <br/><span class="help">设置客户可保存的最大信用卡数量（最多100张）。如果设置为0或留空，则不允许保存卡信息。安全提示：客户的信用卡信息会保存在CardConnect安全服务器上，以确保最高级别的数据安全措施。您的网站将不会保存任何信用卡信息。</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_column_date_added</key>
@@ -98,15 +100,15 @@
 	</definition>
 	<definition>
 		<key>text_column_amount</key>
-		<value><![CDATA[数量]]></value>
+		<value><![CDATA[金额]]></value>
 	</definition>
 	<definition>
 		<key>text_captured_ok</key>
-		<value><![CDATA[资金已成功入账]]></value>
+		<value><![CDATA[资金已成功扣款]]></value>
 	</definition>
 	<definition>
 		<key>text_captured_order</key>
-		<value><![CDATA[捕获成功，订单状态更新为成功-已结算]]></value>
+		<value><![CDATA[捕获成功，订单状态已更新为成功 – 已结算]]></value>
 	</definition>
 	<definition>
 		<key>text_refunded_ok</key>
@@ -114,19 +116,19 @@
 	</definition>
 	<definition>
 		<key>text_refund_order</key>
-		<value><![CDATA[退款成功，订单状态更新为已退款]]></value>
+		<value><![CDATA[退款成功，订单状态已更新为已退款]]></value>
 	</definition>
 	<definition>
 		<key>text_voided</key>
-		<value><![CDATA[作废成功，订单状态更新为已作废]]></value>
+		<value><![CDATA[作废成功，订单状态已更新为已作废]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_info</key>
-		<value><![CDATA[付款细节]]></value>
+		<value><![CDATA[支付详情]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_status</key>
-		<value><![CDATA[已捕获付款]]></value>
+		<value><![CDATA[已成功扣款]]></value>
 	</definition>
 	<definition>
 		<key>text_void_status</key>
@@ -134,11 +136,11 @@
 	</definition>
 	<definition>
 		<key>text_refund_status</key>
-		<value><![CDATA[已退还付款]]></value>
+		<value><![CDATA[已退款]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_amount</key>
-		<value><![CDATA[捕获量]]></value>
+		<value><![CDATA[捕获金额]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_amount</key>
@@ -146,15 +148,15 @@
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[CardConnect 收费 ID]]></value>
+		<value><![CDATA[CardConnect 交易编号]]></value>
 	</definition>
 	<definition>
 		<key>text_authorized_ammount</key>
-		<value><![CDATA[授权总额]]></value>
+		<value><![CDATA[已授权总金额]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[余额]]></value>
+		<value><![CDATA[余额金额]]></value>
 	</definition>
 	<definition>
 		<key>text_transactions</key>
@@ -162,15 +164,15 @@
 	</definition>
 	<definition>
 		<key>text_confirm_void</key>
-		<value><![CDATA[请确认您是否要取消付款？]]></value>
+		<value><![CDATA[请确认您要作废此笔付款吗？]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_capture</key>
-		<value><![CDATA[请确认您想要获取付款吗？]]></value>
+		<value><![CDATA[请确认您要捕获付款吗？]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_refund</key>
-		<value><![CDATA[请确认您是否要退款？]]></value>
+		<value><![CDATA[请确认您要对该付款进行退款吗？]]></value>
 	</definition>
 	<definition>
 		<key>button_refund</key>
@@ -178,7 +180,7 @@
 	</definition>
 	<definition>
 		<key>button_void</key>
-		<value><![CDATA[空白]]></value>
+		<value><![CDATA[作废]]></value>
 	</definition>
 	<definition>
 		<key>button_capture</key>
@@ -190,19 +192,19 @@
 	</definition>
 	<definition>
 		<key>error_missing_amount</key>
-		<value><![CDATA[请输入正金额]]></value>
+		<value><![CDATA[请输入正数金额]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_void</key>
-		<value><![CDATA[无法取消交易、刷新并检查交易详情]]></value>
+		<value><![CDATA[无法作废交易，请刷新并检查交易详情]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_capture</key>
-		<value><![CDATA[无法捕获、刷新交易详情并检查捕获金额]]></value>
+		<value><![CDATA[无法完成捕获，请刷新交易详情并检查捕获金额。]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_refund</key>
-		<value><![CDATA[无法退款，请刷新交易详情并查看退款金额]]></value>
+		<value><![CDATA[无法退款，请刷新交易详情并检查退款金额]]></value>
 	</definition>
 	<definition>
 		<key>text_settlement_status</key>

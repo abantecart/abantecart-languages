@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Auftragsstati]]></value>
+		<value><![CDATA[Bestellstatus]]></value>
 	</definition>
 	<definition>
 		<key>text_status</key>
@@ -10,19 +10,19 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben Auftragsstatus geändert!]]></value>
+		<value><![CDATA[Erfolg: Sie haben die Bestellstatus geändert!]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[Bestell-Status-Name]]></value>
+		<value><![CDATA[Name des Bestellstatus]]></value>
 	</definition>
 	<definition>
 		<key>column_text_id</key>
-		<value><![CDATA[Bestell-Status Text-ID]]></value>
+		<value><![CDATA[Bestellstatus Text-ID]]></value>
 	</definition>
 	<definition>
 		<key>entry_text_id</key>
-		<value><![CDATA[Bestell-Status Text-ID:]]></value>
+		<value><![CDATA[Bestellstatus-Text-ID:]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
@@ -30,38 +30,38 @@
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Bestell-Status Name:]]></value>
+		<value><![CDATA[Name des Bestellstatus:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Warnung: Sie haben keine Berechtigung, um Statuen zu ändern!]]></value>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, den Bestellstatus zu ändern!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Bestell-Status-Name muss zwischen 2 und 32 Zeichen lang sein!]]></value>
+		<value><![CDATA[Der Name des Bestellstatus muss zwischen 2 und 32 Zeichen lang sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[Warnung: Die Bestellung Status kann nicht gelöscht werden, da sie derzeit als Standardspeicher Auftragsstatus zugewiesen wird!]]></value>
+		<value><![CDATA[Warnung: Dieser Bestellstatus kann nicht gelöscht werden, da er derzeit als Standard-Bestellstatus des Shops zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_download</key>
-		<value><![CDATA[Warnung: Die Bestellung Status kann nicht gelöscht werden, da sie derzeit als Standard-Download-Status zugewiesen wird!]]></value>
+		<value><![CDATA[Warnung: Dieser Bestellstatus kann nicht gelöscht werden, da er derzeit als Standard-Download-Status zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[Warnung: Die Bestellung Status nicht gelöscht werden kann, wie es derzeit %s speichert zugeordnet!]]></value>
+		<value><![CDATA[Warnung: Dieser Bestellstatus kann nicht gelöscht werden, da er derzeit %s Shops zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[Warnung: Die Bestellung Status nicht gelöscht werden kann, wie es derzeit %s Aufträge zugewiesen wird!]]></value>
+		<value><![CDATA[Warnung: Dieser Bestellstatus kann nicht gelöscht werden, da er derzeit %s Bestellungen zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_nondeletable</key>
-		<value><![CDATA[Achtung: Dies ist wichtig, Auftragsstatus, die Zahlungen verbunden ist. Sie können diesen Status nicht löschen.]]></value>
+		<value><![CDATA[Warnung: Dies ist ein wichtiger Bestellstatus, der mit Zahlungen verknüpft ist. Sie können diesen Status nicht löschen.]]></value>
 	</definition>
 	<definition>
 		<key>error_status_text_id</key>
-		<value><![CDATA[Bestell-Status Text-ID muss eindeutig und zwischen 2 und 32 Zeichen lang sein!]]></value>
+		<value><![CDATA[Bestellstatus-Text-ID muss eindeutig sein und zwischen 2 und 32 lateinischen Zeichen liegen!]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -10,19 +10,19 @@
 	</definition>
 	<definition>
 		<key>date_format_short</key>
-		<value><![CDATA[d/m/Y]]></value>
+		<value><![CDATA[d.m.Y]]></value>
 	</definition>
 	<definition>
 		<key>date_format_long</key>
-		<value><![CDATA[l j F Y]]></value>
+		<value><![CDATA[l, j F Y]]></value>
 	</definition>
 	<definition>
 		<key>time_format</key>
-		<value><![CDATA[d/m/Y H:i:s]]></value>
+		<value><![CDATA[h:i:s]]></value>
 	</definition>
 	<definition>
 		<key>time_format_short</key>
-		<value><![CDATA[H:i:s]]></value>
+		<value><![CDATA[H:i]]></value>
 	</definition>
 	<definition>
 		<key>decimal_point</key>
@@ -30,7 +30,7 @@
 	</definition>
 	<definition>
 		<key>thousand_point</key>
-		<value><![CDATA[ ]]></value>
+		<value><![CDATA[.]]></value>
 	</definition>
 	<definition>
 		<key>text_yes</key>
@@ -50,11 +50,11 @@
 	</definition>
 	<definition>
 		<key>text_enabled</key>
-		<value><![CDATA[Activée]]></value>
+		<value><![CDATA[Activé]]></value>
 	</definition>
 	<definition>
 		<key>text_disabled</key>
-		<value><![CDATA[désactivé]]></value>
+		<value><![CDATA[Désactivé]]></value>
 	</definition>
 	<definition>
 		<key>text_none</key>
@@ -62,15 +62,15 @@
 	</definition>
 	<definition>
 		<key>text_select</key>
-		<value><![CDATA[--- S&#39;il vous plaît choisir ---]]></value>
+		<value><![CDATA[--- Veuillez sélectionner ---]]></value>
 	</definition>
 	<definition>
 		<key>text_select_all</key>
-		<value><![CDATA[Tout sélectionner]]></value>
+		<value><![CDATA[Sélectionner tout]]></value>
 	</definition>
 	<definition>
 		<key>text_unselect_all</key>
-		<value><![CDATA[Tout déselectionner]]></value>
+		<value><![CDATA[Tout désélectionner]]></value>
 	</definition>
 	<definition>
 		<key>text_all_zones</key>
@@ -78,7 +78,7 @@
 	</definition>
 	<definition>
 		<key>text_default</key>
-		<value><![CDATA[(Défaut)]]></value>
+		<value><![CDATA[(Par défaut)]]></value>
 	</definition>
 	<definition>
 		<key>text_close</key>
@@ -86,7 +86,7 @@
 	</definition>
 	<definition>
 		<key>text_pagination</key>
-		<value><![CDATA[Affichage {start} pour {end} sur {total} ({pages} Pages)]]></value>
+		<value><![CDATA[Affichage de {start} to {end} of {total} ({pages} pages)]]></value>
 	</definition>
 	<definition>
 		<key>text_per_page</key>
@@ -98,15 +98,15 @@
 	</definition>
 	<definition>
 		<key>text_separator</key>
-		<value><![CDATA[&gt;]]></value>
+		<value><![CDATA[>]]></value>
 	</definition>
 	<definition>
 		<key>text_edit</key>
-		<value><![CDATA[modifier]]></value>
+		<value><![CDATA[Modifier]]></value>
 	</definition>
 	<definition>
 		<key>text_view</key>
-		<value><![CDATA[Vue]]></value>
+		<value><![CDATA[Voir]]></value>
 	</definition>
 	<definition>
 		<key>text_home</key>
@@ -118,15 +118,15 @@
 	</definition>
 	<definition>
 		<key>button_delete</key>
-		<value><![CDATA[Effacer]]></value>
+		<value><![CDATA[Supprimer]]></value>
 	</definition>
 	<definition>
 		<key>button_save</key>
-		<value><![CDATA[sauvegarder]]></value>
+		<value><![CDATA[Enregistrer]]></value>
 	</definition>
 	<definition>
 		<key>button_save_and_close</key>
-		<value><![CDATA[Sauvegarder et fermer]]></value>
+		<value><![CDATA[Enregistrer & Fermer]]></value>
 	</definition>
 	<definition>
 		<key>button_cancel</key>
@@ -142,7 +142,7 @@
 	</definition>
 	<definition>
 		<key>button_clear</key>
-		<value><![CDATA[Effacer le journal]]></value>
+		<value><![CDATA[Vider le journal]]></value>
 	</definition>
 	<definition>
 		<key>button_close</key>
@@ -150,7 +150,7 @@
 	</definition>
 	<definition>
 		<key>button_upgrade</key>
-		<value><![CDATA[Surclassement]]></value>
+		<value><![CDATA[Mise à niveau]]></value>
 	</definition>
 	<definition>
 		<key>button_filter</key>
@@ -162,19 +162,19 @@
 	</definition>
 	<definition>
 		<key>button_edit</key>
-		<value><![CDATA[modifier]]></value>
+		<value><![CDATA[Modifier]]></value>
 	</definition>
 	<definition>
 		<key>button_copy</key>
-		<value><![CDATA[Copie]]></value>
+		<value><![CDATA[Copier]]></value>
 	</definition>
 	<definition>
 		<key>button_agree</key>
-		<value><![CDATA[Se mettre d&#39;accord]]></value>
+		<value><![CDATA[Accepter]]></value>
 	</definition>
 	<definition>
 		<key>button_back</key>
-		<value><![CDATA[Arrière]]></value>
+		<value><![CDATA[Retour]]></value>
 	</definition>
 	<definition>
 		<key>button_continue</key>
@@ -182,11 +182,11 @@
 	</definition>
 	<definition>
 		<key>button_remove</key>
-		<value><![CDATA[Retirer]]></value>
+		<value><![CDATA[Supprimer]]></value>
 	</definition>
 	<definition>
 		<key>button_backup</key>
-		<value><![CDATA[sauvegarde]]></value>
+		<value><![CDATA[Sauvegarde]]></value>
 	</definition>
 	<definition>
 		<key>button_restore</key>
@@ -194,11 +194,11 @@
 	</definition>
 	<definition>
 		<key>button_invoice</key>
-		<value><![CDATA[La facture d&#39;impression]]></value>
+		<value><![CDATA[Imprimer la facture]]></value>
 	</definition>
 	<definition>
 		<key>button_invoices</key>
-		<value><![CDATA[Imprimer factures]]></value>
+		<value><![CDATA[Imprimer les factures]]></value>
 	</definition>
 	<definition>
 		<key>button_add_option</key>
@@ -206,15 +206,15 @@
 	</definition>
 	<definition>
 		<key>button_add_option_value</key>
-		<value><![CDATA[Ajouter Option Valeur]]></value>
+		<value><![CDATA[Ajouter une valeur d’option]]></value>
 	</definition>
 	<definition>
 		<key>button_add_discount</key>
-		<value><![CDATA[Ajouter Discount]]></value>
+		<value><![CDATA[Ajouter une remise]]></value>
 	</definition>
 	<definition>
 		<key>button_add_special</key>
-		<value><![CDATA[Ajouter spécial]]></value>
+		<value><![CDATA[Ajouter un prix spécial]]></value>
 	</definition>
 	<definition>
 		<key>button_add_image</key>
@@ -222,15 +222,15 @@
 	</definition>
 	<definition>
 		<key>button_add_location_zone</key>
-		<value><![CDATA[Ajouter Emplacement Zone]]></value>
+		<value><![CDATA[Ajouter une zone de localisation]]></value>
 	</definition>
 	<definition>
 		<key>button_add_rate</key>
-		<value><![CDATA[Ajouter Taux d&#39;imposition]]></value>
+		<value><![CDATA[Ajouter un taux d’imposition]]></value>
 	</definition>
 	<definition>
 		<key>button_add_history</key>
-		<value><![CDATA[Ajouter Historique des commandes]]></value>
+		<value><![CDATA[Ajouter l’historique de la commande]]></value>
 	</definition>
 	<definition>
 		<key>button_actas</key>
@@ -238,7 +238,7 @@
 	</definition>
 	<definition>
 		<key>button_message</key>
-		<value><![CDATA[Contactez ce client]]></value>
+		<value><![CDATA[Contacter ce client]]></value>
 	</definition>
 	<definition>
 		<key>button_approve</key>
@@ -254,7 +254,7 @@
 	</definition>
 	<definition>
 		<key>tab_data</key>
-		<value><![CDATA[Les données]]></value>
+		<value><![CDATA[Données]]></value>
 	</definition>
 	<definition>
 		<key>tab_discount</key>
@@ -262,11 +262,11 @@
 	</definition>
 	<definition>
 		<key>tab_details</key>
-		<value><![CDATA[Détails du magasin]]></value>
+		<value><![CDATA[Détails de la boutique]]></value>
 	</definition>
 	<definition>
 		<key>tab_checkout</key>
-		<value><![CDATA[Check-out]]></value>
+		<value><![CDATA[Passer à la caisse]]></value>
 	</definition>
 	<definition>
 		<key>tab_appearance</key>
@@ -274,7 +274,7 @@
 	</definition>
 	<definition>
 		<key>tab_im</key>
-		<value><![CDATA[JE SUIS]]></value>
+		<value><![CDATA[IM]]></value>
 	</definition>
 	<definition>
 		<key>tab_api</key>
@@ -290,7 +290,7 @@
 	</definition>
 	<definition>
 		<key>tab_option</key>
-		<value><![CDATA[options de]]></value>
+		<value><![CDATA[Options]]></value>
 	</definition>
 	<definition>
 		<key>tab_system</key>
@@ -298,7 +298,7 @@
 	</definition>
 	<definition>
 		<key>tab_store</key>
-		<value><![CDATA[le magasin]]></value>
+		<value><![CDATA[Boutique]]></value>
 	</definition>
 	<definition>
 		<key>tab_special</key>
@@ -306,15 +306,15 @@
 	</definition>
 	<definition>
 		<key>tab_local</key>
-		<value><![CDATA[Locale]]></value>
+		<value><![CDATA[Local]]></value>
 	</definition>
 	<definition>
 		<key>tab_mail</key>
-		<value><![CDATA[Courrier]]></value>
+		<value><![CDATA[Courriel]]></value>
 	</definition>
 	<definition>
 		<key>tab_order</key>
-		<value><![CDATA[détails de la commande]]></value>
+		<value><![CDATA[Détails de la commande]]></value>
 	</definition>
 	<definition>
 		<key>tab_history</key>
@@ -322,7 +322,7 @@
 	</definition>
 	<definition>
 		<key>tab_product</key>
-		<value><![CDATA[Des produits]]></value>
+		<value><![CDATA[Produits]]></value>
 	</definition>
 	<definition>
 		<key>tab_shipping</key>
@@ -330,7 +330,7 @@
 	</definition>
 	<definition>
 		<key>tab_payment</key>
-		<value><![CDATA[adresse de facturation]]></value>
+		<value><![CDATA[Adresse de paiement]]></value>
 	</definition>
 	<definition>
 		<key>entry_discount</key>
@@ -342,95 +342,99 @@
 	</definition>
 	<definition>
 		<key>error_upload_1</key>
-		<value><![CDATA[Attention: Le fichier téléchargé excède la directive upload_max_filesize dans php.ini!]]></value>
+		<value><![CDATA[Attention : Le fichier téléchargé dépasse la directive upload_max_filesize dans le fichier php.ini !]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_2</key>
-		<value><![CDATA[Attention: Le fichier téléchargé excède la MAX_FILE_SIZE qui a été spécifié dans le formulaire HTML!]]></value>
+		<value><![CDATA[Attention : Le fichier téléchargé dépasse la directive MAX_FILE_SIZE spécifiée dans le formulaire HTML !]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_3</key>
-		<value><![CDATA[Attention: Le fichier n&#39;a été que partiellement téléchargé!]]></value>
+		<value><![CDATA[Attention : le fichier envoyé n’a été que partiellement téléversé !]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_4</key>
-		<value><![CDATA[Attention: Aucun fichier a été téléchargé!]]></value>
+		<value><![CDATA[Attention : Aucun fichier n’a été téléversé !]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_6</key>
-		<value><![CDATA[Attention: l&#39;absence d&#39;un dossier temporaire!]]></value>
+		<value><![CDATA[Attention : dossier temporaire manquant !]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_7</key>
-		<value><![CDATA[Avertissement: Échec de l&#39;écriture du fichier sur le disque!]]></value>
+		<value><![CDATA[Attention : Impossible d’écrire le fichier sur le disque !]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_8</key>
-		<value><![CDATA[Attention: le téléchargement du fichier arrêté par extension!]]></value>
+		<value><![CDATA[Attention : le téléversement du fichier a été arrêté par l’extension !]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_999</key>
-		<value><![CDATA[Attention: Pas de code d&#39;erreur avaiable!]]></value>
+		<value><![CDATA[Attention : Aucun code d’erreur disponible !]]></value>
 	</definition>
 	<definition>
 		<key>text_choose_action</key>
-		<value><![CDATA[choisir une action..]]></value>
+		<value><![CDATA[Choisissez une action..]]></value>
 	</definition>
 	<definition>
 		<key>text_delete</key>
-		<value><![CDATA[Effacer]]></value>
+		<value><![CDATA[Supprimer]]></value>
 	</definition>
 	<definition>
 		<key>text_delete_selected</key>
-		<value><![CDATA[supprimer sélectionnée]]></value>
+		<value><![CDATA[supprimer la sélection]]></value>
 	</definition>
 	<definition>
 		<key>text_save_selected</key>
-		<value><![CDATA[Enregistrer sélectionné]]></value>
+		<value><![CDATA[Enregistrer la sélection]]></value>
 	</definition>
 	<definition>
 		<key>text_save_all</key>
-		<value><![CDATA[sauver tous]]></value>
+		<value><![CDATA[Enregistrer tout]]></value>
 	</definition>
 	<definition>
 		<key>text_select_status</key>
-		<value><![CDATA[- Sélectionnez État -]]></value>
+		<value><![CDATA[- Sélectionner le statut -]]></value>
 	</definition>
 	<definition>
 		<key>text_all_orders</key>
-		<value><![CDATA[Tous les ordres]]></value>
+		<value><![CDATA[Toutes les commandes]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_password</key>
-		<value><![CDATA[Confirmez le mot de passe]]></value>
+		<value><![CDATA[Confirmer le mot de passe]]></value>
 	</definition>
 	<definition>
 		<key>text_insert</key>
 		<value><![CDATA[Insérer]]></value>
 	</definition>
 	<definition>
+		<key>text_edit</key>
+		<value><![CDATA[Modifier]]></value>
+	</definition>
+	<definition>
 		<key>text_select_items</key>
-		<value><![CDATA[S&#39;il vous plaît Sélectionnez Articles]]></value>
+		<value><![CDATA[Veuillez sélectionner des articles]]></value>
 	</definition>
 	<definition>
 		<key>button_go</key>
-		<value><![CDATA[ALLER]]></value>
+		<value><![CDATA[Aller]]></value>
 	</definition>
 	<definition>
 		<key>search_everywhere</key>
-		<value><![CDATA[Rechercher sur le site entier]]></value>
+		<value><![CDATA[Rechercher sur l'ensemble du site]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[action]]></value>
+		<value><![CDATA[Action]]></value>
 	</definition>
 	<definition>
 		<key>error_permission_access</key>
-		<value><![CDATA[Attention: Vous n&#39;êtes pas autorisé à accéder %s!]]></value>
+		<value><![CDATA[Attention : vous n’avez pas la permission d’accéder à %s !]]></value>
 	</definition>
 	<definition>
 		<key>error_permission_modify</key>
-		<value><![CDATA[Attention: Vous n&#39;êtes pas autorisé à modifier %s!]]></value>
+		<value><![CDATA[Attention : vous n’êtes pas autorisé à modifier %s !]]></value>
 	</definition>
 	<definition>
 		<key>text_add</key>
@@ -438,7 +442,7 @@
 	</definition>
 	<definition>
 		<key>text_add_block</key>
-		<value><![CDATA[Ajouter Bloc]]></value>
+		<value><![CDATA[Ajouter un bloc]]></value>
 	</definition>
 	<definition>
 		<key>text_resource_library</key>
@@ -446,23 +450,24 @@
 	</definition>
 	<definition>
 		<key>text_add_media</key>
-		<value><![CDATA[Ajouter des médias]]></value>
+		<value><![CDATA[Ajouter un média]]></value>
 	</definition>
 	<definition>
 		<key>confirm_unmap_title</key>
-		<value><![CDATA[Confirmer ressource (s) Délier]]></value>
+		<value><![CDATA[Confirmer la(les) ressource(s)
+Délier]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_unmap</key>
-		<value><![CDATA[Etes-vous sûr de vouloir dissocier la ressource (s)?]]></value>
+		<value><![CDATA[Êtes-vous sûr de vouloir désassocier ressource(s) ?]]></value>
 	</definition>
 	<definition>
 		<key>confirm_del_title</key>
-		<value><![CDATA[Confirmer ressource (s) Supprimer]]></value>
+		<value><![CDATA[Confirmer la(les) ressource(s) Supprimer]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_del</key>
-		<value><![CDATA[Êtes-vous sûr de vouloir supprimer la ressource (s)?]]></value>
+		<value><![CDATA[Êtes-vous sûr de vouloir supprimer ressource(s) ?]]></value>
 	</definition>
 	<definition>
 		<key>text_type_image</key>
@@ -470,7 +475,7 @@
 	</definition>
 	<definition>
 		<key>text_type_audio</key>
-		<value><![CDATA[l&#39;audio]]></value>
+		<value><![CDATA[Audio]]></value>
 	</definition>
 	<definition>
 		<key>text_type_video</key>
@@ -478,19 +483,19 @@
 	</definition>
 	<definition>
 		<key>text_type_pdf</key>
-		<value><![CDATA[document PDF]]></value>
+		<value><![CDATA[Document PDF]]></value>
 	</definition>
 	<definition>
 		<key>text_type_archive</key>
-		<value><![CDATA[Archiver]]></value>
+		<value><![CDATA[Archive]]></value>
 	</definition>
 	<definition>
 		<key>text_type_download</key>
-		<value><![CDATA[Télécharger un fichier]]></value>
+		<value><![CDATA[Télécharger le fichier]]></value>
 	</definition>
 	<definition>
 		<key>button_unmap</key>
-		<value><![CDATA[séparer]]></value>
+		<value><![CDATA[Dissocier]]></value>
 	</definition>
 	<definition>
 		<key>button_select_resource</key>
@@ -498,7 +503,7 @@
 	</definition>
 	<definition>
 		<key>text_click_to_change</key>
-		<value><![CDATA[Cliquez sur l&#39;image pour le changer]]></value>
+		<value><![CDATA[Cliquez sur l’image pour la modifier.]]></value>
 	</definition>
 	<definition>
 		<key>text_select_from_list</key>
@@ -506,15 +511,15 @@
 	</definition>
 	<definition>
 		<key>text_count_selected</key>
-		<value><![CDATA[Décompte des éléments sélectionnés:]]></value>
+		<value><![CDATA[Nombre d’articles sélectionnés :]]></value>
 	</definition>
 	<definition>
 		<key>text_delete_confirm</key>
-		<value><![CDATA[S&#39;il vous plaît, confirmer supprimer]]></value>
+		<value><![CDATA[Veuillez confirmer la suppression]]></value>
 	</definition>
 	<definition>
 		<key>text_save_edit</key>
-		<value><![CDATA[Ajouter / Modifier]]></value>
+		<value><![CDATA[Ajouter/Modifier]]></value>
 	</definition>
 	<definition>
 		<key>text_apply</key>
@@ -522,11 +527,15 @@
 	</definition>
 	<definition>
 		<key>text_on_top</key>
-		<value><![CDATA[retour au sommet]]></value>
+		<value><![CDATA[Retour en haut]]></value>
 	</definition>
 	<definition>
 		<key>text_all</key>
-		<value><![CDATA[Tout]]></value>
+		<value><![CDATA[Tous]]></value>
+	</definition>
+	<definition>
+		<key>text_all_stores</key>
+		<value><![CDATA[Tous les magasins]]></value>
 	</definition>
 	<definition>
 		<key>text_create_new_block</key>
@@ -534,15 +543,15 @@
 	</definition>
 	<definition>
 		<key>button_unlink</key>
-		<value><![CDATA[séparer]]></value>
+		<value><![CDATA[Dissocier]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_unlink</key>
-		<value><![CDATA[Etes-vous sûr de vouloir dissocier la ressource?]]></value>
+		<value><![CDATA[Êtes-vous sûr de vouloir dissocier la ressource ?]]></value>
 	</definition>
 	<definition>
 		<key>confirm_unlink_title</key>
-		<value><![CDATA[Confirmer Délier des ressources]]></value>
+		<value><![CDATA[Confirmer la dissociation de la ressource]]></value>
 	</definition>
 	<definition>
 		<key>text_select_store</key>
@@ -550,11 +559,11 @@
 	</definition>
 	<definition>
 		<key>text_click_browse_file</key>
-		<value><![CDATA[Cliquez pour voir le fichier]]></value>
+		<value><![CDATA[Cliquez pour parcourir le fichier]]></value>
 	</definition>
 	<definition>
 		<key>text_browse</key>
-		<value><![CDATA[Feuilleter]]></value>
+		<value><![CDATA[Parcourir]]></value>
 	</definition>
 	<definition>
 		<key>text_or</key>
@@ -562,7 +571,7 @@
 	</definition>
 	<definition>
 		<key>error_seo_keyword</key>
-		<value><![CDATA[SEO mot - clé <a target="_blank" href="%s">&quot;%s&quot;</a> est existe déjà!]]></value>
+		<value><![CDATA[Mot-clé SEO <a target="_blank" href="%s">"%s"</a> existe déjà !]]></value>
 	</definition>
 	<definition>
 		<key>column_update_date</key>
@@ -578,7 +587,7 @@
 	</definition>
 	<definition>
 		<key>text_select_copy_layout</key>
-		<value><![CDATA[Sélectionnez cette option pour copier la mise en page à partir]]></value>
+		<value><![CDATA[Sélectionner pour copier la mise en page depuis]]></value>
 	</definition>
 	<definition>
 		<key>text_apply_layout</key>
@@ -586,7 +595,7 @@
 	</definition>
 	<definition>
 		<key>text_new_download</key>
-		<value><![CDATA[Nouveau Téléchargement]]></value>
+		<value><![CDATA[Nouveau téléchargement]]></value>
 	</definition>
 	<definition>
 		<key>text_free</key>
@@ -594,7 +603,7 @@
 	</definition>
 	<definition>
 		<key>text_sure</key>
-		<value><![CDATA[Êtes-vous sûr?]]></value>
+		<value><![CDATA[Êtes-vous sûr ?]]></value>
 	</definition>
 	<definition>
 		<key>button_add</key>
@@ -614,35 +623,35 @@
 	</definition>
 	<definition>
 		<key>recent_customers</key>
-		<value><![CDATA[Les clients récemment enregistrés]]></value>
+		<value><![CDATA[Clients récemment inscrits]]></value>
 	</definition>
 	<definition>
 		<key>new_orders</key>
-		<value><![CDATA[Nouvelles commandes]]></value>
+		<value><![CDATA[Nouvelles Commandes]]></value>
 	</definition>
 	<definition>
 		<key>text_saved</key>
-		<value><![CDATA[Sauvegarde réussie]]></value>
+		<value><![CDATA[Enregistré avec succès]]></value>
 	</definition>
 	<definition>
 		<key>text_processing</key>
-		<value><![CDATA[En traitement ...]]></value>
+		<value><![CDATA[Traitement en cours ...]]></value>
 	</definition>
 	<definition>
 		<key>text_next</key>
-		<value><![CDATA[Prochain]]></value>
+		<value><![CDATA[Suivant]]></value>
 	</definition>
 	<definition>
 		<key>text_previous</key>
-		<value><![CDATA[précédent]]></value>
+		<value><![CDATA[Précédent]]></value>
 	</definition>
 	<definition>
 		<key>text_on</key>
-		<value><![CDATA[SUR]]></value>
+		<value><![CDATA[Activé]]></value>
 	</definition>
 	<definition>
 		<key>text_off</key>
-		<value><![CDATA[DE]]></value>
+		<value><![CDATA[Désactivé]]></value>
 	</definition>
 	<definition>
 		<key>text_external_help</key>
@@ -650,7 +659,7 @@
 	</definition>
 	<definition>
 		<key>text_select_from_lookup</key>
-		<value><![CDATA[Commencez à taper (nom, modèle, sku, etc.) pour rechercher et sélectionner résultat]]></value>
+		<value><![CDATA[Commencez à taper pour rechercher et sélectionner le résultat]]></value>
 	</definition>
 	<definition>
 		<key>text_continue_typing</key>
@@ -666,43 +675,47 @@
 	</definition>
 	<definition>
 		<key>text_abc_notification</key>
-		<value><![CDATA[Mises à jour logicielles et notifications]]></value>
+		<value><![CDATA[Mises à jour du logiciel et notifications]]></value>
 	</definition>
 	<definition>
 		<key>text_not_applicable</key>
-		<value><![CDATA[N / A]]></value>
+		<value><![CDATA[NA]]></value>
 	</definition>
 	<definition>
 		<key>text_share_embed_code</key>
-		<value><![CDATA[Obtenez Intégrer le code]]></value>
+		<value><![CDATA[Obtenir le code d’intégration]]></value>
 	</definition>
 	<definition>
 		<key>text_copy_embed_code</key>
-		<value><![CDATA[Copie et collez-le dans votre code HTML où vous souhaitez vendre]]></value>
+		<value><![CDATA[Copiez et collez ceci dans votre code HTML là où vous souhaitez vendre.]]></value>
+	</definition>
+	<definition>
+		<key>text_copy_embed_url</key>
+		<value><![CDATA[Copiez et collez cette URL sur un autre site où vous souhaitez vendre.]]></value>
 	</definition>
 	<definition>
 		<key>button_retry</key>
-		<value><![CDATA[Recommencez]]></value>
+		<value><![CDATA[Réessayer]]></value>
 	</definition>
 	<definition>
 		<key>text_system_error</key>
-		<value><![CDATA[Erreur système a été rencontré. Vérifiez le système de <a target="_blank" href="%s">messages</a> ou le <a target="_blank" href="%s">journal des erreurs</a>]]></value>
+		<value><![CDATA[Une erreur système a été rencontrée. Vérifiez les <a target="_blank" href="%s">messages</a> du système ou le <a target="_blank" href="%s">journal des erreurs</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_system_warning</key>
-		<value><![CDATA[avertissement système a été rapporté. Vérifiez système <a target="_blank" href="%s">messages</a>]]></value>
+		<value><![CDATA[Un avertissement du système a été signalé. Consultez les <a target="_blank" href="%s">messages système</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_system_notice</key>
-		<value><![CDATA[avis de système a été rapporté. Vérifiez système <a target="_blank" href="%s">messages</a>]]></value>
+		<value><![CDATA[Une notification système a été signalée. Consultez les <a target="_blank" href="%s">messages système</a>.]]></value>
 	</definition>
 	<definition>
 		<key>text_set_related</key>
-		<value><![CDATA[Set connexes]]></value>
+		<value><![CDATA[Définir les produits associés]]></value>
 	</definition>
 	<definition>
 		<key>tab_text</key>
-		<value><![CDATA[HTML / Text]]></value>
+		<value><![CDATA[HTML/Texte]]></value>
 	</definition>
 	<definition>
 		<key>tab_visual</key>
@@ -713,8 +726,12 @@
 		<value><![CDATA[Ajouter des médias]]></value>
 	</definition>
 	<definition>
+		<key>button_field_history</key>
+		<value><![CDATA[Afficher l’historique du champ]]></value>
+	</definition>
+	<definition>
 		<key>text_view_more</key>
-		<value><![CDATA[Afficher plus]]></value>
+		<value><![CDATA[Voir plus]]></value>
 	</definition>
 	<definition>
 		<key>text_admin</key>
@@ -730,39 +747,27 @@
 	</definition>
 	<definition>
 		<key>text_quick_view</key>
-		<value><![CDATA[Aperçu rapide]]></value>
+		<value><![CDATA[Vue rapide]]></value>
 	</definition>
 	<definition>
 		<key>text_more_current</key>
-		<value><![CDATA[Pleine page modifier]]></value>
+		<value><![CDATA[Édition complète de la page]]></value>
 	</definition>
 	<definition>
 		<key>text_more_new</key>
-		<value><![CDATA[Nouveau onglet modifier]]></value>
+		<value><![CDATA[Modifier nouvel onglet]]></value>
 	</definition>
 	<definition>
 		<key>text_back_to_list</key>
 		<value><![CDATA[Retour à la liste]]></value>
 	</definition>
 	<definition>
-		<key>text_all_stores</key>
-		<value><![CDATA[Tous les magasins]]></value>
-	</definition>
-	<definition>
-		<key>text_copy_embed_url</key>
-		<value><![CDATA[Copiez et collez cette URL dans un autre site où vous souhaitez vendre]]></value>
-	</definition>
-	<definition>
-		<key>button_field_history</key>
-		<value><![CDATA[Afficher l&#39;historique du champ]]></value>
-	</definition>
-	<definition>
 		<key>text_help_link</key>
-		<value><![CDATA[<a href="http://www.abantecart.com/contact-us" target="_abantecart">Besoin d&#39;aide?</a>]]></value>
+		<value><![CDATA[<a href="http://www.abantecart.com/contact-us" target="_abantecart">Besoin d’aide ?</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_subtract_order</key>
-		<value><![CDATA[Soustraire l&#39;ordre]]></value>
+		<value><![CDATA[Soustraire la commande]]></value>
 	</definition>
 	<definition>
 		<key>button_preview</key>
@@ -770,7 +775,7 @@
 	</definition>
 	<definition>
 		<key>warning_extensions_with_layouts</key>
-		<value><![CDATA[ Les extensions <br/> à <br/> suivantes incluent des pages ou des mises en page absentes du modèle sélectionné. Pour intégrer ces fonctionnalités, vous devrez les réinstaller après avoir activé le nouveau modèle. Si la réinstallation ne résout pas le problème, contactez les développeurs des extensions ci-dessus pour obtenir de l&#39;aide.	]]></value>
+		<value><![CDATA[Les extensions suivantes <br> %s <br> comprennent des pages ou des mises en page qui ne sont pas présentes dans le modèle sélectionné. Pour inclure les fonctionnalités de ces extensions, vous devrez réinstaller les extensions après avoir activé le nouveau modèle. Si la réinstallation ne suffit pas, contactez les développeurs d’origine des extensions ci-dessus pour obtenir de l’aide.]]></value>
 	</definition>
 	<definition>
 		<key>column_sku</key>
@@ -782,7 +787,7 @@
 	</definition>
 	<definition>
 		<key>text_data_history</key>
-		<value><![CDATA[Historique des modifications des données]]></value>
+		<value><![CDATA[Historique des modifications de données]]></value>
 	</definition>
 	<definition>
 		<key>text_design</key>
@@ -790,7 +795,7 @@
 	</definition>
 	<definition>
 		<key>text_select_brand</key>
-		<value><![CDATA[-Sélectionnez la marque-]]></value>
+		<value><![CDATA[-Sélectionnez une marque-]]></value>
 	</definition>
 	<definition>
 		<key>text_advanced_settings</key>

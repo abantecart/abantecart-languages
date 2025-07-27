@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[内容管理者]]></value>
+		<value><![CDATA[内容管理器]]></value>
 	</definition>
 	<definition>
 		<key>insert_title</key>
@@ -14,15 +14,15 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已修改的内容！]]></value>
+		<value><![CDATA[成功：您已修改内容！]]></value>
 	</definition>
 	<definition>
 		<key>text_success_layout</key>
-		<value><![CDATA[成功：你已修改的内容页面布局。]]></value>
+		<value><![CDATA[成功：您已修改内容页面布局。]]></value>
 	</definition>
 	<definition>
 		<key>text_hidden</key>
-		<value><![CDATA[隐]]></value>
+		<value><![CDATA[隐藏]]></value>
 	</definition>
 	<definition>
 		<key>text_default</key>
@@ -34,43 +34,47 @@
 	</definition>
 	<definition>
 		<key>column_parent</key>
-		<value><![CDATA[父内容]]></value>
+		<value><![CDATA[父级内容]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent</key>
-		<value><![CDATA[父内容页]]></value>
+		<value><![CDATA[父级内容页面]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
-		<value><![CDATA[排序]]></value>
+		<value><![CDATA[排序顺序]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
 		<value><![CDATA[状态]]></value>
 	</definition>
 	<definition>
+		<key>column_publish_date</key>
+		<value><![CDATA[发布日期]]></value>
+	</definition>
+	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[标题：]]></value>
+		<value><![CDATA[内容标题:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[描述：]]></value>
+		<value><![CDATA[Description:<br /><span class="help">不建议在内容描述中使用HTML标签！这取决于您的店面模板</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_content</key>
-		<value><![CDATA[内容：]]></value>
+		<value><![CDATA[内容:]]></value>
 	</definition>
 	<definition>
 		<key>entry_store</key>
-		<value><![CDATA[商店：]]></value>
+		<value><![CDATA[店铺：]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[状态：]]></value>
+		<value><![CDATA[状态:]]></value>
 	</definition>
 	<definition>
 		<key>entry_keyword</key>
@@ -78,43 +82,79 @@
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
-		<value><![CDATA[排序：]]></value>
+		<value><![CDATA[排序顺序：]]></value>
+	</definition>
+	<definition>
+		<key>entry_publish_date</key>
+		<value><![CDATA[发布日期：]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_date</key>
+		<value><![CDATA[到期日：]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_bar</key>
+		<value><![CDATA[内容详情栏：<br /><span class="help">启用此设置以在内容页面上显示包含作者和发布日期的栏</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[主图或图标：]]></value>
+	</definition>
+	<definition>
+		<key>entry_tags</key>
+		<value><![CDATA[内容标签:<br /><span class="help">逗号分隔列表</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_author</key>
+		<value><![CDATA[作者：]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改内容！]]></value>
+		<value><![CDATA[警告：您无权修改内容！]]></value>
 	</definition>
 	<definition>
 		<key>error_title</key>
-		<value><![CDATA[内容标题必须在2到64个字符！]]></value>
+		<value><![CDATA[内容标题必须在2到255个字符之间！]]></value>
+	</definition>
+	<definition>
+		<key>error_title_html</key>
+		<value><![CDATA[内容标题不能包含 HTML 标签！]]></value>
 	</definition>
 	<definition>
 		<key>error_description</key>
-		<value><![CDATA[说明必须超过1个字符！]]></value>
+		<value><![CDATA[描述必须多于1个字符！]]></value>
+	</definition>
+	<definition>
+		<key>error_description_html</key>
+		<value><![CDATA[内容描述中的HTML标签不受支持！]]></value>
 	</definition>
 	<definition>
 		<key>error_content</key>
-		<value><![CDATA[内容必须超过1个字符！]]></value>
+		<value><![CDATA[内容必须多于1个字符！]]></value>
 	</definition>
 	<definition>
 		<key>error_seo_url</key>
-		<value><![CDATA[SEO URL必须超过1个字符！]]></value>
+		<value><![CDATA[SEO URL 必须多于 1 个字符！]]></value>
 	</definition>
 	<definition>
 		<key>error_account</key>
-		<value><![CDATA[警告：因为它是目前指定的默认存储帐户条款此内容不能被删除！]]></value>
+		<value><![CDATA[警告：此内容无法删除，因为它当前被指定为默认商店账户条款！]]></value>
 	</definition>
 	<definition>
 		<key>error_checkout</key>
-		<value><![CDATA[警告：因为它是目前指定的默认存储结账条款此内容不能被删除！]]></value>
+		<value><![CDATA[警告：该内容无法删除，因为它当前被指定为默认商店结账条款！]]></value>
+	</definition>
+	<definition>
+		<key>error_delete_parent</key>
+		<value><![CDATA[警告：父内容无法被删除！请先移动或删除子内容页面。]]></value>
 	</definition>
 	<definition>
 		<key>error_required_data</key>
-		<value><![CDATA[必需数据尚未输入。检查现场错误！]]></value>
+		<value><![CDATA[必需数据尚未输入。请检查字段错误！]]></value>
 	</definition>
 	<definition>
 		<key>text_top_level</key>
-		<value><![CDATA[顶层]]></value>
+		<value><![CDATA[顶级]]></value>
 	</definition>
 	<definition>
 		<key>text_any</key>
@@ -125,53 +165,12 @@
 		<value><![CDATA[编辑]]></value>
 	</definition>
 	<definition>
-		<key>column_publish_date</key>
-		<value><![CDATA[发布日期]]></value>
-	</definition>
-	<definition>
-		<key>entry_publish_date</key>
-		<value><![CDATA[发布日期：]]></value>
-	</definition>
-	<definition>
-		<key>entry_expire_date</key>
-		<value><![CDATA[截止日期：]]></value>
-	</definition>
-	<definition>
-		<key>entry_content_bar</key>
-		<value><![CDATA[内容详情栏： <br/><span class="help">启用此设置可在内容页面上显示作者和发布日期的栏</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_icon</key>
-		<value><![CDATA[主图像或图标：]]></value>
-	</definition>
-	<definition>
-		<key>entry_tags</key>
-		<value><![CDATA[内容标签： <br/><span class="help">逗号分隔列表</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_author</key>
-		<value><![CDATA[作者：]]></value>
-	</definition>
-	<definition>
-		<key>error_title_html</key>
-		<value><![CDATA[内容标题不能包含 HTML 标签！]]></value>
-	</definition>
-	<definition>
-		<key>error_description_html</key>
-		<value><![CDATA[不支持内容描述 HTML 标签！]]></value>
-	</definition>
-	<definition>
-		<key>error_delete_parent</key>
-		<value><![CDATA[
-警告：无法删除父内容！请先移动或删除子内容页面。]]></value>
-	</definition>
-	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[ 元标签描述： ]]></value>
+		<value><![CDATA[Meta标签描述：]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_keywords</key>
-		<value><![CDATA[元标记关键字：]]></value>
+		<value><![CDATA[Meta 标签关键字：]]></value>
 	</definition>
 	<definition>
 		<key>text_clone</key>
@@ -179,14 +178,14 @@
 	</definition>
 	<definition>
 		<key>text_success_copy</key>
-		<value><![CDATA[成功：您已成功复制内容页面<b>%s</b> ！]]></value>
+		<value><![CDATA[成功：您已成功复制内容页面 <b>%s</b>！]]></value>
 	</definition>
 	<definition>
 		<key>text_success_copy_layout</key>
-		<value><![CDATA[ 注意：内容页面布局也已被克隆。]]></value>
+		<value><![CDATA[注意：内容页面布局也已被克隆。]]></value>
 	</definition>
 	<definition>
 		<key>text_error_copy</key>
-		<value><![CDATA[克隆失败！原始内容页面不可用]]></value>
+		<value><![CDATA[克隆失败！原始内容页面不可用。]]></value>
 	</definition>
 </definitions>

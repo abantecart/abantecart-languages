@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
-		<value><![CDATA[Formular-Manager]]></value>
+		<value><![CDATA[Formularverwaltung]]></value>
 	</definition>
 	<definition>
 		<key>forms_manager_status</key>
@@ -10,23 +10,23 @@
 	</definition>
 	<definition>
 		<key>forms_manager_note</key>
-		<value><![CDATA[Um Formulare zu verwalten, aktivieren Sie bitte die Erweiterung und folgen Sie Design-&gt; <a href="#admin#rt=tool/forms_manager">Formular-Manager</a>]]></value>
+		<value><![CDATA[Um Formulare zu verwalten, aktivieren Sie bitte die Erweiterung und folgen Sie Design-><a href="#admin#rt=tool/forms_manager">Formular-Manager</a>]]></value>
 	</definition>
 	<definition>
 		<key>custom_forms_block</key>
-		<value><![CDATA[Benutzerdefinierter Formularblock]]></value>
+		<value><![CDATA[Block für benutzerdefinierte Formulare]]></value>
 	</definition>
 	<definition>
 		<key>entry_form_name</key>
-		<value><![CDATA[Formularname <br/><span class="help">lateinische Buchstaben, nur Unterstrich, Minus</span>]]></value>
+		<value><![CDATA[Formularname<br/><span class="help">Nur lateinische Buchstaben, Unterstrich und Bindestrich</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_controller_path</key>
-		<value><![CDATA[Verantwortlicher für die Verarbeitung]]></value>
+		<value><![CDATA[Verarbeitungs-Controller]]></value>
 	</definition>
 	<definition>
 		<key>entry_success_page</key>
-		<value><![CDATA[Erfolg Seite <br/><span class="help">Lassen Sie es leer, wenn Sie auf die gleiche Seite wie Controller umleiten möchten</span>]]></value>
+		<value><![CDATA[Erfolgsseite<br/><span class="help">Lassen Sie es leer, wenn Sie auf dieselbe Seite wie den Controller umleiten möchten</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_form_description</key>
@@ -42,7 +42,7 @@
 	</definition>
 	<definition>
 		<key>text_form</key>
-		<value><![CDATA[Bilden]]></value>
+		<value><![CDATA[Formular]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -58,23 +58,23 @@
 	</definition>
 	<definition>
 		<key>filter_exact_match</key>
-		<value><![CDATA[Der genaue Satz]]></value>
+		<value><![CDATA[Die exakte Phrase]]></value>
 	</definition>
 	<definition>
 		<key>filter_any_word</key>
-		<value><![CDATA[Jedes dieser Wörter]]></value>
+		<value><![CDATA[Eines dieser Wörter]]></value>
 	</definition>
 	<definition>
 		<key>filter_all_words</key>
-		<value><![CDATA[Alle diese Worte]]></value>
+		<value><![CDATA[Alle diese Wörter]]></value>
 	</definition>
 	<definition>
 		<key>text_clone</key>
-		<value><![CDATA[Klon]]></value>
+		<value><![CDATA[Klonen]]></value>
 	</definition>
 	<definition>
 		<key>filter_form</key>
-		<value><![CDATA[Suche nach Formular]]></value>
+		<value><![CDATA[Nach Formular suchen]]></value>
 	</definition>
 	<definition>
 		<key>text_add_new_field</key>
@@ -102,7 +102,7 @@
 	</definition>
 	<definition>
 		<key>entry_field_name</key>
-		<value><![CDATA[Feldname (lateinische Buchstaben, nur Unterstrich, Minus)]]></value>
+		<value><![CDATA[Feldname (nur lateinische Buchstaben, Unterstrich und Minus)]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -126,11 +126,11 @@
 	</definition>
 	<definition>
 		<key>error_duplicate_form_name</key>
-		<value><![CDATA[Es gibt bereits ein Formular mit einem solchen Namensattribut.]]></value>
+		<value><![CDATA[Ein Formular mit solchem Name-Attribut existiert bereits.]]></value>
 	</definition>
 	<definition>
 		<key>error_duplicate_field_name</key>
-		<value><![CDATA[Im aktuellen Formular ist bereits ein Feld mit diesem Namen vorhanden.]]></value>
+		<value><![CDATA[Ein Feld mit diesem Namen existiert bereits im aktuellen Formular.]]></value>
 	</definition>
 	<definition>
 		<key>text_field_removed</key>
@@ -170,7 +170,7 @@
 	</definition>
 	<definition>
 		<key>entry_no_set_values</key>
-		<value><![CDATA[Für diesen Feldtyp können Sie keine Werte festlegen.]]></value>
+		<value><![CDATA[Sie können für diesen Feldtyp keine Werte festlegen.]]></value>
 	</definition>
 	<definition>
 		<key>text_field_values</key>
@@ -178,15 +178,15 @@
 	</definition>
 	<definition>
 		<key>note_create_form_block</key>
-		<value><![CDATA[HINWEIS: Um dieses Formular im Schaufenster anzuzeigen, erstellen Sie einen Formularblock unter „Design“ -&gt; „ <a href="%s">Blöcke</a> “ und fügen Sie ihn der entsprechenden Seite unter „Design“ -&gt; „ <a href="%s">Layouts</a> “ hinzu.]]></value>
+		<value><![CDATA[HINWEIS: Um dieses Formular im Onlineshop anzuzeigen, erstellen Sie einen Formular-Block unter Design-><a href="%s">Blöcke</a> und fügen Sie ihn auf der entsprechenden Seite unter Design-><a href="%s">Layouts</a> hinzu.]]></value>
 	</definition>
 	<definition>
 		<key>note_edit_layout</key>
-		<value><![CDATA[HINWEIS: Um diesen Block im Storefront anzuzeigen, fügen Sie ihn der entsprechenden Seite unter „Design -&gt; <a href="%s">Layouts“</a> hinzu. Um ein neues Formular zu erstellen, gehen Sie zu „Design -&gt; <a href="%s">Formular-Manager</a> “.]]></value>
+		<value><![CDATA[HINWEIS: Um diesen Block im Shop-Frontend anzuzeigen, fügen Sie ihn der entsprechenden Seite unter Design-><a href="%s">Layouts</a> hinzu. Um ein neues Formular zu erstellen, rufen Sie die Seite Design-><a href="%s">Formularverwaltung</a> auf.]]></value>
 	</definition>
 	<definition>
 		<key>text_select_field_type</key>
-		<value><![CDATA[--- Bitte wählen ---]]></value>
+		<value><![CDATA[--- Bitte auswählen ---]]></value>
 	</definition>
 	<definition>
 		<key>entry_field_note</key>
@@ -194,7 +194,7 @@
 	</definition>
 	<definition>
 		<key>forms_manager_default_sender_name</key>
-		<value><![CDATA[Standardabsender:]]></value>
+		<value><![CDATA[Standard-Absender:]]></value>
 	</definition>
 	<definition>
 		<key>forms_manager_default_sender_email</key>
@@ -214,26 +214,26 @@
 	</definition>
 	<definition>
 		<key>entry_form</key>
-		<value><![CDATA[Bilden]]></value>
+		<value><![CDATA[Formular]]></value>
 	</definition>
 	<definition>
 		<key>error_fill_required</key>
-		<value><![CDATA[Bitte füllen Sie alle erforderlichen Felder des Formulars aus!]]></value>
+		<value><![CDATA[Bitte füllen Sie alle Pflichtfelder des Formulars aus!]]></value>
 	</definition>
 	<definition>
 		<key>error_form_name</key>
-		<value><![CDATA[Der Formularname darf nicht leer sein!]]></value>
+		<value><![CDATA[Name des Formulars darf nicht leer sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_form_description</key>
-		<value><![CDATA[Die Formularbeschreibung darf nicht leer sein!]]></value>
+		<value><![CDATA[Beschreibung des Formulars darf nicht leer sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_field_name_exists</key>
-		<value><![CDATA[Feld mit Name %s bereits im Formular vorhanden!]]></value>
+		<value><![CDATA[Feld mit dem Namen %s ist bereits im Formular vorhanden!]]></value>
 	</definition>
 	<definition>
 		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[Achtung! Bitte legen Sie den Standardabsendernamen und die Standardabsender-E-Mail in <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">den Formularmanager-Einstellungen</a> fest]]></value>
+		<value><![CDATA[Warnung! Bitte legen Sie den Standard-Absendernamen und die Standard-Absender-E-Mail in den <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">Formular-Manager-Einstellungen</a> fest.]]></value>
 	</definition>
 </definitions>

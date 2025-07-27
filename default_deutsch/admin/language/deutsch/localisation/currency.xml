@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,11 +10,11 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben modifizierte Währungen!]]></value>
+		<value><![CDATA[Erfolg: Sie haben Währungen geändert!]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[Währungs Titel]]></value>
+		<value><![CDATA[Währungstitel]]></value>
 	</definition>
 	<definition>
 		<key>column_code</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>column_date_modified</key>
-		<value><![CDATA[Letzte Aktualisierung]]></value>
+		<value><![CDATA[Zuletzt aktualisiert]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -38,19 +38,19 @@
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Währung Titel:]]></value>
+		<value><![CDATA[Währungstitel:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[Code: <br/><span class="help">Ändern Sie nicht, wenn dies Ihre Standardwährung ist.</span>]]></value>
+		<value><![CDATA[Code:<br /><span class="help">Ändern Sie dies nicht, wenn dies Ihre Standardwährung ist.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_value</key>
-		<value><![CDATA[Wert: <br/><span class="help">Set auf 1,00000, wenn dies Ihre Währung.</span>]]></value>
+		<value><![CDATA[Wert:<br /><span class="help">Auf 1.00000 setzen, wenn dies Ihre Standardwährung ist.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_symbol_left</key>
-		<value><![CDATA[Symbol Links:]]></value>
+		<value><![CDATA[Linkes Symbol:]]></value>
 	</definition>
 	<definition>
 		<key>entry_symbol_right</key>
@@ -58,7 +58,7 @@
 	</definition>
 	<definition>
 		<key>entry_decimal_place</key>
-		<value><![CDATA[Nachkommastellen:]]></value>
+		<value><![CDATA[Dezimalstellen:]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -70,22 +70,22 @@
 	</definition>
 	<definition>
 		<key>error_title</key>
-		<value><![CDATA[Währungs Titel muss zwischen 2 und 32 Zeichen lang sein!]]></value>
+		<value><![CDATA[Währungstitel muss zwischen 2 und 32 Zeichen lang sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[Währungscode muss 3 Zeichen lang sein!]]></value>
+		<value><![CDATA[Währungscode muss 3 Zeichen enthalten!]]></value>
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[Achtung: Diese Währung kann nicht gelöscht werden, wie sie derzeit als Standardspeicher Währung zugeordnet!]]></value>
+		<value><![CDATA[Warnung: Diese Währung kann nicht gelöscht werden, da sie derzeit als Standardwährung des Shops zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[Achtung: Diese Währung kann nicht gelöscht werden, wie es derzeit auf %s speichert zugeordnet!]]></value>
+		<value><![CDATA[Warnung: Diese Währung kann nicht gelöscht werden, da sie derzeit %s Shops zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[Achtung: Diese Währung kann nicht gelöscht werden, da es zur Zeit auf %s Aufträge zugewiesen wird!]]></value>
+		<value><![CDATA[Warnung: Diese Währung kann nicht gelöscht werden, da sie derzeit %s Bestellungen zugeordnet ist!]]></value>
 	</definition>
 </definitions>

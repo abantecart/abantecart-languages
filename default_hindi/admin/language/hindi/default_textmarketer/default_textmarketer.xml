@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[एसएमएस-मैसेजिंग सक्षम करने के लिए System -> Settings -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a> पर जाएँ और डिफ़ॉल्ट एसएमएस-ड्राइवर के रूप में TextMarketer चुनें।<br/>ध्यान दें कि उस सेक्शन को सक्षम करें जहाँ से आप एसएमएस प्राप्त करना चाहते हैं (व्यवस्थापक या स्टोरफ्रंट)।<br/>यह एक्सटेंशन व्यवस्थापकों और ग्राहकों के लिए मोबाइल फ़ोन फ़ील्ड सक्रिय करेगा। ध्यान रखें कि इस एक्सटेंशन को अक्षम करने पर यह फ़ील्ड छुप जाएगा। यदि इसे मौजूदा स्टोर में ग्राहकों सहित जोड़ा जाता है, तो ध्यान रखें कि यह जानकारी अनुपलब्ध होगी।]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API उपयोगकर्ता नाम]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[एपीआई पासवर्ड]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[उत्प्रेषक: <span class="help">संदेश किसने भेजा है (उत्प्रेषक या प्रेषक ID)। यह केवल 11 alpha-numeric या 16 numeric वर्ण हो सकते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[परीक्षण मोड]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[नहीं]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[हाँ]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[त्रुटि लॉगिंग स्थिति<span class="help">यदि आप TextMarketer एक्सटेंशन की सभी त्रुटियों को लॉग करना चाहते हैं तो इस सेटिंग को ON करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[मोबाइल फोन]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[अपने कनेक्शन का परीक्षण करें:<span class="help">आप यह जाँच सकते हैं कि आपने जो एपीआई प्रमाण-पत्र दर्ज किए हैं वे सही हैं या नहीं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[परीक्षण]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[त्रुटि! कृपया जांचें कि एक्सटेंशन चालू है या नहीं।]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[त्रुटि! कृपया प्राप्तकर्ता का फ़ोन नंबर दर्ज करें।]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[विस्तृत जानकारी के लिए त्रुटि लॉग देखें।]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[कनेक्शन सफल है और API क्रेडेंशियल्स सही तरीके से कॉन्फ़िगर किए गए हैं।]]></value>
+	</definition>
+</definitions>

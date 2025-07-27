@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>column_store_alias</key>
-		<value><![CDATA[商店]]></value>
+		<value><![CDATA[店铺]]></value>
 	</definition>
 	<definition>
 		<key>column_group</key>
@@ -22,11 +22,11 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已成功保存你的设置！]]></value>
+		<value><![CDATA[成功：您已成功保存您的设置！]]></value>
 	</definition>
 	<definition>
 		<key>text_image_manager</key>
-		<value><![CDATA[图像管理器]]></value>
+		<value><![CDATA[图片管理器]]></value>
 	</definition>
 	<definition>
 		<key>text_select_group</key>
@@ -54,27 +54,39 @@
 	</definition>
 	<definition>
 		<key>text_mail</key>
-		<value><![CDATA[邮件]]></value>
+		<value><![CDATA[内置邮件发送器]]></value>
 	</definition>
 	<definition>
 		<key>text_smtp</key>
-		<value><![CDATA[邮件传输协议]]></value>
+		<value><![CDATA[简单邮件传输协议]]></value>
+	</definition>
+	<definition>
+		<key>text_native</key>
+		<value><![CDATA[本机 ( sendmail binary and options "sendmail_path" setting of php.ini)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[从 system/config.php 获取]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[Mailer 会从 config.php 文件 中 组合 一个 <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a>。请阅读我们的 <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">文档</a> 了解详细信息。]]></value>
 	</definition>
 	<definition>
 		<key>tab_all</key>
-		<value><![CDATA[所有]]></value>
+		<value><![CDATA[全部]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[店铺名称：]]></value>
+		<value><![CDATA[商店名称:]]></value>
 	</definition>
 	<definition>
 		<key>entry_url</key>
-		<value><![CDATA[商店网址： <br/><span class="help">的完整网址到您的商店。确保在末尾加上“/”。例如：http://www.yourdomain.com/path/</span>]]></value>
+		<value><![CDATA[商店网址:<br /><span class="help">请包含您商店的完整 URL。请确保末尾添加 '/'。示例: http://www.yourdomain.com/path/</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_owner</key>
-		<value><![CDATA[店老板：]]></value>
+		<value><![CDATA[店主：]]></value>
 	</definition>
 	<definition>
 		<key>entry_address</key>
@@ -82,11 +94,15 @@
 	</definition>
 	<definition>
 		<key>entry_email</key>
-		<value><![CDATA[电子邮件：]]></value>
+		<value><![CDATA[电子邮件:]]></value>
 	</definition>
 	<definition>
 		<key>entry_alert_emails</key>
-		<value><![CDATA[附加警示e-mail： <br/><span class="help">的任何其他电子邮件要接收这个报警邮件，除了总店电子邮件。 （逗号分隔）</span>]]></value>
+		<value><![CDATA[附加警报电子邮件:<br /><span class="help">您希望接收此警报邮件的其他电子邮件地址，除主商店电子邮件外。（用逗号分隔）</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[警报电子邮件必须有效，且用逗号分隔！]]></value>
 	</definition>
 	<definition>
 		<key>entry_telephone</key>
@@ -94,27 +110,27 @@
 	</definition>
 	<definition>
 		<key>entry_fax</key>
-		<value><![CDATA[传真：]]></value>
+		<value><![CDATA[传真:]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[标题： <br/><span class="help">这是显示在店面浏览器标题</span>]]></value>
+		<value><![CDATA[标题:<br /><span class="help">这会显示在店铺前台浏览器标题中</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[Meta标签说明： <br/><span class="help">店面主页meta标签描述</span>]]></value>
+		<value><![CDATA[Meta 标签描述:<br /><span class="help">店铺主页面元标签描述</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_keywords</key>
-		<value><![CDATA[梅塔关键词： <br/><span class="help">店面主页meta标签的关键字（以逗号分隔）</span>]]></value>
+		<value><![CDATA[Meta 关键字：<br /><span class="help">商店前台主页元标签关键字（逗号分隔）</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[欢迎辞：]]></value>
+		<value><![CDATA[欢迎消息：]]></value>
 	</definition>
 	<definition>
 		<key>entry_template</key>
-		<value><![CDATA[模板： <span class="help">店面模板。这可能是主要的或扩展模板</span>]]></value>
+		<value><![CDATA[模板:<span class="help">前台模板。它可以是主模板或扩展模板</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_admin_template</key>
@@ -122,31 +138,31 @@
 	</definition>
 	<definition>
 		<key>entry_country</key>
-		<value><![CDATA[国家：]]></value>
+		<value><![CDATA[国家:]]></value>
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[地区/国家：]]></value>
+		<value><![CDATA[区域 / 州:]]></value>
 	</definition>
 	<definition>
 		<key>entry_language</key>
-		<value><![CDATA[店面语言：]]></value>
+		<value><![CDATA[店面语言:]]></value>
 	</definition>
 	<definition>
 		<key>entry_admin_language</key>
-		<value><![CDATA[管理类语言： <span class="help">注意：如果没有用户首选语言在浏览器中找到工作</span>]]></value>
+		<value><![CDATA[管理语言：<span class="help">注意：仅当浏览器中未找到用户首选语言时才生效</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_currency</key>
-		<value><![CDATA[基础货币<span class="help">：这是所有商店的基础货币。如果你不知道会发生什么，不要改变。警告：基础货币的变化不会改变你的基础产品的价格。您将需要查看并根据需要调整所有的价格。基础货币汇率将被设置为1.00和所有其他货币汇率的变动对于新的基础货币进行调节。</span>]]></value>
+		<value><![CDATA[基准货币:<span class="help">这是所有商店的基准货币。如果您不了解将会发生什么，请勿更改。警告：更改基准货币不会改变您产品的基础价格。如有需要，您需审核并调整所有价格。基准货币的汇率将设置为1.00，其他所有货币的汇率将根据新的基准货币进行调整。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_currency_auto</key>
-		<value><![CDATA[自动更新货币： <br/><span class="help">设置你的店每天自动更新货币。雅虎服务器被使用。</span>]]></value>
+		<value><![CDATA[自动更新货币：<br /><span class="help">将您的商店设置为每天自动更新货币。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_weight_class</key>
-		<value><![CDATA[重量级别：]]></value>
+		<value><![CDATA[重量类别：]]></value>
 	</definition>
 	<definition>
 		<key>entry_length_class</key>
@@ -154,119 +170,123 @@
 	</definition>
 	<definition>
 		<key>entry_auto_translate_status</key>
-		<value><![CDATA[Autotranslate状态： <br/><span class="help">这使缺少的文字定义，或者文本值丢失二手语言的语言具体数据转换。</span>]]></value>
+		<value><![CDATA[自动翻译状态：<br /><span class="help">启用此功能，当所用语言缺少文本值时，将自动翻译缺失的文本定义或语言特定数据。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_translate_src_lang_code</key>
-		<value><![CDATA[：对于翻译源语言<br/><span class="help">将用于自动转换选择源语言。</span>]]></value>
+		<value><![CDATA[翻译的源语言：<br /><span class="help">选择用于自动翻译的源语言。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_translate_method</key>
-		<value><![CDATA[文字翻译方法： <br/><span class="help">选择方法要使用翻译。默认的方法是源语言文字的直副本</span>]]></value>
+		<value><![CDATA[文本翻译方法:<br /><span class="help">选择您想要用于翻译的方法。默认方法是对源语言文本的直接复制</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_translate_override_existing</key>
-		<value><![CDATA[如果重写源语言文字改为： <br/><span class="help">若设置，在所有语言的文本将与新的翻译被替换，如果源语言文本编辑。注：可引起许多翻译。</span>]]></value>
+		<value><![CDATA[如果源语言文本发生更改则覆盖：<br /><span class="help">如果设置，当源语言文本被编辑时，所有语言的文本都会被替换为新的翻译。注意：可能会产生大量翻译。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_warn_lang_text_missing</key>
-		<value><![CDATA[警告缺少语言文本： <br/><span class="help">，如果检测到缺少语言文本得到警告消息。</span>]]></value>
+		<value><![CDATA[缺少语言文本时警告：<br /><span class="help">如果检测到缺少语言文本，将收到警告消息。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax</key>
-		<value><![CDATA[显示屏价格随着税收：]]></value>
+		<value><![CDATA[显示含税价格：]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_store</key>
-		<value><![CDATA[默认存储税率：]]></value>
+		<value><![CDATA[默认商店税率：]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_store_0</key>
-		<value><![CDATA[无税]]></value>
+		<value><![CDATA[免税]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_store_1</key>
-		<value><![CDATA[本店默认区]]></value>
+		<value><![CDATA[商店默认区域]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_customer</key>
-		<value><![CDATA[利用客户税务地址：]]></value>
+		<value><![CDATA[使用客户税务地址：]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_customer_0</key>
-		<value><![CDATA[邮寄地址]]></value>
+		<value><![CDATA[送货地址]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_customer_1</key>
-		<value><![CDATA[帐单地址]]></value>
+		<value><![CDATA[账单地址]]></value>
 	</definition>
 	<definition>
 		<key>entry_invoice</key>
-		<value><![CDATA[开始发票号： <br/><span class="help">设定起始号码发票将开始。</span>]]></value>
+		<value><![CDATA[发票起始编号：<br /><span class="help">设置发票编号的起始值。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_invoice_prefix</key>
-		<value><![CDATA[发票前缀： <br/><span class="help">组发票前缀比如IN / 001</span>]]></value>
+		<value><![CDATA[发票前缀:<br /><span class="help">设置发票前缀，例如 IN/001</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_group</key>
-		<value><![CDATA[客户群组： <br/><span class="help">默认客户群。</span>]]></value>
+		<value><![CDATA[客户组:<br /><span class="help">默认客户组。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_price</key>
-		<value><![CDATA[登录显示屏价格： <br/><span class="help">，即使客户未登录显示价格。</span>]]></value>
+		<value><![CDATA[登录时显示价格：<br /><span class="help">即使客户未登录也显示价格。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_approval</key>
-		<value><![CDATA[批准新客户： <br/><span class="help">不允许新客户登录到他们的帐户已被批准。</span>]]></value>
+		<value><![CDATA[审核新注册：<br /><span class="help">如果启用，不允许新客户登录，直到其账户获得批准。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_prevent_email_as_login</key>
-		<value><![CDATA[需要登录名： <br/><span class="help">提高安全性，要求客户创造而不是使用电子邮件地址作为登录名唯一的登录名。如果设置为ON，现有的客户将被要求在第一次登录时创建新的登录名。如果OFF，登录名设置为用户的电子邮件地址。</span>]]></value>
+		<value><![CDATA[Require Login Name:<br /><span class="help">为提高安全性，要求客户创建唯一的登录名，而不是使用电子邮件地址作为登录名。如果设置为ON，现有客户在首次登录时将被要求创建新的登录名。如果设置为OFF，登录名将设为客户的电子邮件地址。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_guest_checkout</key>
-		<value><![CDATA[访客结帐： <br/><span class="help">让客户无需创建一个帐户结帐。当下载的产品是在购物车这将不可用。</span>]]></value>
+		<value><![CDATA[访客结账：<br /><span class="help">允许客户在不创建帐户的情况下进行结账。当购物车中有可下载产品时，此功能将不可用。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_account</key>
-		<value><![CDATA[帐户条款： <br/><span class="help">迫使人们同意条款可以创建一个帐户。</span>]]></value>
+		<value><![CDATA[账户条款:<br /><span class="help">在创建账户之前强制用户同意条款。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_checkout</key>
-		<value><![CDATA[结帐条款： <br/><span class="help">力人的客户可以结帐前同意条款。</span>]]></value>
+		<value><![CDATA[结账条款:<br /><span class="help">强制用户在结账前同意条款。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_status</key>
-		<value><![CDATA[订单状态： <br/><span class="help">时，处理订单设置默认的订单状态。</span>]]></value>
+		<value><![CDATA[订单状态:<br /><span class="help">在订单处理时设置默认订单状态。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_cancelation_order_status</key>
-		<value><![CDATA[使客户可以取消对状态订单：]]></value>
+		<value><![CDATA[允许客户在状态下取消订单：]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_display</key>
-		<value><![CDATA[显示库存： <br/><span class="help">产品页面上显示库存数量。</span>]]></value>
+		<value><![CDATA[显示库存数量：<br /><span class="help">在产品页面显示库存数量。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_nostock_autodisable</key>
-		<value><![CDATA[没有股票自动关闭： <br/><span class="help">禁用您的产品或期权价值的观点，如果股价下跌到0的消息通知将发</span>]]></value>
+		<value><![CDATA[缺货自动禁用:<br /><span class="help">当库存降至0时，禁用您的产品或选项值的展示。将发送消息通知</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_checkout</key>
-		<value><![CDATA[股票结帐： <br/><span class="help">让客户结帐还是如果他们订购的产品没有库存。</span>]]></value>
+		<value><![CDATA[默认库存结账：<br /><span class="help">设置默认设置以允许客户在产品缺货时仍可结账</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_status</key>
-		<value><![CDATA[库存情况： <br/><span class="help">的默认设置为缺货状态消息的产品。使用产品的编辑页面上。</span>]]></value>
+		<value><![CDATA[默认预购库存状态:<br /><span class="help">产品预购状态消息的默认设置。用于产品编辑页面。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_logo</key>
-		<value><![CDATA[商店标志：]]></value>
+		<value><![CDATA[商店徽标:]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[电子邮件徽标：]]></value>
 	</definition>
 	<definition>
 		<key>entry_icon</key>
-		<value><![CDATA[图示： <br/><span class="help">的图标可以是PNG或图标类型是16像素点¯x16像素。</span>]]></value>
+		<value><![CDATA[图标:<br /><span class="help">图标可以是 16px x 16px 的 PNG 或 ICON 类型。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_width</key>
@@ -274,23 +294,23 @@
 	</definition>
 	<definition>
 		<key>entry_height</key>
-		<value><![CDATA[高度：]]></value>
+		<value><![CDATA[高度:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_thumb</key>
-		<value><![CDATA[产品图片拇指大小：]]></value>
+		<value><![CDATA[产品图片缩略图大小：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_thumb_width</key>
-		<value><![CDATA[产品图片拇指宽度：]]></value>
+		<value><![CDATA[产品图片缩略图宽度：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_thumb_height</key>
-		<value><![CDATA[产品图片拇指身高：]]></value>
+		<value><![CDATA[产品图片缩略图高度：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_popup</key>
-		<value><![CDATA[产品图片弹出尺寸：]]></value>
+		<value><![CDATA[产品图片弹出窗口大小：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_popup_width</key>
@@ -298,11 +318,11 @@
 	</definition>
 	<definition>
 		<key>entry_image_popup_height</key>
-		<value><![CDATA[大窗口预览身高：]]></value>
+		<value><![CDATA[大窗口预览高度：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_category</key>
-		<value><![CDATA[分类列表尺寸：]]></value>
+		<value><![CDATA[分类列表大小：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_category_width</key>
@@ -310,7 +330,7 @@
 	</definition>
 	<definition>
 		<key>entry_image_category_height</key>
-		<value><![CDATA[分类列表身高：]]></value>
+		<value><![CDATA[分类列表高度：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_manufacturer_width</key>
@@ -318,35 +338,35 @@
 	</definition>
 	<definition>
 		<key>entry_image_manufacturer_height</key>
-		<value><![CDATA[品牌图标列表身高：]]></value>
+		<value><![CDATA[品牌图标列表高度:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_product</key>
-		<value><![CDATA[产品列表尺寸：]]></value>
+		<value><![CDATA[产品列表大小:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_product_height</key>
-		<value><![CDATA[产品列表高度： <br/><span class="help">这是admin和其他地方的店面列表页面来控制预览图像的高度。请注意，此设置管理和默认模板店面之间共享。</span>]]></value>
+		<value><![CDATA[产品列表高度：<br /><span class="help">此选项用于控制管理后台列表页面及店面其他位置中预览图像的高度。请注意，此设置在管理后台和默认店面模板之间共享。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_product_width</key>
-		<value><![CDATA[产品列表宽度： <br/><span class="help">这是admin和其他地方的店面列表页面来控制预览图像的宽度。请注意，此设置管理和默认模板店面之间共享。</span>]]></value>
+		<value><![CDATA[Product List Width:<br /><span class="help">此设置用于在管理列表页面和商店前台的其他位置控制预览图像的宽度。注意，此设置在管理端和默认前台模板之间共享。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_additional</key>
-		<value><![CDATA[其他产品图片尺寸：]]></value>
+		<value><![CDATA[附加产品图片大小：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_additional_width</key>
-		<value><![CDATA[其他产品图片宽度：]]></value>
+		<value><![CDATA[附加产品图片宽度:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_additional_height</key>
-		<value><![CDATA[其他产品图片高度：]]></value>
+		<value><![CDATA[附加产品图片高度：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_related</key>
-		<value><![CDATA[相关产品图片尺寸：]]></value>
+		<value><![CDATA[相关产品图片大小：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_related_width</key>
@@ -358,31 +378,32 @@
 	</definition>
 	<definition>
 		<key>entry_image_cart</key>
-		<value><![CDATA[车图片大小：]]></value>
+		<value><![CDATA[购物车图片大小：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_cart_width</key>
-		<value><![CDATA[车图像宽度：]]></value>
+		<value><![CDATA[购物车图片宽度：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_cart_height</key>
-		<value><![CDATA[车图像高度：]]></value>
+		<value><![CDATA[购物车图像高度：]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_grid</key>
-		<value><![CDATA[栅格图像尺寸：]]></value>
+		<value><![CDATA[网格图片大小:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_grid_width</key>
-		<value><![CDATA[栅格图像宽度： <br/><span class="help">这是管理和店面等地上市的网格来控制一个非常小的预览图像的宽度。请注意，此设置管理和默认模板店面之间共享。</span>]]></value>
+		<value><![CDATA[Grid Image Width:<br /><span class="help">此设置用于控制在管理面板的列表网格及店面其他位置中非常小的预览图像的宽度。注意，此设置在管理端和默认店面模板之间共享。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_grid_height</key>
-		<value><![CDATA[栅格图像高度： <br/><span class="help">这是管理和店面等地上市的网格来控制一个非常小的预览图像的高度。请注意，此设置管理和默认模板店面之间共享。</span>]]></value>
+		<value><![CDATA[Grid Image Height:<br /><span class="help">这用于控制在管理员列表网格及商店前台其他位置中非常小的预览图像的高度。注意，此设置在管理员和默认商店前台模板之间共享。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_alert_mail</key>
-		<value><![CDATA[邮件提醒： <br/><span class="help">发送电子邮件到店主创建一个新的订单时。</span>]]></value>
+		<value><![CDATA[提醒邮件：
+当创建新订单时，向商店所有者发送电子邮件。]]></value>
 	</definition>
 	<definition>
 		<key>entry_download</key>
@@ -390,111 +411,120 @@
 	</definition>
 	<definition>
 		<key>entry_download_status</key>
-		<value><![CDATA[下载订单状态： <br/><span class="help">组订单状态的客户订单必须达到他们被允许访问他们下载的产品之前。</span>]]></value>
+		<value><![CDATA[下载订单状态：<br /><span class="help">设置客户订单必须达到的状态，才能允许他们访问可下载产品。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[邮件传输：]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[Mailer 使用 sendmail 二进制文件和在 php.ini 的 sendmail_path 设置中配置的选项。]]></value>
 	</definition>
 	<definition>
 		<key>entry_smtp_host</key>
-		<value><![CDATA[SMTP主机： <br/><span class="help">使用SSL：//smtp.yourdomain.com用于安全SMTP连接</span>]]></value>
+		<value><![CDATA[SMTP 主机:<br /><span class="help">使用 ssl://smtp.yourdomain.com 进行安全的 SMTP 连接]]></value>
 	</definition>
 	<definition>
 		<key>entry_smtp_username</key>
-		<value><![CDATA[SMTP用户名：]]></value>
+		<value><![CDATA[SMTP 用户名：]]></value>
 	</definition>
 	<definition>
 		<key>entry_smtp_password</key>
-		<value><![CDATA[SMTP密码：]]></value>
+		<value><![CDATA[SMTP 密码:]]></value>
 	</definition>
 	<definition>
 		<key>entry_smtp_port</key>
-		<value><![CDATA[SMTP端口：]]></value>
+		<value><![CDATA[SMTP 端口:]]></value>
 	</definition>
 	<definition>
 		<key>entry_smtp_timeout</key>
-		<value><![CDATA[SMTP超时：]]></value>
+		<value><![CDATA[SMTP 超时：]]></value>
 	</definition>
 	<definition>
 		<key>entry_ssl</key>
-		<value><![CDATA[使用SSL： <br/><span class="help">要使用SSL检查您的主机是否安装了SSL证书。</span>]]></value>
+		<value><![CDATA[使用 SSL:<br /><span class="help">要使用 SSL，请向您的主机提供商确认是否已安装 SSL 证书。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[控制面板会话有效期： <br/><span class="help">此值控制在几分钟的时间间隔之前，你会被要求再次登录，由于没有任何活动。</span>]]></value>
+		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">此值用于设置在无操作后要求您重新登录的时间间隔（以分钟为单位）。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
-		<value><![CDATA[加密密钥： <br/><span class="help">设置迁移到配置文件中的V1.2.1开始。</span>]]></value>
+		<value><![CDATA[加密密钥:<br /><span class="help">自 v1.2.1 起，设置已迁移到配置文件中。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_seo_url</key>
-		<value><![CDATA[使用搜索引擎优化的URL： <br/><span class="help">要使用必须安装SEO URL的Apache模块国防部重写，你需要重命名htaccess.txt为.htaccess。注意：如果abantecart没有安装在域的根必须改变.htaccess文件里面的RewriteBase规则。</span>]]></value>
+		<value><![CDATA[使用 SEO URL：<br /><span class="help">要使用 SEO URL，必须安装 Apache 模块 mod-rewrite，并将 htaccess.txt 重命名为 .htaccess。注意：如果 abantecart 未安装在域名根目录，则必须更改 .htaccess 文件中的 rewriteBase 规则。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_retina_enable</key>
-		<value><![CDATA[生成高分辨率（视网膜）图片： <br/><span class="help">要使用必须安装此Apache模块国防部重写，你需要重命名htaccess.txt为.htaccess。注意：如果abantecart没有安装在域的根必须改变.htaccess文件里面的RewriteBase规则。 <br/>使应清除缓存之后的图像。</span>]]></value>
+		<value><![CDATA[生成高分辨率（视网膜）图像：<br /><span class="help">要使用此 Apache 模块，必须安装 mod-rewrite，并将 htaccess.txt 重命名为 .htaccess。注意：如果 abantecart 未安装在域名根目录，则必须修改 .htaccess 文件中的 rewriteBase 规则。<br>启用后应清除缓存图像。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_quality</key>
-		<value><![CDATA[JPEG图像压缩级别]]></value>
+		<value><![CDATA[JPEG 图像压缩级别]]></value>
 	</definition>
 	<definition>
 		<key>entry_compression</key>
-		<value><![CDATA[输出压缩级别： <br/><span class="help">GZIP更有效的转移到请求的客户端。压缩级别必须是介于0 - 9</span>]]></value>
+		<value><![CDATA[输出压缩级别:<br /><span class="help">使用 GZIP 可更高效地传输给请求客户端。压缩级别必须介于 0 - 9 之间</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_error_display</key>
-		<value><![CDATA[显示错误： <br/><span class="help">设置为yes，如果你想看到的异常和错误</span>]]></value>
+		<value><![CDATA[显示错误:<br /><span class="help">如果您想查看异常和错误，请设置为是</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_error_log</key>
-		<value><![CDATA[日志错误： <br/><span class="help">设置为yes，如果你想保存异常和错误日志</span>]]></value>
+		<value><![CDATA[记录错误：<br /><span class="help">如果您想将异常和错误保存到日志中，请设置为是</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_enable_reviews</key>
-		<value><![CDATA[启用点评： <br/><span class="help"></span>]]></value>
+		<value><![CDATA[启用评论：<br /><span class="help"></span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_cache_enable</key>
-		<value><![CDATA[启用缓存： <br/><span class="help">请小心禁用缓存。缓存的页面不会被重新创建和站点可能启动加载缓慢。</span>]]></value>
+		<value><![CDATA[缓存已启用：<br /><span class="help">禁用缓存时请谨慎。缓存页面不会被重新创建，站点可能会开始加载缓慢。</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_setting_cache_drivers</key>
-		<value><![CDATA[目前使用的缓存<b>〜</b>驱动程序。可用于配置的其他司机<i>〜</i>]]></value>
+		<value><![CDATA[当前使用缓存驱动 <b>%s</b>。其他可配置的驱动有 <i>%s</i>。]]></value>
 	</definition>
 	<definition>
 		<key>entry_storefront_api_status</key>
-		<value><![CDATA[店面API状态：]]></value>
+		<value><![CDATA[店面 API 状态：]]></value>
 	</definition>
 	<definition>
 		<key>entry_storefront_api_key</key>
-		<value><![CDATA[店面API密钥： <br/><span class="help">设定此键可提供受限制的（更安全）进入店面API。</span>]]></value>
+		<value><![CDATA[店面 API 密钥：<br /><span class="help">设置此密钥以提供对店面 API 的受限（更安全）访问。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_storefront_api_stock_check</key>
-		<value><![CDATA[店面API库存访问： <br/><span class="help">启用如果你让店面API来检查库存情况</span>]]></value>
+		<value><![CDATA[前台 API 库存访问：<br /><span class="help">如果您允许前台 API 检查库存可用性，则启用</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_admin_api_status</key>
-		<value><![CDATA[管理员API状态：]]></value>
+		<value><![CDATA[管理 API 状态：]]></value>
 	</definition>
 	<definition>
 		<key>entry_admin_api_key</key>
-		<value><![CDATA[管理员API密钥： <br/><span class="help">设定此键可提供受限制的（更安全）访问管理API。</span>]]></value>
+		<value><![CDATA[管理员 API 密钥：<br /><span class="help">设置此密钥以提供受限制（更安全）的管理员 API 访问权限。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_admin_access_ip_list</key>
-		<value><![CDATA[管理员API访问的IP： <br/><span class="help">提供IP地址的列表（用逗号隔开），将被允许访问管理API。其余的IP将被阻止</span>]]></value>
+		<value><![CDATA[管理API访问IP：
+<br /><span class="help">提供允许访问管理API的IP列表（逗号分隔）。其他IP将被阻止。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_upload_max_size</key>
-		<value><![CDATA[资源库上传最大文件大小，KB]]></value>
+		<value><![CDATA[资源库上传最大文件大小, kB]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug</key>
-		<value><![CDATA[显示调试信息： <br/><span class="help">设置此。如果您想看到的执行细节，并显示详细的调试信息。</span>]]></value>
+		<value><![CDATA[显示调试信息：<br /><span class="help">如果您想查看执行细节并显示调试详细信息，请将此项设置为开启。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug_0</key>
-		<value><![CDATA[离]]></value>
+		<value><![CDATA[关闭]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug_1</key>
@@ -506,139 +536,143 @@
 	</definition>
 	<definition>
 		<key>entry_debug_level</key>
-		<value><![CDATA[调试级别： <br/><span class="help">，选择您需要在调试输出查看细节的深度。</span>]]></value>
+		<value><![CDATA[调试级别：<br /><span class="help">选择您在调试输出中需要查看的详细程度。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug_level_0</key>
-		<value><![CDATA[0级 - 无日志，唯一例外的错误]]></value>
+		<value><![CDATA[级别 0 - 无日志，仅异常错误]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug_level_1</key>
-		<value><![CDATA[等级1	- 错误和警告]]></value>
+		<value><![CDATA[级别 1 - 错误和警告]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug_level_2</key>
-		<value><![CDATA[等级2	- ＃1 + mysql的网站负载，php文件执行时间和页面元素加载时间]]></value>
+		<value><![CDATA[级别 2 - #1 + mysql 站点加载, php 文件执行时间和页面元素加载时间]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug_level_3</key>
-		<value><![CDATA[等级3	- ＃2 +基本日志和执行堆栈]]></value>
+		<value><![CDATA[级别3 - #2 + 基本日志和执行堆栈]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug_level_4</key>
-		<value><![CDATA[等级4	- ＃3 + mysql的转储声明]]></value>
+		<value><![CDATA[第4级 - #3 + 导出 MySQL 语句]]></value>
 	</definition>
 	<definition>
 		<key>entry_debug_level_5</key>
-		<value><![CDATA[5级 - ＃4 +中间变量]]></value>
+		<value><![CDATA[第5级 - #4 + 中间变量]]></value>
 	</definition>
 	<definition>
 		<key>entry_template_debug</key>
-		<value><![CDATA[模板调试： <br/><span class="help">，如果你需要检查的问题，在店面和控制面板模板启用此设置。</span>]]></value>
+		<value><![CDATA[模板调试:<br /><span class="help">如果您需要检查店面和控制面板中的模板问题，请启用此设置。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_error_filename</key>
-		<value><![CDATA[错误日志文件名： <br/><span class="help">这是错误保存的文件。</span>]]></value>
+		<value><![CDATA[错误日志文件名：<br /><span class="help">这是用于保存错误的文件。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping_session</key>
-		<value><![CDATA[使用出货会议： <br/><span class="help">节省运费报价会话，以避免重新报价不必要的。行情只会重新报价，如果车或地址改变。</span>]]></value>
+		<value><![CDATA[使用配送会话：<br /><span class="help">将运费报价保存到会话中，以避免不必要的重复报价。只有在购物车或地址更改时，才会重新报价。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_catalog_limit</key>
-		<value><![CDATA[每页默认项（店面）： <br/><span class="help">套店面的项目有多少每页显示的（产品，类别等）</span>]]></value>
+		<value><![CDATA[店面默认每页条目数：<br /><span class="help">设置每页显示多少店面条目（产品、分类等）</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_admin_limit</key>
-		<value><![CDATA[每页默认项（管理）： <br/><span class="help">集（等订单，客户）管理的项目有多少显示每页清单电网</span>]]></value>
+		<value><![CDATA[默认每页条目数（管理员）：<br /><span class="help">设置在列表网格（订单、客户等）中每页显示多少管理员条目</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_bestseller_limit</key>
-		<value><![CDATA[项目在畅销块编号]]></value>
+		<value><![CDATA[畅销区块中的商品数量]]></value>
 	</definition>
 	<definition>
 		<key>entry_featured_limit</key>
-		<value><![CDATA[项目参与的块数]]></value>
+		<value><![CDATA[精选区块中的商品数量]]></value>
 	</definition>
 	<definition>
 		<key>entry_latest_limit</key>
-		<value><![CDATA[项目在最新的块数]]></value>
+		<value><![CDATA[最新区块中的商品数量]]></value>
 	</definition>
 	<definition>
 		<key>entry_special_limit</key>
-		<value><![CDATA[项目在特殊块编号]]></value>
+		<value><![CDATA[特殊区块中的商品数量]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[内容块中的项目数量]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_weight</key>
-		<value><![CDATA[显示器重量上车页面： <br/><span class="help">显示购物车页面上的车重</span>]]></value>
+		<value><![CDATA[在购物车页面显示重量：<br /><span class="help">在购物车页面显示购物车重量</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_reviews</key>
-		<value><![CDATA[允许评论： <br/><span class="help">启用/禁用现有的审查新的检讨输入和显示</span>]]></value>
+		<value><![CDATA[发布评论:<br /><span class="help">限制谁可以为产品发布评论</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_maintenance</key>
-		<value><![CDATA[维护模式： <br/><span class="help">从浏览您的商店的客户防止。他们会看到，而不是维护信息。如果以admin身份登录，您将看到店内正常。</span>]]></value>
+		<value><![CDATA[维护模式：<br /><span class="help">阻止客户浏览您的商店。他们将改为看到维护信息。如果以管理员身份登录，您将如常看到商店。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_voicecontrol</key>
-		<value><![CDATA[语音控制： <br/><span class="help">启用管理语音控制激活语音命令功能。目前仅在Chrome版本25或更高版本支持。</span>]]></value>
+		<value><![CDATA[语音控制:<br /><span class="help">启用管理员语音控制以激活语音命令功能。目前仅在 Chrome 25 或更高版本中受支持。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_help_links</key>
-		<value><![CDATA[帮助链接： <br/><span class="help">如果你想看到帮助图标和链接AbanteCart网站。这将帮助您了解功能和如何使用它们。如果高级用户，不希望看到这些帮助图标，可以禁用。</span>]]></value>
+		<value><![CDATA[帮助链接:<br /><span class="help">如果您想查看帮助图标和指向AbanteCart网站的链接。这将帮助您了解功能以及如何使用它们。如果您是高级用户并且不想看到这些帮助图标，您可以将其禁用。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_show_tree_data</key>
-		<value><![CDATA[启用树网格： <br/><span class="help">允许管理员网格显示父母/子女类型的一个网格上市。注：分页和多行动，为这些残疾人电网</span>]]></value>
+		<value><![CDATA[启用树状网格：<br /><span class="help">使管理网格能够在同一列表中显示父/子类型。注意：这些网格的分页和多重操作已被禁用。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_ajax</key>
-		<value><![CDATA[同一页购买数量： <br/><span class="help">这将使AJAX添加到购物车功能。产品可以被添加到购物车不重定向到购物车页面</span>]]></value>
+		<value><![CDATA[在同一页面添加到购物车:<br /><span class="help">这将启用 AJAX 添加到购物车功能。产品可以添加到购物车而无需重定向到购物车页面</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_storefront_width</key>
-		<value><![CDATA[店面网站宽度： <br/><span class="help">举例：100％或1000像素</span>]]></value>
+		<value><![CDATA[商店前台站点宽度：<br /><span class="help">示例：100% 或 1000px</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_admin_width</key>
-		<value><![CDATA[管理网站宽度： <br/><span class="help">举例：100％或1000像素</span>]]></value>
+		<value><![CDATA[管理站点宽度：<br /><span class="help">例如：100% 或 1000px</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_total_order_maximum</key>
-		<value><![CDATA[为了最大允许量： <br/><span class="help">防止结账大订单分总额。 0 =无限制</span>]]></value>
+		<value><![CDATA[允许的最大订单金额：<br /><span class="help">防止在订单小计金额过大时结账。0 = 无限制</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_total_order_minimum</key>
-		<value><![CDATA[最小订单金额： <br/><span class="help">防止结账，如果为了小计未达到最低金额设定。 0 =没有最低</span>]]></value>
+		<value><![CDATA[最低订单金额:<br /><span class="help">如果订单小计未达到设置的最低金额，则禁止结账。0 = 无最低限制</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_system_check</key>
-		<value><![CDATA[系统检查： <br/><span class="help">，如果你想查询你的系统条件相对于AbanteCart功能启用此设置。影响AbanteCart系统问题将被报告为管理员可见消息。</span>]]></value>
+		<value><![CDATA[System Check:<br /><span class="help">如果您想检查系统在 AbanteCart 功能方面的状况，请启用此设置。影响 AbanteCart 的系统问题将以可在管理界面看到的消息形式报告。</span>]]></value>
 	</definition>
 	<definition>
 		<key>button_add_store</key>
-		<value><![CDATA[新店]]></value>
+		<value><![CDATA[新商店]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改设置！]]></value>
+		<value><![CDATA[警告: 您没有权限修改设置！]]></value>
 	</definition>
 	<definition>
 		<key>error_loginname</key>
-		<value><![CDATA[登录名称必须是唯一的5到64个字符的字母数字！]]></value>
+		<value><![CDATA[登录名只能是字母数字，长度在5到64个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_loginname_notunique</key>
-		<value><![CDATA[此登录名不可用。尝试不同的登录名！]]></value>
+		<value><![CDATA[此登录名不可用。请尝试其他登录名！]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[店铺名称必须在2到32个字符之间！]]></value>
+		<value><![CDATA[店铺名称长度必须在2到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_url</key>
-		<value><![CDATA[商店网址需要！]]></value>
+		<value><![CDATA[需要有效的商店 URL！]]></value>
 	</definition>
 	<definition>
 		<key>error_title</key>
@@ -646,107 +680,107 @@
 	</definition>
 	<definition>
 		<key>error_owner</key>
-		<value><![CDATA[店主必须在2到64个字符！]]></value>
+		<value><![CDATA[店主名称必须在2到64个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_address</key>
-		<value><![CDATA[店面地址必须是10到256个字符之间！]]></value>
+		<value><![CDATA[商店地址必须在10到256个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[电子邮件地址不会出现有效！]]></value>
+		<value><![CDATA[电子邮件地址似乎无效！]]></value>
 	</definition>
 	<definition>
 		<key>error_telephone</key>
-		<value><![CDATA[电话必须在2到32个字符之间！]]></value>
+		<value><![CDATA[电话号码长度必须在2到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_thumb</key>
-		<value><![CDATA[所需的产品图片拇指大小的尺寸！]]></value>
+		<value><![CDATA[产品图片缩略图尺寸为必填项！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_popup</key>
-		<value><![CDATA[所需的产品图片弹出大小尺寸！]]></value>
+		<value><![CDATA[产品图片弹出窗口尺寸为必填项！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_category</key>
-		<value><![CDATA[所需的类别列表大小的尺寸！]]></value>
+		<value><![CDATA[需要分类列表大小尺寸！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_manufacturer</key>
-		<value><![CDATA[需要品牌图标列表大小的尺寸！]]></value>
+		<value><![CDATA[品牌图标列表的尺寸维度为必填！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_product</key>
-		<value><![CDATA[本产品所需的列表大小尺寸！]]></value>
+		<value><![CDATA[产品列表尺寸维度为必填项！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_additional</key>
-		<value><![CDATA[需要额外的产品图片大小尺寸！]]></value>
+		<value><![CDATA[需要额外产品图片尺寸！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_related</key>
-		<value><![CDATA[要求相关产品图片大小尺寸！]]></value>
+		<value><![CDATA[相关产品图片尺寸为必填项！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_cart</key>
-		<value><![CDATA[需要车图片大小的尺寸！]]></value>
+		<value><![CDATA[购物车图像尺寸为必填项！]]></value>
 	</definition>
 	<definition>
 		<key>error_image_grid</key>
-		<value><![CDATA[需要的网格图片大小的尺寸！]]></value>
+		<value><![CDATA[网格图像尺寸为必填项！]]></value>
 	</definition>
 	<definition>
 		<key>error_error_filename</key>
-		<value><![CDATA[错误日志文件名需要！]]></value>
+		<value><![CDATA[需要错误日志文件名！]]></value>
 	</definition>
 	<definition>
 		<key>error_required_data</key>
-		<value><![CDATA[必需数据尚未输入。检查现场错误！]]></value>
+		<value><![CDATA[必填数据尚未输入。请检查字段错误！]]></value>
 	</definition>
 	<definition>
 		<key>error_uploaded_image</key>
-		<value><![CDATA[上传文件〜是不是图像或碎了！]]></value>
+		<value><![CDATA[上传的文件 %s 不是图像或已损坏！]]></value>
 	</definition>
 	<definition>
 		<key>error_limit</key>
-		<value><![CDATA[限制要求！]]></value>
+		<value><![CDATA[限制是必需的！]]></value>
 	</definition>
 	<definition>
 		<key>text_front</key>
-		<value><![CDATA[店面]]></value>
+		<value><![CDATA[店铺前台]]></value>
 	</definition>
 	<definition>
 		<key>text_admin</key>
-		<value><![CDATA[联系]]></value>
+		<value><![CDATA[管理员]]></value>
 	</definition>
 	<definition>
 		<key>error_mail</key>
-		<value><![CDATA[请填写必填字段用于SMTP协议！]]></value>
+		<value><![CDATA[请为smtp-protocol填写必填字段！]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_sort_order_asc</key>
-		<value><![CDATA[产品的排序低&gt;高]]></value>
+		<value><![CDATA[产品的排序 低 > 高]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_name_asc</key>
-		<value><![CDATA[名称A	-	Z]]></value>
+		<value><![CDATA[名称 A - Z]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_name_desc</key>
-		<value><![CDATA[名称Z	-	A]]></value>
+		<value><![CDATA[名称 Z - A]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_price_asc</key>
-		<value><![CDATA[价格低&gt;高]]></value>
+		<value><![CDATA[价格 由低到高]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_price_desc</key>
-		<value><![CDATA[价格高&gt;低]]></value>
+		<value><![CDATA[价格 高 > 低]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_rating_asc</key>
-		<value><![CDATA[评价最低]]></value>
+		<value><![CDATA[最低评分]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_rating_desc</key>
@@ -754,51 +788,67 @@
 	</definition>
 	<definition>
 		<key>text_sorting_date_asc</key>
-		<value><![CDATA[日期旧&gt;新]]></value>
+		<value><![CDATA[日期 旧 > 新]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_desc</key>
-		<value><![CDATA[新日期&gt;旧]]></value>
+		<value><![CDATA[日期 新 > 旧]]></value>
 	</definition>
 	<definition>
 		<key>entry_product_default_sort_order</key>
-		<value><![CDATA[排序为产品默认情况下：]]></value>
+		<value><![CDATA[默认按以下方式对产品进行排序：]]></value>
 	</definition>
 	<definition>
 		<key>entry_zero_customer_balance</key>
-		<value><![CDATA[显示零客户余额： <br/><span class="help">注：启用/禁用平衡信息的显示，如果客户账户余额为0</span>]]></value>
+		<value><![CDATA[显示零客户余额：<br /><span class="help">注意：当客户账户余额为0时启用/禁用余额消息的显示</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping_tax_estimate</key>
-		<value><![CDATA[运费和税估价： <br/><span class="help">让客户得到快速的运费和税估计在购物车。</span>]]></value>
+		<value><![CDATA[运费和税费估算：<br /><span class="help">允许客户在购物车中快速获取运费和税费估算。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_coupon_on_cart_page</key>
-		<value><![CDATA[优惠券购物车页面上： <br/><span class="help">让客户输入优惠券代码，看到购物车中的折扣。</span>]]></value>
+		<value><![CDATA[购物车页面上的优惠券：<br /><span class="help">允许客户输入优惠券代码并在购物车中查看折扣。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_google_analytics</key>
-		<value><![CDATA[谷歌分析帐号： <br/><span class="help">添加您的<a href="https://support.google.com/analytics/answer/1032385?hl=en&ref_topic=1008082" target="_blank">谷歌Analytics帐户号码</a> ，以使网站活动的跟踪。这也使电子商务活动的跟踪。您必须启用电子商务为您的网站配置文件设置页上的谷歌追踪</span>]]></value>
+		<value><![CDATA[Google Analytics 4 标签 ID:<br /><span class="help">添加你的 <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">Google Analytics 标签 ID</a> 以启用站点活动跟踪。此操作也将启用电子商务活动跟踪。你必须在 Google 的网站个人资料设置页面中启用电子商务跟踪。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Google API 密钥（用于启用 Google 地图）：<br /><span class="help">您可以在地图上查看地址。要启用 Google 地图，请添加您的 Google 地图 API 密钥 <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google 凭证页面</a>。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[已浏览商品数量上限：]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[浏览过的产品图片宽度：]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[浏览过的商品图片高度：]]></value>
 	</definition>
 	<definition>
 		<key>entry_ssl_url</key>
-		<value><![CDATA[安全存储网址： <br/><span class="help">包含完整的SSL URL（HTTPS）到您的商店。确保在末尾加上“/”。例如：https://www.yourdomain.com/path/</span>]]></value>
+		<value><![CDATA[安全商店 URL:<br /><span class="help">请包含您商店的完整 SSL URL(HTTPS)。确保在末尾添加 '/'。示例：https://www.yourdomain.com/path/</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_ssl_url</key>
-		<value><![CDATA[安全网址需要！]]></value>
+		<value><![CDATA[需要有效的安全URL！]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_email_activation</key>
-		<value><![CDATA[电子邮件激活新客户： <br/><span class="help">不允许新客户登录到他们的帐户已被通过电子邮件发送的激活链接确认。对于这项工作，确保“批准新客户”设置为OFF。</span>]]></value>
+		<value><![CDATA[新客户电子邮件激活：<br /><span class="help">在其账户通过电子邮件发送的激活链接确认之前，不允许新客户登录。要使此功能生效，请确保“批准新客户”已设置为关闭。</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_clone_template</key>
-		<value><![CDATA[克隆的模板，AbanteCart开发工具]]></value>
+		<value><![CDATA[使用 AbanteCart 开发者工具克隆模板]]></value>
 	</definition>
 	<definition>
 		<key>text_set_template</key>
-		<value><![CDATA[设置此模板的店面]]></value>
+		<value><![CDATA[为商店前端设置此模板。]]></value>
 	</definition>
 	<definition>
 		<key>entry_embed_status</key>
@@ -806,155 +856,107 @@
 	</definition>
 	<definition>
 		<key>entry_embed_click_action</key>
-		<value><![CDATA[嵌入单击操作：]]></value>
+		<value><![CDATA[嵌入点击操作:]]></value>
 	</definition>
 	<definition>
 		<key>text_embed_click_action_modal</key>
-		<value><![CDATA[同一页模态对话框]]></value>
+		<value><![CDATA[同一页面的模态对话框]]></value>
 	</definition>
 	<definition>
 		<key>text_embed_click_action_new_window</key>
-		<value><![CDATA[在新标签中打开新页面]]></value>
+		<value><![CDATA[在新标签页中打开新页面]]></value>
 	</definition>
 	<definition>
 		<key>text_embed_click_action_same_window</key>
-		<value><![CDATA[在同一窗口中打开新页面]]></value>
+		<value><![CDATA[在同一窗口打开新页面]]></value>
 	</definition>
 	<definition>
 		<key>entry_account_create_captcha</key>
-		<value><![CDATA[验证码上创建账户形式： <br/><span class="help">防止垃圾邮件/机器人账号创建与人类能够核查验证码</span>]]></value>
+		<value><![CDATA[创建帐户表单上的验证码：<br /><span class="help">通过启用人机验证验证码，防止垃圾/机器人帐户创建</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_recaptcha_site_key</key>
-		<value><![CDATA[谷歌验证码网站重点： <br/><span class="help">加入<a href="https://www.google.com/recaptcha" target="_blank">谷歌的reCAPTCHA V2</a>帮助访问者提供更好的验证码输入。如果启用验证码网站/密钥，谷歌验证码V2将被激活，而不是默认的AbanteCart CAPTCHA图像</span>]]></value>
+		<value><![CDATA[Google reCAPTCHA 网站密钥：<br /><span class="help">添加 <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a> 以帮助您的访客更好地输入验证码。如果您启用了 reCAPTCHA 站点密钥/私钥，Google reCAPTCHA v2 将被激活，取代默认的 AbanteCart 验证码图像</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_recaptcha_secret_key</key>
-		<value><![CDATA[谷歌验证码秘密密钥： <br/><span class="help">加入<a href="https://www.google.com/recaptcha" target="_blank">谷歌的reCAPTCHA V2</a>帮助访问者提供更好的验证码输入。如果启用验证码网站/密钥，谷歌验证码V2将被激活，而不是默认的AbanteCart CAPTCHA图像</span>]]></value>
+		<value><![CDATA[Google reCAPTCHA Secret Key:<br /><span class="help">添加 Google reCAPTCHA v2 以帮助您的访客更好地输入验证码。如果您启用 reCAPTCHA 站点/密钥，Google reCAPTCHA v2 将代替默认的 AbanteCart 验证码图片被激活。</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_setting_php_exceed</key>
-		<value><![CDATA[此值不能超过你的php.ini指令〜（&lt;=〜）]]></value>
+		<value><![CDATA[此值不能超过您的 php.ini 文件中的指令 %s (<=%s)]]></value>
 	</definition>
 	<definition>
 		<key>entry_start_order_id</key>
-		<value><![CDATA[订单开始编号： <br/><span class="help">设定起始编号订单将从开始。</span>]]></value>
+		<value><![CDATA[订单起始编号：<br /><span class="help">设置订单开始使用的起始编号。</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_start_order_id</key>
-		<value><![CDATA[为了起始号码必须是数字！]]></value>
+		<value><![CDATA[订单起始号必须为数字！]]></value>
 	</definition>
 	<definition>
 		<key>error_starting_invoice_id</key>
-		<value><![CDATA[发票起始号码必须是数字！]]></value>
+		<value><![CDATA[发票起始号码必须为数字!]]></value>
 	</definition>
 	<definition>
 		<key>entry_expire_order_days</key>
-		<value><![CDATA[未完成订单有效期： <br/><br/><span class="help">这个值控制之前未完成的订单会被删除天的时间间隔。空值表示没有订单将是删除。</span>]]></value>
+		<value><![CDATA[未完成订单过期：<br /><span class="help">此值控制在删除未完成订单之前的天数间隔。留空表示不删除任何订单。</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_expire_order_days</key>
-		<value><![CDATA[未完成订单到期值必须是数字！]]></value>
+		<value><![CDATA[未完成订单到期值必须为数字！]]></value>
 	</definition>
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[店面]]></value>
 	</definition>
 	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[管理员]]></value>
+	</definition>
+	<definition>
 		<key>text_im_driver</key>
-		<value><![CDATA[司机]]></value>
+		<value><![CDATA[驱动程序]]></value>
 	</definition>
 	<definition>
 		<key>text_im_protocol</key>
-		<value><![CDATA[IM协议]]></value>
+		<value><![CDATA[即时消息协议]]></value>
 	</definition>
 	<definition>
 		<key>entry_sms_driver</key>
-		<value><![CDATA[SMS提供]]></value>
+		<value><![CDATA[短信提供商]]></value>
 	</definition>
 	<definition>
 		<key>entry_sms_driver_tooltip</key>
-		<value><![CDATA[选择短信服务提供商的延伸]]></value>
+		<value><![CDATA[为短信服务提供商选择一个扩展]]></value>
 	</definition>
 	<definition>
 		<key>entry_storefront_status_tooltip</key>
-		<value><![CDATA[启用客户短信]]></value>
+		<value><![CDATA[为客户启用短信]]></value>
 	</definition>
 	<definition>
 		<key>entry_admin_status_tooltip</key>
-		<value><![CDATA[启用管理员短信]]></value>
+		<value><![CDATA[为管理员启用短信]]></value>
 	</definition>
 	<definition>
 		<key>text_no_driver</key>
-		<value><![CDATA[未发现IM驱动程序]]></value>
+		<value><![CDATA[未找到 IM 驱动程序]]></value>
 	</definition>
 	<definition>
 		<key>text_im_settings_attention</key>
-		<value><![CDATA[这些设置对于期间店面和admin AbanteCart事件自动发送即时消息。]]></value>
+		<value><![CDATA[这些设置用于在 AbanteCart 事件发生时，在店面和管理后台自动发送即时消息。]]></value>
 	</definition>
 	<definition>
 		<key>entry_task_api_key</key>
-		<value><![CDATA[任务API密钥： <br/><span class="help">这是一个密钥，允许AbanteCart从具有/task.php文件浏览器中运行调度的进程。如果没有设置，任务将无法通过浏览器中运行。 <br/>注意：不需要运行任务的命令行此API密钥。</span>]]></value>
+		<value><![CDATA[任务 API 密钥：<br/><span class="help">这是一个秘密密钥，允许 AbanteCart 使用 /task.php 文件从浏览器运行定时进程。如果未设置，则任务不会通过浏览器运行。<br/>注意：运行任务命令行时不需要此 API 密钥。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_duplicate_contact_us</key>
-		<value><![CDATA[重复的联系人查询到的消息]]></value>
-	</definition>
-	<definition>
-		<key>text_native</key>
-		<value><![CDATA[本机（ sendmail 二进制文件和 php.ini 的选项“sendmail_path”设置）]]></value>
-	</definition>
-	<definition>
-		<key>text_dsn</key>
-		<value><![CDATA[从 system/config.php 中获取]]></value>
-	</definition>
-	<definition>
-		<key>text_dsn_description</key>
-		<value><![CDATA[Mailer 结合了来自 config.php 文件的<a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> 。请阅读<a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">我们的文档</a>了解详情	]]></value>
-	</definition>
-	<definition>
-		<key>error_alert_emails</key>
-		<value><![CDATA[
-警报电子邮件必须有效并以逗号分隔！]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_logo</key>
-		<value><![CDATA[电子邮件徽标：]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_transporting</key>
-		<value><![CDATA[
-邮件运输：]]></value>
-	</definition>
-	<definition>
-		<key>text_native_mail_description</key>
-		<value><![CDATA[
-邮件程序使用 php.ini 的 sendmail_path 设置中配置的 sendmail 二进制文件和选项。 ]]></value>
-	</definition>
-	<definition>
-		<key>entry_content_limit</key>
-		<value><![CDATA[内容块中的项目数 ]]></value>
-	</definition>
-	<definition>
-		<key>entry_google_api_key</key>
-		<value><![CDATA[
- Google API 密钥（用于启用谷歌地图）： <br/><span class="help">您可以在地图上看到地址。要启用谷歌地图，请<a href="https://console.cloud.google.com/apis/credentials" target="_blank">在 Google 凭据页面中</a>添加您的谷歌地图 API 密钥。</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_limit</key>
-		<value><![CDATA[浏览产品限制：]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_image_width</key>
-		<value><![CDATA[已查看产品图片宽度：]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_image_height</key>
-		<value><![CDATA[浏览产品图片高度：]]></value>
+		<value><![CDATA[将联系查询复制到消息]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_class</key>
-		<value><![CDATA[默认税种： <br/><span class="help">默认值将作为新创建产品的税种的默认值。</span>]]></value>
+		<value><![CDATA[默认税类：<br/><span class="help">此默认值将用作新建产品的税类默认值。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_account_recaptcha_v3</key>
@@ -966,11 +968,11 @@
 	</definition>
 	<definition>
 		<key>text_review_allow_all</key>
-		<value><![CDATA[任何顾客或访客]]></value>
+		<value><![CDATA[任何客户或访问者]]></value>
 	</definition>
 	<definition>
 		<key>text_review_allow_only_registered</key>
-		<value><![CDATA[注册客户]]></value>
+		<value><![CDATA[已注册客户]]></value>
 	</definition>
 	<definition>
 		<key>text_review_allow_who_purchase</key>
@@ -986,15 +988,15 @@
 	</definition>
 	<definition>
 		<key>entry_postcode</key>
-		<value><![CDATA[邮政编码：]]></value>
+		<value><![CDATA[邮政编码:]]></value>
 	</definition>
 	<definition>
 		<key>entry_latitude</key>
-		<value><![CDATA[纬度：]]></value>
+		<value><![CDATA[纬度:]]></value>
 	</definition>
 	<definition>
 		<key>entry_longitude</key>
-		<value><![CDATA[经度：]]></value>
+		<value><![CDATA[经度:]]></value>
 	</definition>
 	<definition>
 		<key>entry_opening_hours</key>
@@ -1002,58 +1004,62 @@
 	</definition>
 	<definition>
 		<key>error_postcode</key>
-		<value><![CDATA[邮政编码为必填项]]></value>
+		<value><![CDATA[邮政编码为必填项。]]></value>
 	</definition>
 	<definition>
 		<key>error_city</key>
-		<value><![CDATA[必填项为城市名称]]></value>
+		<value><![CDATA[城市名称为必填项]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_resize_fill_color</key>
-		<value><![CDATA[图像调整大小时的填充颜色<br/><span class="help">图像从矩形调整为正方形时，将填充到空白区域的颜色</span>]]></value>
+		<value><![CDATA[图像调整大小时的填充颜色<br/><span class="help">在将图像从矩形调整为正方形时填充到空白区域的颜色</span>]]></value>
 	</definition>
 	<definition>
 		<key>warning_https_store_url</key>
-		<value><![CDATA[为了在所有浏览器中保持平台功能正确并维护数据安全，需要使用 HTTPS 协议。所有请求都应发送至 HTTPS]]></value>
+		<value><![CDATA[为在所有浏览器中保持平台功能的正确性并维护数据安全，需要使用 HTTPS 协议。所有请求都应通过 HTTPS 发送。]]></value>
 	</definition>
 	<definition>
 		<key>entry_default_logo</key>
-		<value><![CDATA[默认商店徽标：]]></value>
+		<value><![CDATA[默认商店标志：]]></value>
 	</definition>
 	<definition>
 		<key>entry_default_mail_logo</key>
-		<value><![CDATA[默认电子邮件徽标：]]></value>
+		<value><![CDATA[默认电子邮件徽标:]]></value>
 	</definition>
 	<definition>
 		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[电话验证正则表达式模式：]]></value>
+		<value><![CDATA[电话号码验证正则表达式模式:]]></value>
 	</definition>
 	<definition>
 		<key>entry_cron_command</key>
-		<value><![CDATA[Linux 命令中的 Crontab<span class="help">使用为 AbanteCart 运行 Web 服务器的同一 Linux 用户运行命令 crontab -e。在编辑器中添加命令</span>]]></value>
+		<value><![CDATA[Linux 中的 Crontab 命令 <span class="help">运行 crontab -e 命令，使用与运行 AbanteCart Web 服务器相同的 Linux 用户。在编辑器中添加命令</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_fast_checkout_allow_coupon</key>
-		<value><![CDATA[允许在结账时输入优惠券<br/><span class="help">允许客户和客人输入优惠券</span>]]></value>
+		<value><![CDATA[允许在结账时输入优惠券 <br /><span class="help">允许顾客和访客输入优惠券</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_fast_checkout_payment_address_equal_shipping</key>
-		<value><![CDATA[要求付款地址与送货地址相同]]></value>
+		<value><![CDATA[要求付款地址与收货地址相同]]></value>
 	</definition>
 	<definition>
 		<key>entry_fast_checkout_require_phone_number</key>
-		<value><![CDATA[结账时需要提供电话号码<br/><span class="help">启用后，此设置要求客户或客人在结账过程中提供电话号码。</span>]]></value>
+		<value><![CDATA[在结账时要求提供电话号码 <br /><span class="help">启用后，此设置会要求顾客或访客在结账过程中提供电话号码。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_fast_checkout_create_account</key>
-		<value><![CDATA[客人结账创建账户<br/><span class="help">在结账结束时为客人提供创建账户的机会。这对客人来说是透明的，并且会发送包含登录详细信息的电子邮件。</span>]]></value>
+		<value><![CDATA[访客结账 创建账户 <br /><span class="help">在结账结束时向访客提供创建账户的选项。对访客来说这是透明的，并会发送包含登录详细信息的电子邮件。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_fast_checkout_buy_now_status</key>
-		<value><![CDATA[ 显示“立即购买”按钮 ]]></value>
+		<value><![CDATA[显示“立即购买”按钮]]></value>
 	</definition>
 	<definition>
 		<key>entry_fast_checkout_show_order_comment_field</key>
-		<value><![CDATA[显示订单评论字段<br/><span class="help">评论文本区域将在结帐过程中显示</span>]]></value>
+		<value><![CDATA[显示订单评论字段<br/><span class="help">评论文本区域将在结账过程中显示</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_unauth_customer</key>
+		<value><![CDATA[允许回访客户浏览：<br /><span class="help">未登录的回访客户返回本站时，将能够浏览产品、添加至购物车和愿望清单。</span>]]></value>
 	</definition>
 </definitions>

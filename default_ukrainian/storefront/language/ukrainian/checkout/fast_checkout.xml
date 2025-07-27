@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[кошик]]></value>
+		<value><![CDATA[Кошик]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_basket</key>
@@ -10,8 +10,7 @@
 	</definition>
 	<definition>
 		<key>text_accept_agree</key>
-		<value><![CDATA[
- Натиснувши «Підтвердити замовлення», ви приймаєте та погоджуєтеся з усіма умовами]]></value>
+		<value><![CDATA[Натиснувши Підтвердити Замовлення, ви приймаєте та погоджуєтеся з усіма умовами]]></value>
 	</definition>
 	<definition>
 		<key>text_cart_items</key>
@@ -23,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>text_edit_shipping</key>
-		<value><![CDATA[Змінити доставку]]></value>
+		<value><![CDATA[Редагувати доставку]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -55,7 +54,7 @@
 	</definition>
 	<definition>
 		<key>text_change</key>
-		<value><![CDATA[Зміна]]></value>
+		<value><![CDATA[Змінити]]></value>
 	</definition>
 	<definition>
 		<key>text_comment</key>
@@ -63,7 +62,7 @@
 	</definition>
 	<definition>
 		<key>text_discount</key>
-		<value><![CDATA[Купон на знижку]]></value>
+		<value><![CDATA[Знижковий купон]]></value>
 	</definition>
 	<definition>
 		<key>column_product</key>
@@ -91,15 +90,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_name</key>
-		<value><![CDATA[Швидка перевірка]]></value>
+		<value><![CDATA[Швидке оформлення замовлення]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_fast_checkout_title</key>
-		<value><![CDATA[Швидка перевірка]]></value>
+		<value><![CDATA[Швидке оформлення замовлення]]></value>
 	</definition>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Швидка перевірка]]></value>
+		<value><![CDATA[Швидке оформлення замовлення]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_buy_now</key>
@@ -107,15 +106,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_incorrect_request</key>
-		<value><![CDATA[Ой! Некоректний запит.]]></value>
+		<value><![CDATA[Ой! Неправильний запит.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_handler</key>
-		<value><![CDATA[Неможливо знайти обробника платежів! Перевірте файли %s або %s]]></value>
+		<value><![CDATA[Не вдалося знайти обробник платежів! Будь ласка, перевірте файли %s або %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_handler</key>
-		<value><![CDATA[Платіжний процесор недоступний.]]></value>
+		<value><![CDATA[Немає доступного платіжного процесора.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unknown_payment</key>
@@ -123,39 +122,39 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unexpected</key>
-		<value><![CDATA[Сталася неочікувана помилка! Спробуйте ще раз.]]></value>
+		<value><![CDATA[Сталася непередбачена помилка! Будь ласка, спробуйте ще раз.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unexpected_log</key>
-		<value><![CDATA[Сталася неочікувана помилка. Не вдалося створити дані замовлення на основі масиву: %s]]></value>
+		<value><![CDATA[Сталася непередбачувана помилка. Не вдалося побудувати дані замовлення на основі масиву: %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_handler_object</key>
-		<value><![CDATA[Не вдалося підтвердити замовлення. Обробник платежу не є об&#39;єктом.]]></value>
+		<value><![CDATA[Неможливо підтвердити замовлення. Обробник платежу не є об’єктом.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_system_issue</key>
-		<value><![CDATA[Ой! Проблема системи. Зверніться до адміністратора сайту.]]></value>
+		<value><![CDATA[Упс! Проблема з системою. Зверніться до адміністратора сайту.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_payment</key>
-		<value><![CDATA[Платежі недоступні.]]></value>
+		<value><![CDATA[Немає доступних платежів.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_product_option</key>
-		<value><![CDATA[Помилка вибору товару. %s]]></value>
+		<value><![CDATA[Помилка опції товару. %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_address</key>
-		<value><![CDATA[У вашому обліковому записі не знайдено адрес! Будь ласка, додайте адресу у свій обліковий запис.]]></value>
+		<value><![CDATA[У вашому обліковому записі не знайдено жодної адреси! Будь ласка, додайте адресу у свій обліковий запис.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_low_balance</key>
-		<value><![CDATA[У вас недостатньо балансу на рахунку для цього замовлення!]]></value>
+		<value><![CDATA[У вас недостатньо коштів на рахунку для цього замовлення!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_pay</key>
-		<value><![CDATA[Виникла проблема з обробкою платежу кредиту рахунку! Спробуйте ще раз.]]></value>
+		<value><![CDATA[Сталася помилка під час обробки оплати кредитом облікового запису! Будь ласка, спробуйте ще раз.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_payment_address</key>
@@ -171,7 +170,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_shipping_method</key>
-		<value><![CDATA[Спосіб доставки не вибрано.]]></value>
+		<value><![CDATA[Метод доставки не обрано.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_phone</key>
@@ -179,7 +178,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_owner</key>
-		<value><![CDATA[Ваше ім&#39;я не вказано.]]></value>
+		<value><![CDATA[Ваше ім’я не вказано.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_email</key>
@@ -191,23 +190,23 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_cvv</key>
-		<value><![CDATA[Номер CVV не вказано.]]></value>
+		<value><![CDATA[Номер CVV не надано.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_expire</key>
-		<value><![CDATA[Термін дії кредитного кошика не вказано або недійсний.]]></value>
+		<value><![CDATA[Дата закінчення терміну дії кредитної картки не вказана або недійсна.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_apply</key>
-		<value><![CDATA[Термін дії кредитного кошика не вказано або недійсний.]]></value>
+		<value><![CDATA[Дата закінчення терміну дії кредитної картки не вказана або недійсна.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_account_created</key>
-		<value><![CDATA[Обліковий запис створено, інструкції щодо входу надіслано на вашу електронну адресу.]]></value>
+		<value><![CDATA[Обліковий запис було створено, а інструкцію для входу надіслано на вашу електронну пошту.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_mail_login_password</key>
-		<value><![CDATA[Ваше ім&#39;я для входу: %s <br/> Ваш пароль: %s]]></value>
+		<value><![CDATA[Ваше ім'я користувача: %s <br>Ваш пароль: %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_order_success_message</key>
@@ -215,7 +214,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_order_processing_message</key>
-		<value><![CDATA[Успіх! Обробка замовлення зараз!]]></value>
+		<value><![CDATA[Успіх! Замовлення зараз обробляється!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_payment_address</key>
@@ -227,7 +226,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_shipping_method</key>
-		<value><![CDATA[Виберіть спосіб доставки]]></value>
+		<value><![CDATA[Оберіть спосіб доставки]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay_with</key>
@@ -239,11 +238,11 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_account_credit</key>
-		<value><![CDATA[Кредит рахунку (%s)]]></value>
+		<value><![CDATA[Кредит облікового запису (%s)]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay</key>
-		<value><![CDATA[платити]]></value>
+		<value><![CDATA[Оплатити]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_enter_cc_details</key>
@@ -251,19 +250,19 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_your_balance</key>
-		<value><![CDATA[Кредитовий баланс вашого рахунку становить]]></value>
+		<value><![CDATA[Ваш кредитний баланс рахунку становить]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay_from_balance</key>
-		<value><![CDATA[Оплатити %s кредитом]]></value>
+		<value><![CDATA[Сплатити %s кредитом]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_telephone_placeholder</key>
-		<value><![CDATA[Контактний телефон Пр. +1.212.555.5555]]></value>
+		<value><![CDATA[Контактний телефонний номер Наприклад +1.212.555.5555]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_same_as_shipping_address</key>
-		<value><![CDATA[Те саме для доставки]]></value>
+		<value><![CDATA[Те ж саме для доставки]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_enter_address</key>
@@ -275,27 +274,27 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_bill_me_monthly</key>
-		<value><![CDATA[Виставляйте мені рахунок щомісяця]]></value>
+		<value><![CDATA[Виставляти мені рахунок щомісяця]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_create_account</key>
-		<value><![CDATA[Створити акаунт]]></value>
+		<value><![CDATA[Створити обліковий запис]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_please_login</key>
-		<value><![CDATA[Будь ласка, увійдіть, використовуючи дані нижче]]></value>
+		<value><![CDATA[Будь ласка, увійдіть, використовуючи наведені нижче дані.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_login</key>
-		<value><![CDATA[ВХІД]]></value>
+		<value><![CDATA[Увійти]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_reset_login</key>
-		<value><![CDATA[Зареєструватися / Скинути логін]]></value>
+		<value><![CDATA[Реєстрація / Скидання логіну]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_login</key>
-		<value><![CDATA[Логін]]></value>
+		<value><![CDATA[Увійти]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_logout</key>
@@ -319,15 +318,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_thank_you</key>
-		<value><![CDATA[Дякуємо за замовлення!]]></value>
+		<value><![CDATA[Дякуємо за ваше замовлення!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_start_download</key>
-		<value><![CDATA[Розпочати завантаження]]></value>
+		<value><![CDATA[Почати завантаження]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_downloads</key>
-		<value><![CDATA[Замовити завантаження]]></value>
+		<value><![CDATA[Завантаження замовлень]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_order_details</key>
@@ -335,31 +334,31 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_delivery</key>
-		<value><![CDATA[Виберіть варіанти доставки]]></value>
+		<value><![CDATA[Будь ласка, виберіть варіанти доставки]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_payment</key>
-		<value><![CDATA[Виберіть спосіб оплати]]></value>
+		<value><![CDATA[Будь ласка, виберіть спосіб оплати]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_download_pending</key>
-		<value><![CDATA[Завантаження продукту у вашому замовленні ще недоступне. Дочекайтеся підтвердження замовлення!]]></value>
+		<value><![CDATA[Завантаження товару у вашому замовленні ще недоступне. Будь ласка, зачекайте на перевірку замовлення!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_info_duplicate_order</key>
-		<value><![CDATA[Схоже, ви щойно розмістили інше замовлення. <a href="%s">Подивіться деталі замовлення</a>]]></value>
+		<value><![CDATA[Схоже, ви щойно оформили інше замовлення. <a href="%s">Переглянути деталі замовлення</a>]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_email_start_download</key>
-		<value><![CDATA[Ви можете отримати доступ до своїх завантажень за посиланням нижче.]]></value>
+		<value><![CDATA[Ви можете отримати доступ до вашого завантаження(ня) за посиланням нижче.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_email_order_downloads</key>
-		<value><![CDATA[Ви можете завантажити замовлення за посиланням нижче.]]></value>
+		<value><![CDATA[Ви можете отримати доступ до завантажень замовлень за наведеним нижче посиланням.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_download_subject</key>
-		<value><![CDATA[Завантаження вашого замовлення.]]></value>
+		<value><![CDATA[Завантаження вашого замовлення]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_apply</key>
@@ -367,7 +366,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_remove</key>
-		<value><![CDATA[видалити]]></value>
+		<value><![CDATA[Видалити]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_coupon_code</key>
@@ -375,7 +374,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_comment</key>
-		<value><![CDATA[Додайте коментар до замовлення]]></value>
+		<value><![CDATA[Додати коментар до замовлення]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_coupon</key>
@@ -383,15 +382,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_back_to_cart</key>
-		<value><![CDATA[Назад до кошика]]></value>
+		<value><![CDATA[Повернутися до кошика]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_order_summary</key>
-		<value><![CDATA[Резюме замовлення]]></value>
+		<value><![CDATA[Підсумок замовлення]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_no_shipments_available</key>
-		<value><![CDATA[Відправлення недоступні.]]></value>
+		<value><![CDATA[Немає доступних відправлень.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_telephone_placeholder</key>
@@ -399,23 +398,23 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_email_placeholder</key>
-		<value><![CDATA[Ваш email]]></value>
+		<value><![CDATA[Ваша електронна пошта]]></value>
 	</definition>
 	<definition>
 		<key>button_history</key>
-		<value><![CDATA[історія]]></value>
+		<value><![CDATA[Історія]]></value>
 	</definition>
 	<definition>
 		<key>error_postcode</key>
-		<value><![CDATA[Поштовий індекс неправильний]]></value>
+		<value><![CDATA[Невірний поштовий індекс]]></value>
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[кошик]]></value>
+		<value><![CDATA[Кошик]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_comment_placeholder</key>
-		<value><![CDATA[Додайте коментар до замовлення]]></value>
+		<value><![CDATA[Додати коментар до замовлення]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_not_enough_stock</key>
@@ -423,7 +422,7 @@
 	</definition>
 	<definition>
 		<key>order_confirm</key>
-		<value><![CDATA[Підтвердити замовлення]]></value>
+		<value><![CDATA[Підтвердження замовлення]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_login_or_email</key>
@@ -435,27 +434,25 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_authenticating</key>
-		<value><![CDATA[Автентифікація... ]]></value>
+		<value><![CDATA[Аутентифікація ...]]></value>
 	</definition>
 	<definition>
 		<key>text_message_account</key>
-		<value><![CDATA[
-<p> Ваше замовлення #%s створено!</p> 
-<p> Ви можете переглянути деталі свого замовлення, перейшовши на <a href="%s">сторінку рахунку-фактури</a> .</p> 
-<p> Будь ласка, звертайтеся з будь-якими запитаннями до <a href="%s">власника магазину</a> .</p> 
-<p> Дякуємо за покупки у нас!</p>]]></value>
+		<value><![CDATA[<p>Ваше замовлення #%s створено!</p>
+<p>Ви можете переглянути деталі вашого замовлення, перейшовши на сторінку <a href="%s">invoice page</a>.</p>
+<p>Будь ласка, звертайте будь-які питання до <a href="%s">store owner</a>.</p>
+<p>Дякуємо, що обрали нас для покупок!</p>]]></value>
 	</definition>
 	<definition>
 		<key>text_message_guest</key>
-		<value><![CDATA[
-<p> Ваше замовлення успішно оброблено!</p> 
-<p> Ви можете переглянути деталі свого замовлення, перейшовши на <a href="%s">сторінку рахунку-фактури</a> .</p> 
-<p> Будь ласка, звертайтеся з будь-якими запитаннями до <a href="%s">власника магазину</a> .</p> 
-<p> Дякуємо за покупки у нас!</p>]]></value>
+		<value><![CDATA[<p>Ваше замовлення успішно оброблено!</p>
+<p>Ви можете переглянути деталі свого замовлення, перейшовши на <a href="%s">сторінку рахунку</a>.</p>
+<p>Будь ласка, адресуйте всі ваші запитання <a href="%s">власнику магазину</a>.</p>
+<p>Дякуємо за покупки в нашому магазині!</p>]]></value>
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[кошик]]></value>
+		<value><![CDATA[Кошик]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
@@ -467,7 +464,7 @@
 	</definition>
 	<definition>
 		<key>text_guest</key>
-		<value><![CDATA[Виписка гостей]]></value>
+		<value><![CDATA[Оформлення замовлення як гість]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm</key>
@@ -479,14 +476,14 @@
 	</definition>
 	<definition>
 		<key>text_message_failed_order</key>
-		<value><![CDATA[Ой! У нас виникла проблема з вашою трансакцією. Ваше замовлення буде перевірено адміністратором вручну.]]></value>
+		<value><![CDATA[Упс! У нас виникла проблема з вашою транзакцією. Ваше замовлення буде перевірене адміністратором вручну.]]></value>
 	</definition>
 	<definition>
 		<key>text_title_failed_order_to_admin</key>
-		<value><![CDATA[Не виконане замовлення #%s]]></value>
+		<value><![CDATA[Невдале замовлення #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_message_failed_order_to_admin</key>
-		<value><![CDATA[Помилка або відсутність відповіді від підтвердження платежу. Потрібна ручна перевірка!]]></value>
+		<value><![CDATA[Невдала або відсутня відповідь від перевірки платежу. Потрібна ручна перевірка!]]></value>
 	</definition>
 </definitions>

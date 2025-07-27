@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Succès: Vous avez le menu modifié!]]></value>
+		<value><![CDATA[Succès : Vous avez modifié le menu !]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_id</key>
@@ -22,15 +22,23 @@
 	</definition>
 	<definition>
 		<key>entry_item_url</key>
-		<value><![CDATA[Lien <br/><span class="help">Pour les liens externes ajouter http:// ou https:// au début</span>]]></value>
+		<value><![CDATA[Lien<br /><span class="help">Pour les liens externes, ajoutez http:// ou https:// au début. Vous pouvez également utiliser une URL relative, telle que ../subfolder/index.php</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_item_target</key>
+		<value><![CDATA[Cible<br/><span class="help">_self - ouvre le document lié dans le même cadre dans lequel il a été cliqué.<br>_blank - ouvre le document lié dans une nouvelle fenêtre ou un nouvel onglet</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent_id</key>
-		<value><![CDATA[Mère]]></value>
+		<value><![CDATA[Parent]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
 		<value><![CDATA[Ordre de tri]]></value>
+	</definition>
+	<definition>
+		<key>entry_link_type</key>
+		<value><![CDATA[Type de lien]]></value>
 	</definition>
 	<definition>
 		<key>text_select_parent_id</key>
@@ -38,38 +46,30 @@
 	</definition>
 	<definition>
 		<key>error_empty</key>
-		<value><![CDATA[Champ ne peut pas être vide!]]></value>
+		<value><![CDATA[Le champ ne peut pas être vide !]]></value>
 	</definition>
 	<definition>
 		<key>error_non_unique</key>
-		<value><![CDATA[Item ID pas unique!]]></value>
+		<value><![CDATA[L’identifiant de l’article n’est pas unique !]]></value>
 	</definition>
 	<definition>
 		<key>error_non_ascii</key>
-		<value><![CDATA[Seuls les caractères alphanumériques autorisés pour le champ menu ID!]]></value>
-	</definition>
-	<definition>
-		<key>entry_link_type</key>
-		<value><![CDATA[type de lien]]></value>
+		<value><![CDATA[Seuls les caractères alphanumériques sont autorisés pour le champ ID de menu !]]></value>
 	</definition>
 	<definition>
 		<key>text_category_link_type</key>
-		<value><![CDATA[Catégorie page]]></value>
+		<value><![CDATA[Page de catégorie]]></value>
 	</definition>
 	<definition>
 		<key>text_content_link_type</key>
-		<value><![CDATA[Contenu de la page]]></value>
+		<value><![CDATA[Page de contenu]]></value>
 	</definition>
 	<definition>
 		<key>text_custom_link_type</key>
 		<value><![CDATA[Lien personnalisé ou URL]]></value>
 	</definition>
 	<definition>
-		<key>entry_item_target</key>
-		<value><![CDATA[Cible <br/><span class="help">_self - ouvre le document lié dans le même cadre où il a été cliqué. <br/> _blank - ouvre le document lié dans une nouvelle fenêtre ou un nouvel onglet</span>]]></value>
-	</definition>
-	<definition>
 		<key>entry_include_children_items</key>
-		<value><![CDATA[Inclure les articles pour enfants]]></value>
+		<value><![CDATA[Inclure les articles enfants]]></value>
 	</definition>
 </definitions>

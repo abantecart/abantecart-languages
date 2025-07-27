@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,15 +6,15 @@
 	</definition>
 	<definition>
 		<key>edit_title_details</key>
-		<value><![CDATA[Bearbeiten Bestelldetails]]></value>
+		<value><![CDATA[Bestelldetails bearbeiten]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_shipping</key>
-		<value><![CDATA[Bearbeiten Lieferadresse]]></value>
+		<value><![CDATA[Versandadresse bearbeiten]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_payment</key>
-		<value><![CDATA[Bearbeiten Zahlungsadresse]]></value>
+		<value><![CDATA[Zahlungsadresse bearbeiten]]></value>
 	</definition>
 	<definition>
 		<key>title_payment_details</key>
@@ -22,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Bestellangaben wurden aktualisiert!]]></value>
+		<value><![CDATA[Erfolg: Bestelldetails wurden aktualisiert!]]></value>
 	</definition>
 	<definition>
 		<key>text_invoice</key>
@@ -30,11 +30,11 @@
 	</definition>
 	<definition>
 		<key>text_order_id</key>
-		<value><![CDATA[Auftragsnummer:]]></value>
+		<value><![CDATA[Bestell‐ID:]]></value>
 	</definition>
 	<definition>
 		<key>text_invoice_id</key>
-		<value><![CDATA[Keine Rechnung .:]]></value>
+		<value><![CDATA[Rechnungsnummer:]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
@@ -54,23 +54,23 @@
 	</definition>
 	<definition>
 		<key>text_to</key>
-		<value><![CDATA[Nach]]></value>
+		<value><![CDATA[Zu]]></value>
 	</definition>
 	<definition>
 		<key>text_ship_to</key>
-		<value><![CDATA[Ship To (falls andere Adresse)]]></value>
+		<value><![CDATA[Lieferadresse (falls abweichend)]]></value>
 	</definition>
 	<definition>
 		<key>text_missing_orders</key>
-		<value><![CDATA[Fehlende Aufträge]]></value>
+		<value><![CDATA[Fehlende Bestellungen]]></value>
 	</definition>
 	<definition>
 		<key>text_wait</key>
-		<value><![CDATA[Warten Sie mal!]]></value>
+		<value><![CDATA[Bitte warten!]]></value>
 	</definition>
 	<definition>
 		<key>column_order</key>
-		<value><![CDATA[Auftragsnummer]]></value>
+		<value><![CDATA[Bestellnummer]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -82,7 +82,7 @@
 	</definition>
 	<definition>
 		<key>column_date_added</key>
-		<value><![CDATA[Datum hinzugefügt]]></value>
+		<value><![CDATA[Hinzugefügt am]]></value>
 	</definition>
 	<definition>
 		<key>column_total</key>
@@ -98,15 +98,19 @@
 	</definition>
 	<definition>
 		<key>column_quantity</key>
-		<value><![CDATA[Anzahl]]></value>
+		<value><![CDATA[Menge]]></value>
 	</definition>
 	<definition>
 		<key>column_price</key>
-		<value><![CDATA[Einzelpreis]]></value>
+		<value><![CDATA[Stückpreis]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[Artikelnummer]]></value>
 	</definition>
 	<definition>
 		<key>column_download</key>
-		<value><![CDATA[Download-Name]]></value>
+		<value><![CDATA[Name des Downloads]]></value>
 	</definition>
 	<definition>
 		<key>column_file</key>
@@ -126,11 +130,11 @@
 	</definition>
 	<definition>
 		<key>column_notify</key>
-		<value><![CDATA[Kunden benachrichtigen]]></value>
+		<value><![CDATA[Kunde benachrichtigt]]></value>
 	</definition>
 	<definition>
 		<key>column_comment</key>
-		<value><![CDATA[Kunden bestellen Kommentar]]></value>
+		<value><![CDATA[Kundenkommentar zur Bestellung]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
@@ -138,7 +142,7 @@
 	</definition>
 	<definition>
 		<key>entry_order_id</key>
-		<value><![CDATA[Auftragsnummer:]]></value>
+		<value><![CDATA[Bestell-ID:]]></value>
 	</definition>
 	<definition>
 		<key>entry_invoice_id</key>
@@ -154,7 +158,7 @@
 	</definition>
 	<definition>
 		<key>entry_lastname</key>
-		<value><![CDATA[Familienname, Nachname:]]></value>
+		<value><![CDATA[Nachname:]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_group</key>
@@ -162,11 +166,11 @@
 	</definition>
 	<definition>
 		<key>entry_email</key>
-		<value><![CDATA[Email:]]></value>
+		<value><![CDATA[E-Mail:]]></value>
 	</definition>
 	<definition>
 		<key>entry_ip</key>
-		<value><![CDATA[IP Adresse:]]></value>
+		<value><![CDATA[IP-Adresse:]]></value>
 	</definition>
 	<definition>
 		<key>entry_telephone</key>
@@ -178,27 +182,27 @@
 	</definition>
 	<definition>
 		<key>entry_store_name</key>
-		<value><![CDATA[Name des Geschäfts:]]></value>
+		<value><![CDATA[Geschäftsname:]]></value>
 	</definition>
 	<definition>
 		<key>entry_store_url</key>
-		<value><![CDATA[Shop URL:]]></value>
+		<value><![CDATA[Shop-URL:]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_added</key>
-		<value><![CDATA[Datum hinzugefügt:]]></value>
+		<value><![CDATA[Hinzugefügt am:]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping_method</key>
-		<value><![CDATA[Versandart:]]></value>
+		<value><![CDATA[Versandmethode:]]></value>
 	</definition>
 	<definition>
 		<key>entry_payment_method</key>
-		<value><![CDATA[Bezahlverfahren:]]></value>
+		<value><![CDATA[Zahlungsmethode:]]></value>
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[Ursprünglicher Gesamtbestellung:]]></value>
+		<value><![CDATA[Ursprünglicher Gesamtbetrag der Bestellung:]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_status</key>
@@ -210,7 +214,7 @@
 	</definition>
 	<definition>
 		<key>entry_company</key>
-		<value><![CDATA[Unternehmen:]]></value>
+		<value><![CDATA[Firma:]]></value>
 	</definition>
 	<definition>
 		<key>entry_address_1</key>
@@ -222,7 +226,7 @@
 	</definition>
 	<definition>
 		<key>entry_postcode</key>
-		<value><![CDATA[PLZ / Postleitzahl:]]></value>
+		<value><![CDATA[PLZ/Postleitzahl:]]></value>
 	</definition>
 	<definition>
 		<key>entry_city</key>
@@ -234,7 +238,7 @@
 	</definition>
 	<definition>
 		<key>entry_zone_code</key>
-		<value><![CDATA[Region / Bundesland Code:]]></value>
+		<value><![CDATA[Region / Staatscode:]]></value>
 	</definition>
 	<definition>
 		<key>entry_country</key>
@@ -246,23 +250,23 @@
 	</definition>
 	<definition>
 		<key>entry_notify</key>
-		<value><![CDATA[Benachrichtigen Kunde:]]></value>
+		<value><![CDATA[Kunden benachrichtigen:]]></value>
 	</definition>
 	<definition>
 		<key>entry_append</key>
-		<value><![CDATA[Anfügen Kommentare:]]></value>
+		<value><![CDATA[Kommentare anhängen:]]></value>
 	</definition>
 	<definition>
 		<key>entry_add_product</key>
-		<value><![CDATA[Produkt hinzufügen:]]></value>
+		<value><![CDATA[Verfügbares Produkt hinzufügen:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Warnung: Sie haben keine Berechtigung, Aufträge zu ändern!]]></value>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, Bestellungen zu bearbeiten!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_load</key>
-		<value><![CDATA[Warnung: Keine Um solche ID!]]></value>
+		<value><![CDATA[Warnung: Keine Bestellung mit dieser ID!]]></value>
 	</definition>
 	<definition>
 		<key>text_order_summary</key>
@@ -273,12 +277,16 @@
 		<value><![CDATA[Bestelldetails]]></value>
 	</definition>
 	<definition>
+		<key>tab_address</key>
+		<value><![CDATA[Bestelladresse]]></value>
+	</definition>
+	<definition>
 		<key>tab_history</key>
-		<value><![CDATA[Status &amp; Kommentare]]></value>
+		<value><![CDATA[Status & Kommentare]]></value>
 	</definition>
 	<definition>
 		<key>tab_files</key>
-		<value><![CDATA[Sortieren von Dateien]]></value>
+		<value><![CDATA[Bestelldateien]]></value>
 	</definition>
 	<definition>
 		<key>tab_payment_details</key>
@@ -286,7 +294,7 @@
 	</definition>
 	<definition>
 		<key>edit_title_files</key>
-		<value><![CDATA[Auftrag bearbeiten Dateien]]></value>
+		<value><![CDATA[Bestellungsdateien bearbeiten]]></value>
 	</definition>
 	<definition>
 		<key>text_missing_file</key>
@@ -310,7 +318,7 @@
 	</definition>
 	<definition>
 		<key>text_download_percent</key>
-		<value><![CDATA[Herunterladen Percents]]></value>
+		<value><![CDATA[Download-Prozentsätze]]></value>
 	</definition>
 	<definition>
 		<key>text_download_expired</key>
@@ -318,23 +326,23 @@
 	</definition>
 	<definition>
 		<key>text_download_remaining_count</key>
-		<value><![CDATA[Verbleib.Rate]]></value>
+		<value><![CDATA[Verbleibende Anzahl]]></value>
 	</definition>
 	<definition>
 		<key>text_order_status_required</key>
-		<value><![CDATA[Order Status &quot;%s&quot; Erforderlich]]></value>
+		<value><![CDATA[Bestellstatus "%s" erforderlich]]></value>
 	</definition>
 	<definition>
 		<key>text_select_product</key>
-		<value><![CDATA[- Ausgewähltes Produkt -]]></value>
+		<value><![CDATA[- Produkt auswählen -]]></value>
 	</definition>
 	<definition>
 		<key>text_push_download</key>
-		<value><![CDATA[- Push-Herunterladen -]]></value>
+		<value><![CDATA[- Download starten -]]></value>
 	</definition>
 	<definition>
 		<key>text_add_product_to_order</key>
-		<value><![CDATA[In Produkt bestellen #%s]]></value>
+		<value><![CDATA[Produkt zur Bestellung #%s hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_order_product</key>
@@ -342,35 +350,27 @@
 	</definition>
 	<definition>
 		<key>attention_check_total</key>
-		<value><![CDATA[Hinweis: Bestellen Produktdetails geändert hat. Insgesamt wurde automatisch neu berechnet. Bewertung erforderlich ist.]]></value>
+		<value><![CDATA[Hinweis: Details zu den bestellten Produkten wurden geändert. Der Gesamtbetrag wurde automatisch neu berechnet. Eine Überprüfung ist erforderlich.]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_add</key>
-		<value><![CDATA[Neuen Menge an Gesamtberechnung]]></value>
+		<value><![CDATA[Neuen Betrag zur Gesamtberechnung hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_title</key>
-		<value><![CDATA[Titel zu zeigen]]></value>
+		<value><![CDATA[Anzuzeigender Titel]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_amount</key>
-		<value><![CDATA[Menge]]></value>
+		<value><![CDATA[Betrag]]></value>
 	</definition>
 	<definition>
 		<key>text_recalc</key>
-		<value><![CDATA[Neu berechnen Einstellungen]]></value>
+		<value><![CDATA[Erneut berechnen mit den Einstellungen]]></value>
 	</definition>
 	<definition>
 		<key>entry_im</key>
-		<value><![CDATA[ICH BIN:]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[Artikelnummer]]></value>
-	</definition>
-	<definition>
-		<key>tab_address</key>
-		<value><![CDATA[Bestelladresse]]></value>
+		<value><![CDATA[IM:]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_locations</key>
@@ -382,6 +382,6 @@
 	</definition>
 	<definition>
 		<key>text_enable_google_map</key>
-		<value><![CDATA[Um Adressen auf der interaktiven Google-Karte anzuzeigen, geben Sie den Google-API-Schlüssel in den allgemeinen Einstellungen an]]></value>
+		<value><![CDATA[Um Adressen auf der interaktiven Google-Karte anzuzeigen, geben Sie den Google-API-Schlüssel in den allgemeinen Einstellungen an.]]></value>
 	</definition>
 </definitions>

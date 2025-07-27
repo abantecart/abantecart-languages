@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[명령]]></value>
+		<value><![CDATA[주문(들)]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_details</key>
-		<value><![CDATA[편집 주문 정보]]></value>
+		<value><![CDATA[주문 세부정보 수정]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_shipping</key>
-		<value><![CDATA[편집 배송 주소]]></value>
+		<value><![CDATA[배송 주소 수정]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_payment</key>
-		<value><![CDATA[편집 결제 주소]]></value>
+		<value><![CDATA[결제 주소 수정]]></value>
 	</definition>
 	<definition>
 		<key>title_payment_details</key>
-		<value><![CDATA[지불 세부 사항]]></value>
+		<value><![CDATA[결제 정보]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[성공 : 주문 정보가 업데이트되었습니다!]]></value>
+		<value><![CDATA[성공: 주문 세부 정보가 업데이트되었습니다!]]></value>
 	</definition>
 	<definition>
 		<key>text_invoice</key>
@@ -30,11 +30,11 @@
 	</definition>
 	<definition>
 		<key>text_order_id</key>
-		<value><![CDATA[주문 아이디:]]></value>
+		<value><![CDATA[주문 ID:]]></value>
 	</definition>
 	<definition>
 		<key>text_invoice_id</key>
-		<value><![CDATA[아니 송장 :]]></value>
+		<value><![CDATA[송장 번호:]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
@@ -42,7 +42,7 @@
 	</definition>
 	<definition>
 		<key>text_telephone</key>
-		<value><![CDATA[전화]]></value>
+		<value><![CDATA[전화번호]]></value>
 	</definition>
 	<definition>
 		<key>text_fax</key>
@@ -54,23 +54,23 @@
 	</definition>
 	<definition>
 		<key>text_to</key>
-		<value><![CDATA[에]]></value>
+		<value><![CDATA[에게]]></value>
 	</definition>
 	<definition>
 		<key>text_ship_to</key>
-		<value><![CDATA[로 선박 (주소와 다른 경우)]]></value>
+		<value><![CDATA[배송지 (다른 주소인 경우)]]></value>
 	</definition>
 	<definition>
 		<key>text_missing_orders</key>
-		<value><![CDATA[누락 주문]]></value>
+		<value><![CDATA[누락된 주문]]></value>
 	</definition>
 	<definition>
 		<key>text_wait</key>
-		<value><![CDATA[잠시만 기다려주십시오!]]></value>
+		<value><![CDATA[잠시만 기다려주세요!]]></value>
 	</definition>
 	<definition>
 		<key>column_order</key>
-		<value><![CDATA[주문 아이디]]></value>
+		<value><![CDATA[주문 번호]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -78,11 +78,11 @@
 	</definition>
 	<definition>
 		<key>column_status</key>
-		<value><![CDATA[지위]]></value>
+		<value><![CDATA[상태]]></value>
 	</definition>
 	<definition>
 		<key>column_date_added</key>
-		<value><![CDATA[날짜 추가]]></value>
+		<value><![CDATA[등록일]]></value>
 	</definition>
 	<definition>
 		<key>column_total</key>
@@ -90,7 +90,7 @@
 	</definition>
 	<definition>
 		<key>column_product</key>
-		<value><![CDATA[생성물]]></value>
+		<value><![CDATA[상품]]></value>
 	</definition>
 	<definition>
 		<key>column_model</key>
@@ -103,6 +103,10 @@
 	<definition>
 		<key>column_price</key>
 		<value><![CDATA[단가]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
 	</definition>
 	<definition>
 		<key>column_download</key>
@@ -118,7 +122,7 @@
 	</definition>
 	<definition>
 		<key>column_expire_date</key>
-		<value><![CDATA[날짜 만료]]></value>
+		<value><![CDATA[만료 날짜]]></value>
 	</definition>
 	<definition>
 		<key>column_mask</key>
@@ -126,7 +130,7 @@
 	</definition>
 	<definition>
 		<key>column_notify</key>
-		<value><![CDATA[고객 알려줍니다]]></value>
+		<value><![CDATA[고객에게 통지됨]]></value>
 	</definition>
 	<definition>
 		<key>column_comment</key>
@@ -134,15 +138,15 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[동작]]></value>
+		<value><![CDATA[작업]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_id</key>
-		<value><![CDATA[주문 아이디:]]></value>
+		<value><![CDATA[주문 ID:]]></value>
 	</definition>
 	<definition>
 		<key>entry_invoice_id</key>
-		<value><![CDATA[송장 ID :]]></value>
+		<value><![CDATA[송장 ID:]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer</key>
@@ -158,7 +162,7 @@
 	</definition>
 	<definition>
 		<key>entry_customer_group</key>
-		<value><![CDATA[고객 그룹 :]]></value>
+		<value><![CDATA[고객 그룹:]]></value>
 	</definition>
 	<definition>
 		<key>entry_email</key>
@@ -178,15 +182,15 @@
 	</definition>
 	<definition>
 		<key>entry_store_name</key>
-		<value><![CDATA[가게 이름:]]></value>
+		<value><![CDATA[상점 이름:]]></value>
 	</definition>
 	<definition>
 		<key>entry_store_url</key>
-		<value><![CDATA[스토어 URL :]]></value>
+		<value><![CDATA[상점 URL:]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_added</key>
-		<value><![CDATA[날자 :]]></value>
+		<value><![CDATA[추가일:]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping_method</key>
@@ -194,11 +198,11 @@
 	</definition>
 	<definition>
 		<key>entry_payment_method</key>
-		<value><![CDATA[지불 방법 :]]></value>
+		<value><![CDATA[결제 수단:]]></value>
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[원래 주문 합계 :]]></value>
+		<value><![CDATA[원래 주문 합계:]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_status</key>
@@ -206,7 +210,7 @@
 	</definition>
 	<definition>
 		<key>entry_comment</key>
-		<value><![CDATA[논평:]]></value>
+		<value><![CDATA[코멘트:]]></value>
 	</definition>
 	<definition>
 		<key>entry_company</key>
@@ -222,19 +226,19 @@
 	</definition>
 	<definition>
 		<key>entry_postcode</key>
-		<value><![CDATA[ZIP / 우편 번호 :]]></value>
+		<value><![CDATA[우편번호/우편번호:]]></value>
 	</definition>
 	<definition>
 		<key>entry_city</key>
-		<value><![CDATA[시티:]]></value>
+		<value><![CDATA[도시:]]></value>
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[지역 / 국가 :]]></value>
+		<value><![CDATA[지역 / 주:]]></value>
 	</definition>
 	<definition>
 		<key>entry_zone_code</key>
-		<value><![CDATA[지역 / 국가 코드 :]]></value>
+		<value><![CDATA[지역 / 주 코드:]]></value>
 	</definition>
 	<definition>
 		<key>entry_country</key>
@@ -246,23 +250,23 @@
 	</definition>
 	<definition>
 		<key>entry_notify</key>
-		<value><![CDATA[고객 알림 :]]></value>
+		<value><![CDATA[고객에게 알림:]]></value>
 	</definition>
 	<definition>
 		<key>entry_append</key>
-		<value><![CDATA[댓글을 추가 :]]></value>
+		<value><![CDATA[댓글 추가:]]></value>
 	</definition>
 	<definition>
 		<key>entry_add_product</key>
-		<value><![CDATA[제품을 추가 :]]></value>
+		<value><![CDATA[사용 가능한 상품 추가:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[경고 :이 명령을 수정할 수있는 권한이 없습니다!]]></value>
+		<value><![CDATA[경고: 주문을 수정할 권한이 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_load</key>
-		<value><![CDATA[경고 : 같은 ID를 가진 없음 위해!]]></value>
+		<value><![CDATA[경고: 해당 ID의 주문이 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>text_order_summary</key>
@@ -270,7 +274,11 @@
 	</definition>
 	<definition>
 		<key>tab_order_details</key>
-		<value><![CDATA[주문 정보]]></value>
+		<value><![CDATA[주문 세부 정보]]></value>
+	</definition>
+	<definition>
+		<key>tab_address</key>
+		<value><![CDATA[주문 주소]]></value>
 	</definition>
 	<definition>
 		<key>tab_history</key>
@@ -282,15 +290,15 @@
 	</definition>
 	<definition>
 		<key>tab_payment_details</key>
-		<value><![CDATA[지불 세부 사항]]></value>
+		<value><![CDATA[결제 세부 정보]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_files</key>
-		<value><![CDATA[편집 주문 파일]]></value>
+		<value><![CDATA[주문 파일 편집]]></value>
 	</definition>
 	<definition>
 		<key>text_missing_file</key>
-		<value><![CDATA[누락 된 파일]]></value>
+		<value><![CDATA[파일 없음]]></value>
 	</definition>
 	<definition>
 		<key>order_download_history</key>
@@ -298,7 +306,7 @@
 	</definition>
 	<definition>
 		<key>text_time</key>
-		<value><![CDATA[시각]]></value>
+		<value><![CDATA[시간]]></value>
 	</definition>
 	<definition>
 		<key>text_filename</key>
@@ -314,15 +322,15 @@
 	</definition>
 	<definition>
 		<key>text_download_expired</key>
-		<value><![CDATA[날짜 만료]]></value>
+		<value><![CDATA[만료된 날짜]]></value>
 	</definition>
 	<definition>
 		<key>text_download_remaining_count</key>
-		<value><![CDATA[촬영 가능 매수]]></value>
+		<value><![CDATA[남은 수량]]></value>
 	</definition>
 	<definition>
 		<key>text_order_status_required</key>
-		<value><![CDATA[주문 상태 &quot;%s&quot;필수]]></value>
+		<value><![CDATA[주문 상태 "%s" 필수]]></value>
 	</definition>
 	<definition>
 		<key>text_select_product</key>
@@ -330,47 +338,39 @@
 	</definition>
 	<definition>
 		<key>text_push_download</key>
-		<value><![CDATA[- 푸시 다운로드 -]]></value>
+		<value><![CDATA[- 다운로드 시작 -]]></value>
 	</definition>
 	<definition>
 		<key>text_add_product_to_order</key>
-		<value><![CDATA[# 주문 제품을 추가 %s]]></value>
+		<value><![CDATA[주문 #%s에 상품 추가]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_order_product</key>
-		<value><![CDATA[편집 제품]]></value>
+		<value><![CDATA[상품 편집]]></value>
 	</definition>
 	<definition>
 		<key>attention_check_total</key>
-		<value><![CDATA[주 : 주문 제품 세부 사항이 변경되었습니다. 총이 자동으로 계산되었다. 검토가 필요합니다.]]></value>
+		<value><![CDATA[참고: 주문 상품 세부 정보가 변경되었습니다. 총합이 자동으로 재계산되었습니다. 검토가 필요합니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_add</key>
-		<value><![CDATA[총 계산에 새로운 금액을 추가]]></value>
+		<value><![CDATA[총 금액 계산에 새 금액을 추가]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_title</key>
-		<value><![CDATA[쇼 제목]]></value>
+		<value><![CDATA[표시할 제목]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_amount</key>
-		<value><![CDATA[양]]></value>
+		<value><![CDATA[금액]]></value>
 	</definition>
 	<definition>
 		<key>text_recalc</key>
-		<value><![CDATA[설정을 사용하여 재 계산]]></value>
+		<value><![CDATA[설정을 사용하여 다시 계산]]></value>
 	</definition>
 	<definition>
 		<key>entry_im</key>
-		<value><![CDATA[IM :]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[제품유형]]></value>
-	</definition>
-	<definition>
-		<key>tab_address</key>
-		<value><![CDATA[주문 주소]]></value>
+		<value><![CDATA[인스턴트 메신저:]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_locations</key>
@@ -382,6 +382,6 @@
 	</definition>
 	<definition>
 		<key>text_enable_google_map</key>
-		<value><![CDATA[대화형 Google 지도에서 주소를 보려면 일반 설정에서 Google API 키를 제공하세요.]]></value>
+		<value><![CDATA[인터랙티브 Google 지도에서 주소를 보려면 일반 설정에서 Google API 키를 제공하세요.]]></value>
 	</definition>
 </definitions>

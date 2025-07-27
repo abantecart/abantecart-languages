@@ -12,7 +12,7 @@ $lngName = "Deutsch";
 $lngDir = "deutsch";
 $lngLocale = "de_DE.UTF-8,de_DE,de-de,deutsch";
 $lngFlagPath = "extensions/" . $extName . "/storefront/language/" . $lngDir . "/flag.png";
-$lngSortOrder = 2; // sorting order with other languages
+$lngSortOrder = 3; // sorting order with other languages
 $lngStatus = 0; // Status on installation of extension
 
 

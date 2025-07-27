@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,15 +6,15 @@
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[корзина]]></value>
+		<value><![CDATA[Кошик]]></value>
 	</definition>
 	<definition>
 		<key>text_sub_total</key>
-		<value><![CDATA[Разом:]]></value>
+		<value><![CDATA[Проміжний підсумок:]]></value>
 	</definition>
 	<definition>
 		<key>text_weight</key>
-		<value><![CDATA[Кошик Вага:]]></value>
+		<value><![CDATA[Вага кошика:]]></value>
 	</definition>
 	<definition>
 		<key>text_error</key>
@@ -22,23 +22,27 @@
 	</definition>
 	<definition>
 		<key>column_remove</key>
-		<value><![CDATA[видалення]]></value>
+		<value><![CDATA[Видалити]]></value>
 	</definition>
 	<definition>
 		<key>column_image</key>
-		<value><![CDATA[зображення]]></value>
+		<value><![CDATA[Зображення]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[ім&#39;я]]></value>
+		<value><![CDATA[Ім'я]]></value>
 	</definition>
 	<definition>
 		<key>column_model</key>
-		<value><![CDATA[модель]]></value>
+		<value><![CDATA[Модель]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[Артикул]]></value>
 	</definition>
 	<definition>
 		<key>column_quantity</key>
-		<value><![CDATA[кількість]]></value>
+		<value><![CDATA[Кількість]]></value>
 	</definition>
 	<definition>
 		<key>column_price</key>
@@ -46,7 +50,7 @@
 	</definition>
 	<definition>
 		<key>column_total</key>
-		<value><![CDATA[загальний]]></value>
+		<value><![CDATA[Всього]]></value>
 	</definition>
 	<definition>
 		<key>text_continue_shopping</key>
@@ -58,55 +62,55 @@
 	</definition>
 	<definition>
 		<key>text_estimate_shipping_tax</key>
-		<value><![CDATA[Розрахувати вартість доставки і податки]]></value>
+		<value><![CDATA[Розрахувати доставку та податки]]></value>
 	</definition>
 	<definition>
 		<key>text_estimate_country</key>
-		<value><![CDATA[Країна і Держава]]></value>
+		<value><![CDATA[Країна та штат]]></value>
 	</definition>
 	<definition>
 		<key>text_estimate_postcode</key>
-		<value><![CDATA[ZIP / Поштовий індекс]]></value>
+		<value><![CDATA[ZIP/Поштовий індекс]]></value>
 	</definition>
 	<definition>
 		<key>button_text_estimate</key>
-		<value><![CDATA[оцінка]]></value>
+		<value><![CDATA[Оцінка]]></value>
 	</definition>
 	<definition>
 		<key>text_estimate_shipments</key>
-		<value><![CDATA[відвантаження]]></value>
+		<value><![CDATA[Відправлення]]></value>
 	</definition>
 	<definition>
 		<key>error_coupon</key>
-		<value><![CDATA[Помилка: Купон є або недійсним, закінчився або досяг своєї межі використання!]]></value>
+		<value><![CDATA[Помилка: купон недійсний, прострочений або досяг свого ліміту використання!]]></value>
 	</definition>
 	<definition>
 		<key>error_stock</key>
-		<value><![CDATA[Продукти, відмічені *** не доступні в необхідній кількості чи ні в наявності!]]></value>
+		<value><![CDATA[Товари, позначені ***, недоступні у потрібній кількості або відсутні на складі!]]></value>
 	</definition>
 	<definition>
 		<key>error_required_options</key>
-		<value><![CDATA[Будь ласка, виберіть всі необхідні параметри!]]></value>
+		<value><![CDATA[Будь ласка, виберіть всі обов’язкові опції!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_minimum</key>
-		<value><![CDATA[Ваше замовлення на південь загальна сума не відповідає мінімальна кількість %s потрібно. Будь ласка, додайте більше продуктів в корзину!]]></value>
+		<value><![CDATA[Проміжна сума вашого замовлення не досягає мінімальної необхідної суми %s. Будь ласка, додайте більше товарів до вашого кошика!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_maximum</key>
-		<value><![CDATA[Ваше замовлення на південь загальна сума перевищує максимальну кількість %s допустимої послідовності. Будь ласка, видаліть деякі елементи з кошика!]]></value>
+		<value><![CDATA[Сума проміжного підсумку вашого замовлення перевищує максимально дозволену суму %s за замовлення. Будь ласка, видаліть деякі товари з вашого кошика!]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_file_data</key>
-		<value><![CDATA[Дані файлу пошкоджений або порожній.]]></value>
+		<value><![CDATA[Дані файлу пошкоджені або порожні.]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_file_name</key>
-		<value><![CDATA[Файл порожній!]]></value>
+		<value><![CDATA[Ім'я файлу порожнє!]]></value>
 	</definition>
 	<definition>
 		<key>error_file_extension</key>
-		<value><![CDATA[Тільки файли з розширенням (ами) %s (ються) допускається!]]></value>
+		<value><![CDATA[Дозволені лише файли з розширенням(ями) %s!]]></value>
 	</definition>
 	<definition>
 		<key>error_min_file_size</key>
@@ -114,26 +118,22 @@
 	</definition>
 	<definition>
 		<key>error_max_file_size</key>
-		<value><![CDATA[Максимальний розмір файлу для завантаження становить %s Kb.]]></value>
+		<value><![CDATA[Максимальний розмір файлу для завантаження – %s Кб.]]></value>
 	</definition>
 	<definition>
 		<key>text_coupon_success</key>
-		<value><![CDATA[Успіх: Ваш купон знижка була застосована!]]></value>
+		<value><![CDATA[Успіх: Ваша знижка за купоном успішно застосована!]]></value>
 	</definition>
 	<definition>
 		<key>text_coupon_removal</key>
-		<value><![CDATA[Успіх: Купон був знищений!]]></value>
+		<value><![CDATA[Успіх: Купон було видалено!]]></value>
 	</definition>
 	<definition>
 		<key>error_quantity_maximum</key>
-		<value><![CDATA[допустимої кількості певного товару є більшими. Кількість була встановлена ​​на максимум.]]></value>
+		<value><![CDATA[Дозволена кількість товару перевищена. Кількість встановлено на максимум.]]></value>
 	</definition>
 	<definition>
 		<key>error_quantity_minimum</key>
-		<value><![CDATA[допустимої кількості продукту нижче необхідного мінімуму. Кількість був встановлений на мінімальну суму.]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[SKU]]></value>
+		<value><![CDATA[Допустима кількість товару нижча за мінімально необхідну. Кількість встановлено на мінімальну.]]></value>
 	</definition>
 </definitions>

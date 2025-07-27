@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[магазин Детальніше]]></value>
+		<value><![CDATA[Деталі магазину]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -10,43 +10,43 @@
 	</definition>
 	<definition>
 		<key>text_image_manager</key>
-		<value><![CDATA[Диспетчер зображень]]></value>
+		<value><![CDATA[Менеджер зображень]]></value>
 	</definition>
 	<definition>
 		<key>text_default</key>
-		<value><![CDATA[дефолт]]></value>
+		<value><![CDATA[За замовчуванням]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_store</key>
-		<value><![CDATA[Змінити магазин:]]></value>
+		<value><![CDATA[Редагувати магазин:]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Назва магазину: <br/><span class="help">скопійований в настройки і показано на ділянці вітрину.</span>]]></value>
+		<value><![CDATA[Найменування магазину:<br /><span class="help">Скопійовано до налаштувань і відображається в розділі вітрини.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_url</key>
-		<value><![CDATA[Збереження URL: <br/><span class="help">Увімкніть повний URL до вашого магазину. Переконайтеся в тому, щоб додати &#39;/&#39; в кінці. Приклад: http://www.yourdomain.com/path/ <br/><br/> Чи не слід використовувати каталоги, щоб створити нове сховище. Ви повинні завжди вказувати інший домен або піддомен на вашому хостингу.</span>]]></value>
+		<value><![CDATA[URL магазину:<br /><span class="help">Включіть повний URL вашого магазину. Переконайтеся, що додаєте '/' наприкінці. Приклад: http://www.yourdomain.com/path/<br /><br />Не використовуйте директорії для створення нового магазину. Ви повинні завжди спрямовувати інший домен або піддомен до вашого хостингу.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_ssl</key>
-		<value><![CDATA[Використовувати SSL: <br/><span class="help">Щоб використовувати перевірку SSL з вашого хоста, якщо встановлений сертифікат SSL.</span>]]></value>
+		<value><![CDATA[Використовувати SSL:<br /><span class="help">Щоб використовувати SSL, перевірте у свого хостинг-провайдера, чи встановлено SSL-сертифікат.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Назва:]]></value>
+		<value><![CDATA[Заголовок:]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[Метатег Опис:]]></value>
+		<value><![CDATA[Опис мета-тегу:]]></value>
 	</definition>
 	<definition>
 		<key>entry_template</key>
-		<value><![CDATA[шаблон:]]></value>
+		<value><![CDATA[Шаблон:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[Привітання:]]></value>
+		<value><![CDATA[Привітальне повідомлення:]]></value>
 	</definition>
 	<definition>
 		<key>entry_country</key>
@@ -62,94 +62,98 @@
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[Статус магазину <br/><span class="help">Статус Зберігати в вітрині магазину. Статус OFF направить за замовчуванням магазин. Використовуйте режим обслуговування настройки для установки тимчасового сховища обслуговування повідомлення</span>]]></value>
+		<value><![CDATA[Store Status<br /><span class="help">Статус магазину на вітрині. Статус OFF перенаправить користувача до магазину за замовчуванням. Використовуйте налаштування режиму технічного обслуговування для встановлення тимчасового повідомлення про обслуговування магазину</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_alias</key>
-		<value><![CDATA[Ім&#39;я Ім&#39;я користувача <br/><span class="help">Назва магазину Алиас. Якщо залишити порожнім, буде базуватися на укороченою імені</span>]]></value>
+		<value><![CDATA[Псевдонім назви<br /><span class="help">Псевдонім назви магазину. Якщо залишити порожнім, він базуватиметься на скороченій назві</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Стан магазину<br /><span class="help">Стан магазину на вітрині. Статус OFF перенаправляє на магазин за замовчуванням. Використовуйте налаштування Режиму технічного обслуговування для встановлення тимчасового повідомлення про обслуговування магазину</span>]]></value>
 	</definition>
 	<definition>
 		<key>button_add_store</key>
-		<value><![CDATA[новий магазин]]></value>
+		<value><![CDATA[Новий магазин]]></value>
 	</definition>
 	<definition>
 		<key>button_delete_store</key>
-		<value><![CDATA[видалити магазин]]></value>
+		<value><![CDATA[Видалити магазин]]></value>
 	</definition>
 	<definition>
 		<key>button_edit_settings</key>
-		<value><![CDATA[змінити налаштування]]></value>
+		<value><![CDATA[Редагувати налаштування]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Увага: У вас немає дозволу на зміну магазинів!]]></value>
+		<value><![CDATA[Увага: Ви не маєте дозволу змінювати магазини!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Назва магазину повинно бути від 3 до 32 символів!]]></value>
+		<value><![CDATA[Назва магазину має бути довжиною від 3 до 32 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_url</key>
-		<value><![CDATA[Збереження URL потрібно!]]></value>
+		<value><![CDATA[Потрібно вказати URL магазину!]]></value>
 	</definition>
 	<definition>
 		<key>error_title</key>
-		<value><![CDATA[Назва повинна бути від 3 до 32 символів!]]></value>
+		<value><![CDATA[Заголовок повинен містити від 3 до 32 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_thumb</key>
-		<value><![CDATA[Продукт зображення Розміри Thumb Розмір потрібно!]]></value>
+		<value><![CDATA[Розміри мініатюри зображення товару обов’язкові!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_popup</key>
-		<value><![CDATA[Зображення продукту Розміри спливаючих вікон Розмір потрібно!]]></value>
+		<value><![CDATA[Необхідні розміри спливаючого вікна зображення товару!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_category</key>
-		<value><![CDATA[Розміри Список категорій Розмір потрібно!]]></value>
+		<value><![CDATA[Необхідні розміри списку категорій!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_product</key>
-		<value><![CDATA[Розміри Список продуктів Необхідний розмір!]]></value>
+		<value><![CDATA[Необхідно вказати розміри списку товарів!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_additional</key>
-		<value><![CDATA[Додаткові розміри продукту Розмір зображення не потрібно!]]></value>
+		<value><![CDATA[Необхідні додаткові розміри зображення товару!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_related</key>
-		<value><![CDATA[Пов&#39;язані продукту Розміри Розмір зображення не потрібно!]]></value>
+		<value><![CDATA[Необхідно вказати розміри зображення пов’язаного товару!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_cart</key>
-		<value><![CDATA[Розміри Розмір зображення Кошик потрібно!]]></value>
+		<value><![CDATA[Необхідно вказати розміри зображення кошика!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_grid</key>
-		<value><![CDATA[Розміри Розмір зображення Сітка не потрібно!]]></value>
+		<value><![CDATA[Потрібно вказати розміри зображення сітки!]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[Увага: цей магазин не може бути видалений, як це в даний час віднесені до %s замовлень!]]></value>
+		<value><![CDATA[Увага: цей магазин не може бути видалений, оскільки він наразі призначений для %s замовлень!]]></value>
 	</definition>
 	<definition>
 		<key>error_required_data</key>
-		<value><![CDATA[Необхідні дані не були введені. Перевірка на наявність помилок на місцях!]]></value>
+		<value><![CDATA[Не введені обов'язкові дані. Перевірте поля на помилки!]]></value>
 	</definition>
 	<definition>
 		<key>error_limit</key>
-		<value><![CDATA[Обмеження не потрібно!]]></value>
+		<value><![CDATA[Потрібно вказати ліміт!]]></value>
 	</definition>
 	<definition>
 		<key>entry_clone_store</key>
-		<value><![CDATA[Параметри копіювання: <br/><span class="help">Ви можете вибрати копію всіх налаштувань з якого то існуючого магазину</span>]]></value>
+		<value><![CDATA[Копіювати налаштування:<br/><span class="help">Ви можете вибрати копію всіх налаштувань із існуючого магазину</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_ssl_url</key>
-		<value><![CDATA[Безпечний URL магазину: <br/><span class="help">Включити повний URL SSL (HTTPS) для вашого магазину. Переконайтеся в тому, щоб додати &#39;/&#39; в кінці. Приклад: https://www.yourdomain.com/path/</span>]]></value>
+		<value><![CDATA[Secure Store URL:<br /><span class="help">Вкажіть повний SSL URL(HTTPS) до вашого магазину. Переконайтеся, що додали '/' наприкінці. Приклад: https://www.yourdomain.com/path/</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_ssl_url</key>
-		<value><![CDATA[Безпечний URL потрібно!]]></value>
+		<value><![CDATA[Потрібен захищений URL!]]></value>
 	</definition>
 </definitions>

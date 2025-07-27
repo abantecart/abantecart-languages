@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Adó osztályok]]></value>
+		<value><![CDATA[Adóosztályok]]></value>
 	</definition>
 	<definition>
 		<key>text_class</key>
-		<value><![CDATA[Adó osztály]]></value>
+		<value><![CDATA[Adóosztály]]></value>
 	</definition>
 	<definition>
 		<key>text_rate</key>
@@ -14,15 +14,15 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Siker: Ön módosította adó osztályok!]]></value>
+		<value><![CDATA[Siker: Ön módosította az adóosztályokat!]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[Adó Osztály Cím]]></value>
+		<value><![CDATA[Adóosztály megnevezése]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Akció]]></value>
+		<value><![CDATA[Művelet]]></value>
 	</definition>
 	<definition>
 		<key>tab_details</key>
@@ -30,27 +30,27 @@
 	</definition>
 	<definition>
 		<key>tab_rates</key>
-		<value><![CDATA[Az árak]]></value>
+		<value><![CDATA[Díjak]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Adó Osztály Cím:]]></value>
+		<value><![CDATA[Adóosztály megnevezése:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[Leírás látható az ügyfelek]]></value>
+		<value><![CDATA[A vásárlók számára látható leírás]]></value>
 	</definition>
 	<definition>
 		<key>entry_location</key>
-		<value><![CDATA[Elhelyezkedés]]></value>
+		<value><![CDATA[Hely]]></value>
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[Hely zóna]]></value>
+		<value><![CDATA[Helyzóna]]></value>
 	</definition>
 	<definition>
 		<key>entry_priority</key>
-		<value><![CDATA[Kiemelten fontos]]></value>
+		<value><![CDATA[Prioritás]]></value>
 	</definition>
 	<definition>
 		<key>entry_rate</key>
@@ -58,31 +58,31 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Figyelmeztetés: nincs engedélye módosítására adó osztályok!]]></value>
+		<value><![CDATA[Figyelmeztetés: Önnek nincs jogosultsága az adóosztályok módosítására!]]></value>
 	</definition>
 	<definition>
 		<key>error_tax_title</key>
-		<value><![CDATA[Adó Osztály Cím között kell lennie a 2. és 32 karakter!]]></value>
+		<value><![CDATA[Az adóosztály megnevezésének hossza 2 és 32 karakter között kell, hogy legyen!]]></value>
 	</definition>
 	<definition>
 		<key>error_rate</key>
-		<value><![CDATA[Tax Rate szükséges!]]></value>
+		<value><![CDATA[Adókulcs megadása kötelező!]]></value>
 	</definition>
 	<definition>
 		<key>error_product</key>
-		<value><![CDATA[Figyelem: Ez az adó osztály nem lehet törölni, mivel jelenleg hozzárendelt %s termék!]]></value>
+		<value><![CDATA[Figyelem: Ezt az adóosztályt nem lehet törölni, mivel jelenleg %s termékhez van rendelve!]]></value>
 	</definition>
 	<definition>
 		<key>text_tax_all_zones</key>
-		<value><![CDATA[minden irányban zóna]]></value>
+		<value><![CDATA[Minden helyzóna]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_rate_threshold</key>
-		<value><![CDATA[Alkalmazás adót, ha <br/><span class="help">Alkalmazzuk ezt az adót csak akkor adóztatható összeg (termék, szállítás, részösszeg, stb) is ...</span>]]></value>
+		<value><![CDATA[Adó alkalmazása, ha<br /><span class="help">Ezt az adót csak akkor alkalmazza, ha az adóztatható összeg (termék, szállítási díj, részösszeg stb.) ...</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_exempt_groups</key>
-		<value><![CDATA[Adómentes csoportok <br/><span class="help">Válassza fogyasztói csoportok, hogy mentesítsék ez az adó</span>]]></value>
+		<value><![CDATA[Adómentes csoportok<br /><span class="help">Válassza ki az ügyfélcsoportokat, amelyeket ez az adó alól mentesít</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_absolute</key>

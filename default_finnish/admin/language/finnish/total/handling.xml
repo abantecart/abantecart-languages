@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,39 +10,39 @@
 	</definition>
 	<definition>
 		<key>text_total</key>
-		<value><![CDATA[Tilaa Totals]]></value>
+		<value><![CDATA[Tilauksen kokonaissummat]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Olet päivittänyt yhteensä käsittelymaksu!]]></value>
+		<value><![CDATA[Onnistui: Olet päivittänyt kokonaiskäsittelymaksun!]]></value>
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[Tilaus yhteensä: <span class="help">Minimitilausmäärä saavutettava soveltamaan maksu. Jos asiakkaan tilauksen yhteensä ylittää tämän määrän, käsittely FEEE ei sovelleta. Tämä arvo ohittaa maksu erityisiä asetus.</span>]]></value>
+		<value><![CDATA[Tilauksen kokonaissumma:<span class="help">Minimissumma, jonka tilauksen yhteissumman on saavutettava maksun soveltamiseksi. Jos asiakkaan tilauksen yhteissumma ylittää tämän määrän, käsittelymaksua ei peritä. Tämä arvo ylikirjoitetaan maksukohtaisella asetuksella.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_total_placeholder</key>
-		<value><![CDATA[Tilaa Määrä]]></value>
+		<value><![CDATA[Tilauksen summa]]></value>
 	</definition>
 	<definition>
 		<key>entry_fee</key>
-		<value><![CDATA[Maksu: <span class="help">Maksu voidaan lisätä tilata kokonaismäärä jos vähimmäismäärä ehto ei täyty. Tämä määrä ohittaa maksu erityinen asetus</span>]]></value>
+		<value><![CDATA[Lisämaksu:<span class="help">Lisämaksu lisätään tilauksen loppusummaan, jos minimisumman ehto ei täyty. Tämä summa korvataan maksutapakohdaisella asetuksella</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_payment_fee</key>
-		<value><![CDATA[Maksu: <span class="help">Maksu voidaan lisätä tilauksen yhteensä jos vähintään osa-kokonaismäärä ehto ei täyty. Tämä määrä ohittaa tärkein maksu asetus</span>]]></value>
+		<value><![CDATA[Maksu:<span class="help">Maksu lisätään tilauksen loppusummaan, jos välisumman vähimmäismääräehto ei täyty. Tämä summa korvaa päämaksuasetuksen</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_payment</key>
-		<value><![CDATA[<span class="help">Maksu: Tietyn maksun sinun täytyy lisätä maksu. Nämä asetukset ohittavat pääasetukset jos maksu on käytössä asiakkaan.</span>]]></value>
+		<value><![CDATA[Maksutapa:<span class="help">Valitse tietty maksutapa, johon haluat lisätä lisämaksun. Nämä asetukset ohittavat pääasetukset, jos asiakas käyttää tätä maksutapaa.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_subtotal</key>
-		<value><![CDATA[Tilaa Välisumma: <span class="help">Vähimmäismyyntimäärä Saharan kokonaissumma saavutetaan soveltamaan maksu. Tämä ohittaa Tärkein asetus</span>]]></value>
+		<value><![CDATA[Tilausvälisumma:<span class="help">Vähimmäistilausvälisumma, joka on saavutettava maksun soveltamiseksi. Tämä ohittaa pääasetuksen</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax</key>
-		<value><![CDATA[Veroluokka: <span class="help">Valitse jos tarvitset veron sovellettava-päälle käsittelymaksu</span>]]></value>
+		<value><![CDATA[Veroluokka:<span class="help">Valitse, jos tarvitset veron lisättävän käsittelymaksun päälle</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -54,14 +54,14 @@
 	</definition>
 	<definition>
 		<key>entry_calculation_order</key>
-		<value><![CDATA[Laskelma Order:]]></value>
+		<value><![CDATA[Laskentajärjestys:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata koko käsittelymaksu!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata kokonaiskäsittelymaksua!]]></value>
 	</definition>
 	<definition>
 		<key>error_number</key>
-		<value><![CDATA[Varoitus: Tilaa yhteensä ja käsittelymaksu on oltava numeroita!]]></value>
+		<value><![CDATA[Varoitus: tilauksen kokonaissumman ja käsittelymaksun on oltava numeroita!]]></value>
 	</definition>
 </definitions>

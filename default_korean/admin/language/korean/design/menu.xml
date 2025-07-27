@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[성공 : 당신은 메뉴를 수정 한!]]></value>
+		<value><![CDATA[성공: 당신은 메뉴를 수정했습니다!]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_id</key>
@@ -14,23 +14,31 @@
 	</definition>
 	<definition>
 		<key>entry_item_icon</key>
-		<value><![CDATA[상]]></value>
+		<value><![CDATA[아이콘]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_text</key>
-		<value><![CDATA[본문]]></value>
+		<value><![CDATA[텍스트]]></value>
 	</definition>
 	<definition>
 		<key>entry_item_url</key>
-		<value><![CDATA[링크 <br/><span class="help">초에 // : // 또는 https를 : 외부 링크의 경우는 HTTP를 추가</span>]]></value>
+		<value><![CDATA[Link<br /><span class="help">외부 링크의 경우 시작 부분에 http:// 또는 https://를 추가하세요. ../subfolder/index.php와 같은 상대 URL을 사용할 수도 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_item_target</key>
+		<value><![CDATA[Target<br/><span class="help">_self - 클릭한 동일한 프레임에서 링크된 문서를 엽니다.<br>_blank - 링크된 문서를 새 창 또는 탭에서 엽니다.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent_id</key>
-		<value><![CDATA[부모의]]></value>
+		<value><![CDATA[상위]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
 		<value><![CDATA[정렬 순서]]></value>
+	</definition>
+	<definition>
+		<key>entry_link_type</key>
+		<value><![CDATA[링크 유형]]></value>
 	</definition>
 	<definition>
 		<key>text_select_parent_id</key>
@@ -38,19 +46,15 @@
 	</definition>
 	<definition>
 		<key>error_empty</key>
-		<value><![CDATA[이 필드를 비워 둘 수 없습니다!]]></value>
+		<value><![CDATA[필드는 비워둘 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_non_unique</key>
-		<value><![CDATA[항목 ID 고유하지 않습니다!]]></value>
+		<value><![CDATA[항목 ID가 고유하지 않습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_non_ascii</key>
-		<value><![CDATA[영숫자 메뉴 ID 필드에 허용!]]></value>
-	</definition>
-	<definition>
-		<key>entry_link_type</key>
-		<value><![CDATA[링크 유형]]></value>
+		<value><![CDATA[메뉴 ID 필드에는 영숫자만 허용됩니다!]]></value>
 	</definition>
 	<definition>
 		<key>text_category_link_type</key>
@@ -65,11 +69,7 @@
 		<value><![CDATA[사용자 정의 링크 또는 URL]]></value>
 	</definition>
 	<definition>
-		<key>entry_item_target</key>
-		<value><![CDATA[대상 <br/><span class="help">_self - 클릭한 것과 같은 프레임에서 링크된 문서를 엽니다. <br/> _blank - 링크된 문서를 새 창이나 탭에서 엽니다.</span>]]></value>
-	</definition>
-	<definition>
 		<key>entry_include_children_items</key>
-		<value><![CDATA[어린이 항목 포함]]></value>
+		<value><![CDATA[하위 항목 포함]]></value>
 	</definition>
 </definitions>

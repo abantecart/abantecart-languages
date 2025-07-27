@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Panier migration]]></value>
+		<value><![CDATA[Migration du panier]]></value>
 	</definition>
 	<definition>
 		<key>heading_title_step_one</key>
@@ -18,59 +18,59 @@
 	</definition>
 	<definition>
 		<key>text_description</key>
-		<value><![CDATA[Outil de migration vous permettent d&#39;importer des données provenant d&#39;une autre chariots. <br/> Note: AbanteCart import de support pour mysql seulement pour l&#39; instant. <br/> Appuyez sur le bouton de migration de démarrage pour continuer ...]]></value>
+		<value><![CDATA[L’outil de migration vous permet d’importer des données depuis d’autres paniers.<br>Remarque : AbanteCart prend en charge l’importation depuis mysql uniquement pour l’instant.<br>Appuyez sur le bouton Démarrer la migration pour continuer…]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Succès: Vos données transfeerd avec succès à Abantecart!]]></value>
+		<value><![CDATA[Succès : Vos données ont été transférées avec succès vers AbanteCart !]]></value>
 	</definition>
 	<definition>
 		<key>text_cart_info</key>
-		<value><![CDATA[Source <span class="help">panier</span> Info <span class="help">Source détails panier d&#39;application.</span>]]></value>
+		<value><![CDATA[Infos du panier source<span class="help">Détails de l’application de panier d’achat source.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_db_info</key>
-		<value><![CDATA[Base de données Information <span class="help">Note: AbanteCart import de support pour mysql uniquement pour l&#39; instant.</span>]]></value>
+		<value><![CDATA[Infos base de données<span class="help">Note : AbanteCart ne prend en charge l’importation que pour mysql pour le moment.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_type</key>
-		<value><![CDATA[Source type de panier:]]></value>
+		<value><![CDATA[Type de panier source :]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_url</key>
-		<value><![CDATA[Source panier URL:]]></value>
+		<value><![CDATA[URL du panier source :]]></value>
 	</definition>
 	<definition>
 		<key>entry_db_host</key>
-		<value><![CDATA[Base de données Hôte:]]></value>
+		<value><![CDATA[Hôte de la base de données :]]></value>
 	</definition>
 	<definition>
 		<key>entry_db_user</key>
-		<value><![CDATA[Base de données utilisateur:]]></value>
+		<value><![CDATA[Utilisateur de la base de données :]]></value>
 	</definition>
 	<definition>
 		<key>entry_db_password</key>
-		<value><![CDATA[Mot de passe:]]></value>
+		<value><![CDATA[Mot de passe :]]></value>
 	</definition>
 	<definition>
 		<key>entry_db_name</key>
-		<value><![CDATA[Nom de la base de données:]]></value>
+		<value><![CDATA[Nom de la base de données :]]></value>
 	</definition>
 	<definition>
 		<key>entry_db_prefix</key>
-		<value><![CDATA[Base de données Prefix:]]></value>
+		<value><![CDATA[Préfixe de la base de données :]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_select</key>
-		<value><![CDATA[- Sélectionner le type de panier -]]></value>
+		<value><![CDATA[- sélectionnez le type de panier -]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_osc</key>
-		<value><![CDATA[oscommerce 2.2RC2]]></value>
+		<value><![CDATA[Oscommerce 2.2RC2]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_oscmax</key>
-		<value><![CDATA[osCMax]]></value>
+		<value><![CDATA[OscMAX]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_zen</key>
@@ -78,7 +78,7 @@
 	</definition>
 	<definition>
 		<key>entry_cart_cre</key>
-		<value><![CDATA[CRE chargé 6.4.1 STD]]></value>
+		<value><![CDATA[CRE Loaded 6.4.1 STD]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_opencart</key>
@@ -98,15 +98,15 @@
 	</definition>
 	<definition>
 		<key>entry_migrate_data_customers</key>
-		<value><![CDATA[Les clients]]></value>
+		<value><![CDATA[Clients]]></value>
 	</definition>
 	<definition>
 		<key>entry_migrate_data_orders</key>
-		<value><![CDATA[Ordres]]></value>
+		<value><![CDATA[Commandes]]></value>
 	</definition>
 	<definition>
 		<key>entry_erase_existing_data</key>
-		<value><![CDATA[Effacer les données existantes?]]></value>
+		<value><![CDATA[Effacer les données existantes ?]]></value>
 	</definition>
 	<definition>
 		<key>button_start_migration</key>
@@ -118,7 +118,7 @@
 	</definition>
 	<definition>
 		<key>button_back</key>
-		<value><![CDATA[Arrière]]></value>
+		<value><![CDATA[Retour]]></value>
 	</definition>
 	<definition>
 		<key>button_cancel</key>
@@ -126,67 +126,67 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Attention: Vous n&#39;êtes pas autorisé à effectuer la migration!]]></value>
+		<value><![CDATA[Attention : vous n’avez pas l’autorisation d’effectuer la migration !]]></value>
 	</definition>
 	<definition>
 		<key>error_db_host</key>
-		<value><![CDATA[Hôte requis!]]></value>
+		<value><![CDATA[Hôte requis !]]></value>
 	</definition>
 	<definition>
 		<key>error_db_user</key>
-		<value><![CDATA[Utilisateur requis!]]></value>
+		<value><![CDATA[Utilisateur requis !]]></value>
 	</definition>
 	<definition>
 		<key>error_db_name</key>
-		<value><![CDATA[Nom de la base nécessaire!]]></value>
+		<value><![CDATA[Nom de la base de données requis !]]></value>
 	</definition>
 	<definition>
 		<key>error_db_connection</key>
-		<value><![CDATA[Erreur: Impossible de se connecter à la base de données s&#39;il vous plaît assurez-vous que le serveur de base de données, nom d&#39;utilisateur et mot de passe est correct!]]></value>
+		<value><![CDATA[Erreur : Impossible de se connecter à la base de données, veuillez vous assurer que le serveur de base de données, le nom d’utilisateur et le mot de passe sont corrects !]]></value>
 	</definition>
 	<definition>
 		<key>error_db_not_exist</key>
-		<value><![CDATA[Erreur: n&#39;existe pas de base de données!]]></value>
+		<value><![CDATA[Erreur : la base de données n’existe pas !]]></value>
 	</definition>
 	<definition>
 		<key>error_cart_type</key>
-		<value><![CDATA[Erreur: S&#39;il vous plaît sélectionner le type de panier!]]></value>
+		<value><![CDATA[Erreur : Veuillez sélectionner le type de panier !]]></value>
 	</definition>
 	<definition>
 		<key>error_cart_url</key>
-		<value><![CDATA[Erreur: Panier URL requise!]]></value>
+		<value><![CDATA[Erreur : URL du panier requise !]]></value>
 	</definition>
 	<definition>
 		<key>error_cart_not_supported</key>
-		<value><![CDATA[Attention: panier Choisi pas pris en charge maintenant!]]></value>
+		<value><![CDATA[Attention : le panier choisi n’est pas pris en charge pour le moment !]]></value>
 	</definition>
 	<definition>
 		<key>error_migrate_data</key>
-		<value><![CDATA[Erreur: S&#39;il vous plaît sélectionner au moins un article!]]></value>
+		<value><![CDATA[Erreur : Veuillez sélectionner au moins un article !]]></value>
 	</definition>
 	<definition>
 		<key>text_no_customers</key>
-		<value><![CDATA[Remarque: Aucun client a été importé.]]></value>
+		<value><![CDATA[Note : Aucun client n’a été importé.]]></value>
 	</definition>
 	<definition>
 		<key>text_no_products</key>
-		<value><![CDATA[Remarque: Aucun produit a été importé.]]></value>
+		<value><![CDATA[Note : Aucun produit n’a été importé.]]></value>
 	</definition>
 	<definition>
 		<key>text_no_orders</key>
-		<value><![CDATA[Note: Pas un ordre a été importé.]]></value>
+		<value><![CDATA[Note : Aucune commande n’a été importée.]]></value>
 	</definition>
 	<definition>
 		<key>text_no_brands</key>
-		<value><![CDATA[Note: Pas une seule marque a été importé.]]></value>
+		<value><![CDATA[Note : Aucune marque n’a été importée.]]></value>
 	</definition>
 	<definition>
 		<key>text_no_categories</key>
-		<value><![CDATA[Note: Pas une catégorie de produit a été importé.]]></value>
+		<value><![CDATA[Note : Aucune catégorie de produit n’a été importée.]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_source_cart</key>
-		<value><![CDATA[Attention: Choisi la source panier est vide! S&#39;il vous plaît vérifier base de données et préfixe de table.]]></value>
+		<value><![CDATA[Attention : le panier source choisi est vide ! Veuillez vérifier la base de données et le préfixe des tables.]]></value>
 	</definition>
 	<definition>
 		<key>text_finished</key>

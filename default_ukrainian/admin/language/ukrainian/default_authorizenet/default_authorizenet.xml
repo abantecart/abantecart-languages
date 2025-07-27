@@ -2,31 +2,31 @@
 <definitions>
 	<definition>
 		<key>default_authorizenet_name</key>
-		<value><![CDATA[Authorize.Net Payment]]></value>
+		<value><![CDATA[Authorize.Net платіж]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_note</key>
-		<value><![CDATA[Для завершення налаштування платежів Authorize.Net потрібні додаткові налаштування. Перегляньте вкладку додаткових налаштувань.]]></value>
+		<value><![CDATA[Додаткові налаштування необхідні для завершення налаштування оплати Authorize.Net. Дивіться вкладку «Додаткові налаштування».]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
-		<value><![CDATA[Оплата]]></value>
+		<value><![CDATA[Платіж]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: ви змінили налаштування платежів Authorize.Net!]]></value>
+		<value><![CDATA[Успіх: Ви змінили налаштування платежів Authorize.Net!]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_location_id</key>
-		<value><![CDATA[Розташування:]]></value>
+		<value><![CDATA[Місцезнаходження:]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_location_id_0</key>
-		<value><![CDATA[Усі локації]]></value>
+		<value><![CDATA[Всі локації]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_api_login_id</key>
-		<value><![CDATA[ID входу в API:]]></value>
+		<value><![CDATA[Ідентифікатор входу API:]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_test_mode</key>
@@ -38,21 +38,19 @@
 	</definition>
 	<definition>
 		<key>default_authorizenet_api_public_key</key>
-		<value><![CDATA[відкритий ключ:]]></value>
+		<value><![CDATA[Публічний ключ:]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_autoselect</key>
-		<value><![CDATA[
- Автоматичний вибір: <br/><span class="help">Ви можете налаштувати пропуск сторінки вибору платежу, якщо є лише один варіант оплати. Цей спосіб оплати буде вибрано автоматично</span>]]></value>
+		<value><![CDATA[Автовибір:<br /><span class="help">Ви можете пропустити сторінку вибору способу оплати, якщо доступний лише один спосіб оплати. Цей спосіб оплати буде вибрано автоматично</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_save_cards_limit</key>
-		<value><![CDATA[
- Можна зберігати кредитні картки: <br/><span class="help">Встановіть максимальну кількість кредитних карток, яку мають зберігати клієнти (до 100). Якщо встановлено значення 0 або пусте, збереження карток не буде дозволено. Примітка щодо безпеки: дані кредитної картки клієнта зберігаються на захищених серверах Authorizenet для забезпечення максимальної безпеки даних. Дані кредитної картки не зберігатимуться на вашому сайті.</span>]]></value>
+		<value><![CDATA[Можна зберігати платіжні картки:<br /><span class="help">Встановіть максимальну кількість платіжних карток, які можуть зберігати клієнти (до 100). Якщо встановити 0 або залишити порожнім, збереження карток не буде дозволено. Примітка щодо безпеки: деталі платіжних карток клієнтів зберігаються на захищених серверах authorizenet, щоб забезпечити максимальні заходи безпеки даних. Жодні дані платіжних карток не зберігатимуться на вашому сайті.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_authorizenet_connect</key>
-		<value><![CDATA[Вам потрібно підключитися до Authorizenet, щоб налаштувати платіжні деталі]]></value>
+		<value><![CDATA[Вам потрібно підключитися до authorizenet, щоб налаштувати платіжні дані.]]></value>
 	</definition>
 	<definition>
 		<key>text_authorizenet_settings</key>
@@ -60,15 +58,15 @@
 	</definition>
 	<definition>
 		<key>text_connect</key>
-		<value><![CDATA[Підключіться до Authorize.Net	]]></value>
+		<value><![CDATA[Підключитися до Authorize.Net]]></value>
 	</definition>
 	<definition>
 		<key>text_disconnect</key>
-		<value><![CDATA[Відключіть Authorize.Net]]></value>
+		<value><![CDATA[Відключити Authorize.Net]]></value>
 	</definition>
 	<definition>
 		<key>text_skip_connect</key>
-		<value><![CDATA[Не можете підключитися?]]></value>
+		<value><![CDATA[Не вдається підключитися?]]></value>
 	</definition>
 	<definition>
 		<key>text_connect_success</key>
@@ -76,7 +74,7 @@
 	</definition>
 	<definition>
 		<key>text_disconnect_success</key>
-		<value><![CDATA[Успішно відключено від Authorize.Net]]></value>
+		<value><![CDATA[Відключено від Authorize.Net успішно]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_sort_order</key>
@@ -88,39 +86,39 @@
 	</definition>
 	<definition>
 		<key>default_authorizenet_sk_live</key>
-		<value><![CDATA[Секретний ключ Live: <br/><span class="help">Знайдіть це в розділі ключів API Authorize.Net. Ключ починається на sk_live_...</span>]]></value>
+		<value><![CDATA[Реальний секретний ключ:<br /><span class="help">Знайдіть це в розділі API-ключів Authorize.Net. Ключ починається з sk_live_...</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_pk_live</key>
-		<value><![CDATA[Опублікований ключ у реальному часі: <br/><span class="help">Знайдіть його в розділі ключів API Authorize.Net. Ключ починається з pk_live_...</span>]]></value>
+		<value><![CDATA[Живий публічний ключ:<br /><span class="help">Знайдіть це у розділі API-ключів Authorize.Net. Ключ починається з pk_live_...</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_sk_test</key>
-		<value><![CDATA[Перевірте секретний ключ: <br/><span class="help">Знайдіть це в розділі ключів API Authorize.Net. Ключ починається з sk_test_...</span>]]></value>
+		<value><![CDATA[Тестовий секретний ключ:<br /><span class="help">Знайдіть це в розділі ключів API Authorize.Net. Ключ починається з sk_test_...</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_pk_test</key>
-		<value><![CDATA[Перевірити опублікований ключ: <br/><span class="help">Знайдіть це в розділі ключів API Authorize.Net. Ключ починається з pk_test_...</span>]]></value>
+		<value><![CDATA[Тестовий публічний ключ:<br /><span class="help">Знайдіть це у розділі ключів API Authorize.Net. Ключ починається з pk_test_... </span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement</key>
-		<value><![CDATA[Тип поселення:]]></value>
+		<value><![CDATA[Тип розрахунку:]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement_auth</key>
-		<value><![CDATA[Лише авторизувати]]></value>
+		<value><![CDATA[Тільки авторизація]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement_authcapture</key>
-		<value><![CDATA[Авторизація та захоплення ]]></value>
+		<value><![CDATA[Авторизувати та списати]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_status_success_settled</key>
-		<value><![CDATA[Успіх і завершено: <br/><span class="help">Виберіть статус основного замовлення, який ви хочете встановити відповідно до статусу платіжної системи</span>]]></value>
+		<value><![CDATA[Успішно та врегульовано:<br /><span class="help">Виберіть основний статус замовлення, який ви хочете встановити у відповідь на статус платіжного процесора</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_status_success_unsettled</key>
-		<value><![CDATA[Успішно та не виконано: <br/><span class="help">Виберіть статус основного замовлення, який потрібно встановити відповідно до статусу платіжного процесора</span>]]></value>
+		<value><![CDATA[Успішно, але не врегульовано:<br /><span class="help">Виберіть основний статус замовлення, який ви хочете встановити у відповідь на статус платіжного процесора</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_column_date_added</key>
@@ -132,7 +130,7 @@
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement_auto</key>
-		<value><![CDATA[Автоматично (авторизувати та захопити)]]></value>
+		<value><![CDATA[Авто (авторизація та захоплення)]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement_delayed</key>
@@ -140,7 +138,7 @@
 	</definition>
 	<definition>
 		<key>text_payment_info</key>
-		<value><![CDATA[Платіжні реквізити]]></value>
+		<value><![CDATA[Деталі оплати]]></value>
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
@@ -152,30 +150,30 @@
 	</definition>
 	<definition>
 		<key>text_order_total</key>
-		<value><![CDATA[Загальна дозволена сума]]></value>
+		<value><![CDATA[Загальна авторизована сума]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[Сума залишку]]></value>
+		<value><![CDATA[Сума балансу]]></value>
 	</definition>
 	<definition>
 		<key>error_system</key>
-		<value><![CDATA[Внутрішня помилка. Перевірте журнал помилок або вхідні параметри!]]></value>
+		<value><![CDATA[Внутрішня помилка. Перевірте журнал помилок або параметри введення!]]></value>
 	</definition>
 	<definition>
 		<key>error_missing_amount</key>
-		<value><![CDATA[Введіть позитивну суму]]></value>
+		<value><![CDATA[Будь ласка, введіть позитивну суму]]></value>
 	</definition>
 	<definition>
 		<key>error_authorizenet_sk_test</key>
-		<value><![CDATA[Потрібен тестовий ключ Authorize.Net]]></value>
+		<value><![CDATA[Необхідний тестовий ключ Authorize.Net]]></value>
 	</definition>
 	<definition>
 		<key>error_authorizenet_sk_live</key>
-		<value><![CDATA[Потрібен активний ключ Authorize.Net]]></value>
+		<value><![CDATA[Необхідний live-ключ Authorize.Net]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Попередження: у вас немає дозволу на зміну платежу Authorize.Net!]]></value>
+		<value><![CDATA[Попередження: У вас немає дозволу змінювати Authorize.Net Payment!]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>text_uninstall_delete</key>
-		<value><![CDATA[Deinstallieren / Löschen]]></value>
+		<value><![CDATA[Deinstallieren/Löschen]]></value>
 	</definition>
 	<definition>
 		<key>text_uninstall_confirm</key>
-		<value><![CDATA[Bitte bestätigen Sie deinstallieren Erweiterung möchten. Alle Erweiterungseinstellungen und die zugehörigen Daten können gelöscht und verloren.]]></value>
+		<value><![CDATA[Bitte bestätigen Sie, dass Sie die Erweiterung deinstallieren möchten. Alle Einstellungen der Erweiterung und zugehörigen Daten könnten gelöscht und verloren gehen.]]></value>
 	</definition>
 	<definition>
 		<key>text_delete</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>text_enlarge</key>
-		<value><![CDATA[Klicken Sie auf das Bild zu vergrößern]]></value>
+		<value><![CDATA[Klicken Sie auf das Bild, um es zu vergrößern.]]></value>
 	</definition>
 	<definition>
 		<key>text_activate</key>
@@ -42,11 +42,11 @@
 	</definition>
 	<definition>
 		<key>text_right</key>
-		<value><![CDATA[Recht]]></value>
+		<value><![CDATA[Rechts]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
-		<value><![CDATA[Hinzugefügt zu]]></value>
+		<value><![CDATA[Hinzugefügt am]]></value>
 	</definition>
 	<definition>
 		<key>column_icon</key>
@@ -62,7 +62,7 @@
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[Name der Erweiterung]]></value>
+		<value><![CDATA[Erweiterungsname]]></value>
 	</definition>
 	<definition>
 		<key>column_position</key>
@@ -94,27 +94,27 @@
 	</definition>
 	<definition>
 		<key>error_required_field</key>
-		<value><![CDATA[Fehler: Bitte Pflichtfelder bieten. Nichts wurde aktualisiert!]]></value>
+		<value><![CDATA[Fehler: Bitte füllen Sie die erforderlichen Felder aus. Es wurde nichts aktualisiert!]]></value>
 	</definition>
 	<definition>
 		<key>error_payment_uninstall</key>
-		<value><![CDATA[Achtung: Deaktivieren Erweiterung vor der Deinstallation!]]></value>
+		<value><![CDATA[Warnung: Deaktivieren Sie die Erweiterung vor der Deinstallation!]]></value>
 	</definition>
 	<definition>
 		<key>error_uninstall</key>
-		<value><![CDATA[Warnung: Deinstallieren Erweiterung vor löschen!]]></value>
+		<value><![CDATA[Warnung: Deinstallieren Sie die Erweiterung, bevor Sie sie löschen!]]></value>
 	</definition>
 	<definition>
 		<key>text_save_success</key>
-		<value><![CDATA[Erfolg: Sie haben Erweiterungseinstellungen geändert!]]></value>
+		<value><![CDATA[Erfolg: Sie haben die Erweiterungseinstellungen geändert!]]></value>
 	</definition>
 	<definition>
 		<key>text_restore_success</key>
-		<value><![CDATA[Erfolg: Sie haben wieder Standarderweiterung Einstellungen!]]></value>
+		<value><![CDATA[Erfolg: Sie haben die Standardeinstellungen der Erweiterung wiederhergestellt!]]></value>
 	</definition>
 	<definition>
 		<key>text_extensions_store</key>
-		<value><![CDATA[Erweiterungen erhalten]]></value>
+		<value><![CDATA[Erweiterungen abrufen]]></value>
 	</definition>
 	<definition>
 		<key>text_required</key>
@@ -134,19 +134,19 @@
 	</definition>
 	<definition>
 		<key>text_search_for_extension</key>
-		<value><![CDATA[Suchen Sie nach Verlängerung]]></value>
+		<value><![CDATA[Nach Erweiterung suchen]]></value>
 	</definition>
 	<definition>
 		<key>text_missing_extension</key>
-		<value><![CDATA[&quot;Extension %s: Quelle kann nicht gefunden werden Bitte löschen Sie es und besuchen extention Anbieter komplette Quelle zu erhalten und installieren Sie es wieder!&quot;]]></value>
+		<value><![CDATA[Erweiterung %s: Quelle konnte nicht gefunden werden! Bitte löschen Sie sie und besuchen Sie den Anbieter der Erweiterung, um den vollständigen Quellcode zu erhalten und sie erneut zu installieren.]]></value>
 	</definition>
 	<definition>
 		<key>text_broken_extension</key>
-		<value><![CDATA[&quot;Extension %s:. Quelle wahrscheinlich gebrochen Kann nicht config.xml oder main.php Dateien finden Sie löschen und besuchen extention Anbieter komplette Quelle zu erhalten und installieren Sie es erneut&quot;]]></value>
+		<value><![CDATA[Erweiterung %s: Quellcode wahrscheinlich beschädigt! Dateien config.xml oder main.php konnten nicht gefunden werden. Bitte löschen Sie die Erweiterung und wenden Sie sich an den Anbieter, um den vollständigen Quellcode zu erhalten und sie erneut zu installieren.]]></value>
 	</definition>
 	<definition>
 		<key>text_extension_pagination</key>
-		<value><![CDATA[Extension (s) {start} bis {end} von {total}]]></value>
+		<value><![CDATA[Erweiterung(en) {start} - {end} von {total}]]></value>
 	</definition>
 	<definition>
 		<key>text_per_page</key>
@@ -154,19 +154,19 @@
 	</definition>
 	<definition>
 		<key>text_error_in_ajax</key>
-		<value><![CDATA[Fehler bei Ajax-Aufruf]]></value>
+		<value><![CDATA[Fehler beim Ajax-Aufruf]]></value>
 	</definition>
 	<definition>
 		<key>text_saved</key>
-		<value><![CDATA[Gerettet]]></value>
+		<value><![CDATA[Gespeichert]]></value>
 	</definition>
 	<definition>
 		<key>text_save</key>
-		<value><![CDATA[sparen]]></value>
+		<value><![CDATA[Speichern]]></value>
 	</definition>
 	<definition>
 		<key>text_reset</key>
-		<value><![CDATA[zurückstellen]]></value>
+		<value><![CDATA[Zurücksetzen]]></value>
 	</definition>
 	<definition>
 		<key>text_back</key>
@@ -186,11 +186,11 @@
 	</definition>
 	<definition>
 		<key>text_installed_on</key>
-		<value><![CDATA[Installiert auf]]></value>
+		<value><![CDATA[Installiert am]]></value>
 	</definition>
 	<definition>
 		<key>text_installed</key>
-		<value><![CDATA[Installierte]]></value>
+		<value><![CDATA[Installiert]]></value>
 	</definition>
 	<definition>
 		<key>text_not_installed</key>
@@ -198,7 +198,7 @@
 	</definition>
 	<definition>
 		<key>text_visit_repository</key>
-		<value><![CDATA[Bitte besuchen Sie Extension Repository Erweiterung zum Download]]></value>
+		<value><![CDATA[Bitte besuchen Sie das Erweiterungs-Repository</a>, um die Erweiterung herunterzuladen]]></value>
 	</definition>
 	<definition>
 		<key>text_license</key>
@@ -226,15 +226,15 @@
 	</definition>
 	<definition>
 		<key>text_update_available</key>
-		<value><![CDATA[Neue Version (%s) zur Verfügung. <a href="%s">Klicken Sie jetzt zu aktualisieren.</a>]]></value>
+		<value><![CDATA[Neue Version (%s) ist verfügbar. <a href="%s">Klicken Sie hier, um jetzt zu aktualisieren.</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_delete_confirm</key>
-		<value><![CDATA[Sind Sie sicher, dass Sie Erweiterung zu löschen?]]></value>
+		<value><![CDATA[Sind Sie sicher, dass Sie die Erweiterung löschen möchten?]]></value>
 	</definition>
 	<definition>
 		<key>error_config_load</key>
-		<value><![CDATA[Fehler: Konnte keine Konfiguration für <b>%s</b> geladen werden !]]></value>
+		<value><![CDATA[Fehler: Konfiguration für <b>%s</b> konnte nicht geladen werden!]]></value>
 	</definition>
 	<definition>
 		<key>error_required_extension</key>
@@ -242,7 +242,7 @@
 	</definition>
 	<definition>
 		<key>error_required_phpmodule</key>
-		<value><![CDATA[<b>%s</b> Erweiterung kann nicht installiert werden: <b>%s</b> PHP - Modul erforderlich]]></value>
+		<value><![CDATA[<b>%s</b> Erweiterung kann nicht installiert werden: <b>%s</b> PHP-Modul erforderlich]]></value>
 	</definition>
 	<definition>
 		<key>button_restore_defaults</key>
@@ -250,11 +250,11 @@
 	</definition>
 	<definition>
 		<key>additional_settings_confirm</key>
-		<value><![CDATA[So legen Sie weitere Einstellungen der Erweiterung von einem anderen Laden Sie müssen in Bedienfeld auf eine andere Domain-Namen anmelden. OK?]]></value>
+		<value><![CDATA[Um zusätzliche Einstellungen für die Erweiterung eines anderen Shops vorzunehmen, müssen Sie sich im Administrationsbereich einer anderen Domain anmelden. OK?]]></value>
 	</definition>
 	<definition>
 		<key>error_no_help_file</key>
-		<value><![CDATA[Sorry, es gibt keine Hilfe-Datei für diese Erweiterung.]]></value>
+		<value><![CDATA[Entschuldigung, es gibt keine Hilfedatei für diese Erweiterung.]]></value>
 	</definition>
 	<definition>
 		<key>text_more_help</key>
@@ -262,7 +262,7 @@
 	</definition>
 	<definition>
 		<key>entry_total_type</key>
-		<value><![CDATA[Art]]></value>
+		<value><![CDATA[Typ]]></value>
 	</definition>
 	<definition>
 		<key>text_total</key>
@@ -290,43 +290,43 @@
 	</definition>
 	<definition>
 		<key>text_confirm_disable_dependants</key>
-		<value><![CDATA[Erweiterung %s haben Familienangehörige sind: <br/> %s <br/> Es wird automatisch auch deaktiviert werden. <br/> Sind Sie bestätigen?]]></value>
+		<value><![CDATA[Erweiterung %s hat abhängige Erweiterungen:<br>%s<br>Sie wird ebenfalls automatisch deaktiviert.<br>Bestätigen Sie?]]></value>
 	</definition>
 	<definition>
 		<key>text_status</key>
-		<value><![CDATA[Status: <span class="help">Dies ist Schaufenster Erweiterungsstatus zu steuern.</span>]]></value>
+		<value><![CDATA[Status:<span class="help">Dies dient zur Kontrolle des Status der Storefront-Erweiterung.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_sort_order</key>
-		<value><![CDATA[Run Order: <span class="help">Anzahl Anzeigeposition, um für diese Erweiterung in Bezug auf andere aktiviert Erweiterungen einzustellen. (Sortierung ist von niedrigeren zu höheren Zahl, ignoriert 0 und leere Werte)</span>]]></value>
+		<value><![CDATA[Run Order:<span class="help">Nummer zur Festlegung der Anzeigepositionsreihenfolge dieser Erweiterung im Verhältnis zu anderen aktivierten Erweiterungen. (Sortierung erfolgt von niedrigeren zu höheren Zahlen, wobei 0 und leere Werte ignoriert werden)</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_minimum_total</key>
-		<value><![CDATA[Gesamtauftrag Mindest: <span class="help">Mindestbestellmenge erreicht werden soll, diese Zahlung zu ermöglichen</span>]]></value>
+		<value><![CDATA[Mindestbestellbetrag:<span class="help">Mindestbestellbetrag, der erreicht werden muss, um diese Zahlung zuzulassen</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_maximum_total</key>
-		<value><![CDATA[Gesamt Bestellen Maximum: <span class="help">Maximale Bestellmenge erreicht werden soll diese Zahlung nicht zulassen</span>]]></value>
+		<value><![CDATA[Maximaler Gesamtbestellwert:<span class="help">Der maximale Bestellwert, bei dessen Erreichen diese Zahlungsart nicht mehr erlaubt ist</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_storefront_icon</key>
-		<value><![CDATA[Schaufenster - Symbol: <span class="help">Zahlung Icon werden an der Kasse Zahlungsauswahl angezeigt</span>]]></value>
+		<value><![CDATA[Storefront Icon:<span class="help">Zahlungssymbol, das bei der Auswahl der Zahlungsmethode im Checkout angezeigt wird</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping_storefront_icon</key>
-		<value><![CDATA[Schaufenster - Icon: <span class="help">Versand Icon an der Kasse Versand Auswahl angezeigt</span>]]></value>
+		<value><![CDATA[Shop-Icon:<span class="help">Versand-Icon, das bei der Auswahl der Versandart im Checkout angezeigt wird</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_autoselect_payment</key>
-		<value><![CDATA[Automatische Auswahl: <span class="help">Sie können diese Zahlung eingestellt standardmäßig ausgewählt werden. Diese Zahlungsmethode wird vor für mehrere Zahlungen ausgewählt werden. Wenn dies die einzige Zahlungsoption</span> zur <span class="help">Verfügung steht, Zahlungsoption Auswahlschritt übersprungen.</span>]]></value>
+		<value><![CDATA[Automatische Auswahl:<span class="help">Optimiert den Bestellvorgang, indem automatisch eine Zahlungsmethode ausgewählt wird, wenn mehrere Optionen verfügbar sind.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_autoselect_shipping</key>
-		<value><![CDATA[Automatische Auswahl: <span class="help">Sie können Versandauswahlseite zu überspringen, wenn es nur eine Versandoption ist. Diese Versandart wird automatisch gewählt</span>]]></value>
+		<value><![CDATA[Auto Select:<span class="help">Optimiert den Checkout-Prozess, indem automatisch eine Versandmethode ausgewählt wird, wenn mehrere Optionen verfügbar sind.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_accept_payments_shipping</key>
-		<value><![CDATA[Akzeptieren Sie diese Zahlungen: <span class="help">Wenn nur bestimmte Zahlungsmethoden für diese Versandart benötigt werden, wählen Sie diese hier. Wenn nichts ausgewählt, werden alle verfügbaren Zahlungsmethoden werden angezeigt</span>]]></value>
+		<value><![CDATA[Wählen Sie zur Einschränkung der Zahlungen aus:<span class="help">Wenn für diese Versandmethode nur bestimmte Zahlungsmethoden benötigt werden, wählen Sie sie hier aus. Wenn nichts ausgewählt ist, werden alle verfügbaren Zahlungsmethoden angezeigt</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_ready_to_install</key>
@@ -338,7 +338,7 @@
 	</definition>
 	<definition>
 		<key>error_dependencies</key>
-		<value><![CDATA[Diese Erweiterung kann nicht aktiviert werden, da erforderliche Abhängigkeit aktiviert fehlt oder nicht.]]></value>
+		<value><![CDATA[Diese Erweiterung kann nicht aktiviert werden, da eine erforderliche Abhängigkeit fehlt oder nicht aktiviert ist.]]></value>
 	</definition>
 	<definition>
 		<key>button_howto</key>
@@ -362,19 +362,19 @@
 	</definition>
 	<definition>
 		<key>button_continue</key>
-		<value><![CDATA[Fortsetzen]]></value>
+		<value><![CDATA[Weiter]]></value>
 	</definition>
 	<definition>
 		<key>button_cancel</key>
-		<value><![CDATA[Stornieren]]></value>
+		<value><![CDATA[Abbrechen]]></value>
 	</definition>
 	<definition>
 		<key>error_could_not_load_config</key>
-		<value><![CDATA[Fehler: Konnte keine Konfiguration für <b>%s</b> laden (%s)!]]></value>
+		<value><![CDATA[Fehler: Konfiguration für <b>%s</b> (%s) konnte nicht geladen werden!]]></value>
 	</definition>
 	<definition>
 		<key>error_could_not_load_override</key>
-		<value><![CDATA[Fehler: Keine Überschreibung Vorlage %s in Verlängerung laden %s!]]></value>
+		<value><![CDATA[Fehler: Kann die Überschreibvorlage %s in der Erweiterung %s nicht laden!]]></value>
 	</definition>
 	<definition>
 		<key>tab_general</key>
@@ -386,11 +386,11 @@
 	</definition>
 	<definition>
 		<key>text_more_extensions</key>
-		<value><![CDATA[Weitere Erweiterungen sind für die einfache Installation.]]></value>
+		<value><![CDATA[Weitere Erweiterungen sind für eine einfache Installation verfügbar.]]></value>
 	</definition>
 	<definition>
 		<key>text_support_expiration</key>
-		<value><![CDATA[Der Support ist aktiv bis]]></value>
+		<value><![CDATA[Support ist aktiv bis]]></value>
 	</definition>
 	<definition>
 		<key>text_support_expired</key>
@@ -398,7 +398,7 @@
 	</definition>
 	<definition>
 		<key>text_license_expired</key>
-		<value><![CDATA[Der Erweiterungssupport ist abgelaufen oder nicht mit dem Marktplatz verbunden]]></value>
+		<value><![CDATA[Der Support für die Erweiterung ist abgelaufen oder nicht mit dem Marktplatz verbunden]]></value>
 	</definition>
 	<definition>
 		<key>button_get_support</key>
@@ -406,11 +406,11 @@
 	</definition>
 	<definition>
 		<key>text_min_volume</key>
-		<value><![CDATA[Mindestbestellwert für Paketgrößen in (%s Kubikmeter) <span class="help">Mindestwert für die für den Kunden verfügbare Versandoption. Dieser Wert basiert auf den kombinierten Produktgrößen in der Bestellung.</span>]]></value>
+		<value><![CDATA[Minimales Paketvolumen pro Bestellung in (Kubik %s) <span class="help">Minimaler Wert, damit die Versandoption für den Kunden verfügbar ist. Dieser Wert basiert auf den kombinierten Produktgrößen in der Bestellung</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_max_volume</key>
-		<value><![CDATA[Maximales Paketvolumen in (Kubikmeter) <span class="help">Maximalwert für die für den Kunden verfügbare Versandoption. Dieser Wert basiert auf den kombinierten Produktgrößen in der Bestellung.</span>]]></value>
+		<value><![CDATA[Maximales Paketvolumen pro Bestellung in (Kubik %s) <span class="help">Maximaler Wert, damit die Versandoption für den Kunden verfügbar ist. Dieser Wert basiert auf den kombinierten Produktgrößen in der Bestellung</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_min_weight</key>
@@ -418,14 +418,18 @@
 	</definition>
 	<definition>
 		<key>text_max_weight</key>
-		<value><![CDATA[Maximales Paketgewicht (%s)]]></value>
+		<value><![CDATA[Maximales Gewicht des Pakets (%s)]]></value>
 	</definition>
 	<definition>
 		<key>text_min_order_subtotal</key>
-		<value><![CDATA[Mindestbestellwert: <span class="help">Geben Sie den Mindestbestellwert ein, damit die Versandoption für den Kunden verfügbar ist. Dieses Feld ist optional.</span>]]></value>
+		<value><![CDATA[Mindestbestellwert: <span class="help">Geben Sie den Mindestbestellwert ein, damit die Versandoption dem Kunden zur Verfügung steht. Dieses Feld ist optional.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_max_order_subtotal</key>
-		<value><![CDATA[Maximaler Zwischensummenbetrag: <span class="help">Geben Sie den maximalen Zwischensummenbetrag für die Versandoption ein, der dem Kunden zur Verfügung stehen soll. Dieses Feld ist optional.</span>]]></value>
+		<value><![CDATA[Maximale Zwischensumme der Bestellung: <span class="help">Geben Sie den maximalen Zwischensummenwert der Bestellung ein, damit diese Versandoption dem Kunden zur Verfügung steht. Dieses Feld ist optional.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_customer_groups</key>
+		<value><![CDATA[Nur für Kundengruppe(n) erlaubt:]]></value>
 	</definition>
 </definitions>

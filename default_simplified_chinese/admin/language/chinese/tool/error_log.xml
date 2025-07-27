@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,16 +6,14 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已成功清除错误日志！]]></value>
+		<value><![CDATA[成功：您已成功清除错误日志！]]></value>
 	</definition>
 	<definition>
 		<key>text_file_tail</key>
-		<value><![CDATA[由于大尺寸的记录文件中，只有数据的最后500KB可在这里被看到。 
-要查看完整的日志，从你的服务器直接得到它。 
-路：]]></value>
+		<value><![CDATA[由于日志文件体积过大，此处只能查看最后500Kb的数据。<br>要查看完整日志，请直接从您的服务器获取。路径：]]></value>
 	</definition>
 	<definition>
 		<key>text_file_error</key>
-		<value><![CDATA[]]></value>
+		<value><![CDATA[文件不存在或无法读取！]]></value>
 	</definition>
 </definitions>

@@ -2,36 +2,33 @@
 <definitions>
 	<definition>
 		<key>2checkout_name</key>
-		<value><![CDATA[2체크아웃]]></value>
+		<value><![CDATA[2Checkout]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
-		<value><![CDATA[지불]]></value>
+		<value><![CDATA[결제]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[성공: 2Checkout 계정 세부정보를 수정했습니다!]]></value>
+		<value><![CDATA[성공: 당신은 2Checkout 계정 세부 정보를 수정했습니다!]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_note</key>
-		<value><![CDATA[
- 이 확장 프로그램을 사용하면 2Checkout 결제 시스템을 사용하여 고객으로부터 결제를 수락할 수 있습니다. <br/> 
- <b>오늘 무료로 가입하세요! 프로모션 코드 ABANTECART2CO를 사용하면 신청 서비스 수수료가 면제되고(10.99달러 할인) 오늘 온라인 판매를 시작할 수 있습니다!</b><a href="https://www.2checkout.com/signup/">www.2checkout.com을</a> 방문하여 신청서를 작성한 다음 코드를 프로모션 코드 필드에 입력하여 오늘 이 특별 혜택을 활용하세요! 
- <br/> 등록 후 로그인하여 이 확장 프로그램을 구성하기 위한 계정 자격 증명을 받으세요. 
- <br/> INS URL과 리디렉션 URL을 여기에서 설정하는 것을 잊지 마세요. <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>. 
- <br/><br/> INS URL은<h4> #storefront#rt=확장/2체크아웃/콜백</h4> 
- <br/><br/> 또한 리디렉션 URL을 설정하고 반환 방법 &quot;헤더 리디렉션&quot;을 선택합니다. 
- <br/><br/> 리디렉션 URL은 다음과 같습니다.<h4> #storefront#rt=결제/성공</h4> 
-		 ]]></value>
+		<value><![CDATA[이 확장 기능을 사용하면 2Checkout 결제 시스템을 통해 고객으로부터 결제를 받을 수 있습니다.<br>
+<b>오늘 무료로 가입하세요! 프로모션 코드 ABANTECART2CO를 사용하여 신청 서비스 수수료 면제(10.99달러 절약)를 받고 오늘 바로 온라인 판매를 시작하세요! </b> <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>을 방문하여 신청서를 작성한 후 프로모션 코드 필드에 코드를 입력하여 오늘의 특별 혜택을 누리세요!<br>
+등록 후 로그인하여 이 확장 기능을 구성하기 위한 계정 자격 증명을 가져오세요.<br>
+여기에서 INS URL과 Redirect URL 설정을 잊지 마세요: <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.<br><br>
+귀하의 INS URL은 <h4>#storefront#rt=extension/2checkout/callback</h4>입니다.<br><br>
+또한 Redirect URL을 설정하고 Return method로 "Header redirect"를 선택하세요.<br><br>
+귀하의 Redirect URL은 <h4>#storefront#rt=checkout/success</h4>입니다.]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_account</key>
-		<value><![CDATA[2Checkout 상인 코드:]]></value>
+		<value><![CDATA[2Checkout 판매자 코드:]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_secret</key>
-		<value><![CDATA[
- 비밀 키: <br/><span class="help">거래를 확인하는 데 사용하는 비밀 단어(판매자 계정 구성 페이지에 정의된 것과 동일해야 함)</span>]]></value>
+		<value><![CDATA[Secret Key:<br /><span class="help">트랜잭션을 확인하기 위한 비밀 단어(가맹점 계정 구성 페이지에 정의된 것과 동일해야 합니다).</span>]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_test</key>
@@ -43,7 +40,7 @@
 	</definition>
 	<definition>
 		<key>2checkout_test_0</key>
-		<value><![CDATA[아니요]]></value>
+		<value><![CDATA[아니오]]></value>
 	</definition>
 	<definition>
 		<key>2checkout_order_status_id</key>
@@ -59,11 +56,11 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[경고: 2Checkout의 결제 정보를 수정할 수 있는 권한이 없습니다!]]></value>
+		<value><![CDATA[경고: 2Checkout 결제를 수정할 권한이 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_account</key>
-		<value><![CDATA[상인 코드가 필요합니다!]]></value>
+		<value><![CDATA[판매자 코드가 필요합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_secret</key>

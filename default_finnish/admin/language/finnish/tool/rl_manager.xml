@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Mediaresurssikirjaston johtaja]]></value>
+		<value><![CDATA[Mediaresurssikirjaston hallinta]]></value>
 	</definition>
 	<definition>
 		<key>text_rl_latest</key>
-		<value><![CDATA[Uusimmat lisäresurssien]]></value>
+		<value><![CDATA[Viimeksi lisätyt resurssit]]></value>
 	</definition>
 	<definition>
 		<key>text_rl_type</key>
@@ -14,42 +14,42 @@
 	</definition>
 	<definition>
 		<key>entry_type_name</key>
-		<value><![CDATA[Resurssityyppi Key <br/><span class="help">Tämä resurssityyppi avain / nimeä arvoa ei voida muuttaa</span>]]></value>
+		<value><![CDATA[Resurssityypin avain<br/><span class="help">Tätä resurssityypin avain/nimi arvoa ei voi muuttaa</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_default_directory</key>
-		<value><![CDATA[Resource hakemisto <br/><span class="help">Directory paikallistamiseen resurssi tämäntyyppisiä. Jos muuttunut, olemassa olevia resursseja ei ole acceccible ja täytyy kopioida uuteen hakemistoon!</span>]]></value>
+		<value><![CDATA[Resurssihakemisto<br/><span class="help">Hakemisto, joka paikantaa tämän tyyppisen resurssin. Jos sitä muutetaan, olemassa olevat resurssit eivät ole käytettävissä ja ne täytyy kopioida uuteen hakemistoon!</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_default_icon</key>
-		<value><![CDATA[Oletuskuvake <br/><span class="help">ikoni kuva näytetään listaus resurssit (Location: /image/...).</span>]]></value>
+		<value><![CDATA[Oletuskuvake<br/><span class="help">Kuvakkeen kuva, joka näytetään resurssien luettelossa (Sijainti: /image/... ).</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_file_types</key>
-		<value><![CDATA[Sallitut tiedostopäätteet <br/><span class="help">Regex listan sallittujen tiedostopäätteistä tähän julkaisukategoria</span>]]></value>
+		<value><![CDATA[Sallitut tiedostopäätteet<br/><span class="help">Säännöllinen lauseke, jossa on luettelo tälle resurssityypille sallitusta tiedostopäätteistä</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Olet päivittänyt julkaisukategoria!]]></value>
+		<value><![CDATA[Onnistui: olet päivittänyt resurssityypin!]]></value>
 	</definition>
 	<definition>
 		<key>error_missing_type_id</key>
-		<value><![CDATA[Virhe: Puuttuva julkaisukategoria ID!]]></value>
+		<value><![CDATA[Virhe: Resurssityypin tunniste puuttuu!]]></value>
 	</definition>
 	<definition>
 		<key>error_type_name</key>
-		<value><![CDATA[Virhe: Resurssien tyypin nimi on oltava välillä 2 ja 40 charcters]]></value>
+		<value><![CDATA[Virhe: Resurssityypin nimen tulee olla 2 ja 40 merkin välillä]]></value>
 	</definition>
 	<definition>
 		<key>error_default_directory</key>
-		<value><![CDATA[Virhe: Resurssien tyyppi hakemisto on oltava välillä 2 ja 64 charcters]]></value>
+		<value><![CDATA[Virhe: resurssityypin hakemiston on oltava 2–64 merkkiä pitkä.]]></value>
 	</definition>
 	<definition>
 		<key>error_default_icon</key>
-		<value><![CDATA[Virhe: Resurssien tyyppi ikoni on oltava välillä 2 ja 64 charcters]]></value>
+		<value><![CDATA[Virhe: Resurssityypin kuvakkeen on oltava vähintään 2 ja enintään 64 merkkiä]]></value>
 	</definition>
 	<definition>
 		<key>error_file_types</key>
-		<value><![CDATA[Virhe: Resurssityyppi tiedosto extenions regex on oltava välillä 2 ja 40 charcters]]></value>
+		<value><![CDATA[Virhe: resurssityypin tiedostopäätteiden regexin on oltava 2–40 merkin mittainen]]></value>
 	</definition>
 </definitions>

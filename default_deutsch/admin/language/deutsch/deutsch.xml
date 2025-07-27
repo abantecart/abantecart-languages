@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -14,15 +14,15 @@
 	</definition>
 	<definition>
 		<key>date_format_long</key>
-		<value><![CDATA[l d. F Y]]></value>
+		<value><![CDATA[l, j F Y]]></value>
 	</definition>
 	<definition>
 		<key>time_format</key>
-		<value><![CDATA[d.m.Y H:i:s]]></value>
+		<value><![CDATA[h:i:s]]></value>
 	</definition>
 	<definition>
 		<key>time_format_short</key>
-		<value><![CDATA[H:i:s]]></value>
+		<value><![CDATA[H:i]]></value>
 	</definition>
 	<definition>
 		<key>decimal_point</key>
@@ -54,11 +54,11 @@
 	</definition>
 	<definition>
 		<key>text_disabled</key>
-		<value><![CDATA[Behindert]]></value>
+		<value><![CDATA[Deaktiviert]]></value>
 	</definition>
 	<definition>
 		<key>text_none</key>
-		<value><![CDATA[--- Keiner ---]]></value>
+		<value><![CDATA[--- Keine ---]]></value>
 	</definition>
 	<definition>
 		<key>text_select</key>
@@ -66,11 +66,11 @@
 	</definition>
 	<definition>
 		<key>text_select_all</key>
-		<value><![CDATA[Alles auswählen]]></value>
+		<value><![CDATA[Alle auswählen]]></value>
 	</definition>
 	<definition>
 		<key>text_unselect_all</key>
-		<value><![CDATA[Alles wiederufen]]></value>
+		<value><![CDATA[Alle abwählen]]></value>
 	</definition>
 	<definition>
 		<key>text_all_zones</key>
@@ -86,7 +86,7 @@
 	</definition>
 	<definition>
 		<key>text_pagination</key>
-		<value><![CDATA[Zeige {start} bis {end} von {total} ({pages} Seiten)]]></value>
+		<value><![CDATA[Zeige {start} - {end} von {total} ({pages} Seiten)]]></value>
 	</definition>
 	<definition>
 		<key>text_per_page</key>
@@ -94,11 +94,11 @@
 	</definition>
 	<definition>
 		<key>text_no_results</key>
-		<value><![CDATA[Keine Einträge gefunden.]]></value>
+		<value><![CDATA[Kein Ergebnis gefunden.]]></value>
 	</definition>
 	<definition>
 		<key>text_separator</key>
-		<value><![CDATA[&gt;]]></value>
+		<value><![CDATA[>]]></value>
 	</definition>
 	<definition>
 		<key>text_edit</key>
@@ -106,11 +106,11 @@
 	</definition>
 	<definition>
 		<key>text_view</key>
-		<value><![CDATA[Aussicht]]></value>
+		<value><![CDATA[Anzeigen]]></value>
 	</definition>
 	<definition>
 		<key>text_home</key>
-		<value><![CDATA[Zuhause]]></value>
+		<value><![CDATA[Startseite]]></value>
 	</definition>
 	<definition>
 		<key>button_insert</key>
@@ -122,19 +122,19 @@
 	</definition>
 	<definition>
 		<key>button_save</key>
-		<value><![CDATA[sparen]]></value>
+		<value><![CDATA[Speichern]]></value>
 	</definition>
 	<definition>
 		<key>button_save_and_close</key>
-		<value><![CDATA[Speichern &amp; Schließen]]></value>
+		<value><![CDATA[Speichern & Schließen]]></value>
 	</definition>
 	<definition>
 		<key>button_cancel</key>
-		<value><![CDATA[Stornieren]]></value>
+		<value><![CDATA[Abbrechen]]></value>
 	</definition>
 	<definition>
 		<key>button_reset</key>
-		<value><![CDATA[zurückstellen]]></value>
+		<value><![CDATA[Zurücksetzen]]></value>
 	</definition>
 	<definition>
 		<key>button_reload</key>
@@ -142,7 +142,7 @@
 	</definition>
 	<definition>
 		<key>button_clear</key>
-		<value><![CDATA[Protokoll löschen]]></value>
+		<value><![CDATA[Protokoll leeren]]></value>
 	</definition>
 	<definition>
 		<key>button_close</key>
@@ -178,7 +178,7 @@
 	</definition>
 	<definition>
 		<key>button_continue</key>
-		<value><![CDATA[Fortsetzen]]></value>
+		<value><![CDATA[Fortfahren]]></value>
 	</definition>
 	<definition>
 		<key>button_remove</key>
@@ -186,7 +186,7 @@
 	</definition>
 	<definition>
 		<key>button_backup</key>
-		<value><![CDATA[Sicherungskopie]]></value>
+		<value><![CDATA[Sicherung]]></value>
 	</definition>
 	<definition>
 		<key>button_restore</key>
@@ -206,15 +206,15 @@
 	</definition>
 	<definition>
 		<key>button_add_option_value</key>
-		<value><![CDATA[In Optionswert]]></value>
+		<value><![CDATA[Optionswert hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>button_add_discount</key>
-		<value><![CDATA[In Rabatt]]></value>
+		<value><![CDATA[Rabatt hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>button_add_special</key>
-		<value><![CDATA[In Sonder]]></value>
+		<value><![CDATA[Sonderangebot hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>button_add_image</key>
@@ -222,23 +222,23 @@
 	</definition>
 	<definition>
 		<key>button_add_location_zone</key>
-		<value><![CDATA[Add Standort Zone]]></value>
+		<value><![CDATA[Standortzone hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>button_add_rate</key>
-		<value><![CDATA[In Steuersatz]]></value>
+		<value><![CDATA[Steuersatz hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>button_add_history</key>
-		<value><![CDATA[In Bestellverlauf]]></value>
+		<value><![CDATA[Bestellhistorie hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>button_actas</key>
-		<value><![CDATA[Act im Auftrag von]]></value>
+		<value><![CDATA[Im Namen von handeln]]></value>
 	</definition>
 	<definition>
 		<key>button_message</key>
-		<value><![CDATA[Kontaktieren Sie dieses Kunden]]></value>
+		<value><![CDATA[Diesen Kunden kontaktieren]]></value>
 	</definition>
 	<definition>
 		<key>button_approve</key>
@@ -262,23 +262,23 @@
 	</definition>
 	<definition>
 		<key>tab_details</key>
-		<value><![CDATA[Details zum Geschäft]]></value>
+		<value><![CDATA[Shop-Details]]></value>
 	</definition>
 	<definition>
 		<key>tab_checkout</key>
-		<value><![CDATA[Auschecken]]></value>
+		<value><![CDATA[Zur Kasse]]></value>
 	</definition>
 	<definition>
 		<key>tab_appearance</key>
-		<value><![CDATA[Das Auftreten]]></value>
+		<value><![CDATA[Erscheinungsbild]]></value>
 	</definition>
 	<definition>
 		<key>tab_im</key>
-		<value><![CDATA[ICH BIN]]></value>
+		<value><![CDATA[IM]]></value>
 	</definition>
 	<definition>
 		<key>tab_api</key>
-		<value><![CDATA[API]]></value>
+		<value><![CDATA[Programmierschnittstelle]]></value>
 	</definition>
 	<definition>
 		<key>tab_general</key>
@@ -286,7 +286,7 @@
 	</definition>
 	<definition>
 		<key>tab_image</key>
-		<value><![CDATA[Weitere Bilder]]></value>
+		<value><![CDATA[Zusätzliche Bilder]]></value>
 	</definition>
 	<definition>
 		<key>tab_option</key>
@@ -298,11 +298,11 @@
 	</definition>
 	<definition>
 		<key>tab_store</key>
-		<value><![CDATA[Geschäft]]></value>
+		<value><![CDATA[Shop]]></value>
 	</definition>
 	<definition>
 		<key>tab_special</key>
-		<value><![CDATA[Angebote]]></value>
+		<value><![CDATA[Sonderangebote]]></value>
 	</definition>
 	<definition>
 		<key>tab_local</key>
@@ -310,7 +310,7 @@
 	</definition>
 	<definition>
 		<key>tab_mail</key>
-		<value><![CDATA[Post]]></value>
+		<value><![CDATA[E-Mail]]></value>
 	</definition>
 	<definition>
 		<key>tab_order</key>
@@ -318,7 +318,7 @@
 	</definition>
 	<definition>
 		<key>tab_history</key>
-		<value><![CDATA[Bestellverlauf]]></value>
+		<value><![CDATA[Bestellhistorie]]></value>
 	</definition>
 	<definition>
 		<key>tab_product</key>
@@ -326,11 +326,11 @@
 	</definition>
 	<definition>
 		<key>tab_shipping</key>
-		<value><![CDATA[Lieferanschrift]]></value>
+		<value><![CDATA[Versandadresse]]></value>
 	</definition>
 	<definition>
 		<key>tab_payment</key>
-		<value><![CDATA[Rechnungsadresse]]></value>
+		<value><![CDATA[Zahlungsadresse]]></value>
 	</definition>
 	<definition>
 		<key>entry_discount</key>
@@ -338,43 +338,43 @@
 	</definition>
 	<definition>
 		<key>entry_special</key>
-		<value><![CDATA[Besondere]]></value>
+		<value><![CDATA[Spezial]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_1</key>
-		<value><![CDATA[Achtung: Die hochgeladene Datei überschreitet die upload_max_filesize in der php.ini!]]></value>
+		<value><![CDATA[Warnung: Die hochgeladene Datei überschreitet die upload_max_filesize-Direktive in php.ini!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_2</key>
-		<value><![CDATA[Achtung: Die hochgeladene Datei überschreitet die MAX_FILE_SIZE-Direktive, die im HTML-Formular angegeben wurde!]]></value>
+		<value><![CDATA[Warnung: Die hochgeladene Datei überschreitet die im HTML-Formular angegebene MAX_FILE_SIZE-Direktive!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_3</key>
-		<value><![CDATA[Achtung: Die hochgeladene Datei wurde nur teilweise hochgeladen!]]></value>
+		<value><![CDATA[Warnung: Die hochgeladene Datei wurde nur teilweise hochgeladen!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_4</key>
-		<value><![CDATA[Warnung: Keine Datei hochgeladen wurde!]]></value>
+		<value><![CDATA[Warnung: Es wurde keine Datei hochgeladen!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_6</key>
-		<value><![CDATA[Warnung: Fehlende einen temporären Ordner!]]></value>
+		<value><![CDATA[Warnung: Ein temporärer Ordner fehlt!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_7</key>
-		<value><![CDATA[Warnung: Datei konnte nicht auf die Festplatte zu schreiben!]]></value>
+		<value><![CDATA[Warnung: Datei konnte nicht auf die Festplatte geschrieben werden!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_8</key>
-		<value><![CDATA[Achtung: Datei-Upload durch die Erweiterung gestoppt!]]></value>
+		<value><![CDATA[Warnung: Datei-Upload durch Erweiterung gestoppt!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload_999</key>
-		<value><![CDATA[Achtung: Kein Fehlercode verfügbar!]]></value>
+		<value><![CDATA[Warnung: Kein Fehlercode verfügbar!]]></value>
 	</definition>
 	<definition>
 		<key>text_choose_action</key>
-		<value><![CDATA[Aktion wählen..]]></value>
+		<value><![CDATA[Aktion auswählen..]]></value>
 	</definition>
 	<definition>
 		<key>text_delete</key>
@@ -382,7 +382,7 @@
 	</definition>
 	<definition>
 		<key>text_delete_selected</key>
-		<value><![CDATA[ausgewählte löschen]]></value>
+		<value><![CDATA[Ausgewählte löschen]]></value>
 	</definition>
 	<definition>
 		<key>text_save_selected</key>
@@ -390,11 +390,11 @@
 	</definition>
 	<definition>
 		<key>text_save_all</key>
-		<value><![CDATA[Rette alle]]></value>
+		<value><![CDATA[Alles speichern]]></value>
 	</definition>
 	<definition>
 		<key>text_select_status</key>
-		<value><![CDATA[- Wählen Sie Status -]]></value>
+		<value><![CDATA[- Status auswählen -]]></value>
 	</definition>
 	<definition>
 		<key>text_all_orders</key>
@@ -402,23 +402,27 @@
 	</definition>
 	<definition>
 		<key>text_confirm_password</key>
-		<value><![CDATA[Bestätige das Passwort]]></value>
+		<value><![CDATA[Passwort bestätigen]]></value>
 	</definition>
 	<definition>
 		<key>text_insert</key>
 		<value><![CDATA[Einfügen]]></value>
 	</definition>
 	<definition>
+		<key>text_edit</key>
+		<value><![CDATA[Bearbeiten]]></value>
+	</definition>
+	<definition>
 		<key>text_select_items</key>
-		<value><![CDATA[Bitte wählen Artikel]]></value>
+		<value><![CDATA[Bitte wählen Sie Artikel aus]]></value>
 	</definition>
 	<definition>
 		<key>button_go</key>
-		<value><![CDATA[GEHEN]]></value>
+		<value><![CDATA[Los]]></value>
 	</definition>
 	<definition>
 		<key>search_everywhere</key>
-		<value><![CDATA[Suche Gesamte Website]]></value>
+		<value><![CDATA[Gesamte Website durchsuchen]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
@@ -426,11 +430,11 @@
 	</definition>
 	<definition>
 		<key>error_permission_access</key>
-		<value><![CDATA[Achtung: Sie haben keine Berechtigung zum Zugriff auf %s!]]></value>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, auf %s zuzugreifen!]]></value>
 	</definition>
 	<definition>
 		<key>error_permission_modify</key>
-		<value><![CDATA[Achtung: Sie haben keine Berechtigung %s ändern müssen!]]></value>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, %s zu ändern!]]></value>
 	</definition>
 	<definition>
 		<key>text_add</key>
@@ -450,19 +454,20 @@
 	</definition>
 	<definition>
 		<key>confirm_unmap_title</key>
-		<value><![CDATA[Bestätigen Ressource (n) Verknüpfung aufheben]]></value>
+		<value><![CDATA[Ressource(n) bestätigen	
+Verknüpfung aufheben]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_unmap</key>
-		<value><![CDATA[Sind Sie sicher, dass Sie Ressource entkoppeln (n)?]]></value>
+		<value><![CDATA[Sind Sie sicher, dass Sie die Ressource(n) entkoppeln möchten?]]></value>
 	</definition>
 	<definition>
 		<key>confirm_del_title</key>
-		<value><![CDATA[Bestätigen Ressource (n) Löschen]]></value>
+		<value><![CDATA[Ressource(n) löschen bestätigen]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_del</key>
-		<value><![CDATA[Sind Sie sicher, dass Sie Ressource zu löschen (n)?]]></value>
+		<value><![CDATA[Sind Sie sicher, dass Sie die Ressource(n) löschen möchten?]]></value>
 	</definition>
 	<definition>
 		<key>text_type_image</key>
@@ -482,79 +487,83 @@
 	</definition>
 	<definition>
 		<key>text_type_archive</key>
-		<value><![CDATA[archivieren]]></value>
+		<value><![CDATA[Archiv]]></value>
 	</definition>
 	<definition>
 		<key>text_type_download</key>
-		<value><![CDATA[Download-Datei]]></value>
+		<value><![CDATA[Datei herunterladen]]></value>
 	</definition>
 	<definition>
 		<key>button_unmap</key>
-		<value><![CDATA[unlink]]></value>
+		<value><![CDATA[Verknüpfung aufheben]]></value>
 	</definition>
 	<definition>
 		<key>button_select_resource</key>
-		<value><![CDATA[wählen]]></value>
+		<value><![CDATA[Auswählen]]></value>
 	</definition>
 	<definition>
 		<key>text_click_to_change</key>
-		<value><![CDATA[Klicken Sie auf Bild, um es zu ändern,]]></value>
+		<value><![CDATA[Klicken Sie auf das Bild, um es zu ändern.]]></value>
 	</definition>
 	<definition>
 		<key>text_select_from_list</key>
-		<value><![CDATA[Wählen Sie aus der Liste]]></value>
+		<value><![CDATA[Aus der Liste auswählen]]></value>
 	</definition>
 	<definition>
 		<key>text_count_selected</key>
-		<value><![CDATA[Zählen der ausgewählten Elemente:]]></value>
+		<value><![CDATA[Anzahl der ausgewählten Artikel:]]></value>
 	</definition>
 	<definition>
 		<key>text_delete_confirm</key>
-		<value><![CDATA[Bitte bestätigen Sie löschen]]></value>
+		<value><![CDATA[Bitte bestätigen Sie die Löschung]]></value>
 	</definition>
 	<definition>
 		<key>text_save_edit</key>
-		<value><![CDATA[Hinzufügen / Bearbeiten]]></value>
+		<value><![CDATA[Hinzufügen/Bearbeiten]]></value>
 	</definition>
 	<definition>
 		<key>text_apply</key>
-		<value><![CDATA[Sich bewerben]]></value>
+		<value><![CDATA[Anwenden]]></value>
 	</definition>
 	<definition>
 		<key>text_on_top</key>
-		<value><![CDATA[zurück an der Spitze]]></value>
+		<value><![CDATA[Zurück nach oben]]></value>
 	</definition>
 	<definition>
 		<key>text_all</key>
 		<value><![CDATA[Alle]]></value>
 	</definition>
 	<definition>
+		<key>text_all_stores</key>
+		<value><![CDATA[Alle Shops]]></value>
+	</definition>
+	<definition>
 		<key>text_create_new_block</key>
-		<value><![CDATA[Erstellen neuer Block]]></value>
+		<value><![CDATA[Neuen Block erstellen]]></value>
 	</definition>
 	<definition>
 		<key>button_unlink</key>
-		<value><![CDATA[unlink]]></value>
+		<value><![CDATA[Verknüpfung aufheben]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_unlink</key>
-		<value><![CDATA[Sind Sie sicher, dass Sie Ressource zu entkoppeln?]]></value>
+		<value><![CDATA[Sind Sie sicher, dass Sie die Ressource entkoppeln möchten?]]></value>
 	</definition>
 	<definition>
 		<key>confirm_unlink_title</key>
-		<value><![CDATA[Bestätigen Ressource Unlink]]></value>
+		<value><![CDATA[Trennen der Ressource bestätigen]]></value>
 	</definition>
 	<definition>
 		<key>text_select_store</key>
-		<value><![CDATA[Wählen Sie einen anderen Speicher]]></value>
+		<value><![CDATA[Wählen Sie einen anderen Shop aus.]]></value>
 	</definition>
 	<definition>
 		<key>text_click_browse_file</key>
-		<value><![CDATA[Klicken Sie auf Datei zu suchen]]></value>
+		<value><![CDATA[Klicken Sie, um eine Datei auszuwählen.]]></value>
 	</definition>
 	<definition>
 		<key>text_browse</key>
-		<value><![CDATA[blättern]]></value>
+		<value><![CDATA[Durchsuchen]]></value>
 	</definition>
 	<definition>
 		<key>text_or</key>
@@ -562,7 +571,7 @@
 	</definition>
 	<definition>
 		<key>error_seo_keyword</key>
-		<value><![CDATA[SEO Stichwort <a target="_blank" href="%s">&quot;%s&quot;</a> ist bereits vorhanden!]]></value>
+		<value><![CDATA[SEO-Schlüsselwort <a target="_blank" href="%s">"%s"</a> existiert bereits!]]></value>
 	</definition>
 	<definition>
 		<key>column_update_date</key>
@@ -570,7 +579,7 @@
 	</definition>
 	<definition>
 		<key>text_automatic</key>
-		<value><![CDATA[automatisch]]></value>
+		<value><![CDATA[Automatisch]]></value>
 	</definition>
 	<definition>
 		<key>text_sort_order</key>
@@ -578,11 +587,11 @@
 	</definition>
 	<definition>
 		<key>text_select_copy_layout</key>
-		<value><![CDATA[Wählen Sie das Layout zu kopieren aus]]></value>
+		<value><![CDATA[Auswählen, um das Layout von zu kopieren]]></value>
 	</definition>
 	<definition>
 		<key>text_apply_layout</key>
-		<value><![CDATA[Jetzt bewerben]]></value>
+		<value><![CDATA[Jetzt anwenden]]></value>
 	</definition>
 	<definition>
 		<key>text_new_download</key>
@@ -590,11 +599,11 @@
 	</definition>
 	<definition>
 		<key>text_free</key>
-		<value><![CDATA[Frei]]></value>
+		<value><![CDATA[Kostenlos]]></value>
 	</definition>
 	<definition>
 		<key>text_sure</key>
-		<value><![CDATA[Bist du sicher?]]></value>
+		<value><![CDATA[Sind Sie sicher?]]></value>
 	</definition>
 	<definition>
 		<key>button_add</key>
@@ -626,23 +635,23 @@
 	</definition>
 	<definition>
 		<key>text_processing</key>
-		<value><![CDATA[Wird bearbeitet ...]]></value>
+		<value><![CDATA[Verarbeitung ...]]></value>
 	</definition>
 	<definition>
 		<key>text_next</key>
-		<value><![CDATA[Nächster]]></value>
+		<value><![CDATA[Weiter]]></value>
 	</definition>
 	<definition>
 		<key>text_previous</key>
-		<value><![CDATA[Bisherige]]></value>
+		<value><![CDATA[Vorherige]]></value>
 	</definition>
 	<definition>
 		<key>text_on</key>
-		<value><![CDATA[AUF]]></value>
+		<value><![CDATA[AN]]></value>
 	</definition>
 	<definition>
 		<key>text_off</key>
-		<value><![CDATA[AUS]]></value>
+		<value><![CDATA[Aus]]></value>
 	</definition>
 	<definition>
 		<key>text_external_help</key>
@@ -650,15 +659,15 @@
 	</definition>
 	<definition>
 		<key>text_select_from_lookup</key>
-		<value><![CDATA[Starten Sie die Eingabe (Name, Modell, sku, etc.) zu suchen und wählen Ergebnis]]></value>
+		<value><![CDATA[Geben Sie (Name, Modell, SKU usw.) ein, um ein Ergebnis zu suchen und auszuwählen.]]></value>
 	</definition>
 	<definition>
 		<key>text_continue_typing</key>
-		<value><![CDATA[Weiter Tipp ...]]></value>
+		<value><![CDATA[Weiter tippen ...]]></value>
 	</definition>
 	<definition>
 		<key>text_looking_for</key>
-		<value><![CDATA[Auf der Suche nach]]></value>
+		<value><![CDATA[Suchen nach]]></value>
 	</definition>
 	<definition>
 		<key>button_manage_extensions</key>
@@ -666,95 +675,91 @@
 	</definition>
 	<definition>
 		<key>text_abc_notification</key>
-		<value><![CDATA[Software-Updates und Benachrichtigungen]]></value>
+		<value><![CDATA[Software-Aktualisierungen & Benachrichtigungen]]></value>
 	</definition>
 	<definition>
 		<key>text_not_applicable</key>
-		<value><![CDATA[N / A]]></value>
+		<value><![CDATA[NA]]></value>
 	</definition>
 	<definition>
 		<key>text_share_embed_code</key>
-		<value><![CDATA[Einbettungscode]]></value>
+		<value><![CDATA[Einbettungscode abrufen]]></value>
 	</definition>
 	<definition>
 		<key>text_copy_embed_code</key>
-		<value><![CDATA[Kopie an und fügen Sie diese in Ihren HTML-Code, wo Sie verkaufen möchten]]></value>
+		<value><![CDATA[Sopy und fügen Sie dies in Ihren HTML-Code ein, wo Sie verkaufen möchten.]]></value>
+	</definition>
+	<definition>
+		<key>text_copy_embed_url</key>
+		<value><![CDATA[Kopieren Sie diese URL und fügen Sie sie in eine andere Website ein, auf der Sie verkaufen möchten.]]></value>
 	</definition>
 	<definition>
 		<key>button_retry</key>
-		<value><![CDATA[Wiederholen]]></value>
+		<value><![CDATA[Erneut versuchen]]></value>
 	</definition>
 	<definition>
 		<key>text_system_error</key>
-		<value><![CDATA[Systemfehler ist aufgetreten. Überprüfen Sie die <a target="_blank" href="%s">Systemmeldungen</a> oder <a target="_blank" href="%s">Fehlerprotokoll</a>]]></value>
+		<value><![CDATA[Systemfehler ist aufgetreten. Prüfen Sie System <a target="_blank" href="%s">Meldungen</a> oder <a target="_blank" href="%s">Fehlerprotokoll</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_system_warning</key>
-		<value><![CDATA[System Warnung wurde berichtet. Überprüfen Sie die <a target="_blank" href="%s">Systemmeldungen</a>]]></value>
+		<value><![CDATA[Systemwarnung wurde gemeldet. Prüfen Sie System <a target="_blank" href="%s">Nachrichten</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_system_notice</key>
-		<value><![CDATA[System-Mitteilung wurde berichtet. Überprüfen Sie die <a target="_blank" href="%s">Systemmeldungen</a>]]></value>
+		<value><![CDATA[Systembenachrichtigung wurde gemeldet. Überprüfen Sie System <a target="_blank" href="%s">Nachrichten</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_set_related</key>
-		<value><![CDATA[Set Ähnliche]]></value>
+		<value><![CDATA[Verwandte festlegen]]></value>
 	</definition>
 	<definition>
 		<key>tab_text</key>
-		<value><![CDATA[HTML / Text]]></value>
+		<value><![CDATA[HTML/Text]]></value>
 	</definition>
 	<definition>
 		<key>tab_visual</key>
-		<value><![CDATA[visuell]]></value>
+		<value><![CDATA[Visuell]]></value>
 	</definition>
 	<definition>
 		<key>button_add_media</key>
 		<value><![CDATA[Medien hinzufügen]]></value>
 	</definition>
 	<definition>
+		<key>button_field_history</key>
+		<value><![CDATA[Feldverlauf anzeigen]]></value>
+	</definition>
+	<definition>
 		<key>text_view_more</key>
-		<value><![CDATA[Mehr sehen]]></value>
+		<value><![CDATA[Mehr anzeigen]]></value>
 	</definition>
 	<definition>
 		<key>text_admin</key>
-		<value><![CDATA[Schalttafel]]></value>
+		<value><![CDATA[Systemsteuerung]]></value>
 	</definition>
 	<definition>
 		<key>text_storefront</key>
-		<value><![CDATA[Schaufenster]]></value>
+		<value><![CDATA[Verkaufsfront]]></value>
 	</definition>
 	<definition>
 		<key>text_texteditor_extended_mode</key>
-		<value><![CDATA[<a class="texteditor_ext_mode" href="%s" ><i class="fa fa-external-link"></i> Bearbeiten im Extended</a> - <a class="texteditor_ext_mode" href="%s" >Modus</a>]]></value>
+		<value><![CDATA[<a class="texteditor_ext_mode" href="%s" ><i class="fa fa-external-link"></i> Im erweiterten Modus bearbeiten</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_view</key>
-		<value><![CDATA[Schnellansicht:]]></value>
+		<value><![CDATA[Schnellansicht]]></value>
 	</definition>
 	<definition>
 		<key>text_more_current</key>
-		<value><![CDATA[Vollständige Seite bearbeiten]]></value>
+		<value><![CDATA[Vollseitenbearbeitung]]></value>
 	</definition>
 	<definition>
 		<key>text_more_new</key>
-		<value><![CDATA[Neue Registerkarte bearbeiten]]></value>
+		<value><![CDATA[Neuen Tab bearbeiten]]></value>
 	</definition>
 	<definition>
 		<key>text_back_to_list</key>
-		<value><![CDATA[Zurück zur Übersicht]]></value>
-	</definition>
-	<definition>
-		<key>text_all_stores</key>
-		<value><![CDATA[Alle Geschäfte]]></value>
-	</definition>
-	<definition>
-		<key>text_copy_embed_url</key>
-		<value><![CDATA[Kopieren Sie diese URL und fügen Sie sie in Ihre andere Website ein, auf der Sie verkaufen möchten]]></value>
-	</definition>
-	<definition>
-		<key>button_field_history</key>
-		<value><![CDATA[Feldverlauf anzeigen]]></value>
+		<value><![CDATA[Zurück zur Auflistung]]></value>
 	</definition>
 	<definition>
 		<key>text_help_link</key>
@@ -762,7 +767,7 @@
 	</definition>
 	<definition>
 		<key>text_subtract_order</key>
-		<value><![CDATA[Subtraktionsreihenfolge]]></value>
+		<value><![CDATA[Bestellung abziehen]]></value>
 	</definition>
 	<definition>
 		<key>button_preview</key>
@@ -770,7 +775,7 @@
 	</definition>
 	<definition>
 		<key>warning_extensions_with_layouts</key>
-		<value><![CDATA[ <br/> folgenden Erweiterungen <br/> enthalten Seiten oder Layouts, die in der ausgewählten Vorlage nicht vorhanden sind. Um Funktionen dieser Erweiterungen zu integrieren, müssen Sie die Erweiterungen nach der Aktivierung der neuen Vorlage neu installieren. Sollte die Neuinstallation nicht helfen, wenden Sie sich bitte an die ursprünglichen Entwickler der oben genannten Erweiterungen.	]]></value>
+		<value><![CDATA[Die folgenden Erweiterungen <br> %s <br> enthalten Seiten oder Layouts, die in der ausgewählten Vorlage nicht vorhanden sind. Um Funktionen aus diesen Erweiterungen einzubinden, müssen Sie die Erweiterungen neu installieren, nachdem Sie die neue Vorlage aktiviert haben. Wenn die Neuinstallation nicht hilft, wenden Sie sich für Hilfe an die ursprünglichen Entwickler der oben genannten Erweiterungen.]]></value>
 	</definition>
 	<definition>
 		<key>column_sku</key>
@@ -782,11 +787,11 @@
 	</definition>
 	<definition>
 		<key>text_data_history</key>
-		<value><![CDATA[Datenänderungsverlauf]]></value>
+		<value><![CDATA[Datenänderungshistorie]]></value>
 	</definition>
 	<definition>
 		<key>text_design</key>
-		<value><![CDATA[Design]]></value>
+		<value><![CDATA[Gestaltung]]></value>
 	</definition>
 	<definition>
 		<key>text_select_brand</key>
@@ -794,6 +799,6 @@
 	</definition>
 	<definition>
 		<key>text_advanced_settings</key>
-		<value><![CDATA[Fortschrittlich]]></value>
+		<value><![CDATA[Erweitert]]></value>
 	</definition>
 </definitions>

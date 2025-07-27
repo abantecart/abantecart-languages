@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>ups_name</key>
+		<value><![CDATA[Объединенная служба доставки посылок]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[UPS]]></value>
+	</definition>
+	<definition>
+		<key>ups_account_number</key>
+		<value><![CDATA[Номер счета (грузоотправителя)]]></value>
+	</definition>
+	<definition>
+		<key>ups_client_id</key>
+		<value><![CDATA[ID клиента API<br/><span class="help">Вы можете найти его в разделе «Приложения» на https://developer.ups.com/apps</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_password</key>
+		<value><![CDATA[Пароль API<br/><span class="help">Вы можете найти его в разделе приложений на https://developer.ups.com/apps </span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_validate_address</key>
+		<value><![CDATA[Проверка адреса]]></value>
+	</definition>
+	<definition>
+		<key>ups_country</key>
+		<value><![CDATA[Страна и зона отправителя]]></value>
+	</definition>
+	<definition>
+		<key>ups_telephone</key>
+		<value><![CDATA[Номер телефона отправителя (10 цифр или более)]]></value>
+	</definition>
+	<definition>
+		<key>ups_address</key>
+		<value><![CDATA[Адрес отправителя]]></value>
+	</definition>
+	<definition>
+		<key>ups_city</key>
+		<value><![CDATA[Город отправителя]]></value>
+	</definition>
+	<definition>
+		<key>ups_postcode</key>
+		<value><![CDATA[Почтовый индекс отправителя]]></value>
+	</definition>
+	<definition>
+		<key>ups_weight_code</key>
+		<value><![CDATA[Код веса:<br /><span class="help">Допустимые кг, фунты.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_test_connection</key>
+		<value><![CDATA[Проверить соединение]]></value>
+	</definition>
+	<definition>
+		<key>ups_length_code</key>
+		<value><![CDATA[Код длины:<br /><span class="help">Допускаются дюймы или сантиметры.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id</key>
+		<value><![CDATA[Налоговый класс:]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id_0</key>
+		<value><![CDATA[-- Нет --]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id</key>
+		<value><![CDATA[Местоположение:]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id_0</key>
+		<value><![CDATA[Все местоположения]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_weight</key>
+		<value><![CDATA[Вес товара по умолчанию:<br /><span class="help">Вес товаров, если не указан</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_length</key>
+		<value><![CDATA[Длина товара по умолчанию:<br /><span class="help">Длина товара, если не указана</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_width</key>
+		<value><![CDATA[Ширина товара по умолчанию:<br /><span class="help">Ширина товара, если не задана</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_height</key>
+		<value><![CDATA[Высота товара по умолчанию:<br /><span class="help">Высота товара, если не задана</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging</key>
+		<value><![CDATA[Упаковка]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging_02</key>
+		<value><![CDATA[Коробка]]></value>
+	</definition>
+	<definition>
+		<key>ups_manifest_order_status_id</key>
+		<value><![CDATA[Создавать отгрузку при изменении статуса заказа на]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label</key>
+		<value><![CDATA[Распечатать этикетку UPS (оригинальный заказ)]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_title</key>
+		<value><![CDATA[Печатает этикетку UPS, используя исходный вес и размеры, указанные покупателем при оформлении заказа. Любые изменения заказа, внесённые администратором, не повлияют на этикетку.]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_suggestion</key>
+		<value><![CDATA[Измените статус заказа на "%s", чтобы создать отправление через UPS API и получить этикетки для посылок.]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_weight</key>
+		<value><![CDATA[Вес:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_height</key>
+		<value><![CDATA[Высота:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_width</key>
+		<value><![CDATA[Ширина:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_depth</key>
+		<value><![CDATA[Глубина:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_parcel_info</key>
+		<value><![CDATA[Информация о посылке:]]></value>
+	</definition>
+	<definition>
+		<key>ups_shipment_created_success_message</key>
+		<value><![CDATA[Отправка UPS успешно создана. Подробнее см. <a href="%s">здесь</a>.]]></value>
+	</definition>
+</definitions>

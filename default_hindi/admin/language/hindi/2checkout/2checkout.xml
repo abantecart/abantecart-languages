@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[भुगतान]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[सफलता: आपने 2Checkout खाता विवरण संशोधित किया!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[इस एक्सटेंशन के साथ आप अपने ग्राहकों से भुगतान स्वीकार करने के लिए 2Checkout पेमेंट सिस्टम का उपयोग कर सकते हैं।<br>
+<b>आज ही मुफ्त में साइन अप करें! अपने आवेदन सेवा शुल्क से छूट पाने के लिए प्रोमो कोड ABANTECART2CO का उपयोग करें (यह आपको $10.99 की बचत देगा) और आज ही ऑनलाइन बिक्री शुरू करें!</b> <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> पर जाएँ, आवेदन पूरा करें, और इस विशेष ऑफर का लाभ उठाने के लिए प्रोमो कोड फ़ील्ड में कोड दर्ज करें!<br>
+एक बार रजिस्टर हो कर लॉगिन करें और इस एक्सटेंशन को कॉन्फ़िगर करने के लिए अकाउंट क्रेडेंशियल प्राप्त करें<br>
+INS URL और Redirect URL यहाँ सेटअप करना न भूलें <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>।<br><br>
+आपका INS URL है <h4>#storefront#rt=extension/2checkout/callback</h4><br><br>
+Redirect URL भी सेटअप करें और रिटर्न मेथड के तौर पर "Header redirect" चुनें।<br><br>
+आपका Redirect URL है <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2चेकआउट व्यापारी कोड:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[गुप्त कुंजी:<br /><span class="help">लेनदेन की पुष्टि करने के लिए गुप्त शब्द (व्यापारी खाता विन्यास पृष्ठ पर परिभाषित वही होना चाहिए.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[परीक्षण मोड:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[हाँ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[नहीं]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[ऑर्डर की स्थिति:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[स्थान:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[सभी स्थान]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास 2Checkout भुगतान को संशोधित करने की अनुमति नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[व्यापारी कोड आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[गुप्त कुंजी आवश्यक है!]]></value>
+	</definition>
+</definitions>

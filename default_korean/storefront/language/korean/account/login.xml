@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -14,35 +14,35 @@
 	</definition>
 	<definition>
 		<key>text_i_am_new_customer</key>
-		<value><![CDATA[나는 새로운 고객입니다.]]></value>
+		<value><![CDATA[저는 신규 고객입니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_checkout</key>
-		<value><![CDATA[체크 아웃 옵션 :]]></value>
+		<value><![CDATA[결제 옵션:]]></value>
 	</definition>
 	<definition>
 		<key>text_guest</key>
-		<value><![CDATA[고객 체크 아웃]]></value>
+		<value><![CDATA[비회원 구매]]></value>
 	</definition>
 	<definition>
 		<key>text_create_account</key>
-		<value><![CDATA[계정을 만들면 당신은 빠른 쇼핑 주문의 상태에 대한 최신, 그리고 이전에 수행 한 주문을 추적 할 수있을 것입니다.]]></value>
+		<value><![CDATA[계정을 생성하면 더 빠르게 쇼핑할 수 있고, 주문 상태를 최신으로 확인할 수 있으며, 이전에 하신 주문을 추적할 수 있습니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_returning_customer</key>
-		<value><![CDATA[반환 고객]]></value>
+		<value><![CDATA[재방문 고객]]></value>
 	</definition>
 	<definition>
 		<key>text_i_am_returning_customer</key>
-		<value><![CDATA[나는 돌아 오는 고객입니다.]]></value>
+		<value><![CDATA[저는 재방문 고객입니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_forgotten_login</key>
-		<value><![CDATA[로그인 정보를 잊으 셨나요?]]></value>
+		<value><![CDATA[로그인을 잊으셨나요?]]></value>
 	</definition>
 	<definition>
 		<key>text_forgotten_password</key>
-		<value><![CDATA[비밀번호를 잊어 버렸습니까?]]></value>
+		<value><![CDATA[비밀번호를 잊으셨나요?]]></value>
 	</definition>
 	<definition>
 		<key>entry_loginname</key>
@@ -54,22 +54,26 @@
 	</definition>
 	<definition>
 		<key>entry_password</key>
-		<value><![CDATA[암호:]]></value>
+		<value><![CDATA[비밀번호:]]></value>
 	</definition>
 	<definition>
 		<key>error_login</key>
-		<value><![CDATA[오류 : 잘못된 로그인 또는 암호를 제공했다.]]></value>
+		<value><![CDATA[오류: 잘못된 로그인 또는 비밀번호가 제공되었습니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_success_activated</key>
-		<value><![CDATA[성공 : 계정이 성공적으로 활성화되었다. 자격 증명 로그인하십시오.]]></value>
+		<value><![CDATA[성공: 귀하의 계정이 성공적으로 활성화되었습니다. 자격 증명으로 로그인해 주세요.]]></value>
 	</definition>
 	<definition>
 		<key>text_already_activated</key>
-		<value><![CDATA[계정이 이미 활성화됩니다. 자격 증명 로그인하십시오.]]></value>
+		<value><![CDATA[귀하의 계정은 이미 활성화되었습니다. 자격 증명을 사용하여 로그인해 주십시오.]]></value>
 	</definition>
 	<definition>
 		<key>text_resend_activation_email</key>
-		<value><![CDATA[오류 : 귀하의 이메일 주소는 아직 확인되지 않았습니다. 새로운 확인 이메일을 다시 보내려면이 링크를 클릭하십시오 <a href=" %s ">링크를</a>]]></value>
+		<value><![CDATA[오류: 귀하의 이메일 주소가 아직 확인되지 않았습니다. 새 확인 이메일을 재전송하려면 이 <a href="%s">링크</a>를 클릭하세요.]]></value>
+	</definition>
+	<definition>
+		<key>welcome_unauth_customer</key>
+		<value><![CDATA[환영합니다 %s, 귀하의 계정에 로그인하거나 <a href="%s">비회원으로 계속 둘러보세요</a>]]></value>
 	</definition>
 </definitions>

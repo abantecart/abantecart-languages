@@ -6,15 +6,14 @@
 	</definition>
 	<definition>
 		<key>default_twilio_note</key>
-		<value><![CDATA[Um SMS-Nachrichten zu aktivieren, gehen Sie zu System -&gt; Einstellungen -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
- und wählen Sie Twilio als Standard-SMS-Treiber. Vergessen Sie nicht, den Bereich zu aktivieren, von dem Sie SMS empfangen möchten (Administrator oder Storefront). <br/> 
- Diese Erweiterung aktiviert das Feld „Mobiltelefon“ für Administratoren und Kunden. Beachten Sie, dass dieses Feld ausgeblendet wird, wenn Sie diese Erweiterung deaktivieren. 
- Beachten Sie, dass diese Information fehlt, wenn Sie die Erweiterung zu einem bestehenden Shop mit Kunden hinzufügen. 
-		]]></value>
+		<value><![CDATA[Um SMS-Nachrichten zu aktivieren, gehen Sie zu System -> Einstellungen -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/>
+und wählen Sie Twilio als Standard-SMS-Treiber. Vergessen Sie nicht, den Bereich zu aktivieren, in dem Sie SMS empfangen möchten (Admin-Bereich oder Storefront).<br/>
+Diese Erweiterung aktiviert das Feld „Mobiltelefon“ für Administratoren und Kunden zur Angabe. Denken Sie daran, dass das Deaktivieren dieser Erweiterung dieses Feld ausblendet.	
+Wenn sie in einen bestehenden Store mit Kunden hinzugefügt wird, bedenken Sie, dass diese Informationen fehlen werden.]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_username</key>
-		<value><![CDATA[API-Konto-SID]]></value>
+		<value><![CDATA[API AccountSID]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_token</key>
@@ -26,17 +25,15 @@
 	</definition>
 	<definition>
 		<key>default_twilio_sender_phone</key>
-		<value><![CDATA[
- Absender (Twilio) Telefon: <span class="help">Telefonnummer des Absenders im internationalen Format (z. B. +14158675309)</span>]]></value>
+		<value><![CDATA[Absender (Twilio) Telefonnummer: <span class="help">Telefonnummer des Absenders im internationalen Format (z. B. +14158675309)</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_send_to</key>
-		<value><![CDATA[
- Test-SMS senden an: ]]></value>
+		<value><![CDATA[Test-SMS senden an:]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_test_0</key>
-		<value><![CDATA[NEIN]]></value>
+		<value><![CDATA[Nein]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_test_1</key>
@@ -44,31 +41,30 @@
 	</definition>
 	<definition>
 		<key>default_twilio_test_connection</key>
-		<value><![CDATA[Testen Sie Ihre Verbindung: <span class="help">Sie können testen, ob die von Ihnen eingegebenen API-Anmeldeinformationen korrekt sind.</span>]]></value>
+		<value><![CDATA[Testen Sie Ihre Verbindung:<span class="help">Sie können prüfen, ob die von Ihnen eingegebenen API-Zugangsdaten korrekt sind.</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_logging</key>
-		<value><![CDATA[Status der Fehlerprotokollierung <span class="help">: Wenn Sie alle Fehler der Twilio-Erweiterung protokollieren möchten, aktivieren Sie diese Einstellung.</span>]]></value>
+		<value><![CDATA[Fehlerprotokollierungsstatus<span class="help">Wenn Sie alle Fehler der Twilio-Erweiterung protokollieren möchten, schalten Sie diese Einstellung EIN.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_sms</key>
-		<value><![CDATA[ Mobiltelefon ]]></value>
+		<value><![CDATA[Mobiltelefon]]></value>
 	</definition>
 	<definition>
 		<key>text_test</key>
-		<value><![CDATA[ Prüfen ]]></value>
+		<value><![CDATA[Test]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Fehler! Bitte überprüfen Sie, ob die Erweiterung aktiviert ist.]]></value>
+		<value><![CDATA[Fehler! Bitte prüfen Sie, ob die Erweiterung eingeschaltet ist.]]></value>
 	</definition>
 	<definition>
 		<key>text_connection_success</key>
-		<value><![CDATA[Die Verbindung ist erfolgreich und die API-Anmeldeinformationen sind korrekt konfiguriert.]]></value>
+		<value><![CDATA[Die Verbindung ist erfolgreich und die API-Zugangsdaten sind korrekt konfiguriert.]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_sender_phone</key>
-		<value><![CDATA[
- Absender (Twilio) Telefon: <span class="help">Telefonnummer des Absenders im internationalen Format (z. B. +14158675309)</span>]]></value>
+		<value><![CDATA[Absender (Twilio) Telefon: <span class="help">Telefonnummer des Absenders im internationalen Format (z.B. +14158675309)</span>]]></value>
 	</definition>
 </definitions>

@@ -6,19 +6,19 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_note</key>
-		<value><![CDATA[Si vous avez activé la taxe standard, elle fonctionnera avec Avatax et vous devrez peut-être désactiver les taxes standard. Vérifiez Système -&gt; Localisation -&gt; <a target="_new" href="#admin#rt=localisation/tax_class">Classe de taxe</a><br/> N&#39;oubliez pas non plus d&#39;activer l&#39;extension <a href="#admin#rt=total/avatax_integration_total">Intégration Avatax Total</a><br/> Important ! L&#39;ordre de calcul du total de l&#39;intégration Avatax dans les totaux des extensions doit être après le sous-total. Le calcul du sous-total doit précéder le calcul du total de cette extension. Vérifiez cela dans les paramètres du total des extensions.]]></value>
+		<value><![CDATA[Si vous avez activé la taxe standard, elle fonctionnera avec Avatax et vous devrez peut-être désactiver les taxes standard. Vérifiez Système -> Localisation -> <a target="_new" href="#admin#rt=localisation/tax_class">Classe de taxe</a><br>N'oubliez pas non plus d'activer l'extension <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br>Important ! L'ordre de calcul de l'extension Avatax Integration Total dans les totaux des extensions doit être positionné après le sous-total. Le calcul du sous-total doit précéder ce calcul de total d'extension. Vérifiez cela dans les paramètres des totaux des extensions.]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_account_number</key>
-		<value><![CDATA[Numéro de compte : <br/><span class="help">Numéro de compte fourni par Avalara</span>]]></value>
+		<value><![CDATA[Numéro de compte:<br /><span class="help">Numéro de compte fourni par Avalara</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_license_key</key>
-		<value><![CDATA[Clé de licence : <br/><span class="help">Clé de licence fournie par Avalara</span>]]></value>
+		<value><![CDATA[Clé de licence:<br /><span class="help">Clé de licence fournie par Avalara</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_service_url</key>
-		<value><![CDATA[URL du service : <br/><span class="help">URL du service Avalara (en direct ou en développement)</span>]]></value>
+		<value><![CDATA[URL du service:<br /><span class="help">URL du service Avalara (production ou développement)</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
@@ -30,67 +30,67 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
-		<value><![CDATA[Nom de la taxe : <br/><span class="help">Nom de la taxe à afficher au client dans la section des totaux</span>]]></value>
+		<value><![CDATA[Nom de la taxe :<br /><span class="help">Nom de la taxe à afficher au client dans la section des totaux</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
-		<value><![CDATA[Code de société : <br/><span class="help">Code de société à utiliser avec Avalara</span>]]></value>
+		<value><![CDATA[Code de l'entreprise :<br /><span class="help">Code de l'entreprise à utiliser avec Avalara</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Code postal du magasin :]]></value>
+		<value><![CDATA[Code ZIP/postal du magasin :]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Erreur ! Veuillez vérifier si l&#39;extension est activée.]]></value>
+		<value><![CDATA[Erreur ! Veuillez vérifier que l’extension est activée.]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_default_taxcode</key>
-		<value><![CDATA[Code fiscal par défaut du produit]]></value>
+		<value><![CDATA[Code de taxe par défaut du produit]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_shipping_taxcode</key>
-		<value><![CDATA[Codes fiscaux par défaut des méthodes d&#39;expédition]]></value>
+		<value><![CDATA[Codes fiscaux par défaut des méthodes d'expédition]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_text_shipping_method</key>
-		<value><![CDATA[Méthode d&#39;expédition]]></value>
+		<value><![CDATA[Méthode d’expédition]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_text_shipping_taxcode</key>
-		<value><![CDATA[Code des taxes sur le fret]]></value>
+		<value><![CDATA[Code de taxe sur le fret]]></value>
 	</definition>
 	<definition>
 		<key>text_test</key>
-		<value><![CDATA[Tester la connexion]]></value>
+		<value><![CDATA[Test de connexion]]></value>
 	</definition>
 	<definition>
 		<key>text_connection_success</key>
-		<value><![CDATA[La connexion est réussie et les informations d’identification de l’API sont correctement configurées.]]></value>
+		<value><![CDATA[La connexion est réussie et les identifiants API sont correctement configurés.]]></value>
 	</definition>
 	<definition>
 		<key>text_test_connection</key>
-		<value><![CDATA[Tester la connexion :]]></value>
+		<value><![CDATA[Test de connexion :]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
-		<value><![CDATA[Validation de l&#39;adresse : <br/><span class="help">La validation de l&#39;adresse sera effectuée à l&#39;étape de paiement du client</span>]]></value>
+		<value><![CDATA[Validation d’adresse :<br /><span class="help">La validation de l’adresse sera effectuée lors de l’étape de paiement du client</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validate_button_title</key>
-		<value><![CDATA[Titre du bouton de validation d&#39;adresse :]]></value>
+		<value><![CDATA[Titre du bouton de validation d’adresse :]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_commit_documents</key>
-		<value><![CDATA[Valider les documents sur le service Avatax : <br/><span class="help">Si cette option est activée, le document fiscal sera validé au statut de commande spécifié</span>]]></value>
+		<value><![CDATA[Soumettre les documents au service Avatax :<br /><span class="help">Si activé, le document fiscal sera soumis lorsque la commande atteint le statut spécifié</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_return_documents</key>
-		<value><![CDATA[Retour des documents sur le service Avatax : <br/><span class="help">Le retour sera enregistré au statut de commande spécifié</span>]]></value>
+		<value><![CDATA[Retour des documents sur le service Avatax :<br /><span class="help">Le retour sera enregistré au statut de commande spécifié</span>]]></value>
 	</definition>
 	<definition>
 		<key>button_add_tax_code</key>
-		<value><![CDATA[Sauvegarder]]></value>
+		<value><![CDATA[Enregistrer]]></value>
 	</definition>
 	<definition>
 		<key>button_delete_tax_code</key>
@@ -98,15 +98,15 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_taxcode_name</key>
-		<value><![CDATA[Code fiscal du produit :]]></value>
+		<value><![CDATA[Code fiscal du produit :]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_button_find_taxcode</key>
-		<value><![CDATA[Trouver le code fiscal]]></value>
+		<value><![CDATA[Rechercher le code de taxe]]></value>
 	</definition>
 	<definition>
 		<key>exemption_status</key>
-		<value><![CDATA[Statut d&#39;exemption :]]></value>
+		<value><![CDATA[Statut d’exonération :]]></value>
 	</definition>
 	<definition>
 		<key>exemption_status_pending</key>
@@ -122,35 +122,35 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_subject</key>
-		<value><![CDATA[Votre numéro d&#39;exonération fiscale a été refusé]]></value>
+		<value><![CDATA[Votre numéro d’exonération fiscale a été refusé.]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_mail_text</key>
-		<value><![CDATA[Votre numéro d&#39;exonération fiscale a été refusé. Pour vérifier sa validité, veuillez consulter la page de détails de votre compte. %s]]></value>
+		<value><![CDATA[Votre numéro d’exonération fiscale a été refusé. Pour vérifier sa validité, veuillez visiter la page des détails de votre compte %s]]></value>
 	</definition>
 	<definition>
 		<key>exemption_number_name</key>
-		<value><![CDATA[Numéro d&#39;exonération : <br/><span class="help">Numéro d&#39;exonération fiscale</span>]]></value>
+		<value><![CDATA[Numéro d'exonération :<br /><span class="help">numéro d'exonération fiscale</span>]]></value>
 	</definition>
 	<definition>
 		<key>entity_use_code_name</key>
-		<value><![CDATA[Code d&#39;entité/d&#39;utilisation : <br/><span class="help">AvaTax dispose d&#39;un groupe de codes indiquant le type d&#39;exonération. Consultez les codes standard ou créez des codes personnalisés sur le site d&#39;AvaTax.</span>]]></value>
+		<value><![CDATA[Entité\Code d'utilisation:<br /><span class="help">AvaTax dispose d’un groupe de codes qui indiquent le type d’exonération. Consultez les codes standard ou créez des codes personnalisés sur le site AvaTax</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_status_success_settled</key>
-		<value><![CDATA[Statut de l&#39;engagement sur la commande :]]></value>
+		<value><![CDATA[Valider sur le statut de la commande :]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_status_return_settled</key>
-		<value><![CDATA[Statut du retour sur commande :]]></value>
+		<value><![CDATA[Retour sur le statut de la commande :]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_status_cancel_settled</key>
-		<value><![CDATA[Annuler sur le statut de la commande :]]></value>
+		<value><![CDATA[Annuler sur le statut de la commande :]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_account_number_validation_error</key>
-		<value><![CDATA[Erreur de numéro de compte. Vérifiez !]]></value>
+		<value><![CDATA[Erreur de numéro de compte. Vérifiez-le !]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation_countries_Both</key>
@@ -158,7 +158,7 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation_countries_US</key>
-		<value><![CDATA[USA]]></value>
+		<value><![CDATA[États-Unis]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation_countries_CA</key>
@@ -166,11 +166,11 @@
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation_countries</key>
-		<value><![CDATA[Pays pour la validation d&#39;adresse]]></value>
+		<value><![CDATA[Pays pour la validation d’adresse]]></value>
 	</definition>
 	<definition>
 		<key>total_name</key>
-		<value><![CDATA[Intégration Avatax Total]]></value>
+		<value><![CDATA[Total de l’intégration Avatax]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_logging</key>

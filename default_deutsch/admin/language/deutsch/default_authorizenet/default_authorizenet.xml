@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>default_authorizenet_note</key>
-		<value><![CDATA[Für die Einrichtung der Authorize.Net-Zahlung sind zusätzliche Einstellungen erforderlich. Siehe Registerkarte „Zusätzliche Einstellungen“.]]></value>
+		<value><![CDATA[Zusätzliche Einstellungen sind erforderlich, um die Einrichtung der Authorize.Net-Zahlung abzuschließen. Siehe Registerkarte Zusätzliche Einstellungen.]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben die Zahlungseinstellungen von Authorize.Net geändert!]]></value>
+		<value><![CDATA[Erfolg: Sie haben die Authorize.Net-Zahlungseinstellungen geändert!]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_location_id</key>
-		<value><![CDATA[Standort:]]></value>
+		<value><![CDATA[Ort:]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_location_id_0</key>
@@ -42,17 +42,15 @@
 	</definition>
 	<definition>
 		<key>default_authorizenet_autoselect</key>
-		<value><![CDATA[
- Automatische Auswahl: <br/><span class="help">Sie können festlegen, dass die Zahlungsauswahlseite übersprungen wird, wenn nur eine Zahlungsoption verfügbar ist. Diese Zahlungsmethode wird automatisch ausgewählt</span>]]></value>
+		<value><![CDATA[Automatische Auswahl:<br /><span class="help">Sie können einstellen, dass die Seite zur Auswahl der Zahlungsmethode übersprungen wird, wenn nur eine Zahlungsoption vorhanden ist. Diese Zahlungsmethode wird automatisch ausgewählt.</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_save_cards_limit</key>
-		<value><![CDATA[
- Kreditkarten können gespeichert werden: <br/><span class="help">Legen Sie die maximale Anzahl der von Kunden zu speichernden Kreditkarten fest (bis zu 100). Bei 0 oder leer ist das Speichern von Karten nicht möglich. Sicherheitshinweis: Die Kreditkartendaten der Kunden werden auf sicheren Servern von Authorizenet gespeichert, um maximale Datensicherheit zu gewährleisten. Auf Ihrer Website werden keine Kreditkartendaten gespeichert.</span>]]></value>
+		<value><![CDATA[Kreditkarten speichern:<br /><span class="help">Legen Sie die maximale Anzahl von Kreditkarten fest, die von Kunden gespeichert werden kann (bis zu 100). Wenn auf 0 oder leer gesetzt, ist das Speichern von Karten nicht erlaubt. Sicherheitshinweis: Kreditkartendaten der Kunden werden auf sicheren Authorize.Net-Servern gespeichert, um höchste Datensicherheitsmaßnahmen zu gewährleisten. Es werden keine Kreditkartendaten auf Ihrer Website gespeichert.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_authorizenet_connect</key>
-		<value><![CDATA[Sie müssen sich mit Authorizenet verbinden, um Zahlungsdetails einzurichten]]></value>
+		<value><![CDATA[Sie müssen sich mit authorizenet verbinden, um Zahlungsdetails einzurichten.]]></value>
 	</definition>
 	<definition>
 		<key>text_authorizenet_settings</key>
@@ -60,7 +58,7 @@
 	</definition>
 	<definition>
 		<key>text_connect</key>
-		<value><![CDATA[Verbinden Sie sich mit Authorize.Net	]]></value>
+		<value><![CDATA[Mit Authorize.Net verbinden]]></value>
 	</definition>
 	<definition>
 		<key>text_disconnect</key>
@@ -68,7 +66,7 @@
 	</definition>
 	<definition>
 		<key>text_skip_connect</key>
-		<value><![CDATA[Verbindung kann nicht hergestellt werden?]]></value>
+		<value><![CDATA[Kann keine Verbindung herstellen?]]></value>
 	</definition>
 	<definition>
 		<key>text_connect_success</key>
@@ -76,7 +74,7 @@
 	</definition>
 	<definition>
 		<key>text_disconnect_success</key>
-		<value><![CDATA[Die Verbindung zu Authorize.Net wurde erfolgreich getrennt.]]></value>
+		<value><![CDATA[Erfolgreich von Authorize.Net getrennt]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_sort_order</key>
@@ -88,39 +86,39 @@
 	</definition>
 	<definition>
 		<key>default_authorizenet_sk_live</key>
-		<value><![CDATA[Live-Geheimschlüssel: <br/><span class="help">Suchen Sie diesen im Abschnitt „Authorize.Net-API-Schlüssel“. Der Schlüssel beginnt mit sk_live_...</span>]]></value>
+		<value><![CDATA[Live Secret Key:<br /><span class="help">Finden Sie ihn im Abschnitt „Authorize.Net API-Schlüssel“. Der Schlüssel beginnt mit sk_live_…</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_pk_live</key>
-		<value><![CDATA[Live-Publishable-Schlüssel: <br/><span class="help">Suchen Sie diesen im Abschnitt „Authorize.Net-API-Schlüssel“. Der Schlüssel beginnt mit pk_live_...</span>]]></value>
+		<value><![CDATA[Live veröffentlichbarer Schlüssel:<br /><span class="help">Diesen Schlüssel finden Sie im Abschnitt „API-Schlüssel“ von Authorize.Net. Der Schlüssel beginnt mit pk_live_… </span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_sk_test</key>
-		<value><![CDATA[Geheimer Testschlüssel: <br/><span class="help">Suchen Sie diesen im Abschnitt „Authorize.Net API-Schlüssel“. Der Schlüssel beginnt mit sk_test_...</span>]]></value>
+		<value><![CDATA[Test-Geheimschlüssel:<br /><span class="help">Suchen Sie dies im Abschnitt „API-Schlüssel“ der Authorize.Net-API. Der Schlüssel beginnt mit sk_test_…</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_pk_test</key>
-		<value><![CDATA[Test-Publishable-Schlüssel: <br/><span class="help">Suchen Sie diesen im Abschnitt „Authorize.Net-API-Schlüssel“. Der Schlüssel beginnt mit pk_test_...</span>]]></value>
+		<value><![CDATA[Test-veröffentlichbarer Schlüssel:<br /><span class="help">Finden Sie diesen im Authorize.Net-API-Schlüsselabschnitt. Der Schlüssel beginnt mit pk_test_...</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement</key>
-		<value><![CDATA[Abrechnungsart:]]></value>
+		<value><![CDATA[Abrechnungstyp:]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement_auth</key>
-		<value><![CDATA[Nur autorisieren]]></value>
+		<value><![CDATA[Nur Autorisierung]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement_authcapture</key>
-		<value><![CDATA[Autorisieren und erfassen ]]></value>
+		<value><![CDATA[Autorisieren & Einziehen]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_status_success_settled</key>
-		<value><![CDATA[Erfolgreich &amp; erledigt: <br/><span class="help">Wählen Sie den Hauptbestellstatus aus, den Sie als Reaktion auf den Status des Zahlungsprozessors festlegen möchten</span>]]></value>
+		<value><![CDATA[Erfolgreich & abgerechnet:<br /><span class="help">Wählen Sie den Hauptbestellstatus aus, den Sie als Reaktion auf den Status des Zahlungsabwicklers festlegen möchten</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_status_success_unsettled</key>
-		<value><![CDATA[Erfolgreich &amp; nicht abgewickelt: <br/><span class="help">Wählen Sie den Hauptbestellstatus aus, den Sie als Reaktion auf den Status des Zahlungsprozessors festlegen möchten</span>]]></value>
+		<value><![CDATA[Erfolg & nicht abgerechnet:<br /><span class="help">Wählen Sie den Hauptbestellstatus, den Sie als Reaktion auf den Status des Zahlungsdienstleisters festlegen möchten</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_column_date_added</key>
@@ -128,15 +126,15 @@
 	</definition>
 	<definition>
 		<key>text_column_amount</key>
-		<value><![CDATA[Menge]]></value>
+		<value><![CDATA[Betrag]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement_auto</key>
-		<value><![CDATA[Auto (Autorisieren und Erfassen)]]></value>
+		<value><![CDATA[Automatisch (autorisieren und erfassen)]]></value>
 	</definition>
 	<definition>
 		<key>default_authorizenet_settlement_delayed</key>
-		<value><![CDATA[Verzögert (nur autorisieren)]]></value>
+		<value><![CDATA[Verzögert (Nur Autorisierung)]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_info</key>
@@ -144,7 +142,7 @@
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[Authorize.Net-Transaktions-ID]]></value>
+		<value><![CDATA[Authorize.Net Transaktions-ID]]></value>
 	</definition>
 	<definition>
 		<key>text_transaction_status</key>
@@ -152,19 +150,19 @@
 	</definition>
 	<definition>
 		<key>text_order_total</key>
-		<value><![CDATA[Autorisierter Gesamtbetrag]]></value>
+		<value><![CDATA[Genehmigter Gesamtbetrag]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[Saldobetrag]]></value>
+		<value><![CDATA[Saldo-Betrag]]></value>
 	</definition>
 	<definition>
 		<key>error_system</key>
-		<value><![CDATA[Interner Fehler. Fehlerprotokoll oder Eingabeparameter prüfen!]]></value>
+		<value><![CDATA[Interner Fehler. Prüfen Sie das Fehlerprotokoll oder die Eingabeparameter!]]></value>
 	</definition>
 	<definition>
 		<key>error_missing_amount</key>
-		<value><![CDATA[Bitte geben Sie einen positiven Betrag ein]]></value>
+		<value><![CDATA[Bitte geben Sie einen positiven Betrag ein.]]></value>
 	</definition>
 	<definition>
 		<key>error_authorizenet_sk_test</key>
@@ -176,6 +174,6 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Warnung: Sie haben keine Berechtigung, Authorize.Net Payment zu ändern!]]></value>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, die Authorize.Net-Zahlung zu ändern!]]></value>
 	</definition>
 </definitions>

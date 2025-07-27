@@ -10,23 +10,23 @@
 	</definition>
 	<definition>
 		<key>forms_manager_note</key>
-		<value><![CDATA[Jos haluat hallita lomakkeita, ota laajennus käyttöön ja seuraa Suunnittelu-&gt; <a href="#admin#rt=tool/forms_manager">Lomakkeiden hallinta</a>]]></value>
+		<value><![CDATA[Jos haluat hallita lomakkeita, ota laajennus käyttöön ja siirry Suunnittelu-><a href="#admin#rt=tool/forms_manager">Lomakkeiden hallinta</a>]]></value>
 	</definition>
 	<definition>
 		<key>custom_forms_block</key>
-		<value><![CDATA[Mukautetut lomakkeet Block]]></value>
+		<value><![CDATA[Mukautettujen lomakkeiden lohko]]></value>
 	</definition>
 	<definition>
 		<key>entry_form_name</key>
-		<value><![CDATA[Lomakkeen nimi <br/><span class="help">latinalaista kirjainta, alaviiva, vain miinus</span>]]></value>
+		<value><![CDATA[Lomakkeen nimi<br/><span class="help">Vain latinalaiset kirjaimet, alaviiva ja miinusmerkki</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_controller_path</key>
-		<value><![CDATA[Käsittelyn ohjain]]></value>
+		<value><![CDATA[Käsittelyohjain]]></value>
 	</definition>
 	<definition>
 		<key>entry_success_page</key>
-		<value><![CDATA[Onnistumissivu <br/><span class="help">Jätä se tyhjäksi, jos haluat ohjata samalle sivulle kuin ohjain</span>]]></value>
+		<value><![CDATA[Onnistumissivu<br/><span class="help">Jätä se tyhjäksi, jos haluat ohjata uudelleen samaan sivuun kuin kontrolleri</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_form_description</key>
@@ -70,11 +70,11 @@
 	</definition>
 	<definition>
 		<key>text_clone</key>
-		<value><![CDATA[Klooni]]></value>
+		<value><![CDATA[Kopioi]]></value>
 	</definition>
 	<definition>
 		<key>filter_form</key>
-		<value><![CDATA[Etsi lomake]]></value>
+		<value><![CDATA[Etsi lomaketta]]></value>
 	</definition>
 	<definition>
 		<key>text_add_new_field</key>
@@ -90,7 +90,7 @@
 	</definition>
 	<definition>
 		<key>text_field_type</key>
-		<value><![CDATA[Kentän tyyppi:]]></value>
+		<value><![CDATA[Kenttätyyppi:]]></value>
 	</definition>
 	<definition>
 		<key>button_remove_field</key>
@@ -98,11 +98,11 @@
 	</definition>
 	<definition>
 		<key>entry_field</key>
-		<value><![CDATA[Ala]]></value>
+		<value><![CDATA[Kenttä]]></value>
 	</definition>
 	<definition>
 		<key>entry_field_name</key>
-		<value><![CDATA[Kentän nimi (latinalaiset kirjaimet, alaviiva, vain miinus)]]></value>
+		<value><![CDATA[Kentän nimi (vain latinalaiset kirjaimet, alaviiva ja miinusmerkki)]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -126,11 +126,11 @@
 	</definition>
 	<definition>
 		<key>error_duplicate_form_name</key>
-		<value><![CDATA[Tällä Name-attribuutilla on jo Form.]]></value>
+		<value><![CDATA[Tällaisella nimen attribuutilla varustettu lomake on jo olemassa.]]></value>
 	</definition>
 	<definition>
 		<key>error_duplicate_field_name</key>
-		<value><![CDATA[Nykyisessä lomakkeessa on jo tällä nimellä varustettu kenttä.]]></value>
+		<value><![CDATA[Nykyisessä lomakkeessa on jo kenttä samalla nimellä.]]></value>
 	</definition>
 	<definition>
 		<key>text_field_removed</key>
@@ -158,7 +158,7 @@
 	</definition>
 	<definition>
 		<key>entry_field_description</key>
-		<value><![CDATA[Näyttönimi]]></value>
+		<value><![CDATA[Näytettävä nimi]]></value>
 	</definition>
 	<definition>
 		<key>entry_add_new_form</key>
@@ -174,15 +174,15 @@
 	</definition>
 	<definition>
 		<key>text_field_values</key>
-		<value><![CDATA[Kentän arvot]]></value>
+		<value><![CDATA[Kenttäarvot]]></value>
 	</definition>
 	<definition>
 		<key>note_create_form_block</key>
-		<value><![CDATA[HUOMAA: Jos haluat nähdä tämän lomakkeen julkisivussa, luo lomakelohko kohdassa Suunnittelu-&gt; <a href="%s">Lohkot</a> ja lisää se sopivalle sivulle Suunnittelu-&gt; <a href="%s">Layouts</a> -sivulla.]]></value>
+		<value><![CDATA[HUOM: Jos haluat nähdä tämän lomakkeen myymälän puolella, luo lomakelohko kohdassa Design-><a href="%s">Blocks</a> ja lisää se sopivalle sivulle kohdassa Design-><a href="%s">Layouts</a>.]]></value>
 	</definition>
 	<definition>
 		<key>note_edit_layout</key>
-		<value><![CDATA[HUOMAA: Jos haluat nähdä tämän lohkon julkisivussa, lisää se sopivalle sivulle kohdassa Suunnittelu-&gt; <a href="%s">Layouts</a>. Luo uusi lomake siirtymällä Suunnittelu-&gt; <a href="%s">Lomakkeenhallinta</a> -sivulle.]]></value>
+		<value><![CDATA[HUOM: Jos haluat tämän lohkon näkyvän kauppapuolella, lisää se asianmukaiselle sivulle kohdassa Design-><a href="%s">Layouts</a>. Uuden lomakkeen luomiseksi siirry kohtaan Design-><a href="%s">Form Manager</a>.]]></value>
 	</definition>
 	<definition>
 		<key>text_select_field_type</key>
@@ -190,7 +190,7 @@
 	</definition>
 	<definition>
 		<key>entry_field_note</key>
-		<value><![CDATA[Kentän huomautus]]></value>
+		<value><![CDATA[Kenttämuistiinpano]]></value>
 	</definition>
 	<definition>
 		<key>forms_manager_default_sender_name</key>
@@ -206,7 +206,7 @@
 	</definition>
 	<definition>
 		<key>entry_regexp_pattern</key>
-		<value><![CDATA[Säännöllinen lausekemalli:]]></value>
+		<value><![CDATA[Säännöllisen lausekkeen malli:]]></value>
 	</definition>
 	<definition>
 		<key>entry_error_text</key>
@@ -218,7 +218,7 @@
 	</definition>
 	<definition>
 		<key>error_fill_required</key>
-		<value><![CDATA[Ole hyvä ja täytä lomakkeen kaikki vaaditut kentät!]]></value>
+		<value><![CDATA[Täytä kaikki lomakkeen pakolliset kentät!]]></value>
 	</definition>
 	<definition>
 		<key>error_form_name</key>
@@ -230,10 +230,10 @@
 	</definition>
 	<definition>
 		<key>error_field_name_exists</key>
-		<value><![CDATA[Kenttä Nimellä %s on jo lomakkeessa!]]></value>
+		<value><![CDATA[Kenttä nimeltä %s on jo olemassa lomakkeessa!]]></value>
 	</definition>
 	<definition>
 		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[Varoitus! Aseta oletuslähettäjänimi ja lähettäjän oletussähköpostiosoite <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">lomakkeiden hallinnan asetuksissa</a>]]></value>
+		<value><![CDATA[Varoitus! Aseta oletuslähettäjän nimi ja oletuslähettäjän sähköpostiosoite <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">lomakkeiden hallinnan asetuksiin</a>]]></value>
 	</definition>
 </definitions>

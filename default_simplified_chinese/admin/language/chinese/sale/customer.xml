@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[顾客]]></value>
+		<value><![CDATA[客户]]></value>
 	</definition>
 	<definition>
 		<key>text_customer</key>
-		<value><![CDATA[顾客]]></value>
+		<value><![CDATA[客户]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已修改的客户！]]></value>
+		<value><![CDATA[成功：您已修改了客户！]]></value>
 	</definition>
 	<definition>
 		<key>text_approved</key>
-		<value><![CDATA[您已批准〜帐户！]]></value>
+		<value><![CDATA[您已批准 %s 账户！]]></value>
 	</definition>
 	<definition>
 		<key>tab_customer_address</key>
@@ -26,15 +26,19 @@
 	</definition>
 	<definition>
 		<key>text_add_address</key>
-		<value><![CDATA[添加新地址]]></value>
+		<value><![CDATA[添加地址]]></value>
 	</definition>
 	<definition>
 		<key>button_add</key>
-		<value><![CDATA[加]]></value>
+		<value><![CDATA[添加]]></value>
+	</definition>
+	<definition>
+		<key>column_id</key>
+		<value><![CDATA[编号]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[顾客姓名]]></value>
+		<value><![CDATA[客户姓名]]></value>
 	</definition>
 	<definition>
 		<key>column_email</key>
@@ -42,11 +46,11 @@
 	</definition>
 	<definition>
 		<key>column_customer_group</key>
-		<value><![CDATA[客户群]]></value>
+		<value><![CDATA[客户组]]></value>
 	</definition>
 	<definition>
 		<key>column_group</key>
-		<value><![CDATA[组]]></value>
+		<value><![CDATA[群组]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -54,7 +58,7 @@
 	</definition>
 	<definition>
 		<key>column_approved</key>
-		<value><![CDATA[批准]]></value>
+		<value><![CDATA[已批准]]></value>
 	</definition>
 	<definition>
 		<key>column_date_added</key>
@@ -62,11 +66,11 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_loginname</key>
-		<value><![CDATA[登录名：]]></value>
+		<value><![CDATA[登录名:]]></value>
 	</definition>
 	<definition>
 		<key>entry_firstname</key>
@@ -74,7 +78,7 @@
 	</definition>
 	<definition>
 		<key>entry_lastname</key>
-		<value><![CDATA[姓：]]></value>
+		<value><![CDATA[姓氏:]]></value>
 	</definition>
 	<definition>
 		<key>entry_email</key>
@@ -86,11 +90,11 @@
 	</definition>
 	<definition>
 		<key>entry_fax</key>
-		<value><![CDATA[传真：]]></value>
+		<value><![CDATA[传真:]]></value>
 	</definition>
 	<definition>
 		<key>entry_newsletter</key>
-		<value><![CDATA[通讯：]]></value>
+		<value><![CDATA[电子简报：]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_group</key>
@@ -98,11 +102,11 @@
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[状态：]]></value>
+		<value><![CDATA[状态:]]></value>
 	</definition>
 	<definition>
 		<key>entry_approved</key>
-		<value><![CDATA[批准：]]></value>
+		<value><![CDATA[已批准：]]></value>
 	</definition>
 	<definition>
 		<key>entry_password</key>
@@ -122,15 +126,15 @@
 	</definition>
 	<definition>
 		<key>entry_address_2</key>
-		<value><![CDATA[地址2：]]></value>
+		<value><![CDATA[地址 2：]]></value>
 	</definition>
 	<definition>
 		<key>entry_city</key>
-		<value><![CDATA[市：]]></value>
+		<value><![CDATA[城市:]]></value>
 	</definition>
 	<definition>
 		<key>entry_postcode</key>
-		<value><![CDATA[邮编：]]></value>
+		<value><![CDATA[邮政编码：]]></value>
 	</definition>
 	<definition>
 		<key>entry_country</key>
@@ -138,63 +142,63 @@
 	</definition>
 	<definition>
 		<key>entry_country_id</key>
-		<value><![CDATA[国家：]]></value>
+		<value><![CDATA[国家:]]></value>
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[地区/国家：]]></value>
+		<value><![CDATA[地区 / 州:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改客户！]]></value>
+		<value><![CDATA[警告：您无权修改客户！]]></value>
 	</definition>
 	<definition>
 		<key>error_loginname</key>
-		<value><![CDATA[登录名称必须是唯一的5到64个字符的字母数字！]]></value>
+		<value><![CDATA[登录名必须仅由字母和数字组成，且长度在5到64个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_loginname_notunique</key>
-		<value><![CDATA[此登录名不可用。尝试不同的登录名！]]></value>
+		<value><![CDATA[此登录名不可用。请尝试其他登录名！]]></value>
 	</definition>
 	<definition>
 		<key>error_firstname</key>
-		<value><![CDATA[一是名称必须在1到32个字符之间！]]></value>
+		<value><![CDATA[名字长度必须在1到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_lastname</key>
-		<value><![CDATA[姓氏必须在1到32个字符之间！]]></value>
+		<value><![CDATA[姓氏长度必须在1到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[电子邮件地址不会出现有效！]]></value>
+		<value><![CDATA[电子邮件地址似乎无效！]]></value>
 	</definition>
 	<definition>
 		<key>error_telephone</key>
-		<value><![CDATA[电话必须是3到32个字符之间！]]></value>
+		<value><![CDATA[電話號碼必須介於3到32個僅數字字符之間！]]></value>
 	</definition>
 	<definition>
 		<key>error_password</key>
-		<value><![CDATA[密码必须在3到20个字符之间！]]></value>
+		<value><![CDATA[密码长度必须在3到20个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_confirm</key>
-		<value><![CDATA[密码和确认密码不匹配！]]></value>
+		<value><![CDATA[密码和密码确认不匹配！]]></value>
 	</definition>
 	<definition>
 		<key>error_address_firstname</key>
-		<value><![CDATA[一是名称必须在1到32个字符之间！]]></value>
+		<value><![CDATA[名字长度必须在1到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_address_lastname</key>
-		<value><![CDATA[姓氏必须在1到32个字符之间！]]></value>
+		<value><![CDATA[姓氏长度必须在1到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_address_1</key>
-		<value><![CDATA[地址必须是3和128字符之间！]]></value>
+		<value><![CDATA[地址长度必须在3到128个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_city</key>
-		<value><![CDATA[城市必须是3和128字符之间！]]></value>
+		<value><![CDATA[城市长度必须介于3至128个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_country</key>
@@ -202,7 +206,7 @@
 	</definition>
 	<definition>
 		<key>error_zone</key>
-		<value><![CDATA[请选择一个地区/国家！]]></value>
+		<value><![CDATA[请选择区域 / 州！]]></value>
 	</definition>
 	<definition>
 		<key>text_select_approved</key>
@@ -214,7 +218,7 @@
 	</definition>
 	<definition>
 		<key>tab_customer_details</key>
-		<value><![CDATA[顾客信息]]></value>
+		<value><![CDATA[客户详情]]></value>
 	</definition>
 	<definition>
 		<key>tab_transactions</key>
@@ -230,11 +234,11 @@
 	</definition>
 	<definition>
 		<key>column_created_by</key>
-		<value><![CDATA[由...制作]]></value>
+		<value><![CDATA[创建者]]></value>
 	</definition>
 	<definition>
 		<key>column_debit</key>
-		<value><![CDATA[借方]]></value>
+		<value><![CDATA[借记]]></value>
 	</definition>
 	<definition>
 		<key>column_credit</key>
@@ -246,7 +250,7 @@
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[平衡：]]></value>
+		<value><![CDATA[余额:]]></value>
 	</definition>
 	<definition>
 		<key>text_last_login</key>
@@ -254,7 +258,7 @@
 	</definition>
 	<definition>
 		<key>text_never</key>
-		<value><![CDATA[决不]]></value>
+		<value><![CDATA[从不]]></value>
 	</definition>
 	<definition>
 		<key>popup_title_info</key>
@@ -266,11 +270,11 @@
 	</definition>
 	<definition>
 		<key>entry_credit</key>
-		<value><![CDATA[信贷（增加平衡）]]></value>
+		<value><![CDATA[充值（增加余额）]]></value>
 	</definition>
 	<definition>
 		<key>entry_debit</key>
-		<value><![CDATA[借记（减少余额）]]></value>
+		<value><![CDATA[借记 (减少余额)]]></value>
 	</definition>
 	<definition>
 		<key>entry_transaction_type</key>
@@ -278,7 +282,11 @@
 	</definition>
 	<definition>
 		<key>entry_other_type</key>
-		<value><![CDATA[其他自定义交易类型：]]></value>
+		<value><![CDATA[添加新的自定义交易类型：]]></value>
+	</definition>
+	<definition>
+		<key>text_other_type_placeholder</key>
+		<value><![CDATA[在此输入新名称]]></value>
 	</definition>
 	<definition>
 		<key>text_option_other_type</key>
@@ -286,15 +294,15 @@
 	</definition>
 	<definition>
 		<key>entry_transaction_description</key>
-		<value><![CDATA[描述（客户）：]]></value>
+		<value><![CDATA[描述（面向客户）：]]></value>
 	</definition>
 	<definition>
 		<key>entry_transaction_comment</key>
-		<value><![CDATA[评论（内部使用）：]]></value>
+		<value><![CDATA[备注 (for internal use):]]></value>
 	</definition>
 	<definition>
 		<key>entry_update_date</key>
-		<value><![CDATA[更新日期：]]></value>
+		<value><![CDATA[更新日期:]]></value>
 	</definition>
 	<definition>
 		<key>entry_create_date</key>
@@ -302,15 +310,23 @@
 	</definition>
 	<definition>
 		<key>error_transaction_type</key>
-		<value><![CDATA[错误：请填写交易类型的表单字段。]]></value>
+		<value><![CDATA[错误：请填写交易类型表单字段。]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_debit_credit</key>
-		<value><![CDATA[错误：请填写客户交易借记卡或信用卡的价值。]]></value>
+		<value><![CDATA[错误：请填写客户交易的借方或贷方金额。]]></value>
+	</definition>
+	<definition>
+		<key>error_incorrect_debit_credit</key>
+		<value><![CDATA[错误：借方或贷方金额不能大于 99999999999.9999。]]></value>
 	</definition>
 	<definition>
 		<key>text_transaction_success</key>
-		<value><![CDATA[成功：你已修改的交易！]]></value>
+		<value><![CDATA[成功：您已修改交易！]]></value>
+	</definition>
+	<definition>
+		<key>text_add_address</key>
+		<value><![CDATA[添加地址]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_address</key>
@@ -318,11 +334,11 @@
 	</definition>
 	<definition>
 		<key>entry_default</key>
-		<value><![CDATA[默认地址：]]></value>
+		<value><![CDATA[默认地址:]]></value>
 	</definition>
 	<definition>
 		<key>error_delete_default</key>
-		<value><![CDATA[错误：默认的地址无法删除！]]></value>
+		<value><![CDATA[错误：默认地址无法删除！]]></value>
 	</definition>
 	<definition>
 		<key>error_delete_last</key>
@@ -330,7 +346,7 @@
 	</definition>
 	<definition>
 		<key>entry_date_added</key>
-		<value><![CDATA[添加日期：]]></value>
+		<value><![CDATA[添加日期:]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_modified</key>
@@ -338,42 +354,30 @@
 	</definition>
 	<definition>
 		<key>warning_actonbehalf_additional_store</key>
-		<value><![CDATA[代表客户的额外存储行事，你应该登录到另一个商店的管理方。继续？]]></value>
+		<value><![CDATA[要代表客户在其他商店中操作，您需要登录到另一个商店的管理后台。是否继续？]]></value>
 	</definition>
 	<definition>
 		<key>entry_notify</key>
-		<value><![CDATA[通知客户：]]></value>
+		<value><![CDATA[通知客户:]]></value>
 	</definition>
 	<definition>
 		<key>text_transaction_notification_subject</key>
-		<value><![CDATA[新的交易已经发布到您的帐户〜]]></value>
+		<value><![CDATA[一笔新的交易已记入您的%s账户。]]></value>
 	</definition>
 	<definition>
 		<key>text_transaction_notification_message</key>
-		<value><![CDATA[新的交易已经发布到你的〜帐户〜量。有关详细信息，请登录到帐户〜]]></value>
+		<value><![CDATA[一笔新交易已记入您的%s账户，金额为%s。如需更多详细信息，请登录%s账户。]]></value>
 	</definition>
 	<definition>
 		<key>text_total_order</key>
-		<value><![CDATA[总订单：]]></value>
-	</definition>
-	<definition>
-		<key>column_id</key>
-		<value><![CDATA[ID]]></value>
-	</definition>
-	<definition>
-		<key>text_other_type_placeholder</key>
-		<value><![CDATA[在此处输入新名称 ]]></value>
-	</definition>
-	<definition>
-		<key>error_incorrect_debit_credit</key>
-		<value><![CDATA[错误：借方或贷方金额不能大于 99999999999.9999]]></value>
+		<value><![CDATA[订单总数：]]></value>
 	</definition>
 	<definition>
 		<key>text_register_date</key>
-		<value><![CDATA[註冊日期:]]></value>
+		<value><![CDATA[注册日期：]]></value>
 	</definition>
 	<definition>
 		<key>error_email_exists</key>
-		<value><![CDATA[具有该电子邮件地址的客户已存在！]]></value>
+		<value><![CDATA[该电子邮件地址的客户已存在！]]></value>
 	</definition>
 </definitions>

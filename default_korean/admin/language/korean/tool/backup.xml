@@ -1,40 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[백업 / 복원 /로드]]></value>
+		<value><![CDATA[백업 / 복원 / 불러오기]]></value>
 	</definition>
 	<definition>
 		<key>text_backup</key>
-		<value><![CDATA[다운로드 백업]]></value>
+		<value><![CDATA[백업 다운로드]]></value>
 	</definition>
 	<definition>
 		<key>text_success_backup</key>
-		<value><![CDATA[성공 : 당신은 성공적으로 백업 파일을 만들었습니다!]]></value>
+		<value><![CDATA[성공: 백업 파일이 성공적으로 생성되었습니다!]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[성공 : 당신은 성공적으로 데이터베이스를 가져 왔습니다!]]></value>
+		<value><![CDATA[성공: 데이터베이스를 성공적으로 가져왔습니다!]]></value>
 	</definition>
 	<definition>
 		<key>text_success_xml</key>
-		<value><![CDATA[성공 : 당신은 성공적으로 XML을 가져 왔습니다!]]></value>
+		<value><![CDATA[성공: 당신의 xml을 성공적으로 가져왔습니다!]]></value>
 	</definition>
 	<definition>
 		<key>entry_restore</key>
-		<value><![CDATA[SQL 또는 XML 파일에서 복원]]></value>
+		<value><![CDATA[백업 복원:]]></value>
 	</definition>
 	<definition>
 		<key>entry_tables</key>
-		<value><![CDATA[백업 테이블 :]]></value>
+		<value><![CDATA[백업 테이블:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[백업 복원:]]></value>
 	</definition>
 	<definition>
 		<key>entry_loadxml</key>
-		<value><![CDATA[로드 XML 파일 :]]></value>
+		<value><![CDATA[XML 파일 로드:]]></value>
 	</definition>
 	<definition>
 		<key>tab_backup</key>
-		<value><![CDATA[지원]]></value>
+		<value><![CDATA[백업]]></value>
 	</definition>
 	<definition>
 		<key>tab_restore</key>
@@ -42,66 +46,66 @@
 	</definition>
 	<definition>
 		<key>tab_loadxml</key>
-		<value><![CDATA[레이아웃 및 데이터 집합 부하 XML]]></value>
+		<value><![CDATA[레이아웃 및 데이터셋 로드 XML]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[경고 : 백업을 수정할 수있는 권한이 없습니다!]]></value>
+		<value><![CDATA[경고: 귀하에게는 백업을 수정할 권한이 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_nothing_to_do</key>
-		<value><![CDATA[경고 : 백업 또는 수입에 원하는 설정하세요!]]></value>
+		<value><![CDATA[경고: 당신이 백업하거나 가져오고자 하는 항목을 설정하십시오!]]></value>
 	</definition>
 	<definition>
 		<key>error_empty</key>
-		<value><![CDATA[경고 : 파일 업로드가 비어 또는 잘못된 파일 형식을했다!]]></value>
+		<value><![CDATA[경고: 업로드하신 파일이 비어 있거나 잘못된 파일 형식입니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_upload</key>
-		<value><![CDATA[경고 : 파일이 업로드되지 않았습니다. php.ini 파일의 post_max_size을 또는 file_upload 지침을 확인합니다.]]></value>
+		<value><![CDATA[경고: 파일이 업로드되지 않았습니다. php.ini 파일의 post_max_size 또는 file_upload 지시문을 확인하십시오.]]></value>
 	</definition>
 	<definition>
 		<key>error_xml</key>
-		<value><![CDATA[경고 : 업로드 한 파일을 XML로로드하지 않습니다! 세부 사항은 로그 파일을 참조하시기 바랍니다]]></value>
+		<value><![CDATA[경고: 업로드하신 파일이 XML로 로드되지 않았습니다! 자세한 내용은 로그-파일을 참조하십시오.]]></value>
 	</definition>
 	<definition>
 		<key>entry_backup_code</key>
-		<value><![CDATA[백업 코드 (%s) <br/><span class="help">등 캐시로, 로그 파일, 이미지, 자원 등 동적 파일을 제외 코드 파일과 하위 디렉토리</span>]]></value>
+		<value><![CDATA[백업 코드 (%s)<br/><span class="help">캐시, 로그 파일, 이미지, 리소스 등과 같은 동적 파일을 제외한 코드 파일이 있는 하위 디렉토리</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_backup_content</key>
-		<value><![CDATA[백업 콘텐츠 (%s) <br/><span class="help">이미지, 다운로드, 자원 등 동적 파일과 하위 디렉토리</span>]]></value>
+		<value><![CDATA[백업 콘텐츠 (%s)<br/><span class="help">이미지, 다운로드, 리소스 등과 같은 동적 파일을 포함하는 하위 디렉터리</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_compress_backup</key>
-		<value><![CDATA[%s 백업 디렉토리를 압축? <br/><span class="help">보관 *의 .tar.gz를가 생성됩니다. <br/> 참고 : 오랜 시간이 걸릴 수 있습니다. 그렇지 않으면 %s 압축을 해제하고 폴더에 백업을 찾을 수 있습니다</span>]]></value>
+		<value><![CDATA[백업 디렉토리 %s 압축하시겠습니까?<br/><span class="help">아카이브 파일 (*.tar.gz)이 생성됩니다.<br/>참고: 이 작업은 오래 걸릴 수 있습니다. 그렇지 않으면 압축을 비활성화하고 폴더 %s에서 백업을 찾을 수 있습니다.</span>]]></value>
 	</definition>
 	<definition>
 		<key>button_backup_now</key>
-		<value><![CDATA[백업 지금]]></value>
+		<value><![CDATA[지금 백업]]></value>
 	</definition>
 	<definition>
 		<key>button_load</key>
-		<value><![CDATA[하중]]></value>
+		<value><![CDATA[불러오기]]></value>
 	</definition>
 	<definition>
 		<key>button_backup_schedule</key>
-		<value><![CDATA[스케줄 백업]]></value>
+		<value><![CDATA[백업 예약]]></value>
 	</definition>
 	<definition>
 		<key>text_success_scheduled</key>
-		<value><![CDATA[성공 : 당신이 성공적으로 백업 작업을 예약 만들었습니다! <a href="%s">자세히보다</a>]]></value>
+		<value><![CDATA[성공: 예약된 백업 작업을 성공적으로 생성했습니다! <a href="%s">자세히 보기</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_fail_note</key>
-		<value><![CDATA[참고 :이 프로세스 실행이 AbanteCart 데이터 크기뿐만 아니라 서버의 가상 메모리 크기에 따라 달라집니다. 프로세스가 오류로 종료되면, 디렉토리 %s 권한이 -rw--RW RW하고 설정 확인 <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP 메모리 설정]</a>. 프로세스가 실패 할 경우 수동으로 메모리 설정 또는 실행 백업을 높입니다.]]></value>
+		<value><![CDATA[참고: 이 프로세스 실행은 귀하의 AbanteCart 데이터 크기와 서버 가상 메모리 크기에 따라 달라집니다. 프로세스가 오류로 종료되면 디렉토리 %s 권한이 -rw-rw-rw로 설정되었는지 확인하고 <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP 메모리 설정]</a>을 확인하세요. 메모리 설정을 늘리거나 여전히 실패하면 수동으로 백업을 실행하세요.]]></value>
 	</definition>
 	<definition>
 		<key>backup_complete_text_file</key>
-		<value><![CDATA[백업 파일을 다운로드하시기 바랍니다 <a href="#admin#rt=tool/install_upgrade_history">역사를 업그레이드 / 설치</a>]]></value>
+		<value><![CDATA[백업 파일을 다운로드하려면 <a href="#admin#rt=tool/install_upgrade_history">설치/업그레이드 기록</a>을 방문하세요.]]></value>
 	</definition>
 	<definition>
 		<key>backup_complete_text_dir</key>
-		<value><![CDATA[백업 파일과 디렉토리는 %s이다]]></value>
+		<value><![CDATA[백업 파일이 있는 디렉토리는 %s입니다</a>]]></value>
 	</definition>
 </definitions>

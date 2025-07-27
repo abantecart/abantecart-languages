@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[制品]]></value>
+		<value><![CDATA[产品]]></value>
 	</definition>
 	<definition>
 		<key>text_product</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>tab_shipping</key>
-		<value><![CDATA[运输]]></value>
+		<value><![CDATA[配送]]></value>
 	</definition>
 	<definition>
 		<key>tab_files</key>
-		<value><![CDATA[档]]></value>
+		<value><![CDATA[文件]]></value>
 	</definition>
 	<definition>
 		<key>tab_relations</key>
@@ -34,15 +34,19 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已修改的产品！]]></value>
+		<value><![CDATA[成功：您已修改产品！]]></value>
 	</definition>
 	<definition>
 		<key>text_success_copy</key>
-		<value><![CDATA[成功：你已成功地克隆产品<b>〜！</b>]]></value>
+		<value><![CDATA[成功：您已成功克隆产品 <b>%s</b>！]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[注意：自定义产品布局也已被克隆。]]></value>
 	</definition>
 	<definition>
 		<key>text_error_copy</key>
-		<value><![CDATA[克隆失败！原装产品不可]]></value>
+		<value><![CDATA[克隆失败！原始产品不可用]]></value>
 	</definition>
 	<definition>
 		<key>text_plus</key>
@@ -70,7 +74,7 @@
 	</definition>
 	<definition>
 		<key>text_option_value</key>
-		<value><![CDATA[期权价值]]></value>
+		<value><![CDATA[选项值]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -78,7 +82,11 @@
 	</definition>
 	<definition>
 		<key>column_model</key>
-		<value><![CDATA[模型]]></value>
+		<value><![CDATA[型号]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[库存单位]]></value>
 	</definition>
 	<definition>
 		<key>column_image</key>
@@ -94,11 +102,11 @@
 	</definition>
 	<definition>
 		<key>column_price</key>
-		<value><![CDATA[价钱]]></value>
+		<value><![CDATA[价格]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_featured</key>
@@ -106,23 +114,23 @@
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[产品名称：]]></value>
+		<value><![CDATA[产品名称:]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_keywords</key>
-		<value><![CDATA[Meta标签关键词：]]></value>
+		<value><![CDATA[Meta 标签关键词：]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[Meta标签说明：]]></value>
+		<value><![CDATA[Meta 标签描述：]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[描述：]]></value>
+		<value><![CDATA[描述:]]></value>
 	</definition>
 	<definition>
 		<key>entry_blurb</key>
-		<value><![CDATA[导语：]]></value>
+		<value><![CDATA[简介:]]></value>
 	</definition>
 	<definition>
 		<key>entry_store</key>
@@ -130,39 +138,39 @@
 	</definition>
 	<definition>
 		<key>entry_keyword</key>
-		<value><![CDATA[SEO关键字： <br/><span class="help">SEO的关键，将在URL表示此产品。您可以生成从产品名称密钥</span>]]></value>
+		<value><![CDATA[SEO 关键字：<br/><span class="help">将在此产品的 URL 中显示的 SEO 关键字。您可以从产品名称生成此关键字</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_model</key>
-		<value><![CDATA[模型：]]></value>
+		<value><![CDATA[型号:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sku</key>
-		<value><![CDATA[SKU：]]></value>
+		<value><![CDATA[库存单位：]]></value>
 	</definition>
 	<definition>
 		<key>entry_location</key>
-		<value><![CDATA[其它地点：]]></value>
+		<value><![CDATA[杂项位置：]]></value>
 	</definition>
 	<definition>
 		<key>entry_manufacturer</key>
-		<value><![CDATA[制造商：]]></value>
+		<value><![CDATA[品牌:]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping</key>
-		<value><![CDATA[需要航运：]]></value>
+		<value><![CDATA[需要配送：]]></value>
 	</definition>
 	<definition>
 		<key>entry_ship_individually</key>
-		<value><![CDATA[船舶产品各异： <br/><span class="help">产品将在一个单独的包和额外的运费运将被添加到多个项目的顺序。如果启用，固定运费需要设置。</span>]]></value>
+		<value><![CDATA[单独发货:<br/><span class="help">产品将以单独的包裹发货，并且对于包含多个商品的订单，将收取额外的运费。如果启用，需要设置固定运费。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping_price</key>
-		<value><![CDATA[固定运费： <br/><span class="help">主设定固定运费的价格为这款产品。</span>]]></value>
+		<value><![CDATA[固定运费价格：<br/><span class="help">此产品的固定运费主设置。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_free_shipping</key>
-		<value><![CDATA[免费送货： <br/><span class="help">主设定，使免费送货此产品。</span>]]></value>
+		<value><![CDATA[免运费:<br/><span class="help">主设置，用于启用此产品的免运费。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_available</key>
@@ -174,19 +182,23 @@
 	</definition>
 	<definition>
 		<key>entry_quantity</key>
-		<value><![CDATA[数量： <br/><span class="help">连接到跟踪股票设置</span>]]></value>
+		<value><![CDATA[数量：<br/><span class="help">连接到“跟踪库存”设置</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_minimum</key>
-		<value><![CDATA[最小订货量： <br/><span class="help">力最小订购量</span>]]></value>
+		<value><![CDATA[最小数量：<br/><span class="help">强制最低订购数量</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_maximum</key>
-		<value><![CDATA[最大数量： <br/><span class="help">设定可以按每个顺序选择上quantaty的限制。 0 =无限制</span>]]></value>
+		<value><![CDATA[最大数量：<br/><span class="help">为每笔订单设置可选择的数量限制。0 = 不限</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_status</key>
-		<value><![CDATA[缺货状态中： <br/><span class="help">状态所示，当产品脱销</span>]]></value>
+		<value><![CDATA[预购库存状态：<br/><span class="help">当产品缺货但仍可购买时显示的文字</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[库存结账:<br /><span class="help">即使产品缺货，也允许客户结账。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -194,15 +206,19 @@
 	</definition>
 	<definition>
 		<key>entry_tax_class</key>
-		<value><![CDATA[税务类：]]></value>
+		<value><![CDATA[税类：]]></value>
 	</definition>
 	<definition>
 		<key>entry_cost</key>
-		<value><![CDATA[费用： <br/><span class="help">用于盈利报告的批发价格</span>]]></value>
+		<value><![CDATA[成本:<br/><span class="help">用于利润报告的批发成本</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_price</key>
-		<value><![CDATA[价钱：]]></value>
+		<value><![CDATA[价格:]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_option_cost</key>
+		<value><![CDATA[实际成本（总计）：<span class="help">请输入此产品选项的实际成本（总计）。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_track_option_stock</key>
@@ -210,39 +226,44 @@
 	</definition>
 	<definition>
 		<key>entry_subtract</key>
-		<value><![CDATA[跟踪库存： <br/><span class="help">设定是如果需要跟踪的股票数量为这款产品。如果选择使用支票减去设定每个选项值</span>]]></value>
+		<value><![CDATA[跟踪库存：
+如果您需要跟踪此产品的库存数量，请选择“是”。如果使用了选项，请检查每个选项值的减库存设置。]]></value>
 	</definition>
 	<definition>
 		<key>entry_weight_class</key>
-		<value><![CDATA[重量级别：]]></value>
+		<value><![CDATA[重量类别：]]></value>
 	</definition>
 	<definition>
 		<key>entry_weight</key>
 		<value><![CDATA[重量：]]></value>
 	</definition>
 	<definition>
+		<key>entry_weight_change</key>
+		<value><![CDATA[重量: <span class="help">重要！如果以 %(percent) 提供值，则选项重量将根据主产品重量按指定百分比更改。如果提供了重量值，则将其用作选项的绝对重量，主重量将被忽略。</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_length_class</key>
-		<value><![CDATA[长度类别：]]></value>
+		<value><![CDATA[长度类别:]]></value>
 	</definition>
 	<definition>
 		<key>entry_length</key>
-		<value><![CDATA[长度：]]></value>
+		<value><![CDATA[产品包装长度：<span class="help">包装尺寸是指用以装运您物品的盒子、袋子或包裹的大小</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_width</key>
-		<value><![CDATA[宽度：]]></value>
+		<value><![CDATA[产品包装宽度: <span class="help">包装尺寸是指您商品装运所使用的盒子、袋子或包裹的大小</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_height</key>
-		<value><![CDATA[高度：]]></value>
+		<value><![CDATA[产品包装高度：<span class="help">包装尺寸是指用于寄送您商品的盒子、袋子或包裹的大小</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_dimension</key>
-		<value><![CDATA[尺寸（长x宽x高）：]]></value>
+		<value><![CDATA[尺寸 (长 x 宽 x 高):]]></value>
 	</definition>
 	<definition>
 		<key>entry_image</key>
-		<value><![CDATA[图片： <br/><span class="help">点击图片去改变它。</span>]]></value>
+		<value><![CDATA[图片：<br /><span class="help">点击图片以更改它。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer_group</key>
@@ -250,19 +271,19 @@
 	</definition>
 	<definition>
 		<key>entry_date_start</key>
-		<value><![CDATA[起始日期：]]></value>
+		<value><![CDATA[开始日期：]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_end</key>
-		<value><![CDATA[终止日期：]]></value>
+		<value><![CDATA[结束日期:]]></value>
 	</definition>
 	<definition>
 		<key>entry_priority</key>
-		<value><![CDATA[优先：]]></value>
+		<value><![CDATA[优先级:]]></value>
 	</definition>
 	<definition>
 		<key>entry_option</key>
-		<value><![CDATA[选项：]]></value>
+		<value><![CDATA[选项:]]></value>
 	</definition>
 	<definition>
 		<key>entry_option_name</key>
@@ -270,23 +291,23 @@
 	</definition>
 	<definition>
 		<key>entry_option_value</key>
-		<value><![CDATA[选项值：]]></value>
+		<value><![CDATA[选项值:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
-		<value><![CDATA[排序：]]></value>
+		<value><![CDATA[排序顺序：]]></value>
 	</definition>
 	<definition>
 		<key>entry_prefix</key>
-		<value><![CDATA[字首：]]></value>
+		<value><![CDATA[前缀：]]></value>
 	</definition>
 	<definition>
 		<key>entry_option_prefix</key>
-		<value><![CDATA[修改价格到：]]></value>
+		<value><![CDATA[修改价格方式：]]></value>
 	</definition>
 	<definition>
 		<key>entry_option_price</key>
-		<value><![CDATA[价格修改：]]></value>
+		<value><![CDATA[价格修饰符:]]></value>
 	</definition>
 	<definition>
 		<key>entry_category</key>
@@ -302,27 +323,31 @@
 	</definition>
 	<definition>
 		<key>entry_tags</key>
-		<value><![CDATA[产品标签： <br/><span class="help">逗号分隔</span>]]></value>
+		<value><![CDATA[产品标签：<br /><span class="help">逗号分隔</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改的产品！]]></value>
+		<value><![CDATA[警告：您没有权限修改产品！]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[产品名称必须大于3小于255个字符！]]></value>
+		<value><![CDATA[产品名称必须大于3且小于255个字符！]]></value>
 	</definition>
 	<definition>
 		<key>error_model</key>
-		<value><![CDATA[产品型号必须少于64个字符！ Remomended 5-25个字符]]></value>
+		<value><![CDATA[产品型号必须少于64个字符！建议长度为5-25个字符]]></value>
 	</definition>
 	<definition>
 		<key>error_required_data</key>
-		<value><![CDATA[必需数据尚未输入。检查现场错误！]]></value>
+		<value><![CDATA[必填数据尚未输入。请检查字段错误！]]></value>
 	</definition>
 	<definition>
 		<key>error_product_not_found</key>
-		<value><![CDATA[错误：产品不存在！]]></value>
+		<value><![CDATA[错误：未找到产品！]]></value>
+	</definition>
+	<definition>
+		<key>error_sku</key>
+		<value><![CDATA[错误：找不到 SKU！]]></value>
 	</definition>
 	<definition>
 		<key>filter_product</key>
@@ -330,15 +355,15 @@
 	</definition>
 	<definition>
 		<key>filter_any_word</key>
-		<value><![CDATA[所有的这些话]]></value>
+		<value><![CDATA[这些词中的任何一个]]></value>
 	</definition>
 	<definition>
 		<key>filter_all_words</key>
-		<value><![CDATA[所有的这些话]]></value>
+		<value><![CDATA[所有这些单词]]></value>
 	</definition>
 	<definition>
 		<key>filter_exact_match</key>
-		<value><![CDATA[精确短语]]></value>
+		<value><![CDATA[确切短语]]></value>
 	</definition>
 	<definition>
 		<key>filter_all_categories</key>
@@ -362,7 +387,7 @@
 	</definition>
 	<definition>
 		<key>text_clone_selected</key>
-		<value><![CDATA[克隆选择]]></value>
+		<value><![CDATA[克隆所选]]></value>
 	</definition>
 	<definition>
 		<key>text_export_selected</key>
@@ -374,7 +399,7 @@
 	</definition>
 	<definition>
 		<key>text_edit_selected</key>
-		<value><![CDATA[编辑选择]]></value>
+		<value><![CDATA[编辑所选]]></value>
 	</definition>
 	<definition>
 		<key>text_clone</key>
@@ -382,7 +407,7 @@
 	</definition>
 	<definition>
 		<key>text_export</key>
-		<value><![CDATA[出口]]></value>
+		<value><![CDATA[导出]]></value>
 	</definition>
 	<definition>
 		<key>text_select_category</key>
@@ -398,7 +423,7 @@
 	</definition>
 	<definition>
 		<key>text_group_option</key>
-		<value><![CDATA[组选项]]></value>
+		<value><![CDATA[分组选项]]></value>
 	</definition>
 	<definition>
 		<key>text_option_type</key>
@@ -410,7 +435,7 @@
 	</definition>
 	<definition>
 		<key>text_no_option_values</key>
-		<value><![CDATA[任何选项值]]></value>
+		<value><![CDATA[没有选项值]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_option_values</key>
@@ -422,63 +447,63 @@
 	</definition>
 	<definition>
 		<key>button_remove_option</key>
-		<value><![CDATA[删除选项]]></value>
+		<value><![CDATA[移除选项]]></value>
 	</definition>
 	<definition>
 		<key>text_option_removed</key>
-		<value><![CDATA[选项去掉]]></value>
+		<value><![CDATA[选项已移除]]></value>
 	</definition>
 	<definition>
 		<key>entry_weight_type</key>
-		<value><![CDATA[重量型]]></value>
+		<value><![CDATA[重量类型]]></value>
 	</definition>
 	<definition>
 		<key>text_product_pagination</key>
-		<value><![CDATA[产品编号：{start} 至 {end}，共 {total} 个]]></value>
+		<value><![CDATA[产品 {start} to {end} of {total}]]></value>
 	</definition>
 	<definition>
 		<key>entry_product_id</key>
-		<value><![CDATA[产品编号]]></value>
+		<value><![CDATA[产品ID]]></value>
 	</definition>
 	<definition>
 		<key>error_product_load</key>
-		<value><![CDATA[警告：这样的ID没有产品！]]></value>
+		<value><![CDATA[警告：没有此 ID 的产品！]]></value>
 	</definition>
 	<definition>
 		<key>error_attribute_not_selected</key>
-		<value><![CDATA[请选择选项，添加！]]></value>
+		<value><![CDATA[请选择要添加的选项！]]></value>
 	</definition>
 	<definition>
 		<key>error_date</key>
-		<value><![CDATA[“终止日期”不能低于“日期开始”！]]></value>
+		<value><![CDATA[“结束日期”不能早于“开始日期”！]]></value>
 	</definition>
 	<definition>
 		<key>error_required</key>
-		<value><![CDATA[这是必填栏！]]></value>
+		<value><![CDATA[此字段为必填项！]]></value>
 	</definition>
 	<definition>
 		<key>error_option_in_group</key>
-		<value><![CDATA[选项不能被添加到产品，因为它已经是组选项中的一部分！]]></value>
+		<value><![CDATA[选项无法添加到产品，因为它已经是组选项的一部分！]]></value>
 	</definition>
 	<definition>
 		<key>text_success_layout</key>
-		<value><![CDATA[成功：你已修改的产品页面布局。]]></value>
+		<value><![CDATA[成功: 您已修改产品页面布局。]]></value>
 	</definition>
 	<definition>
 		<key>text_success_option</key>
-		<value><![CDATA[成功：你已修改的产品选择。]]></value>
+		<value><![CDATA[成功：您已修改产品选项。]]></value>
 	</definition>
 	<definition>
 		<key>text_add_new_option</key>
-		<value><![CDATA[- 添加新的选项 -]]></value>
+		<value><![CDATA[- 添加新选项 -]]></value>
 	</definition>
 	<definition>
 		<key>entry_required</key>
-		<value><![CDATA[需要：]]></value>
+		<value><![CDATA[必填：]]></value>
 	</definition>
 	<definition>
 		<key>entry_element_type</key>
-		<value><![CDATA[元素类型：]]></value>
+		<value><![CDATA[元素类型:]]></value>
 	</definition>
 	<definition>
 		<key>entry_element_values</key>
@@ -486,7 +511,7 @@
 	</definition>
 	<definition>
 		<key>text_expand</key>
-		<value><![CDATA[+展开]]></value>
+		<value><![CDATA[+ 展开]]></value>
 	</definition>
 	<definition>
 		<key>text_hide</key>
@@ -494,7 +519,7 @@
 	</definition>
 	<definition>
 		<key>entry_option_placeholder</key>
-		<value><![CDATA[占位符：]]></value>
+		<value><![CDATA[占位符:]]></value>
 	</definition>
 	<definition>
 		<key>entry_regexp_pattern</key>
@@ -502,19 +527,19 @@
 	</definition>
 	<definition>
 		<key>entry_error_text</key>
-		<value><![CDATA[关于无效值错误消息：]]></value>
+		<value><![CDATA[关于无效值的错误信息：]]></value>
 	</definition>
 	<definition>
 		<key>text_product_condition</key>
-		<value><![CDATA[产品成色：]]></value>
+		<value><![CDATA[商品状况：]]></value>
 	</definition>
 	<definition>
 		<key>text_product_available</key>
-		<value><![CDATA[可用的]]></value>
+		<value><![CDATA[可用]]></value>
 	</definition>
 	<definition>
 		<key>text_product_disabled</key>
-		<value><![CDATA[残]]></value>
+		<value><![CDATA[已禁用]]></value>
 	</definition>
 	<definition>
 		<key>text_product_unavailable</key>
@@ -526,19 +551,19 @@
 	</definition>
 	<definition>
 		<key>text_product_in_stock</key>
-		<value><![CDATA[有现货]]></value>
+		<value><![CDATA[有库存]]></value>
 	</definition>
 	<definition>
 		<key>text_product_option_out_of_stock</key>
-		<value><![CDATA[产品选件（S）缺货]]></value>
+		<value><![CDATA[产品选项缺货]]></value>
 	</definition>
 	<definition>
 		<key>text_call_to_order</key>
-		<value><![CDATA[来电订购]]></value>
+		<value><![CDATA[电话订购]]></value>
 	</definition>
 	<definition>
 		<key>entry_call_to_order</key>
-		<value><![CDATA[块产品从订货： <br/><span class="help">这将会把产品只能用于没有能力以显示模式。联系我们订单信息将被显示出来。</span>]]></value>
+		<value><![CDATA[禁止订购商品：<br /><span class="help">此操作仅将产品设置为展示模式，无法下单。将显示“联系我们下单”消息。</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_new_option</key>
@@ -546,71 +571,47 @@
 	</definition>
 	<definition>
 		<key>text_total_orders</key>
-		<value><![CDATA[总订单]]></value>
+		<value><![CDATA[订单总数]]></value>
 	</definition>
 	<definition>
 		<key>error_measure_value</key>
-		<value><![CDATA[999.99极限已经达到。提供较小的数字。]]></value>
-	</definition>
-	<definition>
-		<key>error_weight_value</key>
-		<value><![CDATA[此产品需要运输。请设置权重值。]]></value>
-	</definition>
-	<definition>
-		<key>error_weight_class</key>
-		<value><![CDATA[请设置重量级别。]]></value>
-	</definition>
-	<definition>
-		<key>entry_allowed_extensions</key>
-		<value><![CDATA[允许的文件扩展名（TXT，JPG ...）]]></value>
-	</definition>
-	<definition>
-		<key>entry_min_size</key>
-		<value><![CDATA[最小文件大小（KB）]]></value>
-	</definition>
-	<definition>
-		<key>entry_max_size</key>
-		<value><![CDATA[最大文件大小（KB）]]></value>
-	</definition>
-	<definition>
-		<key>entry_upload_dir</key>
-		<value><![CDATA[上传目录名<br/> 〜]]></value>
-	</definition>
-	<definition>
-		<key>text_success_relation_set</key>
-		<value><![CDATA[选定产品的关系设置成功！]]></value>
-	</definition>
-	<definition>
-		<key>text_success_copy_layout</key>
-		<value><![CDATA[ 注意：定制产品布局也已被克隆。]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[库存单位]]></value>
-	</definition>
-	<definition>
-		<key>entry_stock_checkout</key>
-		<value><![CDATA[库存结账： <br/><span class="help">即使产品缺货也允许客户结账。</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_product_option_cost</key>
-		<value><![CDATA[实际成本（总计）：<span class="help">输入此产品选项的实际成本（总计）。</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_weight_change</key>
-		<value><![CDATA[重量：<span class="help">重要！如果以 %（百分比）形式提供值，则选项重量将根据主要产品重量按指定百分比更改。如果提供的重量值将用作选项的绝对值，则主要重量将被忽略。</span>]]></value>
-	</definition>
-	<definition>
-		<key>error_sku</key>
-		<value><![CDATA[错误：未找到 SKU！]]></value>
+		<value><![CDATA[已达到 999.99 的限制，请提供更小的数字。]]></value>
 	</definition>
 	<definition>
 		<key>error_dimension_value</key>
-		<value><![CDATA[此产品需要运输。请填写所有尺寸值。]]></value>
+		<value><![CDATA[此产品需要配送。请填写所有尺寸值。]]></value>
+	</definition>
+	<definition>
+		<key>error_weight_value</key>
+		<value><![CDATA[此产品需要运送。请设置重量值。]]></value>
+	</definition>
+	<definition>
+		<key>error_weight_class</key>
+		<value><![CDATA[请设置重量类别。]]></value>
 	</definition>
 	<definition>
 		<key>error_length_class</key>
 		<value><![CDATA[请设置长度类别。]]></value>
+	</definition>
+	<definition>
+		<key>entry_allowed_extensions</key>
+		<value><![CDATA[允许的文件扩展名 (txt, jpg …)]]></value>
+	</definition>
+	<definition>
+		<key>entry_min_size</key>
+		<value><![CDATA[最小文件大小 (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_max_size</key>
+		<value><![CDATA[最大文件大小 (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_dir</key>
+		<value><![CDATA[上传目录名称<br>%s]]></value>
+	</definition>
+	<definition>
+		<key>text_success_relation_set</key>
+		<value><![CDATA[已成功设置所选产品的关联！]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_locations</key>
@@ -618,19 +619,23 @@
 	</definition>
 	<definition>
 		<key>entry_locations</key>
-		<value><![CDATA[位置：]]></value>
+		<value><![CDATA[位置:]]></value>
 	</definition>
 	<definition>
 		<key>text_create_collection</key>
-		<value><![CDATA[创建收藏夹]]></value>
+		<value><![CDATA[创建集合]]></value>
+	</definition>
+	<definition>
+		<key>text_warning_empty_set</key>
+		<value><![CDATA[请选择至少一个产品。]]></value>
 	</definition>
 	<definition>
 		<key>text_enable_selected</key>
-		<value><![CDATA[启用选定项]]></value>
+		<value><![CDATA[启用所选]]></value>
 	</definition>
 	<definition>
 		<key>text_disable_selected</key>
-		<value><![CDATA[禁用选定项]]></value>
+		<value><![CDATA[禁用所选]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_rule</key>
@@ -646,6 +651,6 @@
 	</definition>
 	<definition>
 		<key>entry_html_attributes</key>
-		<value><![CDATA[html-attributes： <br/><span class="help">您可以为 option 元素添加自定义 html 属性。示例：data-some-attribute=&quot;some value&quot;</span>]]></value>
+		<value><![CDATA[HTML属性：<br /><span class="help">您可以为选项元素添加自定义 HTML 属性。示例：data-some-attribute="some value"</span>]]></value>
 	</definition>
 </definitions>

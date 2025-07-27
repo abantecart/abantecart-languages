@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[kupongit]]></value>
+		<value><![CDATA[Kupongit]]></value>
 	</definition>
 	<definition>
 		<key>text_coupon</key>
@@ -10,19 +10,19 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Sinulla on muutettu kuponkeja!]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut kuponkeja!]]></value>
 	</definition>
 	<definition>
 		<key>text_percent</key>
-		<value><![CDATA[prosenttimäärä]]></value>
+		<value><![CDATA[Prosenttiosuus]]></value>
 	</definition>
 	<definition>
 		<key>text_amount</key>
-		<value><![CDATA[kiinteä määrä]]></value>
+		<value><![CDATA[Kiinteä summa]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[kuponki Name]]></value>
+		<value><![CDATA[Kuponkin nimi]]></value>
 	</definition>
 	<definition>
 		<key>column_code</key>
@@ -34,7 +34,7 @@
 	</definition>
 	<definition>
 		<key>column_date_start</key>
-		<value><![CDATA[date Start]]></value>
+		<value><![CDATA[Alkamispäivämäärä]]></value>
 	</definition>
 	<definition>
 		<key>column_date_end</key>
@@ -46,23 +46,23 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Toiminta]]></value>
+		<value><![CDATA[Toiminto]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Kuponki Nimi:]]></value>
+		<value><![CDATA[Kuponin nimi:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[Kuponki Kuvaus:]]></value>
+		<value><![CDATA[Kuponin kuvaus:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[Koodi: <br/><span class="help">Koodi asiakas syöttää saada alennusta</span>]]></value>
+		<value><![CDATA[Koodi:<br /><span class="help">Koodi, jonka asiakas syöttää saadakseen alennuksen</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_type</key>
-		<value><![CDATA[Tyyppi: <br/><span class="help">Prosentti tai kiinteä summa</span>]]></value>
+		<value><![CDATA[Tyyppi:<br /><span class="help">Prosenttiosuus tai kiinteä määrä</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_discount</key>
@@ -70,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>entry_logged</key>
-		<value><![CDATA[Asiakas Käyttäjätunnus: <br/><span class="help">Asiakkaan täytyy olla kirjautuneena käyttää kuponki.</span>]]></value>
+		<value><![CDATA[Asiakkaan kirjautuminen:<br /><span class="help">Asiakkaan on oltava kirjautuneena sisään käyttääkseen kuponkia.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping</key>
@@ -78,27 +78,31 @@
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[Kokonaismäärä: <br/><span class="help">sub-kokonaismäärä, joka on saavutettu ennen kuponki on voimassa.</span>]]></value>
+		<value><![CDATA[Kokonaissumma:<br/><span class="help">Välisumma, joka on saavutettava, ennen kuin kuponki on voimassa.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_category</key>
+		<value><![CDATA[Kategoriat:<br/><span class="help">Käytä kuponkia, kun tuotteet kuuluvat johonkin valituista kategorioista.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_product</key>
-		<value><![CDATA[Valitut tuotteet:]]></value>
+		<value><![CDATA[Tuotteet:<br/><span class="help">Käytä kuponkia, kun ostoskorissa on jokin valituista tuotteista.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_start</key>
-		<value><![CDATA[Aloituspäivämäärä:]]></value>
+		<value><![CDATA[Alkamispäivä:]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_end</key>
-		<value><![CDATA[Päättymispäivä:]]></value>
+		<value><![CDATA[Loppupäivämäärä:]]></value>
 	</definition>
 	<definition>
 		<key>entry_uses_total</key>
-		<value><![CDATA[Käyttää Per kuponki: <br/><span class="help">enimmäismäärä kertaa kuponki voidaan käyttää kuka tahansa asiakas. Jätä tyhjäksi rajoittamaton</span>]]></value>
+		<value><![CDATA[Kupongin enimmäiskäyttökerrat:<br /><span class="help">Kuinka monta kertaa kukin asiakas voi käyttää kuponkia. Jätä tyhjäksi rajoittamattomalle käytölle</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_uses_customer</key>
-		<value><![CDATA[Käyttää Per Asiakas: <br/><span class="help">enimmäismäärä kertaa kuponki voidaan käyttää yhden asiakkaan. Jätä tyhjäksi rajoittamaton</span>]]></value>
+		<value><![CDATA[Käyttökerrat asiakasta kohden:<br /><span class="help">Kuponkia voi käyttää yhtä asiakasta kohden enintään rajatun määrän kertoja. Jätä kenttä tyhjäksi rajoittamattomien käyttöjen sallimiseksi.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -106,7 +110,7 @@
 	</definition>
 	<definition>
 		<key>entry_total_coupon_usage</key>
-		<value><![CDATA[Yhteensä kuponki Käyttö: <br/><span class="help">Kreivi kaikkien tilauksia tällä kuponki</span>]]></value>
+		<value><![CDATA[Kuponin kokonaiskäyttö:<br /><span class="help">Kuponin avulla tehtyjen tilausten lukumäärä</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
@@ -114,27 +118,23 @@
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Kuponki Nimi tulee olla välillä 2 ja 64 merkkiä!]]></value>
+		<value><![CDATA[Kuponkin nimen pituuden on oltava 2–64 merkkiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_description</key>
-		<value><![CDATA[Kuponki Kuvaus tulee olla 2 merkkiä!]]></value>
+		<value><![CDATA[Kupongin kuvauksen on oltava 2 merkin pituinen!]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[Koodi on välillä 2 ja 10 merkkiä!]]></value>
+		<value><![CDATA[Koodin on oltava 2–10 merkin pituinen!]]></value>
 	</definition>
 	<definition>
 		<key>error_date</key>
-		<value><![CDATA[Aseta ajanjakso!]]></value>
-	</definition>
-	<definition>
-		<key>entry_category</key>
-		<value><![CDATA[Luokat: <br/><span class="help">Käytä kuponkia, kun tuotteita jostakin valituista luokista.</span>]]></value>
+		<value><![CDATA[Aseta päivämääräväli!]]></value>
 	</definition>
 	<definition>
 		<key>text_select_category</key>
-		<value><![CDATA[- Valitse luokka -]]></value>
+		<value><![CDATA[- Valitse kategoria -]]></value>
 	</definition>
 	<definition>
 		<key>text_or</key>

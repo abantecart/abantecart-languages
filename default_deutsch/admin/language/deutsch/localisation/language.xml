@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,11 +10,11 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben modifizierte Sprachen!]]></value>
+		<value><![CDATA[Erfolg: Sie haben die Sprachen geändert!]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[Sprache Name]]></value>
+		<value><![CDATA[Sprachname]]></value>
 	</definition>
 	<definition>
 		<key>column_code</key>
@@ -30,11 +30,11 @@
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Sprache Name:]]></value>
+		<value><![CDATA[Name der Sprache:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[Code: <br/><span class="help">Ändern Sie nicht, wenn dies Ihre Standardsprache ist.</span>]]></value>
+		<value><![CDATA[Code:<br /><span class="help">Ändern Sie dies nicht, wenn dies Ihre Standardsprache ist.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_locale</key>
@@ -66,15 +66,15 @@
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Sprache Name muss zwischen 2 und 32 Zeichen lang sein!]]></value>
+		<value><![CDATA[Der Sprachname muss zwischen 2 und 32 Zeichen lang sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[Sprachcode muss mindestens 2 Zeichen!]]></value>
+		<value><![CDATA[Der Sprachcode muss mindestens 2 Zeichen lang sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_locale</key>
-		<value><![CDATA[Locale erforderlich!]]></value>
+		<value><![CDATA[Gebietsschema erforderlich!]]></value>
 	</definition>
 	<definition>
 		<key>error_image</key>
@@ -90,48 +90,49 @@
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[Achtung: Diese Sprache kann nicht gelöscht werden, wie sie derzeit als Standardspeicher Sprache zugeordnet ist!]]></value>
+		<value><![CDATA[Warnung: Diese Sprache kann nicht gelöscht werden, da sie derzeit als Standardsprache des Shops zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_admin</key>
-		<value><![CDATA[Warnung: Diese Sprache kann nicht gelöscht werden, da sie derzeit als die Verwaltung Sprache zugeordnet ist!]]></value>
+		<value><![CDATA[Warnung: Diese Sprache kann nicht gelöscht werden, da sie derzeit als Verwaltungssprache zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[Achtung: Diese Sprache kann nicht gelöscht werden, da es derzeit %s speichert zugeordnet!]]></value>
+		<value><![CDATA[Warnung: Diese Sprache kann nicht gelöscht werden, da sie derzeit %s Shops zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[Achtung: Diese Sprache kann nicht gelöscht werden, da es zur Zeit auf %s Aufträge zugewiesen wird!]]></value>
+		<value><![CDATA[Warnung: Diese Sprache kann nicht gelöscht werden, da sie derzeit %s Bestellungen zugewiesen ist!]]></value>
 	</definition>
 	<definition>
 		<key>language_edit_title</key>
-		<value><![CDATA[Bearbeiten Sprache Details]]></value>
+		<value><![CDATA[Sprachdetails bearbeiten]]></value>
 	</definition>
 	<definition>
 		<key>load_language_title</key>
-		<value><![CDATA[Laden Sie fehlende Sprachdaten]]></value>
+		<value><![CDATA[Fehlende Sprachdaten laden]]></value>
 	</definition>
 	<definition>
 		<key>entry_language_selector</key>
-		<value><![CDATA[Ausgangssprache:]]></value>
+		<value><![CDATA[Quellsprache:]]></value>
 	</definition>
 	<definition>
 		<key>entry_translate_method_selector</key>
-		<value><![CDATA[Textübersetzung Methode:]]></value>
+		<value><![CDATA[Textübersetzungsmethode:]]></value>
 	</definition>
 	<definition>
 		<key>load_language_note</key>
-		<value><![CDATA[HINWEIS: Dieser Vorgang kann einige Minuten in Anspruch nehmen. Nicht in der Nähe Browser verlassen oder aktualisieren Sie die Seite!]]></value>
+		<value><![CDATA[HINWEIS: Dieser Vorgang kann einige Minuten dauern. Schließen Sie den Browser nicht, verlassen Sie die Seite nicht und laden Sie sie nicht neu!]]></value>
 	</definition>
 	<definition>
 		<key>create_language_note</key>
-		<value><![CDATA[HINWEIS: Wir empfehlen die Sprache als eine Erweiterung zu schaffen. Überprüfen vorhandener Spracherweiterungen. Wenn Sie immer noch neue Sprache manuell erstellen möchten, müssen Sie die Sprache Flagge zu admin/language/[Language Directory]/flag.png		storefront/language/[Language Directory]flag.png
- Nach Sprache Last erzeugt fehlt Sprachdaten zu übersetzen oder Textinhalt aus Quellsprache kopieren.]]></value>
+		<value><![CDATA[HINWEIS: Wir empfehlen, die Sprache als Erweiterung zu erstellen. Überprüfen Sie vorhandene Spracherweiterungen.	
+Wenn Sie dennoch eine neue Sprache manuell erstellen möchten, müssen Sie die Sprachflagge zu admin/language/[Language Directory]/flag.png und storefront/language/[Language Directory]flag.png hinzufügen.	
+Nachdem die Sprache erstellt wurde, laden Sie die fehlenden Sprachdaten, um sie zu übersetzen, oder kopieren Sie den Textinhalt aus der Quellsprache.]]></value>
 	</definition>
 	<definition>
 		<key>button_load_language</key>
-		<value><![CDATA[Belastung]]></value>
+		<value><![CDATA[Laden]]></value>
 	</definition>
 	<definition>
 		<key>text_incomplete_tasks</key>
@@ -139,7 +140,7 @@
 	</definition>
 	<definition>
 		<key>text_task_id</key>
-		<value><![CDATA[Task-ID:]]></value>
+		<value><![CDATA[Aufgaben-ID:]]></value>
 	</definition>
 	<definition>
 		<key>text_title</key>
@@ -147,7 +148,7 @@
 	</definition>
 	<definition>
 		<key>text_last_time_run</key>
-		<value><![CDATA[Letzter Lauf:]]></value>
+		<value><![CDATA[Zuletzt ausgeführt:]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
@@ -159,7 +160,7 @@
 	</definition>
 	<definition>
 		<key>text_restart</key>
-		<value><![CDATA[Neustart]]></value>
+		<value><![CDATA[Neu starten]]></value>
 	</definition>
 	<definition>
 		<key>text_remove</key>
@@ -167,18 +168,22 @@
 	</definition>
 	<definition>
 		<key>text_task_title</key>
-		<value><![CDATA[Die Übersetzung von Beschreibungen von %s bis %s]]></value>
+		<value><![CDATA[Übersetzung der Beschreibungen von %s nach %s]]></value>
 	</definition>
 	<definition>
 		<key>error_nothing_to_do</key>
-		<value><![CDATA[Fehler: Bitte stellen Sie Quellsprache und Übersetzung Methode!]]></value>
+		<value><![CDATA[Fehler: Bitte legen Sie die Quellsprache und die Übersetzungsmethode fest!]]></value>
 	</definition>
 	<definition>
 		<key>text_translate_override_existing</key>
-		<value><![CDATA[Hinweis: Alle vorhandenen Beschreibungen in der Zielsprache mit neuen Übersetzung ersetzt werden. Sie können übergeordnete in deaktivieren <a href="%s">System-&gt; Einstellungen-&gt; Store Details</a> .]]></value>
+		<value><![CDATA[Hinweis: Alle vorhandenen Beschreibungen in der Zielsprache werden durch die neue Übersetzung ersetzt. Sie können das Überschreiben unter <a href="%s">System->Einstellungen->Shop-Details</a> deaktivieren.]]></value>
 	</definition>
 	<definition>
 		<key>text_copy_source_text</key>
-		<value><![CDATA[Text in der Ausgangssprache kopieren]]></value>
+		<value><![CDATA[Text der Quellsprache kopieren]]></value>
+	</definition>
+	<definition>
+		<key>error_all_disabled</key>
+		<value><![CDATA[Mindestens eine Sprache muss aktiv sein!]]></value>
 	</definition>
 </definitions>

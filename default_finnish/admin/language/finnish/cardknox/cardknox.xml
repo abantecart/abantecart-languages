@@ -5,12 +5,8 @@
 		<value><![CDATA[CardKnox]]></value>
 	</definition>
 	<definition>
-		<key>cardknox_note</key>
-		<value><![CDATA[]]></value>
-	</definition>
-	<definition>
 		<key>cardknox_transaction_key</key>
-		<value><![CDATA[Tapahtumaavain (xKey)]]></value>
+		<value><![CDATA[Tapahtuma-avain (xKey)]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_token</key>
@@ -22,23 +18,23 @@
 	</definition>
 	<definition>
 		<key>cardknox_success_order_status</key>
-		<value><![CDATA[Tilauksen tila: <br/><span class="help">Tilauksen tila asetetaan sen jälkeen, kun asiakkaan tilaus on valmis asetetun tapahtumatavan perusteella</span>]]></value>
+		<value><![CDATA[Tilauksen tila:<br /><span class="help">Tilaustila, joka asetetaan asiakkaan tilauksen valmistuttua valitun maksutavan perusteella</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_location_id</key>
-		<value><![CDATA[Sijainti: <br/><span class="help">Rajoita sallimaan vain valitut sijainnit käyttää tätä maksutapaa.</span>]]></value>
+		<value><![CDATA[Sijainti:<br /><span class="help">Rajoita käyttö siten, että vain valitut sijainnit voivat käyttää tätä maksutapaa.</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_location_id_0</key>
-		<value><![CDATA[Kaikki paikat]]></value>
+		<value><![CDATA[Kaikki sijainnit]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method</key>
-		<value><![CDATA[Tapahtumatapa: <br/><span class="help">CardKnox-tapahtumaa suoritetaan asiakkaan kassalla ennen tilauksen tilan määrittämistä. Vain valtuutus tai sieppaus.</span>]]></value>
+		<value><![CDATA[Tapahtumamenetelmä:<br /><span class="help">CardKnox-tapahtuma suoritetaan asiakkaan kassalla ennen tilauksen tilan asettamista. Vain valtuutus tai veloitus.</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method_capture</key>
-		<value><![CDATA[Kaapata]]></value>
+		<value><![CDATA[Peri maksu]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method_authorization</key>
@@ -50,7 +46,7 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_pending_authorization</key>
-		<value><![CDATA[Odottaa valtuutusta]]></value>
+		<value><![CDATA[Odotetaan valtuutusta]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_capture_funds</key>
@@ -58,7 +54,7 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_capture</key>
-		<value><![CDATA[Kaapata]]></value>
+		<value><![CDATA[Veloita]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_payment_status</key>
@@ -66,15 +62,15 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_capture_success</key>
-		<value><![CDATA[Menestys! Varat on saatu onnistuneesti talteen.]]></value>
+		<value><![CDATA[Onnistui! Varat on veloitettu onnistuneesti.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_processing</key>
-		<value><![CDATA[Käsittely]]></value>
+		<value><![CDATA[Käsitellään]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_do_refund</key>
-		<value><![CDATA[Tee CardKnox-hyvitys: <span class="help">Voit syöttää summan, joka on palautettava.</span>]]></value>
+		<value><![CDATA[Tee CardKnoxin hyvitys:<span class="help">Voit syöttää hyvityksen summan.</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_refunded</key>
@@ -82,7 +78,7 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_refund</key>
-		<value><![CDATA[Palauttaa]]></value>
+		<value><![CDATA[Hyvitys]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_refund_title</key>
@@ -90,18 +86,18 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_refund_success</key>
-		<value><![CDATA[Menestys! Tilaus on palautettu onnistuneesti.]]></value>
+		<value><![CDATA[Onnistui! Tilaus on hyvitetty onnistuneesti.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_error_empty_amount</key>
-		<value><![CDATA[Virhe! Summa on väärä.]]></value>
+		<value><![CDATA[Virhe! Määrä on väärä.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_error_no_payment_method_data</key>
-		<value><![CDATA[Virhe! Tälle tilaukselle ei ole maksutapatietoja.]]></value>
+		<value><![CDATA[Virhe! Tälle tilaukselle ei ole maksutavan tietoja.]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_error_no_order_id</key>
-		<value><![CDATA[Virhe! Tilaustunnusta ei ole.]]></value>
+		<value><![CDATA[Virhe! Tilauksen tunnus puuttuu.]]></value>
 	</definition>
 </definitions>

@@ -1,44 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Détails du magasin]]></value>
+		<value><![CDATA[Détails de la boutique]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Succès: Vous avez des paramètres modifiés!]]></value>
+		<value><![CDATA[Succès : Vous avez modifié les paramètres !]]></value>
 	</definition>
 	<definition>
 		<key>text_image_manager</key>
-		<value><![CDATA[Gestionnaire d&#39;images]]></value>
+		<value><![CDATA[Gestionnaire d’images]]></value>
 	</definition>
 	<definition>
 		<key>text_default</key>
-		<value><![CDATA[Défaut]]></value>
+		<value><![CDATA[Par défaut]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_store</key>
-		<value><![CDATA[Modifier magasin:]]></value>
+		<value><![CDATA[Modifier la boutique :]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Nom du magasin: <br/><span class="help">Copié aux réglages et montré sur une section de vitrine.</span>]]></value>
+		<value><![CDATA[Nom de la boutique:<br /><span class="help">Copié dans les paramètres et affiché dans une section de la vitrine.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_url</key>
-		<value><![CDATA[Magasin URL: <br/><span class="help">Inclure l&#39;URL complète à votre magasin. Assurez vous d&#39;ajouter &#39;/&#39; à la fin. Exemple: http://www.yourdomain.com/path/ <br/><br/> Ne pas utiliser des répertoires pour créer un nouveau magasin. Vous devriez toujours pointer un autre domaine ou sous domaine pour votre hébergement.</span>]]></value>
+		<value><![CDATA[Store URL:<br /><span class="help">Incluez l'URL complète de votre boutique. Assurez-vous d'ajouter '/' à la fin. Exemple : http://www.votredomaine.com/path/<br /><br />N'utilisez pas de répertoires pour créer une nouvelle boutique. Vous devez toujours pointer un autre domaine ou sous-domaine vers votre hébergement.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_ssl</key>
-		<value><![CDATA[Utiliser SSL: <br/><span class="help">Pour utiliser l&#39; enregistrement SSL avec votre hôte si un certificat SSL est installé.</span>]]></value>
+		<value><![CDATA[Utiliser SSL :<br /><span class="help">Pour utiliser SSL, vérifiez auprès de votre hébergeur si un certificat SSL est installé.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Titre:]]></value>
+		<value><![CDATA[Titre :]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[Description de la balise méta :]]></value>
+		<value><![CDATA[Description de la méta-balise :]]></value>
 	</definition>
 	<definition>
 		<key>entry_template</key>
@@ -54,27 +54,31 @@
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[Région / État:]]></value>
+		<value><![CDATA[Région / État :]]></value>
 	</definition>
 	<definition>
 		<key>entry_language</key>
-		<value><![CDATA[La langue:]]></value>
+		<value><![CDATA[Langue:]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[Magasin Statut <br/><span class="help">statut de magasin dans une vitrine. Statut OFF dirigera par défaut magasin. Utilisez le paramètre</span> du <span class="help">mode de maintenance pour définir stockage temporaire message de maintenance</span>]]></value>
+		<value><![CDATA[Statut de la boutique<br /><span class="help">Statut de la boutique dans une vitrine. Statut OFF redirigera vers la boutique par défaut. Utilisez le paramètre Mode maintenance pour définir un message temporaire de maintenance de la boutique</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_alias</key>
-		<value><![CDATA[Nom Alias <br/><span class="help">Nom magasin Alias. Si laissé vide, sera basé sur le nom raccourci</span>]]></value>
+		<value><![CDATA[Alias du nom<br /><span class="help">Alias du nom de la boutique. S'il est laissé vide, il sera basé sur le nom abrégé</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Statut de la boutique<br /><span class="help">Statut de la boutique sur la vitrine. Le statut OFF redirigera vers la boutique par défaut. Utilisez le paramètre Mode de maintenance pour définir un message temporaire de maintenance de la boutique</span>]]></value>
 	</definition>
 	<definition>
 		<key>button_add_store</key>
-		<value><![CDATA[Nouveau magasin]]></value>
+		<value><![CDATA[Nouvelle boutique]]></value>
 	</definition>
 	<definition>
 		<key>button_delete_store</key>
-		<value><![CDATA[Supprimer magasin]]></value>
+		<value><![CDATA[Supprimer la boutique]]></value>
 	</definition>
 	<definition>
 		<key>button_edit_settings</key>
@@ -82,74 +86,74 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Attention: Vous n&#39;êtes pas autorisé à modifier les magasins!]]></value>
+		<value><![CDATA[Attention : vous n’avez pas l’autorisation de modifier les magasins !]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Nom du magasin doit être comprise entre 3 et 32 ​​caractères!]]></value>
+		<value><![CDATA[Le nom de la boutique doit comporter entre 3 et 32 caractères !]]></value>
 	</definition>
 	<definition>
 		<key>error_url</key>
-		<value><![CDATA[Magasin URL nécessaire!]]></value>
+		<value><![CDATA[URL de la boutique requise !]]></value>
 	</definition>
 	<definition>
 		<key>error_title</key>
-		<value><![CDATA[Titre doit être comprise entre 3 et 32 ​​caractères!]]></value>
+		<value><![CDATA[Le titre doit comporter entre 3 et 32 caractères !]]></value>
 	</definition>
 	<definition>
 		<key>error_image_thumb</key>
-		<value><![CDATA[Product Image Thumb Taille dimensions requises!]]></value>
+		<value><![CDATA[Dimensions de la miniature de l’image du produit requises !]]></value>
 	</definition>
 	<definition>
 		<key>error_image_popup</key>
-		<value><![CDATA[Product Image Popup Taille dimensions requises!]]></value>
+		<value><![CDATA[Dimensions du pop-up de l’image du produit requises !]]></value>
 	</definition>
 	<definition>
 		<key>error_image_category</key>
-		<value><![CDATA[dimensions Catégorie Liste de taille requise!]]></value>
+		<value><![CDATA[Dimensions de la taille de la liste de catégories requises !]]></value>
 	</definition>
 	<definition>
 		<key>error_image_product</key>
-		<value><![CDATA[dimensions liste des produits de taille requise!]]></value>
+		<value><![CDATA[Dimensions de la taille de la liste de produits requises !]]></value>
 	</definition>
 	<definition>
 		<key>error_image_additional</key>
-		<value><![CDATA[D&#39;autres produits dimensions de taille d&#39;image requise!]]></value>
+		<value><![CDATA[Dimensions supplémentaires des images produit requises !]]></value>
 	</definition>
 	<definition>
 		<key>error_image_related</key>
-		<value><![CDATA[Produit connexes dimensions de taille d&#39;image requise!]]></value>
+		<value><![CDATA[Dimensions de taille de l’image du produit associé requises !]]></value>
 	</definition>
 	<definition>
 		<key>error_image_cart</key>
-		<value><![CDATA[dimensions panier de taille d&#39;image requise!]]></value>
+		<value><![CDATA[Dimensions de l’image du panier requises !]]></value>
 	</definition>
 	<definition>
 		<key>error_image_grid</key>
-		<value><![CDATA[dimensions Grille de taille d&#39;image requise!]]></value>
+		<value><![CDATA[Dimensions de l’image de la grille requises !]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[Attention: Ce magasin ne peut pas être supprimé car il est actuellement assigné à %s commandes!]]></value>
+		<value><![CDATA[Attention : cette boutique ne peut pas être supprimée, car elle est actuellement affectée à %s commandes !]]></value>
 	</definition>
 	<definition>
 		<key>error_required_data</key>
-		<value><![CDATA[Données requises n&#39;a pas été saisi. Vérifiez les erreurs sur le terrain!]]></value>
+		<value><![CDATA[Les données requises n’ont pas été saisies. Vérifiez les erreurs dans les champs !]]></value>
 	</definition>
 	<definition>
 		<key>error_limit</key>
-		<value><![CDATA[Limite nécessaire!]]></value>
+		<value><![CDATA[Limite requise !]]></value>
 	</definition>
 	<definition>
 		<key>entry_clone_store</key>
-		<value><![CDATA[Paramètres de copie: <br/><span class="help">Vous pouvez sélectionner copie de tous les paramètres de certains magasins existants</span>]]></value>
+		<value><![CDATA[Copier les paramètres :<br/><span class="help">Vous pouvez sélectionner la copie de tous les paramètres d’une boutique existante</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_ssl_url</key>
-		<value><![CDATA[Sécurisé magasin URL: <br/><span class="help">Inclure l&#39;URL SSL complète (HTTPS) à votre magasin. Assurez vous d&#39;ajouter &#39;/&#39; à la fin. Exemple: https://www.yourdomain.com/path/</span>]]></value>
+		<value><![CDATA[URL de la boutique sécurisée :<br /><span class="help">Incluez l'URL SSL complète (HTTPS) de votre boutique. Veillez à ajouter '/' à la fin. Exemple : https://www.yourdomain.com/path/</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_ssl_url</key>
-		<value><![CDATA[Secure URL requise!]]></value>
+		<value><![CDATA[URL sécurisée requise !]]></value>
 	</definition>
 </definitions>

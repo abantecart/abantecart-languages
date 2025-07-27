@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Siker: Van módosított nyelven!]]></value>
+		<value><![CDATA[Siker: Ön módosította a nyelveket!]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -22,23 +22,23 @@
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
-		<value><![CDATA[Sorrend]]></value>
+		<value><![CDATA[Rendezési sorrend]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Akció]]></value>
+		<value><![CDATA[Művelet]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Nyelv Név:]]></value>
+		<value><![CDATA[Nyelv neve:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[Kód: <br/><span class="help">Ne módosítsa, ha ez az alapértelmezett nyelv.</span>]]></value>
+		<value><![CDATA[Kód:<br /><span class="help">Ne változtassa meg, ha ez az Ön alapértelmezett nyelve.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_locale</key>
-		<value><![CDATA[Nyelv:]]></value>
+		<value><![CDATA[Helyi beállítás:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image</key>
@@ -50,7 +50,7 @@
 	</definition>
 	<definition>
 		<key>entry_filename</key>
-		<value><![CDATA[Fájl név:]]></value>
+		<value><![CDATA[Fájlnév:]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -62,72 +62,72 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Figyelmeztetés: nincs engedélye módosítani nyelven!]]></value>
+		<value><![CDATA[Figyelmeztetés: Nincs engedélyed a nyelvek módosítására!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Nyelv Név között kell lennie a 2. és 32 karakter!]]></value>
+		<value><![CDATA[A nyelv nevének 2 és 32 karakter hosszúnak kell lennie!]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[Nyelvi kód kell legalább 2 karakter!]]></value>
+		<value><![CDATA[A nyelvkódnak legalább 2 karakterből kell állnia!]]></value>
 	</definition>
 	<definition>
 		<key>error_locale</key>
-		<value><![CDATA[Nyelv szükséges!]]></value>
+		<value><![CDATA[Helyi beállítás szükséges!]]></value>
 	</definition>
 	<definition>
 		<key>error_image</key>
-		<value><![CDATA[Kép nevét kell lennie a 2 és 64 karakter!]]></value>
+		<value><![CDATA[A képfájl nevének 2 és 64 karakter közötti hosszúságúnak kell lennie!]]></value>
 	</definition>
 	<definition>
 		<key>error_directory</key>
-		<value><![CDATA[Directory szükséges!]]></value>
+		<value><![CDATA[Könyvtár szükséges!]]></value>
 	</definition>
 	<definition>
 		<key>error_filename</key>
-		<value><![CDATA[Fájlnév között kell lennie a 2. és 64 karakter!]]></value>
+		<value><![CDATA[A fájlnévnek 2 és 64 karakter hosszúnak kell lennie!]]></value>
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[Figyelmeztetés: Ez a nyelv nem lehet hagyni, mivel jelenleg kijelölve alapértelmezett boltban nyelvet!]]></value>
+		<value><![CDATA[Figyelem: Ez a nyelv nem törölhető, mert jelenleg az áruház alapértelmezett nyelveként van beállítva!]]></value>
 	</definition>
 	<definition>
 		<key>error_admin</key>
-		<value><![CDATA[Figyelmeztetés: Ez a nyelv nem lehet törölni, mivel jelenleg hozzá, mint az adminisztráció nyelvet!]]></value>
+		<value><![CDATA[Figyelmeztetés: Ez a nyelv nem törölhető, mivel jelenleg adminisztrációs nyelvként van beállítva!]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[Figyelmeztetés: Ez a nyelv nem lehet hagyni, mivel jelenleg hozzárendelt %s boltokban!]]></value>
+		<value><![CDATA[Figyelmeztetés: Ez a nyelv nem törölhető, mivel jelenleg %s üzlethez van rendelve!]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[Figyelmeztetés: Ez a nyelv nem lehet hagyni, mivel jelenleg hozzárendelt %s megrendeléseket!]]></value>
+		<value><![CDATA[Figyelmeztetés: Ez a nyelv nem törölhető, mert jelenleg %s megrendeléshez van rendelve!]]></value>
 	</definition>
 	<definition>
 		<key>language_edit_title</key>
-		<value><![CDATA[Szerkesztése Nyelv Részletek]]></value>
+		<value><![CDATA[Nyelv részleteinek szerkesztése]]></value>
 	</definition>
 	<definition>
 		<key>load_language_title</key>
-		<value><![CDATA[Töltsön hiányzó nyelvi adatok]]></value>
+		<value><![CDATA[Hiányzó nyelvi adatok betöltése]]></value>
 	</definition>
 	<definition>
 		<key>entry_language_selector</key>
-		<value><![CDATA[Forrás nyelv:]]></value>
+		<value><![CDATA[Forrásnyelv:]]></value>
 	</definition>
 	<definition>
 		<key>entry_translate_method_selector</key>
-		<value><![CDATA[Szöveg fordítás módszer:]]></value>
+		<value><![CDATA[Szövegfordítási módszer:]]></value>
 	</definition>
 	<definition>
 		<key>load_language_note</key>
-		<value><![CDATA[Megjegyzés: Ez a művelet eltarthat néhány percig fut. Ne zárja be a böngésző, elhagyja, vagy frissítse az oldalt!]]></value>
+		<value><![CDATA[MEGJEGYZÉS: Ez a művelet néhány percet igénybe vehet. Ne zárja be a böngészőt, ne hagyja el és ne frissítse az oldalt!]]></value>
 	</definition>
 	<definition>
 		<key>create_language_note</key>
-		<value><![CDATA[Megjegyzés: Javasoljuk létre nyelv kiterjesztése. Ellenőrizze a meglévő nyelvi kiterjesztéseket. Ha továbbra is szeretné, hogy új nyelvet kézzel, meg kell adni a nyelven Flag admin/language/[Language Directory]/flag.png		storefront/language/[Language Directory]flag.png 
- Miután a nyelvet teremtett terhelés hiányzó nyelvi adatok lefordítani vagy másolni szöveges tartalom forrásból nyelvet.]]></value>
+		<value><![CDATA[MEGJEGYZÉS: Javasoljuk a nyelv kiterjesztésként történő létrehozását. Ellenőrizze a meglévő nyelvkiterjesztéseket. Ha mégis manuálisan szeretne új nyelvet létrehozni, hozzá kell adnia a nyelvi zászlót az admin/language/[Language Directory]/flag.png és a storefront/language/[Language Directory]flag.png helyre	
+Miután a nyelv létrehozása megtörtént, töltse be a hiányzó nyelvi adatokat a fordításhoz, vagy másolja a szöveges tartalmat a forrásnyelvből.]]></value>
 	</definition>
 	<definition>
 		<key>button_load_language</key>
@@ -135,11 +135,11 @@
 	</definition>
 	<definition>
 		<key>text_incomplete_tasks</key>
-		<value><![CDATA[Befejezetlen feladatok]]></value>
+		<value><![CDATA[Befejezetlen Feladatok]]></value>
 	</definition>
 	<definition>
 		<key>text_task_id</key>
-		<value><![CDATA[Feladat ID:]]></value>
+		<value><![CDATA[Feladat azonosító:]]></value>
 	</definition>
 	<definition>
 		<key>text_title</key>
@@ -147,11 +147,11 @@
 	</definition>
 	<definition>
 		<key>text_last_time_run</key>
-		<value><![CDATA[Utolsó futás:]]></value>
+		<value><![CDATA[Utoljára futtatva:]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
-		<value><![CDATA[Alkotó:]]></value>
+		<value><![CDATA[Létrehozva:]]></value>
 	</definition>
 	<definition>
 		<key>text_starter_name</key>
@@ -159,26 +159,30 @@
 	</definition>
 	<definition>
 		<key>text_restart</key>
-		<value><![CDATA[Újrakezd]]></value>
+		<value><![CDATA[Újraindítás]]></value>
 	</definition>
 	<definition>
 		<key>text_remove</key>
-		<value><![CDATA[eltávolít]]></value>
+		<value><![CDATA[Eltávolítás]]></value>
 	</definition>
 	<definition>
 		<key>text_task_title</key>
-		<value><![CDATA[Fordítása leírásokat %s a %s]]></value>
+		<value><![CDATA[Leírások fordítása %s-ről %s-re]]></value>
 	</definition>
 	<definition>
 		<key>error_nothing_to_do</key>
-		<value><![CDATA[Hiba: állítsd Forrás nyelvi és fordítási módszer!]]></value>
+		<value><![CDATA[Hiba: Kérjük, állítsa be a forrásnyelvet és a fordítási módszert!]]></value>
 	</definition>
 	<definition>
 		<key>text_translate_override_existing</key>
-		<value><![CDATA[Megjegyzés: Az összes létező leírások célnyelvi lesz cserélve új fordítást. Ön kikapcsolhatja nyomós a <a href="%s">Rendszer-&gt; Beállítások-&gt; Store Részletek</a> .]]></value>
+		<value><![CDATA[Megjegyzés: Az összes meglévő, célnyelvi leírás felülírásra kerül az új fordítással. A felülírást a <a href="%s">Rendszer->Beállítások->Bolt adatai</a> menüpontban kikapcsolhatja.]]></value>
 	</definition>
 	<definition>
 		<key>text_copy_source_text</key>
-		<value><![CDATA[Másolja a forrásnyelvi szöveget]]></value>
+		<value><![CDATA[Forrásnyelvű szöveg másolása]]></value>
+	</definition>
+	<definition>
+		<key>error_all_disabled</key>
+		<value><![CDATA[Legalább egy nyelvnek aktívnak kell lennie!]]></value>
 	</definition>
 </definitions>

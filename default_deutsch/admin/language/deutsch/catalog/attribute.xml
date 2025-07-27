@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[globale Attribute]]></value>
+		<value><![CDATA[Globale Attribute]]></value>
 	</definition>
 	<definition>
 		<key>text_attribute</key>
-		<value><![CDATA[globale Attribut]]></value>
+		<value><![CDATA[Globales Attribut]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben geänderten Attribute!]]></value>
+		<value><![CDATA[Erfolg: Sie haben Attribute geändert!]]></value>
 	</definition>
 	<definition>
 		<key>text_select_type</key>
-		<value><![CDATA[- Art auswählen -]]></value>
+		<value><![CDATA[- Typ auswählen -]]></value>
 	</definition>
 	<definition>
 		<key>text_select_parent</key>
-		<value><![CDATA[- Wählen Sie Elternteil -]]></value>
+		<value><![CDATA[- Übergeordneten auswählen -]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>column_type</key>
-		<value><![CDATA[Art]]></value>
+		<value><![CDATA[Typ]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
@@ -41,20 +41,24 @@
 		<value><![CDATA[Aktion]]></value>
 	</definition>
 	<definition>
+		<key>column_txt_id</key>
+		<value><![CDATA[Eindeutige Text-ID]]></value>
+	</definition>
+	<definition>
 		<key>entry_name</key>
 		<value><![CDATA[Name:]]></value>
 	</definition>
 	<definition>
 		<key>entry_attribute_parent</key>
-		<value><![CDATA[Attribut Parent:]]></value>
+		<value><![CDATA[Übergeordnetes Attribut:]]></value>
 	</definition>
 	<definition>
 		<key>entry_attribute_group</key>
-		<value><![CDATA[Attribut Gruppen:]]></value>
+		<value><![CDATA[Attributgruppe:]]></value>
 	</definition>
 	<definition>
 		<key>entry_attribute_type</key>
-		<value><![CDATA[Attribut Typ:]]></value>
+		<value><![CDATA[Attributtyp:]]></value>
 	</definition>
 	<definition>
 		<key>entry_element_type</key>
@@ -62,7 +66,7 @@
 	</definition>
 	<definition>
 		<key>entry_element_values</key>
-		<value><![CDATA[Element Werte:]]></value>
+		<value><![CDATA[Elementwerte:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -78,7 +82,7 @@
 	</definition>
 	<definition>
 		<key>entry_children_attributes</key>
-		<value><![CDATA[Kinder Attribute:]]></value>
+		<value><![CDATA[Kinderattribute:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
@@ -90,35 +94,35 @@
 	</definition>
 	<definition>
 		<key>error_required</key>
-		<value><![CDATA[Dieses Feld wird benötigt!]]></value>
+		<value><![CDATA[Dieses Feld ist erforderlich!]]></value>
 	</definition>
 	<definition>
 		<key>text_parent_note</key>
-		<value><![CDATA[Wenn dies ein übergeordnetes Attribut mit Kindern ist Attribute, kann es nur vom Typ SelectBox sein, Multiselect-Box, Kästchen zum Ankreuzen und Ankreuzfeldgruppe. <br/> Kinder Wertekombination als ein Satz angezeigt.]]></value>
+		<value><![CDATA[Wenn dies ein übergeordnetes Attribut mit untergeordneten Attributen ist, kann es nur vom Typ Auswahlfeld, Mehrfachauswahlfeld, Kontrollkästchen und Kontrollkästchengruppe sein.<br>Die Kombination der Werte der untergeordneten Attribute wird als eine Menge angezeigt.]]></value>
 	</definition>
 	<definition>
 		<key>entry_allowed_extensions</key>
-		<value><![CDATA[Erlaubte Dateierweiterungen (txt, jpg ...)]]></value>
+		<value><![CDATA[Erlaubte Dateiendungen (txt, jpg …)]]></value>
 	</definition>
 	<definition>
 		<key>entry_min_size</key>
-		<value><![CDATA[Min Dateigröße (Kb)]]></value>
+		<value><![CDATA[Minimale Dateigröße (Kb)]]></value>
 	</definition>
 	<definition>
 		<key>entry_max_size</key>
-		<value><![CDATA[Max Dateigröße (Kb)]]></value>
+		<value><![CDATA[Maximale Dateigröße (Kb)]]></value>
 	</definition>
 	<definition>
 		<key>entry_upload_dir</key>
-		<value><![CDATA[Hochladen von Verzeichnisname <br/> %s]]></value>
+		<value><![CDATA[Name des Upload-Verzeichnisses<br>%s]]></value>
 	</definition>
 	<definition>
 		<key>entry_regexp_pattern</key>
-		<value><![CDATA[Muster für reguläre Ausdrücke für die Validierung von Werten:]]></value>
+		<value><![CDATA[Reguläres Ausdrucksmuster für die Validierung von Werten:]]></value>
 	</definition>
 	<definition>
 		<key>entry_error_text</key>
-		<value><![CDATA[Fehlermeldung von ungültigen Wert:]]></value>
+		<value><![CDATA[Fehlermeldung für ungültigen Wert:]]></value>
 	</definition>
 	<definition>
 		<key>entry_placeholder</key>
@@ -126,23 +130,19 @@
 	</definition>
 	<definition>
 		<key>error_attribute_name</key>
-		<value><![CDATA[Attributname muss zwischen 2 und 64 Zeichen lang sein!]]></value>
+		<value><![CDATA[Attributname muss zwischen 2 und 64 Zeichen liegen!]]></value>
 	</definition>
 	<definition>
 		<key>error_error_text</key>
-		<value><![CDATA[Fehlertext über ungültige Attributwert muss zwischen 2 und 255 Zeichen lang sein!]]></value>
+		<value><![CDATA[Fehlertext zum ungültigen Attributwert muss zwischen 2 und 255 Zeichen lang sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_regexp_pattern</key>
-		<value><![CDATA[Regular Expression Pattern ist ungültig!]]></value>
+		<value><![CDATA[Das Muster für reguläre Ausdrücke ist ungültig!]]></value>
 	</definition>
 	<definition>
 		<key>entry_show_to_customer</key>
-		<value><![CDATA[Zeigen Sie dem Kunden]]></value>
-	</definition>
-	<definition>
-		<key>column_txt_id</key>
-		<value><![CDATA[Eindeutige Text-ID]]></value>
+		<value><![CDATA[Dem Kunden anzeigen]]></value>
 	</definition>
 	<definition>
 		<key>entry_price_prefix</key>
@@ -154,6 +154,6 @@
 	</definition>
 	<definition>
 		<key>error_not_unique</key>
-		<value><![CDATA[Werttext-ID ist nicht eindeutig!]]></value>
+		<value><![CDATA[Value Text ID ist nicht eindeutig!]]></value>
 	</definition>
 </definitions>

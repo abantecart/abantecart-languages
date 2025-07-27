@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_title</key>
+		<value><![CDATA[Кредитная карта / Дебетовая карта (через PayPal)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_name</key>
+		<value><![CDATA[PayPal Commerce]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_manual_connect</key>
+		<value><![CDATA[&nbsp;]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_client_id</key>
+		<value><![CDATA[Ваш идентификатор клиента API<br /><span class="help">Найдите его в разделе «Мои приложения и учетные данные» на панели управления PayPal -> Разработчик</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_client_secret</key>
+		<value><![CDATA[Ваш секретный ключ API<br /><span class="help">Найдите его в разделе «Мои приложения и учетные данные» панели Paypal -> Разработчик</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_mode</key>
+		<value><![CDATA[Тестовый режим]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type</key>
+		<value><![CDATA[Метод транзакции:<br/><span class="help">Транзакция PayPal, выполняемая при оформлении заказа покупателем до установки статуса заказа. Только авторизация или захват.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type_capture</key>
+		<value><![CDATA[Захват]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type_authorize</key>
+		<value><![CDATA[Только авторизация]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_connection</key>
+		<value><![CDATA[Проверить соединение]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_test</key>
+		<value><![CDATA[Тестировать сейчас]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_update_webhooks</key>
+		<value><![CDATA[Обновить вебхуки]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_tooltip_update_webhooks</key>
+		<value><![CDATA[Вебхуки будут настроены автоматически при подключении к PayPal. Используйте эту кнопку для обновления вебхуков в PayPal.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_connection_success</key>
+		<value><![CDATA[Соединение успешно установлено.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Payment]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Успех: Вы изменили настройки платежей Paypal!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_location_id</key>
+		<value><![CDATA[Расположение:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_location_id_0</key>
+		<value><![CDATA[Все местоположения]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status</key>
+		<value><![CDATA[Статус:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_autoselect</key>
+		<value><![CDATA[Auto Select:<br /><span class="help">Вы можете настроить пропуск страницы выбора способа оплаты, если доступен только один вариант оплаты. Этот способ оплаты будет выбран автоматически</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_paypal_commerce_connect</key>
+		<value><![CDATA[Вам необходимо подключиться к PayPal, чтобы настроить платёжные реквизиты.]]></value>
+	</definition>
+	<definition>
+		<key>text_paypal_commerce_settings</key>
+		<value><![CDATA[Настройки PayPal]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_sort_order</key>
+		<value><![CDATA[Порядок сортировки]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_mode</key>
+		<value><![CDATA[Тестовый режим]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_register_webhooks</key>
+		<value><![CDATA[Обновить конечные точки вебхуков на стороне API]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_register_webhooks_success</key>
+		<value><![CDATA[Конечные точки вебхуков успешно обновлены!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_success_settled</key>
+		<value><![CDATA[Успешно и захвачено:<br /><span class="help">Выберите основной статус заказа, который вы хотите установить в ответ на статус платёжного процессора</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_success_unsettled</key>
+		<value><![CDATA[Успешно, но не захвачено:<br /><span class="help">Выберите основной статус заказа, который вы хотите установить в ответ на статус платежного процессора</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_decline</key>
+		<value><![CDATA[Отклонено:<br /><span class="help">Статус заказа, который вы хотите записать в историю в ответ на статус платёжного процессора. Основной статус заказа не изменяется. Заказ будет размещён только после успешной оплаты.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_capture_pending</key>
+		<value><![CDATA[В ожидании:</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_refund</key>
+		<value><![CDATA[Refunded:<br /><span class="help">Статус заказа, который вы хотите установить, если платеж возвращён в admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Дата транзакции]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Сумма]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Средства были успешно списаны]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Захват выполнен успешно, статус заказа обновлен на «Успешно – захвачено»]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Возврат был успешно обработан]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Возврат прошел успешно, статус заказа обновлен на «возвращен».]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Аннулирование прошло успешно, статус заказа обновлен на аннулированный]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_auto</key>
+		<value><![CDATA[Авто (авторизация и захват)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_delayed</key>
+		<value><![CDATA[Отложено (только авторизация)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Детали оплаты]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Платёж был зафиксирован]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Платеж был аннулирован]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Платёж был возвращён]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Сумма захвата]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Сумма возврата]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID платежа Paypal]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Общая авторизованная сумма]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Сумма баланса]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Транзакции возврата]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Пожалуйста, подтвердите, что вы хотите аннулировать платёж?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Пожалуйста, подтвердите, что вы хотите списать платёж?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Пожалуйста, подтвердите, что вы хотите вернуть оплату?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Возврат]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Аннулировать]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Списание]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Внутренняя ошибка. Проверьте журнал ошибок или входные параметры!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Пожалуйста, введите положительную сумму]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Невозможно захватить, обновить детали транзакции и проверить сумму захвата]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Не удалось аннулировать транзакцию, обновите и проверьте детали транзакции]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Не удалось выполнить возврат, обновите данные транзакции и проверьте сумму возврата]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Подключиться к Paypal]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Отключить PayPal]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Не удаётся подключиться?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Успешно подключено к PayPal]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Успешно отключено от PayPal]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Предупреждение: у вас нет прав для изменения Paypal Commerce Payment!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_auto</key>
+		<value><![CDATA[Авто (авторизация и захват)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_delayed</key>
+		<value><![CDATA[Отложено (только авторизация)]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Внутренняя ошибка. Проверьте журнал ошибок или входные параметры!]]></value>
+	</definition>
+	<definition>
+		<key>error_paypal_commerce_client_id</key>
+		<value><![CDATA[Требуется ID клиента приложения]]></value>
+	</definition>
+	<definition>
+		<key>error_paypal_commerce_client_secret</key>
+		<value><![CDATA[Требуется секретный ключ приложения]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Предупреждение: У вас нет разрешения на изменение Paypal Commerce Payment!]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Ошибка! Пожалуйста, проверьте, включено ли расширение.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_back</key>
+		<value><![CDATA[Назад]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_webhook_howto_text</key>
+		<value><![CDATA[Примечание: чтобы завершить настройку, вам необходимо создать вебхуки на стороне аккаунта PayPal.
+<br>Перейдите в ваш <a href="https://dashboard.paypal.com/webhooks" target="_new">раздел разработчика панели PayPal</a> и добавьте конечные точки, принимающие события с вашего аккаунта. После создания конечной точки скопируйте секрет подписи и сохраните его в настройках расширения PayPal Subscription Extension.]]></value>
+	</definition>
+</definitions>

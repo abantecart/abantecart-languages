@@ -6,19 +6,19 @@
 	</definition>
 	<definition>
 		<key>forms_manager_status</key>
-		<value><![CDATA[地位：]]></value>
+		<value><![CDATA[状态:]]></value>
 	</definition>
 	<definition>
 		<key>forms_manager_note</key>
-		<value><![CDATA[要管理表单，请启用扩展并按照设计-&gt;<a href="#admin#rt=tool/forms_manager">表单管理器</a>]]></value>
+		<value><![CDATA[要管理表单，请启用扩展并按照 设计-><a href="#admin#rt=tool/forms_manager">表单管理器</a>]]></value>
 	</definition>
 	<definition>
 		<key>custom_forms_block</key>
-		<value><![CDATA[自定义表单块]]></value>
+		<value><![CDATA[自定义表单区块]]></value>
 	</definition>
 	<definition>
 		<key>entry_form_name</key>
-		<value><![CDATA[表格名称<br/><span class="help">拉丁字母、下划线、减号</span>]]></value>
+		<value><![CDATA[表单名称<br/><span class="help">仅限拉丁字母、下划线和减号</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_controller_path</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>entry_success_page</key>
-		<value><![CDATA[成功页面<br/><span class="help">如果要重定向到与控制器相同的页面，请将其留空</span>]]></value>
+		<value><![CDATA[成功页面<br/><span class="help">如果您想将它重定向到与控制器相同的页面，请留空</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_form_description</key>
@@ -42,11 +42,11 @@
 	</definition>
 	<definition>
 		<key>text_form</key>
-		<value><![CDATA[形式]]></value>
+		<value><![CDATA[表单]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[姓名]]></value>
+		<value><![CDATA[名称]]></value>
 	</definition>
 	<definition>
 		<key>column_description</key>
@@ -54,7 +54,7 @@
 	</definition>
 	<definition>
 		<key>column_status</key>
-		<value><![CDATA[地位]]></value>
+		<value><![CDATA[状态]]></value>
 	</definition>
 	<definition>
 		<key>filter_exact_match</key>
@@ -62,7 +62,7 @@
 	</definition>
 	<definition>
 		<key>filter_any_word</key>
-		<value><![CDATA[这些词中的任何一个]]></value>
+		<value><![CDATA[这些单词中的任何一个]]></value>
 	</definition>
 	<definition>
 		<key>filter_all_words</key>
@@ -90,19 +90,19 @@
 	</definition>
 	<definition>
 		<key>text_field_type</key>
-		<value><![CDATA[字段类型：]]></value>
+		<value><![CDATA[字段类型:]]></value>
 	</definition>
 	<definition>
 		<key>button_remove_field</key>
-		<value><![CDATA[移除字段]]></value>
+		<value><![CDATA[删除字段]]></value>
 	</definition>
 	<definition>
 		<key>entry_field</key>
-		<value><![CDATA[场地]]></value>
+		<value><![CDATA[字段]]></value>
 	</definition>
 	<definition>
 		<key>entry_field_name</key>
-		<value><![CDATA[字段名称（仅限拉丁字母、下划线、减号）]]></value>
+		<value><![CDATA[字段名称（仅限拉丁字母、下划线和减号）]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -110,7 +110,7 @@
 	</definition>
 	<definition>
 		<key>entry_required</key>
-		<value><![CDATA[必需的]]></value>
+		<value><![CDATA[必填]]></value>
 	</definition>
 	<definition>
 		<key>entry_edit_fields</key>
@@ -122,11 +122,11 @@
 	</definition>
 	<definition>
 		<key>error_required</key>
-		<value><![CDATA[此字段是必需的！]]></value>
+		<value><![CDATA[此字段为必填项！]]></value>
 	</definition>
 	<definition>
 		<key>error_duplicate_form_name</key>
-		<value><![CDATA[已存在具有该 Name 属性的表单。]]></value>
+		<value><![CDATA[具有此名称属性的表单已存在。]]></value>
 	</definition>
 	<definition>
 		<key>error_duplicate_field_name</key>
@@ -134,7 +134,7 @@
 	</definition>
 	<definition>
 		<key>text_field_removed</key>
-		<value><![CDATA[该字段已成功删除。]]></value>
+		<value><![CDATA[字段已成功移除。]]></value>
 	</definition>
 	<definition>
 		<key>text_success_form</key>
@@ -146,11 +146,11 @@
 	</definition>
 	<definition>
 		<key>text_success_added_form</key>
-		<value><![CDATA[新表单已成功添加。]]></value>
+		<value><![CDATA[新的表单已成功添加。]]></value>
 	</definition>
 	<definition>
 		<key>text_success_added_field</key>
-		<value><![CDATA[新字段已成功添加。]]></value>
+		<value><![CDATA[已成功添加新字段。]]></value>
 	</definition>
 	<definition>
 		<key>text_add_field</key>
@@ -178,11 +178,11 @@
 	</definition>
 	<definition>
 		<key>note_create_form_block</key>
-		<value><![CDATA[注意：要看到店面上显示的此表单，请在设计-&gt;<a href="%s">块</a>中创建表单块，并将其添加到设计-&gt;<a href="%s">布局</a>页面的相应页面。]]></value>
+		<value><![CDATA[注意：要在店面前台看到此表单，请在 设计-><a href="%s">Blocks</a> 创建表单区块，并在 设计-><a href="%s">Layouts</a> 页面将其添加到相应页面。]]></value>
 	</definition>
 	<definition>
 		<key>note_edit_layout</key>
-		<value><![CDATA[注意：要看到此块显示在店面上，请将其添加到设计-&gt;<a href="%s">布局</a>中的相应页面。要创建新表单，请转到设计-&gt;<a href="%s">表单管理器</a>页面。]]></value>
+		<value><![CDATA[注意：要在商店前台显示此区块，请将其添加到设计-><a href="%s">Layouts</a> 的相应页面。要创建新表单，请转到设计-><a href="%s">Form Manager</a> 页面。]]></value>
 	</definition>
 	<definition>
 		<key>text_select_field_type</key>
@@ -190,7 +190,7 @@
 	</definition>
 	<definition>
 		<key>entry_field_note</key>
-		<value><![CDATA[现场记录]]></value>
+		<value><![CDATA[字段说明]]></value>
 	</definition>
 	<definition>
 		<key>forms_manager_default_sender_name</key>
@@ -198,27 +198,27 @@
 	</definition>
 	<definition>
 		<key>forms_manager_default_sender_email</key>
-		<value><![CDATA[默认发件人电子邮件：]]></value>
+		<value><![CDATA[默认发件人邮箱：]]></value>
 	</definition>
 	<definition>
 		<key>entry_field_placeholder</key>
-		<value><![CDATA[占位符：]]></value>
+		<value><![CDATA[占位符:]]></value>
 	</definition>
 	<definition>
 		<key>entry_regexp_pattern</key>
-		<value><![CDATA[正则表达式模式：]]></value>
+		<value><![CDATA[正则表达式模式:]]></value>
 	</definition>
 	<definition>
 		<key>entry_error_text</key>
-		<value><![CDATA[有关无效值的错误消息：]]></value>
+		<value><![CDATA[关于无效值的错误消息：]]></value>
 	</definition>
 	<definition>
 		<key>entry_form</key>
-		<value><![CDATA[形式]]></value>
+		<value><![CDATA[表单]]></value>
 	</definition>
 	<definition>
 		<key>error_fill_required</key>
-		<value><![CDATA[请填写表格的所有必填字段！]]></value>
+		<value><![CDATA[请填写表单中所有必填字段！]]></value>
 	</definition>
 	<definition>
 		<key>error_form_name</key>
@@ -230,10 +230,10 @@
 	</definition>
 	<definition>
 		<key>error_field_name_exists</key>
-		<value><![CDATA[带有名称的字段 %s 已存在于表单中！]]></value>
+		<value><![CDATA[表单中已存在名称为 %s 的字段！]]></value>
 	</definition>
 	<definition>
 		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[警告！请在<a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">表单管理器设置</a>中设置默认发件人姓名和默认发件人电子邮件]]></value>
+		<value><![CDATA[警告！请在 <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">表单管理器设置</a> 中设置默认发件人名称和默认发件人邮箱]]></value>
 	</definition>
 </definitions>

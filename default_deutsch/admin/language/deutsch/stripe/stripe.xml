@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>stripe_note</key>
-		<value><![CDATA[Für die Einrichtung der Stripe-Zahlung sind zusätzliche Einstellungen erforderlich. Siehe Registerkarte „Zusätzliche Einstellungen“.]]></value>
+		<value><![CDATA[Zusätzliche Einstellungen sind erforderlich, um die Stripe-Zahlungseinrichtung abzuschließen. Siehe Registerkarte „Zusätzliche Einstellungen“.]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -34,11 +34,11 @@
 	</definition>
 	<definition>
 		<key>stripe_autoselect</key>
-		<value><![CDATA[Automatische Auswahl: <br/><span class="help">Sie können festlegen, dass die Zahlungsauswahlseite übersprungen wird, wenn nur eine Zahlungsoption verfügbar ist. Diese Zahlungsmethode wird automatisch ausgewählt.</span>]]></value>
+		<value><![CDATA[Automatische Auswahl:<br /><span class="help">Sie können einstellen, dass die Seite zur Auswahl der Zahlungsart übersprungen wird, wenn nur eine Zahlungsoption vorhanden ist. Diese Zahlungsart wird automatisch ausgewählt</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list</key>
-		<value><![CDATA[Erlaubte Zahlungsmethoden. <br/><span class="help">Leer lassen für automatische Auswahl</span>]]></value>
+		<value><![CDATA[Erlaubte Zahlungsmethoden. <br /><span class="help">Leer lassen für automatische Auswahl</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_card</key>
@@ -70,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_affirm</key>
-		<value><![CDATA[Bestätigen]]></value>
+		<value><![CDATA[Affirm]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_bancontact</key>
@@ -106,7 +106,7 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_zip</key>
-		<value><![CDATA[Reißverschluss]]></value>
+		<value><![CDATA[Postleitzahl]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_eps</key>
@@ -126,7 +126,7 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_ideal</key>
-		<value><![CDATA[Ideal]]></value>
+		<value><![CDATA[iDEAL]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_konbini</key>
@@ -150,7 +150,7 @@
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_paynow</key>
-		<value><![CDATA[PayNow]]></value>
+		<value><![CDATA[Jetzt bezahlen]]></value>
 	</definition>
 	<definition>
 		<key>stripe_payment_method_list_promptpay</key>
@@ -174,15 +174,15 @@
 	</definition>
 	<definition>
 		<key>text_stripe_connect</key>
-		<value><![CDATA[Sie müssen eine Verbindung mit Stripe herstellen, um Zahlungsdetails einzurichten]]></value>
+		<value><![CDATA[Sie müssen eine Verbindung zu Stripe herstellen, um Zahlungsdetails einzurichten.]]></value>
 	</definition>
 	<definition>
 		<key>text_stripe_settings</key>
-		<value><![CDATA[Streifeneinstellungen]]></value>
+		<value><![CDATA[Stripe-Einstellungen]]></value>
 	</definition>
 	<definition>
 		<key>text_connect</key>
-		<value><![CDATA[Mit Stripe verbinden	]]></value>
+		<value><![CDATA[Mit Stripe verbinden]]></value>
 	</definition>
 	<definition>
 		<key>text_disconnect</key>
@@ -190,7 +190,7 @@
 	</definition>
 	<definition>
 		<key>text_skip_connect</key>
-		<value><![CDATA[Verbindung kann nicht hergestellt werden?]]></value>
+		<value><![CDATA[Kann keine Verbindung herstellen?]]></value>
 	</definition>
 	<definition>
 		<key>text_connect_success</key>
@@ -198,7 +198,7 @@
 	</definition>
 	<definition>
 		<key>text_disconnect_success</key>
-		<value><![CDATA[Verbindung zu Stripe erfolgreich getrennt]]></value>
+		<value><![CDATA[Erfolgreich von Stripe getrennt]]></value>
 	</definition>
 	<definition>
 		<key>stripe_sort_order</key>
@@ -206,47 +206,47 @@
 	</definition>
 	<definition>
 		<key>stripe_test_mode</key>
-		<value><![CDATA[Testmodus: <br/><span class="help">Auf EIN stellen, wenn Sie die Testtaste verwenden möchten</span>]]></value>
+		<value><![CDATA[Testmodus:<br /><span class="help">Auf EIN stellen, wenn Sie den Testschlüssel verwenden möchten</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_sk_live</key>
-		<value><![CDATA[Live-Geheimschlüssel: <br/><span class="help">Suchen Sie diesen im Abschnitt „Stripe-API-Schlüssel“. Der Schlüssel beginnt mit sk_live_...</span>]]></value>
+		<value><![CDATA[Live-Geheimschlüssel:<br /><span class="help">Sie finden dies im Abschnitt Stripe-API-Schlüssel. Der Schlüssel beginnt mit sk_live_... </span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_pk_live</key>
-		<value><![CDATA[Live-Publishable-Schlüssel: <br/><span class="help">Suchen Sie diesen im Abschnitt „Stripe-API-Schlüssel“. Der Schlüssel beginnt mit pk_live_...</span>]]></value>
+		<value><![CDATA[Live-öffentlicher Schlüssel:<br /><span class="help">Diesen finden Sie im Abschnitt "Stripe-API-Schlüssel". Der Schlüssel beginnt mit pk_live_... </span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_sk_test</key>
-		<value><![CDATA[Geheimer Testschlüssel: <br/><span class="help">Suchen Sie diesen im Abschnitt „Stripe-API-Schlüssel“. Der Schlüssel beginnt mit sk_test_...</span>]]></value>
+		<value><![CDATA[Test-Geheimschlüssel:<br /><span class="help">Finden Sie dies im Abschnitt Stripe-API-Schlüssel. Der Schlüssel beginnt mit sk_test_... </span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_pk_test</key>
-		<value><![CDATA[Test-Publishable-Schlüssel: <br/><span class="help">Suchen Sie diesen im Abschnitt „Stripe-API-Schlüssel“. Der Schlüssel beginnt mit pk_test_...</span>]]></value>
+		<value><![CDATA[Test-Publishable-Schlüssel:<br /><span class="help">Finden Sie ihn im Abschnitt Stripe-API-Schlüssel. Der Schlüssel beginnt mit pk_test_... </span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_settlement</key>
-		<value><![CDATA[Abrechnungsart: <br/><span class="help">Bei der Einstellung „automatisch“ wird die Transaktion in die heutige Abrechnung einbezogen. Bei der Einstellung „verzögert“ wird die Transaktion autorisiert, aber nicht abgerechnet (erfasst). Sie müssen Transaktionen innerhalb von 7 Tagen nach der Autorisierung manuell erfassen.</span>]]></value>
+		<value><![CDATA[Abrechnungsart:<br /><span class="help">Wenn auf 'auto' eingestellt, wird die Transaktion in die heutige Abrechnung aufgenommen. Wenn auf 'delayed' eingestellt, wird die Transaktion autorisiert, aber nicht abgerechnet (erfasst). Sie müssen Transaktionen innerhalb von 7 Tagen nach der Autorisierung manuell erfassen</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_success_settled</key>
-		<value><![CDATA[Erfolgreich &amp; erledigt: <br/><span class="help">Wählen Sie den Hauptbestellstatus aus, den Sie als Reaktion auf den Status des Zahlungsprozessors festlegen möchten</span>]]></value>
+		<value><![CDATA[Erfolgreich & abgeschlossen:<br /><span class="help">Wählen Sie den Hauptbestellstatus, den Sie als Reaktion auf den Status des Zahlungsdienstleisters festlegen möchten</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_success_unsettled</key>
-		<value><![CDATA[Erfolgreich &amp; nicht abgewickelt: <br/><span class="help">Wählen Sie den Hauptbestellstatus aus, den Sie als Reaktion auf den Status des Zahlungsprozessors festlegen möchten</span>]]></value>
+		<value><![CDATA[Erfolgreich & nicht beglichen:<br /><span class="help">Wählen Sie den Hauptbestellstatus aus, den Sie als Reaktion auf den Status des Zahlungsdienstleisters festlegen möchten</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_decline</key>
-		<value><![CDATA[Ablehnung: <br/><span class="help">Bestellstatus, den Sie als Reaktion auf den Status des Zahlungsabwicklers im Verlauf erfassen möchten. Der Hauptbestellstatus ist davon nicht betroffen. Die Bestellung wird erst nach erfolgreicher Zahlung aufgegeben.</span>]]></value>
+		<value><![CDATA[Abgelehnt:<br /><span class="help">Bestellstatus, den Sie in der Historie als Reaktion auf den Status des Zahlungsdienstleisters aufzeichnen möchten. Der Hauptbestellstatus wird nicht beeinflusst. Die Bestellung wird erst nach erfolgreicher Zahlung aufgegeben.</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_void</key>
-		<value><![CDATA[Storniert: <br/><span class="help">Bestellstatus, der festgelegt werden soll, wenn die Zahlung in der Verwaltung/Bestellung storniert wird.</span>]]></value>
+		<value><![CDATA[Storniert:<br /><span class="help">Bestellstatus, den Sie festlegen möchten, wenn die Zahlung im admin/order storniert wird.</span>]]></value>
 	</definition>
 	<definition>
 		<key>stripe_status_refund</key>
-		<value><![CDATA[Erstattet: <br/><span class="help">Bestellstatus, der festgelegt werden soll, wenn die Zahlung in der Verwaltung/Bestellung erstattet wird.</span>]]></value>
+		<value><![CDATA[Rückerstattet:<br /><span class="help">Bestellstatus, der festgelegt werden soll, wenn die Zahlung in Admin/Bestellung erstattet wird.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_column_date_added</key>
@@ -254,35 +254,35 @@
 	</definition>
 	<definition>
 		<key>text_column_amount</key>
-		<value><![CDATA[Menge]]></value>
+		<value><![CDATA[Betrag]]></value>
 	</definition>
 	<definition>
 		<key>text_captured_ok</key>
-		<value><![CDATA[Gelder wurden erfolgreich eingezogen]]></value>
+		<value><![CDATA[Gelder wurden erfolgreich eingezogen.]]></value>
 	</definition>
 	<definition>
 		<key>text_captured_order</key>
-		<value><![CDATA[Die Erfassung war erfolgreich, der Bestellstatus wurde auf „Erfolgreich – Abgeschlossen“ aktualisiert]]></value>
+		<value><![CDATA[Capture war erfolgreich, der Bestellstatus wurde auf erfolgreich – abgeschlossen aktualisiert]]></value>
 	</definition>
 	<definition>
 		<key>text_refunded_ok</key>
-		<value><![CDATA[Rückerstattung wurde erfolgreich bearbeitet]]></value>
+		<value><![CDATA[Rückerstattung wurde erfolgreich bearbeitet.]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_order</key>
-		<value><![CDATA[Rückerstattung war erfolgreich, Bestellstatus auf „Erstattet“ aktualisiert]]></value>
+		<value><![CDATA[Rückerstattung war erfolgreich, der Bestellstatus wurde auf erstattet aktualisiert.]]></value>
 	</definition>
 	<definition>
 		<key>text_voided</key>
-		<value><![CDATA[Stornierung erfolgreich, Bestellstatus auf „Storniert“ aktualisiert]]></value>
+		<value><![CDATA[Stornierung war erfolgreich, Bestellstatus wurde auf „storniert“ aktualisiert.]]></value>
 	</definition>
 	<definition>
 		<key>stripe_settlement_auto</key>
-		<value><![CDATA[Auto (Autorisieren und Erfassen)]]></value>
+		<value><![CDATA[Automatisch (autorisieren und erfassen)]]></value>
 	</definition>
 	<definition>
 		<key>stripe_settlement_delayed</key>
-		<value><![CDATA[Verzögert (nur autorisieren)]]></value>
+		<value><![CDATA[Verzögert (nur Autorisierung)]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_info</key>
@@ -290,35 +290,35 @@
 	</definition>
 	<definition>
 		<key>text_capture_status</key>
-		<value><![CDATA[Zahlung wurde erfasst]]></value>
+		<value><![CDATA[Zahlung wurde eingezogen]]></value>
 	</definition>
 	<definition>
 		<key>text_void_status</key>
-		<value><![CDATA[Die Zahlung wurde storniert]]></value>
+		<value><![CDATA[Die Zahlung wurde annulliert.]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_status</key>
-		<value><![CDATA[Zahlung wurde zurückerstattet]]></value>
+		<value><![CDATA[Zahlung wurde erstattet]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_amount</key>
-		<value><![CDATA[Erfassungsbetrag]]></value>
+		<value><![CDATA[Einzugsbetrag]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_amount</key>
-		<value><![CDATA[Rückerstattungsbetrag]]></value>
+		<value><![CDATA[Erstattungsbetrag]]></value>
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[Stripe-Lade-ID]]></value>
+		<value><![CDATA[Stripe Charge-ID]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total</key>
-		<value><![CDATA[Autorisierter Gesamtbetrag]]></value>
+		<value><![CDATA[Genehmigter Gesamtbetrag]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[Saldobetrag]]></value>
+		<value><![CDATA[Guthabenbetrag]]></value>
 	</definition>
 	<definition>
 		<key>text_transactions</key>
@@ -326,11 +326,11 @@
 	</definition>
 	<definition>
 		<key>text_confirm_void</key>
-		<value><![CDATA[Bitte bestätigen Sie, dass Sie die Zahlung stornieren möchten.]]></value>
+		<value><![CDATA[Bitte bestätigen Sie, dass Sie die Zahlung stornieren möchten?]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_capture</key>
-		<value><![CDATA[Bitte bestätigen Sie, dass Sie die Zahlung erfassen möchten.]]></value>
+		<value><![CDATA[Bitte bestätigen Sie, dass Sie die Zahlung einziehen möchten?]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_refund</key>
@@ -338,19 +338,19 @@
 	</definition>
 	<definition>
 		<key>button_refund</key>
-		<value><![CDATA[Erstattung]]></value>
+		<value><![CDATA[Rückerstattung]]></value>
 	</definition>
 	<definition>
 		<key>button_void</key>
-		<value><![CDATA[Leere]]></value>
+		<value><![CDATA[Ungültig]]></value>
 	</definition>
 	<definition>
 		<key>button_capture</key>
-		<value><![CDATA[Erfassen]]></value>
+		<value><![CDATA[Einziehen]]></value>
 	</definition>
 	<definition>
 		<key>error_system</key>
-		<value><![CDATA[Interner Fehler. Fehlerprotokoll oder Eingabeparameter prüfen!]]></value>
+		<value><![CDATA[Interner Fehler. Überprüfen Sie das Fehlerprotokoll oder die Eingabeparameter!]]></value>
 	</definition>
 	<definition>
 		<key>error_missing_amount</key>
@@ -358,23 +358,23 @@
 	</definition>
 	<definition>
 		<key>error_unable_to_capture</key>
-		<value><![CDATA[Erfassung nicht möglich. Transaktionsdetails aktualisieren und Erfassungsbetrag prüfen]]></value>
+		<value><![CDATA[Erfassung nicht möglich, Transaktionsdetails aktualisieren und erfassten Betrag prüfen]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_void</key>
-		<value><![CDATA[Die Transaktion kann nicht storniert werden. Aktualisieren und Überprüfen der Transaktionsdetails ist nicht möglich.]]></value>
+		<value><![CDATA[Die Transaktion konnte nicht storniert werden. Bitte aktualisieren Sie und prüfen Sie die Transaktionsdetails.]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_refund</key>
-		<value><![CDATA[Rückerstattung nicht möglich. Aktualisieren Sie die Transaktionsdetails und prüfen Sie den Rückerstattungsbetrag.]]></value>
+		<value><![CDATA[Rückerstattung nicht möglich, Transaktionsdetails aktualisieren und Erstattungsbetrag prüfen.]]></value>
 	</definition>
 	<definition>
 		<key>error_stripe_pk_test</key>
-		<value><![CDATA[Veröffentlichter Stripe-Schlüssel ist erforderlich]]></value>
+		<value><![CDATA[Stripe veröffentlichter Schlüssel ist erforderlich.]]></value>
 	</definition>
 	<definition>
 		<key>error_stripe_pk_live</key>
-		<value><![CDATA[Stripe-veröffentlichter Schlüssel ist erforderlich]]></value>
+		<value><![CDATA[Der veröffentlichte Stripe-Schlüssel ist erforderlich.]]></value>
 	</definition>
 	<definition>
 		<key>error_stripe_sk_test</key>
@@ -382,18 +382,17 @@
 	</definition>
 	<definition>
 		<key>error_stripe_sk_live</key>
-		<value><![CDATA[Stripe Live Key ist erforderlich]]></value>
+		<value><![CDATA[Stripe Live-Schlüssel ist erforderlich.]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Warnung: Sie haben keine Berechtigung, die Stripe-Zahlung zu ändern!]]></value>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, Stripe-Zahlung zu ändern!]]></value>
 	</definition>
 	<definition>
 		<key>stripe_webhook_howto_text</key>
-		<value><![CDATA[Hinweis: Um die Einrichtung abzuschließen, sollten Sie Webhooks auf der Stripe-Kontoseite erstellen. 
- <br/> Gehen Sie zu Ihrem <a href="https://dashboard.stripe.com/webhooks" target="_new">Stripe-Dashboard im Entwicklerbereich</a> 
- und fügen Sie Endpunkte hinzu, die Ereignisse von Ihrem Konto empfangen. Nachdem der Endpunkt erstellt wurde, kopieren Sie das Signaturgeheimnis und speichern Sie es in den Einstellungen der Stripe-Abonnementerweiterung. 
-]]></value>
+		<value><![CDATA[Hinweis: Um die Einrichtung abzuschließen, müssen Sie Webhooks auf der Stripe-Kontoseite erstellen.
+<br> Gehen Sie zu Ihrem <a href="https://dashboard.stripe.com/webhooks" target="_new">Stripe Dashboard Entwicklerbereich</a>
+und fügen Sie Endpunkte hinzu, die Ereignisse von Ihrem Konto empfangen. Nachdem der Endpunkt erstellt wurde, kopieren Sie das Signing Secret und speichern es in den Einstellungen der Stripe Subscription Extension.]]></value>
 	</definition>
 	<definition>
 		<key>stripe_entry_endpoint_url</key>

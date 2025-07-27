@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Менеджер медіаресурсів бібліотеки]]></value>
+		<value><![CDATA[Менеджер бібліотеки медіа-ресурсів]]></value>
 	</definition>
 	<definition>
 		<key>text_rl_latest</key>
@@ -10,23 +10,23 @@
 	</definition>
 	<definition>
 		<key>text_rl_type</key>
-		<value><![CDATA[Тип ресурсу]]></value>
+		<value><![CDATA[тип ресурсу]]></value>
 	</definition>
 	<definition>
 		<key>entry_type_name</key>
-		<value><![CDATA[Тип ресурсу Ключ <br/><span class="help">Значення Тип ключа Цей ресурс / ім&#39;я не може бути змінено</span>]]></value>
+		<value><![CDATA[Ключ типу ресурсу<br/><span class="help">Це значення ключа/назви типу ресурсу не можна змінити</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_default_directory</key>
-		<value><![CDATA[Каталог ресурсів <br/><span class="help">Каталог розміщуючи ресурс для цього типу. Якщо змінювали, то існуючі ресурси не будуть доступні і повинні бути скопійовані в новий каталог!</span>]]></value>
+		<value><![CDATA[Каталог ресурсів<br/><span class="help">Каталог, у якому розташовані ресурси для цього типу. Якщо його змінити, існуючі ресурси не будуть доступні, і їх потрібно буде скопіювати до нового каталогу!</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_default_icon</key>
-		<value><![CDATA[За замовчуванням значок <br/><span class="help">Значок зображення, яке відображається в списку ресурсів (Розташування: /image/...).</span>]]></value>
+		<value><![CDATA[Значок за замовчуванням<br/><span class="help">Зображення значка, яке відображатиметься в списку ресурсів (Розташування: /image/... ).</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_file_types</key>
-		<value><![CDATA[Допустимі розширення файлів <br/><span class="help">Regex зі списком дозволених розширень файлів для даного типу ресурсу</span>]]></value>
+		<value><![CDATA[Дозволені розширення файлів<br/><span class="help">Регулярний вираз зі списком дозволених розширень файлів для цього типу ресурсу</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -34,22 +34,22 @@
 	</definition>
 	<definition>
 		<key>error_missing_type_id</key>
-		<value><![CDATA[Помилка: Відсутня Тип ресурсу ID!]]></value>
+		<value><![CDATA[Помилка: відсутній ідентифікатор типу ресурсу!]]></value>
 	</definition>
 	<definition>
 		<key>error_type_name</key>
-		<value><![CDATA[Помилка: Ім&#39;я Тип ресурсу повинно бути від 2 до 40 символів]]></value>
+		<value><![CDATA[Помилка: Назва типу ресурсу має мати довжину від 2 до 40 символів.]]></value>
 	</definition>
 	<definition>
 		<key>error_default_directory</key>
-		<value><![CDATA[Помилка: каталог Тип ресурсу повинен бути від 2 до 64 символів]]></value>
+		<value><![CDATA[Помилка: довжина каталогу типу ресурсу має бути від 2 до 64 символів]]></value>
 	</definition>
 	<definition>
 		<key>error_default_icon</key>
-		<value><![CDATA[Помилка: значок Тип ресурсу повинен бути від 2 до 64 символів]]></value>
+		<value><![CDATA[Помилка: тип ресурсу іконка повинен мати довжину від 2 до 64 символів]]></value>
 	</definition>
 	<definition>
 		<key>error_file_types</key>
-		<value><![CDATA[Помилка: Ресурс Тип файлу має бути від 2 до 40 символів]]></value>
+		<value><![CDATA[Помилка: регулярний вираз розширень файлів типу ресурсу повинен містити від 2 до 40 символів]]></value>
 	</definition>
 </definitions>

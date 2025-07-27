@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben modifizierte Inhalte!]]></value>
+		<value><![CDATA[Erfolg: Sie haben den Inhalt geändert!]]></value>
 	</definition>
 	<definition>
 		<key>text_success_layout</key>
-		<value><![CDATA[Erfolg: Sie haben Inhalt Seiten-Layout geändert.]]></value>
+		<value><![CDATA[Erfolg: Sie haben das Layout der Inhaltsseite geändert.]]></value>
 	</definition>
 	<definition>
 		<key>text_hidden</key>
@@ -30,15 +30,15 @@
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[Inhalt Titel]]></value>
+		<value><![CDATA[Inhaltstitel]]></value>
 	</definition>
 	<definition>
 		<key>column_parent</key>
-		<value><![CDATA[Eltern Inhalt]]></value>
+		<value><![CDATA[Übergeordneter Inhalt]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent</key>
-		<value><![CDATA[Eltern Inhalt Seite]]></value>
+		<value><![CDATA[Übergeordnete Inhaltsseite]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
@@ -49,16 +49,20 @@
 		<value><![CDATA[Status]]></value>
 	</definition>
 	<definition>
+		<key>column_publish_date</key>
+		<value><![CDATA[Veröffentlichungsdatum]]></value>
+	</definition>
+	<definition>
 		<key>column_action</key>
 		<value><![CDATA[Aktion]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Inhalt Titel:]]></value>
+		<value><![CDATA[Inhaltstitel:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[Beschreibung:]]></value>
+		<value><![CDATA[Description:<br /><span class="help">HTML-Tags werden für die Inhaltsbeschreibung nicht empfohlen! Dies hängt von Ihrem Storefront-Template ab</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_content</key>
@@ -66,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>entry_store</key>
-		<value><![CDATA[Shops:]]></value>
+		<value><![CDATA[Filialen:]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -81,64 +85,16 @@
 		<value><![CDATA[Sortierreihenfolge:]]></value>
 	</definition>
 	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Warnung: Sie haben keine Berechtigung Inhalt zu ändern!]]></value>
-	</definition>
-	<definition>
-		<key>error_title</key>
-		<value><![CDATA[Inhalt Titel muss zwischen 2 und 64 Zeichen lang sein!]]></value>
-	</definition>
-	<definition>
-		<key>error_description</key>
-		<value><![CDATA[Die Beschreibung muss mehr als 1 Zeichen lang sein!]]></value>
-	</definition>
-	<definition>
-		<key>error_content</key>
-		<value><![CDATA[Der Inhalt muss mehr als 1 Zeichen lang sein!]]></value>
-	</definition>
-	<definition>
-		<key>error_seo_url</key>
-		<value><![CDATA[SEO URL muss mehr als 1 Zeichen lang sein!]]></value>
-	</definition>
-	<definition>
-		<key>error_account</key>
-		<value><![CDATA[Achtung: Diese Inhalte können nicht gelöscht werden, wie sie derzeit als Standardspeicher Konto Begriffe zugeordnet!]]></value>
-	</definition>
-	<definition>
-		<key>error_checkout</key>
-		<value><![CDATA[Achtung: Diese Inhalte können nicht gelöscht werden, wie sie derzeit als Standardspeicher Kasse Begriffe zugeordnet!]]></value>
-	</definition>
-	<definition>
-		<key>error_required_data</key>
-		<value><![CDATA[Erforderliche Daten wurden nicht eingegeben. Überprüfen Sie für Feldfehler!]]></value>
-	</definition>
-	<definition>
-		<key>text_top_level</key>
-		<value><![CDATA[Höchststufe]]></value>
-	</definition>
-	<definition>
-		<key>text_any</key>
-		<value><![CDATA[irgendein]]></value>
-	</definition>
-	<definition>
-		<key>tab_form</key>
-		<value><![CDATA[Bearbeiten]]></value>
-	</definition>
-	<definition>
-		<key>column_publish_date</key>
-		<value><![CDATA[Veröffentlichungsdatum]]></value>
-	</definition>
-	<definition>
 		<key>entry_publish_date</key>
 		<value><![CDATA[Veröffentlichungsdatum:]]></value>
 	</definition>
 	<definition>
 		<key>entry_expire_date</key>
-		<value><![CDATA[Verfallsdatum:]]></value>
+		<value><![CDATA[Ablaufdatum:]]></value>
 	</definition>
 	<definition>
 		<key>entry_content_bar</key>
-		<value><![CDATA[Inhaltsdetailsleiste: <br/><span class="help">Aktivieren Sie diese Einstellung, um die Leiste mit dem Autor und dem Veröffentlichungsdatum auf der Inhaltsseite anzuzeigen</span>]]></value>
+		<value><![CDATA[Inhaltsdetails-Leiste:<br /><span class="help">Aktivieren Sie diese Einstellung, um auf der Inhaltsseite die Leiste mit dem Autor und dem Veröffentlichungsdatum anzuzeigen</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_icon</key>
@@ -146,28 +102,71 @@
 	</definition>
 	<definition>
 		<key>entry_tags</key>
-		<value><![CDATA[Inhalts-Tags: <br/><span class="help">Komma-getrennte Liste</span>]]></value>
+		<value><![CDATA[Inhaltstags:<br /><span class="help">durch Komma getrennte Liste</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_author</key>
 		<value><![CDATA[Autor:]]></value>
 	</definition>
 	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Warnung: Sie haben keine Berechtigung, Inhalte zu ändern!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[Der Inhaltstitel muss zwischen 2 und 255 Zeichen lang sein!]]></value>
+	</definition>
+	<definition>
 		<key>error_title_html</key>
-		<value><![CDATA[Der Inhaltstitel darf keine HTML-Tags enthalten!]]></value>
+		<value><![CDATA[Inhaltstitel darf keine HTML-Tags enthalten!]]></value>
+	</definition>
+	<definition>
+		<key>error_description</key>
+		<value><![CDATA[Beschreibung muss länger als 1 Zeichen sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_description_html</key>
 		<value><![CDATA[HTML-Tags zur Inhaltsbeschreibung werden nicht unterstützt!]]></value>
 	</definition>
 	<definition>
+		<key>error_content</key>
+		<value><![CDATA[Inhalt muss mehr als 1 Zeichen enthalten!]]></value>
+	</definition>
+	<definition>
+		<key>error_seo_url</key>
+		<value><![CDATA[SEO URL muss länger als 1 Zeichen sein!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Warnung: Dieser Inhalt kann nicht gelöscht werden, da er derzeit als Standard-Shop-Kontobedingungen zugewiesen ist!]]></value>
+	</definition>
+	<definition>
+		<key>error_checkout</key>
+		<value><![CDATA[Warnung: Dieser Inhalt kann nicht gelöscht werden, da er derzeit als Standard-Checkout-Bedingungen des Shops zugewiesen ist!]]></value>
+	</definition>
+	<definition>
 		<key>error_delete_parent</key>
-		<value><![CDATA[
- Achtung: Übergeordnete Inhalte können nicht gelöscht werden! Verschieben oder löschen Sie zuerst untergeordnete Inhaltsseiten.]]></value>
+		<value><![CDATA[Warnung: Übergeordnete Inhalte können nicht gelöscht werden! Verschieben oder löschen Sie zuerst die untergeordneten Inhaltsseiten.]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Erforderliche Daten wurden nicht eingegeben. Überprüfen Sie die Felder auf Fehler!]]></value>
+	</definition>
+	<definition>
+		<key>text_top_level</key>
+		<value><![CDATA[Oberste Ebene]]></value>
+	</definition>
+	<definition>
+		<key>text_any</key>
+		<value><![CDATA[beliebig]]></value>
+	</definition>
+	<definition>
+		<key>tab_form</key>
+		<value><![CDATA[Bearbeiten]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[ Meta-Tag-Beschreibung: ]]></value>
+		<value><![CDATA[Meta-Tag-Beschreibung:]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_keywords</key>
@@ -175,7 +174,7 @@
 	</definition>
 	<definition>
 		<key>text_clone</key>
-		<value><![CDATA[Klon]]></value>
+		<value><![CDATA[Klonen]]></value>
 	</definition>
 	<definition>
 		<key>text_success_copy</key>
@@ -183,10 +182,10 @@
 	</definition>
 	<definition>
 		<key>text_success_copy_layout</key>
-		<value><![CDATA[ Hinweis: Das Layout der Inhaltsseite wurde ebenfalls geklont.]]></value>
+		<value><![CDATA[Hinweis: Das Layout der Inhaltsseite wurde ebenfalls geklont.]]></value>
 	</definition>
 	<definition>
 		<key>text_error_copy</key>
-		<value><![CDATA[Das Klonen ist fehlgeschlagen! Die ursprüngliche Inhaltsseite ist nicht verfügbar]]></value>
+		<value><![CDATA[Klonen ist fehlgeschlagen! Die ursprüngliche Inhaltsseite ist nicht verfügbar.]]></value>
 	</definition>
 </definitions>

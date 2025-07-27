@@ -6,15 +6,14 @@
 	</definition>
 	<definition>
 		<key>default_textmarketer_note</key>
-		<value><![CDATA[Pour activer la messagerie SMS, accédez à Système -&gt; Paramètres -&gt; <a href="#admin#rt=setting/setting/im" target="_im">Messagerie instantanée</a><br/> et choisissez TextMarketer comme pilote SMS par défaut. N&#39;oubliez pas d&#39;activer la section de provenance 
- SMS (administrateur ou boutique). <br/> Cette extension activera le champ « Téléphone portable » pour les administrateurs et 
- clients. Sachez que la désactivation de cette extension masquera ce champ. 
- Si vous ajoutez cette extension à une boutique existante avec des clients, veuillez noter que cette information sera manquante 
-		]]></value>
+		<value><![CDATA[Pour activer la messagerie SMS, allez dans Système -> Paramètres -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/>
+et choisissez TextMarketer comme pilote SMS par défaut. N’oubliez pas d’activer la section où vous souhaitez recevoir les SMS (administration ou vitrine).<br/>
+Cette extension permettra d’afficher le champ Téléphone mobile pour les administrateurs et les clients. N’oubliez pas que la désactivation de cette extension masquera ce champ.	
+Si ajoutée à une boutique existante avec des clients, gardez à l’esprit que ces informations seront manquantes.]]></value>
 	</definition>
 	<definition>
 		<key>default_textmarketer_username</key>
-		<value><![CDATA[Nom d&#39;utilisateur de l&#39;API]]></value>
+		<value><![CDATA[Nom d’utilisateur API]]></value>
 	</definition>
 	<definition>
 		<key>default_textmarketer_password</key>
@@ -22,7 +21,7 @@
 	</definition>
 	<definition>
 		<key>default_textmarketer_originator</key>
-		<value><![CDATA[Auteur : <span class="help">l&#39;expéditeur du message (identifiant de l&#39;expéditeur ou de l&#39;expéditeur). Ce champ peut contenir 11 caractères alphanumériques ou 16 caractères numériques.</span>]]></value>
+		<value><![CDATA[Expéditeur : <span class="help">De qui provient le message (l’expéditeur ou l’identifiant de l’expéditeur). Cela peut être 11 caractères alphanumériques ou 16 caractères numériques uniquement.</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_textmarketer_test</key>
@@ -38,34 +37,34 @@
 	</definition>
 	<definition>
 		<key>default_textmarketer_logging</key>
-		<value><![CDATA[État de journalisation des erreurs <span class="help">Si vous souhaitez enregistrer toutes les erreurs de l&#39;extension TextMarketer, activez ce paramètre.</span>]]></value>
+		<value><![CDATA[Statut de journalisation des erreurs<span class="help">Si vous voulez consigner toutes les erreurs de l’extension TextMarketer, réglez ce paramètre sur ON.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_sms</key>
-		<value><![CDATA[ Téléphone mobile ]]></value>
+		<value><![CDATA[Téléphone portable]]></value>
 	</definition>
 	<definition>
 		<key>default_textmarketer_test_connection</key>
-		<value><![CDATA[Testez votre connexion : <span class="help">vous pouvez tester si les informations d’identification API que vous avez saisies sont correctes.</span>]]></value>
+		<value><![CDATA[Testez votre connexion:<span class="help">Vous pouvez tester si les identifiants API que vous avez saisis sont corrects.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_test</key>
-		<value><![CDATA[ Test ]]></value>
+		<value><![CDATA[Test]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Erreur ! Veuillez vérifier si l&#39;extension est activée.]]></value>
+		<value><![CDATA[Erreur ! Veuillez vérifier si l’extension est activée.]]></value>
 	</definition>
 	<definition>
 		<key>error_empty_test_phone_number</key>
-		<value><![CDATA[Erreur ! Veuillez indiquer le numéro de téléphone du destinataire.]]></value>
+		<value><![CDATA[Erreur ! Veuillez indiquer le numéro de téléphone du destinataire.]]></value>
 	</definition>
 	<definition>
 		<key>text_see_log</key>
-		<value><![CDATA[Consultez le journal des erreurs pour plus de détails.]]></value>
+		<value><![CDATA[Voir le journal des erreurs pour plus de détails.]]></value>
 	</definition>
 	<definition>
 		<key>text_connection_success</key>
-		<value><![CDATA[La connexion est réussie et les informations d’identification de l’API sont correctement configurées.]]></value>
+		<value><![CDATA[La connexion est réussie et les identifiants API sont configurés correctement.]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,23 +6,23 @@
 	</definition>
 	<definition>
 		<key>view_title</key>
-		<value><![CDATA[Objekt anzeigen Ressourcen]]></value>
+		<value><![CDATA[Objektressourcen anzeigen]]></value>
 	</definition>
 	<definition>
 		<key>confirm_title</key>
-		<value><![CDATA[Bestätigen Ressource (n) löschen]]></value>
+		<value><![CDATA[Löschung der Ressource(n) bestätigen]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_delete</key>
-		<value><![CDATA[Einige Ressourcen können in den Text aufgenommen werden. Wir können dies nicht automatisch überprüfen. Löschen?]]></value>
+		<value><![CDATA[Einige Ressourcen könnten im Text enthalten sein. Wir können dies nicht automatisch überprüfen. Löschen?]]></value>
 	</definition>
 	<definition>
 		<key>text_cant_delete_title</key>
-		<value><![CDATA[Ressource (n) löschen]]></value>
+		<value><![CDATA[Ressource(n) löschen]]></value>
 	</definition>
 	<definition>
 		<key>text_cant_delete</key>
-		<value><![CDATA[Cant Ressource (n) gelöscht werden, da eine oder mehrere Ressourcen-Objekt verknüpft]]></value>
+		<value><![CDATA[Ressource(n) kann nicht gelöscht werden, da eine oder mehrere Ressourcen mit dem Objekt verknüpft sind.]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_resource</key>
@@ -34,7 +34,7 @@
 	</definition>
 	<definition>
 		<key>text_mapped_to</key>
-		<value><![CDATA[Verbunden mit]]></value>
+		<value><![CDATA[Verknüpft mit]]></value>
 	</definition>
 	<definition>
 		<key>text_products</key>
@@ -42,11 +42,11 @@
 	</definition>
 	<definition>
 		<key>text_add_file</key>
-		<value><![CDATA[In Ressourcendatei]]></value>
+		<value><![CDATA[Ressourcendatei hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>text_add_code</key>
-		<value><![CDATA[Ressource hinzufügen HTML]]></value>
+		<value><![CDATA[HTML-Ressource hinzufügen]]></value>
 	</definition>
 	<definition>
 		<key>text_add_files</key>
@@ -54,11 +54,11 @@
 	</definition>
 	<definition>
 		<key>text_upload_files</key>
-		<value><![CDATA[Daten hochladen]]></value>
+		<value><![CDATA[Dateien hochladen]]></value>
 	</definition>
 	<definition>
 		<key>text_drag</key>
-		<value><![CDATA[oder ziehen Sie sie hier Upload zu starten]]></value>
+		<value><![CDATA[oder ziehen Sie sie hierher, um den Upload zu starten]]></value>
 	</definition>
 	<definition>
 		<key>text_start_upload</key>
@@ -70,15 +70,60 @@
 	</definition>
 	<definition>
 		<key>text_start</key>
-		<value><![CDATA[Anfang]]></value>
+		<value><![CDATA[Start
+{NROF_ITEMS} Artikel(e) für %s mit {ORDER_ID}.
+Sortieren nach: Datum hinzugefügt Name Preis Modell Hersteller
+Anzeige-Modus: Raster Liste
+Warenkorb
+Ihr Warenkorb ist leer!
+Adresse wiederverwenden?
+Rechnungsadresse wiederverwenden?
+Lieferadresse wiederverwenden?
+Buchhaltungseinstellungen
+Steuersätze neu berechnen
+und kommentieren.
+Endkontrolle – Bestellung aufgeben
+Zahlung
+Fehler beim Laden des Zahlungsformulars.
+Zahlungsfehler!
+Zahlung erfolgreich
+Nicht definiert.
+Zone
+Name des Rechnungsempfängers
+Adresse des Rechnungsempfängers
+Name des Empfängers
+Adresse des Empfängers
+Lieferadresse
+Keine Lieferadresse erforderlich.
+Kostenloser Versand
+Versandmethoden:
+Siehe andere verfügbare Methoden oder wir müssen den Versand separat in Rechnung stellen.
+Gutschein
+Gutschein(e)
+Gutscheine
+Gutschein einlösen
+Globales Nutzungslimit für Gutscheine erreicht.
+Nutzungslimit des Gutscheins für diesen Kunden überschritten.
+Gutschein läuft in {days} Tagen ab.
+Gutschein gültig bis %s.
+Gutschein ist nur einmal verwendbar.
+Gutscheine können nicht zusammen mit Rabattgutscheinen verwendet werden.
+% Rabatt
+Skontopreis
+Sie haben das Kreditlimit erreicht!
+Ihre Bestellung hat den maximal zulässigen Gesamtbetrag überschritten
+Der Warenkorb befindet sich derzeit im Bestellabschlussmodus.
+Automatischer Gutschein (%s) angewendet (es kann jeweils nur ein Gutschein verwendet werden).
+Klicken Sie hier, um fortzufahren.
+Bitte wählen Sie zuerst einen Gutschein aus.]]></value>
 	</definition>
 	<definition>
 		<key>text_cancel</key>
-		<value><![CDATA[Stornieren]]></value>
+		<value><![CDATA[Abbrechen]]></value>
 	</definition>
 	<definition>
 		<key>text_save_sort_order</key>
-		<value><![CDATA[Speichern Sie die Sortierreihenfolge]]></value>
+		<value><![CDATA[Sortierreihenfolge speichern]]></value>
 	</definition>
 	<definition>
 		<key>text_error</key>
@@ -94,11 +139,11 @@
 	</definition>
 	<definition>
 		<key>text_type</key>
-		<value><![CDATA[Art]]></value>
+		<value><![CDATA[Typ]]></value>
 	</definition>
 	<definition>
 		<key>text_resource_code</key>
-		<value><![CDATA[Ressourcen HTML]]></value>
+		<value><![CDATA[HTML-Ressource]]></value>
 	</definition>
 	<definition>
 		<key>text_name</key>
@@ -134,15 +179,15 @@
 	</definition>
 	<definition>
 		<key>text_unmap</key>
-		<value><![CDATA[Heben Sie die Verknüpfung von Object]]></value>
+		<value><![CDATA[Verknüpfung mit Objekt aufheben]]></value>
 	</definition>
 	<definition>
 		<key>text_unmap_from</key>
-		<value><![CDATA[Unlink von %s]]></value>
+		<value><![CDATA[Verknüpfung von %s aufheben]]></value>
 	</definition>
 	<definition>
 		<key>text_success_unmap</key>
-		<value><![CDATA[Erfolg: Ressource wurde nicht verknüpft.]]></value>
+		<value><![CDATA[Erfolg: Ressource wurde entkoppelt.]]></value>
 	</definition>
 	<definition>
 		<key>text_file_delete</key>
@@ -154,19 +199,19 @@
 	</definition>
 	<definition>
 		<key>error_file_type</key>
-		<value><![CDATA[Achtung: falsche Dateityp!]]></value>
+		<value><![CDATA[Warnung: Falscher Dateityp!]]></value>
 	</definition>
 	<definition>
 		<key>error_file_size</key>
-		<value><![CDATA[Achtung: Die Datei zu groß halten Sie sich bitte unter 300kb und nicht mehr als 1000px Höhe oder Breite!]]></value>
+		<value><![CDATA[Warnung: Datei zu groß, bitte halte sie unter 300kb und nicht mehr als 1000px Höhe oder Breite!]]></value>
 	</definition>
 	<definition>
 		<key>error_maxFileSize</key>
-		<value><![CDATA[Die Datei ist zu groß]]></value>
+		<value><![CDATA[Datei ist zu groß]]></value>
 	</definition>
 	<definition>
 		<key>error_minFileSize</key>
-		<value><![CDATA[Die Datei ist zu klein]]></value>
+		<value><![CDATA[Datei ist zu klein]]></value>
 	</definition>
 	<definition>
 		<key>error_acceptFileTypes</key>
@@ -178,67 +223,67 @@
 	</definition>
 	<definition>
 		<key>error_uploadedBytes</key>
-		<value><![CDATA[Hochgeladene Bytes überschreiten Dateigröße]]></value>
+		<value><![CDATA[Hochgeladene Bytes überschreiten die Dateigröße]]></value>
 	</definition>
 	<definition>
 		<key>error_emptyResult</key>
-		<value><![CDATA[Leere Datei-Upload-Ergebnis. Möglicherweise Datei ist beschädigt oder zu groß. Dateigröße begrenzt auf 16 MB. Wenn die Dateigröße kleiner als Limit bitte PHP-Einstellungen zu überprüfen upload_max_filesize &amp; post_max_size]]></value>
+		<value><![CDATA[Leeres Dateiupload-Ergebnis. Möglicherweise ist die Datei beschädigt oder zu groß. Die Dateigröße ist auf 16 MB begrenzt. Wenn die Dateigröße unter der Grenze liegt, überprüfen Sie bitte die PHP-Einstellungen für upload_max_filesize und post_max_size.]]></value>
 	</definition>
 	<definition>
 		<key>error_1</key>
-		<value><![CDATA[Datei überschreitet upload_max_filesize (php.ini-Richtlinie)]]></value>
+		<value><![CDATA[Datei überschreitet upload_max_filesize (php.ini-Direktive)]]></value>
 	</definition>
 	<definition>
 		<key>error_2</key>
-		<value><![CDATA[Datei überschreitet MAX_FILE_SIZE (HTML-Formular-Richtlinie)]]></value>
+		<value><![CDATA[Datei überschreitet MAX_FILE_SIZE (HTML-Formular-Direktive)]]></value>
 	</definition>
 	<definition>
 		<key>error_3</key>
-		<value><![CDATA[Die Datei wurde nur teilweise hochgeladen]]></value>
+		<value><![CDATA[Die Datei wurde nur teilweise hochgeladen.]]></value>
 	</definition>
 	<definition>
 		<key>error_4</key>
-		<value><![CDATA[Es wurde keine Datei hochgeladen]]></value>
+		<value><![CDATA[Keine Datei wurde hochgeladen]]></value>
 	</definition>
 	<definition>
 		<key>error_5</key>
-		<value><![CDATA[Fehlende einen temporären Ordner]]></value>
+		<value><![CDATA[Ein temporärer Ordner fehlt]]></value>
 	</definition>
 	<definition>
 		<key>error_6</key>
-		<value><![CDATA[Fehlgeschlagen Datei auf der Festplatte zu schreiben]]></value>
+		<value><![CDATA[Fehler beim Schreiben der Datei auf die Festplatte]]></value>
 	</definition>
 	<definition>
 		<key>error_7</key>
-		<value><![CDATA[Datei-Upload durch die Erweiterung gestoppt]]></value>
+		<value><![CDATA[Datei-Upload wurde durch die Erweiterung gestoppt]]></value>
 	</definition>
 	<definition>
 		<key>error_uploaded</key>
-		<value><![CDATA[Warnung: Datei konnte nicht aus einem unbekannten Grund hochgeladen werden!]]></value>
+		<value><![CDATA[Warnung: Datei konnte aus unbekanntem Grund nicht hochgeladen werden!]]></value>
 	</definition>
 	<definition>
 		<key>error_no_type</key>
-		<value><![CDATA[Bitte wählen Sie Ressourcentyp]]></value>
+		<value><![CDATA[Bitte Ressourcentyp auswählen]]></value>
 	</definition>
 	<definition>
 		<key>error_required_data</key>
-		<value><![CDATA[Erforderliche Daten wurden nicht eingegeben]]></value>
+		<value><![CDATA[Erforderliche Daten wurden nicht eingegeben.]]></value>
 	</definition>
 	<definition>
 		<key>error_not_added</key>
-		<value><![CDATA[Ressource hinzugefügt. Bitte überprüfen Sie das Fehlerprotokoll auf weitere Informationen]]></value>
+		<value><![CDATA[Ressource nicht hinzugefügt. Bitte überprüfen Sie das Fehlerprotokoll für weitere Informationen.]]></value>
 	</definition>
 	<definition>
 		<key>error_ajax</key>
-		<value><![CDATA[Lastdatenfehler. Bitte überprüfen Sie das Fehlerprotokoll auf weitere Informationen]]></value>
+		<value><![CDATA[Fehler beim Laden der Daten. Bitte prüfen Sie das Fehlerprotokoll auf weitere Informationen.]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Achtung: Zugriff verweigert!]]></value>
+		<value><![CDATA[Warnung: Berechtigung verweigert!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Fehler: Name Feld ist erforderlich!]]></value>
+		<value><![CDATA[Fehler: Namensfeld ist erforderlich!]]></value>
 	</definition>
 	<definition>
 		<key>button_delete</key>
@@ -250,11 +295,11 @@
 	</definition>
 	<definition>
 		<key>button_done</key>
-		<value><![CDATA[Erledigt]]></value>
+		<value><![CDATA[Fertig]]></value>
 	</definition>
 	<definition>
 		<key>button_select</key>
-		<value><![CDATA[Wählen Sie Ressourcen]]></value>
+		<value><![CDATA[Ressourcen auswählen]]></value>
 	</definition>
 	<definition>
 		<key>text_with_selected</key>
@@ -262,7 +307,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Ressourcen erfolgreich aktualisiert]]></value>
+		<value><![CDATA[Ressource erfolgreich aktualisiert]]></value>
 	</definition>
 	<definition>
 		<key>text_map_success</key>
@@ -274,15 +319,19 @@
 	</definition>
 	<definition>
 		<key>text_preview</key>
-		<value><![CDATA[Vorschau / herunterladen]]></value>
+		<value><![CDATA[Vorschau/Herunterladen]]></value>
 	</definition>
 	<definition>
 		<key>error_file size</key>
-		<value><![CDATA[Achtung: Maximale Größe der Datei für den Upload ist %s. Sie können diesen Wert in der php.ini erhöhen.]]></value>
+		<value><![CDATA[Achtung: Die maximale Dateigröße für den Upload beträgt %s. Sie können diesen Wert in php.ini erhöhen.]]></value>
 	</definition>
 	<definition>
 		<key>text_product_option_value</key>
-		<value><![CDATA[Mögliche Optionen Wert]]></value>
+		<value><![CDATA[Wert der Produktoptionen]]></value>
+	</definition>
+	<definition>
+		<key>text_products</key>
+		<value><![CDATA[Produkte]]></value>
 	</definition>
 	<definition>
 		<key>text_categories</key>
@@ -290,15 +339,15 @@
 	</definition>
 	<definition>
 		<key>text_manufacturers</key>
-		<value><![CDATA[Hersteller]]></value>
+		<value><![CDATA[Marken]]></value>
 	</definition>
 	<definition>
 		<key>error_delete</key>
-		<value><![CDATA[Kann nicht gelöscht werden, um mehrere Objekte Ressource verknüpft]]></value>
+		<value><![CDATA[Ressource kann nicht gelöscht werden, da sie mit mehreren Objekten verknüpft ist.]]></value>
 	</definition>
 	<definition>
 		<key>error_unmap</key>
-		<value><![CDATA[Kann nicht Ressource entkoppeln. Das Objekt wurde nicht festgelegt.]]></value>
+		<value><![CDATA[Die Ressource kann nicht entkoppelt werden. Das Objekt wurde nicht gesetzt.]]></value>
 	</definition>
 	<definition>
 		<key>text_replace_file</key>
@@ -306,19 +355,19 @@
 	</definition>
 	<definition>
 		<key>error_not_replaced</key>
-		<value><![CDATA[Datei-Ersatz Fehler. ID erforderlich!]]></value>
+		<value><![CDATA[Fehler beim Ersetzen der Datei. ID erforderlich!]]></value>
 	</definition>
 	<definition>
 		<key>error_not_exists</key>
-		<value><![CDATA[Datei-Ersatz Fehler. Ressource existiert nicht!]]></value>
+		<value><![CDATA[Fehler beim Ersetzen der Datei. Die Ressource existiert nicht!]]></value>
 	</definition>
 	<definition>
 		<key>error_cannot_move</key>
-		<value><![CDATA[Fehler: Kann nicht Datei %s zu Ressourcen Verzeichnis verschieben.]]></value>
+		<value><![CDATA[Fehler: Datei %s kann nicht in das Ressourcenverzeichnis verschoben werden.]]></value>
 	</definition>
 	<definition>
 		<key>button_save_n_apply</key>
-		<value><![CDATA[Speichern und Anwenden]]></value>
+		<value><![CDATA[Speichern und Übernehmen]]></value>
 	</definition>
 	<definition>
 		<key>text_image_size</key>
@@ -334,19 +383,19 @@
 	</definition>
 	<definition>
 		<key>text_file_path</key>
-		<value><![CDATA[Speicherort:]]></value>
+		<value><![CDATA[Dateispeicherort:]]></value>
 	</definition>
 	<definition>
 		<key>text_file_url</key>
-		<value><![CDATA[Ressourcen URL:]]></value>
+		<value><![CDATA[Ressourcen-URL:]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_asc</key>
-		<value><![CDATA[Datum Old &gt; Neu]]></value>
+		<value><![CDATA[Datum alt > neu]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_desc</key>
-		<value><![CDATA[Datum New &gt; Alt]]></value>
+		<value><![CDATA[Datum neu > alt]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_name_asc</key>
@@ -358,10 +407,10 @@
 	</definition>
 	<definition>
 		<key>text_sorting_asc</key>
-		<value><![CDATA[Sortierung Low &gt; Hoch]]></value>
+		<value><![CDATA[Sortierreihenfolge Niedrig > Hoch]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_desc</key>
-		<value><![CDATA[Sortierung Hoch &gt; Niedrig]]></value>
+		<value><![CDATA[Sortierreihenfolge Hoch > Niedrig]]></value>
 	</definition>
 </definitions>

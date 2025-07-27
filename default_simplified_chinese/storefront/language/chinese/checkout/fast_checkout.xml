@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[大车]]></value>
+		<value><![CDATA[购物车]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_basket</key>
@@ -10,20 +10,19 @@
 	</definition>
 	<definition>
 		<key>text_accept_agree</key>
-		<value><![CDATA[
-点击确认订单，即表示您接受并同意]]></value>
+		<value><![CDATA[点击“确认订单”即表示您接受并同意所有条款]]></value>
 	</definition>
 	<definition>
 		<key>text_cart_items</key>
-		<value><![CDATA[购物车中的商品]]></value>
+		<value><![CDATA[您购物车中的商品]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
-		<value><![CDATA[船运]]></value>
+		<value><![CDATA[运输]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_shipping</key>
-		<value><![CDATA[编辑运送]]></value>
+		<value><![CDATA[编辑配送]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -39,11 +38,11 @@
 	</definition>
 	<definition>
 		<key>text_shipping_address</key>
-		<value><![CDATA[收件地址]]></value>
+		<value><![CDATA[收货地址]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping_method</key>
-		<value><![CDATA[运送方式]]></value>
+		<value><![CDATA[配送方式]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_address</key>
@@ -51,11 +50,11 @@
 	</definition>
 	<definition>
 		<key>text_payment_method</key>
-		<value><![CDATA[付款方式]]></value>
+		<value><![CDATA[支付方式]]></value>
 	</definition>
 	<definition>
 		<key>text_change</key>
-		<value><![CDATA[改变]]></value>
+		<value><![CDATA[更改]]></value>
 	</definition>
 	<definition>
 		<key>text_comment</key>
@@ -63,7 +62,7 @@
 	</definition>
 	<definition>
 		<key>text_discount</key>
-		<value><![CDATA[折扣券]]></value>
+		<value><![CDATA[折扣优惠券]]></value>
 	</definition>
 	<definition>
 		<key>column_product</key>
@@ -83,7 +82,7 @@
 	</definition>
 	<definition>
 		<key>column_total</key>
-		<value><![CDATA[全部的]]></value>
+		<value><![CDATA[总计]]></value>
 	</definition>
 	<definition>
 		<key>text_add_coupon</key>
@@ -111,7 +110,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_handler</key>
-		<value><![CDATA[无法找到付款处理程序！请检查文件 %s 或 %s]]></value>
+		<value><![CDATA[无法定位支付处理程序！请检查文件 %s 或 %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_handler</key>
@@ -119,35 +118,35 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unknown_payment</key>
-		<value><![CDATA[未知付款！]]></value>
+		<value><![CDATA[未知支付！]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unexpected</key>
-		<value><![CDATA[发生意外错误！请重试。]]></value>
+		<value><![CDATA[发生意外错误！请再试一次。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unexpected_log</key>
-		<value><![CDATA[发生意外错误。无法根据数组构建订单数据：%s]]></value>
+		<value><![CDATA[发生了意外错误。无法基于数组构建订单数据：%s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_handler_object</key>
-		<value><![CDATA[无法确认订单。付款处理者不是对象。]]></value>
+		<value><![CDATA[无法确认订单。支付处理程序不是对象。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_system_issue</key>
-		<value><![CDATA[哎呀！系统问题。请联系网站管理员。]]></value>
+		<value><![CDATA[哎呀！系统出现问题。请联系网站管理员。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_payment</key>
-		<value><![CDATA[沒有可用付款。]]></value>
+		<value><![CDATA[没有可用的付款方式。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_product_option</key>
-		<value><![CDATA[产品选项错误。〜]]></value>
+		<value><![CDATA[产品选项错误。 %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_address</key>
-		<value><![CDATA[您的帐户中未找到任何地址！请在您的帐户中添加地址。]]></value>
+		<value><![CDATA[在您的账户中未找到任何地址！请在您的账户中添加一个地址。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_low_balance</key>
@@ -155,7 +154,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_pay</key>
-		<value><![CDATA[处理帐户信用付款时出现问题！请重试。]]></value>
+		<value><![CDATA[处理账户信用付款时出现问题！请重试。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_payment_address</key>
@@ -163,19 +162,19 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_payment_unavailable</key>
-		<value><![CDATA[您所在的位置不提供付款服务。]]></value>
+		<value><![CDATA[您所在的地区无法进行支付。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_shipping_address</key>
-		<value><![CDATA[送货地址缺失或未选择。]]></value>
+		<value><![CDATA[送货地址缺失或未被选择。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_shipping_method</key>
-		<value><![CDATA[未选择递送方式。]]></value>
+		<value><![CDATA[未选择送货方式。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_phone</key>
-		<value><![CDATA[未提供您的联系电话号码。]]></value>
+		<value><![CDATA[您的联系电话未提供。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_owner</key>
@@ -187,7 +186,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_card_number</key>
-		<value><![CDATA[未提供信用卡号。]]></value>
+		<value><![CDATA[未提供信用卡号码。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_cvv</key>
@@ -195,19 +194,19 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_expire</key>
-		<value><![CDATA[未提供信用卡到期日期或信用卡到期日期无效。]]></value>
+		<value><![CDATA[信用卡到期日未提供或无效。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_apply</key>
-		<value><![CDATA[未提供信用卡到期日期或信用卡到期日期无效。]]></value>
+		<value><![CDATA[信用卡到期日期未提供或无效。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_account_created</key>
-		<value><![CDATA[帐户已创建，登录说明已发送至您的电子邮箱。]]></value>
+		<value><![CDATA[您的账户已创建，登录说明已发送到您的电子邮箱。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_mail_login_password</key>
-		<value><![CDATA[您的登录名：%s <br/>您的密码：%s]]></value>
+		<value><![CDATA[您的登录名：%s <br>您的密码：%s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_order_success_message</key>
@@ -227,11 +226,11 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_shipping_method</key>
-		<value><![CDATA[选择送货方式]]></value>
+		<value><![CDATA[选择配送方式]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay_with</key>
-		<value><![CDATA[付款方式：]]></value>
+		<value><![CDATA[支付方式：]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_credit_card</key>
@@ -239,7 +238,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_account_credit</key>
-		<value><![CDATA[账户信用（%s）]]></value>
+		<value><![CDATA[账户信用 (%s)]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay</key>
@@ -247,23 +246,23 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_enter_cc_details</key>
-		<value><![CDATA[输入以下信用卡详细信息]]></value>
+		<value><![CDATA[在下方输入信用卡详细信息]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_your_balance</key>
-		<value><![CDATA[您的账户余额为]]></value>
+		<value><![CDATA[您的账户信用余额是]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay_from_balance</key>
-		<value><![CDATA[使用信用卡付款]]></value>
+		<value><![CDATA[使用信用支付 %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_telephone_placeholder</key>
-		<value><![CDATA[联系电话 例如：+1.212.555.5555]]></value>
+		<value><![CDATA[联系电话号码 例如 +1.212.555.5555]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_same_as_shipping_address</key>
-		<value><![CDATA[送货也一样]]></value>
+		<value><![CDATA[配送也是如此]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_enter_address</key>
@@ -275,7 +274,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_bill_me_monthly</key>
-		<value><![CDATA[按月向我收费]]></value>
+		<value><![CDATA[每月向我收费]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_create_account</key>
@@ -291,7 +290,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_button_reset_login</key>
-		<value><![CDATA[注册/重置登录]]></value>
+		<value><![CDATA[注册 / 重置登录]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_login</key>
@@ -307,7 +306,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_new_customer</key>
-		<value><![CDATA[我是新顾客]]></value>
+		<value><![CDATA[我是新客户]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_loading</key>
@@ -315,11 +314,11 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_is_completed</key>
-		<value><![CDATA[订单完成！]]></value>
+		<value><![CDATA[订单已完成！]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_thank_you</key>
-		<value><![CDATA[感谢您的订购！]]></value>
+		<value><![CDATA[感谢您的订单！]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_start_download</key>
@@ -327,7 +326,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_downloads</key>
-		<value><![CDATA[订购下载]]></value>
+		<value><![CDATA[订单下载]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_order_details</key>
@@ -335,23 +334,23 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_delivery</key>
-		<value><![CDATA[请选择送货方式]]></value>
+		<value><![CDATA[请选择配送选项]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_payment</key>
-		<value><![CDATA[请选择付款方式]]></value>
+		<value><![CDATA[请选择支付选项]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_download_pending</key>
-		<value><![CDATA[您的订单中的产品尚无法下载。请等待订单验证！]]></value>
+		<value><![CDATA[您订单中的产品下载尚不可用。请等待订单验证！]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_info_duplicate_order</key>
-		<value><![CDATA[您似乎刚刚下了不同的订单。<a href="%s">查看订单详情</a>]]></value>
+		<value><![CDATA[看起来您刚刚下了一个不同的订单。 <a href="%s">查看订单详情</a>]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_email_start_download</key>
-		<value><![CDATA[您可以通过下面的链接下载。]]></value>
+		<value><![CDATA[您可以通过下面的链接访问您的下载。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_email_order_downloads</key>
@@ -359,15 +358,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_download_subject</key>
-		<value><![CDATA[您的订单下载。]]></value>
+		<value><![CDATA[您的订单下载]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_apply</key>
-		<value><![CDATA[申请]]></value>
+		<value><![CDATA[应用]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_remove</key>
-		<value><![CDATA[消除]]></value>
+		<value><![CDATA[删除]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_coupon_code</key>
@@ -391,7 +390,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_no_shipments_available</key>
-		<value><![CDATA[沒有可供出货。]]></value>
+		<value><![CDATA[没有可用的运输方式。]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_telephone_placeholder</key>
@@ -399,7 +398,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_email_placeholder</key>
-		<value><![CDATA[您的电子邮件地址]]></value>
+		<value><![CDATA[您的电子邮件]]></value>
 	</definition>
 	<definition>
 		<key>button_history</key>
@@ -411,11 +410,11 @@
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[大车]]></value>
+		<value><![CDATA[购物车]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_comment_placeholder</key>
-		<value><![CDATA[添加订单评论]]></value>
+		<value><![CDATA[添加订单备注]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_not_enough_stock</key>
@@ -435,31 +434,29 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_authenticating</key>
-		<value><![CDATA[正在验证... ]]></value>
+		<value><![CDATA[正在验证 ...]]></value>
 	</definition>
 	<definition>
 		<key>text_message_account</key>
-		<value><![CDATA[
-<p>您的订单#%s已创建！</p> 
-<p>您可以前往<a href="%s">发票页面</a>查看您的订单详情。</p> 
-<p>如果您有任何问题，请直接向<a href="%s">店主</a>咨询。</p> 
-<p>感谢您来此购物！</p>]]></value>
+		<value><![CDATA[<p>您的订单 #%s 已创建！</p>
+<p>您可以通过访问 <a href="%s">发票页面</a> 查看订单详情。</p>
+<p>如有任何问题，请联系 <a href="%s">店主</a>。</p>
+<p>感谢您在本店购物！</p>]]></value>
 	</definition>
 	<definition>
 		<key>text_message_guest</key>
-		<value><![CDATA[
-<p>您的订单已成功处理！</p> 
-<p>您可以前往<a href="%s">发票页面</a>查看您的订单详情。</p> 
-<p>如果您有任何问题，请直接向<a href="%s">店主</a>咨询。</p> 
-<p>感谢您来此购物！</p>]]></value>
+		<value><![CDATA[<p>您的订单已成功处理！</p>
+<p>您可以前往<a href="%s">发票页面</a>查看您的订单详细信息。</p>
+<p>如有任何疑问，请联系<a href="%s">店主</a>。</p>
+<p>感谢您在我们店购物！</p>]]></value>
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[大车]]></value>
+		<value><![CDATA[购物车]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
-		<value><![CDATA[船运]]></value>
+		<value><![CDATA[运输]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -467,7 +464,7 @@
 	</definition>
 	<definition>
 		<key>text_guest</key>
-		<value><![CDATA[客人结账]]></value>
+		<value><![CDATA[访客结账]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm</key>
@@ -479,14 +476,14 @@
 	</definition>
 	<definition>
 		<key>text_message_failed_order</key>
-		<value><![CDATA[哎呀！您的交易出现了一些问题。管理员将手动验证您的订单。]]></value>
+		<value><![CDATA[哎呀！我们在您的交易过程中遇到了一些问题。您的订单将由管理员手动验证。]]></value>
 	</definition>
 	<definition>
 		<key>text_title_failed_order_to_admin</key>
-		<value><![CDATA[订单失败#%s]]></value>
+		<value><![CDATA[失败的订单 #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_message_failed_order_to_admin</key>
-		<value><![CDATA[付款验证失败或缺少响应。需要手动验证！]]></value>
+		<value><![CDATA[支付验证失败或未收到响应。需要手动验证！]]></value>
 	</definition>
 </definitions>

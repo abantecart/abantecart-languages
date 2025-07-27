@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Authorize.Net भुगतान]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[Authorize.Net भुगतान सेटअप पूरा करने के लिए अतिरिक्त सेटिंग्स की आवश्यकता है। अतिरिक्त सेटिंग्स टैब देखें।]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[भुगतान]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[सफलता: आपने Authorize.Net भुगतान सेटिंग्स संशोधित की हैं!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[स्थान:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[सभी स्थान]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[API लॉगिन आईडी:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[परीक्षण मोड:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[लेनदेन कुंजी:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[सार्वजनिक कुंजी:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[स्वचालित चयन:<br /><span class="help">यदि केवल एक भुगतान विकल्प हो, तो आप भुगतान चयन पृष्ठ छोड़ने के लिए सेट कर सकते हैं। यह भुगतान विधि स्वचालित रूप से चुनी जाएगी।</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[क्रेडिट कार्ड सहेज सकते हैं:<br /><span class="help">ग्राहकों द्वारा सहेजे जाने वाले क्रेडिट कार्ड की अधिकतम संख्या सेट करें (अधिकतम 100)। यदि इसे 0 या रिक्त पर सेट किया गया है, तो कार्ड सहेजना अनुमत नहीं होगा। सुरक्षा सूचना: ग्राहक के क्रेडिट कार्ड विवरण अधिकतम डेटा सुरक्षा सुनिश्चित करने के लिए authorizenet के सुरक्षित सर्वरों पर सहेजे जाते हैं। आपकी साइट पर कोई भी क्रेडिट कार्ड विवरण सहेजा नहीं जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[भुगतान विवरण सेट अप करने के लिए आपको authorizenet से कनेक्ट करना होगा।]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Authorize.Net सेटिंग्स]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Authorize.Net के साथ जुड़ें]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Authorize.Net से डिस्कनेक्ट करें]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[कनेक्ट नहीं कर सकते?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Authorize.Net से सफलतापूर्वक जुड़ा गया]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Authorize.Net से सफलतापूर्वक डिस्कनेक्ट किया गया]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[छंटने का क्रम]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[परीक्षण मोड:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[लाइव गुप्त कुंजी:<br /><span class="help">इसे Authorize.Net API कुंजियाँ अनुभाग में ढूंढें। कुंजी sk_live_... से शुरू होती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[लाइव पब्लिशेबल कुंजी:<br /><span class="help">Authorize.Net API कुंजी अनुभाग में इसे खोजें। कुंजी pk_live_... से शुरू होती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[Test Secret Key:<br /><span class="help">इसे Authorize.Net API Keys अनुभाग में खोजें। कुंजी sk_test_... से शुरू होती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[परीक्षण प्रकाशन-योग्य कुंजी:<br /><span class="help">इसे Authorize.Net API कुंजी अनुभाग में खोजें। कुंजी pk_test_... से शुरू होती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[निपटान का प्रकार:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[केवल अधिकृत करें]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[प्राधिकृत और कैप्चर]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[Success & settled:<br /><span class="help">भुगतान प्रोसेसर की स्थिति के उत्तर में सेट करने के लिए मुख्य ऑर्डर स्थिति चुनें</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[सफल और निस्तारित नहीं:<br /><span class="help">भुगतान प्रोसेसर की स्थिति के प्रति प्रतिक्रिया में आप जो मुख्य ऑर्डर स्थिति सेट करना चाहते हैं, उसे चुनें</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[लेन-देन तिथि]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[राशि]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[स्वचालित (अधिकृत करें और कैप्चर करें)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[विलंबित (केवल अधिकृत)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[भुगतान विवरण]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Authorize.Net लेनदेन आईडी]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[लेनदेन की स्थिति]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[कुल अधिकृत राशि]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[शेष राशि]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[आंतरिक त्रुटि. त्रुटि लॉग या इनपुट पैरामीटर की जाँच करें!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[कृपया सकारात्मक राशि दर्ज करें]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[Authorize.Net परीक्षण कुंजी आवश्यक है]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[Authorize.Net लाइव कुंजी की आवश्यकता है]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास Authorize.Net भुगतान को संशोधित करने की अनुमति नहीं है!]]></value>
+	</definition>
+</definitions>

@@ -2,11 +2,11 @@
 <definitions>
 	<definition>
 		<key>text_title</key>
-		<value><![CDATA[Кредитна картка/дебетова картка (через Paypal)]]></value>
+		<value><![CDATA[Кредитна картка / Дебетова картка (через PayPal)]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_name</key>
-		<value><![CDATA[Paypal Commerce]]></value>
+		<value><![CDATA[Комерція PayPal]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_manual_connect</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_client_id</key>
-		<value><![CDATA[Ваш ідентифікатор клієнта API <br/><span class="help">Знайдіть це в розділі «Мої програми та облікові дані» панелі інструментів Paypal -&gt; Розробник</span>]]></value>
+		<value><![CDATA[Ваш ідентифікатор клієнта API<br /><span class="help">Знайдіть це в розділі «Мої додатки та облікові дані» у панелі керування PayPal -> Розробник</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_client_secret</key>
-		<value><![CDATA[Ваш секретний ключ API <br/><span class="help">Знайдіть це в розділі «Мої програми та облікові дані» панелі інструментів Paypal -&gt; Розробник</span>]]></value>
+		<value><![CDATA[Ваш секретний ключ API<br /><span class="help">Знайдіть його в розділі «Мої додатки та облікові дані» на панелі PayPal -> Розробник</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_test_mode</key>
@@ -26,35 +26,35 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_transaction_type</key>
-		<value><![CDATA[Метод транзакції: <br/><span class="help">транзакції PayPal, які виконуються на касі клієнта до встановлення статусу замовлення. Лише авторизація або захоплення.</span>]]></value>
+		<value><![CDATA[Transaction Method:<br/><span class="help">Транзакція PayPal виконується при оформленні замовлення клієнтом перед встановленням статусу замовлення. Тільки авторизація або списання.</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_transaction_type_capture</key>
-		<value><![CDATA[захоплення]]></value>
+		<value><![CDATA[Списати]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_transaction_type_authorize</key>
-		<value><![CDATA[Лише авторизувати]]></value>
+		<value><![CDATA[Тільки авторизувати]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_test_connection</key>
-		<value><![CDATA[Тестове підключення]]></value>
+		<value><![CDATA[Перевірити з’єднання]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_test</key>
-		<value><![CDATA[Перевірте зараз]]></value>
+		<value><![CDATA[Тестувати зараз]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_update_webhooks</key>
-		<value><![CDATA[Оновіть веб-хуки]]></value>
+		<value><![CDATA[Оновити вебхуки]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_tooltip_update_webhooks</key>
-		<value><![CDATA[ Веб-хуки будуть налаштовані автоматично під час підключення до PayPal. Використовуйте цю кнопку, щоб оновити веб-хуки в PayPal ]]></value>
+		<value><![CDATA[Вебхуки будуть налаштовані автоматично під час підключення до PayPal. Використайте цю кнопку, щоб оновити вебхуки у PayPal.]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_connection_success</key>
-		<value><![CDATA[Підключення успішно встановлено.]]></value>
+		<value><![CDATA[З’єднання встановлено успішно.]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
@@ -62,7 +62,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: ви змінили налаштування платежу Paypal!]]></value>
+		<value><![CDATA[Успіх: Ви змінили налаштування оплати PayPal!]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_location_id</key>
@@ -70,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_location_id_0</key>
-		<value><![CDATA[Усі локації]]></value>
+		<value><![CDATA[Всі локації]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status</key>
@@ -78,16 +78,15 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_autoselect</key>
-		<value><![CDATA[
- Автоматичний вибір: <br/><span class="help">Ви можете налаштувати пропуск сторінки вибору платежу, якщо є лише один варіант оплати. Цей спосіб оплати буде вибрано автоматично</span>]]></value>
+		<value><![CDATA[Автовибір:<br /><span class="help">Ви можете налаштувати пропуск сторінки вибору способу оплати, якщо є лише один варіант оплати. Цей спосіб оплати буде вибраний автоматично</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_paypal_commerce_connect</key>
-		<value><![CDATA[Вам потрібно підключитися до PayPal, щоб налаштувати деталі платежу]]></value>
+		<value><![CDATA[Вам потрібно підключитися до PayPal, щоб налаштувати деталі платежу.]]></value>
 	</definition>
 	<definition>
 		<key>text_paypal_commerce_settings</key>
-		<value><![CDATA[Налаштування Paypal]]></value>
+		<value><![CDATA[Налаштування PayPal]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_sort_order</key>
@@ -99,32 +98,31 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_register_webhooks</key>
-		<value><![CDATA[Оновіть кінцеві точки Webhooks на стороні API]]></value>
+		<value><![CDATA[Оновити кінцеві точки Webhooks на стороні API]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_register_webhooks_success</key>
-		<value><![CDATA[Кінцеві точки Webhooks успішно оновлено!]]></value>
+		<value><![CDATA[Кінцеві точки вебхуків успішно оновлено!]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_success_settled</key>
-		<value><![CDATA[Успіх і захоплення: <br/><span class="help">Виберіть статус основного замовлення, який потрібно встановити у відповідь на стан платіжного процесора</span>]]></value>
+		<value><![CDATA[Успішно & списано:<br /><span class="help">Виберіть основний статус замовлення, який ви хочете встановити у відповідь на статус платіжного процесора</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_success_unsettled</key>
-		<value><![CDATA[Успішно та не зафіксовано: <br/><span class="help">Виберіть статус основного замовлення, який потрібно встановити у відповідь на статус платіжного процесора</span>]]></value>
+		<value><![CDATA[Успішно та не знято:<br /><span class="help">Виберіть основний статус замовлення, який ви хочете встановити у відповідь на статус платіжного процесора</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_decline</key>
-		<value><![CDATA[
- Відхилення: <br/><span class="help">Статус замовлення, який ви хочете записати в історію відповідно до статусу платіжного процесора. Статус основного замовлення не впливає. Замовлення не буде розміщено лише після успішної оплати.</span>]]></value>
+		<value><![CDATA[Відхилено:<br /><span class="help">Статус замовлення, який ви хочете записати в історію у відповідь на статус платіжного процесора. Основний статус замовлення не змінюється. Замовлення буде розміщено тільки після успішної оплати.</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_capture_pending</key>
-		<value><![CDATA[Очікує:]]></value>
+		<value><![CDATA[Очікується:</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_refund</key>
-		<value><![CDATA[Повернено: <br/><span class="help">статуси замовлення, які ви бажаєте встановити, якщо платіж повернуто в адмін/замовлення.</span>]]></value>
+		<value><![CDATA[Повернено:<br /><span class="help">Статус замовлення, який ви хочете встановити, якщо платіж буде повернено в admin/order.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_column_date_added</key>
@@ -136,27 +134,27 @@
 	</definition>
 	<definition>
 		<key>text_captured_ok</key>
-		<value><![CDATA[Кошти були успішно залучені]]></value>
+		<value><![CDATA[Кошти успішно списані]]></value>
 	</definition>
 	<definition>
 		<key>text_captured_order</key>
-		<value><![CDATA[Захоплення пройшло успішно, статус замовлення оновлено до успішного – зафіксовано]]></value>
+		<value><![CDATA[Захоплення було успішним, статус замовлення оновлено на «успішно – захоплено»]]></value>
 	</definition>
 	<definition>
 		<key>text_refunded_ok</key>
-		<value><![CDATA[Відшкодування оброблено успішно]]></value>
+		<value><![CDATA[Повернення коштів було успішно оброблено]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_order</key>
-		<value><![CDATA[Відшкодування виконано, статус замовлення оновлено на відшкодовано]]></value>
+		<value><![CDATA[Повернення коштів пройшло успішно, статус замовлення оновлено на поверено.]]></value>
 	</definition>
 	<definition>
 		<key>text_voided</key>
-		<value><![CDATA[Анулювання виконано успішно, статус замовлення змінено на анульовано]]></value>
+		<value><![CDATA[Скасування виконано успішно, статус замовлення оновлено на скасовано]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_settlement_auto</key>
-		<value><![CDATA[Автоматично (авторизувати та захопити)]]></value>
+		<value><![CDATA[Авто (авторизація та списання)]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_settlement_delayed</key>
@@ -164,23 +162,23 @@
 	</definition>
 	<definition>
 		<key>text_payment_info</key>
-		<value><![CDATA[Платіжні реквізити]]></value>
+		<value><![CDATA[Деталі платежу]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_status</key>
-		<value><![CDATA[Платіж зафіксовано]]></value>
+		<value><![CDATA[Платіж було списано]]></value>
 	</definition>
 	<definition>
 		<key>text_void_status</key>
-		<value><![CDATA[Платіж анульовано]]></value>
+		<value><![CDATA[Платіж було анульовано]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_status</key>
-		<value><![CDATA[Оплату повернули]]></value>
+		<value><![CDATA[Платіж було повернено]]></value>
 	</definition>
 	<definition>
 		<key>text_capture_amount</key>
-		<value><![CDATA[Сума захоплення]]></value>
+		<value><![CDATA[Сума списання]]></value>
 	</definition>
 	<definition>
 		<key>text_refund_amount</key>
@@ -188,27 +186,27 @@
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[Ідентифікатор оплати Paypal]]></value>
+		<value><![CDATA[Ідентифікатор стягнення PayPal]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total</key>
-		<value><![CDATA[Загальна дозволена сума]]></value>
+		<value><![CDATA[Загальна авторизована сума]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
-		<value><![CDATA[Сума залишку]]></value>
+		<value><![CDATA[Сума балансу]]></value>
 	</definition>
 	<definition>
 		<key>text_transactions</key>
-		<value><![CDATA[Трансакції повернення коштів]]></value>
+		<value><![CDATA[Транзакції повернення]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_void</key>
-		<value><![CDATA[Будь ласка, підтвердьте, що ви хочете анулювати платіж?]]></value>
+		<value><![CDATA[Будь ласка, підтвердьте, чи хочете ви анулювати платіж?]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_capture</key>
-		<value><![CDATA[Підтвердьте, що ви хочете отримати платіж?]]></value>
+		<value><![CDATA[Будь ласка, підтвердіть, що ви хочете списати платіж?]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_refund</key>
@@ -216,15 +214,15 @@
 	</definition>
 	<definition>
 		<key>button_refund</key>
-		<value><![CDATA[Повернення]]></value>
+		<value><![CDATA[Повернення коштів]]></value>
 	</definition>
 	<definition>
 		<key>button_void</key>
-		<value><![CDATA[Пустота]]></value>
+		<value><![CDATA[Пусто]]></value>
 	</definition>
 	<definition>
 		<key>button_capture</key>
-		<value><![CDATA[захоплення]]></value>
+		<value><![CDATA[Списати кошти]]></value>
 	</definition>
 	<definition>
 		<key>error_system</key>
@@ -232,23 +230,23 @@
 	</definition>
 	<definition>
 		<key>error_missing_amount</key>
-		<value><![CDATA[Введіть позитивну суму]]></value>
+		<value><![CDATA[Будь ласка, введіть позитивну суму]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_capture</key>
-		<value><![CDATA[Не вдалося зафіксувати, оновити деталі транзакції та перевірити отриману суму]]></value>
+		<value><![CDATA[Не вдалося провести списання, оновити деталі транзакції та перевірити суму списання]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_void</key>
-		<value><![CDATA[Неможливо анулювати транзакцію, оновити та перевірити деталі транзакції]]></value>
+		<value><![CDATA[Не вдалося анулювати транзакцію, оновіть сторінку та перевірте деталі транзакції.]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_refund</key>
-		<value><![CDATA[Неможливо відшкодувати, оновити дані транзакції та перевірити суму відшкодування]]></value>
+		<value><![CDATA[Неможливо здійснити повернення коштів, оновіть деталі транзакції та перевірте суму повернення]]></value>
 	</definition>
 	<definition>
 		<key>text_connect</key>
-		<value><![CDATA[Підключіться до Paypal	]]></value>
+		<value><![CDATA[Підключитися до PayPal]]></value>
 	</definition>
 	<definition>
 		<key>text_disconnect</key>
@@ -256,7 +254,7 @@
 	</definition>
 	<definition>
 		<key>text_skip_connect</key>
-		<value><![CDATA[Не можете підключитися?]]></value>
+		<value><![CDATA[Не вдається підключитися?]]></value>
 	</definition>
 	<definition>
 		<key>text_connect_success</key>
@@ -268,15 +266,15 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Попередження: у вас немає дозволу на зміну Paypal Commerce Payment!]]></value>
+		<value><![CDATA[Попередження: Ви не маєте дозволу змінювати Paypal Commerce Payment!]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_settlement_auto</key>
-		<value><![CDATA[Автоматично (авторизувати та захопити)]]></value>
+		<value><![CDATA[Авто (авторизувати та списати кошти)]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_settlement_delayed</key>
-		<value><![CDATA[Відкладено (лише авторизація)]]></value>
+		<value><![CDATA[Відкладено (тільки авторизація)]]></value>
 	</definition>
 	<definition>
 		<key>error_system</key>
@@ -284,19 +282,19 @@
 	</definition>
 	<definition>
 		<key>error_paypal_commerce_client_id</key>
-		<value><![CDATA[Необхідний ідентифікатор клієнта програми]]></value>
+		<value><![CDATA[Ідентифікатор клієнта додатку є обов’язковим]]></value>
 	</definition>
 	<definition>
 		<key>error_paypal_commerce_client_secret</key>
-		<value><![CDATA[Потрібен секретний ключ програми]]></value>
+		<value><![CDATA[Потрібен секретний ключ додатку]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Попередження: у вас немає дозволу на зміну Paypal Commerce Payment!]]></value>
+		<value><![CDATA[Увага: Ви не маєте дозволу змінювати Paypal Commerce Payment!]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Помилка! Будь ласка, перевірте, чи розширення ввімкнено.]]></value>
+		<value><![CDATA[Помилка! Будь ласка, перевірте, чи розширення увімкнено.]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_back</key>
@@ -304,9 +302,8 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_webhook_howto_text</key>
-		<value><![CDATA[Примітка: щоб завершити налаштування, вам слід створити веб-хуки на стороні облікового запису Paypal. 
- <br/> Перейдіть до розділу 
- <a href="https://dashboard.paypal.com/webhooks" target="_new">розробника інформаційної панелі Paypal</a> і додайте кінцеві точки, які отримують події з вашого облікового запису. Після створення кінцевої точки скопіюйте Signing Secret і збережіть у налаштуваннях Paypal Subscription Extension. 
-]]></value>
+		<value><![CDATA[Примітка: Щоб завершити налаштування, потрібно створити вебхуки на боці облікового запису PayPal.	
+<br>Перейдіть до вашого <a href="https://dashboard.paypal.com/webhooks" target="_new">розділу розробника PayPal Dashboard</a>	
+та додайте Endpoints для отримання подій із вашого облікового запису. Після створення Endpoint скопіюйте Signing Secret і збережіть його в налаштуваннях розширення PayPal Subscription Extension.]]></value>
 	</definition>
 </definitions>

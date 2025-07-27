@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已更新的总手续费！]]></value>
+		<value><![CDATA[成功：您已更新总手续费！]]></value>
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[订单总额： <span class="help">最低订单额要达到申请费。如果客户的订单总额将超过这一数额，处理feee将不会被应用。此值覆盖付款的具体设置。</span>]]></value>
+		<value><![CDATA[订单总额：<span class="help">达到此金额时方可收取费用的最低订单金额。如果客户订单总额超过此金额，则不收取手续费。此值会被特定支付设置覆盖。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_total_placeholder</key>
@@ -26,31 +26,31 @@
 	</definition>
 	<definition>
 		<key>entry_fee</key>
-		<value><![CDATA[<span class="help">无以复加的费用，如果最低金额条件不满足于订单总额</span> ：费<span class="help">。这一数额是通过支付特定的设置覆盖</span>]]></value>
+		<value><![CDATA[费用：<span class="help">如果未满足最低金额条件，则将该费用添加到订单总额中。此金额会被支付方式特定设置覆盖。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_payment_fee</key>
-		<value><![CDATA[<span class="help">无以复加的费用，如果最低分总金额条件不满足于订单总额</span> ：费<span class="help">。这一数额覆盖主要费用设定</span>]]></value>
+		<value><![CDATA[费用：<span class="help">如果未满足最低小计金额条件，此费用将添加到订单总额。此金额将覆盖主费用设置。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_payment</key>
-		<value><![CDATA[付款方式： <span class="help">选择你需要的费用添加到特定的付款。如果付款是由客户使用这些设置将覆盖主要设置。</span>]]></value>
+		<value><![CDATA[支付方式:<span class="help">选择需要添加手续费的特定支付方式。若客户使用该支付方式，此处设置将覆盖主设置。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_subtotal</key>
-		<value><![CDATA[订单小计： <span class="help">要达到最低订货子总金额申请费。这将覆盖主设定</span>]]></value>
+		<value><![CDATA[Order Sub-Total:<span class="help">达到此最低订单小计金额即可应用费用。此设置会覆盖主设置</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax</key>
-		<value><![CDATA[税务类： <span class="help">如果您需要税务选择在最上层的手续费可以应用</span>]]></value>
+		<value><![CDATA[税类：<span class="help">选择是否需要将税费叠加在手续费上</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[状态：]]></value>
+		<value><![CDATA[状态:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
-		<value><![CDATA[排序：]]></value>
+		<value><![CDATA[排序顺序:]]></value>
 	</definition>
 	<definition>
 		<key>entry_calculation_order</key>
@@ -58,10 +58,10 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改总的手续费！]]></value>
+		<value><![CDATA[警告: 您没有权限修改总手续费！]]></value>
 	</definition>
 	<definition>
 		<key>error_number</key>
-		<value><![CDATA[警告：订单总额和手续费必须是一个数字！]]></value>
+		<value><![CDATA[警告：订单总额和手续费必须是数字！]]></value>
 	</definition>
 </definitions>

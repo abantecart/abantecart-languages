@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>text_enlarge</key>
-		<value><![CDATA[이미지를 클릭하면 확대]]></value>
+		<value><![CDATA[확대하려면 이미지를 클릭하세요]]></value>
 	</definition>
 	<definition>
 		<key>text_zoom</key>
-		<value><![CDATA[확대 할 이미지 위에 포인터를 이동]]></value>
+		<value><![CDATA[이미지 위에 포인터를 올려 확대하세요.]]></value>
+	</definition>
+	<definition>
+		<key>text_quantity_discount</key>
+		<value><![CDATA[수량 할인:]]></value>
 	</definition>
 	<definition>
 		<key>text_options</key>
-		<value><![CDATA[사용 가능한 옵션 :]]></value>
+		<value><![CDATA[사용 가능한 옵션:]]></value>
 	</definition>
 	<definition>
 		<key>text_error</key>
@@ -22,19 +26,27 @@
 	</definition>
 	<definition>
 		<key>text_availability</key>
-		<value><![CDATA[유효성:]]></value>
+		<value><![CDATA[재고 상태:]]></value>
 	</definition>
 	<definition>
 		<key>text_model</key>
 		<value><![CDATA[모델:]]></value>
 	</definition>
 	<definition>
+		<key>text_sku</key>
+		<value><![CDATA[재고 관리 단위:]]></value>
+	</definition>
+	<definition>
 		<key>text_manufacturer</key>
-		<value><![CDATA[제조 업체 :]]></value>
+		<value><![CDATA[브랜드:]]></value>
 	</definition>
 	<definition>
 		<key>text_instock</key>
-		<value><![CDATA[재고]]></value>
+		<value><![CDATA[재고 있음]]></value>
+	</definition>
+	<definition>
+		<key>text_out_of_stock</key>
+		<value><![CDATA[품절]]></value>
 	</definition>
 	<definition>
 		<key>text_order_quantity</key>
@@ -42,83 +54,83 @@
 	</definition>
 	<definition>
 		<key>text_price_per_item</key>
-		<value><![CDATA[항목 당 가격]]></value>
+		<value><![CDATA[개당 가격]]></value>
 	</definition>
 	<definition>
 		<key>text_write</key>
-		<value><![CDATA[리뷰를 쓰다]]></value>
+		<value><![CDATA[리뷰 작성]]></value>
 	</definition>
 	<definition>
 		<key>text_no_reviews</key>
-		<value><![CDATA[이 제품에 대한 리뷰가 없습니다.]]></value>
+		<value><![CDATA[이 상품에 대한 리뷰가 없습니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_average</key>
-		<value><![CDATA[평균 평가 :]]></value>
+		<value><![CDATA[평균 평점:]]></value>
 	</definition>
 	<definition>
 		<key>text_stars</key>
-		<value><![CDATA[%s 별 5 개 만점!]]></value>
+		<value><![CDATA[별 5개 중 %s개!]]></value>
 	</definition>
 	<definition>
 		<key>text_no_rating</key>
-		<value><![CDATA[등급]]></value>
+		<value><![CDATA[평가되지 않음]]></value>
 	</definition>
 	<definition>
 		<key>text_no_images</key>
-		<value><![CDATA[이 제품에 대한 추가 이미지가 없습니다.]]></value>
+		<value><![CDATA[이 상품에 대한 추가 이미지가 없습니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_no_related</key>
-		<value><![CDATA[이 제품에 대한 관련 제품이 없습니다.]]></value>
+		<value><![CDATA[이 상품과 관련된 상품이 없습니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_qty</key>
-		<value><![CDATA[수량 :]]></value>
+		<value><![CDATA[수량:]]></value>
 	</definition>
 	<definition>
 		<key>text_note</key>
-		<value><![CDATA[<span style="color: #FF0000;">참고 :</span> 텍스트에 HTML을 사용하지 마십시오.]]></value>
+		<value><![CDATA[참고: 텍스트에 HTML을 사용하지 마십시오.]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[당신의 검토 주셔서 감사합니다. 그것은 승인을 위해 웹 마스터에 제출되었습니다.]]></value>
+		<value><![CDATA[리뷰를 남겨 주셔서 감사합니다. 승인을 위해 웹마스터에게 제출되었습니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_wait</key>
-		<value><![CDATA[잠시만 기다려주십시오!]]></value>
+		<value><![CDATA[잠시만 기다려 주세요!]]></value>
 	</definition>
 	<definition>
 		<key>text_search</key>
-		<value><![CDATA[수색]]></value>
+		<value><![CDATA[검색]]></value>
 	</definition>
 	<definition>
 		<key>text_tags</key>
-		<value><![CDATA[태그 :]]></value>
+		<value><![CDATA[태그:]]></value>
 	</definition>
 	<definition>
 		<key>text_minimum</key>
-		<value><![CDATA[(이 제품은 %s의 최소 수량이 있습니다)]]></value>
+		<value><![CDATA[(이 제품은 최소 수량이 %s개입니다)]]></value>
 	</definition>
 	<definition>
 		<key>text_maximum</key>
-		<value><![CDATA[(이 제품은 주문 당) %s 항목 (들로 설정 제한이 있습니다)]]></value>
+		<value><![CDATA[(이 제품은 주문당 %s개로 제한이 설정되어 있습니다)]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[당신의 이름 :]]></value>
+		<value><![CDATA[귀하의 이름:]]></value>
 	</definition>
 	<definition>
 		<key>entry_review</key>
-		<value><![CDATA[당신의 검토 :]]></value>
+		<value><![CDATA[귀하의 리뷰:]]></value>
 	</definition>
 	<definition>
 		<key>entry_rating</key>
-		<value><![CDATA[평가:]]></value>
+		<value><![CDATA[평점:]]></value>
 	</definition>
 	<definition>
 		<key>entry_good</key>
-		<value><![CDATA[좋은]]></value>
+		<value><![CDATA[좋음]]></value>
 	</definition>
 	<definition>
 		<key>entry_bad</key>
@@ -126,11 +138,11 @@
 	</definition>
 	<definition>
 		<key>entry_captcha</key>
-		<value><![CDATA[아래 상자에 코드를 입력 :]]></value>
+		<value><![CDATA[아래 상자에 코드를 입력하세요:]]></value>
 	</definition>
 	<definition>
 		<key>tab_description</key>
-		<value><![CDATA[기술]]></value>
+		<value><![CDATA[설명]]></value>
 	</definition>
 	<definition>
 		<key>tab_image</key>
@@ -141,20 +153,24 @@
 		<value><![CDATA[리뷰 (%s)]]></value>
 	</definition>
 	<definition>
+		<key>tab_review_empty</key>
+		<value><![CDATA[리뷰]]></value>
+	</definition>
+	<definition>
 		<key>tab_related</key>
 		<value><![CDATA[관련 상품]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[오류 : 검토 이름 (3)과 25 자 사이 여야합니다!]]></value>
+		<value><![CDATA[오류: 리뷰 이름은 3자 이상 25자 이내여야 합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_text</key>
-		<value><![CDATA[오류 : 문자 검토 25, 1000 자 사이 여야합니다!]]></value>
+		<value><![CDATA[오류: 리뷰 텍스트는 25자 이상 1000자 이하여야 합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_rating</key>
-		<value><![CDATA[오류 : 리뷰 평점을 선택하세요!]]></value>
+		<value><![CDATA[오류: 리뷰 평점을 선택해주세요!]]></value>
 	</definition>
 	<definition>
 		<key>text_total_price</key>
@@ -162,7 +178,7 @@
 	</definition>
 	<definition>
 		<key>text_login_view_price</key>
-		<value><![CDATA[로그인하십시오 또는 가격을 참조하거나 주문을 등록합니다.]]></value>
+		<value><![CDATA[가격을 보거나 주문하시려면 로그인하거나 회원가입하세요.]]></value>
 	</definition>
 	<definition>
 		<key>tab_downloads</key>
@@ -170,31 +186,15 @@
 	</definition>
 	<definition>
 		<key>text_start_download</key>
-		<value><![CDATA[다운로드를 시작하다]]></value>
+		<value><![CDATA[다운로드 시작]]></value>
 	</definition>
 	<definition>
 		<key>text_new_review</key>
-		<value><![CDATA[상품 리뷰 승인 대기 중입니다]]></value>
+		<value><![CDATA[상품 리뷰 승인 대기 중입니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_pending_review_approval</key>
-		<value><![CDATA[제품 ID에 대한 검토 %s 게시됩니다. 승인 작업이 필요합니다! #admin#rt=catalog/review/update&review_id=%s]]></value>
-	</definition>
-	<definition>
-		<key>text_quantity_discount</key>
-		<value><![CDATA[수량 할인:]]></value>
-	</definition>
-	<definition>
-		<key>text_sku</key>
-		<value><![CDATA[제품번호:]]></value>
-	</definition>
-	<definition>
-		<key>text_out_of_stock</key>
-		<value><![CDATA[품절]]></value>
-	</definition>
-	<definition>
-		<key>tab_review_empty</key>
-		<value><![CDATA[리뷰]]></value>
+		<value><![CDATA[제품 ID %s에 대한 리뷰가 게시되었습니다. 승인이 필요합니다! 보려면 클릭하세요: #admin#rt=catalog/review/update&review_id=%s]]></value>
 	</definition>
 	<definition>
 		<key>text_verified_review</key>
@@ -202,7 +202,7 @@
 	</definition>
 	<definition>
 		<key>percentage_review</key>
-		<value><![CDATA[구매자의 의 추천이 있었습니다.]]></value>
+		<value><![CDATA[구매자 중 이 제품을 추천했습니다.]]></value>
 	</definition>
 	<definition>
 		<key>feedback_customer_title</key>
@@ -218,6 +218,6 @@
 	</definition>
 	<definition>
 		<key>product_rate_title</key>
-		<value><![CDATA[제품 평가]]></value>
+		<value><![CDATA[상품 평점]]></value>
 	</definition>
 </definitions>

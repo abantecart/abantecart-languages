@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[帐号登录]]></value>
+		<value><![CDATA[账户登录]]></value>
 	</definition>
 	<definition>
 		<key>text_account</key>
@@ -14,35 +14,35 @@
 	</definition>
 	<definition>
 		<key>text_i_am_new_customer</key>
-		<value><![CDATA[我是一个新的客户。]]></value>
+		<value><![CDATA[我是新客户。]]></value>
 	</definition>
 	<definition>
 		<key>text_checkout</key>
-		<value><![CDATA[结帐选项：]]></value>
+		<value><![CDATA[结账选项：]]></value>
 	</definition>
 	<definition>
 		<key>text_guest</key>
-		<value><![CDATA[访客结帐]]></value>
+		<value><![CDATA[访客结账]]></value>
 	</definition>
 	<definition>
 		<key>text_create_account</key>
-		<value><![CDATA[通过创建一个帐户，您将能更快地开店，是最新的订单状态，并跟踪您先前作出的订单。]]></value>
+		<value><![CDATA[通过创建帐户，您可以更快地购物，随时了解订单状态，并跟踪您之前所下的订单。]]></value>
 	</definition>
 	<definition>
 		<key>text_returning_customer</key>
-		<value><![CDATA[老顾客]]></value>
+		<value><![CDATA[回头客]]></value>
 	</definition>
 	<definition>
 		<key>text_i_am_returning_customer</key>
-		<value><![CDATA[我是老顾客。]]></value>
+		<value><![CDATA[我是一位回头客。]]></value>
 	</definition>
 	<definition>
 		<key>text_forgotten_login</key>
-		<value><![CDATA[忘记登陆？]]></value>
+		<value><![CDATA[忘记了您的登录名？]]></value>
 	</definition>
 	<definition>
 		<key>text_forgotten_password</key>
-		<value><![CDATA[忘记密码了吗？]]></value>
+		<value><![CDATA[忘记您的密码？]]></value>
 	</definition>
 	<definition>
 		<key>entry_loginname</key>
@@ -54,22 +54,26 @@
 	</definition>
 	<definition>
 		<key>entry_password</key>
-		<value><![CDATA[密码：]]></value>
+		<value><![CDATA[密码:]]></value>
 	</definition>
 	<definition>
 		<key>error_login</key>
-		<value><![CDATA[错误：不正确的登录名或密码提供。]]></value>
+		<value><![CDATA[错误: 提供的登录或密码不正确。]]></value>
 	</definition>
 	<definition>
 		<key>text_success_activated</key>
-		<value><![CDATA[成功：您的帐户已成功激活。请与您的凭据登录。]]></value>
+		<value><![CDATA[成功：您的账户已成功激活。请使用您的凭证登录。]]></value>
 	</definition>
 	<definition>
 		<key>text_already_activated</key>
-		<value><![CDATA[您的帐户已经被激活。请与您的凭据登录。]]></value>
+		<value><![CDATA[您的账户已被激活。请使用您的凭据登录。]]></value>
 	</definition>
 	<definition>
 		<key>text_resend_activation_email</key>
-		<value><![CDATA[错误：您的电子邮件地址尚未确定。要重新发送新的确认邮件，请点击此<a href=" %s ">链接</a>]]></value>
+		<value><![CDATA[错误: 您的电子邮件地址尚未确认。要重新发送新的确认邮件，请点击此 <a href=" %s ">链接</a>。]]></value>
+	</definition>
+	<definition>
+		<key>welcome_unauth_customer</key>
+		<value><![CDATA[欢迎 %s，请登录您的账户或 <a href="%s">继续以访客身份浏览</a>]]></value>
 	</definition>
 </definitions>

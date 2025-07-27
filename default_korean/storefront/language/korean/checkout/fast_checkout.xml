@@ -2,16 +2,15 @@
 <definitions>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[카트]]></value>
+		<value><![CDATA[장바구니]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_basket</key>
-		<value><![CDATA[장바구니 편집]]></value>
+		<value><![CDATA[장바구니 수정]]></value>
 	</definition>
 	<definition>
 		<key>text_accept_agree</key>
-		<value><![CDATA[
- 주문 확인을 클릭하면 모든 약관에 동의하고 수락하는 것입니다.]]></value>
+		<value><![CDATA[“주문 확인”을 클릭함으로써, 귀하는 모든 약관을 수락하고 동의합니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_cart_items</key>
@@ -19,15 +18,15 @@
 	</definition>
 	<definition>
 		<key>text_shipping</key>
-		<value><![CDATA[해운]]></value>
+		<value><![CDATA[배송]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_shipping</key>
-		<value><![CDATA[배송 편집]]></value>
+		<value><![CDATA[배송 수정]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
-		<value><![CDATA[지불]]></value>
+		<value><![CDATA[결제]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_payment</key>
@@ -35,11 +34,11 @@
 	</definition>
 	<definition>
 		<key>text_confirm</key>
-		<value><![CDATA[확인하다]]></value>
+		<value><![CDATA[확인]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping_address</key>
-		<value><![CDATA[배송 주소]]></value>
+		<value><![CDATA[배송지 주소]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping_method</key>
@@ -47,7 +46,7 @@
 	</definition>
 	<definition>
 		<key>text_payment_address</key>
-		<value><![CDATA[지불 주소]]></value>
+		<value><![CDATA[결제 주소]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_method</key>
@@ -55,7 +54,7 @@
 	</definition>
 	<definition>
 		<key>text_change</key>
-		<value><![CDATA[변화]]></value>
+		<value><![CDATA[변경]]></value>
 	</definition>
 	<definition>
 		<key>text_comment</key>
@@ -63,11 +62,11 @@
 	</definition>
 	<definition>
 		<key>text_discount</key>
-		<value><![CDATA[할인쿠폰]]></value>
+		<value><![CDATA[할인 쿠폰]]></value>
 	</definition>
 	<definition>
 		<key>column_product</key>
-		<value><![CDATA[제품]]></value>
+		<value><![CDATA[상품]]></value>
 	</definition>
 	<definition>
 		<key>column_model</key>
@@ -83,7 +82,7 @@
 	</definition>
 	<definition>
 		<key>column_total</key>
-		<value><![CDATA[총]]></value>
+		<value><![CDATA[합계]]></value>
 	</definition>
 	<definition>
 		<key>text_add_coupon</key>
@@ -95,15 +94,15 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_fast_checkout_title</key>
-		<value><![CDATA[빠른 체크아웃]]></value>
+		<value><![CDATA[빠른 결제]]></value>
 	</definition>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[빠른 체크아웃]]></value>
+		<value><![CDATA[빠른 결제]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_buy_now</key>
-		<value><![CDATA[지금 구매하세요]]></value>
+		<value><![CDATA[지금 구매]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_incorrect_request</key>
@@ -111,67 +110,67 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_handler</key>
-		<value><![CDATA[결제 처리자를 찾을 수 없습니다! 파일을 확인하세요 %s 또는 %s]]></value>
+		<value><![CDATA[결제 처리기를 찾을 수 없습니다! 파일 %s 또는 %s를 확인해 주십시오.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_handler</key>
-		<value><![CDATA[이용 가능한 결제 대행업체가 없습니다.]]></value>
+		<value><![CDATA[사용 가능한 결제 프로세서가 없습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unknown_payment</key>
-		<value><![CDATA[알 수 없는 지불!]]></value>
+		<value><![CDATA[알 수 없는 결제!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unexpected</key>
-		<value><![CDATA[예상치 못한 오류가 발생했습니다! 다시 시도해 주세요.]]></value>
+		<value><![CDATA[예기치 않은 오류가 발생했습니다! 다시 시도해 주세요.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_unexpected_log</key>
-		<value><![CDATA[예상치 못한 오류가 발생했습니다. 배열을 기반으로 주문 데이터를 빌드할 수 없습니다: %s]]></value>
+		<value><![CDATA[예기치 않은 오류가 발생했습니다. 배열을 기반으로 주문 데이터를 구성할 수 없습니다: %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_handler_object</key>
-		<value><![CDATA[주문을 확인할 수 없습니다. 결제 처리자는 객체가 아닙니다.]]></value>
+		<value><![CDATA[주문을 확인할 수 없습니다. 결제 핸들러가 객체가 아닙니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_system_issue</key>
-		<value><![CDATA[어머! 시스템 문제입니다. 사이트 관리자에게 문의하세요.]]></value>
+		<value><![CDATA[앗! 시스템 문제입니다. 사이트 관리자에게 연락하십시오.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_payment</key>
-		<value><![CDATA[결제가 불가능합니다.]]></value>
+		<value><![CDATA[사용 가능한 결제 수단이 없습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_product_option</key>
-		<value><![CDATA[제품 옵션 오류입니다. %s]]></value>
+		<value><![CDATA[상품 옵션 오류. %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_no_address</key>
-		<value><![CDATA[계정에서 주소를 찾을 수 없습니다! 계정에 주소를 추가해 주세요.]]></value>
+		<value><![CDATA[귀하의 계정에 주소가 없습니다! 귀하의 계정에 주소를 추가해 주세요.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_low_balance</key>
-		<value><![CDATA[이 주문에 대한 계좌 잔액이 충분하지 않습니다!]]></value>
+		<value><![CDATA[귀하의 계정 잔액이 이 주문을 처리하기에 충분하지 않습니다!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_pay</key>
-		<value><![CDATA[계정 크레딧 결제 처리 중 문제가 있습니다! 다시 시도해 주세요.]]></value>
+		<value><![CDATA[계정 크레딧 결제 처리 중 문제가 발생했습니다! 다시 시도해 주세요.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_payment_address</key>
-		<value><![CDATA[지불 주소가 누락되었거나 선택되지 않았습니다.]]></value>
+		<value><![CDATA[결제 주소가 누락되었거나 선택되지 않았습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_payment_unavailable</key>
-		<value><![CDATA[해당 지역에서는 결제가 불가능합니다.]]></value>
+		<value><![CDATA[귀하의 위치에서는 결제를 사용할 수 없습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_shipping_address</key>
-		<value><![CDATA[배송지 주소가 누락되었거나 선택되지 않았습니다.]]></value>
+		<value><![CDATA[배송 주소가 누락되었거나 선택되지 않았습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_shipping_method</key>
-		<value><![CDATA[배송 방법을 선택하지 않았습니다.]]></value>
+		<value><![CDATA[배송 방법이 선택되지 않았습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_phone</key>
@@ -179,11 +178,11 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_owner</key>
-		<value><![CDATA[이름이 제공되지 않았습니다.]]></value>
+		<value><![CDATA[귀하의 이름이 제공되지 않았습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_email</key>
-		<value><![CDATA[귀하의 이메일이 제공되지 않았거나 잘못되었습니다.]]></value>
+		<value><![CDATA[귀하의 이메일이 제공되지 않았거나 유효하지 않습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_card_number</key>
@@ -195,31 +194,31 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_expire</key>
-		<value><![CDATA[신용카드 만료일이 제공되지 않았거나 잘못되었습니다.]]></value>
+		<value><![CDATA[크레딧 카트 만료일이 제공되지 않았거나 유효하지 않습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_apply</key>
-		<value><![CDATA[신용카드 만료일이 제공되지 않았거나 잘못되었습니다.]]></value>
+		<value><![CDATA[신용 카드 만료일이 제공되지 않았거나 유효하지 않습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_account_created</key>
-		<value><![CDATA[계정이 생성되었으며 로그인 지침이 귀하의 이메일로 전송되었습니다.]]></value>
+		<value><![CDATA[계정이 생성되었으며 로그인 안내가 귀하의 이메일로 발송되었습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_mail_login_password</key>
-		<value><![CDATA[귀하의 로그인 이름: %s <br/> 귀하의 비밀번호: %s]]></value>
+		<value><![CDATA[귀하의 로그인 이름: %s <br>귀하의 비밀번호: %s]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_order_success_message</key>
-		<value><![CDATA[성공! 주문이 성공적으로 생성되었습니다!]]></value>
+		<value><![CDATA[성공! 귀하의 주문이 성공적으로 생성되었습니다!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_order_processing_message</key>
-		<value><![CDATA[성공! 지금 주문 처리 중!]]></value>
+		<value><![CDATA[성공! 주문이 처리 중입니다!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_payment_address</key>
-		<value><![CDATA[지불 주소]]></value>
+		<value><![CDATA[결제 주소]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_shipping_address</key>
@@ -227,7 +226,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_shipping_method</key>
-		<value><![CDATA[배송방법을 선택하세요]]></value>
+		<value><![CDATA[배송 방법을 선택하세요]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay_with</key>
@@ -235,7 +234,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_credit_card</key>
-		<value><![CDATA[신용 카드]]></value>
+		<value><![CDATA[신용카드]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_account_credit</key>
@@ -243,19 +242,19 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay</key>
-		<value><![CDATA[지불하다]]></value>
+		<value><![CDATA[결제]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_enter_cc_details</key>
-		<value><![CDATA[아래에 신용 카드 정보를 입력하세요]]></value>
+		<value><![CDATA[아래에 신용카드 정보를 입력하세요]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_your_balance</key>
-		<value><![CDATA[귀하의 계정 신용 잔액은]]></value>
+		<value><![CDATA[귀하의 계정 크레딧 잔액은]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_pay_from_balance</key>
-		<value><![CDATA[%s신용카드로 결제]]></value>
+		<value><![CDATA[크레딧으로 %s를 결제]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_telephone_placeholder</key>
@@ -263,19 +262,19 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_same_as_shipping_address</key>
-		<value><![CDATA[배달도 마찬가지]]></value>
+		<value><![CDATA[배송에도 동일합니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_enter_address</key>
-		<value><![CDATA[계속하다]]></value>
+		<value><![CDATA[계속]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_card_number</key>
-		<value><![CDATA[카드번호]]></value>
+		<value><![CDATA[카드 번호]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_bill_me_monthly</key>
-		<value><![CDATA[월별로 청구해 주세요]]></value>
+		<value><![CDATA[매월 청구해주세요]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_create_account</key>
@@ -283,7 +282,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_please_login</key>
-		<value><![CDATA[아래 세부 정보로 로그인하세요]]></value>
+		<value><![CDATA[아래의 정보를 사용하여 로그인해 주세요.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_login</key>
@@ -291,7 +290,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_button_reset_login</key>
-		<value><![CDATA[등록 / 로그인 재설정]]></value>
+		<value><![CDATA[회원가입 / 로그인 재설정]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_login</key>
@@ -307,11 +306,11 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_new_customer</key>
-		<value><![CDATA[저는 신규 고객입니다]]></value>
+		<value><![CDATA[저는 신규 고객입니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_loading</key>
-		<value><![CDATA[로딩중...]]></value>
+		<value><![CDATA[로딩 중...]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_is_completed</key>
@@ -327,7 +326,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_downloads</key>
-		<value><![CDATA[다운로드 주문]]></value>
+		<value><![CDATA[주문 다운로드]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_button_order_details</key>
@@ -335,43 +334,43 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_delivery</key>
-		<value><![CDATA[배송방법을 선택해주세요]]></value>
+		<value><![CDATA[배송 옵션을 선택해 주세요]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_select_payment</key>
-		<value><![CDATA[결제방법을 선택해주세요]]></value>
+		<value><![CDATA[결제 옵션을 선택해 주세요]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_download_pending</key>
-		<value><![CDATA[주문의 제품 다운로드는 아직 제공되지 않습니다. 주문 확인을 기다려 주세요!]]></value>
+		<value><![CDATA[주문하신 상품 다운로드를 아직 이용하실 수 없습니다. 주문 확인을 기다려 주세요!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_info_duplicate_order</key>
-		<value><![CDATA[방금 다른 주문을 한 것 같습니다. <a href="%s">주문 세부 정보 보기</a>]]></value>
+		<value><![CDATA[다른 주문을 방금 하신 것 같습니다. <a href="%s">주문 세부정보 보기</a>]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_email_start_download</key>
-		<value><![CDATA[아래 링크를 통해 다운로드할 수 있습니다.]]></value>
+		<value><![CDATA[아래 링크를 통해 귀하의 다운로드(들)에 접근하실 수 있습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_email_order_downloads</key>
-		<value><![CDATA[아래 링크를 통해 주문 다운로드에 접속할 수 있습니다.]]></value>
+		<value><![CDATA[아래 링크를 통해 주문 다운로드에 액세스할 수 있습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_download_subject</key>
-		<value><![CDATA[주문을 다운로드하세요.]]></value>
+		<value><![CDATA[귀하의 주문 다운로드.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_apply</key>
-		<value><![CDATA[적용하다]]></value>
+		<value><![CDATA[적용]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_remove</key>
-		<value><![CDATA[제거하다]]></value>
+		<value><![CDATA[제거]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_coupon_code</key>
-		<value><![CDATA[쿠폰코드를 입력하세요]]></value>
+		<value><![CDATA[쿠폰 코드를 입력하세요]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_order_comment</key>
@@ -379,7 +378,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_error_coupon</key>
-		<value><![CDATA[쿠폰이 잘못되었거나 만료되었습니다!]]></value>
+		<value><![CDATA[쿠폰이 유효하지 않거나 만료되었습니다!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_back_to_cart</key>
@@ -391,7 +390,7 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_no_shipments_available</key>
-		<value><![CDATA[배송이 불가능합니다.]]></value>
+		<value><![CDATA[사용 가능한 배송이 없습니다.]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_telephone_placeholder</key>
@@ -403,23 +402,23 @@
 	</definition>
 	<definition>
 		<key>button_history</key>
-		<value><![CDATA[역사]]></value>
+		<value><![CDATA[히스토리]]></value>
 	</definition>
 	<definition>
 		<key>error_postcode</key>
-		<value><![CDATA[우편번호가 올바르지 않습니다]]></value>
+		<value><![CDATA[우편번호가 올바르지 않습니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[카트]]></value>
+		<value><![CDATA[장바구니]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_comment_placeholder</key>
-		<value><![CDATA[주문에 대한 코멘트를 추가하세요]]></value>
+		<value><![CDATA[주문 코멘트 추가]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_text_not_enough_stock</key>
-		<value><![CDATA[재고가 부족합니다]]></value>
+		<value><![CDATA[재고 부족]]></value>
 	</definition>
 	<definition>
 		<key>order_confirm</key>
@@ -435,43 +434,41 @@
 	</definition>
 	<definition>
 		<key>fast_checkout_text_authenticating</key>
-		<value><![CDATA[인증 중... ]]></value>
+		<value><![CDATA[인증 중 ...]]></value>
 	</definition>
 	<definition>
 		<key>text_message_account</key>
-		<value><![CDATA[
-<p> 주문 #%s이 생성되었습니다!</p> 
-<p><a href="%s">송장 페이지</a> 로 가면 주문 세부 정보를 볼 수 있습니다.</p> 
-<p> 문의사항은 <a href="%s">매장 주인</a> 에게 직접 문의하세요.</p> 
-<p> 저희와 함께 쇼핑해주셔서 감사합니다!</p>]]></value>
+		<value><![CDATA[<p>주문 #%s가 생성되었습니다!</p>
+<p>주문 상세 정보를 <a href="%s">송장 페이지</a>에서 확인할 수 있습니다.</p>
+<p>궁금하신 사항은 <a href="%s">상점 소유자</a>에게 문의하십시오.</p>
+<p>저희와 함께 쇼핑해 주셔서 감사합니다!</p>]]></value>
 	</definition>
 	<definition>
 		<key>text_message_guest</key>
-		<value><![CDATA[
-<p> 주문이 성공적으로 처리되었습니다!</p> 
-<p><a href="%s">송장 페이지</a> 로 가면 주문 세부 정보를 볼 수 있습니다.</p> 
-<p> 문의사항은 <a href="%s">매장 주인</a> 에게 직접 문의하세요.</p> 
-<p> 저희와 함께 쇼핑해주셔서 감사합니다!</p>]]></value>
+		<value><![CDATA[<p>고객님의 주문이 성공적으로 처리되었습니다!</p>
+<p>고객님의 주문 내역은 <a href="%s">송장 페이지</a>에서 확인하실 수 있습니다.</p>
+<p>궁금하신 사항이 있으시면 <a href="%s">상점 소유자</a>에게 문의해 주십시오.</p>
+<p>저희와 함께 쇼핑해 주셔서 감사합니다!</p>]]></value>
 	</definition>
 	<definition>
 		<key>text_basket</key>
-		<value><![CDATA[카트]]></value>
+		<value><![CDATA[장바구니]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
-		<value><![CDATA[해운]]></value>
+		<value><![CDATA[배송]]></value>
 	</definition>
 	<definition>
 		<key>text_payment</key>
-		<value><![CDATA[지불]]></value>
+		<value><![CDATA[결제]]></value>
 	</definition>
 	<definition>
 		<key>text_guest</key>
-		<value><![CDATA[게스트 체크아웃]]></value>
+		<value><![CDATA[비회원 결제]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm</key>
-		<value><![CDATA[확인하다]]></value>
+		<value><![CDATA[확인]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -479,14 +476,14 @@
 	</definition>
 	<definition>
 		<key>text_message_failed_order</key>
-		<value><![CDATA[죄송합니다! 거래에 문제가 발생했습니다. 주문은 관리자가 수동으로 확인합니다.]]></value>
+		<value><![CDATA[앗! 거래 처리 중 문제가 발생했습니다. 고객님의 주문은 관리자가 수동으로 확인할 예정입니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_title_failed_order_to_admin</key>
-		<value><![CDATA[주문 실패 #%s]]></value>
+		<value><![CDATA[실패한 주문 #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_message_failed_order_to_admin</key>
-		<value><![CDATA[결제 확인에서 실패 또는 누락된 응답. 수동 확인이 필요합니다!]]></value>
+		<value><![CDATA[결제 검증의 응답이 실패했거나 누락되었습니다. 수동 검증이 필요합니다!]]></value>
 	</definition>
 </definitions>

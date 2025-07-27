@@ -6,11 +6,10 @@
 	</definition>
 	<definition>
 		<key>default_twilio_note</key>
-		<value><![CDATA[Ota tekstiviestit käyttöön valitsemalla Järjestelmä -&gt; Asetukset -&gt; <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/> 
- ja valitse Twilio oletussms-ohjaimeksi. Älä unohda ottaa käyttöön osiota, josta haluat vastaanottaa tekstiviestejä (järjestelmänvalvoja tai myymälä). <br/> 
- Tämä laajennus mahdollistaa Matkapuhelin-kentän järjestelmänvalvojille ja asiakkaille. Muista, että tämän laajennuksen poistaminen käytöstä piilottaa tämän kentän. 
- Jos lisäät olemassa olevaan myymälään asiakkaiden kanssa, muista, että nämä tiedot puuttuvat. 
-		]]></value>
+		<value><![CDATA[SMS-viestien lähetyksen ottamiseksi käyttöön siirry kohtaan Järjestelmä -> Asetukset -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a> <br/>
+ja valitse Twilio oletus-SMS-ajuriksi. Älä unohda ottaa käyttöön sitä osiota, josta haluat vastaanottaa SMS-viestejä (hallinnasta tai myymäläpuolelta).<br/>
+Tämä laajennus lisää Matkapuhelin-kentän ylläpitäjille ja asiakkaille täytettäväksi. Muista, että laajennuksen poistaminen käytöstä piilottaa tämän kentän.	
+Jos lisäät laajennuksen olemassa olevaan kauppaan, jossa on asiakkaita, pidä mielessä, että tämä tieto puuttuu.]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_username</key>
@@ -26,13 +25,11 @@
 	</definition>
 	<definition>
 		<key>default_twilio_sender_phone</key>
-		<value><![CDATA[
- Lähettäjä (Twilio) Puhelin: <span class="help">Lähettäjän puhelinnumero kansainvälisessä muodossa (esim. +14158675309)</span>]]></value>
+		<value><![CDATA[Lähettäjän (Twilio) puhelinnumero: <span class="help">Phone number of sender in international format (ex. +14158675309)</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_send_to</key>
-		<value><![CDATA[
- Lähetä testitekstiviesti osoitteeseen: ]]></value>
+		<value><![CDATA[Lähetä testi-SMS numeroon:]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_test_0</key>
@@ -44,31 +41,30 @@
 	</definition>
 	<definition>
 		<key>default_twilio_test_connection</key>
-		<value><![CDATA[Testaa yhteytesi: <span class="help">Voit testata, ovatko antamasi API-tunnistetiedot oikein.</span>]]></value>
+		<value><![CDATA[Testaa yhteyttäsi:<span class="help">Voit testata, ovatko syöttämäsi API-tunnistetiedot oikein.</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_logging</key>
-		<value><![CDATA[Error Logging Status <span class="help">Jos haluat kirjata kaikki Twilio-laajennuksen virheet, ota tämä asetus käyttöön.</span>]]></value>
+		<value><![CDATA[Virheiden lokituksen tila<span class="help">Jos haluat kirjata kaikki Twilio-laajennuksen virheet, kytke tämä asetus PÄÄLLE.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_sms</key>
-		<value><![CDATA[ Matkapuhelin ]]></value>
+		<value><![CDATA[Matkapuhelin]]></value>
 	</definition>
 	<definition>
 		<key>text_test</key>
-		<value><![CDATA[ Testata ]]></value>
+		<value><![CDATA[Testi]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Virhe! Tarkista, onko laajennus päällä.]]></value>
+		<value><![CDATA[Virhe! Tarkista, että laajennus on päällä.]]></value>
 	</definition>
 	<definition>
 		<key>text_connection_success</key>
-		<value><![CDATA[Yhteyden muodostaminen onnistui ja API-tunnistetiedot on määritetty oikein.]]></value>
+		<value><![CDATA[Yhteys on onnistunut ja API-tunnistetiedot on määritetty oikein.]]></value>
 	</definition>
 	<definition>
 		<key>default_twilio_sender_phone</key>
-		<value><![CDATA[
- Lähettäjä (Twilio) Puhelin: <span class="help">Lähettäjän puhelinnumero kansainvälisessä muodossa (esim. +14158675309)</span>]]></value>
+		<value><![CDATA[Lähettäjän (Twilio) puhelinnumero: <span class="help">Lähettäjän puhelinnumero kansainvälisessä muodossa (esim. +14158675309)</span>]]></value>
 	</definition>
 </definitions>

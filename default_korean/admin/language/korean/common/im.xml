@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>im_text_notification</key>
@@ -10,15 +10,19 @@
 	</definition>
 	<definition>
 		<key>im_order_update_text_to_customer</key>
-		<value><![CDATA[주문 <a href="%s"># 1 %s</a> 업데이트되었습니다. 자세한 내용은 %s 계정에 로그인합니다.]]></value>
+		<value><![CDATA[귀하의 주문 <a href="%s">#%s</a>이 업데이트되었습니다. 자세한 내용은 %s 계정에 로그인하세요.]]></value>
+	</definition>
+	<definition>
+		<key>im_order_update_text_to_guest</key>
+		<value><![CDATA[귀하의 주문 <a href="%s">#%s</a>이 업데이트되었습니다. 자세한 내용을 보시려면 주문 페이지 %s를 방문해 주십시오.]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_order</key>
-		<value><![CDATA[수주]]></value>
+		<value><![CDATA[새로운 주문]]></value>
 	</definition>
 	<definition>
 		<key>im_new_order_text_to_admin</key>
-		<value><![CDATA[새로운 주문 <a href="#admin#rt=sale/order/details&order_id=%s">#%s이</a> 생성되었습니다!]]></value>
+		<value><![CDATA[신규 주문 <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a>이 생성되었습니다!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_customer</key>
@@ -26,7 +30,7 @@
 	</definition>
 	<definition>
 		<key>im_new_customer_text_to_admin</key>
-		<value><![CDATA[새로운 고객 #%s 등록되었습니다!]]></value>
+		<value><![CDATA[신규 고객 #%s가 등록되었습니다!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_account_update</key>
@@ -34,11 +38,11 @@
 	</definition>
 	<definition>
 		<key>im_account_update_text_to_admin</key>
-		<value><![CDATA[관리자 사용자 계정의 세부 사항이 변경되었습니다.]]></value>
+		<value><![CDATA[귀하의 관리자 사용자 계정 세부 정보가 변경되었습니다.]]></value>
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_admin</key>
-		<value><![CDATA[새로운 고객 #%s 업데이트되었습니다!]]></value>
+		<value><![CDATA[신규 고객 #%s가 업데이트되었습니다!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_customer_contact</key>
@@ -46,7 +50,7 @@
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_out_of_stock</key>
-		<value><![CDATA[품절 제품]]></value>
+		<value><![CDATA[품절 상품]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_review</key>
@@ -54,7 +58,7 @@
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_newsletter</key>
-		<value><![CDATA[뉴스 레터]]></value>
+		<value><![CDATA[뉴스레터]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_system_messages</key>
@@ -62,27 +66,23 @@
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_customer</key>
-		<value><![CDATA[새로운 트랜잭션은 %s의 양에 %s 계정에 게시되어 있습니다. 자세한 내용은 %s 계정에 로그인합니다.]]></value>
+		<value><![CDATA[새로운 거래가 귀하의 %s 계정에 %s 금액으로 게시되었습니다. 자세한 내용을 확인하려면 %s 계정에 로그인하세요.]]></value>
 	</definition>
 	<definition>
 		<key>text_notification_for</key>
-		<value><![CDATA[사용자에 대한 알림 %s]]></value>
+		<value><![CDATA[사용자 %s의 알림]]></value>
 	</definition>
 	<definition>
 		<key>error_unknown_sendpoint</key>
-		<value><![CDATA[Sendpoint %s는 sendpoints 목록에서 발견되지 않습니다!]]></value>
+		<value><![CDATA[센드포인트 %s을 센드포인트 목록에서 찾을 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>text_settings_success_saved</key>
-		<value><![CDATA[알림 설정이 저장!]]></value>
+		<value><![CDATA[알림 설정이 성공적으로 저장되었습니다!]]></value>
 	</definition>
 	<definition>
 		<key>im_error_mail_address</key>
-		<value><![CDATA[이메일 주소 %s이 잘못처럼 보이는!]]></value>
-	</definition>
-	<definition>
-		<key>im_order_update_text_to_guest</key>
-		<value><![CDATA[주문 <a href="%s">#이 %s</a> 업데이트되었습니다. 자세한 내용은 %s 주문 페이지를 참조하십시오.]]></value>
+		<value><![CDATA[이메일 주소 %s가 올바르지 않은 것 같습니다!]]></value>
 	</definition>
 	<definition>
 		<key>im_threshold</key>

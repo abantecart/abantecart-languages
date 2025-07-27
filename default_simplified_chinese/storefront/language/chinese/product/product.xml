@@ -1,40 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>text_enlarge</key>
-		<value><![CDATA[点击图片放大]]></value>
+		<value><![CDATA[点击图片以放大]]></value>
 	</definition>
 	<definition>
 		<key>text_zoom</key>
-		<value><![CDATA[将指针放在图像放大]]></value>
+		<value><![CDATA[将鼠标指针移到图片上以放大]]></value>
+	</definition>
+	<definition>
+		<key>text_quantity_discount</key>
+		<value><![CDATA[数量折扣:]]></value>
 	</definition>
 	<definition>
 		<key>text_options</key>
-		<value><![CDATA[可选项：]]></value>
+		<value><![CDATA[可用选项：]]></value>
 	</definition>
 	<definition>
 		<key>text_error</key>
-		<value><![CDATA[产品不存在！]]></value>
+		<value><![CDATA[未找到产品！]]></value>
 	</definition>
 	<definition>
 		<key>text_price</key>
-		<value><![CDATA[价钱：]]></value>
+		<value><![CDATA[价格：]]></value>
 	</definition>
 	<definition>
 		<key>text_availability</key>
-		<value><![CDATA[可用性：]]></value>
+		<value><![CDATA[可用性:]]></value>
 	</definition>
 	<definition>
 		<key>text_model</key>
-		<value><![CDATA[模型：]]></value>
+		<value><![CDATA[型号:]]></value>
+	</definition>
+	<definition>
+		<key>text_sku</key>
+		<value><![CDATA[库存单位：]]></value>
 	</definition>
 	<definition>
 		<key>text_manufacturer</key>
-		<value><![CDATA[制造商：]]></value>
+		<value><![CDATA[品牌:]]></value>
 	</definition>
 	<definition>
 		<key>text_instock</key>
-		<value><![CDATA[有现货]]></value>
+		<value><![CDATA[有库存]]></value>
+	</definition>
+	<definition>
+		<key>text_out_of_stock</key>
+		<value><![CDATA[缺货]]></value>
 	</definition>
 	<definition>
 		<key>text_order_quantity</key>
@@ -42,15 +54,15 @@
 	</definition>
 	<definition>
 		<key>text_price_per_item</key>
-		<value><![CDATA[项目单价]]></value>
+		<value><![CDATA[单价]]></value>
 	</definition>
 	<definition>
 		<key>text_write</key>
-		<value><![CDATA[发表评论]]></value>
+		<value><![CDATA[撰写评论]]></value>
 	</definition>
 	<definition>
 		<key>text_no_reviews</key>
-		<value><![CDATA[有此商品暂无评论。]]></value>
+		<value><![CDATA[此产品暂无评论。]]></value>
 	</definition>
 	<definition>
 		<key>text_average</key>
@@ -58,31 +70,31 @@
 	</definition>
 	<definition>
 		<key>text_stars</key>
-		<value><![CDATA[〜满分5星！]]></value>
+		<value><![CDATA[在5颗星中获得%s颗星！]]></value>
 	</definition>
 	<definition>
 		<key>text_no_rating</key>
-		<value><![CDATA[没有评分]]></value>
+		<value><![CDATA[未评级]]></value>
 	</definition>
 	<definition>
 		<key>text_no_images</key>
-		<value><![CDATA[有此商品暂时没有更多图片。]]></value>
+		<value><![CDATA[此产品没有附加的图片。]]></value>
 	</definition>
 	<definition>
 		<key>text_no_related</key>
-		<value><![CDATA[有没有相关的产品，这款产品。]]></value>
+		<value><![CDATA[此产品没有关联产品。]]></value>
 	</definition>
 	<definition>
 		<key>text_qty</key>
-		<value><![CDATA[数量：]]></value>
+		<value><![CDATA[数量:]]></value>
 	</definition>
 	<definition>
 		<key>text_note</key>
-		<value><![CDATA[<span style="color: #FF0000;">注意：</span>不要在文本中使用HTML。]]></value>
+		<value><![CDATA[注意：请勿在文本中使用 HTML。]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[谢谢您，对于您的评论。它已被提交给网站管理员批准。]]></value>
+		<value><![CDATA[感谢您的评论。它已提交给网站管理员审核。]]></value>
 	</definition>
 	<definition>
 		<key>text_wait</key>
@@ -94,23 +106,23 @@
 	</definition>
 	<definition>
 		<key>text_tags</key>
-		<value><![CDATA[标签：]]></value>
+		<value><![CDATA[标签:]]></value>
 	</definition>
 	<definition>
 		<key>text_minimum</key>
-		<value><![CDATA[（本产品具有的〜最低数量）]]></value>
+		<value><![CDATA[(本产品的最小起订量为 %s)]]></value>
 	</definition>
 	<definition>
 		<key>text_maximum</key>
-		<value><![CDATA[（本产品每个订单中有设置为〜项目（S限制））]]></value>
+		<value><![CDATA[(该产品每个订单限购%s件)]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[你的名字：]]></value>
+		<value><![CDATA[您的姓名：]]></value>
 	</definition>
 	<definition>
 		<key>entry_review</key>
-		<value><![CDATA[你的意见：]]></value>
+		<value><![CDATA[您的评论：]]></value>
 	</definition>
 	<definition>
 		<key>entry_rating</key>
@@ -126,7 +138,7 @@
 	</definition>
 	<definition>
 		<key>entry_captcha</key>
-		<value><![CDATA[请在下框输入验证码]]></value>
+		<value><![CDATA[在下面的框中输入代码：]]></value>
 	</definition>
 	<definition>
 		<key>tab_description</key>
@@ -134,11 +146,15 @@
 	</definition>
 	<definition>
 		<key>tab_image</key>
-		<value><![CDATA[更多图片]]></value>
+		<value><![CDATA[附加图片]]></value>
 	</definition>
 	<definition>
 		<key>tab_review</key>
-		<value><![CDATA[评论（〜）]]></value>
+		<value><![CDATA[评论 (%s)]]></value>
+	</definition>
+	<definition>
+		<key>tab_review_empty</key>
+		<value><![CDATA[评论]]></value>
 	</definition>
 	<definition>
 		<key>tab_related</key>
@@ -146,15 +162,15 @@
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[错误：回顾名称必须是3到25个字符之间！]]></value>
+		<value><![CDATA[错误：评论名称长度必须在3到25个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_text</key>
-		<value><![CDATA[错误：评论内容必须是25和1000字符之间！]]></value>
+		<value><![CDATA[错误：评论文本长度必须在25到1000个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_rating</key>
-		<value><![CDATA[错误：请选择点评评级！]]></value>
+		<value><![CDATA[错误：请选择一个评价等级！]]></value>
 	</definition>
 	<definition>
 		<key>text_total_price</key>
@@ -162,7 +178,7 @@
 	</definition>
 	<definition>
 		<key>text_login_view_price</key>
-		<value><![CDATA[请登录或注册以查看价格或订购。]]></value>
+		<value><![CDATA[请登录或注册以查看价格或下单。]]></value>
 	</definition>
 	<definition>
 		<key>tab_downloads</key>
@@ -174,27 +190,11 @@
 	</definition>
 	<definition>
 		<key>text_new_review</key>
-		<value><![CDATA[产品审查批准待定]]></value>
+		<value><![CDATA[产品评论审核待定]]></value>
 	</definition>
 	<definition>
 		<key>text_pending_review_approval</key>
-		<value><![CDATA[审查产品ID〜发布。批准的行动是必需的！点击查看 #admin#rt=catalog/review/update&review_id=%s]]></value>
-	</definition>
-	<definition>
-		<key>text_quantity_discount</key>
-		<value><![CDATA[数量折扣：]]></value>
-	</definition>
-	<definition>
-		<key>text_sku</key>
-		<value><![CDATA[库存单位：]]></value>
-	</definition>
-	<definition>
-		<key>text_out_of_stock</key>
-		<value><![CDATA[缺货]]></value>
-	</definition>
-	<definition>
-		<key>tab_review_empty</key>
-		<value><![CDATA[评论]]></value>
+		<value><![CDATA[商品 ID %s 的评论已发布。需要进行批准操作！点击查看 #admin#rt=catalog/review/update&review_id=%s]]></value>
 	</definition>
 	<definition>
 		<key>text_verified_review</key>
@@ -202,7 +202,7 @@
 	</definition>
 	<definition>
 		<key>percentage_review</key>
-		<value><![CDATA[的买家推荐了这款产品。]]></value>
+		<value><![CDATA[买家已推荐此商品。]]></value>
 	</definition>
 	<definition>
 		<key>feedback_customer_title</key>
@@ -218,6 +218,6 @@
 	</definition>
 	<definition>
 		<key>product_rate_title</key>
-		<value><![CDATA[产品评级]]></value>
+		<value><![CDATA[产品评分]]></value>
 	</definition>
 </definitions>

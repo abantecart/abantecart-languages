@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[Чтобы включить SMS-рассылку, перейдите в Система -> Настройки -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/>
+и выберите TextMarketer в качестве драйвера SMS по умолчанию. Не забудьте включить раздел, в котором вы хотите получать СМС (админ или витрина).<br/>
+Данное расширение добавит поле «Мобильный телефон» для администраторов и клиентов. Помните, что при отключении этого расширения это поле будет скрыто. Если расширение добавлено в существующий магазин с клиентами, учтите, что эта информация будет отсутствовать.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API Имя пользователя]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API-пароль]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Originator: Кто отправитель сообщения (отправитель или идентификатор отправителя). Это может быть 11 буквенно-цифровых символов или 16 только цифровых символов.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Тестовый режим]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[Нет]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[Да]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Статус ведения журнала ошибок<span class="help">Если вы хотите логировать все ошибки расширения TextMarketer, включите эту настройку.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[Мобильный телефон]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Проверьте ваше соединение:<span class="help">Вы можете проверить, верны ли введённые вами учётные данные API.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Тест]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Ошибка! Пожалуйста, проверьте, включено ли расширение.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Ошибка! Пожалуйста, введите номер телефона получателя.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[См. журнал ошибок для подробностей.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Соединение установлено успешно и учетные данные API настроены правильно.]]></value>
+	</definition>
+</definitions>

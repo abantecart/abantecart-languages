@@ -2,11 +2,7 @@
 <definitions>
 	<definition>
 		<key>cardknox_name</key>
-		<value><![CDATA[卡德诺克斯]]></value>
-	</definition>
-	<definition>
-		<key>cardknox_note</key>
-		<value><![CDATA[]]></value>
+		<value><![CDATA[CardKnox]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_key</key>
@@ -14,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>cardknox_transaction_token</key>
-		<value><![CDATA[交易代币（xToken）]]></value>
+		<value><![CDATA[交易令牌(xToken)]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_test</key>
@@ -22,19 +18,19 @@
 	</definition>
 	<definition>
 		<key>cardknox_success_order_status</key>
-		<value><![CDATA[订单状态： <br/><span class="help">客户订单完成后，根据设置的交易方式设置订单状态</span>]]></value>
+		<value><![CDATA[订单状态：<br /><span class="help">根据所设置的交易方式，在客户订单完成后应设置的订单状态</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_location_id</key>
-		<value><![CDATA[位置： <br/><span class="help">限制仅允许选定的位置使用此付款方式。</span>]]></value>
+		<value><![CDATA[Location:<br /><span class="help">仅限所选地区使用此支付方式。</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_location_id_0</key>
-		<value><![CDATA[所有地点]]></value>
+		<value><![CDATA[所有位置]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method</key>
-		<value><![CDATA[交易方式： <br/><span class="help">CardKnox 交易在客户结账时运行，然后设置订单状态。仅授权或捕获。</span>]]></value>
+		<value><![CDATA[Transaction Method:<br /><span class="help">CardKnox 交易将在客户结账时执行，在订单状态设定之前。仅授权或捕获。</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method_capture</key>
@@ -42,7 +38,7 @@
 	</definition>
 	<definition>
 		<key>cardknox_transaction_method_authorization</key>
-		<value><![CDATA[仅授权]]></value>
+		<value><![CDATA[仅限授权]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_ifields_key</key>
@@ -50,11 +46,11 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_pending_authorization</key>
-		<value><![CDATA[等待授权]]></value>
+		<value><![CDATA[待授权]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_capture_funds</key>
-		<value><![CDATA[获取资金]]></value>
+		<value><![CDATA[捕获资金]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_capture</key>
@@ -62,19 +58,19 @@
 	</definition>
 	<definition>
 		<key>cardknox_text_payment_status</key>
-		<value><![CDATA[付款状态]]></value>
+		<value><![CDATA[支付状态]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_capture_success</key>
-		<value><![CDATA[成功！资金已成功入账。]]></value>
+		<value><![CDATA[成功！资金已成功扣款。]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_processing</key>
-		<value><![CDATA[加工]]></value>
+		<value><![CDATA[处理中]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_do_refund</key>
-		<value><![CDATA[进行CardKnox退款：<span class="help">您可以输入需要退款的金额。</span>]]></value>
+		<value><![CDATA[执行 CardKnox 退款:<span class="help">您可以输入需要退款的金额。</span>]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_text_refunded</key>
@@ -94,7 +90,7 @@
 	</definition>
 	<definition>
 		<key>cardknox_error_empty_amount</key>
-		<value><![CDATA[错误！金额错误。]]></value>
+		<value><![CDATA[错误！金额不正确。]]></value>
 	</definition>
 	<definition>
 		<key>cardknox_error_no_payment_method_data</key>

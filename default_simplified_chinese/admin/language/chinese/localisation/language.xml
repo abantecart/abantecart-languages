@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已修改的语言！]]></value>
+		<value><![CDATA[成功：您已修改了语言！]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -18,15 +18,15 @@
 	</definition>
 	<definition>
 		<key>column_code</key>
-		<value><![CDATA[码]]></value>
+		<value><![CDATA[代码]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
-		<value><![CDATA[排序]]></value>
+		<value><![CDATA[排序顺序]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
@@ -34,11 +34,11 @@
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[代码： <br/><span class="help">，如果这是你的默认语言，不要改变。</span>]]></value>
+		<value><![CDATA[代码:<br /><span class="help">如果这是您的默认语言，请勿更改。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_locale</key>
-		<value><![CDATA[区域设置：]]></value>
+		<value><![CDATA[区域设置:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image</key>
@@ -46,7 +46,7 @@
 	</definition>
 	<definition>
 		<key>entry_directory</key>
-		<value><![CDATA[目录：]]></value>
+		<value><![CDATA[目录:]]></value>
 	</definition>
 	<definition>
 		<key>entry_filename</key>
@@ -54,11 +54,11 @@
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[状态：]]></value>
+		<value><![CDATA[状态:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
-		<value><![CDATA[排序：]]></value>
+		<value><![CDATA[排序顺序：]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
@@ -66,47 +66,47 @@
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[语言名称必须在2到32个字符之间！]]></value>
+		<value><![CDATA[语言名称长度必须在2到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[语言代码必须至少2个字符！]]></value>
+		<value><![CDATA[语言代码必须至少有2个字符！]]></value>
 	</definition>
 	<definition>
 		<key>error_locale</key>
-		<value><![CDATA[语言环境需要！]]></value>
+		<value><![CDATA[需要区域设置！]]></value>
 	</definition>
 	<definition>
 		<key>error_image</key>
-		<value><![CDATA[图像文件名必须是2到64个字符！]]></value>
+		<value><![CDATA[图像文件名长度必须在2到64个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_directory</key>
-		<value><![CDATA[目录要求！]]></value>
+		<value><![CDATA[需要目录！]]></value>
 	</definition>
 	<definition>
 		<key>error_filename</key>
-		<value><![CDATA[文件名必须是2到64个字符！]]></value>
+		<value><![CDATA[文件名长度必须在2到64个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[警告：因为它是目前指定的默认存储语言这种语言不能被删除！]]></value>
+		<value><![CDATA[警告：此语言无法删除，因为它当前被指定为默认商店语言！]]></value>
 	</definition>
 	<definition>
 		<key>error_admin</key>
-		<value><![CDATA[警告：因为它是目前指定的管理语言的这种语言不能被删除！]]></value>
+		<value><![CDATA[警告: 此语言无法删除，因为它目前被指定为管理语言！]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[警告：因为它是目前分配给卖场〜这种语言不能被删除！]]></value>
+		<value><![CDATA[警告：此语言无法删除，因为它当前已分配给 %s 个商店！]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[警告：因为它是目前分配给订单〜这种语言不能被删除！]]></value>
+		<value><![CDATA[警告：此语言无法删除，因为它当前已分配给 %s 个订单！]]></value>
 	</definition>
 	<definition>
 		<key>language_edit_title</key>
-		<value><![CDATA[编辑语言详细信息]]></value>
+		<value><![CDATA[编辑语言详情]]></value>
 	</definition>
 	<definition>
 		<key>load_language_title</key>
@@ -122,12 +122,12 @@
 	</definition>
 	<definition>
 		<key>load_language_note</key>
-		<value><![CDATA[注：此操作可能需要几分钟的时间来运行。请不要关闭浏览器，离开或刷新页面！]]></value>
+		<value><![CDATA[注意：此操作可能需要几分钟才能运行。请勿关闭浏览器、离开或刷新页面！]]></value>
 	</definition>
 	<definition>
 		<key>create_language_note</key>
-		<value><![CDATA[注：我们建议创造语言的扩展。检查现有的语言扩展。如果您仍想手动创建新的语言，你需要的语言标志添加到管理员 admin/language/[Language Directory]/flag.png		storefront/language/[Language Directory]flag.png [语言目录] 
-语言创建后负荷缺少语言数据翻译或源语言复制文本内容。]]></value>
+		<value><![CDATA[注意：我们建议将语言作为扩展创建。请检查现有的语言扩展。如果仍要手动创建新语言，则需要将语言旗帜添加到 admin/language/[Language Directory]/flag.png 和 storefront/language/[Language Directory]flag.png。	
+创建语言后，加载缺失的语言数据以翻译，或从源语言复制文本内容。]]></value>
 	</definition>
 	<definition>
 		<key>button_load_language</key>
@@ -139,7 +139,7 @@
 	</definition>
 	<definition>
 		<key>text_task_id</key>
-		<value><![CDATA[任务ID：]]></value>
+		<value><![CDATA[任务 ID：]]></value>
 	</definition>
 	<definition>
 		<key>text_title</key>
@@ -147,38 +147,42 @@
 	</definition>
 	<definition>
 		<key>text_last_time_run</key>
-		<value><![CDATA[最后时刻运行：]]></value>
+		<value><![CDATA[上次运行时间：]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
-		<value><![CDATA[创建：]]></value>
+		<value><![CDATA[创建于：]]></value>
 	</definition>
 	<definition>
 		<key>text_starter_name</key>
-		<value><![CDATA[由...制作：]]></value>
+		<value><![CDATA[创建者:]]></value>
 	</definition>
 	<definition>
 		<key>text_restart</key>
-		<value><![CDATA[重新开始]]></value>
+		<value><![CDATA[重新启动]]></value>
 	</definition>
 	<definition>
 		<key>text_remove</key>
-		<value><![CDATA[去掉]]></value>
+		<value><![CDATA[移除]]></value>
 	</definition>
 	<definition>
 		<key>text_task_title</key>
-		<value><![CDATA[说明从〜翻译来〜]]></value>
+		<value><![CDATA[将描述从 %s 翻译为 %s]]></value>
 	</definition>
 	<definition>
 		<key>error_nothing_to_do</key>
-		<value><![CDATA[错误：请设置源语言和翻译法！]]></value>
+		<value><![CDATA[错误：请设置源语言和翻译方法！]]></value>
 	</definition>
 	<definition>
 		<key>text_translate_override_existing</key>
-		<value><![CDATA[注：在目标语言的所有已存在的描述将与新的翻译所取代。您可以禁用压倒一切的<a href="%s">系统- &gt;设置- &gt;存储详情</a> 。]]></value>
+		<value><![CDATA[注意：所有目标语言中现有的描述将被新的翻译替换。您可以在<a href="%s">系统->设置->商店详情</a>中禁用覆盖。]]></value>
 	</definition>
 	<definition>
 		<key>text_copy_source_text</key>
-		<value><![CDATA[]]></value>
+		<value><![CDATA[复制源语言文本]]></value>
+	</definition>
+	<definition>
+		<key>error_all_disabled</key>
+		<value><![CDATA[至少必须激活一种语言！]]></value>
 	</definition>
 </definitions>

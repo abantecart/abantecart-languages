@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,23 +6,23 @@
 	</definition>
 	<definition>
 		<key>text_class</key>
-		<value><![CDATA[Classe d&#39;impôt]]></value>
+		<value><![CDATA[Classe de taxe]]></value>
 	</definition>
 	<definition>
 		<key>text_rate</key>
-		<value><![CDATA[Taux d&#39;imposition]]></value>
+		<value><![CDATA[Taux de taxe]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Succès: Vous avez modifié les classes d&#39;impôt!]]></value>
+		<value><![CDATA[Succès : Vous avez modifié les classes fiscales !]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[Catégorie fiscale Titre]]></value>
+		<value><![CDATA[Titre de la classe de taxe]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[action]]></value>
+		<value><![CDATA[Action]]></value>
 	</definition>
 	<definition>
 		<key>tab_details</key>
@@ -30,15 +30,15 @@
 	</definition>
 	<definition>
 		<key>tab_rates</key>
-		<value><![CDATA[Les taux]]></value>
+		<value><![CDATA[Tarifs]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Classe de TVA Titre:]]></value>
+		<value><![CDATA[Titre de la classe fiscale :]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[Description de visible pour les clients]]></value>
+		<value><![CDATA[Description visible aux clients]]></value>
 	</definition>
 	<definition>
 		<key>entry_location</key>
@@ -46,7 +46,7 @@
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[zone de localisation]]></value>
+		<value><![CDATA[Zone de localisation]]></value>
 	</definition>
 	<definition>
 		<key>entry_priority</key>
@@ -54,23 +54,23 @@
 	</definition>
 	<definition>
 		<key>entry_rate</key>
-		<value><![CDATA[Taux d&#39;imposition]]></value>
+		<value><![CDATA[Taux de taxe]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Attention: Vous n&#39;êtes pas autorisé à modifier les classes d&#39;impôt!]]></value>
+		<value><![CDATA[Attention : vous n’avez pas la permission de modifier les classes fiscales !]]></value>
 	</definition>
 	<definition>
 		<key>error_tax_title</key>
-		<value><![CDATA[Classe de TVA Titre doit être comprise entre 2 et 32 ​​caractères!]]></value>
+		<value><![CDATA[Le titre de la classe fiscale doit comporter entre 2 et 32 caractères !]]></value>
 	</definition>
 	<definition>
 		<key>error_rate</key>
-		<value><![CDATA[Taux d&#39;imposition requis!]]></value>
+		<value><![CDATA[Taux de taxe requis !]]></value>
 	</definition>
 	<definition>
 		<key>error_product</key>
-		<value><![CDATA[Attention: Cette classe d&#39;impôt ne peut pas être supprimé car il est actuellement assigné à %s produits!]]></value>
+		<value><![CDATA[Attention : Cette classe de taxe ne peut pas être supprimée car elle est actuellement attribuée à %s produits !]]></value>
 	</definition>
 	<definition>
 		<key>text_tax_all_zones</key>
@@ -78,11 +78,11 @@
 	</definition>
 	<definition>
 		<key>entry_tax_rate_threshold</key>
-		<value><![CDATA[Appliquer l&#39; impôt si <br/><span class="help">Appliquer cette taxe seulement si, montant taxé (produit, expédition, subtotale, etc.) est ...</span>]]></value>
+		<value><![CDATA[Appliquer la taxe si<br /><span class="help">Appliquer cette taxe uniquement si le montant imposable (produit, livraison, sous-total, etc.) est …</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_exempt_groups</key>
-		<value><![CDATA[Groupes fiscaux exemptés <br/><span class="help">Sélectionnez les groupes de clients à exempter de cette taxe</span>]]></value>
+		<value><![CDATA[Groupes exonérés de cette taxe<br /><span class="help">Sélectionnez les groupes de clients à exonérer de cette taxe</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_absolute</key>
@@ -90,6 +90,6 @@
 	</definition>
 	<definition>
 		<key>text_percent</key>
-		<value><![CDATA[Pour cent]]></value>
+		<value><![CDATA[Pourcentage]]></value>
 	</definition>
 </definitions>

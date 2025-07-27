@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>default_weight_name</key>
-		<value><![CDATA[Доставка на основі ваги]]></value>
+		<value><![CDATA[Доставка за вагою]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
@@ -10,15 +10,15 @@
 	</definition>
 	<definition>
 		<key>text_additional_settings</key>
-		<value><![CDATA[ Додаткові налаштування ]]></value>
+		<value><![CDATA[Додаткові налаштування]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: ви змінили вартість доставки на основі ваги!]]></value>
+		<value><![CDATA[Успіх: Ви змінили доставку за вагою!]]></value>
 	</definition>
 	<definition>
 		<key>entry_rate</key>
-		<value><![CDATA[Тарифи: <br/><span class="help">Приклад: 5:10.00,7:12.00 Вага:Вартість, Вага:Вартість тощо. У цьому прикладі 5 фунтів = 10,00 доларів США. Де фунт — це клас ваги вашого магазину, а $ — базова валюта магазину. Ви можете змінити обидва в налаштуваннях магазину</span>]]></value>
+		<value><![CDATA[Тарифи:<br /><span class="help">Наприклад: 5:10.00,7:12.00 Вага:Вартість,Вага:Вартість, тощо. У цьому прикладі 5 фунтів = $10.00. Де фунт — це ваш клас ваги магазину, а $ — базова валюта магазину. Ви можете змінити обидва в налаштуваннях магазину</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>entry_tax</key>
-		<value><![CDATA[Податковий клас:]]></value>
+		<value><![CDATA[Клас податку:]]></value>
 	</definition>
 	<definition>
 		<key>entry_location</key>
@@ -38,14 +38,14 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Попередження: Ви не маєте дозволу змінювати вартість доставки на основі ваги!]]></value>
+		<value><![CDATA[Попередження: Ви не маєте дозволу змінювати доставку за вагою!]]></value>
 	</definition>
 	<definition>
 		<key>example_weight_text</key>
-		<value><![CDATA[вага: ]]></value>
+		<value><![CDATA[Вага:]]></value>
 	</definition>
 	<definition>
 		<key>example_currency_text</key>
-		<value><![CDATA[Валюта: ]]></value>
+		<value><![CDATA[Валюта:]]></value>
 	</definition>
 </definitions>

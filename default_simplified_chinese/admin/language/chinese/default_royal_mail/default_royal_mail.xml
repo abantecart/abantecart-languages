@@ -6,59 +6,60 @@
 	</definition>
 	<definition>
 		<key>text_shipping</key>
-		<value><![CDATA[船运]]></value>
+		<value><![CDATA[运输]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：您已修改皇家邮政运输！]]></value>
+		<value><![CDATA[成功：您已修改 Royal Mail 配送！]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_1st_class</key>
-		<value><![CDATA[一等邮件（仅限英国） <br/><span class="help">信件和包裹次日送达</span>]]></value>
+		<value><![CDATA[一等邮件 (仅限英国)
+信件和包裹的次日送达服务]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_1st_class_rates</key>
-		<value><![CDATA[一等费率： <br/><span class="help">例如：.1:1.58、.25:1.96、.5:2.48 重量：费用、重量：费用等。在此示例中，0.1kg = £1.58。其中 KG 是您在皇家邮政设置中设置的重量等级，£ 是商店基本货币。商店重量等级将被忽略。</span>]]></value>
+		<value><![CDATA[一等邮费：<br/><span class="help">示例：.1:1.58,.25:1.96,.5:2.48 重量:费用,重量:费用 等等。在此示例中 0.1kg = £1.58。KG 为在 Royal Mail 设置中配置的重量类别，£ 为商店基础货币。商店重量类别将被忽略。</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_1st_class_compensation_rates</key>
-		<value><![CDATA[一级赔偿率]]></value>
+		<value><![CDATA[头等补偿费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_2nd_class</key>
-		<value><![CDATA[二等舱（仅限英国）]]></value>
+		<value><![CDATA[第二类（仅限 GB）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_2nd_class_rates</key>
-		<value><![CDATA[二等舱票价]]></value>
+		<value><![CDATA[二等邮件费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_2nd_class_compensation_rates</key>
-		<value><![CDATA[二级赔偿率]]></value>
+		<value><![CDATA[二等赔偿费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_tracked24</key>
-		<value><![CDATA[Tracked 24®（仅适用于 GB）]]></value>
+		<value><![CDATA[追踪24®]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_tracked24_rates</key>
-		<value><![CDATA[跟踪 24® 费率]]></value>
+		<value><![CDATA[Tracked 24® 费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_tracked24_compensation_rates</key>
-		<value><![CDATA[追踪 24® 薪酬率]]></value>
+		<value><![CDATA[Tracked 24® 赔偿费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_tracked48</key>
-		<value><![CDATA[Tracked 48®（仅适用于 GB）]]></value>
+		<value><![CDATA[Tracked 48®（仅限英国）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_tracked48_rates</key>
-		<value><![CDATA[跟踪 48® 费率]]></value>
+		<value><![CDATA[跟踪48®费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_tracked48_compensation_rates</key>
-		<value><![CDATA[追踪 48® 薪酬率]]></value>
+		<value><![CDATA[Tracked 48® 赔偿费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_mail24</key>
@@ -70,19 +71,19 @@
 	</definition>
 	<definition>
 		<key>default_royal_mail_mail24_compensation_rates</key>
-		<value><![CDATA[Mail 24® 赔偿率]]></value>
+		<value><![CDATA[Mail 24® 补偿费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_mail48</key>
-		<value><![CDATA[Mail 48®（仅限英国）]]></value>
+		<value><![CDATA[Mail 48® (仅限英国)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_mail48_rates</key>
-		<value><![CDATA[Mail 48® 费率]]></value>
+		<value><![CDATA[邮件 48® 费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_mail48_compensation_rates</key>
-		<value><![CDATA[Mail 48® 赔偿率]]></value>
+		<value><![CDATA[Mail 48® 赔偿费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_sameday</key>
@@ -94,578 +95,574 @@
 	</definition>
 	<definition>
 		<key>default_royal_mail_sameday_compensation_rates</key>
-		<value><![CDATA[Sameday® 赔偿率]]></value>
+		<value><![CDATA[Sameday® 赔偿费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_special_delivery_guaranteed</key>
-		<value><![CDATA[特别配送保证®（仅限英国）]]></value>
+		<value><![CDATA[特快专递保障® (仅限英国)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_special_delivery_guaranteed_rates</key>
-		<value><![CDATA[特别配送保证® 费率]]></value>
+		<value><![CDATA[特快专递保证® 费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_special_delivery_guaranteed_compensation_rates</key>
-		<value><![CDATA[特殊配送保证® 赔偿率]]></value>
+		<value><![CDATA[Special Delivery Guaranteed® 赔偿费率]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb</key>
-		<value><![CDATA[免费送货的送货方式（仅限英国）<span class="help">请选择当购物车仅包含免费送货产品时将选择哪种方式</span>]]></value>
+		<value><![CDATA[免运费配送方式（仅限GB）<span class="help">请选择当购物车仅包含免运费产品时将使用的配送方式</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb_1st_class</key>
-		<value><![CDATA[一等舱]]></value>
+		<value><![CDATA[头等舱]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb_2nd_class</key>
-		<value><![CDATA[二等舱]]></value>
+		<value><![CDATA[第二类]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb_tracked24</key>
-		<value><![CDATA[Tracked 24®]]></value>
+		<value><![CDATA[跟踪 24®]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb_tracked48</key>
-		<value><![CDATA[履带式 48®]]></value>
+		<value><![CDATA[已追踪48®]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb_mail24</key>
-		<value><![CDATA[邮件 24®]]></value>
+		<value><![CDATA[邮件24®]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb_mail48</key>
-		<value><![CDATA[邮件 48®]]></value>
+		<value><![CDATA[邮件48®]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb_sameday</key>
-		<value><![CDATA[Sameday®]]></value>
+		<value><![CDATA[当日达®]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_free_gb_special_delivery_guaranteed</key>
-		<value><![CDATA[特别配送保证®]]></value>
+		<value><![CDATA[保证特快专递®]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_europe_zone_1</key>
-		<value><![CDATA[国际定价 欧洲 1 区]]></value>
+		<value><![CDATA[国际定价 欧洲一区]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_europe_zone_2</key>
-		<value><![CDATA[国际定价 欧洲 2 区]]></value>
+		<value><![CDATA[国际定价 欧洲区域2]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_europe_zone_3</key>
-		<value><![CDATA[国际定价 欧洲 3 区]]></value>
+		<value><![CDATA[国际定价 欧洲3区]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_world_zone_1</key>
-		<value><![CDATA[国际定价世界 1 区]]></value>
+		<value><![CDATA[国际定价 世界区域1]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_world_zone_2</key>
-		<value><![CDATA[国际定价世界 2 区]]></value>
+		<value><![CDATA[国际定价 世界区域 2]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_world_zone_3</key>
-		<value><![CDATA[国际定价世界 3 区]]></value>
+		<value><![CDATA[国际定价 世界第3区]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_europe_zone_1</key>
-		<value><![CDATA[国际标准经济舱（欧洲1区）]]></value>
+		<value><![CDATA[国际标准经济（欧洲区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_europe_zone_1_rates</key>
-		<value><![CDATA[标准经济舱票价（欧洲 1 区）]]></value>
+		<value><![CDATA[标准经济费率（欧洲区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_europe_zone_2</key>
-		<value><![CDATA[国际标准经济舱（欧洲2区）]]></value>
+		<value><![CDATA[国际标准经济（欧洲第2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_europe_zone_2_rates</key>
-		<value><![CDATA[标准经济舱票价（欧洲 2 区）]]></value>
+		<value><![CDATA[标准经济费率（欧洲第2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_europe_zone_3</key>
-		<value><![CDATA[国际标准经济舱（欧洲3区）]]></value>
+		<value><![CDATA[国际标准经济（欧洲3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_europe_zone_3_rates</key>
-		<value><![CDATA[标准经济舱票价（欧洲 3 区）]]></value>
+		<value><![CDATA[标准经济费率（欧洲第3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_world_zone_1</key>
-		<value><![CDATA[国际标准经济（世界1区）]]></value>
+		<value><![CDATA[国际标准经济（世界区域 1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_world_zone_1_rates</key>
-		<value><![CDATA[标准经济舱票价（世界 1 区）]]></value>
+		<value><![CDATA[标准经济费率 (世界区域1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_world_zone_2</key>
-		<value><![CDATA[国际标准经济（世界2区）]]></value>
+		<value><![CDATA[国际标准经济（世界区域 2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_world_zone_2_rates</key>
-		<value><![CDATA[标准经济舱票价（世界 2 区）]]></value>
+		<value><![CDATA[标准经济费率（世界区域2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_world_zone_3</key>
-		<value><![CDATA[国际标准经济（世界3区）]]></value>
+		<value><![CDATA[国际标准经济（世界区域3）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_economy_world_zone_3_rates</key>
-		<value><![CDATA[标准经济舱票价（世界 3 区）]]></value>
+		<value><![CDATA[标准经济费率（世界区域3）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_europe_zone_1</key>
-		<value><![CDATA[国际标准优先权（欧洲 1 区）]]></value>
+		<value><![CDATA[国际标准优先（欧洲1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_europe_zone_1_rates</key>
-		<value><![CDATA[标准优先利率（欧洲 1 区）]]></value>
+		<value><![CDATA[标准优先费率 (欧洲区1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_europe_zone_2</key>
-		<value><![CDATA[国际标准优先权（欧洲 2 区）]]></value>
+		<value><![CDATA[国际标准优先（欧洲2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_europe_zone_2_rates</key>
-		<value><![CDATA[标准优先利率（欧洲 2 区）]]></value>
+		<value><![CDATA[标准优先费率 (欧洲2区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_europe_zone_3</key>
-		<value><![CDATA[国际标准优先权（欧洲 3 区）]]></value>
+		<value><![CDATA[国际标准优先（欧洲第3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_europe_zone_3_rates</key>
-		<value><![CDATA[标准优先利率（欧洲 3 区）]]></value>
+		<value><![CDATA[标准优先费率（欧洲3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_world_zone_1</key>
-		<value><![CDATA[国际标准优先权（世界1区）]]></value>
+		<value><![CDATA[国际标准优先（世界区域 1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_world_zone_1_rates</key>
-		<value><![CDATA[标准优先费率（世界 1 区）]]></value>
+		<value><![CDATA[标准优先费率（世界区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_world_zone_2</key>
-		<value><![CDATA[国际标准优先权（世界2区）]]></value>
+		<value><![CDATA[国际标准优先 (世界二区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_world_zone_2_rates</key>
-		<value><![CDATA[标准优先费率（世界 2 区）]]></value>
+		<value><![CDATA[标准优先费率（世界区域 2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_world_zone_3</key>
-		<value><![CDATA[国际标准优先权（世界3区）]]></value>
+		<value><![CDATA[国际标准优先（世界区域3）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_standard_priority_world_zone_3_rates</key>
-		<value><![CDATA[标准优先费率（世界 3 区）]]></value>
+		<value><![CDATA[标准优先费率（世界三区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_europe_zone_1</key>
-		<value><![CDATA[国际手语（欧洲 1 区）]]></value>
+		<value><![CDATA[国际挂号 (欧洲1区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_europe_zone_1_rates</key>
-		<value><![CDATA[签约费率（欧洲 1 区）]]></value>
+		<value><![CDATA[签名费率 (欧洲 区域 1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_europe_zone_2</key>
-		<value><![CDATA[国际手语（欧洲2区）]]></value>
+		<value><![CDATA[国际签收 (欧洲 区域 2)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_europe_zone_2_rates</key>
-		<value><![CDATA[已签署费率（欧洲 2 区）]]></value>
+		<value><![CDATA[签收费率 (欧洲二区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_europe_zone_3</key>
-		<value><![CDATA[国际手语（欧洲 3 区）]]></value>
+		<value><![CDATA[国际挂号签收（欧洲3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_europe_zone_3_rates</key>
-		<value><![CDATA[已签约费率（欧洲 3 区）]]></value>
+		<value><![CDATA[签收费率（欧洲第3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_world_zone_1</key>
-		<value><![CDATA[国际手语（世界 1 区）]]></value>
+		<value><![CDATA[国际签收（世界区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_world_zone_1_rates</key>
-		<value><![CDATA[签名费率（世界 1 区）]]></value>
+		<value><![CDATA[签名费率 (世界区域1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_world_zone_2</key>
-		<value><![CDATA[国际手语（世界 2 区）]]></value>
+		<value><![CDATA[国际挂号 (世界区域 2)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_world_zone_2_rates</key>
-		<value><![CDATA[签名费率（世界 2 区）]]></value>
+		<value><![CDATA[签收费率（世界区域2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_world_zone_3</key>
-		<value><![CDATA[国际手语（世界 3 区）]]></value>
+		<value><![CDATA[国际挂号 (World Zone 3)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_signed_world_zone_3_rates</key>
-		<value><![CDATA[签名费率（世界 3 区）]]></value>
+		<value><![CDATA[签收费率（世界区域3）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_europe_zone_1</key>
-		<value><![CDATA[国际跟踪签名（欧洲 1 区）]]></value>
+		<value><![CDATA[国际跟踪签收（欧洲1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_europe_zone_1_rates</key>
-		<value><![CDATA[跟踪签约率（欧洲 1 区）]]></value>
+		<value><![CDATA[挂号签收费率 (欧洲一区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_europe_zone_2</key>
-		<value><![CDATA[国际跟踪签名（欧洲 2 区）]]></value>
+		<value><![CDATA[国际可追踪签收 (欧洲2区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_europe_zone_2_rates</key>
-		<value><![CDATA[跟踪签约率（欧洲 2 区）]]></value>
+		<value><![CDATA[跟踪签收费率（欧洲第2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_europe_zone_3</key>
-		<value><![CDATA[国际跟踪签名（欧洲 3 区）]]></value>
+		<value><![CDATA[国际挂号签收（欧洲第3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_europe_zone_3_rates</key>
-		<value><![CDATA[跟踪签约率（欧洲 3 区）]]></value>
+		<value><![CDATA[跟踪签收费率（欧洲第三区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_world_zone_1</key>
-		<value><![CDATA[国际跟踪签名（世界 1 区）]]></value>
+		<value><![CDATA[国际挂号跟踪签收（世界区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_world_zone_1_rates</key>
-		<value><![CDATA[跟踪签约率（世界 1 区）]]></value>
+		<value><![CDATA[挂号签收费率（世界区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_world_zone_2</key>
-		<value><![CDATA[国际跟踪签名（世界 2 区）]]></value>
+		<value><![CDATA[国际挂号签收]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_world_zone_2_rates</key>
-		<value><![CDATA[跟踪签约率（世界 2 区）]]></value>
+		<value><![CDATA[跟踪签收费率（世界2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_world_zone_3</key>
-		<value><![CDATA[国际跟踪签名（世界 3 区）]]></value>
+		<value><![CDATA[国际挂号签收（世界3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_signed_world_zone_3_rates</key>
-		<value><![CDATA[跟踪签约率（世界 3 区）]]></value>
+		<value><![CDATA[签收跟踪费率（世界区域3）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_europe_zone_1</key>
-		<value><![CDATA[国际跟踪（欧洲1区）]]></value>
+		<value><![CDATA[国际挂号 (欧洲第一区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_europe_zone_1_rates</key>
-		<value><![CDATA[跟踪费率（欧洲 1 区）]]></value>
+		<value><![CDATA[跟踪费率（欧洲区域 1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_europe_zone_2</key>
-		<value><![CDATA[国际跟踪（欧洲2区）]]></value>
+		<value><![CDATA[国际挂号 (欧洲第2区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_europe_zone_2_rates</key>
-		<value><![CDATA[跟踪费率（欧洲 2 区）]]></value>
+		<value><![CDATA[跟踪费率（欧洲第2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_europe_zone_3</key>
-		<value><![CDATA[国际跟踪（欧洲 3 区）]]></value>
+		<value><![CDATA[国际挂号（欧洲3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_europe_zone_3_rates</key>
-		<value><![CDATA[跟踪费率（欧洲 3 区）]]></value>
+		<value><![CDATA[跟踪费率（欧洲第3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_world_zone_1</key>
-		<value><![CDATA[国际跟踪（世界 1 区）]]></value>
+		<value><![CDATA[国际挂号（世界区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_world_zone_1_rates</key>
-		<value><![CDATA[追踪费率（世界 1 区）]]></value>
+		<value><![CDATA[跟踪费率（世界区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_world_zone_2</key>
-		<value><![CDATA[国际跟踪（世界 2 区）]]></value>
+		<value><![CDATA[国际跟踪（世界区域2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_world_zone_2_rates</key>
-		<value><![CDATA[追踪费率（世界 2 区）]]></value>
+		<value><![CDATA[跟踪费率（世界区域2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_world_zone_3</key>
-		<value><![CDATA[国际跟踪（世界 3 区）]]></value>
+		<value><![CDATA[国际挂号 (World Zone 3)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_world_zone_3_rates</key>
-		<value><![CDATA[追踪费率（世界 3 区）]]></value>
+		<value><![CDATA[跟踪费率（世界区域3）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1</key>
-		<value><![CDATA[国际重型履带货车（欧洲 1 区）]]></value>
+		<value><![CDATA[国际挂号加重（欧洲1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1_rates</key>
-		<value><![CDATA[跟踪重载费率（欧洲 1 区）]]></value>
+		<value><![CDATA[跟踪更重费率（欧洲区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2</key>
-		<value><![CDATA[国际重型履带货车（欧洲 2 区）]]></value>
+		<value><![CDATA[国际挂号重型（欧洲第2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2_rates</key>
-		<value><![CDATA[跟踪重载费率（欧洲 2 区）]]></value>
+		<value><![CDATA[跟踪更重费率（欧洲2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3</key>
-		<value><![CDATA[国际重型履带货车（欧洲 3 区）]]></value>
+		<value><![CDATA[国际可追踪超重 (欧洲第3区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3_rates</key>
-		<value><![CDATA[跟踪重载费率（欧洲 3 区）]]></value>
+		<value><![CDATA[可追踪重件费率（欧洲3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_world_zone_1</key>
-		<value><![CDATA[国际履带重型卡车（世界 1 区）]]></value>
+		<value><![CDATA[国际挂号重件 (World Zone 1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_world_zone_1_rates</key>
-		<value><![CDATA[跟踪重型货物运输费率（世界 1 区）]]></value>
+		<value><![CDATA[可跟踪重货费率（全球区域 1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_world_zone_2</key>
-		<value><![CDATA[国际履带重型卡车（世界 2 区）]]></value>
+		<value><![CDATA[国际跟踪加重 (世界2区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_world_zone_2_rates</key>
-		<value><![CDATA[追踪重型货物运输费率（世界 2 区）]]></value>
+		<value><![CDATA[挂号重型费率（世界2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_world_zone_3</key>
-		<value><![CDATA[国际履带重型卡车（世界 3 区）]]></value>
+		<value><![CDATA[国际挂号加重（世界3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_tracked_heavier_world_zone_3_rates</key>
-		<value><![CDATA[追踪重型货物运输费率（世界 3 区）]]></value>
+		<value><![CDATA[追踪重件费率 (世界区域 3)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free</key>
-		<value><![CDATA[
-免费送货的国际送货方式<span class="help">请选择当购物车仅包含免费送货产品时将选择哪种方式</span>]]></value>
+		<value><![CDATA[国际免费配送方式 <span class="help">当购物车仅包含免费配送商品时，请选择配送方式</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
-		<value><![CDATA[标准经济舱（欧洲 1 区）]]></value>
+		<value><![CDATA[标准经济（欧洲1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
-		<value><![CDATA[标准经济舱（欧洲 1 区）]]></value>
+		<value><![CDATA[标准经济 (欧洲1区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_economy_europe_zone_2</key>
-		<value><![CDATA[标准经济舱（欧洲 2 区）]]></value>
+		<value><![CDATA[标准经济 (欧洲2区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_economy_europe_zone_3</key>
-		<value><![CDATA[标准经济舱（欧洲 3 区）]]></value>
+		<value><![CDATA[标准经济（欧洲第3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_economy_world_zone_1</key>
-		<value><![CDATA[标准经济舱（世界 1 区）]]></value>
+		<value><![CDATA[标准经济（世界1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_economy_world_zone_2</key>
-		<value><![CDATA[标准经济舱（世界 2 区）]]></value>
+		<value><![CDATA[标准经济（世界区域2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_economy_world_zone_3</key>
-		<value><![CDATA[标准经济舱（世界 3 区）]]></value>
+		<value><![CDATA[标准经济 (世界区域 3)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
-		<value><![CDATA[标准优先级（欧洲 1 区）]]></value>
+		<value><![CDATA[标准优先 (欧洲1区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
-		<value><![CDATA[标准优先级（欧洲 1 区）]]></value>
+		<value><![CDATA[标准优先 (欧洲1区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_priority_europe_zone_2</key>
-		<value><![CDATA[标准优先级（欧洲 2 区）]]></value>
+		<value><![CDATA[标准优先（欧洲二区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_priority_europe_zone_3</key>
-		<value><![CDATA[标准优先级（欧洲 3 区）]]></value>
+		<value><![CDATA[标准优先（欧洲3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_priority_world_zone_1</key>
-		<value><![CDATA[标准优先级（世界 1 区）]]></value>
+		<value><![CDATA[标准优先（世界区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_priority_world_zone_2</key>
-		<value><![CDATA[标准优先级（世界 2 区）]]></value>
+		<value><![CDATA[标准优先（世界区域 2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_standard_priority_world_zone_3</key>
-		<value><![CDATA[标准优先级（世界 3 区）]]></value>
+		<value><![CDATA[标准优先（世界第3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
-		<value><![CDATA[已签名（欧洲 1 区）]]></value>
+		<value><![CDATA[挂号（欧洲1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
-		<value><![CDATA[已签名（欧洲 1 区）]]></value>
+		<value><![CDATA[签收（欧洲区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_signed_europe_zone_2</key>
-		<value><![CDATA[已签名（欧洲 2 区）]]></value>
+		<value><![CDATA[签收（欧洲第2区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_signed_europe_zone_3</key>
-		<value><![CDATA[已签名（欧洲 3 区）]]></value>
+		<value><![CDATA[签收 (欧洲第3区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_signed_world_zone_1</key>
-		<value><![CDATA[已签名 (世界 1 区)]]></value>
+		<value><![CDATA[已签名 (世界区域1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_signed_world_zone_2</key>
-		<value><![CDATA[已签名（世界 2 区）]]></value>
+		<value><![CDATA[已签署（世界区域2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_signed_world_zone_3</key>
-		<value><![CDATA[已签名（世界 3 区）]]></value>
+		<value><![CDATA[签名 (世界第三区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
-		<value><![CDATA[跟踪签名（欧洲 1 区）]]></value>
+		<value><![CDATA[签收跟踪 (欧洲1区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
-		<value><![CDATA[跟踪签名（欧洲 1 区）]]></value>
+		<value><![CDATA[挂号签收（欧洲1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_2</key>
-		<value><![CDATA[跟踪签名（欧洲 2 区）]]></value>
+		<value><![CDATA[追踪签收 (Europe Zone 2)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_3</key>
-		<value><![CDATA[跟踪签名（欧洲 3 区）]]></value>
+		<value><![CDATA[跟踪签收（欧洲3区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_signed_world_zone_1</key>
-		<value><![CDATA[跟踪签名（世界 1 区）]]></value>
+		<value><![CDATA[签名追踪 (世界区域 1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_signed_world_zone_2</key>
-		<value><![CDATA[跟踪签名（世界 2 区）]]></value>
+		<value><![CDATA[跟踪签收（世界区域2）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_signed_world_zone_3</key>
-		<value><![CDATA[跟踪签名（世界 3 区）]]></value>
+		<value><![CDATA[可追踪签收（全球区域3）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
-		<value><![CDATA[履带式（欧洲 1 区）]]></value>
+		<value><![CDATA[跟踪（欧洲1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
-		<value><![CDATA[履带式（欧洲 1 区）]]></value>
+		<value><![CDATA[可跟踪 (欧洲一区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_europe_zone_2</key>
-		<value><![CDATA[履带式（欧洲 2 区）]]></value>
+		<value><![CDATA[跟踪（欧洲2 区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_europe_zone_3</key>
-		<value><![CDATA[履带式（欧洲 3 区）]]></value>
+		<value><![CDATA[跟踪 (欧洲第三区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_world_zone_1</key>
-		<value><![CDATA[履带式（世界 1 区）]]></value>
+		<value><![CDATA[跟踪（世界区域1）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_world_zone_2</key>
-		<value><![CDATA[履带式（世界 2 区）]]></value>
+		<value><![CDATA[可追踪 (全球区域 2)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_world_zone_3</key>
-		<value><![CDATA[履带式（世界 3 区）]]></value>
+		<value><![CDATA[跟踪 (世界区域 3)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
-		<value><![CDATA[履带式重型卡车（欧洲 1 区）]]></value>
+		<value><![CDATA[跟踪更重 (欧洲区域1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
-		<value><![CDATA[履带式重型卡车（欧洲 1 区）]]></value>
+		<value><![CDATA[跟踪-较重（欧洲1区）]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_2</key>
-		<value><![CDATA[履带式重型卡车（欧洲 2 区）]]></value>
+		<value><![CDATA[可追踪的重件 (欧洲第二区)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_3</key>
-		<value><![CDATA[履带式重型卡车（欧洲 3 区）]]></value>
+		<value><![CDATA[可追踪重件 (Europe Zone 3)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_1</key>
-		<value><![CDATA[履带式重型设备 (世界 1 区)]]></value>
+		<value><![CDATA[已追踪较重 (World Zone 1)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_2</key>
-		<value><![CDATA[履带式重型设备 (世界 2 区)]]></value>
+		<value><![CDATA[追踪更重 (世界区域2)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_3</key>
-		<value><![CDATA[履带式重型设备 (世界 3 区)]]></value>
+		<value><![CDATA[跟踪加重 (World Zone 3)]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_display_weight</key>
-		<value><![CDATA[
-显示发货重量： <br/><span class="help">您是否要显示发货重量？（例如发货重量：2.7674 公斤）</span>]]></value>
+		<value><![CDATA[显示配送重量：<br /><span class="help">您想要显示运输重量吗？（例如：配送重量：2.7674 Kg's）</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_display_insurance</key>
-		<value><![CDATA[
-显示保险： <br/><span class="help">您是否要显示运输保险？（例如，保险金额最高为&pound; 500）</span>]]></value>
+		<value><![CDATA[Display Insurance:<br /><span class="help">是否要显示运输保险？ (例如 保额最高可达 &pound;500)</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_display_time</key>
-		<value><![CDATA[
-显示运送时间： <br/><span class="help">您是否想显示运送时间？（例如3至5天内发货）</span>]]></value>
+		<value><![CDATA[显示发货时间：<br /><span class="help">您想显示发货时间吗？（例如：3 到 5 天内发货）</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_weight_class</key>
-		<value><![CDATA[重量等级： <br/><span class="help">您的费率重量等级。商店重量等级将被忽略</span>]]></value>
+		<value><![CDATA[重量类别：<br /><span class="help">您的费率的重量类别。商店的重量类别将被忽略。</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_tax</key>
-		<value><![CDATA[税級：]]></value>
+		<value><![CDATA[税类:]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_tax_0</key>
-		<value><![CDATA[- -没有任何 - -]]></value>
+		<value><![CDATA[---无---]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_location_id</key>
-		<value><![CDATA[地点：]]></value>
+		<value><![CDATA[位置:]]></value>
 	</definition>
 	<definition>
 		<key>default_royal_mail_location_id_0</key>
-		<value><![CDATA[所有地点]]></value>
+		<value><![CDATA[所有位置]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您无权修改皇家邮政的运输费用！]]></value>
+		<value><![CDATA[警告：您没有权限修改 Royal Mail 运输！]]></value>
 	</definition>
 </definitions>

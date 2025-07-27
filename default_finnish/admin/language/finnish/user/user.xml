@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[käyttäjät]]></value>
+		<value><![CDATA[Käyttäjät]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_details</key>
-		<value><![CDATA[Muokkaa profiilia Lisätiedot]]></value>
+		<value><![CDATA[Muokkaa profiilitietoja]]></value>
 	</definition>
 	<definition>
 		<key>text_user</key>
-		<value><![CDATA[käyttäjä]]></value>
+		<value><![CDATA[Käyttäjä]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Sinulla on muutettu käyttäjät!]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut käyttäjiä!]]></value>
 	</definition>
 	<definition>
 		<key>text_success_details</key>
-		<value><![CDATA[Success: Sinä muokannut profiili]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut profiiliasi!]]></value>
 	</definition>
 	<definition>
 		<key>column_username</key>
@@ -34,11 +34,11 @@
 	</definition>
 	<definition>
 		<key>column_date_added</key>
-		<value><![CDATA[lisäyspäivämäärä]]></value>
+		<value><![CDATA[Lisätty päivämäärä]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Toiminta]]></value>
+		<value><![CDATA[Toiminto]]></value>
 	</definition>
 	<definition>
 		<key>entry_username</key>
@@ -50,7 +50,7 @@
 	</definition>
 	<definition>
 		<key>entry_confirm</key>
-		<value><![CDATA[Vahvistaa:]]></value>
+		<value><![CDATA[Vahvista:]]></value>
 	</definition>
 	<definition>
 		<key>entry_firstname</key>
@@ -74,7 +74,7 @@
 	</definition>
 	<definition>
 		<key>entry_ims</key>
-		<value><![CDATA[ilmoitukset]]></value>
+		<value><![CDATA[Ilmoitukset]]></value>
 	</definition>
 	<definition>
 		<key>entry_captcha</key>
@@ -82,15 +82,15 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata käyttäjille!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata käyttäjiä!]]></value>
 	</definition>
 	<definition>
 		<key>error_account</key>
-		<value><![CDATA[Varoitus: Et voi poistaa oman tilin!]]></value>
+		<value><![CDATA[Varoitus: Et voi poistaa omaa tiliäsi!]]></value>
 	</definition>
 	<definition>
 		<key>error_username</key>
-		<value><![CDATA[Käyttäjätunnus on välillä 2 ja 20 merkkiä!]]></value>
+		<value><![CDATA[Käyttäjätunnuksen on oltava 2–20 merkin pituinen ja sen on oltava ainutlaatuinen!]]></value>
 	</definition>
 	<definition>
 		<key>error_password</key>
@@ -102,23 +102,23 @@
 	</definition>
 	<definition>
 		<key>error_firstname</key>
-		<value><![CDATA[Etunimi on oltava 2 ja 32 merkkiä!]]></value>
+		<value><![CDATA[Etunimen on oltava 2–32 merkkiä pitkä!]]></value>
 	</definition>
 	<definition>
 		<key>error_lastname</key>
-		<value><![CDATA[Sukunimi on oltava 2 ja 32 merkkiä!]]></value>
+		<value><![CDATA[Sukunimen on oltava 2–32 merkin välillä!]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[Sähköpostiosoite ei näytä olevan voimassa!]]></value>
+		<value><![CDATA[Sähköpostiosoite ei näytä kelvolliselta!]]></value>
 	</definition>
 	<definition>
 		<key>error_captcha</key>
-		<value><![CDATA[Ihmisen vahvistus epäonnistui!]]></value>
+		<value><![CDATA[Ihmistodennus epäonnistui!]]></value>
 	</definition>
 	<definition>
 		<key>error_user_group</key>
-		<value><![CDATA[Sinulla ei ole oikeuksia muuttaa käyttäjäryhmään.]]></value>
+		<value><![CDATA[Sinulla ei ole oikeuksia muuttaa käyttäjäryhmää.]]></value>
 	</definition>
 	<definition>
 		<key>text_select_group</key>
@@ -126,11 +126,11 @@
 	</definition>
 	<definition>
 		<key>entry_im_email</key>
-		<value><![CDATA[E-Mail: <span class="help">Yksi tai useampi pilkulla erotettuna sähköpostiosoitteet</span>]]></value>
+		<value><![CDATA[Sähköposti:<span class="help">Yksi tai useampi pilkuilla eroteltu sähköpostiosoite</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_im_sms</key>
-		<value><![CDATA[Matkapuhelin: <span class="help">Puhelinnumero kansainvälisessä muodossa. ex. +14566887777</span>]]></value>
+		<value><![CDATA[Matkapuhelin:<span class="help">Puhelinnumero kansainvälisessä muodossa. esim. +14566887777</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_im</key>
@@ -142,6 +142,6 @@
 	</definition>
 	<definition>
 		<key>text_change_im_addresses</key>
-		<value><![CDATA[Edit ilmoitusosoitteet tähän SendPoint]]></value>
+		<value><![CDATA[Muokkaa ilmoitusosoitteita tälle SendPointille]]></value>
 	</definition>
 </definitions>

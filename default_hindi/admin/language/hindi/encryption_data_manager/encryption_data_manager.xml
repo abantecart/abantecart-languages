@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[एन्क्रिप्शन डेटा प्रबंधक]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[विस्तार]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[गोपनीयकरण आंकड़े उपकरण]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[स्थिति:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[छंटाई क्रम:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[कुंजी जोड़ी उत्पन्न करें]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[डेटा एन्क्रिप्ट करें]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास वजन-आधारित शिपिंग को संशोधित करने की अनुमति नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[त्रुटि: चयनित कुंजी नाम युग्म पहले से मौजूद है!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>यह एक्सटेंशन उन्नत कॉन्फ़िगरेशन और ध्यान का माँग करता है</b><br/>
+<b>एक बार सक्षम और डेटा एन्क्रिप्ट हो जाने के बाद इसका कोई पूर्ववत उपाय नहीं है और एक्सटेंशन अक्षम नहीं किया जा सकता!</b><br/>
+यह एक्सटेंशन एन्क्रिप्शन कुंजी बनाने और खुली तालिकाओं से एन्क्रिप्टेड तालिकाओं में डेटा माइग्रेट करने (प्रारंभिक माइग्रेशन) में मदद करता है<br/>
+<b>कृपया ध्यान दें:</b> PHP में SSL एन्क्रिप्शन सक्षम होना चाहिए<br/><br/>
+डेटा एन्क्रिप्शन सक्षम करने के लिए कृपया सहायता निर्देश (HOW TO बटन) पढ़ें]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[चेतावनी: PHP के लिए OpenSSL उपलब्ध नहीं है या सक्रिय नहीं किया गया है। आप एन्क्रिप्शन या इस एक्सटेंशन का उपयोग नहीं कर सकते! <br> अधिक जानकारी के लिए इस एक्सटेंशन की HELP देखें।]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[चेतावनी: आपके AbanteCart पर डेटा एन्क्रिप्शन सक्षम नहीं है। आप इस एक्सटेंशन का उपयोग करके डेटा encrypt/decrypt नहीं कर सकते! <br> अधिक जानकारी के लिए इस एक्सटेंशन के HELP देखें।]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[की जोड़ी उत्पन्न करें]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[डेटा एन्क्रिप्ट करें]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[आवश्यक डेटा फ़ील्ड(स) गायब हैं। कृपया प्रदान किए गए मानों की जाँच करें।]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[अद्वितीय कुंजी जोड़ी का नाम:<br /><span class="help">नाम में कोई स्पेस या विशेष वर्ण नहीं होने चाहिए। इसे छोटा और सरल रखें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[कुंजी लंबाई (बिट्स):
+कुंजी एन्क्रिप्शन बिट्स की लंबाई निर्दिष्ट करें। एक बड़ा मान अधिक मजबूत एन्क्रिप्शन दर्शाता है, लेकिन प्रदर्शन धीमा हो सकता है। (रेंज 256 - 8192)]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[एन्क्रिप्शन प्रकार:<br /><span class="help">यह एक एन्क्रिप्शन एल्गोरिदम है। यदि आप उन्नत उपयोगकर्ता नहीं हैं तो डिफ़ॉल्ट RSA का उपयोग करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[पासवर्ड आधारित कुंजी सक्षम करें:<br /><span class="help">यदि सक्षम किया गया, तो निजी कुंजी के उपयोग से पाठ को डिक्रिप्ट करने के लिए अतिरिक्त पासफ़्रेज़ की आवश्यकता होगी। नोट: यह वर्तमान में डेटा एन्क्रिप्शन में समर्थित नहीं है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[पासफ़्रेज़ या कुंजी पासवर्ड:<br /><span class="help">याद रखें कि पासफ़्रेज़ या कुंजी(याँ) बेकार हो जाएँगी और डेटा खो सकता है</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[की जोड़ी बनाई गई है। नीचे दी गई कुंजियों को देखें और उन्हें सुरक्षित रखें।
+
+%s
+
+%s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[की जोड़ी उत्पन्न करने में विफल। अपनी सेटिंग्स की जाँच करें और त्रुटि लॉग देखें।]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[कुंजी जोड़ी का नाम:<br /><span class="help">एन्क्रिप्शन के लिए उपयोग की जाने वाली कुंजी चुनें। महत्वपूर्ण: आपने जो कुंजी उपयोग की है, उसे याद रखें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[एन्क्रिप्ट करने के लिए तालिका(याँ):<br /><span class="help">दिखाई गई तालिका(याँ) चयनित कुंजी से एन्क्रिप्ट की जाएँगी। डेटा केवल इसी कुंजी से खोला जा सकता है</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[परीक्षण मोड:<br /><span class="help">पहले जांचें कि सब कुछ एन्क्रिप्ट करने के लिए ठीक है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[स्रोत डेटा हटाएं:<br /><span class="help">स्रोत असंरक्षित डेटा रिकॉर्ड्स को एन्क्रिप्शन पूरा होने के बाद हटा दें</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>डेटा को एन्क्रिप्ट कर दिया गया है।<br/>विवरण देखें:</b><br/><br/> %s <br/><br/> <b>यदि आप चाहते हैं कि इस कुंजी का उपयोग नए डेटा एन्क्रिप्शन के लिए हो, तो file system/config.php फ़ाइल में निम्नलिखित पंक्ति जोड़ें: define('DATA_ENCRYPTION_KEYPAIR', '%s');</b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>डेटा एन्क्रिप्शन परीक्षण परिणाम</b> किसी भी संभावित त्रुटियों के लिए त्रुटि लॉग जांचें! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[डेटा एन्क्रिप्शन विफल हो गया। अपनी सेटिंग्स की जाँच करें और एरर लॉग की जाँच करें।]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>महत्वपूर्ण नोट्स! एन्क्रिप्शन पूरा होने के बाद डेटा मिरर तालिकाओं में कॉपी किया जाएगा, जिनमें डेटा एन्क्रिप्टेड होगा।<br />एन्क्रिप्टेड तालिकाओं पर पढ़ने/लिखने के संचालन स्विच करने के लिए अबांटेकार्ट के system/config.php में कॉन्फ़िगरेशन जोड़ने के निर्देशों का पालन करें।</b><br />निम्नलिखित पंक्ति कॉन्फ़िगरेशन फ़ाइल में जोड़ें: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name'); <br>यह पढ़ने/लिखने के संचालन के लिए डिफ़ॉल्ट कुंजी होगी।]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[एन्क्रिप्शन का उपयोग]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[अन-एन्क्रिप्टेड डेटा रिकॉर्ड्स]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[प्रारंभिक एन्क्रिप्शन के लिए 'डेटा एन्क्रिप्ट करें' टैब का उपयोग करें]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[एन्क्रिप्ट किए गए डेटा रिकॉर्ड्स]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[कुंजी आईडी]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[कुंजी नाम]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[कूटित तालिकाओं का उपयोग]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[घुमाएँ (बदलें) एन्क्रिप्शन को नई कुंजी पर]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[अभिलेख(ों)]]></value>
+	</definition>
+</definitions>

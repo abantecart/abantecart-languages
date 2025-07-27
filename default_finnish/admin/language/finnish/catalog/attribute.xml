@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[Global Ominaisuudet]]></value>
+		<value><![CDATA[Globaalit attribuutit]]></value>
 	</definition>
 	<definition>
 		<key>text_attribute</key>
-		<value><![CDATA[Global Taito]]></value>
+		<value><![CDATA[Globaalinen attribuutti]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Sinulla on muutettu ominaisuuksia!]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut attribuutteja!]]></value>
 	</definition>
 	<definition>
 		<key>text_select_type</key>
@@ -38,7 +38,11 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Toiminta]]></value>
+		<value><![CDATA[Toiminto]]></value>
+	</definition>
+	<definition>
+		<key>column_txt_id</key>
+		<value><![CDATA[Ainutlaatuinen tekstin tunnus]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
@@ -46,15 +50,15 @@
 	</definition>
 	<definition>
 		<key>entry_attribute_parent</key>
-		<value><![CDATA[Taito Parent:]]></value>
+		<value><![CDATA[Ominaisuuden ylätaso:]]></value>
 	</definition>
 	<definition>
 		<key>entry_attribute_group</key>
-		<value><![CDATA[Taito Group:]]></value>
+		<value><![CDATA[Ominaisuusryhmä:]]></value>
 	</definition>
 	<definition>
 		<key>entry_attribute_type</key>
-		<value><![CDATA[Ominaisuusmalli:]]></value>
+		<value><![CDATA[Attribuutin tyyppi:]]></value>
 	</definition>
 	<definition>
 		<key>entry_element_type</key>
@@ -62,7 +66,7 @@
 	</definition>
 	<definition>
 		<key>entry_element_values</key>
-		<value><![CDATA[Element Arvot:]]></value>
+		<value><![CDATA[Elementtien arvot:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -70,7 +74,7 @@
 	</definition>
 	<definition>
 		<key>entry_required</key>
-		<value><![CDATA[Edellytetään:]]></value>
+		<value><![CDATA[Pakollinen:]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -78,71 +82,67 @@
 	</definition>
 	<definition>
 		<key>entry_children_attributes</key>
-		<value><![CDATA[Lapset ominaisuudet:]]></value>
+		<value><![CDATA[Lasten ominaisuudet:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata yleisiä attribuutteja!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata globaaleja attribuutteja!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Ryhmän nimi on oltava 2 ja 32 merkkiä!]]></value>
+		<value><![CDATA[Ryhmän nimen on oltava 2–32 merkin pituinen!]]></value>
 	</definition>
 	<definition>
 		<key>error_required</key>
-		<value><![CDATA[Tämä kenttä pitää täyttää!]]></value>
+		<value><![CDATA[Tämä kenttä on pakollinen!]]></value>
 	</definition>
 	<definition>
 		<key>text_parent_note</key>
-		<value><![CDATA[Jos tämä on vanhempi määrite lasten ominaisuuksia, se voi olla vain tyyppiä valittavien, multiselect Box, valintaruutu ja Checkbox ryhmä. <br/> Lapset arvot yhdistelmä näkyy yhtenä yksikkönä.]]></value>
+		<value><![CDATA[Jos tämä on pääattribuutti, jolla on alaattribuutteja, sen tyypin on oltava SelectBox, MultiSelect Box, Checkbox tai Checkbox group.<br>Lapsiarvojen yhdistelmä näytetään yhtenä kokonaisuutena.]]></value>
 	</definition>
 	<definition>
 		<key>entry_allowed_extensions</key>
-		<value><![CDATA[Sallittu File Extensions (txt, jpg ...)]]></value>
+		<value><![CDATA[Sallitut tiedostopäätteet (txt, jpg …)]]></value>
 	</definition>
 	<definition>
 		<key>entry_min_size</key>
-		<value><![CDATA[Min tiedostokoko (kt)]]></value>
+		<value><![CDATA[Minimi tiedostokoko (Kt)]]></value>
 	</definition>
 	<definition>
 		<key>entry_max_size</key>
-		<value><![CDATA[Tiedoston enimmäiskoko (kt)]]></value>
+		<value><![CDATA[Tiedoston enimmäiskoko (Kb)]]></value>
 	</definition>
 	<definition>
 		<key>entry_upload_dir</key>
-		<value><![CDATA[Tallennettu hakemiston nimi <br/> %s]]></value>
+		<value><![CDATA[Lataushakemiston nimi %s]]></value>
 	</definition>
 	<definition>
 		<key>entry_regexp_pattern</key>
-		<value><![CDATA[Säännöllinen lauseke Pattern validointi Arvot:]]></value>
+		<value><![CDATA[Säännöllisen lausekkeen malli arvojen validointia varten:]]></value>
 	</definition>
 	<definition>
 		<key>entry_error_text</key>
-		<value><![CDATA[Virheilmoitus kelpaamattomien Arvo:]]></value>
+		<value><![CDATA[Virheilmoitus virheellisestä arvosta:]]></value>
 	</definition>
 	<definition>
 		<key>entry_placeholder</key>
-		<value><![CDATA[Paikanpitäjä:]]></value>
+		<value><![CDATA[Paikkamerkki:]]></value>
 	</definition>
 	<definition>
 		<key>error_attribute_name</key>
-		<value><![CDATA[Taito Nimi tulee olla 2 ja 64 merkkiä!]]></value>
+		<value><![CDATA[Attribuutin nimen tulee olla 2 ja 64 merkin välillä!]]></value>
 	</definition>
 	<definition>
 		<key>error_error_text</key>
-		<value><![CDATA[Virheteksti noin virheellinen määritteen arvon on oltava välillä 2 ja 255 merkkiä!]]></value>
+		<value><![CDATA[Epäkelvosta attribuuttiarvosta kertovan virhetekstin tulee olla 2–255 merkkiä pitkä!]]></value>
 	</definition>
 	<definition>
 		<key>error_regexp_pattern</key>
-		<value><![CDATA[Vakiolausekehaku Pattern on virheellinen!]]></value>
+		<value><![CDATA[Säännöllisen lausekkeen malli on virheellinen!]]></value>
 	</definition>
 	<definition>
 		<key>entry_show_to_customer</key>
-		<value><![CDATA[Näytä Asiakkaalle]]></value>
-	</definition>
-	<definition>
-		<key>column_txt_id</key>
-		<value><![CDATA[Ainutlaatuinen tekstitunnus]]></value>
+		<value><![CDATA[Näytä asiakkaalle]]></value>
 	</definition>
 	<definition>
 		<key>entry_price_prefix</key>
@@ -150,10 +150,10 @@
 	</definition>
 	<definition>
 		<key>entry_price_modifier</key>
-		<value><![CDATA[Hintamuuttaja:]]></value>
+		<value><![CDATA[Hintamuokkain:]]></value>
 	</definition>
 	<definition>
 		<key>error_not_unique</key>
-		<value><![CDATA[Arvotekstitunnus ei ole ainutlaatuinen!]]></value>
+		<value><![CDATA[Arvotekstin tunniste ei ole yksilöllinen!]]></value>
 	</definition>
 </definitions>

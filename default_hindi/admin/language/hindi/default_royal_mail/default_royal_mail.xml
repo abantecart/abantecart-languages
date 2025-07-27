@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_royal_mail_name</key>
+		<value><![CDATA[रॉयल मेल]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[शिपिंग]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[सफलता: आपने रॉयल मेल शिपिंग को संशोधित किया है!]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class</key>
+		<value><![CDATA[1st क्लास (केवल GB के लिए)<br/><span class="help">पत्रों और पार्सलों के लिए अगले दिन डिलीवरी का लक्ष्य</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_rates</key>
+		<value><![CDATA[प्रथम श्रेणी दरें:<br/><span class="help">उदाहरण: .1:1.58,.25:1.96,.5:2.48 वजन:लागत, वजन:लागत, आदि। इस उदाहरण में 0.1kg = £1.58। जहाँ KG आपके Royal Mail सेटिंग्स में तय किया गया वजन वर्ग है और £ स्टोर की मूल मुद्रा है। स्टोर वजन वर्ग को अनदेखा किया जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_compensation_rates</key>
+		<value><![CDATA[प्रथम श्रेणी मुआवजा दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class</key>
+		<value><![CDATA[दूसरी कक्षा (केवल ग्रेट ब्रिटेन के लिए)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_rates</key>
+		<value><![CDATA[द्वितीय श्रेणी दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_compensation_rates</key>
+		<value><![CDATA[दूसरी श्रेणी के मुआवजा दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24</key>
+		<value><![CDATA[ट्रैक्ड 24® (केवल जीबी के लिए)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_rates</key>
+		<value><![CDATA[Tracked 24® दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_compensation_rates</key>
+		<value><![CDATA[Tracked 24® प्रतिपूर्ति दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48</key>
+		<value><![CDATA[ट्रैक्ड 48® (केवल GB के लिए)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_rates</key>
+		<value><![CDATA[ट्रैक्ड 48® दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_compensation_rates</key>
+		<value><![CDATA[ट्रैक्ड 48® मुआवजे की दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24</key>
+		<value><![CDATA[Mail 24® (केवल GB के लिए)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_rates</key>
+		<value><![CDATA[मेल 24® दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_compensation_rates</key>
+		<value><![CDATA[Mail 24® मुआवजा दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48</key>
+		<value><![CDATA[Mail 48® (सिर्फ GB के लिए)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_rates</key>
+		<value><![CDATA[मेल 48® दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_compensation_rates</key>
+		<value><![CDATA[Mail 48® मुआवजा दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday</key>
+		<value><![CDATA[Sameday® (for GB only)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_rates</key>
+		<value><![CDATA[Sameday® दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_compensation_rates</key>
+		<value><![CDATA[Sameday® मुआवजा दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed</key>
+		<value><![CDATA[विशेष डिलीवरी गारंटीकृत® (केवल GB के लिए)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_rates</key>
+		<value><![CDATA[विशेष डिलीवरी गारंटीकृत® दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_compensation_rates</key>
+		<value><![CDATA[विशेष डिलीवरी गारंटीकृत® मुआवजा दरें]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb</key>
+		<value><![CDATA[मुफ्त शिपिंग के लिए शिपिंग विधि (केवल जीबी)<span class="help">कृपया चयन करें कि जब कार्ट में केवल मुफ्त शिपिंग वाले उत्पाद हों तो कौन सी विधि चुनी जाएगी</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_1st_class</key>
+		<value><![CDATA[प्रथम श्रेणी]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_2nd_class</key>
+		<value><![CDATA[दूसरी कक्षा]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked24</key>
+		<value><![CDATA[ट्रैक्ड 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked48</key>
+		<value><![CDATA[ट्रैक्ड 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail24</key>
+		<value><![CDATA[मेल 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail48</key>
+		<value><![CDATA[मेल 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_sameday</key>
+		<value><![CDATA[एक ही दिन में®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_special_delivery_guaranteed</key>
+		<value><![CDATA[विशेष डिलीवरी की गारंटी®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मूल्य निर्धारण यूरोप क्षेत्र 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मूल्य निर्धारण यूरोप क्षेत्र 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_3</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मूल्य निर्धारण यूरोप क्षेत्र 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मूल्य निर्धारण विश्व ज़ोन 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_2</key>
+		<value><![CDATA[अंतरराष्ट्रीय मूल्य निर्धारण विश्व क्षेत्र 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_3</key>
+		<value><![CDATA[अंतरराष्ट्रीय मूल्य निर्धारण विश्व क्षेत्र 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1</key>
+		<value><![CDATA[अंतरराष्ट्रीय मानक इकोनॉमी (यूरोप ज़ोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1_rates</key>
+		<value><![CDATA[मानक इकोनॉमी दरें (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2</key>
+		<value><![CDATA[अंतरराष्ट्रीय मानक इकोनॉमी (यूरोप क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2_rates</key>
+		<value><![CDATA[मानक इकोनॉमी दरें (यूरोप क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3</key>
+		<value><![CDATA[अंतरराष्ट्रीय मानक इकोनॉमी (यूरोप क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3_rates</key>
+		<value><![CDATA[मानक इकोनॉमी दरें (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मानक इकॉनॉमी (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1_rates</key>
+		<value><![CDATA[मानक इकॉनॉमी दरें (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मानक किफायती (विश्व ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2_rates</key>
+		<value><![CDATA[मानक इकोनॉमी दरें (वर्ल्ड ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मानक इकोनॉमी (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3_rates</key>
+		<value><![CDATA[मानक किफायती दरें (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मानक प्राथमिकता (यूरोप ज़ोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1_rates</key>
+		<value><![CDATA[मानक प्राथमिकता दरें (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2</key>
+		<value><![CDATA[अंतरराष्ट्रीय मानक प्राथमिकता (यूरोप क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2_rates</key>
+		<value><![CDATA[मानक प्राथमिकता दरें (यूरोप क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3</key>
+		<value><![CDATA[अंतरराष्ट्रीय मानक प्राथमिकता (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3_rates</key>
+		<value><![CDATA[मानक प्राथमिकता दरें (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मानक प्राथमिकता (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1_rates</key>
+		<value><![CDATA[मानक प्राथमिकता दरें (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मानक प्राथमिकता (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2_rates</key>
+		<value><![CDATA[मानक प्राथमिकता दरें (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3</key>
+		<value><![CDATA[अंतर्राष्ट्रीय मानक प्राथमिकता (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3_rates</key>
+		<value><![CDATA[मानक प्राथमिकता दरें (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय हस्ताक्षरित (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1_rates</key>
+		<value><![CDATA[हस्ताक्षरित दरें (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय हस्ताक्षर प्राप्ति (यूरोप जोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2_rates</key>
+		<value><![CDATA[हस्ताक्षरित दरें (यूरोप ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3</key>
+		<value><![CDATA[अंतरराष्ट्रीय हस्ताक्षरित (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3_rates</key>
+		<value><![CDATA[साइन की गई दरें (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1</key>
+		<value><![CDATA[अंतरराष्ट्रीय हस्ताक्षरित (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1_rates</key>
+		<value><![CDATA[हस्ताक्षरित दरें (विश्व जोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2</key>
+		<value><![CDATA[अंतरराष्ट्रीय हस्ताक्षरित (वर्ल्ड ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2_rates</key>
+		<value><![CDATA[हस्ताक्षरित दरें (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3</key>
+		<value><![CDATA[अंतरराष्ट्रीय हस्ताक्षरित (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3_rates</key>
+		<value><![CDATA[हस्ताक्षरित दरें (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक्ड हस्ताक्षरित (यूरोप जोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1_rates</key>
+		<value><![CDATA[ट्रैक किए गए हस्ताक्षरित दरें (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक्ड साइनड (Europe Zone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2_rates</key>
+		<value><![CDATA[ट्रैक्ड साइनड दरें (यूरोप ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[अंतरराष्ट्रीय ट्रैक किया गया हस्ताक्षरित (यूरोप क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3_rates</key>
+		<value><![CDATA[ट्रैक किए गए और हस्ताक्षरित दरें (यूरोप जोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक्ड और हस्ताक्षरित (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1_rates</key>
+		<value><![CDATA[ट्रैक्ड और साइन किए गए दरें (वर्ल्ड ज़ोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक्ड साइन (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2_rates</key>
+		<value><![CDATA[ट्रैक किए गए तथा हस्ताक्षरित दरें (World Zone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक्ड हस्ताक्षरित (विश्व जोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3_rates</key>
+		<value><![CDATA[ट्रैक किए गए हस्ताक्षरित दरें (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक किया गया (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1_rates</key>
+		<value><![CDATA[ट्रैक की गई दरें (Europe Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक किया गया (यूरोप क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2_rates</key>
+		<value><![CDATA[ट्रैक्ड दरें (यूरोप ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक किया गया (यूरोप क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3_rates</key>
+		<value><![CDATA[ट्रैक किए गए दरें (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक्ड (वर्ल्ड ज़ोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1_rates</key>
+		<value><![CDATA[ट्रैक की गई दरें (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक्ड (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2_rates</key>
+		<value><![CDATA[ट्रैक की गई दरें (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3</key>
+		<value><![CDATA[अंतरराष्ट्रीय ट्रैक किया गया (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3_rates</key>
+		<value><![CDATA[ट्रैक किए गए दरें (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक किया गया भारी (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1_rates</key>
+		<value><![CDATA[ट्रैक की गई भारी दरें (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[अंतरराष्ट्रीय ट्रैक किया गया भारी]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2_rates</key>
+		<value><![CDATA[ट्रैक किए गए भारी दरें (यूरोप ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[अंतरराष्ट्रीय ट्रैक किया गया भारी (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3_rates</key>
+		<value><![CDATA[ट्रैक्ड भारी दरें (यूरोप जोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[अंतरराष्ट्रीय ट्रैक्ड भारी (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1_rates</key>
+		<value><![CDATA[ट्रैक किए गए भारी दरें (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक किए गए भारी (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2_rates</key>
+		<value><![CDATA[ट्रैक किए गए अधिक भारी दरें (विश्व ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[अंतर्राष्ट्रीय ट्रैक्ड भारी (वर्ल्ड जोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3_rates</key>
+		<value><![CDATA[ट्रैक किए गए भारी दरें (वर्ल्ड ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free</key>
+		<value><![CDATA[अंतरराष्ट्रीय शिपिंग विधि मुफ्त शिपिंग के लिए <span class="help">कृपया वह विधि चुनें जो तब चयनित होगी जब कार्ट में केवल मुफ्त शिपिंग वाले उत्पाद हों</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[मानक इकॉनॉमी (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[मानक इकोनॉमी (यूरोप ज़ोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_2</key>
+		<value><![CDATA[मानक इकोनॉमी (यूरोप ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_3</key>
+		<value><![CDATA[मानक इकोनॉमी (यूरोप क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_1</key>
+		<value><![CDATA[स्टैंडर्ड इकॉनॉमी (वर्ल्ड जोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_2</key>
+		<value><![CDATA[मानक इकोनॉमी (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_3</key>
+		<value><![CDATA[मानक अर्थव्यवस्था (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[मानक प्राथमिकता (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[मानक प्राथमिकता (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_2</key>
+		<value><![CDATA[मानक प्राथमिकता (यूरोप क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_3</key>
+		<value><![CDATA[मानक प्राथमिकता (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_1</key>
+		<value><![CDATA[मानक प्राथमिकता (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_2</key>
+		<value><![CDATA[मानक प्राथमिकता (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_3</key>
+		<value><![CDATA[मानक प्राथमिकता (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[हस्ताक्षरित (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[हस्ताक्षरित (Europe Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_2</key>
+		<value><![CDATA[हस्ताक्षरित (Europe Zone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_3</key>
+		<value><![CDATA[हस्ताक्षरित (यूरोप क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_1</key>
+		<value><![CDATA[हस्ताक्षरित (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_2</key>
+		<value><![CDATA[हस्ताक्षरित (World Zone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_3</key>
+		<value><![CDATA[हस्ताक्षरित (World Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[ट्रैक की गई और हस्ताक्षरित (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[ट्रैक किए गए और हस्ताक्षरित (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[ट्रैक किया गया हस्ताक्षरित (यूरोप ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[ट्रैक्ड और साइन किया गया (यूरोप क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_1</key>
+		<value><![CDATA[ट्रैक किया गया, हस्ताक्षरित (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_2</key>
+		<value><![CDATA[ट्रैक किए गए और हस्ताक्षरित (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_3</key>
+		<value><![CDATA[ट्रैक किया गया हस्ताक्षरित (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[ट्रैक किया गया (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[ट्रैक्ड (यूरोप ज़ोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_2</key>
+		<value><![CDATA[ट्रैक किया गया (यूरोप ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_3</key>
+		<value><![CDATA[ट्रैक किया गया (Europe Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_1</key>
+		<value><![CDATA[ट्रैक्ड (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_2</key>
+		<value><![CDATA[ट्रैक किया गया (विश्व ज़ोन 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_3</key>
+		<value><![CDATA[ट्रैक किया गया (विश्व क्षेत्र 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[ट्रैक किए गए भारी सामान (यूरोप ज़ोन 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[ट्रैक किया गया भारी (यूरोप क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[ट्रैक किए गए भारी (यूरोप क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[ट्रैक्ड अधिक भारी (यूरोप ज़ोन 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[ट्रैक किया गया भारी (विश्व क्षेत्र 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[ट्रैक्ड भारी (विश्व क्षेत्र 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[ट्रैक किए गए भारी (World Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_weight</key>
+		<value><![CDATA[वितरण वजन दिखाएँ:<br /><span class="help">क्या आप शिपिंग वजन प्रदर्शित करना चाहते हैं? (उदाहरण: वितरण वजन : 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_insurance</key>
+		<value><![CDATA[Display Insurance:<br /><span class="help">क्या आप शिपिंग बीमा दिखाना चाहते हैं? (उदा. &pound;500 तक बीमित)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_time</key>
+		<value><![CDATA[डिलीवरी समय दिखाएँ:<br /><span class="help">क्या आप शिपिंग समय दिखाना चाहते हैं? (उदा. 3 से 5 दिनों के भीतर भेजा जाता है)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_weight_class</key>
+		<value><![CDATA[वजन वर्ग:<br /><span class="help">आपकी दरों का वजन वर्ग। स्टोर का वजन वर्ग अनदेखा कर दिया जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax</key>
+		<value><![CDATA[कर वर्ग:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax_0</key>
+		<value><![CDATA[---कोई नहीं---]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id</key>
+		<value><![CDATA[स्थान:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id_0</key>
+		<value><![CDATA[सभी स्थान]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास Royal Mail शिपिंग को संशोधित करने की अनुमति नहीं है!]]></value>
+	</definition>
+</definitions>

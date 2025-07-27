@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>stripe_name</key>
+		<value><![CDATA[Stripe भुगतान]]></value>
+	</definition>
+	<definition>
+		<key>stripe_note</key>
+		<value><![CDATA[Stripe भुगतान सेटअप पूरा करने के लिए अतिरिक्त सेटिंग्स आवश्यक हैं। अतिरिक्त सेटिंग्स टैब देखें।]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[भुगतान]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[सफलता: आपने स्ट्राइप भुगतान सेटिंग्स को संशोधित किया है!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id</key>
+		<value><![CDATA[स्थान:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id_0</key>
+		<value><![CDATA[सभी स्थान]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status</key>
+		<value><![CDATA[स्थिति:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_published_key</key>
+		<value><![CDATA[प्रकाशित कुंजी:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_autoselect</key>
+		<value><![CDATA[स्वचालित चयन:<br /><span class="help">यदि केवल एक भुगतान विकल्प हो, तो आप भुगतान चयन पृष्ठ को छोड़ने के लिए सेट कर सकते हैं। यह भुगतान विधि स्वचालित रूप से चयनित होगी।</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list</key>
+		<value><![CDATA[अनुमत भुगतान विधियाँ। <br /><span class="help">स्वचालित चयन के लिए खाली छोड़ दें</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_card</key>
+		<value><![CDATA[कार्ड]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_klarna</key>
+		<value><![CDATA[क्लार्ना]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_acss_debit</key>
+		<value><![CDATA[एसीएसएस]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_afterpay_clearpay</key>
+		<value><![CDATA[आफ्टरपे/क्लियरपे]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_alipay</key>
+		<value><![CDATA[अलीपे]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_au_becs_debit</key>
+		<value><![CDATA[बीईसीएस डायरेक्ट डेबिट]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bacs_debit</key>
+		<value><![CDATA[Bacs प्रत्यक्ष डेबिट]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_affirm</key>
+		<value><![CDATA[पुष्टि करें]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bancontact</key>
+		<value><![CDATA[Bancontact]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_blik</key>
+		<value><![CDATA[ब्लिक]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_boleto</key>
+		<value><![CDATA[बोलेटो]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_interac_present</key>
+		<value><![CDATA[इंटरैक]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_pix</key>
+		<value><![CDATA[फ़ोटो]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_revolut_pay</key>
+		<value><![CDATA[रेवोलुट भुगतान]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_swish</key>
+		<value><![CDATA[स्विश]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_mobilepay</key>
+		<value><![CDATA[मोबाइलपे]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_zip</key>
+		<value><![CDATA[पिनकोड]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_eps</key>
+		<value><![CDATA[EPS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_fpx</key>
+		<value><![CDATA[एफपीएक्स]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_giropay</key>
+		<value><![CDATA[गिरोपे]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_grabpay</key>
+		<value><![CDATA[ग्रैबपे]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_ideal</key>
+		<value><![CDATA[आईडियल]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_konbini</key>
+		<value><![CDATA[कोंबिनी]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_link</key>
+		<value><![CDATA[लिंक]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_oxxo</key>
+		<value><![CDATA[ओएक्सएक्सओ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sofort</key>
+		<value><![CDATA[सोफॉर्ट]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_p24</key>
+		<value><![CDATA[प्रज़ेलेवी24]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_paynow</key>
+		<value><![CDATA[अभी भुगतान करें]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_promptpay</key>
+		<value><![CDATA[प्रॉम्प्टपे]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sepa_debit</key>
+		<value><![CDATA[एसईपीए प्रत्यक्ष डेबिट]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_us_bank_account</key>
+		<value><![CDATA[ACH प्रत्यक्ष डेबिट]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_wechat_pay</key>
+		<value><![CDATA[WeChat पे]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_twint</key>
+		<value><![CDATA[ट्विंट]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_connect</key>
+		<value><![CDATA[भुगतान विवरण सेट करने के लिए आपको स्ट्राइप से कनेक्ट करना होगा।]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_settings</key>
+		<value><![CDATA[स्ट्राइप सेटिंग्स]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Stripe से कनेक्ट करें]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Stripe को डिस्कनेक्ट करें]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[कनेक्ट नहीं हो सकता?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[स्ट्राइप से सफलतापूर्वक जुड़ गया]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Stripe से सफलतापूर्वक डिस्कनेक्ट किया गया]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sort_order</key>
+		<value><![CDATA[छंटाई क्रम]]></value>
+	</definition>
+	<definition>
+		<key>stripe_test_mode</key>
+		<value><![CDATA[परीक्षण मोड:<br /><span class="help">यदि आप परीक्षण कुंजी का उपयोग करना चाहते हैं तो इसे ON पर सेट करें</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_live</key>
+		<value><![CDATA[लाइव गुप्त कुंजी:<br /><span class="help">इसे Stripe API Keys अनुभाग में खोजें। कुंजी sk_live_... से शुरू होती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_live</key>
+		<value><![CDATA[लाइव प्रकाशित करने योग्य कुंजी:<br /><span class="help">Stripe API कुंजी अनुभाग में इसे खोजें। कुंजी pk_live_... से शुरू होती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_test</key>
+		<value><![CDATA[परीक्षण गुप्त कुंजी:<br /><span class="help">इसे Stripe API Keys अनुभाग में ढूंढें। कुंजी sk_test_... से शुरू होती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_test</key>
+		<value><![CDATA[टेस्ट प्रकाशित करने योग्य कुंजी:<br /><span class="help">इसे Stripe API कुंजी अनुभाग में खोजें। कुंजी pk_test_... से शुरू होती है। </span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement</key>
+		<value><![CDATA[सेटलमेंट प्रकार:<br /><span class="help">यदि इसे 'auto' पर सेट किया गया है, तो यह लेन-देन आज के सेटलमेंट में शामिल किया जाएगा। यदि इसे 'delayed' पर सेट किया गया है, तो यह लेन-देन अनुमोदित होगा लेकिन सेटल नहीं (कैप्चर) होगा। आपको अनुमोदन के 7 दिनों के भीतर लेन-देन को मैन्युअल रूप से कैप्चर करना होगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_settled</key>
+		<value><![CDATA[सफल और निपटित:<br /><span class="help">भुगतान प्रोसेसर की स्थिति के जवाब में सेट करने के लिए मुख्य ऑर्डर स्थिति चुनें</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_unsettled</key>
+		<value><![CDATA[सफल और निपटित नहीं:<br /><span class="help">भुगतान प्रोसेसर स्थिति के जवाब में मुख्य आदेश स्थिति चुनें जिसे आप सेट करना चाहते हैं</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_decline</key>
+		<value><![CDATA[Decline:<br /><span class="help">वह ऑर्डर स्थिति जो आप भुगतान प्रोसेसर की स्थिति के जवाब में इतिहास में दर्ज करना चाहते हैं। मुख्य ऑर्डर स्थिति प्रभावित नहीं होती। ऑर्डर केवल भुगतान सफल होने के बाद ही दर्ज किया जाएगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_void</key>
+		<value><![CDATA[रद्द किया गया:<br /><span class="help">admin/order में भुगतान रद्द होने पर आप जो ऑर्डर की स्थिति सेट करना चाहते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_refund</key>
+		<value><![CDATA[रिफंड किया गया:<br /><span class="help">ऑर्डर की स्थिति जिसे आप सेट करना चाहते हैं यदि भुगतान admin/order में रिफंड किया जाता है.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[लेन-देन की तारीख]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[राशि]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[राशि सफलतापूर्वक कैप्चर की गई।]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[कैप्चर सफल हुआ, ऑर्डर की स्थिति 'सफल – सेटल' में अपडेट की गई]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[रिफंड सफलतापूर्वक संसाधित किया गया]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[रिफंड सफल हुआ, ऑर्डर की स्थिति रिफंडेड में अपडेट की गई।]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[रद्दीकरण सफल रहा, ऑर्डर की स्थिति रद्द कर दी गई]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_auto</key>
+		<value><![CDATA[स्वचालित (प्राधिकृत करना और कैप्चर करना)]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_delayed</key>
+		<value><![CDATA[विलंबित (केवल प्राधिकरण)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[भुगतान विवरण]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[भुगतान कैप्चर कर लिया गया]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[भुगतान रद्द कर दिया गया]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[भुगतान वापस किया गया]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[कैप्चर राशि]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[धन वापसी राशि]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Stripe चार्ज आईडी]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[कुल अधिकृत राशि]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[शेष राशि]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[रिफंड लेनदेन]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[कृपया पुष्टि करें कि आप भुगतान को रद्द करना चाहते हैं?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[कृपया पुष्टि करें कि आप भुगतान कैप्चर करना चाहते हैं?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[कृपया पुष्टि करें कि आप भुगतान वापस करना चाहते हैं?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[धनवापसी]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[रद्द]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[कैप्चर]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[आंतरिक त्रुटि। त्रुटि लॉग या इनपुट पैरामीटरों की जाँच करें!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[कृपया सकारात्मक राशि दर्ज करें।]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[कैप्चर करने में असमर्थ, लेनदेन विवरण ताज़ा करें और कैप्चर राशि जांचें]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[लेनदेन को रद्द नहीं किया जा सका, रिफ्रेश करें और लेनदेन का विवरण जांचें]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[रिफंड करने में असमर्थ, लेन-देन का विवरण रिफ्रेश करें और रिफंड राशि जांचें]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_test</key>
+		<value><![CDATA[Stripe प्रकाशित कुंजी आवश्यक है]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_live</key>
+		<value><![CDATA[Stripe की प्रकाशित कुंजी आवश्यक है]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_test</key>
+		<value><![CDATA[Stripe परीक्षण कुंजी की आवश्यकता है।]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_live</key>
+		<value><![CDATA[Stripe लाइव कुंजी आवश्यक है]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास Stripe Payment को संशोधित करने की अनुमति नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_webhook_howto_text</key>
+		<value><![CDATA[Note: सेटअप पूरा करने के लिए आपको अपने Stripe खाते की तरफ वेबहुक्स बनानी चाहिए।	
+<br> अपने <a href="https://dashboard.stripe.com/webhooks" target="_new">Stripe Dashboard Developer Section</a> में जाएँ	
+और अपने खाते से ईवेंट प्राप्त करने वाले एंडपॉइंट्स जोड़ें। एंडपॉइंट बन जाने के बाद साइनिंग सीक्रेट कॉपी करें और उसे Stripe Subscription Extension सेटिंग्स में सेव करें।]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_url</key>
+		<value><![CDATA[एंडपॉइंट यूआरएल:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_signing_secret</key>
+		<value><![CDATA[एंडपॉइंट साइनिंग सीक्रेट:]]></value>
+	</definition>
+</definitions>

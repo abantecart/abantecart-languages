@@ -22,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>text_order_id</key>
-		<value><![CDATA[Bestellnummer]]></value>
+		<value><![CDATA[Bestell-ID]]></value>
 	</definition>
 	<definition>
 		<key>text_email</key>
@@ -42,11 +42,11 @@
 	</definition>
 	<definition>
 		<key>text_shipping_address</key>
-		<value><![CDATA[Lieferadresse]]></value>
+		<value><![CDATA[Versandadresse]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping_method</key>
-		<value><![CDATA[Versandart]]></value>
+		<value><![CDATA[Versandmethode]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_address</key>
@@ -58,7 +58,7 @@
 	</definition>
 	<definition>
 		<key>text_order_history</key>
-		<value><![CDATA[Bestellverlauf]]></value>
+		<value><![CDATA[Bestellhistorie]]></value>
 	</definition>
 	<definition>
 		<key>text_product</key>
@@ -94,11 +94,11 @@
 	</definition>
 	<definition>
 		<key>text_error</key>
-		<value><![CDATA[Die von Ihnen gewünschte Bestellung konnte nicht gefunden werden!]]></value>
+		<value><![CDATA[Die von Ihnen angeforderte Bestellung konnte nicht gefunden werden!]]></value>
 	</definition>
 	<definition>
 		<key>column_date_added</key>
-		<value><![CDATA[Datum hinzugefügt]]></value>
+		<value><![CDATA[Hinzugefügt am]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -110,35 +110,34 @@
 	</definition>
 	<definition>
 		<key>text_order_cancelation</key>
-		<value><![CDATA[Stornierung der Bestellung anfordern]]></value>
+		<value><![CDATA[Anfrage zur Stornierung der Bestellung]]></value>
 	</definition>
 	<definition>
 		<key>text_request_cancellation_from_customer</key>
-		<value><![CDATA[Fordern Sie eine Stornierung der Bestellung beim Kunden an ]]></value>
+		<value><![CDATA[Anfrage zur Bestellungsstornierung durch den Kunden]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_confirm</key>
-		<value><![CDATA[
- In manchen Fällen kann Ihr Widerrufsantrag nicht ausgeführt werden, beispielsweise wenn die Ware bereits versandt wurde. Weiter?]]></value>
+		<value><![CDATA[Ihre Stornierungsanfrage ist in einigen Fällen möglicherweise nicht möglich, zum Beispiel wenn die Ware bereits versandt wurde. Fortfahren?]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_success</key>
-		<value><![CDATA[Anfrage zur Stornierung der Bestellung wurde übermittelt]]></value>
+		<value><![CDATA[Stornierungsanfrage für die Bestellung wurde eingereicht.]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_message_title</key>
-		<value><![CDATA[Stornierungsanfrage für Bestellung Nr. %s]]></value>
+		<value><![CDATA[Stornierungsanfrage für Bestellung #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_order_cancelation_message_body</key>
-		<value><![CDATA[Kunde %s hat die Stornierung der Bestellung Nr. %s beantragt. Zur Überprüfung gehen Sie zu %s]]></value>
+		<value><![CDATA[Kunde %s hat die Stornierung der Bestellung #%s angefordert. Zur Überprüfung gehen Sie zu %s]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[Die E-Mail-Adresse scheint ungültig zu sein!]]></value>
+		<value><![CDATA[E-Mail-Adresse scheint nicht gültig zu sein!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_id</key>
-		<value><![CDATA[Das Feld „Bestellnummer“ ist ein Pflichtfeld!]]></value>
+		<value><![CDATA[Bestell-ID ist ein Pflichtfeld!]]></value>
 	</definition>
 </definitions>

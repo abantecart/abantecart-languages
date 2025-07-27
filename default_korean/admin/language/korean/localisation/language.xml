@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[성공 : 당신은 수정 된 언어가있다!]]></value>
+		<value><![CDATA[성공: 언어를 수정했습니다!]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -18,7 +18,7 @@
 	</definition>
 	<definition>
 		<key>column_code</key>
-		<value><![CDATA[암호]]></value>
+		<value><![CDATA[코드]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
@@ -26,27 +26,27 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[동작]]></value>
+		<value><![CDATA[작업]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[언어 이름 :]]></value>
+		<value><![CDATA[언어 이름:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[코드 : <br/><span class="help">이 기본 언어 인 경우 변경하지 마십시오.</span>]]></value>
+		<value><![CDATA[코드:<br /><span class="help">기본 언어가 이 언어인 경우 변경하지 마십시오.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_locale</key>
-		<value><![CDATA[장소:]]></value>
+		<value><![CDATA[로케일:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image</key>
-		<value><![CDATA[영상:]]></value>
+		<value><![CDATA[이미지:]]></value>
 	</definition>
 	<definition>
 		<key>entry_directory</key>
-		<value><![CDATA[예배 규칙서:]]></value>
+		<value><![CDATA[디렉토리:]]></value>
 	</definition>
 	<definition>
 		<key>entry_filename</key>
@@ -54,23 +54,23 @@
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[지위:]]></value>
+		<value><![CDATA[상태:]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
-		<value><![CDATA[정렬 순서 :]]></value>
+		<value><![CDATA[정렬 순서:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[경고 : 언어를 수정할 수있는 권한이 없습니다!]]></value>
+		<value><![CDATA[경고: 당신은 언어를 수정할 권한이 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[언어 이름이 32 자 사이 여야합니다!]]></value>
+		<value><![CDATA[언어 이름은 2자 이상 32자 이내여야 합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[언어 코드 2 자 이상을해야합니다!]]></value>
+		<value><![CDATA[언어 코드는 최소 2자 이상이어야 합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_locale</key>
@@ -78,7 +78,7 @@
 	</definition>
 	<definition>
 		<key>error_image</key>
-		<value><![CDATA[이미지 파일 이름이 64 자 사이 여야합니다!]]></value>
+		<value><![CDATA[이미지 파일명은 2자에서 64자 사이여야 합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_directory</key>
@@ -86,76 +86,76 @@
 	</definition>
 	<definition>
 		<key>error_filename</key>
-		<value><![CDATA[파일 이름이 64 자 사이 여야합니다!]]></value>
+		<value><![CDATA[파일명은 2자에서 64자 사이여야 합니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_default</key>
-		<value><![CDATA[경고 :이 언어는 현재 기본 저장소 언어로 할당 삭제 될 수 없습니다!]]></value>
+		<value><![CDATA[경고: 이 언어는 현재 기본 상점 언어로 지정되어 있어 삭제할 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_admin</key>
-		<value><![CDATA[경고 :이 언어는 현재 행정 언어로 할당 삭제 될 수 없습니다!]]></value>
+		<value><![CDATA[경고: 이 언어는 현재 관리 언어로 지정되어 있어 삭제할 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_store</key>
-		<value><![CDATA[경고 : 현재 %s 매장에 할당으로이 언어를 삭제할 수 없습니다!]]></value>
+		<value><![CDATA[경고: 이 언어는 현재 %s개의 매장에 할당되어 있어 삭제할 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
-		<value><![CDATA[경고 : 현재 %s 주문에 할당으로이 언어를 삭제할 수 없습니다!]]></value>
+		<value><![CDATA[경고: 이 언어는 현재 %s개의 주문에 할당되어 있어 삭제할 수 없습니다!]]></value>
 	</definition>
 	<definition>
 		<key>language_edit_title</key>
-		<value><![CDATA[편집 언어의 자세한 사항]]></value>
+		<value><![CDATA[언어 세부정보 편집]]></value>
 	</definition>
 	<definition>
 		<key>load_language_title</key>
-		<value><![CDATA[누락 된 언어 데이터를로드]]></value>
+		<value><![CDATA[누락된 언어 데이터 불러오기]]></value>
 	</definition>
 	<definition>
 		<key>entry_language_selector</key>
-		<value><![CDATA[소스 언어 :]]></value>
+		<value><![CDATA[원본 언어:]]></value>
 	</definition>
 	<definition>
 		<key>entry_translate_method_selector</key>
-		<value><![CDATA[텍스트 번역 방법 :]]></value>
+		<value><![CDATA[텍스트 번역 방법:]]></value>
 	</definition>
 	<definition>
 		<key>load_language_note</key>
-		<value><![CDATA[참고 :이 작업을 실행하는 데 몇 분 정도 걸릴 수 있습니다. 가까운 브라우저 떠나거나 페이지를 새로 고침하지 마십시오!]]></value>
+		<value><![CDATA[참고: 이 작업을 실행하는 데 몇 분 정도 걸릴 수 있습니다. 브라우저를 닫거나 페이지를 벗어나거나 새로 고침하지 마십시오!]]></value>
 	</definition>
 	<definition>
 		<key>create_language_note</key>
-		<value><![CDATA[참고 : 우리는 확장으로 언어를 만드는 것이 좋습니다. 기존 언어 확장을 선택합니다. 당신이 수동으로 새로운 언어를 만들려면, 당신은 관리자에게 언어 플래그를 추가 할 admin/language/[Language Directory]/flag.png		storefront/language/[Language Directory]flag.png 디렉토리] 
- 언어를 만든 후 부하 누락 된 언어 데이터 번역 또는 소스 언어의 텍스트 내용을 복사합니다.]]></value>
+		<value><![CDATA[참고: 언어를 확장 기능으로 생성할 것을 권장합니다. 기존 언어 확장 기능을 확인하십시오. 그래도 새 언어를 수동으로 생성하려면 admin/language/[Language Directory]/flag.png 및 storefront/language/[Language Directory]flag.png에 언어 플래그를 추가해야 합니다.
+언어를 생성한 후에는 누락된 언어 데이터를 로드하여 번역하거나 원본 언어에서 텍스트 콘텐츠를 복사하십시오.]]></value>
 	</definition>
 	<definition>
 		<key>button_load_language</key>
-		<value><![CDATA[하중]]></value>
+		<value><![CDATA[불러오기]]></value>
 	</definition>
 	<definition>
 		<key>text_incomplete_tasks</key>
-		<value><![CDATA[불완전한 작업]]></value>
+		<value><![CDATA[미완료된 작업]]></value>
 	</definition>
 	<definition>
 		<key>text_task_id</key>
-		<value><![CDATA[작업 ID :]]></value>
+		<value><![CDATA[작업 ID:]]></value>
 	</definition>
 	<definition>
 		<key>text_title</key>
-		<value><![CDATA[표제:]]></value>
+		<value><![CDATA[제목:]]></value>
 	</definition>
 	<definition>
 		<key>text_last_time_run</key>
-		<value><![CDATA[마지막 시간을 실행 :]]></value>
+		<value><![CDATA[마지막 실행 시간:]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
-		<value><![CDATA[만들어진:]]></value>
+		<value><![CDATA[생성됨:]]></value>
 	</definition>
 	<definition>
 		<key>text_starter_name</key>
-		<value><![CDATA[만든이 :]]></value>
+		<value><![CDATA[제작자:]]></value>
 	</definition>
 	<definition>
 		<key>text_restart</key>
@@ -163,22 +163,26 @@
 	</definition>
 	<definition>
 		<key>text_remove</key>
-		<value><![CDATA[풀다]]></value>
+		<value><![CDATA[제거]]></value>
 	</definition>
 	<definition>
 		<key>text_task_title</key>
-		<value><![CDATA[%s에 %s에서 설명의 번역]]></value>
+		<value><![CDATA[%s에서 %s로의 설명 번역]]></value>
 	</definition>
 	<definition>
 		<key>error_nothing_to_do</key>
-		<value><![CDATA[오류 : 소스 언어 및 번역 방법을 설정하세요!]]></value>
+		<value><![CDATA[오류: 소스 언어 및 번역 방식을 설정해 주세요!]]></value>
 	</definition>
 	<definition>
 		<key>text_translate_override_existing</key>
-		<value><![CDATA[참고 : 대상 언어의 모든 기존의 설명은 새로운 번역으로 대체됩니다. 당신의 최우선 해제 할 수 있습니다 <a href="%s">시스템 -&gt; 설정 -&gt; 저장 상세</a> .]]></value>
+		<value><![CDATA[참고: 대상 언어로 된 모든 기존 설명은 새 번역으로 대체됩니다. <a href="%s">시스템->설정->상점 세부 정보</a>에서 덮어쓰기를 비활성화할 수 있습니다.]]></value>
 	</definition>
 	<definition>
 		<key>text_copy_source_text</key>
 		<value><![CDATA[소스 언어 텍스트 복사]]></value>
+	</definition>
+	<definition>
+		<key>error_all_disabled</key>
+		<value><![CDATA[최소 하나의 언어는 활성화되어 있어야 합니다!]]></value>
 	</definition>
 </definitions>

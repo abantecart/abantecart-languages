@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>date_format_long</key>
-		<value><![CDATA[l dS FY]]></value>
+		<value><![CDATA[l, j F Y]]></value>
 	</definition>
 	<definition>
 		<key>time_format</key>
-		<value><![CDATA[h:i:s A]]></value>
+		<value><![CDATA[h:i:s]]></value>
 	</definition>
 	<definition>
 		<key>time_format_short</key>
@@ -30,15 +30,15 @@
 	</definition>
 	<definition>
 		<key>thousand_point</key>
-		<value><![CDATA[ ]]></value>
+		<value><![CDATA[.]]></value>
 	</definition>
 	<definition>
 		<key>text_home</key>
-		<value><![CDATA[Koti]]></value>
+		<value><![CDATA[Etusivu]]></value>
 	</definition>
 	<definition>
 		<key>text_yes</key>
-		<value><![CDATA[Joo]]></value>
+		<value><![CDATA[Kyllä]]></value>
 	</definition>
 	<definition>
 		<key>text_no</key>
@@ -50,27 +50,27 @@
 	</definition>
 	<definition>
 		<key>text_select</key>
-		<value><![CDATA[--- Ole hyvä ja valitse ---]]></value>
+		<value><![CDATA[--- Valitse ---]]></value>
 	</definition>
 	<definition>
 		<key>text_all_zones</key>
-		<value><![CDATA[kaikki alueet]]></value>
+		<value><![CDATA[Kaikki vyöhykkeet]]></value>
 	</definition>
 	<definition>
 		<key>text_pagination</key>
-		<value><![CDATA[{alku} - {end} / {total}]]></value>
+		<value><![CDATA[{start} - {end}/{total}]]></value>
 	</definition>
 	<definition>
 		<key>text_per_page</key>
-		<value><![CDATA[Per sivu]]></value>
+		<value><![CDATA[Sivua kohden]]></value>
 	</definition>
 	<definition>
 		<key>text_separator</key>
-		<value><![CDATA[&gt;]]></value>
+		<value><![CDATA[>]]></value>
 	</definition>
 	<definition>
 		<key>button_continue</key>
-		<value><![CDATA[Jatkaa]]></value>
+		<value><![CDATA[Jatka]]></value>
 	</definition>
 	<definition>
 		<key>button_back</key>
@@ -78,15 +78,15 @@
 	</definition>
 	<definition>
 		<key>button_add_to_cart</key>
-		<value><![CDATA[Lisää koriin]]></value>
+		<value><![CDATA[Lisää ostoskoriin]]></value>
 	</definition>
 	<definition>
 		<key>button_add_wishlist</key>
-		<value><![CDATA[Lisää toivelistaan]]></value>
+		<value><![CDATA[Lisää toivelistalle]]></value>
 	</definition>
 	<definition>
 		<key>button_remove_wishlist</key>
-		<value><![CDATA[Poista listalta]]></value>
+		<value><![CDATA[Poista toivelistalta]]></value>
 	</definition>
 	<definition>
 		<key>text_wishlist_add_success</key>
@@ -94,7 +94,7 @@
 	</definition>
 	<definition>
 		<key>text_wishlist_remove_success</key>
-		<value><![CDATA[Poistettu listalta]]></value>
+		<value><![CDATA[Poistettu toivelistalta]]></value>
 	</definition>
 	<definition>
 		<key>button_add_address</key>
@@ -106,15 +106,15 @@
 	</definition>
 	<definition>
 		<key>button_change_address</key>
-		<value><![CDATA[Osoitteenmuutos]]></value>
+		<value><![CDATA[Muuta osoitetta]]></value>
 	</definition>
 	<definition>
 		<key>button_edit</key>
-		<value><![CDATA[Muokata]]></value>
+		<value><![CDATA[Muokkaa]]></value>
 	</definition>
 	<definition>
 		<key>button_delete</key>
-		<value><![CDATA[Poistaa]]></value>
+		<value><![CDATA[Poista]]></value>
 	</definition>
 	<definition>
 		<key>button_reviews</key>
@@ -122,7 +122,7 @@
 	</definition>
 	<definition>
 		<key>button_write</key>
-		<value><![CDATA[Kirjoittaa arvostelu]]></value>
+		<value><![CDATA[Kirjoita arvostelu]]></value>
 	</definition>
 	<definition>
 		<key>button_login</key>
@@ -130,7 +130,7 @@
 	</definition>
 	<definition>
 		<key>button_update</key>
-		<value><![CDATA[Päivittää]]></value>
+		<value><![CDATA[Päivitä]]></value>
 	</definition>
 	<definition>
 		<key>button_wish</key>
@@ -142,11 +142,11 @@
 	</definition>
 	<definition>
 		<key>button_shopping</key>
-		<value><![CDATA[Jatka]]></value>
+		<value><![CDATA[Jatka ostoksia]]></value>
 	</definition>
 	<definition>
 		<key>button_checkout</key>
-		<value><![CDATA[Tarkista]]></value>
+		<value><![CDATA[Kassa]]></value>
 	</definition>
 	<definition>
 		<key>button_confirm</key>
@@ -154,7 +154,7 @@
 	</definition>
 	<definition>
 		<key>button_view</key>
-		<value><![CDATA[näkymä]]></value>
+		<value><![CDATA[Näytä]]></value>
 	</definition>
 	<definition>
 		<key>button_search</key>
@@ -162,35 +162,35 @@
 	</definition>
 	<definition>
 		<key>button_go</key>
-		<value><![CDATA[Mennä]]></value>
+		<value><![CDATA[Siirry]]></value>
 	</definition>
 	<definition>
 		<key>button_coupon</key>
-		<value><![CDATA[Käytä kuponki]]></value>
+		<value><![CDATA[Käytä kuponkia]]></value>
 	</definition>
 	<definition>
 		<key>button_guest</key>
-		<value><![CDATA[Guest Kassalle]]></value>
+		<value><![CDATA[Osta vierailijana]]></value>
 	</definition>
 	<definition>
 		<key>notice_out_of_stock_ttl</key>
-		<value><![CDATA[Loppu varastosta varoitusajalla: %s]]></value>
+		<value><![CDATA[Ilmoitus loppuneesta varastosta: %s]]></value>
 	</definition>
 	<definition>
 		<key>notice_out_of_stock_body</key>
-		<value><![CDATA[Tuote &quot;%s&quot; on saavuttanut nolla tai negatiivinen varastossa count päätuotteen tai kaikki vaihtoehdot. <br/> seurauksena autodisable asetus, tuote (%s) on automaattinen käytöstä!]]></value>
+		<value><![CDATA[Tuote "%s" on saavuttanut nolla- tai negatiivisen varastosaldon päätuotteelle tai kaikille vaihtoehdoille. <br> Automaattisen käytöstäpoiston asetuksen seurauksena tuote (%s) poistettiin automaattisesti käytöstä!<br> Lisätietoja saat osoitteesta %s]]></value>
 	</definition>
 	<definition>
 		<key>no_payment_required</key>
-		<value><![CDATA[Ei Maksu vaaditaan]]></value>
+		<value><![CDATA[Ei maksua vaadita]]></value>
 	</definition>
 	<definition>
 		<key>gen_data_entry_error</key>
-		<value><![CDATA[Hups, on virhe tietojen!]]></value>
+		<value><![CDATA[Hups, annetuissa tiedoissa on virhe!]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_name_asc</key>
-		<value><![CDATA[Name - Z]]></value>
+		<value><![CDATA[Nimi A - Z]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_name_desc</key>
@@ -198,27 +198,27 @@
 	</definition>
 	<definition>
 		<key>text_sorting_price_asc</key>
-		<value><![CDATA[Edullisesta &gt; Korkea]]></value>
+		<value><![CDATA[Hinta Halvin > Kallein]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_price_desc</key>
-		<value><![CDATA[Hinta Korkea &gt; Matala]]></value>
+		<value><![CDATA[Hinta Korkea > Matala]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_rating_asc</key>
-		<value><![CDATA[rating Alin]]></value>
+		<value><![CDATA[Alhaisin arvio]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_rating_desc</key>
-		<value><![CDATA[rating Korkein]]></value>
+		<value><![CDATA[Korkein arvosana]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_asc</key>
-		<value><![CDATA[Date Old &gt; Uusi]]></value>
+		<value><![CDATA[Päivämäärä Vanha > Uusi]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_desc</key>
-		<value><![CDATA[Päivä New &gt; Vanha]]></value>
+		<value><![CDATA[Päivämäärä Uusin > Vanhin]]></value>
 	</definition>
 	<definition>
 		<key>text_add_cart_confirm</key>
@@ -226,7 +226,7 @@
 	</definition>
 	<definition>
 		<key>text_close</key>
-		<value><![CDATA[kiinni]]></value>
+		<value><![CDATA[Sulje]]></value>
 	</definition>
 	<definition>
 		<key>text_balance</key>
@@ -238,27 +238,31 @@
 	</definition>
 	<definition>
 		<key>button_pay_with_balance</key>
-		<value><![CDATA[Maksa Balance]]></value>
+		<value><![CDATA[Maksa saldolla]]></value>
 	</definition>
 	<definition>
 		<key>button_apply_balance</key>
-		<value><![CDATA[Levitä Tilaa]]></value>
+		<value><![CDATA[Käytä tilaukseen]]></value>
 	</definition>
 	<definition>
 		<key>button_disapply_balance</key>
-		<value><![CDATA[Poista Tilaa]]></value>
+		<value><![CDATA[Poista tilauksesta]]></value>
 	</definition>
 	<definition>
 		<key>text_applied_balance</key>
-		<value><![CDATA[sovellettu tilauksesta]]></value>
+		<value><![CDATA[Sovellettu tilaukseen]]></value>
 	</definition>
 	<definition>
 		<key>text_applied_balance_to_order</key>
-		<value><![CDATA[%s Käytetään järjestyksessä #%s]]></value>
+		<value><![CDATA[%s käytetty tilauksessa #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_maintenance_notice</key>
-		<value><![CDATA[Huomio: Ylläpito on päällä.]]></value>
+		<value><![CDATA[Huomio: Huoltotila on päällä.]]></value>
+	</definition>
+	<definition>
+		<key>text_act_on_behalf</key>
+		<value><![CDATA[Huomautus: Impersonointitila asiakkaalle "%s" käyttäjän "%s" toimesta]]></value>
 	</definition>
 	<definition>
 		<key>text_browse</key>
@@ -266,11 +270,11 @@
 	</definition>
 	<definition>
 		<key>button_cancel</key>
-		<value><![CDATA[Peruuttaa]]></value>
+		<value><![CDATA[Peruuta]]></value>
 	</definition>
 	<definition>
 		<key>button_reset</key>
-		<value><![CDATA[asettaa uudelleen]]></value>
+		<value><![CDATA[Nollaa]]></value>
 	</definition>
 	<definition>
 		<key>button_submit</key>
@@ -278,7 +282,7 @@
 	</definition>
 	<definition>
 		<key>button_save</key>
-		<value><![CDATA[Tallentaa]]></value>
+		<value><![CDATA[Tallenna]]></value>
 	</definition>
 	<definition>
 		<key>text_field_required</key>
@@ -286,15 +290,15 @@
 	</definition>
 	<definition>
 		<key>error_captcha</key>
-		<value><![CDATA[Ihmisen todentaminen on epäonnistunut! Yritä uudelleen.]]></value>
+		<value><![CDATA[Ihmisen varmistus epäonnistui! Yritä uudelleen.]]></value>
 	</definition>
 	<definition>
 		<key>entry_attached</key>
-		<value><![CDATA[liitteenä]]></value>
+		<value><![CDATA[Liitteenä]]></value>
 	</definition>
 	<definition>
 		<key>text_call_to_order</key>
-		<value><![CDATA[Vaatia palaamaan päiväjärjestykseen]]></value>
+		<value><![CDATA[Soita tilataksesi]]></value>
 	</definition>
 	<definition>
 		<key>text_discount</key>
@@ -302,11 +306,11 @@
 	</definition>
 	<definition>
 		<key>text_download</key>
-		<value><![CDATA[ladata]]></value>
+		<value><![CDATA[Lataa]]></value>
 	</definition>
 	<definition>
 		<key>text_free</key>
-		<value><![CDATA[Vapaa]]></value>
+		<value><![CDATA[Ilmainen]]></value>
 	</definition>
 	<definition>
 		<key>text_free_shipping</key>
@@ -314,35 +318,31 @@
 	</definition>
 	<definition>
 		<key>price_with_tax</key>
-		<value><![CDATA[Verolliset]]></value>
+		<value><![CDATA[Sis. verot]]></value>
 	</definition>
 	<definition>
 		<key>text_unavailable</key>
-		<value><![CDATA[poissa]]></value>
+		<value><![CDATA[Ei saatavilla]]></value>
 	</definition>
 	<definition>
 		<key>error_unknown</key>
-		<value><![CDATA[Tuntematon virhe kohdataan. Yritä uudelleen!]]></value>
+		<value><![CDATA[Tuntematon virhe havaittu. Yritä uudelleen!]]></value>
 	</definition>
 	<definition>
 		<key>text_click_browse_file</key>
-		<value><![CDATA[Klikkaa selaa tiedostoon]]></value>
+		<value><![CDATA[Klikkaa selataksesi tiedostoa]]></value>
 	</definition>
 	<definition>
 		<key>text_back_on_top</key>
-		<value><![CDATA[Takaisin alkuun]]></value>
-	</definition>
-	<definition>
-		<key>text_act_on_behalf</key>
-		<value><![CDATA[Huomautus: Esiintymistila asiakkaalle &quot;%s&quot; tekijällä &quot;%s&quot;]]></value>
+		<value><![CDATA[Takaisin ylös]]></value>
 	</definition>
 	<definition>
 		<key>text_out_of_stock</key>
-		<value><![CDATA[Loppunut varastosta]]></value>
+		<value><![CDATA[Loppu varastosta]]></value>
 	</definition>
 	<definition>
 		<key>text_badge_sale</key>
-		<value><![CDATA[MYYNTI]]></value>
+		<value><![CDATA[ALE]]></value>
 	</definition>
 	<definition>
 		<key>text_pagination_pages_info</key>
@@ -354,14 +354,18 @@
 	</definition>
 	<definition>
 		<key>text_last</key>
-		<value><![CDATA[Kestää]]></value>
+		<value><![CDATA[Viimeinen]]></value>
 	</definition>
 	<definition>
 		<key>text_next</key>
-		<value><![CDATA[Seuraavaksi]]></value>
+		<value><![CDATA[Seuraava]]></value>
 	</definition>
 	<definition>
 		<key>text_previous</key>
 		<value><![CDATA[Edellinen]]></value>
+	</definition>
+	<definition>
+		<key>warning_capslock</key>
+		<value><![CDATA[CapsLock on päällä!]]></value>
 	</definition>
 </definitions>

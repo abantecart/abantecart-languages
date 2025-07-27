@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -10,7 +10,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已修改的优惠券！]]></value>
+		<value><![CDATA[成功：您已修改优惠券！]]></value>
 	</definition>
 	<definition>
 		<key>text_percent</key>
@@ -18,7 +18,7 @@
 	</definition>
 	<definition>
 		<key>text_amount</key>
-		<value><![CDATA[固定值]]></value>
+		<value><![CDATA[固定金额]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>column_code</key>
-		<value><![CDATA[码]]></value>
+		<value><![CDATA[代码]]></value>
 	</definition>
 	<definition>
 		<key>column_discount</key>
@@ -34,11 +34,11 @@
 	</definition>
 	<definition>
 		<key>column_date_start</key>
-		<value><![CDATA[起始日期]]></value>
+		<value><![CDATA[开始日期]]></value>
 	</definition>
 	<definition>
 		<key>column_date_end</key>
-		<value><![CDATA[日期结束]]></value>
+		<value><![CDATA[结束日期]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -46,99 +46,99 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[优惠券名称：]]></value>
+		<value><![CDATA[优惠券名称:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[优惠说明：]]></value>
+		<value><![CDATA[优惠券描述：]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[代码： <br/><span class="help">的代码顾客进入，以获得折扣</span>]]></value>
+		<value><![CDATA[代码：<br /><span class="help">客户输入以获得折扣的代码</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_type</key>
-		<value><![CDATA[类型： <br/><span class="help">比例或固定金额</span>]]></value>
+		<value><![CDATA[类型:<br /><span class="help">百分比或固定金额</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_discount</key>
-		<value><![CDATA[折扣：]]></value>
+		<value><![CDATA[折扣:]]></value>
 	</definition>
 	<definition>
 		<key>entry_logged</key>
-		<value><![CDATA[客户登录： <br/><span class="help">客户必须登录才能使用优惠券。</span>]]></value>
+		<value><![CDATA[客户登录：<br /><span class="help">客户必须登录才能使用优惠券。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping</key>
-		<value><![CDATA[免费送货：]]></value>
+		<value><![CDATA[免运费：]]></value>
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[总金额： <br/><span class="help">之前的优惠券有效期必须达到子总额。</span>]]></value>
+		<value><![CDATA[总金额：<br/><span class="help">在优惠券生效前必须达到的小计金额。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_category</key>
+		<value><![CDATA[类别：<br/><span class="help">当产品来自所选类别之一时应用优惠券。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_product</key>
-		<value><![CDATA[所选产品：]]></value>
+		<value><![CDATA[产品：<br/><span class="help">当购物车中包含所选产品之一时应用优惠券。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_start</key>
-		<value><![CDATA[起始日期：]]></value>
+		<value><![CDATA[开始日期:]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_end</key>
-		<value><![CDATA[终止日期：]]></value>
+		<value><![CDATA[结束日期:]]></value>
 	</definition>
 	<definition>
 		<key>entry_uses_total</key>
-		<value><![CDATA[使用每券： <br/><span class="help">的最大次数的优惠券可以被任何客户使用。留空无限</span>]]></value>
+		<value><![CDATA[每张优惠券可使用次数:<br /><span class="help">此优惠券每位客户最多可使用的次数。留空表示无限制</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_uses_customer</key>
-		<value><![CDATA[使用每顾客： <br/><span class="help">的最大次数优待券可以由单个客户使用。留空无限</span>]]></value>
+		<value><![CDATA[每位客户使用次数：<br /><span class="help">优惠券单个客户可使用的最大次数。留空表示无限制</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[状态：]]></value>
+		<value><![CDATA[状态:]]></value>
 	</definition>
 	<definition>
 		<key>entry_total_coupon_usage</key>
-		<value><![CDATA[总优惠券使用方法： <br/><span class="help">所有订单的计数使用此优惠券放在</span>]]></value>
+		<value><![CDATA[优惠券总使用次数：<br /><span class="help">使用此优惠券的所有订单数</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改的优惠券！]]></value>
+		<value><![CDATA[警告：您没有权限修改优惠券！]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[优惠券名称必须是2到64个字符！]]></value>
+		<value><![CDATA[优惠券名称必须在2到64个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_description</key>
-		<value><![CDATA[优惠券说明必须在2个字符之间！]]></value>
+		<value><![CDATA[优惠券描述必须在2个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[代码必须在2到10个字符之间！]]></value>
+		<value><![CDATA[代码长度必须在2到10个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_date</key>
 		<value><![CDATA[请设置日期范围！]]></value>
 	</definition>
 	<definition>
-		<key>entry_category</key>
-		<value><![CDATA[类别： <br/><span class="help">当产品来自所选类别之一时应用优惠券。</span>]]></value>
-	</definition>
-	<definition>
 		<key>text_select_category</key>
-		<value><![CDATA[- 选择类别 -]]></value>
+		<value><![CDATA[- 选择分类 -]]></value>
 	</definition>
 	<definition>
 		<key>text_or</key>
-		<value><![CDATA[或者]]></value>
+		<value><![CDATA[或]]></value>
 	</definition>
 	<definition>
 		<key>text_and</key>

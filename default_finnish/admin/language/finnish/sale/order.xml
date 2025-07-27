@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[määräys]]></value>
+		<value><![CDATA[Tilaukset]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_details</key>
-		<value><![CDATA[Muokkaa Tilauksen tiedot]]></value>
+		<value><![CDATA[Muokkaa tilauksen tietoja]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_shipping</key>
-		<value><![CDATA[Muokkaa toimitusosoite]]></value>
+		<value><![CDATA[Muokkaa toimitusosoitetta]]></value>
 	</definition>
 	<definition>
 		<key>edit_title_payment</key>
-		<value><![CDATA[Muokkaa Maksuosoite]]></value>
+		<value><![CDATA[Muokkaa laskutusosoitetta]]></value>
 	</definition>
 	<definition>
 		<key>title_payment_details</key>
@@ -22,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Success: Tilaa tiedot on päivitetty!]]></value>
+		<value><![CDATA[Onnistui: Tilaustiedot on päivitetty!]]></value>
 	</definition>
 	<definition>
 		<key>text_invoice</key>
@@ -34,11 +34,11 @@
 	</definition>
 	<definition>
 		<key>text_invoice_id</key>
-		<value><![CDATA[Laskussa nro .:]]></value>
+		<value><![CDATA[Laskun nro:]]></value>
 	</definition>
 	<definition>
 		<key>text_date_added</key>
-		<value><![CDATA[Laskutus päivämäärä:]]></value>
+		<value><![CDATA[Laskun päivämäärä:]]></value>
 	</definition>
 	<definition>
 		<key>text_telephone</key>
@@ -54,11 +54,11 @@
 	</definition>
 	<definition>
 		<key>text_to</key>
-		<value><![CDATA[jotta]]></value>
+		<value><![CDATA[Vastaanottaja]]></value>
 	</definition>
 	<definition>
 		<key>text_ship_to</key>
-		<value><![CDATA[Ship To (jos eri osoite)]]></value>
+		<value><![CDATA[Toimitusosoite (jos eri osoite)]]></value>
 	</definition>
 	<definition>
 		<key>text_missing_orders</key>
@@ -70,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>column_order</key>
-		<value><![CDATA[tilausnumero]]></value>
+		<value><![CDATA[Tilausnumero]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -82,11 +82,11 @@
 	</definition>
 	<definition>
 		<key>column_date_added</key>
-		<value><![CDATA[lisäyspäivämäärä]]></value>
+		<value><![CDATA[Lisäyspäivä]]></value>
 	</definition>
 	<definition>
 		<key>column_total</key>
-		<value><![CDATA[Kaikki yhteensä]]></value>
+		<value><![CDATA[Yhteensä]]></value>
 	</definition>
 	<definition>
 		<key>column_product</key>
@@ -105,36 +105,40 @@
 		<value><![CDATA[Yksikköhinta]]></value>
 	</definition>
 	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
+	</definition>
+	<definition>
 		<key>column_download</key>
-		<value><![CDATA[Lataa Name]]></value>
+		<value><![CDATA[Latauksen nimi]]></value>
 	</definition>
 	<definition>
 		<key>column_file</key>
-		<value><![CDATA[tiedosto]]></value>
+		<value><![CDATA[Tiedosto]]></value>
 	</definition>
 	<definition>
 		<key>column_remaining</key>
-		<value><![CDATA[Jäljelle jäänyt]]></value>
+		<value><![CDATA[Jäljellä]]></value>
 	</definition>
 	<definition>
 		<key>column_expire_date</key>
-		<value><![CDATA[Viimeinen käyttöpäivä]]></value>
+		<value><![CDATA[Erääntymispäivä]]></value>
 	</definition>
 	<definition>
 		<key>column_mask</key>
-		<value><![CDATA[Naamio]]></value>
+		<value><![CDATA[Maski]]></value>
 	</definition>
 	<definition>
 		<key>column_notify</key>
-		<value><![CDATA[asiakas Ilmoitetut]]></value>
+		<value><![CDATA[Asiakkaalle ilmoitettu]]></value>
 	</definition>
 	<definition>
 		<key>column_comment</key>
-		<value><![CDATA[Asiakkaan tilaus kommentti]]></value>
+		<value><![CDATA[Asiakkaan tilauksen kommentti]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[Toiminta]]></value>
+		<value><![CDATA[Toiminto]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_id</key>
@@ -142,11 +146,11 @@
 	</definition>
 	<definition>
 		<key>entry_invoice_id</key>
-		<value><![CDATA[Lasku ID:]]></value>
+		<value><![CDATA[Laskun tunnus:]]></value>
 	</definition>
 	<definition>
 		<key>entry_customer</key>
-		<value><![CDATA[asiakas:]]></value>
+		<value><![CDATA[Asiakas:]]></value>
 	</definition>
 	<definition>
 		<key>entry_firstname</key>
@@ -158,7 +162,7 @@
 	</definition>
 	<definition>
 		<key>entry_customer_group</key>
-		<value><![CDATA[Asiakas Ryhmä:]]></value>
+		<value><![CDATA[Asiakasryhmä:]]></value>
 	</definition>
 	<definition>
 		<key>entry_email</key>
@@ -178,15 +182,15 @@
 	</definition>
 	<definition>
 		<key>entry_store_name</key>
-		<value><![CDATA[Liikkeen nimi:]]></value>
+		<value><![CDATA[Kaupan nimi:]]></value>
 	</definition>
 	<definition>
 		<key>entry_store_url</key>
-		<value><![CDATA[Store URL:]]></value>
+		<value><![CDATA[Verkkokaupan URL:]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_added</key>
-		<value><![CDATA[Lisäyspäivämäärä:]]></value>
+		<value><![CDATA[Lisäyspäivä:]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping_method</key>
@@ -198,11 +202,11 @@
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[Alkuperäinen Tilaus yhteensä:]]></value>
+		<value><![CDATA[Alkuperäisen tilauksen kokonaissumma:]]></value>
 	</definition>
 	<definition>
 		<key>entry_order_status</key>
-		<value><![CDATA[Tilauksen tila:]]></value>
+		<value><![CDATA[Tilaustila:]]></value>
 	</definition>
 	<definition>
 		<key>entry_comment</key>
@@ -210,7 +214,7 @@
 	</definition>
 	<definition>
 		<key>entry_company</key>
-		<value><![CDATA[Yhtiö:]]></value>
+		<value><![CDATA[Yritys:]]></value>
 	</definition>
 	<definition>
 		<key>entry_address_1</key>
@@ -222,7 +226,7 @@
 	</definition>
 	<definition>
 		<key>entry_postcode</key>
-		<value><![CDATA[ZIP / Postinumero:]]></value>
+		<value><![CDATA[Postinumero:]]></value>
 	</definition>
 	<definition>
 		<key>entry_city</key>
@@ -230,11 +234,11 @@
 	</definition>
 	<definition>
 		<key>entry_zone</key>
-		<value><![CDATA[Alue / Osavaltio:]]></value>
+		<value><![CDATA[Maakunta / Osavaltio:]]></value>
 	</definition>
 	<definition>
 		<key>entry_zone_code</key>
-		<value><![CDATA[Alue / State Koodi:]]></value>
+		<value><![CDATA[Alue-/osavaltiokoodi:]]></value>
 	</definition>
 	<definition>
 		<key>entry_country</key>
@@ -246,39 +250,43 @@
 	</definition>
 	<definition>
 		<key>entry_notify</key>
-		<value><![CDATA[Ilmoita Asiakas:]]></value>
+		<value><![CDATA[Ilmoita asiakkaalle:]]></value>
 	</definition>
 	<definition>
 		<key>entry_append</key>
-		<value><![CDATA[Liitä Kommentit:]]></value>
+		<value><![CDATA[Lisää kommentit:]]></value>
 	</definition>
 	<definition>
 		<key>entry_add_product</key>
-		<value><![CDATA[Lisää Tuote:]]></value>
+		<value><![CDATA[Lisää saatavilla oleva tuote:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: Sinulla ei ole lupaa muokata tilauksia!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata tilauksia!]]></value>
 	</definition>
 	<definition>
 		<key>error_order_load</key>
-		<value><![CDATA[Varoitus: Ei Jotta tällaisella ID!]]></value>
+		<value><![CDATA[Varoitus: Tilausta tällä tunnuksella ei ole!]]></value>
 	</definition>
 	<definition>
 		<key>text_order_summary</key>
-		<value><![CDATA[tilauksen yhteenveto]]></value>
+		<value><![CDATA[Tilauksen yhteenveto]]></value>
 	</definition>
 	<definition>
 		<key>tab_order_details</key>
-		<value><![CDATA[Tilauksen tiedot]]></value>
+		<value><![CDATA[Tilaustiedot]]></value>
+	</definition>
+	<definition>
+		<key>tab_address</key>
+		<value><![CDATA[Tilausosoite]]></value>
 	</definition>
 	<definition>
 		<key>tab_history</key>
-		<value><![CDATA[Tila &amp; Kommentit]]></value>
+		<value><![CDATA[Tila & Kommentit]]></value>
 	</definition>
 	<definition>
 		<key>tab_files</key>
-		<value><![CDATA[Tilaa tiedostot]]></value>
+		<value><![CDATA[Tilaustiedostot]]></value>
 	</definition>
 	<definition>
 		<key>tab_payment_details</key>
@@ -286,15 +294,15 @@
 	</definition>
 	<definition>
 		<key>edit_title_files</key>
-		<value><![CDATA[Edit Order Tiedostot]]></value>
+		<value><![CDATA[Muokkaa tilaustiedostoja]]></value>
 	</definition>
 	<definition>
 		<key>text_missing_file</key>
-		<value><![CDATA[Puuttuvat Tiedoston]]></value>
+		<value><![CDATA[Puuttuva tiedosto]]></value>
 	</definition>
 	<definition>
 		<key>order_download_history</key>
-		<value><![CDATA[Lataa History]]></value>
+		<value><![CDATA[Lataushistoria]]></value>
 	</definition>
 	<definition>
 		<key>text_time</key>
@@ -302,27 +310,27 @@
 	</definition>
 	<definition>
 		<key>text_filename</key>
-		<value><![CDATA[Tiedoston nimi]]></value>
+		<value><![CDATA[Tiedostonimi]]></value>
 	</definition>
 	<definition>
 		<key>text_mask</key>
-		<value><![CDATA[Naamio]]></value>
+		<value><![CDATA[Maski]]></value>
 	</definition>
 	<definition>
 		<key>text_download_percent</key>
-		<value><![CDATA[Lataa Prosentteja]]></value>
+		<value><![CDATA[Latausprosentit]]></value>
 	</definition>
 	<definition>
 		<key>text_download_expired</key>
-		<value><![CDATA[Voimassaolo lakkaa]]></value>
+		<value><![CDATA[Päivämäärä umpeutunut]]></value>
 	</definition>
 	<definition>
 		<key>text_download_remaining_count</key>
-		<value><![CDATA[jäljellä Count]]></value>
+		<value><![CDATA[Jäljellä oleva määrä]]></value>
 	</definition>
 	<definition>
 		<key>text_order_status_required</key>
-		<value><![CDATA[Tilauksen tila &quot;%s&quot; Pakollinen]]></value>
+		<value><![CDATA[Tilaustila "%s" vaaditaan]]></value>
 	</definition>
 	<definition>
 		<key>text_select_product</key>
@@ -334,43 +342,35 @@
 	</definition>
 	<definition>
 		<key>text_add_product_to_order</key>
-		<value><![CDATA[Lisää tuote Tilaus #%s]]></value>
+		<value><![CDATA[Lisää tuote tilaukseen #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_order_product</key>
-		<value><![CDATA[Muokkaa tuotteiden]]></value>
+		<value><![CDATA[Muokkaa tuotetta]]></value>
 	</definition>
 	<definition>
 		<key>attention_check_total</key>
-		<value><![CDATA[Huomautus: Tilaa tuotetiedot on muuttunut. Yhteensä laskettiin uudelleen automaattisesti. Review tarvitaan.]]></value>
+		<value><![CDATA[Huom: tilauksen tuotetiedot ovat muuttuneet. Kokonaismäärä laskettiin automaattisesti uudelleen. Tarkistus vaaditaan.]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_add</key>
-		<value><![CDATA[Lisää määrä kokonaislaskelman]]></value>
+		<value><![CDATA[Lisää uusi määrä kokonaislaskelmaan]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_title</key>
-		<value><![CDATA[Omistusoikeus näytä]]></value>
+		<value><![CDATA[Näytettävä otsikko]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total_amount</key>
-		<value><![CDATA[Määrä]]></value>
+		<value><![CDATA[Summa]]></value>
 	</definition>
 	<definition>
 		<key>text_recalc</key>
-		<value><![CDATA[Laske uudelleen asetuksilla]]></value>
+		<value><![CDATA[Laske uudelleen asetuksia käyttäen]]></value>
 	</definition>
 	<definition>
 		<key>entry_im</key>
-		<value><![CDATA[OLEN:]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[SKU]]></value>
-	</definition>
-	<definition>
-		<key>tab_address</key>
-		<value><![CDATA[Tilausosoite]]></value>
+		<value><![CDATA[IM:]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_locations</key>
@@ -378,10 +378,10 @@
 	</definition>
 	<definition>
 		<key>edit_title_map</key>
-		<value><![CDATA[kartalla]]></value>
+		<value><![CDATA[Kartalla]]></value>
 	</definition>
 	<definition>
 		<key>text_enable_google_map</key>
-		<value><![CDATA[Voit tarkastella osoitteita interaktiivisella Google-kartalla antamalla Google API -avain yleisissä asetuksissa]]></value>
+		<value><![CDATA[Näyttääksesi osoitteet interaktiivisella Google-kartalla, anna Google API -avain yleisissä asetuksissa.]]></value>
 	</definition>
 </definitions>

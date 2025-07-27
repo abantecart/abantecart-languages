@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -14,15 +14,15 @@
 	</definition>
 	<definition>
 		<key>date_format_long</key>
-		<value><![CDATA[l d. F Y]]></value>
+		<value><![CDATA[l, j F Y]]></value>
 	</definition>
 	<definition>
 		<key>time_format</key>
-		<value><![CDATA[d.m.Y H:i:s]]></value>
+		<value><![CDATA[h:i:s]]></value>
 	</definition>
 	<definition>
 		<key>time_format_short</key>
-		<value><![CDATA[H:i:s]]></value>
+		<value><![CDATA[H:i]]></value>
 	</definition>
 	<definition>
 		<key>decimal_point</key>
@@ -34,11 +34,11 @@
 	</definition>
 	<definition>
 		<key>text_home</key>
-		<value><![CDATA[Zuhause]]></value>
+		<value><![CDATA[Startseite]]></value>
 	</definition>
 	<definition>
 		<key>text_yes</key>
-		<value><![CDATA[Ja]]></value>
+		<value><![CDATA[Bitte geben Sie den zu übersetzenden Text an.]]></value>
 	</definition>
 	<definition>
 		<key>text_no</key>
@@ -46,7 +46,7 @@
 	</definition>
 	<definition>
 		<key>text_none</key>
-		<value><![CDATA[--- Keiner ---]]></value>
+		<value><![CDATA[--- Keine ---]]></value>
 	</definition>
 	<definition>
 		<key>text_select</key>
@@ -66,11 +66,11 @@
 	</definition>
 	<definition>
 		<key>text_separator</key>
-		<value><![CDATA[&gt;]]></value>
+		<value><![CDATA[>]]></value>
 	</definition>
 	<definition>
 		<key>button_continue</key>
-		<value><![CDATA[Fortsetzen]]></value>
+		<value><![CDATA[Weiter]]></value>
 	</definition>
 	<definition>
 		<key>button_back</key>
@@ -78,7 +78,7 @@
 	</definition>
 	<definition>
 		<key>button_add_to_cart</key>
-		<value><![CDATA[in den Warenkorb legen]]></value>
+		<value><![CDATA[In den Warenkorb legen]]></value>
 	</definition>
 	<definition>
 		<key>button_add_wishlist</key>
@@ -86,7 +86,7 @@
 	</definition>
 	<definition>
 		<key>button_remove_wishlist</key>
-		<value><![CDATA[Entfernen aus deiner Merkliste]]></value>
+		<value><![CDATA[Aus der Wunschliste entfernen]]></value>
 	</definition>
 	<definition>
 		<key>text_wishlist_add_success</key>
@@ -94,7 +94,7 @@
 	</definition>
 	<definition>
 		<key>text_wishlist_remove_success</key>
-		<value><![CDATA[Entfernt aus deiner Merkliste]]></value>
+		<value><![CDATA[Von der Wunschliste entfernt]]></value>
 	</definition>
 	<definition>
 		<key>button_add_address</key>
@@ -142,11 +142,11 @@
 	</definition>
 	<definition>
 		<key>button_shopping</key>
-		<value><![CDATA[Mit dem Einkaufen fortfahren]]></value>
+		<value><![CDATA[Weiter einkaufen]]></value>
 	</definition>
 	<definition>
 		<key>button_checkout</key>
-		<value><![CDATA[Auschecken]]></value>
+		<value><![CDATA[Zur Kasse]]></value>
 	</definition>
 	<definition>
 		<key>button_confirm</key>
@@ -154,7 +154,7 @@
 	</definition>
 	<definition>
 		<key>button_view</key>
-		<value><![CDATA[Aussicht]]></value>
+		<value><![CDATA[Anzeigen]]></value>
 	</definition>
 	<definition>
 		<key>button_search</key>
@@ -162,23 +162,23 @@
 	</definition>
 	<definition>
 		<key>button_go</key>
-		<value><![CDATA[Gehen]]></value>
+		<value><![CDATA[Los]]></value>
 	</definition>
 	<definition>
 		<key>button_coupon</key>
-		<value><![CDATA[bewerben Coupon]]></value>
+		<value><![CDATA[Gutschein anwenden]]></value>
 	</definition>
 	<definition>
 		<key>button_guest</key>
-		<value><![CDATA[Gast Kasse]]></value>
+		<value><![CDATA[Gastbestellung]]></value>
 	</definition>
 	<definition>
 		<key>notice_out_of_stock_ttl</key>
-		<value><![CDATA[Ausverkauft Mitteilung für: %s]]></value>
+		<value><![CDATA[Ausverkauft-Meldung für: %s]]></value>
 	</definition>
 	<definition>
 		<key>notice_out_of_stock_body</key>
-		<value><![CDATA[Produkt &quot;%s&quot; hat null oder negative Aktienanzahl für Hauptprodukt oder alle Optionen erreicht. <br/> Als Ergebnis der autodisable Einstellung, Produkt (%s) wurde automatisch deaktiviert!]]></value>
+		<value><![CDATA[Produkt "%s" hat für das Hauptprodukt oder alle Optionen einen Lagerbestand von null oder negativ erreicht.<br>Infolge der Einstellung zur automatischen Deaktivierung wurde das Produkt (%s) automatisch deaktiviert!<br>Für weitere Details besuchen Sie %s]]></value>
 	</definition>
 	<definition>
 		<key>no_payment_required</key>
@@ -186,7 +186,7 @@
 	</definition>
 	<definition>
 		<key>gen_data_entry_error</key>
-		<value><![CDATA[Ups, da ist ein Fehler, mit Informationen zur Verfügung gestellt!]]></value>
+		<value><![CDATA[Hoppla, es liegt ein Fehler in den bereitgestellten Informationen vor!]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_name_asc</key>
@@ -198,31 +198,31 @@
 	</definition>
 	<definition>
 		<key>text_sorting_price_asc</key>
-		<value><![CDATA[Preis Niedrig &gt; Hoch]]></value>
+		<value><![CDATA[Preis niedrig > hoch]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_price_desc</key>
-		<value><![CDATA[Preis Hoch &gt; Niedrig]]></value>
+		<value><![CDATA[Preis Hoch > Niedrig]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_rating_asc</key>
-		<value><![CDATA[Bewertung niedrigste]]></value>
+		<value><![CDATA[Niedrigste Bewertung]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_rating_desc</key>
-		<value><![CDATA[Bewertung Höchste]]></value>
+		<value><![CDATA[Höchste Bewertung]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_asc</key>
-		<value><![CDATA[Datum Old &gt; Neu]]></value>
+		<value><![CDATA[Datum Alt > Neu]]></value>
 	</definition>
 	<definition>
 		<key>text_sorting_date_desc</key>
-		<value><![CDATA[Datum New &gt; Alt]]></value>
+		<value><![CDATA[Datum Neu > Alt]]></value>
 	</definition>
 	<definition>
 		<key>text_add_cart_confirm</key>
-		<value><![CDATA[Im Warenkorb]]></value>
+		<value><![CDATA[In den Warenkorb gelegt]]></value>
 	</definition>
 	<definition>
 		<key>text_close</key>
@@ -238,63 +238,67 @@
 	</definition>
 	<definition>
 		<key>button_pay_with_balance</key>
-		<value><![CDATA[Bezahlen mit Balance]]></value>
+		<value><![CDATA[Mit Guthaben bezahlen]]></value>
 	</definition>
 	<definition>
 		<key>button_apply_balance</key>
-		<value><![CDATA[Bewerben Sie bestellen]]></value>
+		<value><![CDATA[Auf Bestellung anwenden]]></value>
 	</definition>
 	<definition>
 		<key>button_disapply_balance</key>
-		<value><![CDATA[Entfernen von bestellen]]></value>
+		<value><![CDATA[Aus der Bestellung entfernen]]></value>
 	</definition>
 	<definition>
 		<key>text_applied_balance</key>
-		<value><![CDATA[angewendet, um zu bestellen]]></value>
+		<value><![CDATA[auf Bestellung angewendet]]></value>
 	</definition>
 	<definition>
 		<key>text_applied_balance_to_order</key>
-		<value><![CDATA[%s Für verwendet, um #%s]]></value>
+		<value><![CDATA[%s verwendet für Bestellung #%s]]></value>
 	</definition>
 	<definition>
 		<key>text_maintenance_notice</key>
-		<value><![CDATA[Hinweis: Der Wartungsmodus eingeschaltet ist.]]></value>
+		<value><![CDATA[Hinweis: Wartungsmodus ist aktiviert.]]></value>
+	</definition>
+	<definition>
+		<key>text_act_on_behalf</key>
+		<value><![CDATA[Hinweis: Impersonationsmodus für Kunden "%s" durch "%s]]></value>
 	</definition>
 	<definition>
 		<key>text_browse</key>
-		<value><![CDATA[Datei aussuchen]]></value>
+		<value><![CDATA[Datei auswählen]]></value>
 	</definition>
 	<definition>
 		<key>button_cancel</key>
-		<value><![CDATA[Stornieren]]></value>
+		<value><![CDATA[Abbrechen]]></value>
 	</definition>
 	<definition>
 		<key>button_reset</key>
-		<value><![CDATA[zurückstellen]]></value>
+		<value><![CDATA[Zurücksetzen]]></value>
 	</definition>
 	<definition>
 		<key>button_submit</key>
-		<value><![CDATA[einreichen]]></value>
+		<value><![CDATA[Absenden]]></value>
 	</definition>
 	<definition>
 		<key>button_save</key>
-		<value><![CDATA[sparen]]></value>
+		<value><![CDATA[Speichern]]></value>
 	</definition>
 	<definition>
 		<key>text_field_required</key>
-		<value><![CDATA[ist Pflichtfeld!]]></value>
+		<value><![CDATA[ist ein Pflichtfeld!]]></value>
 	</definition>
 	<definition>
 		<key>error_captcha</key>
-		<value><![CDATA[Human verification ausgefallen! Bitte versuche es erneut.]]></value>
+		<value><![CDATA[Die menschliche Verifizierung ist fehlgeschlagen! Bitte versuchen Sie es erneut.]]></value>
 	</definition>
 	<definition>
 		<key>entry_attached</key>
-		<value><![CDATA[Angebracht]]></value>
+		<value><![CDATA[Angehängt]]></value>
 	</definition>
 	<definition>
 		<key>text_call_to_order</key>
-		<value><![CDATA[Anrufen zum bestellen]]></value>
+		<value><![CDATA[Rufen Sie an, um zu bestellen]]></value>
 	</definition>
 	<definition>
 		<key>text_discount</key>
@@ -306,7 +310,7 @@
 	</definition>
 	<definition>
 		<key>text_free</key>
-		<value><![CDATA[Frei]]></value>
+		<value><![CDATA[Kostenlos]]></value>
 	</definition>
 	<definition>
 		<key>text_free_shipping</key>
@@ -314,7 +318,7 @@
 	</definition>
 	<definition>
 		<key>price_with_tax</key>
-		<value><![CDATA[Inc Steuer]]></value>
+		<value><![CDATA[inkl. Steuern]]></value>
 	</definition>
 	<definition>
 		<key>text_unavailable</key>
@@ -322,23 +326,19 @@
 	</definition>
 	<definition>
 		<key>error_unknown</key>
-		<value><![CDATA[Unbekannter Fehler aufgetreten. Bitte versuche es erneut!]]></value>
+		<value><![CDATA[Unbekannter Fehler aufgetreten. Bitte versuchen Sie es erneut!]]></value>
 	</definition>
 	<definition>
 		<key>text_click_browse_file</key>
-		<value><![CDATA[Klicken Sie auf Datei zu suchen]]></value>
+		<value><![CDATA[Klicken Sie, um die Datei auszuwählen]]></value>
 	</definition>
 	<definition>
 		<key>text_back_on_top</key>
 		<value><![CDATA[Zurück nach oben]]></value>
 	</definition>
 	<definition>
-		<key>text_act_on_behalf</key>
-		<value><![CDATA[Hinweis: Identitätswechselmodus für Kunden &quot;%s&quot; durch &quot;%s&quot;]]></value>
-	</definition>
-	<definition>
 		<key>text_out_of_stock</key>
-		<value><![CDATA[Nicht Vorrätig]]></value>
+		<value><![CDATA[Ausverkauft]]></value>
 	</definition>
 	<definition>
 		<key>text_badge_sale</key>
@@ -346,7 +346,7 @@
 	</definition>
 	<definition>
 		<key>text_pagination_pages_info</key>
-		<value><![CDATA[Es werden {start} to {end} of {total} ({pages} Seiten angezeigt)]]></value>
+		<value><![CDATA[Zeige {start} - {end} von {total} ({pages} Seiten)]]></value>
 	</definition>
 	<definition>
 		<key>text_first</key>
@@ -354,14 +354,18 @@
 	</definition>
 	<definition>
 		<key>text_last</key>
-		<value><![CDATA[Zuletzt]]></value>
+		<value><![CDATA[Letzte]]></value>
 	</definition>
 	<definition>
 		<key>text_next</key>
-		<value><![CDATA[Nächste]]></value>
+		<value><![CDATA[Weiter]]></value>
 	</definition>
 	<definition>
 		<key>text_previous</key>
-		<value><![CDATA[Vorherige]]></value>
+		<value><![CDATA[Zurück]]></value>
+	</definition>
+	<definition>
+		<key>warning_capslock</key>
+		<value><![CDATA[CapsLock ist eingeschaltet!]]></value>
 	</definition>
 </definitions>

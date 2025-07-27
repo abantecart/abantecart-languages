@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,19 +6,19 @@
 	</definition>
 	<definition>
 		<key>insert_title</key>
-		<value><![CDATA[Ajouter le nouveau contenu]]></value>
+		<value><![CDATA[Ajouter un nouveau contenu]]></value>
 	</definition>
 	<definition>
 		<key>update_title</key>
-		<value><![CDATA[Mise à jour du contenu]]></value>
+		<value><![CDATA[Mettre à jour le contenu]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Succès: Vous avez du contenu modifié!]]></value>
+		<value><![CDATA[Succès : Vous avez modifié le contenu !]]></value>
 	</definition>
 	<definition>
 		<key>text_success_layout</key>
-		<value><![CDATA[Succès: Vous avez modifié le contenu de mise en page.]]></value>
+		<value><![CDATA[Succès : Vous avez modifié la mise en page de la page de contenu.]]></value>
 	</definition>
 	<definition>
 		<key>text_hidden</key>
@@ -26,19 +26,19 @@
 	</definition>
 	<definition>
 		<key>text_default</key>
-		<value><![CDATA[Défaut]]></value>
+		<value><![CDATA[Par défaut]]></value>
 	</definition>
 	<definition>
 		<key>column_title</key>
-		<value><![CDATA[Titre contenu]]></value>
+		<value><![CDATA[Titre du contenu]]></value>
 	</definition>
 	<definition>
 		<key>column_parent</key>
-		<value><![CDATA[contenu Parent]]></value>
+		<value><![CDATA[Contenu parent]]></value>
 	</definition>
 	<definition>
 		<key>entry_parent</key>
-		<value><![CDATA[Contenu Parent]]></value>
+		<value><![CDATA[Page de contenu parente]]></value>
 	</definition>
 	<definition>
 		<key>column_sort_order</key>
@@ -49,24 +49,28 @@
 		<value><![CDATA[Statut]]></value>
 	</definition>
 	<definition>
+		<key>column_publish_date</key>
+		<value><![CDATA[Date de publication]]></value>
+	</definition>
+	<definition>
 		<key>column_action</key>
-		<value><![CDATA[action]]></value>
+		<value><![CDATA[Action]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
-		<value><![CDATA[Contenu Titre:]]></value>
+		<value><![CDATA[Titre du contenu:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[La description:]]></value>
+		<value><![CDATA[Description:<br /><span class="help">Les balises HTML ne sont pas recommandées pour la description du contenu ! Cela dépend de votre modèle de vitrine</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_content</key>
-		<value><![CDATA[Contenu:]]></value>
+		<value><![CDATA[Contenu :]]></value>
 	</definition>
 	<definition>
 		<key>entry_store</key>
-		<value><![CDATA[Magasins:]]></value>
+		<value><![CDATA[Boutiques :]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -74,59 +78,11 @@
 	</definition>
 	<definition>
 		<key>entry_keyword</key>
-		<value><![CDATA[SEO mots-clés:]]></value>
+		<value><![CDATA[Mot-clé SEO :]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
-		<value><![CDATA[Ordre de tri:]]></value>
-	</definition>
-	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Attention: Vous n&#39;êtes pas autorisé à modifier le contenu!]]></value>
-	</definition>
-	<definition>
-		<key>error_title</key>
-		<value><![CDATA[Contenu Titre doit être comprise entre 2 et 64 caractères!]]></value>
-	</definition>
-	<definition>
-		<key>error_description</key>
-		<value><![CDATA[La description doit être plus de 1 caractères!]]></value>
-	</definition>
-	<definition>
-		<key>error_content</key>
-		<value><![CDATA[Le contenu doit être plus de 1 caractères!]]></value>
-	</definition>
-	<definition>
-		<key>error_seo_url</key>
-		<value><![CDATA[SEO URL doit être plus de 1 caractères!]]></value>
-	</definition>
-	<definition>
-		<key>error_account</key>
-		<value><![CDATA[Attention: Ce contenu ne peut pas être supprimé car il est actuellement affecté en tant que le compte de banque par défaut termes!]]></value>
-	</definition>
-	<definition>
-		<key>error_checkout</key>
-		<value><![CDATA[Attention: Ce contenu ne peut pas être supprimé car il est actuellement affecté que les termes magasin de caisse par défaut!]]></value>
-	</definition>
-	<definition>
-		<key>error_required_data</key>
-		<value><![CDATA[Données requises n&#39;a pas été saisi. Vérifiez les erreurs sur le terrain!]]></value>
-	</definition>
-	<definition>
-		<key>text_top_level</key>
-		<value><![CDATA[Haut niveau]]></value>
-	</definition>
-	<definition>
-		<key>text_any</key>
-		<value><![CDATA[tout]]></value>
-	</definition>
-	<definition>
-		<key>tab_form</key>
-		<value><![CDATA[modifier]]></value>
-	</definition>
-	<definition>
-		<key>column_publish_date</key>
-		<value><![CDATA[Date de publication]]></value>
+		<value><![CDATA[Ordre de tri :]]></value>
 	</definition>
 	<definition>
 		<key>entry_publish_date</key>
@@ -134,59 +90,102 @@
 	</definition>
 	<definition>
 		<key>entry_expire_date</key>
-		<value><![CDATA[Date d&#39;expiration :]]></value>
+		<value><![CDATA[Date d’expiration :]]></value>
 	</definition>
 	<definition>
 		<key>entry_content_bar</key>
-		<value><![CDATA[Barre de détails du contenu : <br/><span class="help">Activez ce paramètre pour afficher la barre avec l&#39;auteur et la date de publication sur la page de contenu</span>]]></value>
+		<value><![CDATA[Barre des détails du contenu :<br /><span class="help">Activez ce paramètre pour afficher la barre avec l’auteur et la date de publication sur la page de contenu</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_icon</key>
-		<value><![CDATA[Image ou icône principale :]]></value>
+		<value><![CDATA[Image principale ou icône :]]></value>
 	</definition>
 	<definition>
 		<key>entry_tags</key>
-		<value><![CDATA[Balises de contenu : <span class="help">liste de</span><br/> éléments séparés par des virgules]]></value>
+		<value><![CDATA[Étiquettes de contenu:<br /><span class="help">liste séparée par des virgules</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_author</key>
 		<value><![CDATA[Auteur:]]></value>
 	</definition>
 	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Attention : vous n'avez pas l'autorisation de modifier le contenu !]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[Le titre du contenu doit être compris entre 2 et 255 caractères !]]></value>
+	</definition>
+	<definition>
 		<key>error_title_html</key>
-		<value><![CDATA[Le titre du contenu ne peut pas contenir de balises HTML !]]></value>
+		<value><![CDATA[Le titre du contenu ne peut pas contenir de balises HTML !]]></value>
+	</definition>
+	<definition>
+		<key>error_description</key>
+		<value><![CDATA[La description doit comporter plus d’un caractère !]]></value>
 	</definition>
 	<definition>
 		<key>error_description_html</key>
-		<value><![CDATA[Les balises HTML de description du contenu ne sont pas prises en charge !]]></value>
+		<value><![CDATA[Les balises HTML de description de contenu ne sont pas prises en charge !]]></value>
+	</definition>
+	<definition>
+		<key>error_content</key>
+		<value><![CDATA[Le contenu doit comporter plus d’un caractère !]]></value>
+	</definition>
+	<definition>
+		<key>error_seo_url</key>
+		<value><![CDATA[L’URL SEO doit contenir plus d’un caractère !]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Attention : ce contenu ne peut pas être supprimé car il est actuellement assigné comme conditions de compte de la boutique par défaut !]]></value>
+	</definition>
+	<definition>
+		<key>error_checkout</key>
+		<value><![CDATA[Attention : ce contenu ne peut pas être supprimé car il sert actuellement de conditions de paiement par défaut de la boutique !]]></value>
 	</definition>
 	<definition>
 		<key>error_delete_parent</key>
-		<value><![CDATA[
- Avertissement : le contenu parent ne peut pas être supprimé ! Déplacez ou supprimez d&#39;abord les pages de contenu enfant.]]></value>
+		<value><![CDATA[Attention : les contenus parents ne peuvent pas être supprimés ! Déplacez ou supprimez d’abord les pages de contenu enfant.]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Les données requises n’ont pas été saisies. Vérifiez les erreurs dans les champs !]]></value>
+	</definition>
+	<definition>
+		<key>text_top_level</key>
+		<value><![CDATA[Niveau supérieur]]></value>
+	</definition>
+	<definition>
+		<key>text_any</key>
+		<value><![CDATA[n'importe quel]]></value>
+	</definition>
+	<definition>
+		<key>tab_form</key>
+		<value><![CDATA[Modifier]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
-		<value><![CDATA[ Description de la balise méta : ]]></value>
+		<value><![CDATA[Description de la balise Meta :]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_keywords</key>
-		<value><![CDATA[Mots-clés de la balise méta :]]></value>
+		<value><![CDATA[Mots-clés des balises méta :]]></value>
 	</definition>
 	<definition>
 		<key>text_clone</key>
-		<value><![CDATA[Cloner]]></value>
+		<value><![CDATA[Dupliquer]]></value>
 	</definition>
 	<definition>
 		<key>text_success_copy</key>
-		<value><![CDATA[Succès : vous avez copié avec succès la page de contenu <b>%s</b> !]]></value>
+		<value><![CDATA[Succès : Vous avez copié avec succès la page de contenu <b>%s</b> !]]></value>
 	</definition>
 	<definition>
 		<key>text_success_copy_layout</key>
-		<value><![CDATA[ Remarque : la mise en page de la page de contenu a également été clonée.]]></value>
+		<value><![CDATA[Remarque : la mise en page de la page de contenu a également été clonée.]]></value>
 	</definition>
 	<definition>
 		<key>text_error_copy</key>
-		<value><![CDATA[Échec du clonage ! La page de contenu originale n&#39;est pas disponible.]]></value>
+		<value><![CDATA[Le clonage a échoué ! La page de contenu d’origine n’est pas disponible.]]></value>
 	</definition>
 </definitions>

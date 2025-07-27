@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
-		<value><![CDATA[купони]]></value>
+		<value><![CDATA[Купони]]></value>
 	</definition>
 	<definition>
 		<key>text_coupon</key>
-		<value><![CDATA[купон]]></value>
+		<value><![CDATA[Купон]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успіх: У вас є модифіковані купони!]]></value>
+		<value><![CDATA[Успіх: Ви змінили купони!]]></value>
 	</definition>
 	<definition>
 		<key>text_percent</key>
@@ -18,59 +18,59 @@
 	</definition>
 	<definition>
 		<key>text_amount</key>
-		<value><![CDATA[фіксована сума]]></value>
+		<value><![CDATA[Фіксована сума]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
-		<value><![CDATA[купон Ім&#39;я]]></value>
+		<value><![CDATA[Назва купона]]></value>
 	</definition>
 	<definition>
 		<key>column_code</key>
-		<value><![CDATA[код]]></value>
+		<value><![CDATA[Код]]></value>
 	</definition>
 	<definition>
 		<key>column_discount</key>
-		<value><![CDATA[знижка]]></value>
+		<value><![CDATA[Знижка]]></value>
 	</definition>
 	<definition>
 		<key>column_date_start</key>
-		<value><![CDATA[Дата Початок]]></value>
+		<value><![CDATA[Дата початку]]></value>
 	</definition>
 	<definition>
 		<key>column_date_end</key>
-		<value><![CDATA[дата Кінцева]]></value>
+		<value><![CDATA[Дата завершення]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
-		<value><![CDATA[статус]]></value>
+		<value><![CDATA[Статус]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[дію]]></value>
+		<value><![CDATA[Дія]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Купон Ім&#39;я:]]></value>
+		<value><![CDATA[Назва купона:]]></value>
 	</definition>
 	<definition>
 		<key>entry_description</key>
-		<value><![CDATA[Купон Опис:]]></value>
+		<value><![CDATA[Опис купона:]]></value>
 	</definition>
 	<definition>
 		<key>entry_code</key>
-		<value><![CDATA[Код: <br/><span class="help">Код, клієнт вводить, щоб отримати знижку</span>]]></value>
+		<value><![CDATA[Код:<br /><span class="help">Код, який клієнт вводить, щоб отримати знижку</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_type</key>
-		<value><![CDATA[Тип: <br/><span class="help">Відсоток або Фіксована сума</span>]]></value>
+		<value><![CDATA[Тип:<br /><span class="help">Відсоток або Фіксована сума</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_discount</key>
-		<value><![CDATA[знижка:]]></value>
+		<value><![CDATA[Знижка:]]></value>
 	</definition>
 	<definition>
 		<key>entry_logged</key>
-		<value><![CDATA[Клієнт Логін: <br/><span class="help">клієнта повинні увійти в</span> систему, <span class="help">щоб використовувати купон.</span>]]></value>
+		<value><![CDATA[Вхід клієнта:<br /><span class="help">Клієнт має увійти в систему, щоб використовувати купон.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_shipping</key>
@@ -78,11 +78,15 @@
 	</definition>
 	<definition>
 		<key>entry_total</key>
-		<value><![CDATA[Загальна сума: <br/><span class="help">суб-загальна сума, яка повинна досягнуто до купон дійсний.</span>]]></value>
+		<value><![CDATA[Загальна сума:<br/><span class="help">Проміжна сума, яку необхідно досягти, перш ніж купон стане дійсним.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_category</key>
+		<value><![CDATA[Категорії:<br/><span class="help">Застосовувати купон, коли товари належать одній із вибраних категорій.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_product</key>
-		<value><![CDATA[Обрані продукти:]]></value>
+		<value><![CDATA[Продукти:<br/><span class="help">Застосувати купон, коли кошик містить один із вибраних продуктів.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_date_start</key>
@@ -90,47 +94,43 @@
 	</definition>
 	<definition>
 		<key>entry_date_end</key>
-		<value><![CDATA[Дата закінчення:]]></value>
+		<value><![CDATA[Дата завершення:]]></value>
 	</definition>
 	<definition>
 		<key>entry_uses_total</key>
-		<value><![CDATA[Використовує Per Купон: <br/><span class="help">Максимальна кількість разів купон може бути використаний будь-яким клієнтом. Залиште порожнім для необмеженої</span>]]></value>
+		<value><![CDATA[Використань на купон:<br /><span class="help">Максимальна кількість використань купона одним клієнтом. Залиште порожнім для необмеженого використання</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_uses_customer</key>
-		<value><![CDATA[Використовує для кожного клієнта: <br/><span class="help">Максимальна кількість разів купон може бути використаний одним клієнтом. Залиште порожнім для необмеженої</span>]]></value>
+		<value><![CDATA[Кількість використань на одного клієнта:<br /><span class="help">Максимальна кількість використань купона одним клієнтом. Залиште порожнім для необмеженої кількості</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[статус:]]></value>
+		<value><![CDATA[Статус:]]></value>
 	</definition>
 	<definition>
 		<key>entry_total_coupon_usage</key>
-		<value><![CDATA[Загальний обсяг використання Купон: <br/><span class="help">Кількість всіх розміщених замовлень, використовуючи цей купон</span>]]></value>
+		<value><![CDATA[Загальна кількість використань купона:<br /><span class="help">Кількість всіх замовлень, оформлених із використанням цього купона</span>]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Увага: У вас немає дозволу на зміну купони!]]></value>
+		<value><![CDATA[Увага: Ви не маєте дозволу змінювати купони!]]></value>
 	</definition>
 	<definition>
 		<key>error_name</key>
-		<value><![CDATA[Купон Ім&#39;я повинно бути від 2 до 64 символів!]]></value>
+		<value><![CDATA[Назва купона повинна містити від 2 до 64 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_description</key>
-		<value><![CDATA[Купон Опис повинен бути від 2-х символів!]]></value>
+		<value><![CDATA[Опис купона повинен містити від 2 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_code</key>
-		<value><![CDATA[Код повинен бути в межах від 2 до 10 символів!]]></value>
+		<value><![CDATA[Код повинен бути від 2 до 10 символів!]]></value>
 	</definition>
 	<definition>
 		<key>error_date</key>
 		<value><![CDATA[Будь ласка, встановіть діапазон дат!]]></value>
-	</definition>
-	<definition>
-		<key>entry_category</key>
-		<value><![CDATA[Категорії: <br/><span class="help">Застосувати купон, якщо продукти з однієї з вибраних категорій.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_select_category</key>
@@ -142,6 +142,6 @@
 	</definition>
 	<definition>
 		<key>text_and</key>
-		<value><![CDATA[І]]></value>
+		<value><![CDATA[і]]></value>
 	</definition>
 </definitions>

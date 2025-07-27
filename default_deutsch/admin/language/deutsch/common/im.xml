@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>im_text_notification</key>
@@ -6,11 +6,15 @@
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_order_update</key>
-		<value><![CDATA[Bestellen Sie Updates]]></value>
+		<value><![CDATA[Bestellaktualisierungen]]></value>
 	</definition>
 	<definition>
 		<key>im_order_update_text_to_customer</key>
-		<value><![CDATA[Ihre Bestellung <a href="%s">#%s</a> wurde aktualisiert. Für weitere Informationen melden Sie %s Konto.]]></value>
+		<value><![CDATA[Ihre Bestellung <a href="%s">#%s</a> wurde aktualisiert. Für weitere Details melden Sie sich in Ihrem %s-Konto an.]]></value>
+	</definition>
+	<definition>
+		<key>im_order_update_text_to_guest</key>
+		<value><![CDATA[Ihre Bestellung <a href="%s">#%s</a> wurde aktualisiert. Für weitere Details besuchen Sie bitte die Bestellseite %s.]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_order</key>
@@ -18,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>im_new_order_text_to_admin</key>
-		<value><![CDATA[New Order <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a> wurde erstellt!]]></value>
+		<value><![CDATA[Neue Bestellung <a href="#admin#rt=sale/order/details&order_id=%s">#%s</a> wurde erstellt!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_customer</key>
@@ -26,15 +30,15 @@
 	</definition>
 	<definition>
 		<key>im_new_customer_text_to_admin</key>
-		<value><![CDATA[Neuer Kunde #%s registriert wurde!]]></value>
+		<value><![CDATA[Neuer Kunde #%s wurde registriert!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_account_update</key>
-		<value><![CDATA[Administrator-Benutzerkonto Updates]]></value>
+		<value><![CDATA[Administrator-Benutzerkonto-Aktualisierungen]]></value>
 	</definition>
 	<definition>
 		<key>im_account_update_text_to_admin</key>
-		<value><![CDATA[Ihr Administrator-Benutzerkontodaten wurden geändert.]]></value>
+		<value><![CDATA[Ihre Administratorkontodaten wurden geändert.]]></value>
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_admin</key>
@@ -50,7 +54,7 @@
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_review</key>
-		<value><![CDATA[Neues Produkt Bewertungen]]></value>
+		<value><![CDATA[Neue Produktbewertungen]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_newsletter</key>
@@ -58,11 +62,11 @@
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_system_messages</key>
-		<value><![CDATA[Systemmeldungen]]></value>
+		<value><![CDATA[Systemnachrichten]]></value>
 	</definition>
 	<definition>
 		<key>im_customer_account_update_text_to_customer</key>
-		<value><![CDATA[Neue Transaktion wurde zu Ihrem %s Konto in Höhe von %s geschrieben. Für weitere Informationen melden Sie %s Konto.]]></value>
+		<value><![CDATA[Eine neue Transaktion wurde Ihrem %s-Konto in Höhe von %s gutgeschrieben. Für weitere Details melden Sie sich in Ihrem %s-Konto an.]]></value>
 	</definition>
 	<definition>
 		<key>text_notification_for</key>
@@ -70,7 +74,7 @@
 	</definition>
 	<definition>
 		<key>error_unknown_sendpoint</key>
-		<value><![CDATA[Sendpoint %s nicht in sendpoints Liste gefunden!]]></value>
+		<value><![CDATA[Sendpunkt %s wurde in der Sendpunkte-Liste nicht gefunden!]]></value>
 	</definition>
 	<definition>
 		<key>text_settings_success_saved</key>
@@ -78,11 +82,7 @@
 	</definition>
 	<definition>
 		<key>im_error_mail_address</key>
-		<value><![CDATA[E-Mail-Adresse %s sieht aus wie ungültig!]]></value>
-	</definition>
-	<definition>
-		<key>im_order_update_text_to_guest</key>
-		<value><![CDATA[Ihre Bestellung <a href="%s">#%s</a> wurde aktualisiert. Für weitere Informationen wenden Sie sich bitte bestellen Seite %s besuchen.]]></value>
+		<value><![CDATA[E-Mail-Adresse %s scheint ungültig zu sein!]]></value>
 	</definition>
 	<definition>
 		<key>im_threshold</key>

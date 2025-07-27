@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[成功：你已修改的用户！]]></value>
+		<value><![CDATA[成功：您已修改用户！]]></value>
 	</definition>
 	<definition>
 		<key>text_success_details</key>
-		<value><![CDATA[成功：你已修改您的个人资料！]]></value>
+		<value><![CDATA[成功：您已修改您的个人资料！]]></value>
 	</definition>
 	<definition>
 		<key>column_username</key>
@@ -26,7 +26,7 @@
 	</definition>
 	<definition>
 		<key>column_group</key>
-		<value><![CDATA[组]]></value>
+		<value><![CDATA[群组]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -38,7 +38,7 @@
 	</definition>
 	<definition>
 		<key>column_action</key>
-		<value><![CDATA[行动]]></value>
+		<value><![CDATA[操作]]></value>
 	</definition>
 	<definition>
 		<key>entry_username</key>
@@ -54,15 +54,15 @@
 	</definition>
 	<definition>
 		<key>entry_firstname</key>
-		<value><![CDATA[名字：]]></value>
+		<value><![CDATA[名字:]]></value>
 	</definition>
 	<definition>
 		<key>entry_lastname</key>
-		<value><![CDATA[姓：]]></value>
+		<value><![CDATA[姓氏:]]></value>
 	</definition>
 	<definition>
 		<key>entry_email</key>
-		<value><![CDATA[电子邮件：]]></value>
+		<value><![CDATA[电子邮件:]]></value>
 	</definition>
 	<definition>
 		<key>entry_user_group</key>
@@ -70,7 +70,7 @@
 	</definition>
 	<definition>
 		<key>entry_status</key>
-		<value><![CDATA[状态：]]></value>
+		<value><![CDATA[状态:]]></value>
 	</definition>
 	<definition>
 		<key>entry_ims</key>
@@ -78,27 +78,27 @@
 	</definition>
 	<definition>
 		<key>entry_captcha</key>
-		<value><![CDATA[请在下框输入验证码]]></value>
+		<value><![CDATA[在下面的框中输入代码：]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[警告：您没有权限修改用户！]]></value>
+		<value><![CDATA[警告：您没有修改用户的权限！]]></value>
 	</definition>
 	<definition>
 		<key>error_account</key>
-		<value><![CDATA[警告：您无法删除自己的帐户！]]></value>
+		<value><![CDATA[警告：您无法删除您自己的帐户！]]></value>
 	</definition>
 	<definition>
 		<key>error_username</key>
-		<value><![CDATA[用户名必须在2到20个字符之间！]]></value>
+		<value><![CDATA[用户名必须在2到20个字符之间，并且必须唯一！]]></value>
 	</definition>
 	<definition>
 		<key>error_password</key>
-		<value><![CDATA[密码必须大于3个字符！]]></value>
+		<value><![CDATA[密码长度必须超过3个字符！]]></value>
 	</definition>
 	<definition>
 		<key>error_confirm</key>
-		<value><![CDATA[密码和确认密码不匹配！]]></value>
+		<value><![CDATA[密码和密码确认不匹配！]]></value>
 	</definition>
 	<definition>
 		<key>error_firstname</key>
@@ -106,19 +106,19 @@
 	</definition>
 	<definition>
 		<key>error_lastname</key>
-		<value><![CDATA[姓氏必须在2到32个字符之间！]]></value>
+		<value><![CDATA[姓氏长度必须在2到32个字符之间！]]></value>
 	</definition>
 	<definition>
 		<key>error_email</key>
-		<value><![CDATA[电子邮件地址不会出现有效！]]></value>
+		<value><![CDATA[电子邮件地址似乎无效！]]></value>
 	</definition>
 	<definition>
 		<key>error_captcha</key>
-		<value><![CDATA[真人验证失败！]]></value>
+		<value><![CDATA[人机验证失败！]]></value>
 	</definition>
 	<definition>
 		<key>error_user_group</key>
-		<value><![CDATA[您没有权限来更改用户组。]]></value>
+		<value><![CDATA[您没有权限更改用户组。]]></value>
 	</definition>
 	<definition>
 		<key>text_select_group</key>
@@ -126,11 +126,11 @@
 	</definition>
 	<definition>
 		<key>entry_im_email</key>
-		<value><![CDATA[电子邮件： <span class="help">一个或多个逗号分隔的电子邮件地址</span>]]></value>
+		<value><![CDATA[电子邮件:<span class="help">一个或多个用逗号分隔的电子邮件地址</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_im_sms</key>
-		<value><![CDATA[手机： <span class="help">国际格式的电话号码。恩。 14566887777</span>]]></value>
+		<value><![CDATA[手机号码:<span class="help">国际格式的电话号码。例如+14566887777</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_im</key>
@@ -142,6 +142,6 @@
 	</definition>
 	<definition>
 		<key>text_change_im_addresses</key>
-		<value><![CDATA[编辑通知地址此SendPoint]]></value>
+		<value><![CDATA[编辑此 SendPoint 的通知地址]]></value>
 	</definition>
 </definitions>
