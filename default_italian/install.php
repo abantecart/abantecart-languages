@@ -76,21 +76,21 @@ if ($xml) {
 }
 
 $countryList = (array)include('countries_zones.php');
-foreach ($countryList['countries'] as $id => $name) {
+foreach ($countryList['countries'] as $cid => $cName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('country_descriptions') . " 
             (`country_id`, `language_id`, `name`)
         VALUES 
-            (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
+            (" . $cid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
     );
 }
 
-foreach ($countryList['zones'] as $id => $name) {
+foreach ($countryList['zones'] as $zid => $zoneName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('zone_descriptions') . " 
             (`zone_id`,`language_id`, `name`)
         VALUES 
-            (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
+            (" . $zid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zoneName)) . "')"
     );
 }
 include('translated_descriptions.php');

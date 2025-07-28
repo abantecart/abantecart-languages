@@ -61,43 +61,21 @@ if ($xml) {
 }
 
 $countryList = (array)include('countries_zones.php');
-foreach ($countryList['countries'] as $id => $name) {
+foreach ($countryList['countries'] as $cid => $cName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('country_descriptions') . " 
             (`country_id`, `language_id`, `name`)
         VALUES 
-            (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
+            (" . $cid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
     );
 }
 
-foreach ($countryList['zones'] as $id => $name) {
+foreach ($countryList['zones'] as $zid => $zoneName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('zone_descriptions') . " 
             (`zone_id`,`language_id`, `name`)
         VALUES 
-            (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
+            (" . $zid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zoneName)) . "')"
     );
-}
-
-//Load language specific data
-$xml = simplexml_load_file(DIR_EXT . 'default_simplified_chinese/menu.xml');
-$routes = array(
-			'text_index_home_menu'=>'index/home',
-			'text_product_special_menu'=>'product/special',
-			'text_account_login_menu'=>'account/login',
-			'text_account_logout_menu'=>'account/logout',
-			'text_account_account_menu'=>'account/account',
-			'text_account_invoice_menu'=>'account/invoice',
-			'text_checkout_cart_menu'=>'checkout/cart',
-			'text_checkout_shipping_menu'=>'checkout/shipping'
-);
-
-if($xml){
-	foreach($xml->definition as $item){
-		$translates[$routes[(string)$item->key]] = (string)$item->value;
-	}
-
-	$storefront_menu = new AMenu_Storefront();
-	$storefront_menu->addLanguage($new_language_id,$translates);
 }
 include('translated_descriptions.php');
