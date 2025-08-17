@@ -1,0 +1,1065 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Inställningar]]></value>
+	</definition>
+	<definition>
+		<key>column_store_alias</key>
+		<value><![CDATA[Butik]]></value>
+	</definition>
+	<definition>
+		<key>column_group</key>
+		<value><![CDATA[Grupp]]></value>
+	</definition>
+	<definition>
+		<key>column_key</key>
+		<value><![CDATA[Nyckel]]></value>
+	</definition>
+	<definition>
+		<key>column_value</key>
+		<value><![CDATA[Värde]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Framgång: Du har framgångsrikt sparat dina inställningar!]]></value>
+	</definition>
+	<definition>
+		<key>text_image_manager</key>
+		<value><![CDATA[Bildhanterare]]></value>
+	</definition>
+	<definition>
+		<key>text_select_group</key>
+		<value><![CDATA[- Välj grupp -]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[Standard]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store_settings</key>
+		<value><![CDATA[Redigera inställningar:]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_template_settings</key>
+		<value><![CDATA[Redigera mallinställningar:]]></value>
+	</definition>
+	<definition>
+		<key>text_common_template_settings</key>
+		<value><![CDATA[Mallval]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store</key>
+		<value><![CDATA[Redigera butik]]></value>
+	</definition>
+	<definition>
+		<key>text_mail</key>
+		<value><![CDATA[Inre kuvert]]></value>
+	</definition>
+	<definition>
+		<key>text_smtp</key>
+		<value><![CDATA[SMTP]]></value>
+	</definition>
+	<definition>
+		<key>text_native</key>
+		<value><![CDATA[Inbyggd (sendmail-binär och alternativ för "sendmail_path"-inställningen i php.ini)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[Ta från system/config.php]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[Mailer kombinerar en <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> från config.php-filen. Läs <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">vår dokumentation</a> för detaljer.]]></value>
+	</definition>
+	<definition>
+		<key>tab_all</key>
+		<value><![CDATA[Alla]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[Butiksnamn:]]></value>
+	</definition>
+	<definition>
+		<key>entry_url</key>
+		<value><![CDATA[Butikens URL:<br /><span class="help">Ange den fullständiga URL:en till din butik. Se till att lägga till '/' i slutet. Exempel: http://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_owner</key>
+		<value><![CDATA[Butiksägare:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address</key>
+		<value><![CDATA[Adress:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[E-post:]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_emails</key>
+		<value><![CDATA[Ytterligare varnings-e-postmeddelanden:<br /><span class="help">Eventuella ytterligare e-postadresser som du vill ska få varnings-e-post, utöver butikens huvud-e-postadress. (kommaseparerade)</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[Aviserings-e-postmeddelanden måste vara giltiga och kommaseparerade!]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[Telefon:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[Fax:]]></value>
+	</definition>
+	<definition>
+		<key>entry_title</key>
+		<value><![CDATA[Titel:<br /><span class="help">Detta visas som webbläsartitel i webbutiken</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[Metataggbeskrivning:<br /><span class="help">Metataggbeskrivning för butikens startsida</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[Meta-nyckelord:<br /><span class="help">Butikens huvudsidas meta-tagg nyckelord (kommaseparerade)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[Välkomstmeddelande:]]></value>
+	</definition>
+	<definition>
+		<key>entry_template</key>
+		<value><![CDATA[Mall:<span class="help">Mall för butiksfronten. Detta kan vara huvudmall eller tilläggsmall</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_template</key>
+		<value><![CDATA[Kontrollpanelsmall:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[Land:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[Region / Stat:]]></value>
+	</definition>
+	<definition>
+		<key>entry_language</key>
+		<value><![CDATA[Butiksfrontspråk:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_language</key>
+		<value><![CDATA[Administrationsspråk: <span class="help">OBS: fungerar om inget föredraget användarspråk hittas i webbläsaren</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency</key>
+		<value><![CDATA[Basvaluta:<span class="help">Detta är grundvalutan för alla butiker. Ändra inte om du inte förstår vad som kommer att hända. Varning: Ändring av grundvalutan kommer inte att ändra dina grundpriser för produkter. Du måste granska och justera alla priser vid behov. Växelkursen för grundvalutan kommer att sättas till 1.00 och växelkurserna för alla andra valutor justeras med avseende på den nya grundvalutan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency_auto</key>
+		<value><![CDATA[Automatisk uppdatering av valuta:<br /><span class="help">Ställ in din butik på att automatiskt uppdatera valutakurser dagligen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Viktklass:]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Längdklass:]]></value>
+	</definition>
+	<definition>
+		<key>entry_auto_translate_status</key>
+		<value><![CDATA[Autöversättningsstatus:<br /><span class="help">Detta möjliggör översättning av saknade textdefinitioner eller språkspecifika data om textvärden saknas för det använda språket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_src_lang_code</key>
+		<value><![CDATA[Källspråk för översättning:<br /><span class="help">Välj källspråk som ska användas för automatisk översättning.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_method</key>
+		<value><![CDATA[Textöversättningsmetod:<br /><span class="help">Välj den metod du vill använda för översättning. Standardmetoden är en rak kopia av källspråkstexten</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_override_existing</key>
+		<value><![CDATA[Skriv över om källspråkstexten ändrats:<br /><span class="help">Om inställningen är aktiverad kommer texten i alla språk att ersättas med ny översättning om källspråkstexten redigeras. OBS: Kan orsaka många översättningar.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_warn_lang_text_missing</key>
+		<value><![CDATA[Varning för saknad språktext:<br /><span class="help">Få varningsmeddelande om saknad språktext upptäcks.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Visa priser inklusive moms:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store</key>
+		<value><![CDATA[Standard momssats för butik:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_0</key>
+		<value><![CDATA[Ingen skatt]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_1</key>
+		<value><![CDATA[Butikens standardzon]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer</key>
+		<value><![CDATA[Använd kundens skatteadress:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_0</key>
+		<value><![CDATA[Leveransadress]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_1</key>
+		<value><![CDATA[Faktureringsadress]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice</key>
+		<value><![CDATA[Startnummer för fakturor:<br /><span class="help">Ange det startnummer fakturorna ska börja från.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice_prefix</key>
+		<value><![CDATA[Fakturaprefix:<br /><span class="help">Ange fakturaprefix t.ex. IN/001</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[Kundgrupp:<br /><span class="help">Standardkundgrupp.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_price</key>
+		<value><![CDATA[Visa priser utan inloggning:<br /><span class="help">Visa priser även om kunden inte är inloggad.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_approval</key>
+		<value><![CDATA[Granska nya registreringar:<br /><span class="help">Om det är aktiverat får inte en ny kund logga in förrän deras konto har godkänts.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_prevent_email_as_login</key>
+		<value><![CDATA[Kräv inloggningsnamn:<br /><span class="help">För att förbättra säkerheten krävs att kunder skapar ett unikt inloggningsnamn istället för att använda e-postadressen som inloggningsnamn. Om inställningen är PÅ kommer befintliga kunder att uppmanas skapa ett nytt inloggningsnamn vid första inloggningen. Om den är AV sätts inloggningsnamnet till kundens e-postadress.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_guest_checkout</key>
+		<value><![CDATA[Gästutcheckning:<br /><span class="help">Tillåt kunder att slutföra köpet utan att skapa ett konto. Detta är inte tillgängligt när en nedladdningsbar produkt finns i varukorgen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account</key>
+		<value><![CDATA[Kontovillkor:<br /><span class="help">Tvingar personer att godkänna villkoren innan ett konto kan skapas.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_checkout</key>
+		<value><![CDATA[Utcheckningsvillkor:<br /><span class="help">Tvingar personer att godkänna villkoren innan en kund kan slutföra köpet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_status</key>
+		<value><![CDATA[Orderstatus:<br /><span class="help">Ställ in standardorderstatus när en order behandlas.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_cancelation_order_status</key>
+		<value><![CDATA[Tillåt kunden att avbryta ordern vid status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_display</key>
+		<value><![CDATA[Visa lagersaldo:<br /><span class="help">Visa lagersaldo på produktsidan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_nostock_autodisable</key>
+		<value><![CDATA[Automatisk inaktivering vid tomt lager:<br /><span class="help">Inaktivera visning av din produkt eller ditt alternativvärde om lagret sjunker till 0. Meddelandenotifiering kommer att skickas </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Standardlagerutcheckning:<br /><span class="help">Ange standardinställningen för att tillåta kunder att slutföra köpet även om produkterna är slut i lager</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_status</key>
+		<value><![CDATA[Förvald lagerstatus för förhandsbokning:<br /><span class="help">Standardinställning för meddelande om förhandsbokningsstatus för produkten. Används på produktredigeringssidan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_logo</key>
+		<value><![CDATA[Butikens logotyp:]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[E-postlogotyp:]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Ikon:<br /><span class="help">Ikonen kan vara av typen PNG eller ICON som är 16px x 16px.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Bredd:]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Höjd:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb</key>
+		<value><![CDATA[Produktbildsminiatyrstorlek:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_width</key>
+		<value><![CDATA[Produktbildens miniatyrbildbredd:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_height</key>
+		<value><![CDATA[Produktbildens miniatyrbildshöjd:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup</key>
+		<value><![CDATA[Popupstorlek för produktbild:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_width</key>
+		<value><![CDATA[Bredd för förhandsgranskning i stort fönster:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_height</key>
+		<value><![CDATA[Förhandsvisningshöjd för stort fönster:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category</key>
+		<value><![CDATA[Storlek på kategorilista:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_width</key>
+		<value><![CDATA[Bredd på kategorilistan:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_height</key>
+		<value><![CDATA[Höjd på kategorilistan:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_width</key>
+		<value><![CDATA[Bredd för varumärkesikonlista:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_height</key>
+		<value><![CDATA[Höjd på varumärkesikonlistan:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product</key>
+		<value><![CDATA[Produktliststorlek:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_height</key>
+		<value><![CDATA[Produktlistans höjd:<br /><span class="help">Detta kontrollerar höjden på en förhandsgranskningsbild på listningssidorna i administrationsgränssnittet och på andra ställen i butikens gränssnitt. Observera att denna inställning delas mellan administrationsgränssnittet och butikens standardmall.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_width</key>
+		<value><![CDATA[Produktlistans bredd:<br /><span class="help">Detta används för att styra bredden på förhandsgranskningsbilden i listningssidorna i admin och på andra ställen i butiksfronten. Observera att denna inställning delas mellan admin och standardmallen för butiksfronten.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional</key>
+		<value><![CDATA[Ytterligare produktbildstorlek:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_width</key>
+		<value><![CDATA[Extra produktbildbredd:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_height</key>
+		<value><![CDATA[Ytterligare produktbildshöjd:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related</key>
+		<value><![CDATA[Storlek på relaterad produktbild:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_width</key>
+		<value><![CDATA[Bredd för relaterad produktbild:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_height</key>
+		<value><![CDATA[Höjd för relaterad produktbild:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart</key>
+		<value><![CDATA[Bildstorlek för varukorgen:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_width</key>
+		<value><![CDATA[Varukorgsbildens bredd:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_height</key>
+		<value><![CDATA[Varukorgsbildhöjd:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid</key>
+		<value><![CDATA[Rutnätsbildstorlek:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_width</key>
+		<value><![CDATA[Rutnätsbildbredd:<br /><span class="help">Detta används för att styra bredden på en mycket liten förhandsgranskningsbild i förteckningsrutnätet i adminpanelen och på andra platser i butiksfronten. Observera att denna inställning delas mellan adminpanelen och standardtemat för butiksfronten.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_height</key>
+		<value><![CDATA[Bildhöjd i rutnät:<br /><span class="help">Detta används för att styra höjden på en mycket liten förhandsgranskningsbild i listningsrutnäten i admin och på andra platser i butiksvyn. Observera att denna inställning delas mellan admin och standardmall för butiksvyn.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_mail</key>
+		<value><![CDATA[Aviseringsmail:<br /><span class="help">Skicka ett e-postmeddelande till butiksägaren när en ny order skapas.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_download</key>
+		<value><![CDATA[Tillåt nedladdningar:]]></value>
+	</definition>
+	<definition>
+		<key>entry_download_status</key>
+		<value><![CDATA[Nedladdningsorderstatus:<br /><span class="help">Ange den orderstatus som kundens beställning måste nå innan de kan få tillgång till sina nedladdningsbara produkter.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[Posttransport:]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[Mailern använder sendmail-binären och de alternativ som är konfigurerade i inställningen sendmail_path i php.ini.]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_host</key>
+		<value><![CDATA[SMTP-värd:<br /><span class="help">Använd ssl://smtp.yourdomain.com för säker SMTP-anslutning</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_username</key>
+		<value><![CDATA[SMTP Användarnamn:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_password</key>
+		<value><![CDATA[SMTP-lösenord:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_port</key>
+		<value><![CDATA[SMTP-port:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_timeout</key>
+		<value><![CDATA[SMTP-tidsgräns:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl</key>
+		<value><![CDATA[Använd SSL:<br /><span class="help">För att använda SSL, kontrollera med din värd att ett SSL-certifikat är installerat.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_session_ttl</key>
+		<value><![CDATA[Utgång av kontrollpanelsession:<br /><span class="help">Detta värde styr tidsintervallet i minuter innan du ombes logga in igen på grund av inaktivitet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encryption</key>
+		<value><![CDATA[Krypteringsnyckel:<br /><span class="help">Inställningen har migrerats till konfigurationsfilen från och med v1.2.1.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_seo_url</key>
+		<value><![CDATA[Använd SEO-URL:er:<br /><span class="help">För att använda SEO-URL:er måste Apache-modulen mod-rewrite vara installerad och du behöver byta namn på htaccess.txt till .htaccess. Obs: Om abantecart inte är installerat i domänens rot måste rewriteBase-regeln i .htaccess-filen ändras.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_retina_enable</key>
+		<value><![CDATA[Generera högupplösta (retina) bilder:<br /><span class="help">För att använda denna Apache-modul mod-rewrite måste den vara installerad och du måste byta namn på htaccess.txt till .htaccess. Observera: Om AbanteCart inte är installerat i domänens rot måste rewriteBase-regeln inuti .htaccess-filen ändras. <br>Efter aktivering bör du rensa bildcachen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_quality</key>
+		<value><![CDATA[JPEG-bildkomprimeringsnivå]]></value>
+	</definition>
+	<definition>
+		<key>entry_compression</key>
+		<value><![CDATA[Utdata komprimeringsnivå:<br /><span class="help">GZIP för mer effektiv överföring till klienter som begär den. Komprimeringsnivån måste vara mellan 0 – 9</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_display</key>
+		<value><![CDATA[Visa fel:<br /><span class="help">Ange ja om du vill se undantag och fel</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_log</key>
+		<value><![CDATA[Logga fel:<br /><span class="help">Ange ja om du vill spara undantag och fel i loggen</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enable_reviews</key>
+		<value><![CDATA[Aktivera recensioner:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cache_enable</key>
+		<value><![CDATA[Cache aktiverad:<br /><span class="help">Var försiktig när du inaktiverar cachelagring. Cachelagrade sidor kommer inte att skapas om och webbplatsen kan börja ladda långsamt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_cache_drivers</key>
+		<value><![CDATA[Använder för närvarande cache <b>%s</b>-drivrutin. Andra drivrutiner tillgängliga för konfiguration är <i>%s</i>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_status</key>
+		<value><![CDATA[Status för butiksfront-API:]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_key</key>
+		<value><![CDATA[Storefront API-nyckel:<br /><span class="help">Ange denna nyckel för att ge begränsad (mer säker) åtkomst till Storefront API.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_stock_check</key>
+		<value><![CDATA[Storefront API-lageråtkomst:<br /><span class="help">Aktivera om du tillåter Storefront-API:et att kontrollera lagertillgänglighet</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_status</key>
+		<value><![CDATA[Admin API-status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_key</key>
+		<value><![CDATA[Admin-API-nyckel:<br /><span class="help">Ange denna nyckel för att ge begränsad (säkerare) åtkomst till admin-API.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_access_ip_list</key>
+		<value><![CDATA[Admin-API-åtkomst-IP-adresser:<br /><span class="help">Ange en lista med IP-adresser (skiljda med kommatecken) som får åtkomst till admin-API:t. Andra IP-adresser kommer att blockeras</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_max_size</key>
+		<value><![CDATA[Resursbibliotek Uppladdning Max filstorlek, kB]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug</key>
+		<value><![CDATA[Visa felsökningsinfo:<br /><span class="help">Sätt detta på PÅ om du vill se körningsdetaljer och visa felsökningsdetaljer.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_0</key>
+		<value><![CDATA[Av]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_1</key>
+		<value><![CDATA[Visa]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_2</key>
+		<value><![CDATA[Logg]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level</key>
+		<value><![CDATA[Felsökningsnivå:<br /><span class="help">Välj hur detaljerade felsökningsutdata du vill se.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_0</key>
+		<value><![CDATA[Nivå 0 - inga loggar, endast undantagsfel]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_1</key>
+		<value><![CDATA[Nivå 1 - fel och varningar]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_2</key>
+		<value><![CDATA[Nivå 2 - #1 + mysql webbplatsladdning, PHP-filens exekveringstid och laddningstid för webbsidans element]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_3</key>
+		<value><![CDATA[Nivå 3 - #2 + grundläggande loggar och exekveringsstack]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_4</key>
+		<value><![CDATA[Nivå 4 - #3 + dumpa mysql-satser]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_5</key>
+		<value><![CDATA[Nivå 5 - #4 + mellanliggande variabel]]></value>
+	</definition>
+	<definition>
+		<key>entry_template_debug</key>
+		<value><![CDATA[Mallfelsökning:<br /><span class="help">Aktivera den här inställningen om du behöver kontrollera problem med mallen i butiksfronten och kontrollpanelen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_filename</key>
+		<value><![CDATA[Fel loggfilens namn:<br /><span class="help">Detta är en fil där fel sparas.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_session</key>
+		<value><![CDATA[Använd fraktsession:<br /><span class="help">Sparar fraktofferter i sessionen för att undvika onödiga omräkningar. Offerter kommer endast att omräknas om varukorgen eller adressen ändras.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_catalog_limit</key>
+		<value><![CDATA[Standardobjekt per sida (butiksfront):<br /><span class="help">Anger hur många butiksobjekt som visas per sida (produkter, kategorier osv)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_limit</key>
+		<value><![CDATA[Standardantal objekt per sida (Admin):<br /><span class="help">Ange hur många adminobjekt som visas per sida i listningsrutorna (beställningar, kunder osv)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_bestseller_limit</key>
+		<value><![CDATA[Antal artiklar i bästsäljarblocket]]></value>
+	</definition>
+	<definition>
+		<key>entry_featured_limit</key>
+		<value><![CDATA[Antal objekt i det utvalda blocket]]></value>
+	</definition>
+	<definition>
+		<key>entry_latest_limit</key>
+		<value><![CDATA[Antal artiklar i senaste blocket]]></value>
+	</definition>
+	<definition>
+		<key>entry_special_limit</key>
+		<value><![CDATA[Antal objekt i specialblock]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[Antal objekt i innehållsblock]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_weight</key>
+		<value><![CDATA[Visa vikt på varukorgssidan:<br /><span class="help">Visa varukorgens vikt på varukorgssidan</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_reviews</key>
+		<value><![CDATA[Lämna recensioner:<br /><span class="help">Begränsa vem som får lämna recensioner för produkterna</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maintenance</key>
+		<value><![CDATA[Underhållsläge:<br /><span class="help">Förhindrar kunder från att bläddra i din butik. De kommer istället att se ett underhållsmeddelande. Om du är inloggad som administratör kommer du att se butiken som vanligt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_voicecontrol</key>
+		<value><![CDATA[Röststyrning:
+Aktivera administratörens röststyrning för att aktivera röstkommandofunktionen. För närvarande stöds den endast i Chrome version 25 eller senare.]]></value>
+	</definition>
+	<definition>
+		<key>entry_help_links</key>
+		<value><![CDATA[Help Links:<br /><span class="help">Om du vill se hjälpikoner och länkar till AbanteCart-webbplatsen. Detta hjälper dig att lära dig om funktioner och hur du använder dem. Om du är en avancerad användare och inte vill se dessa hjälpikoner kan du inaktivera dem.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_tree_data</key>
+		<value><![CDATA[Aktivera trädnät:<br /><span class="help">Gör det möjligt för administrationsrutnät att visa föräldra-/barn-typer i en rutnätslista. OBS: Sidindelning och flera åtgärder är inaktiverade för dessa rutnät</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_ajax</key>
+		<value><![CDATA[Lägg till i varukorgen på samma sida:<br /><span class="help">Detta aktiverar AJAX-funktionen för att lägga till i varukorgen. Produkten kan läggas till i varukorgen utan att omdirigeras till varukorgssidan</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_width</key>
+		<value><![CDATA[Webbplatsbredd för butiksframsida:<br /><span class="help">Exempel: 100% eller 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_width</key>
+		<value><![CDATA[Admin-sidans bredd:<br /><span class="help">Exempel: 100% eller 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_maximum</key>
+		<value><![CDATA[Maximalt tillåtet orderbelopp:<br /><span class="help">Förhindra kassan vid stora delsummor i ordern. 0 = INGEN BEGRÄNSNING</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_minimum</key>
+		<value><![CDATA[Minsta beställningsbelopp:<br /><span class="help">Förhindra utcheckning om orderns delsumma inte når det angivna minimibeloppet. 0 = INGET MINIMIBELLOPP</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_system_check</key>
+		<value><![CDATA[Systemkontroll:
+Aktivera den här inställningen om du vill kontrollera systemets skick med avseende på AbanteCart-funktionalitet. Systemproblem som påverkar AbanteCart kommer att rapporteras som meddelanden synliga i admin.]]></value>
+	</definition>
+	<definition>
+		<key>button_add_store</key>
+		<value><![CDATA[Ny butik]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra inställningar!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[Inloggningsnamnet måste bestå av endast alfanumeriska tecken och vara mellan 5 och 64 tecken långt!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname_notunique</key>
+		<value><![CDATA[Det här inloggningsnamnet är inte tillgängligt. Prova ett annat inloggningsnamn!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[Butiksnamnet måste vara mellan 2 och 32 tecken!]]></value>
+	</definition>
+	<definition>
+		<key>error_url</key>
+		<value><![CDATA[Giltig butik-URL krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[Titel måste vara mellan 2 och 32 tecken!]]></value>
+	</definition>
+	<definition>
+		<key>error_owner</key>
+		<value><![CDATA[Butiksägare måste vara mellan 2 och 64 tecken!]]></value>
+	</definition>
+	<definition>
+		<key>error_address</key>
+		<value><![CDATA[Butiksadressen måste vara mellan 10 och 256 tecken!]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[E-postadressen verkar inte vara giltig!]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[Telefon måste vara mellan 2 och 32 tecken!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_thumb</key>
+		<value><![CDATA[Dimensioner för produktbildsminiatyr krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_popup</key>
+		<value><![CDATA[Dimensioner för popupstorleken på produktbilden krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_category</key>
+		<value><![CDATA[Dimensioner för kategorilistans storlek krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_manufacturer</key>
+		<value><![CDATA[Storleksmått för varumärkesikonlistan krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_product</key>
+		<value><![CDATA[Produktliststorleksdimensioner krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_additional</key>
+		<value><![CDATA[Ytterligare dimensioner för produktbildsstorlek krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_related</key>
+		<value><![CDATA[Dimensioner för relaterad produktbilds storlek krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_cart</key>
+		<value><![CDATA[Varukorgsbildens storleksdimensioner krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_grid</key>
+		<value><![CDATA[Rutnätsbildstorlekens dimensioner krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_error_filename</key>
+		<value><![CDATA[Fel loggfilnamn krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Obligatoriska uppgifter har inte angetts. Kontrollera fälten efter fel!]]></value>
+	</definition>
+	<definition>
+		<key>error_uploaded_image</key>
+		<value><![CDATA[Uppladdad fil %s är inte en bild eller är skadad!]]></value>
+	</definition>
+	<definition>
+		<key>error_limit</key>
+		<value><![CDATA[Begränsning krävs!]]></value>
+	</definition>
+	<definition>
+		<key>text_front</key>
+		<value><![CDATA[Butiksfront]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Administratör]]></value>
+	</definition>
+	<definition>
+		<key>error_mail</key>
+		<value><![CDATA[Vänligen fyll i de obligatoriska fälten för smtp-protokollet!]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_sort_order_asc</key>
+		<value><![CDATA[Produktens Sorteringsordning Låg > Hög]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_asc</key>
+		<value><![CDATA[Namn A - Z]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_desc</key>
+		<value><![CDATA[Namn Z - A]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_asc</key>
+		<value><![CDATA[Pris lågt > högt]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_desc</key>
+		<value><![CDATA[Pris Hög > Låg]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_asc</key>
+		<value><![CDATA[Lägsta betyg]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_desc</key>
+		<value><![CDATA[Högsta betyg]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_asc</key>
+		<value><![CDATA[Datum Gammalt > Nytt]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_desc</key>
+		<value><![CDATA[Datum Ny > Gammal]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_default_sort_order</key>
+		<value><![CDATA[Sortera produkter som standard efter:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zero_customer_balance</key>
+		<value><![CDATA[Visa nollsaldo för kundens konto:<br /><span class="help">Obs: Aktivera/inaktivera visning av saldomeddelande om kundens kontosaldo är 0</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_tax_estimate</key>
+		<value><![CDATA[Beräknad frakt och skatt:<br /><span class="help">Låt kunderna snabbt få en uppskattning av frakt och skatt i varukorgen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_coupon_on_cart_page</key>
+		<value><![CDATA[Kupong på varukorgssidan:<br /><span class="help">Tillåt kunder att ange en kupongkod och se rabatten i varukorgen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_analytics</key>
+		<value><![CDATA[Google Analytics 4 tagg-ID:<br /><span class="help">Lägg till ditt <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">Google Analytics-tagg-ID</a> för att aktivera spårning av webbplatsaktivitet. Detta aktiverar även spårning av e-handelsaktivitet. Du måste aktivera e-handelsspårning i Google på sidan för profilsinställningar för din webbplats</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Google API-nyckel (för att aktivera Google Maps):<br /><span class="help">Du kan se adressen på kartan. För att aktivera Google Maps lägger du till din Google Maps API-nyckel på <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google Credentials Page</a>.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[Gräns för visade produkter:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[Bildbredd för visade produkter:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[Bildhöjd för visade produkter:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl_url</key>
+		<value><![CDATA[Secure Store URL:<br /><span class="help">Inkludera hela SSL-URL(HTTPS) för din butik. Se till att lägga till '/' i slutet. Exempel: https://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_ssl_url</key>
+		<value><![CDATA[Giltig säker URL krävs!]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_email_activation</key>
+		<value><![CDATA[E-postaktivering för nya kunder:<br /><span class="help">Tillåt inte ny kund att logga in förrän deras konto har bekräftats via aktiveringslänken som skickats via e-post. För att detta ska fungera, se till att "Godkänn nya kunder" är inställt på AV.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_clone_template</key>
+		<value><![CDATA[Klona mall med AbanteCart-utvecklarverktyg]]></value>
+	</definition>
+	<definition>
+		<key>text_set_template</key>
+		<value><![CDATA[Ange denna mall för butiksfronten]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_status</key>
+		<value><![CDATA[Aktivera Storefront-inbäddning:]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_click_action</key>
+		<value><![CDATA[Infoga klickåtgärd:]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_modal</key>
+		<value><![CDATA[Samma sida modalt dialogfönster]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_new_window</key>
+		<value><![CDATA[Öppna en ny sida i en ny flik]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_same_window</key>
+		<value><![CDATA[Öppna en ny sida i samma fönster]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_create_captcha</key>
+		<value><![CDATA[Captcha på registreringsformuläret :<br /><span class="help">Förhindra skräppost-/robotkontoskapande genom att aktivera Captcha för mänsklig verifiering</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_site_key</key>
+		<value><![CDATA[Google reCAPTCHA webbplatsnyckel:<br /><span class="help">Lägg till <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a> för att hjälpa dina besökare med bättre captcha-inmatning. Om du aktiverar reCAPTCHA webbplats-/hemliga nycklar kommer Google reCAPTCHA v2 att aktiveras istället för standard AbanteCart captcha-bild.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_secret_key</key>
+		<value><![CDATA[Google reCAPTCHA Secret Key:<br /><span class="help">Lägg till <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a> för att hjälpa dina besökare med bättre captcha-inmatning. Om du aktiverar reCAPTCHA site/secret nycklar, kommer Google reCAPTCHA v2 att aktiveras istället för standard AbanteCart captcha-bild</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_php_exceed</key>
+		<value><![CDATA[Detta värde får inte överstiga din php.ini-direktiv %s (<=%s)]]></value>
+	</definition>
+	<definition>
+		<key>entry_start_order_id</key>
+		<value><![CDATA[Orderstartnummer:<br /><span class="help">Ange startnumret som ordernumren ska börja från.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_start_order_id</key>
+		<value><![CDATA[Orderstartnumret måste vara numeriskt!]]></value>
+	</definition>
+	<definition>
+		<key>error_starting_invoice_id</key>
+		<value><![CDATA[Fakturans startnummer måste vara numeriskt!]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_order_days</key>
+		<value><![CDATA[Utgångstid för ofullständiga beställningar:<br /><span class="help">Detta värde styr tidsintervallet i dagar innan ofullständiga beställningar tas bort. Ett tomt värde innebär att inga beställningar kommer att tas bort.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_expire_order_days</key>
+		<value><![CDATA[Värdet för utgångstid för ofullständig order måste vara numeriskt!]]></value>
+	</definition>
+	<definition>
+		<key>text_storefront</key>
+		<value><![CDATA[Butiksfront]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Administratör]]></value>
+	</definition>
+	<definition>
+		<key>text_im_driver</key>
+		<value><![CDATA[Drivrutin]]></value>
+	</definition>
+	<definition>
+		<key>text_im_protocol</key>
+		<value><![CDATA[IM-protokoll]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver</key>
+		<value><![CDATA[SMS-leverantör]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver_tooltip</key>
+		<value><![CDATA[Välj ett tillägg för SMS-tjänstleverantör]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_status_tooltip</key>
+		<value><![CDATA[Aktivera SMS för kunder]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_status_tooltip</key>
+		<value><![CDATA[Aktivera SMS för administratörer]]></value>
+	</definition>
+	<definition>
+		<key>text_no_driver</key>
+		<value><![CDATA[Ingen IM-drivrutin hittades]]></value>
+	</definition>
+	<definition>
+		<key>text_im_settings_attention</key>
+		<value><![CDATA[Dessa inställningar avser omedelbara meddelanden som skickas automatiskt vid AbanteCart-händelser i butik och administration.]]></value>
+	</definition>
+	<definition>
+		<key>entry_task_api_key</key>
+		<value><![CDATA[API-nyckel för uppgifter:<br/><span class="help">Detta är en hemlig nyckel som tillåter AbanteCart att köra schemalagda processer från webbläsaren med /task.php-filen. Om den inte är inställd kommer uppgifterna inte att köras via webbläsaren.<br/>OBS: Denna API-nyckel krävs inte för att köra uppgifter via kommandoraden.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_duplicate_contact_us</key>
+		<value><![CDATA[Duplicera kontaktförfrågningar till meddelanden]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_class</key>
+		<value><![CDATA[Standard momsklass:<br/><span class="help">Detta värde används som förvalt värde för momsklassen för den nya produkten.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_recaptcha_v3</key>
+		<value><![CDATA[Aktivera reCaptcha v3]]></value>
+	</definition>
+	<definition>
+		<key>text_review_disable</key>
+		<value><![CDATA[Tillåt inte]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_all</key>
+		<value><![CDATA[Vilken kund eller besökare som helst]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_only_registered</key>
+		<value><![CDATA[Registrerad kund]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_who_purchase</key>
+		<value><![CDATA[Kund med verifierad beställning]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_reviews</key>
+		<value><![CDATA[Visa recensioner:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[Stad:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Postnummer:]]></value>
+	</definition>
+	<definition>
+		<key>entry_latitude</key>
+		<value><![CDATA[Latitud:]]></value>
+	</definition>
+	<definition>
+		<key>entry_longitude</key>
+		<value><![CDATA[Längdgrad:]]></value>
+	</definition>
+	<definition>
+		<key>entry_opening_hours</key>
+		<value><![CDATA[Öppettider:]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Postnummer krävs]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[Stadens namn måste anges]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_resize_fill_color</key>
+		<value><![CDATA[Färg för fyllning vid bildstorleksändring<br/><span class="help">Färgen som fylls i de tomma områdena när bilden ändras från rektangel till kvadrat</span>]]></value>
+	</definition>
+	<definition>
+		<key>warning_https_store_url</key>
+		<value><![CDATA[För att upprätthålla korrekt plattformsfunktionalitet i alla webbläsare och säkerställa datasäkerhet krävs HTTPS-protokollet. Alla förfrågningar ska skickas via HTTPS.]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_logo</key>
+		<value><![CDATA[Standardlogotyp för butik:]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_mail_logo</key>
+		<value><![CDATA[Standard e-postlogotyp:]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex-mönster för telefonvalidering:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cron_command</key>
+		<value><![CDATA[Crontab i Linux-kommando <span class="help">Kör kommandot crontab -e med samma Linux-användare som kör webbservern för AbanteCart. Lägg till kommandot i editorn</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_allow_coupon</key>
+		<value><![CDATA[Tillåt inmatning av kupongkod i kassan <br /><span class="help">Aktivera inmatning av kupongkod för kunder och gäster</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_payment_address_equal_shipping</key>
+		<value><![CDATA[Kräv att betalningsadressen är samma som leveransadressen]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_require_phone_number</key>
+		<value><![CDATA[Kräv telefonnummer vid kassan <br /><span class="help">När den är aktiverad kräver denna inställning att kunder eller gäster anger ett telefonnummer vid kassan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_create_account</key>
+		<value><![CDATA[Gästutcheckning Skapa konto <br /><span class="help">Erbjud gästen att skapa ett konto i slutet av kassan. Detta är transparent för gästerna och ett e-postmeddelande kommer att skickas med inloggningsuppgifterna.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_buy_now_status</key>
+		<value><![CDATA[Visa "Köp nu"-knappen]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_show_order_comment_field</key>
+		<value><![CDATA[Visa fält för orderkommentar<br/><span class="help">Kommentarsfältet kommer att visas i kassan</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_unauth_customer</key>
+		<value><![CDATA[Tillåt återkommande kunder att bläddra:<br /><span class="help">Ej autentiserade kunder som återvänder till webbplatsen kommer att kunna bläddra bland produkter, lägga till i varukorgen och på önskelistan.</span>]]></value>
+	</definition>
+</definitions>

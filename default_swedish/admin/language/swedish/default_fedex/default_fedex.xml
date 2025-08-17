@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Frakt]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Framgång: Du har ändrat frakten FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[Fedex-produktionsnyckel:<br /><span class="help">Ange den Fedex-produktionsnyckel som tilldelats dig, obligatoriskt. </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Fedex produktionslösenord:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[Kontonummer:<br /><span class="help">Ange det fedex-kontonummer som tilldelats dig, obligatoriskt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[FedEx-mätarnummer:<br /><span class="help">Ange FedEx-mätarnummer.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Adress:<br /><span class="help">Leverans från gatuadress.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[Stad:<br /><span class="help">Frakt från stad.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Stat:<br /><span class="help">Frakt från delstat (två bokstäver).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[Postnummer/postnummer:<br /><span class="help">Frakt från postnummer.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Land:<br /><span class="help">Frakt från land (två bokstäver).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[Offertyp:<br /><span class="help">Offert för bostads- eller företagsleverans.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Bostad]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Kommersiell]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[Ytterligare avgifter:<br /><span class="help">Ytterligare avgift som tillämpas på FedEx-offerten.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[FEDEX First Overnight]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[FEDEX Prioriterad Övernattleverans]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[FEDEX Standard leverans nästa dag]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[FEDEX andra dagen]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[FEDEX Express-sparare]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[FEDEX Ground]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra FEDEX-frakt!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Konto-ID krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Fedex Meter-ID krävs!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[För att få ditt mätarnummer och din auktoriseringsnyckel måste du följa dessa steg:</br>
+Gå till <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br>
+Logga in med ditt FedEx-användarnamn och lösenord eller klicka på Registrera nu om du inte har något.<br>
+Klicka på "Tekniska resurser" (till vänster).<br>
+Under detta klicka på "FedEx webbservicetjänster för frakt".<br>
+Klicka på "Flytta till produktion" (till höger).<br>
+Scrolla ner till knappen och klicka på "Hämta produktionsnyckel".<br>
+På formuläret välj "Nej" på fråga 1.<br>
+Markera den första rutan på fråga 2.<br>
+Välj "Företagsutvecklare" på fråga 3.<br>
+Acceptera avtalet.<br>
+Fyll i formuläret (använd inte bindestreck i kontonumret).<br>
+Du får omedelbart mätarnumret och nyckeln. Ditt produktionslösenord skickas via e-post när du har slutfört stegen ovan.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Testläge:<br /><span class="help">Använd live- eller test-gatewayservern?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[Ja]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[Nej]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Testa din anslutning:<span class="help">Du kan testa om API-referenserna som du har angett är korrekta.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Anslutningen är framgångsrik och API-uppgifterna är korrekt konfigurerade.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Fel! Kontrollera att tillägget är aktiverat.]]></value>
+	</definition>
+</definitions>

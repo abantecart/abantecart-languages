@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[För att aktivera sms-meddelanden gå till System -> Inställningar -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a> <br/>
+och välj TextMarketer som standard-sms-drivrutin. Glöm inte att aktivera det avsnitt varifrån du vill ta emot sms (administrationsgränssnittet eller butiksfronten).<br/>
+Detta tillägg aktiverar fältet Mobiltelefon för administratörer och kunder att ange. Kom ihåg att fältet döljs om du inaktiverar tillägget.<br/>
+Om tillägget läggs till i en befintlig butik med kunder, kom ihåg att denna information kommer att saknas.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API Användarnamn]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API-lösenord]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Originator: <span class="help">Vem meddelandet är från (avsändaren eller sändar-ID). Detta kan vara 11 alfanumeriska tecken eller 16 enbart numeriska tecken.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Testläge]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[Nej]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[Ja]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Status för felloggning<span class="help">Om du vill logga alla fel från TextMarketer-tillägget, slå på denna inställning.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[Mobiltelefon]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Testa din anslutning:<span class="help">Du kan testa om de API-referenser du har angett är korrekta.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Fel! Kontrollera att tillägget är påslaget.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Fel! Vänligen ange mottagarens telefonnummer.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Se felloggen för detaljer.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Anslutningen lyckades och API-referenserna är korrekt konfigurerade.]]></value>
+	</definition>
+</definitions>

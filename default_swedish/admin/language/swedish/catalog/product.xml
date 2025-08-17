@@ -1,0 +1,655 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Produkter]]></value>
+	</definition>
+	<definition>
+		<key>text_product</key>
+		<value><![CDATA[Produkt]]></value>
+	</definition>
+	<definition>
+		<key>tab_media</key>
+		<value><![CDATA[Medier]]></value>
+	</definition>
+	<definition>
+		<key>tab_shipping</key>
+		<value><![CDATA[Frakt]]></value>
+	</definition>
+	<definition>
+		<key>tab_files</key>
+		<value><![CDATA[Filer]]></value>
+	</definition>
+	<definition>
+		<key>tab_relations</key>
+		<value><![CDATA[Relationer]]></value>
+	</definition>
+	<definition>
+		<key>tab_promotions</key>
+		<value><![CDATA[Kampanjer]]></value>
+	</definition>
+	<definition>
+		<key>tab_extensions</key>
+		<value><![CDATA[Tillägg]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Framgång: Du har modifierat produkter!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy</key>
+		<value><![CDATA[Framgång: Du har framgångsrikt klonat produkten <b>%s</b>!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[Obs: Anpassad produktlayout har också klonats.]]></value>
+	</definition>
+	<definition>
+		<key>text_error_copy</key>
+		<value><![CDATA[Kloningen har misslyckats! Originalprodukten är inte tillgänglig]]></value>
+	</definition>
+	<definition>
+		<key>text_plus</key>
+		<value><![CDATA[+]]></value>
+	</definition>
+	<definition>
+		<key>text_minus</key>
+		<value><![CDATA[-]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[Standard]]></value>
+	</definition>
+	<definition>
+		<key>text_product_summary</key>
+		<value><![CDATA[Produktsammanfattning]]></value>
+	</definition>
+	<definition>
+		<key>text_image_manager</key>
+		<value><![CDATA[Bildhanterare]]></value>
+	</definition>
+	<definition>
+		<key>text_option</key>
+		<value><![CDATA[Alternativ]]></value>
+	</definition>
+	<definition>
+		<key>text_option_value</key>
+		<value><![CDATA[Alternativvärde]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[Produktnamn]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[Modell]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[Artikelnummer]]></value>
+	</definition>
+	<definition>
+		<key>column_image</key>
+		<value><![CDATA[Bild]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[Antal]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[Status]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[Pris]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[Åtgärd]]></value>
+	</definition>
+	<definition>
+		<key>entry_featured</key>
+		<value><![CDATA[Utvald produkt:]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[Produktnamn:]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[Meta tagg-nyckelord:]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[Meta-taggbeskrivning:]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[Beskrivning:]]></value>
+	</definition>
+	<definition>
+		<key>entry_blurb</key>
+		<value><![CDATA[Kort beskrivning:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store</key>
+		<value><![CDATA[Butiker:]]></value>
+	</definition>
+	<definition>
+		<key>entry_keyword</key>
+		<value><![CDATA[SEO-nyckel:<br/><span class="help">SEO-nyckel som visas i URL för denna produkt. Du kan generera nyckeln från produktnamnet</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_model</key>
+		<value><![CDATA[Modell:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sku</key>
+		<value><![CDATA[SKU:]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[Övrig plats:]]></value>
+	</definition>
+	<definition>
+		<key>entry_manufacturer</key>
+		<value><![CDATA[Märke:]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping</key>
+		<value><![CDATA[Kräver frakt:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ship_individually</key>
+		<value><![CDATA[Skicka produkt individuellt:<br/><span class="help">Produkten kommer att skickas i en separat förpackning och ytterligare fraktkostnad kommer att läggas till beställningen med flera artiklar. Om aktiverat måste fast fraktpris anges.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_price</key>
+		<value><![CDATA[Fast fraktpris:<br/><span class="help">Huvudinställning med fast fraktpris för denna produkt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_free_shipping</key>
+		<value><![CDATA[Fri frakt:<br/><span class="help">Huvudinställning för att aktivera fri frakt för denna produkt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_available</key>
+		<value><![CDATA[Tillgänglig från:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_quantity</key>
+		<value><![CDATA[Antal:]]></value>
+	</definition>
+	<definition>
+		<key>entry_quantity</key>
+		<value><![CDATA[Antal:<br/><span class="help">Ansluten till inställningen Spåra lager</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_minimum</key>
+		<value><![CDATA[Minsta kvantitet:<br/><span class="help">Tvinga en minsta beställningsmängd</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maximum</key>
+		<value><![CDATA[Maximalt antal:<br/><span class="help">Ange en gräns för antalet som kan väljas per beställning. 0 = ingen gräns</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_status</key>
+		<value><![CDATA[Förhandsbeställningslagersstatus:<br/><span class="help">Text som visas när en produkt är slut i lager och köp tillåts</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Kassa vid lagerbrist:<br /><span class="help">Tillåt kunder att slutföra köpet även om produkterna är slut i lager.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_class</key>
+		<value><![CDATA[Skatteklass:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cost</key>
+		<value><![CDATA[Kostnad:<br/><span class="help">Grossistkostnaden som används för vinstrapportering</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_price</key>
+		<value><![CDATA[Pris:]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_option_cost</key>
+		<value><![CDATA[Faktisk kostnad (totalt):<span class="help">Ange den faktiska kostnaden (totalt) för detta produktalternativ.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_track_option_stock</key>
+		<value><![CDATA[Spåra lager:]]></value>
+	</definition>
+	<definition>
+		<key>entry_subtract</key>
+		<value><![CDATA[Track Stock:<br/><span class="help">Ange JA om du vill spåra lagersaldo för denna produkt. Om alternativ används, kontrollera inställningen för subtraktion för varje alternativvärde</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Viktklass:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight</key>
+		<value><![CDATA[Vikt:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_change</key>
+		<value><![CDATA[Vikt: <span class="help">Viktigt! Om värdet anges som alternativ kommer vikten att ändras med angiven procent baserat på huvudproduktens vikt. Om viktvärde anges kommer det att användas som ett absolut värde för alternativet, och huvudvikten kommer att ignoreras.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Längdklass:]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[Produktförpackningens längd: <span class="help">Förpackningsdimensionen avser storleken på den låda, påse eller det paket som din vara kommer att skickas i</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Produktförpackningens bredd: <span class="help">Förpackningens mått avser storleken på kartongen, påsen eller paketet som din vara kommer att skickas i</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Produktpaketets höjd:<span class="help">Förpackningsmåttet avser storleken på lådan, påsen eller paketet som din vara kommer att skickas i</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[Dimensioner (L x B x H):]]></value>
+	</definition>
+	<definition>
+		<key>entry_image</key>
+		<value><![CDATA[Bild:<br /><span class="help">Klicka på bilden för att ändra den.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[Kundgrupp:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_start</key>
+		<value><![CDATA[Startdatum:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_end</key>
+		<value><![CDATA[Slutdatum:]]></value>
+	</definition>
+	<definition>
+		<key>entry_priority</key>
+		<value><![CDATA[Prioritet:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option</key>
+		<value><![CDATA[Alternativ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_name</key>
+		<value><![CDATA[Alternativnamn:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_value</key>
+		<value><![CDATA[Alternativvärde:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Sorteringsordning:]]></value>
+	</definition>
+	<definition>
+		<key>entry_prefix</key>
+		<value><![CDATA[Prefix:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_prefix</key>
+		<value><![CDATA[Ändra priset med:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_price</key>
+		<value><![CDATA[Prismodifierare:]]></value>
+	</definition>
+	<definition>
+		<key>entry_category</key>
+		<value><![CDATA[Kategorier:]]></value>
+	</definition>
+	<definition>
+		<key>entry_download</key>
+		<value><![CDATA[Nedladdningar:]]></value>
+	</definition>
+	<definition>
+		<key>entry_related</key>
+		<value><![CDATA[Relaterade produkter:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tags</key>
+		<value><![CDATA[Produkttaggar:<br /><span class="help">kommaseparerade</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra produkter!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[Produktnamn måste bestå av fler än 3 och färre än 255 tecken!]]></value>
+	</definition>
+	<definition>
+		<key>error_model</key>
+		<value><![CDATA[Produktmodell måste vara färre än 64 tecken! Rekommenderas 5–25 tecken]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Nödvändig data har inte angetts. Kontrollera fältfel!]]></value>
+	</definition>
+	<definition>
+		<key>error_product_not_found</key>
+		<value><![CDATA[Fel: Produkten hittades inte!]]></value>
+	</definition>
+	<definition>
+		<key>error_sku</key>
+		<value><![CDATA[Fel: SKU hittades inte!]]></value>
+	</definition>
+	<definition>
+		<key>filter_product</key>
+		<value><![CDATA[Sök efter produkt]]></value>
+	</definition>
+	<definition>
+		<key>filter_any_word</key>
+		<value><![CDATA[Något av dessa ord]]></value>
+	</definition>
+	<definition>
+		<key>filter_all_words</key>
+		<value><![CDATA[Alla dessa ord]]></value>
+	</definition>
+	<definition>
+		<key>filter_exact_match</key>
+		<value><![CDATA[Den exakta frasen]]></value>
+	</definition>
+	<definition>
+		<key>filter_all_categories</key>
+		<value><![CDATA[- Alla Kategorier -]]></value>
+	</definition>
+	<definition>
+		<key>filter_price_max</key>
+		<value><![CDATA[max]]></value>
+	</definition>
+	<definition>
+		<key>text_view</key>
+		<value><![CDATA[vy]]></value>
+	</definition>
+	<definition>
+		<key>text_delete</key>
+		<value><![CDATA[Ta bort]]></value>
+	</definition>
+	<definition>
+		<key>text_choose_action</key>
+		<value><![CDATA[Välj åtgärd]]></value>
+	</definition>
+	<definition>
+		<key>text_clone_selected</key>
+		<value><![CDATA[Klona valda]]></value>
+	</definition>
+	<definition>
+		<key>text_export_selected</key>
+		<value><![CDATA[Exportera valda]]></value>
+	</definition>
+	<definition>
+		<key>text_delete_selected</key>
+		<value><![CDATA[Ta bort valda]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_selected</key>
+		<value><![CDATA[Redigera valda]]></value>
+	</definition>
+	<definition>
+		<key>text_clone</key>
+		<value><![CDATA[Klon]]></value>
+	</definition>
+	<definition>
+		<key>text_export</key>
+		<value><![CDATA[Export]]></value>
+	</definition>
+	<definition>
+		<key>text_select_category</key>
+		<value><![CDATA[- Välj kategori -]]></value>
+	</definition>
+	<definition>
+		<key>text_select_product</key>
+		<value><![CDATA[- Välj produkt -]]></value>
+	</definition>
+	<definition>
+		<key>text_option_name</key>
+		<value><![CDATA[Alternativnamn]]></value>
+	</definition>
+	<definition>
+		<key>text_group_option</key>
+		<value><![CDATA[Gruppalternativ]]></value>
+	</definition>
+	<definition>
+		<key>text_option_type</key>
+		<value><![CDATA[Alternativtyp]]></value>
+	</definition>
+	<definition>
+		<key>text_option_values</key>
+		<value><![CDATA[Alternativvärden]]></value>
+	</definition>
+	<definition>
+		<key>text_no_option_values</key>
+		<value><![CDATA[Inga alternativvärden]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_option_values</key>
+		<value><![CDATA[Redigera alternativvärde]]></value>
+	</definition>
+	<definition>
+		<key>text_save_option_values</key>
+		<value><![CDATA[Spara alternativvärde]]></value>
+	</definition>
+	<definition>
+		<key>button_remove_option</key>
+		<value><![CDATA[Ta bort alternativ]]></value>
+	</definition>
+	<definition>
+		<key>text_option_removed</key>
+		<value><![CDATA[Alternativ borttaget]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_type</key>
+		<value><![CDATA[Vikt typ]]></value>
+	</definition>
+	<definition>
+		<key>text_product_pagination</key>
+		<value><![CDATA[Produkt(er) {start} to {end} of {total}]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_id</key>
+		<value><![CDATA[Produkt-ID]]></value>
+	</definition>
+	<definition>
+		<key>error_product_load</key>
+		<value><![CDATA[Varning: Ingen produkt med sådant ID!]]></value>
+	</definition>
+	<definition>
+		<key>error_attribute_not_selected</key>
+		<value><![CDATA[Vänligen välj ett alternativ att lägga till!]]></value>
+	</definition>
+	<definition>
+		<key>error_date</key>
+		<value><![CDATA[Slutdatum" kan inte vara mindre än "Startdatum"!]]></value>
+	</definition>
+	<definition>
+		<key>error_required</key>
+		<value><![CDATA[Det här fältet är obligatoriskt!]]></value>
+	</definition>
+	<definition>
+		<key>error_option_in_group</key>
+		<value><![CDATA[Alternativet kan inte läggas till i produkten eftersom det redan är en del av ett gruppalternativ!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_layout</key>
+		<value><![CDATA[Framgång: Du har ändrat produktsidans layout.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_option</key>
+		<value><![CDATA[Framgång: Du har ändrat produktalternativet.]]></value>
+	</definition>
+	<definition>
+		<key>text_add_new_option</key>
+		<value><![CDATA[- Lägg till nytt alternativ -]]></value>
+	</definition>
+	<definition>
+		<key>entry_required</key>
+		<value><![CDATA[Obligatoriskt:]]></value>
+	</definition>
+	<definition>
+		<key>entry_element_type</key>
+		<value><![CDATA[Elementtyp:]]></value>
+	</definition>
+	<definition>
+		<key>entry_element_values</key>
+		<value><![CDATA[Elementvärden:]]></value>
+	</definition>
+	<definition>
+		<key>text_expand</key>
+		<value><![CDATA[+ expandera]]></value>
+	</definition>
+	<definition>
+		<key>text_hide</key>
+		<value><![CDATA[- dölj]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_placeholder</key>
+		<value><![CDATA[Platshållare:]]></value>
+	</definition>
+	<definition>
+		<key>entry_regexp_pattern</key>
+		<value><![CDATA[Mönster för reguljära uttryck:]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_text</key>
+		<value><![CDATA[Felmeddelande om ogiltigt värde:]]></value>
+	</definition>
+	<definition>
+		<key>text_product_condition</key>
+		<value><![CDATA[Produktens skick:]]></value>
+	</definition>
+	<definition>
+		<key>text_product_available</key>
+		<value><![CDATA[Tillgänglig]]></value>
+	</definition>
+	<definition>
+		<key>text_product_disabled</key>
+		<value><![CDATA[Inaktiverad]]></value>
+	</definition>
+	<definition>
+		<key>text_product_unavailable</key>
+		<value><![CDATA[Otillgänglig]]></value>
+	</definition>
+	<definition>
+		<key>text_product_out_of_stock</key>
+		<value><![CDATA[Slut i lager]]></value>
+	</definition>
+	<definition>
+		<key>text_product_in_stock</key>
+		<value><![CDATA[I lager]]></value>
+	</definition>
+	<definition>
+		<key>text_product_option_out_of_stock</key>
+		<value><![CDATA[Produktalternativ(s) slut i lager]]></value>
+	</definition>
+	<definition>
+		<key>text_call_to_order</key>
+		<value><![CDATA[Ring för beställning]]></value>
+	</definition>
+	<definition>
+		<key>entry_call_to_order</key>
+		<value><![CDATA[Blockera produkt från beställning:<br /><span class="help">Detta gör att produkten endast visas utan möjlighet att beställa. Meddelandet 'Kontakta oss för beställning' kommer att visas.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_new_option</key>
+		<value><![CDATA[Nytt alternativ]]></value>
+	</definition>
+	<definition>
+		<key>text_total_orders</key>
+		<value><![CDATA[Totala beställningar]]></value>
+	</definition>
+	<definition>
+		<key>error_measure_value</key>
+		<value><![CDATA[Gränsen på 999,99 har nåtts. Ange ett mindre tal.]]></value>
+	</definition>
+	<definition>
+		<key>error_dimension_value</key>
+		<value><![CDATA[Denna produkt kräver frakt. Vänligen fyll i alla måttvärden.]]></value>
+	</definition>
+	<definition>
+		<key>error_weight_value</key>
+		<value><![CDATA[Den här produkten kräver frakt. Vänligen ange viktvärde.]]></value>
+	</definition>
+	<definition>
+		<key>error_weight_class</key>
+		<value><![CDATA[Vänligen ange viktklass.]]></value>
+	</definition>
+	<definition>
+		<key>error_length_class</key>
+		<value><![CDATA[Vänligen ange längdenhetsklass.]]></value>
+	</definition>
+	<definition>
+		<key>entry_allowed_extensions</key>
+		<value><![CDATA[Tillåtna filändelser (txt, jpg …)]]></value>
+	</definition>
+	<definition>
+		<key>entry_min_size</key>
+		<value><![CDATA[Min filstorlek (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_max_size</key>
+		<value><![CDATA[Max filstorlek (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_dir</key>
+		<value><![CDATA[Uppladdningskatalogens namn<br>%s]]></value>
+	</definition>
+	<definition>
+		<key>text_success_relation_set</key>
+		<value><![CDATA[Relationer för valda produkter har ställts in framgångsrikt!]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_locations</key>
+		<value><![CDATA[Lagerplatser:]]></value>
+	</definition>
+	<definition>
+		<key>entry_locations</key>
+		<value><![CDATA[Platser:]]></value>
+	</definition>
+	<definition>
+		<key>text_create_collection</key>
+		<value><![CDATA[Skapa samling]]></value>
+	</definition>
+	<definition>
+		<key>text_warning_empty_set</key>
+		<value><![CDATA[Vänligen välj minst en produkt]]></value>
+	</definition>
+	<definition>
+		<key>text_enable_selected</key>
+		<value><![CDATA[Aktivera valda]]></value>
+	</definition>
+	<definition>
+		<key>text_disable_selected</key>
+		<value><![CDATA[Inaktivera valda]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_rule</key>
+		<value><![CDATA[Skatteregel]]></value>
+	</definition>
+	<definition>
+		<key>entry_price_with_tax</key>
+		<value><![CDATA[Pris med skatter:]]></value>
+	</definition>
+	<definition>
+		<key>entry_txt_id</key>
+		<value><![CDATA[Unikt Text-ID:]]></value>
+	</definition>
+	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[html-attribut:<br /><span class="help">Du kan lägga till dina egna html-attribut för option-element. Exempel: data-some-attribute="some value"</span>]]></value>
+	</definition>
+</definitions>

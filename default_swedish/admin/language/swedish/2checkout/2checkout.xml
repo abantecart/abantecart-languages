@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Betalning]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Framgång: Du har ändrat 2Checkout-kontouppgifter!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[Med detta tillägg kan du använda 2Checkout-betalningssystemet för att ta emot betalningar från dina kunder.<br>
+<b>Registrera dig kostnadsfritt idag! Använd rabattkoden ABANTECART2CO för att bli befriad från din ansökningsavgift (spara $10,99) och börja sälja på nätet redan idag!</b> Besök <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, fyll i ansökan och ange sedan koden i fältet för rabattkod för att dra nytta av detta specialerbjudande idag!<br>
+När du har registrerat dig logga in för att få de kontouppgifter som behövs för att konfigurera detta tillägg.<br>
+Glöm inte att ställa in INS URL och Redirect URL här <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.<br><br>
+Din INS URL är <h4>#storefront#rt=extension/2checkout/callback</h4><br><br>
+Ställ även in Redirect URL och välj returmetod "Header redirect".<br><br>
+Din Redirect URL är <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2Checkout Handlarkod:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[Hemligt ord: Det hemliga ordet som används för att bekräfta transaktioner (måste vara samma som definierats på konfigurationssidan för handlarens konto).]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Testläge:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Ja]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Nej]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Orderstatus:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Plats:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Alla platser]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra betalningsmetod 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Handelskod krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Hemlig nyckel krävs!]]></value>
+	</definition>
+</definitions>

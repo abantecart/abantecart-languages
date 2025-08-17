@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Hanteringsavgift]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Hanteringsavgift]]></value>
+	</definition>
+	<definition>
+		<key>text_total</key>
+		<value><![CDATA[Ordersummor]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Framgång: Du har uppdaterat den totala hanteringsavgiften!]]></value>
+	</definition>
+	<definition>
+		<key>entry_total</key>
+		<value><![CDATA[Ordersumma:<span class="help">Minsta orderbelopp som måste uppnås för att avgiften ska tillämpas. Om kundens ordersumma överstiger detta belopp kommer ingen hanteringsavgift att tillämpas. Detta värde åsidosätts av betalningsspecifik inställning.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_placeholder</key>
+		<value><![CDATA[Orderbelopp]]></value>
+	</definition>
+	<definition>
+		<key>entry_fee</key>
+		<value><![CDATA[Avgift:<span class="help">Avgift som läggs till ordersumman om minimibeloppsvillkoret inte uppfylls. Detta belopp åsidosätts av betalningsspecifik inställning</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment_fee</key>
+		<value><![CDATA[Fee:<span class="help">Avgift som läggs till orderns totalsumma om villkoret om minsta delsumma inte är uppfyllt. Detta belopp åsidosätter huvudavgiftsinställningen</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment</key>
+		<value><![CDATA[Betalning:<span class="help">Välj en specifik betalningsmetod som du vill lägga till avgiften på. Dessa inställningar kommer att åsidosätta huvudinställningarna om kunden använder betalningsmetoden.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_subtotal</key>
+		<value><![CDATA[Orderns delsumma:<span class="help">Minsta orderdelsumma som måste uppnås för att avgiften ska tillämpas. Detta skriver över huvudinställningen</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Skatteklass:<span class="help">Välj om du vill att skatt ska läggas ovanpå hanteringsavgiften</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Sorteringsordning:]]></value>
+	</definition>
+	<definition>
+		<key>entry_calculation_order</key>
+		<value><![CDATA[Beräkningsordning:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra den totala hanteringsavgiften!]]></value>
+	</definition>
+	<definition>
+		<key>error_number</key>
+		<value><![CDATA[Varning: Orderbelopp och hanteringsavgift måste vara siffror!]]></value>
+	</definition>
+</definitions>

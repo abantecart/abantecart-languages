@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Krypteringsdatahanterare]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Tillägg]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Kryptering Data Verktyg]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Sorteringsordning:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Generera nyckelpar]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Kryptera data]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra viktbaserad frakt!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Fel: Det valda nyckelnamnsparet finns redan!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>Detta tillägg kräver AVANCERAD konfiguration och uppmärksamhet</b><br/>
+<b>När det väl är aktiverat och data har krypterats går det INTE att ångra och tillägget kan inte inaktiveras!</b><br/>
+Detta tillägg hjälper till med skapandet av krypteringsnycklar och datamigreringen från öppna till krypterade tabeller (initial migrering)<br/>
+<b>VÄNLIGEN NOTERA:</b> du måste ha PHP med SSL-kryptering <b>AKTIVERAT</b><br/>
+<br/>
+För att aktivera datakryptering, läs hjälpinstruktionerna (HOW TO-knappen)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Varning: OpenSSL för PHP är inte tillgängligt eller inte aktiverat. Du kan inte använda kryptering eller detta tillägg! <br> Kontrollera HJÄLP för detta tillägg för mer information.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Varning: Datakryptering är inte aktiverad på din AbanteCart. Du kan inte kryptera/dekryptera data med detta tillägg!<br>Kontrollera HJÄLP för detta tillägg för mer information.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Generera nyckelpar]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Kryptera data]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Saknas obligatoriska datafält(s). Kontrollera angivna värden.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Unikt nyckelparnamn:<br /><span class="help">Namnet får inte innehålla några mellanslag eller specialtecken. Håll det kort och enkelt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Nyckellängd (bit):<br /><span class="help">Ange krypteringsnyckelns bitlängd. Större tal ger starkare kryptering men kan försämra prestandan (intervall 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Krypteringstyp:<br /><span class="help">Detta är en krypteringsalgoritm. Använd standard-RSA om du inte är en avancerad användare.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Aktivera lösenordsbaserad nyckel:<br /><span class="help">Om det är aktiverat kommer ytterligare en lösenfras att krävas för att dekryptera texten med den privata nyckeln. OBS. Detta stöds för närvarande inte vid datakryptering.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Lösenfras eller nyckellösenord:<br /><span class="help">Kom ihåg att lösenfrasen eller nyckel(s) kommer att bli oanvändbar och data kan gå förlorad</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Nyckelpar har skapats. Se nycklarna nedan och förvara dem säkert.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Generering av nyckelpar misslyckades. Kontrollera dina inställningar och kontrollera felloggen.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Namn på nyckelpar:<br /><span class="help">Välj nyckel som ska användas för kryptering. VIKTIGT: Kom ihåg nyckeln du använde</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabell(er) att kryptera:<br /><span class="help">Visade tabell(er) kommer att krypteras med den valda nyckeln. Data kan endast öppnas med denna nyckel</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Testläge:<br /><span class="help">Kontrollera först att allt är OK att krypteras.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Ta bort källdata:<br /><span class="help">Ta bort ursprungliga okrypterade dataposter efter att krypteringen är slutförd</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Data har krypterats. <br /> Se detaljer:</b> <br/><br/> %s <br /><br /> <b>Om du vill att denna nyckel ska användas för ny datakryptering, lägg till följande rad i filen system/config.php : define('DATA_ENCRYPTION_KEYPAIR', '%s'); </b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Resultat av datakrypteringstest</b> Kontrollera felloggen efter eventuella fel! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Datakryptering misslyckades. Kontrollera dina inställningar och kontrollera felloggen.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Viktiga anteckningar! Efter att krypteringen har slutförts kopieras data till spegeltabeller med krypterad data.
+<br />Följ instruktionerna för att lägga till konfiguration i system/config.php för AbanteCart för att växla läs-/skrivoperationerna till krypterade tabeller.</b><br /> Lägg till följande rad i konfigurationsfilen: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name'); <br> Detta blir standardnyckeln för läs-/skrivoperationer]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Krypteringsanvändning]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Okrypterade dataregister]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Använd fliken ’Kryptera data’ för initial kryptering]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Krypterade dataposter]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[Nyckel-ID]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Nyckelnamn]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Användning av krypterade tabeller]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Rotera kryptering till ny nyckel]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[post(er)]]></value>
+	</definition>
+</definitions>

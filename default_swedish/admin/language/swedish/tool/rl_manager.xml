@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Mediaresursbibliotekshanterare]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_latest</key>
+		<value><![CDATA[Senast tillagda resurser]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_type</key>
+		<value><![CDATA[resurstyp]]></value>
+	</definition>
+	<definition>
+		<key>entry_type_name</key>
+		<value><![CDATA[Resurstypsnyckel<br/><span class="help">Detta värde för resurstypsnyckel/namn kan inte ändras</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_directory</key>
+		<value><![CDATA[Resurskatalog<br/><span class="help">Katalog som lokaliserar resurser för denna typ. Om den ändras kommer befintliga resurser inte att vara tillgängliga och måste kopieras till den nya katalogen!</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_icon</key>
+		<value><![CDATA[Standardikon<br/><span class="help">Ikonbild som ska visas i resurslistan (Plats: /image/... ).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_file_types</key>
+		<value><![CDATA[Tillåtna filändelser<br/><span class="help">Regex med en lista över tillåtna filändelser för denna resurstyp</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Framgång: Du har uppdaterat resurstypen!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_type_id</key>
+		<value><![CDATA[Fel: Saknas resurstyp-ID!]]></value>
+	</definition>
+	<definition>
+		<key>error_type_name</key>
+		<value><![CDATA[Fel: Resurstypens namn måste vara mellan 2 och 40 tecken]]></value>
+	</definition>
+	<definition>
+		<key>error_default_directory</key>
+		<value><![CDATA[Fel: Resurstypkatalog måste vara mellan 2 och 64 tecken lång]]></value>
+	</definition>
+	<definition>
+		<key>error_default_icon</key>
+		<value><![CDATA[Fel: Resurstypikon måste vara mellan 2 och 64 tecken]]></value>
+	</definition>
+	<definition>
+		<key>error_file_types</key>
+		<value><![CDATA[Fel: regex för filändelser av resurstyp måste vara mellan 2 och 40 tecken]]></value>
+	</definition>
+</definitions>

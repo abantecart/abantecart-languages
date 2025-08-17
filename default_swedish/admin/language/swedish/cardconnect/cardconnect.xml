@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[För att erhålla API-uppgifter, vänligen besök https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[Handlar-ID]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[API Användarnamn]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[API-lösenord]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[Loggning:<br /><span class="help">Loggfilen finns i system/logs/cardconnect.txt</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[Testa anslutning]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[Hämta test-API-referenser]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[Testläge]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[Domändel för API:<br /><span class="help">Detta värde bör inte ändras, om inte annat anges av cardConnent.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[Anslutningen lyckades och API-referenserna är korrekt konfigurerade.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[Alla platser]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[Plats]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[Återbetald:<br /><span class="help">Orderstatus som du vill ska ställas in om betalningen återbetalas i admin/order</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[Nekad:<br /><span class="help">Orderstatus som du vill registrera i historiken som svar på betalningsleverantörens status. Huvudorderstatus påverkas inte. Ordern kommer inte att läggas förrän betalningen är godkänd.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[Lyckad & inte avräknad:<br /><span class="help">Välj huvudorderstatus som du vill ställa in som svar på betalningsprocessorstatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[Lyckad & avräknad:<br /><span class="help">Välj den huvudsakliga orderstatus du vill ange som svar på betalningsleverantörens status</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[Makulerad:<br /><span class="help">Orderstatus du vill ska anges om betalningen makulerats i admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[Auto (auktorisera och ta betalt)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[Fördröjd (endast auktorisering)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Uppgörelsetyp:<br /><span class="help">Om inställt på "auto" inkluderas transaktionen i dagens uppgörelse. Om inställt på 'delayed' auktoriseras transaktionen men avvecklas inte (inkasseras). Du måste manuellt inkassera transaktioner inom 7 dagar efter auktorisation.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[Max antal sparade kreditkort: <br/><span class="help">Ange det maximala antalet kreditkort som får sparas av kunder (upp till 100). Om det sätts till 0 eller lämnas tomt kommer sparande av kort inte att tillåtas. Säkerhetsanteckning: Kunders kreditkortsuppgifter sparas på CardConnects säkra servrar för att säkerställa maximala datasäkerhetsåtgärder. Inga kreditkortsuppgifter kommer att sparas på din webbplats.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Transaktionsdatum]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Belopp]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Medlen debiterades framgångsrikt]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Capture var framgångsrik, orderstatus uppdaterades till framgång - avräknad]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Återbetalningen behandlades framgångsrikt]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Återbetalningen var framgångsrik, orderstatus uppdaterad till återbetald]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Makuleringen lyckades, orderstatus uppdaterad till makulerad]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Betalningsuppgifter]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Betalning genomförd]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Betalning annullerad]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Betalning återbetald]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Inlösenbelopp]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Återbetalningsbelopp]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[CardConnect Debiterings-ID]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[Totalt auktoriserat belopp]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Saldo]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Återbetalningstransaktioner]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Vänligen bekräfta att du vill makulera betalningen?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Vänligen bekräfta att du vill genomföra betalningen?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Vänligen bekräfta att du vill återbetala betalningen?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Återbetalning]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Makulera]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Fånga]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Internt fel. Kontrollera felloggen eller inmatningsparametrarna!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Vänligen ange ett positivt belopp]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Kan inte makulera transaktionen, uppdatera och kontrollera transaktionsdetaljerna]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Kan inte genomföra debitering, uppdatera transaktionsdetaljer och kontrollera debiteringsbeloppet.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Kan inte återbetala, uppdatera transaktionsdetaljer och kontrollera återbetalningsbeloppet]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[Aktuell avräkningsstatus]]></value>
+	</definition>
+</definitions>

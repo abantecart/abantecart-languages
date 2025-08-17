@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Authorize.Net-betalning]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[Ytterligare inställningar krävs för att slutföra inställningen av Authorize.Net-betalningar. Se fliken Ytterligare inställningar.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Betalning]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Framgång: Du har ändrat Authorize.Net-betalningsinställningarna!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[Plats:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[Alla platser]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[API-inloggnings-ID:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Testläge:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[Transaktionsnyckel:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[Offentlig nyckel:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[Automatiskt val:<br /><span class="help">Du kan ställa in att sidan för betalningsval ska hoppas över om det endast finns ett betalningsalternativ. Denna betalningsmetod kommer att väljas automatiskt</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[Kan spara kreditkort:<br /><span class="help">Ange det maximala antalet kreditkort som kunder kan spara (upp till 100). Om det anges till 0 eller lämnas tomt tillåts inte sparande av kort. Säkerhetsnotis: Kundernas kreditkortsuppgifter sparas på authorizenet:s säkra servrar för att säkerställa högsta möjliga datasäkerhet. Inga kreditkortsuppgifter kommer att sparas på din webbplats.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[Du behöver ansluta till authorizenet för att ställa in betalningsuppgifter.]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Inställningar för Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Anslut med Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Koppla bort Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Kan inte ansluta?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Lyckades ansluta till Authorize.Net.]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Lyckades koppla från Authorize.Net.]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[Sorteringsordning]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Testläge:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[Live hemlig nyckel:<br /><span class="help">Hitta den i avsnittet för Authorize.Net API-nycklar. Nyckeln börjar med sk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[Live publicerbar nyckel:<br /><span class="help">Hitta den i avsnittet Authorize.Net API-nycklar. Nyckeln börjar med pk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[Testhemlig nyckel:<br /><span class="help">Hitta den i Authorize.Net-avsnittet för API-nycklar. Nyckeln börjar med sk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[Test publicerbar nyckel:<br /><span class="help">Hitta detta i avsnittet Authorize.Net API-nycklar. Nyckeln börjar med pk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[Uppgörelsetyp:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[Endast auktorisera]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[Auktorisera & debitera]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[Lyckad & slutförd:<br /><span class="help">Välj huvudorderstatus du vill ange som svar på betalningsprocessorns status</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[Lyckad & ej reglerad:<br /><span class="help">Välj huvudorderstatus som du vill ange som svar på betalningsprocessors status</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Transaktionsdatum]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Belopp]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[Automatiskt (auktorisera och debitera)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[Fördröjd (endast auktorisering)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Betalningsuppgifter]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Authorize.Net transaktions-ID]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[Transaktionsstatus]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Totalt auktoriserat belopp]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Balansbelopp]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Internt fel. Kontrollera felslogg eller inmatningsparametrar!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Vänligen ange ett positivt belopp]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[Authorize.Net testnyckel krävs]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[Authorize.Net live-nyckel krävs]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra Authorize.Net-betalning!]]></value>
+	</definition>
+</definitions>
