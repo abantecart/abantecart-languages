@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Importação & Exportação]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Assistente de Importação de Dados]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[Importar]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Assistente de Importação]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[Exportar]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[Tabelas]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[Opções]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Formato de Arquivo:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Nome do Arquivo:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[Enviar Arquivo de Importação]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Você pode enviar um arquivo CSV ou de texto para importar dados. Para a estrutura dos dados, você pode seguir o formato proprietário (veja exportação) ou o formato livre. <br/> Para dados com formato livre, será necessário mapear os elementos de dados manualmente ou usar um mapa JSON. <br/> Apenas produto, categorias e marcas/fabricantes são suportados para importação em formato livre. <br/> A coluna de ação pode ser incluída para instruir a importação a 'inserir', 'atualizar' ou 'excluir'. A ação padrão é update_or_insert.]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Selecione uma tabela de destino e o campo de banco de dados correspondente para cada coluna de dados de importação fornecida. Se nenhum campo for selecionado, os dados da coluna de entrada serão ignorados.<br/> <b>Nota:</b> Os valores de dados específicos de idioma e loja serão atribuídos à loja de conteúdo e ao idioma atuais selecionados.]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Serão carregados e processados %s registros nesta importação!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Executando o processo de importação]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[Carregar]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Total carregado:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Arquivo para importar:<br><span class="help">Formatos suportados para arquivos de importação: CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[Intervalo de IDs a partir de:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[Delimitador CSV/TXT:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Todos os campos serão delimitados por aspas duplas.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Todos os campos devem estar entre aspas duplas.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Executar em modo de teste <br><span class="help">É recomendável executar a importação de dados em modo de teste primeiro para verificar se há algum problema presente.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Coluna do arquivo de importação]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Amostra de Dados de Importação]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Selecione a tabela de destino]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Atualizar se existir]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Dividir dados por]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Selecione, copie e salve este mapeamento para uso futuro.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Mapeamento de exportação]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Insira no campo abaixo os dados de mapeamento pré-salvos]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Carregar mapeamento]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Formato de arquivo de importação não suportado!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Erro durante a importação do arquivo XML!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Erro ao importar o arquivo CSV/TXT! Verifique o delimitador de campos.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Os dados estão vazios ou corrompidos.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[Arquivo está vazio.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[O diretório de backup deve ser gravável para que a exportação CSV/TXT funcione.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Atualizado:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[Criado:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[Erros:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Mostrar detalhes]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Nenhum item filho]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Existem alguns erros.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Execução de teste concluída. Total de consultas SQL:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Ordenar por:]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Nenhuma tabela de destino de importação ou campos selecionados!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Falta o campo de dados obrigatório '%s' na tabela de destino!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[O diretório temporário %s não é gravável! Por favor, altere as permissões para continuar.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Solicitação vazia.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[O processo de importação foi concluído. %s linha(s) processada(s).]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s linha(s) com erros.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Para mais detalhes, veja <a href="%s" target="_new">arquivo de log %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Tarefa interrompida com sucesso.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Agendar Importação]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Sucesso: Você criou com sucesso uma tarefa de importação agendada! <a href="%s">Ver detalhes</a>]]></value>
+	</definition>
+</definitions>

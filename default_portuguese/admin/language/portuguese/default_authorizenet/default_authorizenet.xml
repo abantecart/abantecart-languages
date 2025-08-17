@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Pagamento Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[São necessárias configurações adicionais para concluir a configuração de pagamento do Authorize.Net. Veja a aba Configurações adicionais.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Pagamento]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sucesso: Você modificou as configurações de pagamento do Authorize.Net!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[Localização:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[Todas as Localizações]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[ID de login da API:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Modo de Teste:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[Chave da Transação:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[Chave Pública:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[Seleção Automática:<br /><span class="help">Você pode configurar para pular a página de seleção de pagamento se houver apenas uma opção de pagamento. Este método de pagamento será selecionado automaticamente</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[Pode salvar cartões de crédito:<br /><span class="help">Defina o número máximo de cartões de crédito que podem ser salvos pelos clientes (até 100). Se definido como 0 ou em branco, o salvamento de cartões não será permitido. Aviso de segurança: Os dados de cartão de crédito dos clientes são salvos em servidores seguros da authorizenet para garantir as máximas medidas de segurança de dados. Nenhum dado de cartão de crédito será salvo em seu site.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[Você precisa se conectar com authorizenet para configurar os detalhes de pagamento.]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Configurações do Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Conecte-se com Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Desconectar Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Não é possível conectar?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Conectado ao Authorize.Net com sucesso]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Desconectado do Authorize.Net com sucesso]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[Ordem de Classificação]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Modo de Teste:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[Chave Secreta ao Vivo:<br /><span class="help">Localize isto na Seção de Chaves da API do Authorize.Net. A chave começa com sk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[Chave Publicável de Produção:<br /><span class="help">Localize isto na seção de Chaves da API do Authorize.Net. A chave começa com pk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[Chave Secreta de Teste:<br /><span class="help">Localize isto na seção de Chaves de API do Authorize.Net. A chave começa com sk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[Chave Publicável de Teste:<br /><span class="help">Encontre isto na Seção de Chaves de API do Authorize.Net. A chave começa com pk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[Tipo de liquidação:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[Apenas autorizar]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[Autorizar & Capturar]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[Sucesso e liquidado:<br /><span class="help">Selecione o status principal do pedido que deseja definir em resposta ao status do processador de pagamento</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[Sucesso e não liquidado:<br /><span class="help">Selecione o status principal do pedido que você deseja definir em resposta ao status do processador de pagamento</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Data da Transação]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Valor]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[Auto (autorizar e capturar)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[Adiado (somente autorização)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Detalhes de pagamento]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID de transação Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[Status da Transação]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Valor total autorizado]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Valor do saldo]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Erro interno. Verifique o registro de erros ou os parâmetros de entrada!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Por favor, insira um valor positivo]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[A chave de teste do Authorize.Net é obrigatória]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[A chave de produção do Authorize.Net é obrigatória.]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Aviso: Você não tem permissão para modificar o pagamento Authorize.Net!]]></value>
+	</definition>
+</definitions>

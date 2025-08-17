@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>ups_name</key>
+		<value><![CDATA[Serviço de Encomendas Unidas]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[UPS]]></value>
+	</definition>
+	<definition>
+		<key>ups_account_number</key>
+		<value><![CDATA[Número da Conta (Remetente)]]></value>
+	</definition>
+	<definition>
+		<key>ups_client_id</key>
+		<value><![CDATA[ID do Cliente da API<br/><span class="help">Você pode encontrá-lo na seção de aplicativos em https://developer.ups.com/apps </span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_password</key>
+		<value><![CDATA[Senha da API<br/><span class="help">Você pode encontrá-la na seção da sua aplicação em https://developer.ups.com/apps </span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_validate_address</key>
+		<value><![CDATA[Validação de Endereço]]></value>
+	</definition>
+	<definition>
+		<key>ups_country</key>
+		<value><![CDATA[País e Zona do Remetente]]></value>
+	</definition>
+	<definition>
+		<key>ups_telephone</key>
+		<value><![CDATA[Número de telefone do remetente (10 dígitos ou mais)]]></value>
+	</definition>
+	<definition>
+		<key>ups_address</key>
+		<value><![CDATA[Endereço do remetente]]></value>
+	</definition>
+	<definition>
+		<key>ups_city</key>
+		<value><![CDATA[Cidade do remetente]]></value>
+	</definition>
+	<definition>
+		<key>ups_postcode</key>
+		<value><![CDATA[Código Postal do Remetente]]></value>
+	</definition>
+	<definition>
+		<key>ups_weight_code</key>
+		<value><![CDATA[Código de Peso:<br /><span class="help">Permitidos kgs, lbs.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_test_connection</key>
+		<value><![CDATA[Teste de Conexão]]></value>
+	</definition>
+	<definition>
+		<key>ups_length_code</key>
+		<value><![CDATA[Código de comprimento:<br /><span class="help">Polegadas ou centímetros permitidos.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id</key>
+		<value><![CDATA[Classe de Imposto:]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id_0</key>
+		<value><![CDATA[-- Nenhum --]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id</key>
+		<value><![CDATA[Localização:]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id_0</key>
+		<value><![CDATA[Todas as Localizações]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_weight</key>
+		<value><![CDATA[Peso Padrão do Produto:<br /><span class="help">Peso dos produtos se não definido</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_length</key>
+		<value><![CDATA[Comprimento padrão do produto:<br /><span class="help">Comprimento do produto se não estiver definido</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_width</key>
+		<value><![CDATA[Largura padrão do produto:<br /><span class="help">Largura do produto se não for definida</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_height</key>
+		<value><![CDATA[Altura padrão do produto:<br /><span class="help">Altura do produto se não for definida</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging</key>
+		<value><![CDATA[Embalagem]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging_02</key>
+		<value><![CDATA[Caixa]]></value>
+	</definition>
+	<definition>
+		<key>ups_manifest_order_status_id</key>
+		<value><![CDATA[Criar remessa quando o status do pedido se tornar]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label</key>
+		<value><![CDATA[Imprimir Etiqueta UPS (Pedido Original)]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_title</key>
+		<value><![CDATA[Imprime a etiqueta da UPS usando o peso e as dimensões originais enviados pelo cliente na finalização da compra. Quaisquer alterações feitas no pedido pelo administrador não afetarão a etiqueta.]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_suggestion</key>
+		<value><![CDATA[Altere o status do pedido para "%s" para criar o envio via UPS API e obter etiquetas de remessa]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_weight</key>
+		<value><![CDATA[Peso:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_height</key>
+		<value><![CDATA[Altura:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_width</key>
+		<value><![CDATA[Largura:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_depth</key>
+		<value><![CDATA[Profundidade:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_parcel_info</key>
+		<value><![CDATA[Informações do pacote:]]></value>
+	</definition>
+	<definition>
+		<key>ups_shipment_created_success_message</key>
+		<value><![CDATA[Envio UPS foi criado com sucesso. Veja mais informações <a href="%s">aqui</a>]]></value>
+	</definition>
+</definitions>

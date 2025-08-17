@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Gerenciador da Biblioteca de Recursos de Mídia]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_latest</key>
+		<value><![CDATA[Últimos recursos adicionados]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_type</key>
+		<value><![CDATA[tipo de recurso]]></value>
+	</definition>
+	<definition>
+		<key>entry_type_name</key>
+		<value><![CDATA[Chave do Tipo de Recurso<br/><span class="help">Este valor de chave/nome de tipo de recurso não pode ser alterado</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_directory</key>
+		<value><![CDATA[Diretório de recursos<br/><span class="help">Diretório onde os recursos para este tipo são localizados. Se alterado, os recursos existentes não estarão acessíveis e precisarão ser copiados para o novo diretório!</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_icon</key>
+		<value><![CDATA[Ícone padrão<br/><span class="help">Imagem do ícone a ser exibida na listagem de recursos (Localização: /image/... ).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_file_types</key>
+		<value><![CDATA[Extensões de arquivo permitidas<br/><span class="help">Expressão regular com uma lista de extensões de arquivo permitidas para este tipo de recurso</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sucesso: Você atualizou o tipo de recurso!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_type_id</key>
+		<value><![CDATA[Erro: ID do tipo de recurso ausente!]]></value>
+	</definition>
+	<definition>
+		<key>error_type_name</key>
+		<value><![CDATA[Erro: O nome do tipo de recurso precisa ter entre 2 e 40 caracteres]]></value>
+	</definition>
+	<definition>
+		<key>error_default_directory</key>
+		<value><![CDATA[Erro: o diretório do tipo de recurso precisa ter entre 2 e 64 caracteres]]></value>
+	</definition>
+	<definition>
+		<key>error_default_icon</key>
+		<value><![CDATA[Erro: o ícone do tipo de recurso deve ter entre 2 e 64 caracteres]]></value>
+	</definition>
+	<definition>
+		<key>error_file_types</key>
+		<value><![CDATA[Erro: o regex das extensões de arquivo do tipo de recurso precisa ter entre 2 e 40 caracteres]]></value>
+	</definition>
+</definitions>

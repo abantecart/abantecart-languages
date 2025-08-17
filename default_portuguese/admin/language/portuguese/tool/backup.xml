@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Cópia de segurança / Restaurar / Carregar]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[Baixar Backup]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[Sucesso: Você criou com sucesso o arquivo de backup!]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sucesso: Você importou com sucesso o seu banco de dados!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[Sucesso: Você importou seu xml com sucesso!]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Restaurar backup:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[Tabelas de Backup:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Restaurar Backup:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[Carregar arquivo XML:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[Cópia de segurança]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[Restaurar]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[Layout e carregamento de conjunto de dados XML]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Aviso: Você não tem permissão para modificar backups!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Aviso: Por favor, selecione o que você deseja fazer backup ou importar!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[Aviso: O arquivo que você enviou estava vazio ou tinha um tipo de arquivo incorreto!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value><![CDATA[Aviso: O arquivo não foi enviado. Verifique as diretivas post_max_size ou file_upload do seu arquivo php.ini.]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value><![CDATA[Aviso: o arquivo que você enviou não foi carregado como XML! Por favor, consulte o arquivo de log para detalhes.]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_code</key>
+		<value><![CDATA[Backup de Código (%s)<br/><span class="help">Sub-diretórios com arquivos de código excluindo arquivos dinâmicos como cache, arquivos de log, imagens, recursos etc</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_content</key>
+		<value><![CDATA[Conteúdo de Backup (%s)<br/><span class="help">Subdiretórios com arquivos dinâmicos como imagens, downloads, recursos etc </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_compress_backup</key>
+		<value><![CDATA[Compactar Diretório de Backup %s?<br/><span class="help">Arquivo *.tar.gz será criado.<br/>Nota: isso pode levar muito tempo. Caso contrário, você pode desativar a compactação e encontrar seu backup na pasta %s</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[Fazer backup agora]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[Carregar]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[Agendar Backup]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Sucesso: Você criou com sucesso a tarefa agendada de backup! <a href="%s">Ver detalhes</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[NOTA: A execução deste processo depende do tamanho dos seus dados do AbanteCart assim como do tamanho da memória virtual do seu servidor. Se o processo terminar com erros, verifique se as permissões do diretório %s estão definidas como -rw-rw-rw e <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>. Aumente a configuração de memória ou execute o backup manualmente se o processo ainda falhar.]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[Para baixar o arquivo de backup, visite <a href="#admin#rt=tool/install_upgrade_history">Histórico de instalação/atualização</a>]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[Diretório com arquivos de backup é %s</a>]]></value>
+	</definition>
+</definitions>

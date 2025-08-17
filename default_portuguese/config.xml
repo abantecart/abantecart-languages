@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <extension>
-	<id>default_spanish</id>
+	<id>default_portuguese</id>
 	<version>1.4.3</version>
 	<type>language</type>
 	<category>languages</category>
@@ -9,12 +9,15 @@
 	</cartversions>
 	<priority>10</priority>
 	<settings>
-		<item id="default_spanish_status">
+		<item id="default_portuguese_status">
 			<type>checkbox</type>
 			<default_value>0</default_value>
 		</item>
 	</settings>
 	<note>true</note>
+	<preview>
+		<item>preview1.gif</item>
+	</preview>
 	<install>
 		<sql>install.sql</sql>
 		<trigger>install.php</trigger>

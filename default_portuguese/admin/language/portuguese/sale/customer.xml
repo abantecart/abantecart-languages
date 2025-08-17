@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Clientes]]></value>
+	</definition>
+	<definition>
+		<key>text_customer</key>
+		<value><![CDATA[Cliente]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sucesso: Você modificou clientes!]]></value>
+	</definition>
+	<definition>
+		<key>text_approved</key>
+		<value><![CDATA[Você aprovou a conta %s!]]></value>
+	</definition>
+	<definition>
+		<key>tab_customer_address</key>
+		<value><![CDATA[Endereço]]></value>
+	</definition>
+	<definition>
+		<key>text_customer_addresses</key>
+		<value><![CDATA[Endereços de Clientes]]></value>
+	</definition>
+	<definition>
+		<key>text_add_address</key>
+		<value><![CDATA[Adicionar Endereço]]></value>
+	</definition>
+	<definition>
+		<key>button_add</key>
+		<value><![CDATA[Adicionar]]></value>
+	</definition>
+	<definition>
+		<key>column_id</key>
+		<value><![CDATA[ID]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[Nome do Cliente]]></value>
+	</definition>
+	<definition>
+		<key>column_email</key>
+		<value><![CDATA[E-mail]]></value>
+	</definition>
+	<definition>
+		<key>column_customer_group</key>
+		<value><![CDATA[Grupo de Clientes]]></value>
+	</definition>
+	<definition>
+		<key>column_group</key>
+		<value><![CDATA[Grupo]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[Status]]></value>
+	</definition>
+	<definition>
+		<key>column_approved</key>
+		<value><![CDATA[Aprovado]]></value>
+	</definition>
+	<definition>
+		<key>column_date_added</key>
+		<value><![CDATA[Data Adicionada]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[Ação]]></value>
+	</definition>
+	<definition>
+		<key>entry_loginname</key>
+		<value><![CDATA[Nome de login:]]></value>
+	</definition>
+	<definition>
+		<key>entry_firstname</key>
+		<value><![CDATA[Primeiro Nome:]]></value>
+	</definition>
+	<definition>
+		<key>entry_lastname</key>
+		<value><![CDATA[Sobrenome:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[E-mail:]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[Telefone:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[Fax:]]></value>
+	</definition>
+	<definition>
+		<key>entry_newsletter</key>
+		<value><![CDATA[Boletim informativo:]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[Grupo de Clientes:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_approved</key>
+		<value><![CDATA[Aprovado:]]></value>
+	</definition>
+	<definition>
+		<key>entry_password</key>
+		<value><![CDATA[Senha:]]></value>
+	</definition>
+	<definition>
+		<key>entry_confirm</key>
+		<value><![CDATA[Confirmar:]]></value>
+	</definition>
+	<definition>
+		<key>entry_company</key>
+		<value><![CDATA[Empresa:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_1</key>
+		<value><![CDATA[Endereço 1:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_2</key>
+		<value><![CDATA[Endereço 2:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[Cidade:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Código Postal:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[País:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country_id</key>
+		<value><![CDATA[País:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[Região / Estado:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Aviso: Você não tem permissão para modificar clientes!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[O nome de login deve conter apenas caracteres alfanuméricos e ter entre 5 e 64 caracteres!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname_notunique</key>
+		<value><![CDATA[Este nome de login não está disponível. Tente um nome de login diferente!]]></value>
+	</definition>
+	<definition>
+		<key>error_firstname</key>
+		<value><![CDATA[O Primeiro Nome deve ter entre 1 e 32 caracteres!]]></value>
+	</definition>
+	<definition>
+		<key>error_lastname</key>
+		<value><![CDATA[Sobrenome deve ter entre 1 e 32 caracteres!]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[O endereço de e-mail não parece ser válido!]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[O telefone deve ter entre 3 e 32 caracteres numéricos apenas!]]></value>
+	</definition>
+	<definition>
+		<key>error_password</key>
+		<value><![CDATA[A senha deve ter entre 3 e 20 caracteres!]]></value>
+	</definition>
+	<definition>
+		<key>error_confirm</key>
+		<value><![CDATA[A senha e a confirmação da senha não correspondem!]]></value>
+	</definition>
+	<definition>
+		<key>error_address_firstname</key>
+		<value><![CDATA[Primeiro nome deve ter entre 1 e 32 caracteres!]]></value>
+	</definition>
+	<definition>
+		<key>error_address_lastname</key>
+		<value><![CDATA[Sobrenome deve ter entre 1 e 32 caracteres!]]></value>
+	</definition>
+	<definition>
+		<key>error_address_1</key>
+		<value><![CDATA[O endereço deve ter entre 3 e 128 caracteres!]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[Cidade deve ter entre 3 e 128 caracteres!]]></value>
+	</definition>
+	<definition>
+		<key>error_country</key>
+		<value><![CDATA[Por favor selecione um país!]]></value>
+	</definition>
+	<definition>
+		<key>error_zone</key>
+		<value><![CDATA[Por favor, selecione uma região / estado!]]></value>
+	</definition>
+	<definition>
+		<key>text_select_approved</key>
+		<value><![CDATA[- Selecione Aprovado -]]></value>
+	</definition>
+	<definition>
+		<key>text_select_group</key>
+		<value><![CDATA[- Selecionar Grupo -]]></value>
+	</definition>
+	<definition>
+		<key>tab_customer_details</key>
+		<value><![CDATA[Detalhes do cliente]]></value>
+	</definition>
+	<definition>
+		<key>tab_transactions</key>
+		<value><![CDATA[Transações]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_transactions</key>
+		<value><![CDATA[Transações do cliente]]></value>
+	</definition>
+	<definition>
+		<key>column_create_date</key>
+		<value><![CDATA[Data de Criação]]></value>
+	</definition>
+	<definition>
+		<key>column_created_by</key>
+		<value><![CDATA[Criado Por]]></value>
+	</definition>
+	<definition>
+		<key>column_debit</key>
+		<value><![CDATA[Débito]]></value>
+	</definition>
+	<definition>
+		<key>column_credit</key>
+		<value><![CDATA[Crédito]]></value>
+	</definition>
+	<definition>
+		<key>column_transaction_type</key>
+		<value><![CDATA[Tipo de Transação]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Saldo:]]></value>
+	</definition>
+	<definition>
+		<key>text_last_login</key>
+		<value><![CDATA[Último login:]]></value>
+	</definition>
+	<definition>
+		<key>text_never</key>
+		<value><![CDATA[Nunca]]></value>
+	</definition>
+	<definition>
+		<key>popup_title_info</key>
+		<value><![CDATA[Informações da transação]]></value>
+	</definition>
+	<definition>
+		<key>popup_title_insert</key>
+		<value><![CDATA[Inserir Nova Transação]]></value>
+	</definition>
+	<definition>
+		<key>entry_credit</key>
+		<value><![CDATA[Crédito (aumentar saldo)]]></value>
+	</definition>
+	<definition>
+		<key>entry_debit</key>
+		<value><![CDATA[Débito (diminuir o saldo)]]></value>
+	</definition>
+	<definition>
+		<key>entry_transaction_type</key>
+		<value><![CDATA[Tipo de Transação:]]></value>
+	</definition>
+	<definition>
+		<key>entry_other_type</key>
+		<value><![CDATA[Adicionar novo tipo personalizado de transação:]]></value>
+	</definition>
+	<definition>
+		<key>text_other_type_placeholder</key>
+		<value><![CDATA[digite novo nome aqui]]></value>
+	</definition>
+	<definition>
+		<key>text_option_other_type</key>
+		<value><![CDATA[Outro...]]></value>
+	</definition>
+	<definition>
+		<key>entry_transaction_description</key>
+		<value><![CDATA[Descrição (para o cliente):]]></value>
+	</definition>
+	<definition>
+		<key>entry_transaction_comment</key>
+		<value><![CDATA[Comentário (para uso interno):]]></value>
+	</definition>
+	<definition>
+		<key>entry_update_date</key>
+		<value><![CDATA[Data de atualização:]]></value>
+	</definition>
+	<definition>
+		<key>entry_create_date</key>
+		<value><![CDATA[Data de criação:]]></value>
+	</definition>
+	<definition>
+		<key>error_transaction_type</key>
+		<value><![CDATA[Erro: Por favor, preencha o campo do formulário de tipo de transação.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_debit_credit</key>
+		<value><![CDATA[Erro: Por favor, preencha o valor de débito ou crédito para a transação do cliente.]]></value>
+	</definition>
+	<definition>
+		<key>error_incorrect_debit_credit</key>
+		<value><![CDATA[Erro: o valor de débito ou crédito não pode ser maior que 99999999999.9999.]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_success</key>
+		<value><![CDATA[Sucesso: Você modificou a transação!]]></value>
+	</definition>
+	<definition>
+		<key>text_add_address</key>
+		<value><![CDATA[Adicionar Endereço]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_address</key>
+		<value><![CDATA[Editar Endereço]]></value>
+	</definition>
+	<definition>
+		<key>entry_default</key>
+		<value><![CDATA[Endereço Padrão:]]></value>
+	</definition>
+	<definition>
+		<key>error_delete_default</key>
+		<value><![CDATA[Erro: Endereço padrão não pode ser excluído!]]></value>
+	</definition>
+	<definition>
+		<key>error_delete_last</key>
+		<value><![CDATA[Erro: você deve ter pelo menos um endereço!]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_added</key>
+		<value><![CDATA[Data Adicionada:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_modified</key>
+		<value><![CDATA[Data de modificação:]]></value>
+	</definition>
+	<definition>
+		<key>warning_actonbehalf_additional_store</key>
+		<value><![CDATA[Para agir em nome do cliente na loja adicional, você deve fazer login no painel de administração de outra loja. Continuar?]]></value>
+	</definition>
+	<definition>
+		<key>entry_notify</key>
+		<value><![CDATA[Notificar cliente:]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_notification_subject</key>
+		<value><![CDATA[Nova transação foi registrada na sua conta %s]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_notification_message</key>
+		<value><![CDATA[Uma nova transação foi lançada em sua conta %s no valor de %s. Para mais detalhes, faça login na conta %s.]]></value>
+	</definition>
+	<definition>
+		<key>text_total_order</key>
+		<value><![CDATA[Total de Pedidos:]]></value>
+	</definition>
+	<definition>
+		<key>text_register_date</key>
+		<value><![CDATA[Data de registro:]]></value>
+	</definition>
+	<definition>
+		<key>error_email_exists</key>
+		<value><![CDATA[Cliente com este endereço de e-mail já existe!]]></value>
+	</definition>
+</definitions>

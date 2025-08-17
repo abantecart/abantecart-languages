@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>stripe_name</key>
+		<value><![CDATA[Pagamento Stripe]]></value>
+	</definition>
+	<definition>
+		<key>stripe_note</key>
+		<value><![CDATA[São necessárias configurações adicionais para concluir a configuração do pagamento Stripe. Veja a aba Configurações adicionais.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Pagamento]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sucesso: Você modificou as configurações de pagamento do Stripe!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id</key>
+		<value><![CDATA[Localização:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id_0</key>
+		<value><![CDATA[Todas as Localizações]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_published_key</key>
+		<value><![CDATA[Chave Publicada:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_autoselect</key>
+		<value><![CDATA[Seleção Automática:<br /><span class="help">Você pode configurar para pular a página de seleção de pagamento se existir apenas uma opção de pagamento. Este método de pagamento será selecionado automaticamente</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list</key>
+		<value><![CDATA[Métodos de pagamento permitidos. <br /><span class="help">Deixe em branco para seleção automática</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_card</key>
+		<value><![CDATA[Cartões]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_klarna</key>
+		<value><![CDATA[Klarna]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_acss_debit</key>
+		<value><![CDATA[ACSS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_afterpay_clearpay</key>
+		<value><![CDATA[Afterpay/Clearpay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_alipay</key>
+		<value><![CDATA[Alipay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_au_becs_debit</key>
+		<value><![CDATA[BECS Débito Direto]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bacs_debit</key>
+		<value><![CDATA[Débito Direto Bacs]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_affirm</key>
+		<value><![CDATA[Affirm]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bancontact</key>
+		<value><![CDATA[Bancontact]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_blik</key>
+		<value><![CDATA[Blik]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_boleto</key>
+		<value><![CDATA[Boleto]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_interac_present</key>
+		<value><![CDATA[Interac]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_pix</key>
+		<value><![CDATA[Pix]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_revolut_pay</key>
+		<value><![CDATA[Revolut Pay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_swish</key>
+		<value><![CDATA[Swish]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_mobilepay</key>
+		<value><![CDATA[MobilePay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_zip</key>
+		<value><![CDATA[CEP]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_eps</key>
+		<value><![CDATA[EPS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_fpx</key>
+		<value><![CDATA[FPX]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_giropay</key>
+		<value><![CDATA[giropay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_grabpay</key>
+		<value><![CDATA[Grabpay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_ideal</key>
+		<value><![CDATA[iDEAL]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_konbini</key>
+		<value><![CDATA[Konbini]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_link</key>
+		<value><![CDATA[Link]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_oxxo</key>
+		<value><![CDATA[OXXO]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sofort</key>
+		<value><![CDATA[Sofort]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_p24</key>
+		<value><![CDATA[Przelewy24]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_paynow</key>
+		<value><![CDATA[PayNow]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_promptpay</key>
+		<value><![CDATA[PromptPay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sepa_debit</key>
+		<value><![CDATA[Débito Direto SEPA]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_us_bank_account</key>
+		<value><![CDATA[Débito Direto ACH]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_wechat_pay</key>
+		<value><![CDATA[WeChat Pay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_twint</key>
+		<value><![CDATA[TWINT]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_connect</key>
+		<value><![CDATA[Você precisa se conectar ao Stripe para configurar os detalhes de pagamento.]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_settings</key>
+		<value><![CDATA[Configurações do Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Conectar com Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Desconectar Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Não é possível conectar?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Conectado ao Stripe com sucesso]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Desconectado do Stripe com sucesso]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sort_order</key>
+		<value><![CDATA[Ordem de classificação]]></value>
+	</definition>
+	<definition>
+		<key>stripe_test_mode</key>
+		<value><![CDATA[Modo de teste:<br /><span class="help">Defina como ON se você quiser usar a chave de teste</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_live</key>
+		<value><![CDATA[Chave Secreta ao Vivo:<br /><span class="help">Localize isto na Seção de Chaves da API do Stripe. A chave começa com sk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_live</key>
+		<value><![CDATA[Chave Publicável ao Vivo:<br /><span class="help">Localize isto na seção de chaves de API do Stripe. A chave começa com pk_live_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_test</key>
+		<value><![CDATA[Chave Secreta de Teste:<br /><span class="help">Localize isto na Seção de Chaves de API do Stripe. A chave começa com sk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_test</key>
+		<value><![CDATA[Chave Publicável de Teste:<br /><span class="help">Localize isto na seção de chaves da API do Stripe. A chave começa com pk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement</key>
+		<value><![CDATA[Tipo de liquidação:<br /><span class="help">Se definido como 'auto', então a transação será incluída na liquidação de hoje. Se definido como 'delayed', então a transação será autorizada mas não liquidada(capturada). Você deve capturar manualmente as transações dentro de 7 dias após a autorização</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_settled</key>
+		<value><![CDATA[Sucesso e liquidado:<br /><span class="help">Selecione o status principal do pedido que você deseja definir em resposta ao status do processador de pagamento</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_unsettled</key>
+		<value><![CDATA[Sucesso & não liquidado:<br /><span class="help">Selecione o status principal do pedido que você deseja definir em resposta ao status do processador de pagamento</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_decline</key>
+		<value><![CDATA[Recusa:<br /><span class="help">Status do pedido que você deseja registrar no histórico em resposta ao status do processador de pagamento. O status principal do pedido não é afetado. O pedido só será efetuado após o pagamento ser bem-sucedido.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_void</key>
+		<value><![CDATA[Anulado:<br /><span class="help">Status do pedido que você deseja definir se o pagamento for anulado em admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_refund</key>
+		<value><![CDATA[Reembolsado:<br /><span class="help">Status do pedido que você deseja definir se o pagamento for reembolsado em admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Data da Transação]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Valor]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Fundos foram capturados com sucesso]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Captura realizada com sucesso, status do pedido atualizado para sucesso - liquidado]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[O reembolso foi processado com sucesso.]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[O reembolso foi bem-sucedido, status do pedido atualizado para reembolsado]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[A anulação foi bem-sucedida, status do pedido atualizado para anulado.]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_auto</key>
+		<value><![CDATA[Automático (autorizar e capturar)]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_delayed</key>
+		<value><![CDATA[Adiado (somente autorização)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Detalhes de Pagamento]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Pagamento foi capturado]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Pagamento foi anulado]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Pagamento foi reembolsado]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Valor de Captura]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Valor do reembolso]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID da Cobrança Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Valor total autorizado]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Valor do saldo]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Reembolsar Transações]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Por favor, confirme se você deseja anular o pagamento?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Por favor, confirme que deseja capturar o pagamento?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Por favor, confirme que você deseja reembolsar o pagamento?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Reembolso]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Vazio]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Capturar]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Erro interno. Verifique o registro de erros ou os parâmetros de entrada!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Por favor, insira um valor positivo]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Não foi possível capturar, atualizar os detalhes da transação e verificar o valor capturado]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Não foi possível anular a transação, atualize e verifique os detalhes da transação]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Não foi possível reembolsar, atualize os detalhes da transação e verifique o valor do reembolso]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_test</key>
+		<value><![CDATA[A chave publicada do Stripe é obrigatória]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_live</key>
+		<value><![CDATA[Chave pública do Stripe é obrigatória]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_test</key>
+		<value><![CDATA[Chave de teste do Stripe é obrigatória]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_live</key>
+		<value><![CDATA[A chave live da Stripe é obrigatória.]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Aviso: Você não tem permissão para modificar o Pagamento Stripe!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_webhook_howto_text</key>
+		<value><![CDATA[Nota: Para concluir a configuração você deve criar webhooks no lado da conta Stripe.<br>Vá para sua <a href="https://dashboard.stripe.com/webhooks" target="_new">Seção de Desenvolvedor do Painel Stripe</a> e adicione Endpoints que recebem eventos da sua conta. Depois que o Endpoint for criado, copie o Signing Secret e salve-o nas configurações correspondentes da Extensão de Assinaturas do Stripe.]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_url</key>
+		<value><![CDATA[URL do endpoint:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_signing_secret</key>
+		<value><![CDATA[Segredo de Assinatura do Endpoint:]]></value>
+	</definition>
+</definitions>
