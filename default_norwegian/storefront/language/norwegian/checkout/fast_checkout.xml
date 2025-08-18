@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Handlekurv]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_basket</key>
+		<value><![CDATA[Rediger handlekurv]]></value>
+	</definition>
+	<definition>
+		<key>text_accept_agree</key>
+		<value><![CDATA[Ved å klikke på Bekreft bestilling, godtar og samtykker du til alle vilkår for]]></value>
+	</definition>
+	<definition>
+		<key>text_cart_items</key>
+		<value><![CDATA[Varer i handlekurven din]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Frakt]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_shipping</key>
+		<value><![CDATA[Rediger frakt]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Betaling]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_payment</key>
+		<value><![CDATA[Rediger betaling]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Bekreft]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_address</key>
+		<value><![CDATA[Leveringsadresse]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_method</key>
+		<value><![CDATA[Fraktmetode]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_address</key>
+		<value><![CDATA[Betalingsadresse]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_method</key>
+		<value><![CDATA[Betalingsmetode]]></value>
+	</definition>
+	<definition>
+		<key>text_change</key>
+		<value><![CDATA[Endre]]></value>
+	</definition>
+	<definition>
+		<key>text_comment</key>
+		<value><![CDATA[Dine kommentarer]]></value>
+	</definition>
+	<definition>
+		<key>text_discount</key>
+		<value><![CDATA[Rabattkupong]]></value>
+	</definition>
+	<definition>
+		<key>column_product</key>
+		<value><![CDATA[Produkt]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[Modell]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[Antall]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[Pris]]></value>
+	</definition>
+	<definition>
+		<key>column_total</key>
+		<value><![CDATA[Totalt]]></value>
+	</definition>
+	<definition>
+		<key>text_add_coupon</key>
+		<value><![CDATA[Rediger kupong]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_name</key>
+		<value><![CDATA[Rask utsjekk]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_fast_checkout_title</key>
+		<value><![CDATA[Hurtig utsjekk]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Rask utsjekking]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_buy_now</key>
+		<value><![CDATA[Kjøp nå]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_incorrect_request</key>
+		<value><![CDATA[Oi! Feil forespørsel.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_handler</key>
+		<value><![CDATA[Kan ikke finne betalingsbehandler! Vennligst sjekk filene %s eller %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_handler</key>
+		<value><![CDATA[Ingen betalingsprosessor tilgjengelig.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unknown_payment</key>
+		<value><![CDATA[Ukjent betaling!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unexpected</key>
+		<value><![CDATA[En uventet feil har oppstått! Vennligst prøv igjen.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unexpected_log</key>
+		<value><![CDATA[En uventet feil har oppstått. Klarte ikke å bygge ordredata basert på array: %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_handler_object</key>
+		<value><![CDATA[Kan ikke bekrefte bestillingen. Betalingshåndtereren er ikke et objekt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_system_issue</key>
+		<value><![CDATA[Oisann! Systemproblem. Kontakt nettstedsadministrator.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_payment</key>
+		<value><![CDATA[Ingen betalinger er tilgjengelige.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_product_option</key>
+		<value><![CDATA[Produktalternativfeil. %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_address</key>
+		<value><![CDATA[Ingen adresser funnet på kontoen din! Vennligst legg til en adresse på kontoen din.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_low_balance</key>
+		<value><![CDATA[Du har ikke tilstrekkelig kontosaldo for denne bestillingen!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_balance_pay</key>
+		<value><![CDATA[Det oppstod et problem ved behandlingen av kontokredittbetalingen! Vennligst prøv igjen.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_payment_address</key>
+		<value><![CDATA[Betalingsadressen mangler eller er ikke valgt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_payment_unavailable</key>
+		<value><![CDATA[Betaling er ikke tilgjengelig i din region.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_shipping_address</key>
+		<value><![CDATA[Leveringsadressen mangler eller er ikke valgt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_shipping_method</key>
+		<value><![CDATA[Leveringsmetode ble ikke valgt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_phone</key>
+		<value><![CDATA[Ditt kontakttelefonnummer er ikke oppgitt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_owner</key>
+		<value><![CDATA[Navnet ditt er ikke oppgitt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_email</key>
+		<value><![CDATA[E-posten din er ikke oppgitt eller ugyldig.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_card_number</key>
+		<value><![CDATA[Kredittkortnummer er ikke oppgitt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_cvv</key>
+		<value><![CDATA[CVV-nummer er ikke oppgitt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_expire</key>
+		<value><![CDATA[Kredittkortets utløpsdato er ikke oppgitt eller ugyldig.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_balance_apply</key>
+		<value><![CDATA[Utløpsdato for kredittkortet er ikke oppgitt eller ugyldig.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_account_created</key>
+		<value><![CDATA[Konto er opprettet og påloggingsinstruksjoner er sendt til din e-post.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_mail_login_password</key>
+		<value><![CDATA[Ditt brukernavn: %s <br>Ditt passord: %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_success_message</key>
+		<value><![CDATA[Suksess! Din ordre har blitt opprettet!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_processing_message</key>
+		<value><![CDATA[Suksess! Bestillingen behandles nå!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_payment_address</key>
+		<value><![CDATA[Betalingsadresse]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_shipping_address</key>
+		<value><![CDATA[Leveringsadresse]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_shipping_method</key>
+		<value><![CDATA[Velg en leveringsmetode]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay_with</key>
+		<value><![CDATA[Betal med:]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_credit_card</key>
+		<value><![CDATA[Kredittkort]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_account_credit</key>
+		<value><![CDATA[Kontokreditt (%s)]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay</key>
+		<value><![CDATA[Betal]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_enter_cc_details</key>
+		<value><![CDATA[Oppgi kredittkortdetaljer nedenfor]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_your_balance</key>
+		<value><![CDATA[Kredittsaldoen på kontoen din er]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay_from_balance</key>
+		<value><![CDATA[Betal %s med kreditt]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_telephone_placeholder</key>
+		<value><![CDATA[Kontakt telefonnummer Eks. +1.212.555.5555]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_same_as_shipping_address</key>
+		<value><![CDATA[Det samme gjelder levering.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_enter_address</key>
+		<value><![CDATA[Fortsett]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_card_number</key>
+		<value><![CDATA[Kortnummer]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_bill_me_monthly</key>
+		<value><![CDATA[Fakturer meg månedlig]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_create_account</key>
+		<value><![CDATA[Opprett konto]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_please_login</key>
+		<value><![CDATA[Vennligst logg inn med detaljene nedenfor]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_login</key>
+		<value><![CDATA[LOGG INN]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_reset_login</key>
+		<value><![CDATA[Registrer / Tilbakestill pålogging]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_login</key>
+		<value><![CDATA[Logg inn]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_logout</key>
+		<value><![CDATA[Logg ut]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_address</key>
+		<value><![CDATA[Adresse]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_new_customer</key>
+		<value><![CDATA[Jeg er en ny kunde]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_loading</key>
+		<value><![CDATA[Laster inn...]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_is_completed</key>
+		<value><![CDATA[Bestillingen er fullført!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_thank_you</key>
+		<value><![CDATA[Takk for din bestilling!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_start_download</key>
+		<value><![CDATA[Start nedlasting]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_downloads</key>
+		<value><![CDATA[Bestillingsnedlastinger]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_order_details</key>
+		<value><![CDATA[Ordredetaljer]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_delivery</key>
+		<value><![CDATA[Vennligst velg leveringsalternativene]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_payment</key>
+		<value><![CDATA[Vennligst velg betalingsalternativet]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_download_pending</key>
+		<value><![CDATA[Nedlasting av produktet i bestillingen din er ikke tilgjengelig ennå. Vennligst vent på ordrebekreftelse!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_info_duplicate_order</key>
+		<value><![CDATA[Det ser ut til at du nettopp har lagt inn en annen bestilling. <a href="%s">Se bestillingsdetaljer</a>]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_start_download</key>
+		<value><![CDATA[Du kan få tilgang til din nedlasting(er) med lenken nedenfor.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_order_downloads</key>
+		<value><![CDATA[Du kan få tilgang til nedlastinger av bestillinger med lenken nedenfor.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_download_subject</key>
+		<value><![CDATA[Nedlasting av bestillingen din.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_apply</key>
+		<value><![CDATA[Bruk]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_remove</key>
+		<value><![CDATA[Fjern]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_coupon_code</key>
+		<value><![CDATA[Angi kupongkode]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_comment</key>
+		<value><![CDATA[Legg til kommentar til bestillingen]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_coupon</key>
+		<value><![CDATA[Kupongen er ugyldig eller utløpt!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_back_to_cart</key>
+		<value><![CDATA[Tilbake til handlekurven]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_summary</key>
+		<value><![CDATA[Ordresammendrag]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_no_shipments_available</key>
+		<value><![CDATA[Ingen forsendelser er tilgjengelige.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_telephone_placeholder</key>
+		<value><![CDATA[Ditt telefonnummer]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_placeholder</key>
+		<value><![CDATA[Din e-post]]></value>
+	</definition>
+	<definition>
+		<key>button_history</key>
+		<value><![CDATA[Historikk]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Ugyldig postnummer]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Handlekurv]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_comment_placeholder</key>
+		<value><![CDATA[Legg til en ordrekommentar]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_not_enough_stock</key>
+		<value><![CDATA[Ikke nok på lager]]></value>
+	</definition>
+	<definition>
+		<key>order_confirm</key>
+		<value><![CDATA[Bekreft bestilling]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_login_or_email</key>
+		<value><![CDATA[Påloggingsnavn eller e-postadresse]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_password</key>
+		<value><![CDATA[Passord]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_authenticating</key>
+		<value><![CDATA[Autentiserer ...]]></value>
+	</definition>
+	<definition>
+		<key>text_message_account</key>
+		<value><![CDATA[<p>Din bestilling #%s er opprettet!</p>
+<p>Du kan se bestillingsdetaljene ved å gå til <a href="%s">fakturasiden</a>.</p>
+<p>Vennligst rett eventuelle spørsmål du har til <a href="%s">butikkeieren</a>.</p>
+<p>Takk for at du handler hos oss!</p>]]></value>
+	</definition>
+	<definition>
+		<key>text_message_guest</key>
+		<value><![CDATA[<p>Bestillingen din har blitt behandlet med suksess!</p>
+<p>Du kan se detaljene i bestillingen din ved å gå til <a href="%s">fakturasiden</a>.</p>
+<p>Vennligst rett eventuelle spørsmål du har til <a href="%s">butikkens eier</a>.</p>
+<p>Takk for at du handlet hos oss!</p>]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Handlekurv]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Frakt]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Betaling]]></value>
+	</definition>
+	<definition>
+		<key>text_guest</key>
+		<value><![CDATA[Kasse for gjester]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Bekreft]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Suksess]]></value>
+	</definition>
+	<definition>
+		<key>text_message_failed_order</key>
+		<value><![CDATA[Ops! Vi har opplevd et problem med transaksjonen din. Bestillingen din vil bli manuelt verifisert av en administrator.]]></value>
+	</definition>
+	<definition>
+		<key>text_title_failed_order_to_admin</key>
+		<value><![CDATA[Mislykket ordre #%s]]></value>
+	</definition>
+	<definition>
+		<key>text_message_failed_order_to_admin</key>
+		<value><![CDATA[Feilet eller manglende respons fra betalingsverifisering. Manuell verifisering er påkrevd!]]></value>
+	</definition>
+</definitions>

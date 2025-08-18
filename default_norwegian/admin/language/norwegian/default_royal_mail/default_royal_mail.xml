@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_royal_mail_name</key>
+		<value><![CDATA[Royal Mail]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Frakt]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Suksess: Du har endret Royal Mail-frakt!]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class</key>
+		<value><![CDATA[1. klasse (kun for Storbritannia)<br/><span class="help">Mål om levering neste dag for brev og pakker</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_rates</key>
+		<value><![CDATA[Satser for 1. klasse:<br/><span class="help">Eksempel: .1:1.58,.25:1.96,.5:2.48 Vekt:Kostnad,Vekt:Kostnad osv. I dette eksempelet 0.1kg = £1.58. Hvor KG er vektenheten din som er angitt i Royal Mail-innstillingene, og £ er butikkens basisvaluta. Butikkens vektenhet vil bli ignorert.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_compensation_rates</key>
+		<value><![CDATA[Førsteklasses kompensasjonssatser]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class</key>
+		<value><![CDATA[2. klasse (kun for Storbritannia)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_rates</key>
+		<value><![CDATA[Satser for 2. klasse]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_compensation_rates</key>
+		<value><![CDATA[]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24</key>
+		<value><![CDATA[Tracked 24® (kun for GB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_rates</key>
+		<value><![CDATA[Tracked 24® Priser]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_compensation_rates</key>
+		<value><![CDATA[Tracked 24® kompensasjonsrater]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48</key>
+		<value><![CDATA[Tracked 48® (kun for Storbritannia)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_rates</key>
+		<value><![CDATA[Sporingspriser 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_compensation_rates</key>
+		<value><![CDATA[Tracked 48® kompensasjonsrater]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24</key>
+		<value><![CDATA[Mail 24® (kun for Storbritannia)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_rates</key>
+		<value><![CDATA[Mail 24® Priser]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_compensation_rates</key>
+		<value><![CDATA[Mail 24® Kompensasjonsrater]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48</key>
+		<value><![CDATA[Mail 48® (kun for Storbritannia)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_rates</key>
+		<value><![CDATA[Mail 48® satser]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_compensation_rates</key>
+		<value><![CDATA[Mail 48® Kompensasjonsrater]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday</key>
+		<value><![CDATA[Sameday® (kun for Storbritannia)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_rates</key>
+		<value><![CDATA[Sameday® priser]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_compensation_rates</key>
+		<value><![CDATA[Sameday® kompensasjonssatser]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed</key>
+		<value><![CDATA[Spesiallevering garantert® (kun for GB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_rates</key>
+		<value><![CDATA[Special Delivery Guaranteed® Satser]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_compensation_rates</key>
+		<value><![CDATA[Spesiell Levering Garantert® Kompensasjons Satser]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb</key>
+		<value><![CDATA[Fraktmetode for gratis frakt (kun Storbritannia)<span class="help">Vennligst velg hvilken metode som skal velges når handlekurven kun inneholder produkter med gratis frakt</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_1st_class</key>
+		<value><![CDATA[1. klasse]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_2nd_class</key>
+		<value><![CDATA[2. klasse]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked24</key>
+		<value><![CDATA[Sporet 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked48</key>
+		<value><![CDATA[Sporet 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail24</key>
+		<value><![CDATA[E-post 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail48</key>
+		<value><![CDATA[E-post 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_sameday</key>
+		<value><![CDATA[Sameday®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_special_delivery_guaranteed</key>
+		<value><![CDATA[Spesiallevering garantert®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_1</key>
+		<value><![CDATA[Internasjonal prissetting Europa sone 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_2</key>
+		<value><![CDATA[Internasjonal prissetting Europa Sone 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_3</key>
+		<value><![CDATA[Internasjonal prising Europa sone 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_1</key>
+		<value><![CDATA[Internasjonal Prissetting Verdenssone 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_2</key>
+		<value><![CDATA[Internasjonal prisfastsettelse verdenssone 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_3</key>
+		<value><![CDATA[Internasjonal prissetting verdenssone 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Internasjonal standardøkonomi (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1_rates</key>
+		<value><![CDATA[Standard økonomisatser (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2</key>
+		<value><![CDATA[Internasjonal Standard Økonomi (Europa Sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2_rates</key>
+		<value><![CDATA[Standard økonomisatser (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3</key>
+		<value><![CDATA[Internasjonal Standard Økonomi (Europe Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3_rates</key>
+		<value><![CDATA[Standard økonomisatser (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1</key>
+		<value><![CDATA[Internasjonal standard økonomi (Verden sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1_rates</key>
+		<value><![CDATA[Standard økonomisatser (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2</key>
+		<value><![CDATA[Internasjonal standardøkonomi (Verden sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2_rates</key>
+		<value><![CDATA[Standard økonomirater (Verdenssone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3</key>
+		<value><![CDATA[Internasjonal Standardøkonomi (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3_rates</key>
+		<value><![CDATA[Standard økonomisatser (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Internasjonal Standardprioritet (Europa Sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1_rates</key>
+		<value><![CDATA[Standard prioritetspriser (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2</key>
+		<value><![CDATA[Internasjonal standardprioritet (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2_rates</key>
+		<value><![CDATA[Standard prioriteringssatser (Europa Sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3</key>
+		<value><![CDATA[Internasjonal standardprioritet (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3_rates</key>
+		<value><![CDATA[Standard prioritetssatser (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1</key>
+		<value><![CDATA[Internasjonal standardprioritet (verden sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1_rates</key>
+		<value><![CDATA[Standard prioritetssatser (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2</key>
+		<value><![CDATA[Internasjonal standardprioritet (Sone 2 i verden)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2_rates</key>
+		<value><![CDATA[Standard prioritetssatser (Verdenssone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3</key>
+		<value><![CDATA[Internasjonal Standard Prioritet (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3_rates</key>
+		<value><![CDATA[Standard prioritetssatser (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1</key>
+		<value><![CDATA[Internasjonal signert (Europa Sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1_rates</key>
+		<value><![CDATA[Signerte satser (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2</key>
+		<value><![CDATA[Internasjonal signert (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2_rates</key>
+		<value><![CDATA[Signerte priser (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3</key>
+		<value><![CDATA[Internasjonal signert (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3_rates</key>
+		<value><![CDATA[Signerte satser (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1</key>
+		<value><![CDATA[Internasjonal signert (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1_rates</key>
+		<value><![CDATA[Signerte satser (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2</key>
+		<value><![CDATA[Internasjonal signert (World Zone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2_rates</key>
+		<value><![CDATA[Signerte satser (Verden sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3</key>
+		<value><![CDATA[Internasjonal med signatur (Verdens sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3_rates</key>
+		<value><![CDATA[Signerte priser (Verden sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Internasjonal sporbar forsendelse med underskrift (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1_rates</key>
+		<value><![CDATA[Sporede og signerte satser (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[Internasjonal sporing med signatur (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2_rates</key>
+		<value><![CDATA[Sporings- og signatursatser (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[Internasjonal sporbar forsendelse med signatur (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3_rates</key>
+		<value><![CDATA[Satser for sporing og signatur (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1</key>
+		<value><![CDATA[Internasjonal sporet signert (Verden sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1_rates</key>
+		<value><![CDATA[Satser med sporing og signatur (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2</key>
+		<value><![CDATA[Internasjonal sporbar signert (Verdens sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2_rates</key>
+		<value><![CDATA[Sporbare takster med signatur (Verden sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3</key>
+		<value><![CDATA[Internasjonal sporing og signatur (Verden sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3_rates</key>
+		<value><![CDATA[Satser for sporing med signatur (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1</key>
+		<value><![CDATA[Internasjonal sporbar (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1_rates</key>
+		<value><![CDATA[Sporingssatser (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2</key>
+		<value><![CDATA[Internasjonal sporbar (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2_rates</key>
+		<value><![CDATA[Sporingssatser (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3</key>
+		<value><![CDATA[Internasjonal sporing (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3_rates</key>
+		<value><![CDATA[Sporede satser (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1</key>
+		<value><![CDATA[Internasjonal sporing (Verdensone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1_rates</key>
+		<value><![CDATA[Sporingssatser (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2</key>
+		<value><![CDATA[Internasjonal sporbar (Verdenssone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2_rates</key>
+		<value><![CDATA[Sporingspriser (Verdenssone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3</key>
+		<value><![CDATA[Internasjonal sporing (Verden sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3_rates</key>
+		<value><![CDATA[Sporede satser (Verdens sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Internasjonal sporing tyngre (Europe Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1_rates</key>
+		<value><![CDATA[Sporbare tyngre satser (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[Internasjonal sporet tyngre (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2_rates</key>
+		<value><![CDATA[Sporbare tyngre fraktrater (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[Internasjonal sporbar tyngre (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3_rates</key>
+		<value><![CDATA[Sporbar tyngre satser (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[Internasjonal Sporbar Tyngre (Verden Sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1_rates</key>
+		<value><![CDATA[Sporbare tyngre satser (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[Internasjonal sporbar tyngre (Verden Sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2_rates</key>
+		<value><![CDATA[Sporbare tyngre satser (Verdenssone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[Internasjonal sporet tyngre (Verden sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3_rates</key>
+		<value><![CDATA[Sporbare tyngre satser (Verden Sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free</key>
+		<value><![CDATA[Internasjonal fraktmetode for gratis frakt <span class="help">Vennligst velg hvilken metode som skal velges når handlekurven kun inneholder produkter med gratis frakt</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Standard økonomi (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Standard økonomi (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_2</key>
+		<value><![CDATA[Standardøkonomi (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_3</key>
+		<value><![CDATA[Standard økonomi (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_1</key>
+		<value><![CDATA[Standard økonomi (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_2</key>
+		<value><![CDATA[Standardøkonomi (Verdenssone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_3</key>
+		<value><![CDATA[Standardøkonomi (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Standardprioritet (Europa Sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Standard Prioritet (Europa Sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_2</key>
+		<value><![CDATA[Standardprioritet (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_3</key>
+		<value><![CDATA[Standardprioritet (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_1</key>
+		<value><![CDATA[Standardprioritet (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_2</key>
+		<value><![CDATA[Standard prioritet (Verdenssone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_3</key>
+		<value><![CDATA[Standard prioritet (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[Signert (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[Signert (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_2</key>
+		<value><![CDATA[Signert (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_3</key>
+		<value><![CDATA[Signert (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_1</key>
+		<value><![CDATA[Signert (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_2</key>
+		<value><![CDATA[Signert (Verdsone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_3</key>
+		<value><![CDATA[Signert (World Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Sporbar med signatur (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Sporbar med signatur (Europa Sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[Sporbar med signatur (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[Sporing med signatur (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_1</key>
+		<value><![CDATA[Sporbar med signatur (Verdens sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_2</key>
+		<value><![CDATA[Sporbar signert (Verden sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_3</key>
+		<value><![CDATA[Sporing med signatur (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[Sporing (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[Sporing (Europa sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_2</key>
+		<value><![CDATA[Sporbar (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_3</key>
+		<value><![CDATA[Sporbar (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_1</key>
+		<value><![CDATA[Sporbar (Verdens sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_2</key>
+		<value><![CDATA[Sporbar forsendelse (Verden Sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_3</key>
+		<value><![CDATA[Sporing (Verdenssone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Sporing Tyngre (Europa Sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Sporbar Tyngre (Europa Sone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[Tyngre med sporing (Europa sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[Sporbar tyngre (Europa sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[Sporbar Tyngre (Verdenssone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[Tyngre med sporing (Verden Sone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[Sporbar Tyngre (Verden Sone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_weight</key>
+		<value><![CDATA[Vis leveringsvekt:<br /><span class="help">Ønsker du å vise fraktvekten? (f.eks. Leveringsvekt : 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_insurance</key>
+		<value><![CDATA[Vis forsikring:<br /><span class="help">Vil du vise fraktforsikringen? (f.eks. Forsikret opptil &pound;500)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_time</key>
+		<value><![CDATA[Vis leveringstid:<br /><span class="help">Ønsker du å vise leveringstiden? (f.eks. sendes innen 3 til 5 dager)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_weight_class</key>
+		<value><![CDATA[Vektklasse:<br /><span class="help">Vektklassen for satsene dine. Butikkens vektklasse vil bli ignorert.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax</key>
+		<value><![CDATA[Skatteklasse:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax_0</key>
+		<value><![CDATA[---Ingen---]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id</key>
+		<value><![CDATA[Sted:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id_0</key>
+		<value><![CDATA[Alle lokasjoner]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advarsel: Du har ikke tillatelse til å endre Royal Mail-frakt!]]></value>
+	</definition>
+</definitions>

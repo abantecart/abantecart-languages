@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>ups_name</key>
+		<value><![CDATA[United Parcel Service]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[UPS]]></value>
+	</definition>
+	<definition>
+		<key>ups_account_number</key>
+		<value><![CDATA[Konto(Avsender) Nummer]]></value>
+	</definition>
+	<definition>
+		<key>ups_client_id</key>
+		<value><![CDATA[API-klient-ID<br/><span class="help">Du finner den i applikasjonsseksjonen din på https://developer.ups.com/apps</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_password</key>
+		<value><![CDATA[API-passord<br/><span class="help">Du kan finne det i applikasjonsseksjonen din på https://developer.ups.com/apps </span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_validate_address</key>
+		<value><![CDATA[Adressevalidering]]></value>
+	</definition>
+	<definition>
+		<key>ups_country</key>
+		<value><![CDATA[Avsenderland & Sone]]></value>
+	</definition>
+	<definition>
+		<key>ups_telephone</key>
+		<value><![CDATA[Avsenderens telefonnummer (10 sifre eller flere)]]></value>
+	</definition>
+	<definition>
+		<key>ups_address</key>
+		<value><![CDATA[Avsenderadresse]]></value>
+	</definition>
+	<definition>
+		<key>ups_city</key>
+		<value><![CDATA[Avsenders by]]></value>
+	</definition>
+	<definition>
+		<key>ups_postcode</key>
+		<value><![CDATA[Avsenders postnummer]]></value>
+	</definition>
+	<definition>
+		<key>ups_weight_code</key>
+		<value><![CDATA[Vektkode:<br /><span class="help">Tillatte kg, lbs.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_test_connection</key>
+		<value><![CDATA[Test tilkobling]]></value>
+	</definition>
+	<definition>
+		<key>ups_length_code</key>
+		<value><![CDATA[Lengdekode:<br /><span class="help">Tillatte tommer eller centimeter.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id</key>
+		<value><![CDATA[Avgiftsklasse:]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id_0</key>
+		<value><![CDATA[-- Ingen --]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id</key>
+		<value><![CDATA[Lokasjon:]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id_0</key>
+		<value><![CDATA[Alle plasseringer]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_weight</key>
+		<value><![CDATA[Standard produktvekt:<br /><span class="help">Vekt på produkter hvis ikke angitt</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_length</key>
+		<value><![CDATA[Standard produktlengde:<br /><span class="help">Produktlengde hvis ikke satt</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_width</key>
+		<value><![CDATA[Standard produktbredde:<br /><span class="help">Bredde på produktet hvis ikke angitt</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_height</key>
+		<value><![CDATA[Standard produkthøyde:<br /><span class="help">Høyde på produktet hvis ikke angitt</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging</key>
+		<value><![CDATA[Emballasje]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging_02</key>
+		<value><![CDATA[Boks]]></value>
+	</definition>
+	<definition>
+		<key>ups_manifest_order_status_id</key>
+		<value><![CDATA[Opprett forsendelse når ordrestatus blir]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label</key>
+		<value><![CDATA[Skriv ut UPS-etikett (opprinnelig ordre)]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_title</key>
+		<value><![CDATA[Printer UPS-etiketten med den opprinnelige vekten og dimensjonene som kunden oppga ved utsjekk. Eventuelle endringer som administratoren gjør i bestillingen, vil ikke påvirke etiketten.]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_suggestion</key>
+		<value><![CDATA[Endre ordrestatus til "%s" for å opprette en forsendelse via UPS API og få pakketiketter]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_weight</key>
+		<value><![CDATA[Vekt:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_height</key>
+		<value><![CDATA[Høyde:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_width</key>
+		<value><![CDATA[Bredde:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_depth</key>
+		<value><![CDATA[Dybde:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_parcel_info</key>
+		<value><![CDATA[Pakkinformasjon:]]></value>
+	</definition>
+	<definition>
+		<key>ups_shipment_created_success_message</key>
+		<value><![CDATA[UPS-forsendelsen har blitt opprettet. Se mer info <a href="%s">her</a>]]></value>
+	</definition>
+</definitions>

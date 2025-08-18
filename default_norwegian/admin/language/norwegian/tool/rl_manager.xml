@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Administrator for medieressursbibliotek]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_latest</key>
+		<value><![CDATA[Siste tilførte ressurser]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_type</key>
+		<value><![CDATA[Ressurstype]]></value>
+	</definition>
+	<definition>
+		<key>entry_type_name</key>
+		<value><![CDATA[Ressurstype-nøkkel<br/><span class="help">Denne verdien for ressurstype-nøkkel/navn kan ikke endres</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_directory</key>
+		<value><![CDATA[Ressursmappe<br/><span class="help">Mappe som inneholder ressurser for denne typen. Hvis den endres, vil eksisterende ressurser ikke være tilgjengelige og må kopieres til den nye mappen!</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_icon</key>
+		<value><![CDATA[Standardikon<br/><span class="help">Ikonbilde som skal vises i ressursoversikten (Plassering: /image/... ).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_file_types</key>
+		<value><![CDATA[Tillatte filendelser<br/><span class="help">Regex med en liste over tillatte filendelser for denne ressurstypen</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Suksess: Du har oppdatert ressurstype!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_type_id</key>
+		<value><![CDATA[Feil: Manglende ressurstype-ID!]]></value>
+	</definition>
+	<definition>
+		<key>error_type_name</key>
+		<value><![CDATA[Feil: Navnet på ressurstype må være mellom 2 og 40 tegn.]]></value>
+	</definition>
+	<definition>
+		<key>error_default_directory</key>
+		<value><![CDATA[Feil: Ressurs-typekatalogen må være mellom 2 og 64 tegn]]></value>
+	</definition>
+	<definition>
+		<key>error_default_icon</key>
+		<value><![CDATA[Feil: Ikon for ressurstype må være mellom 2 og 64 tegn]]></value>
+	</definition>
+	<definition>
+		<key>error_file_types</key>
+		<value><![CDATA[Feil: Ressurstypes filendelses-regex må være mellom 2 og 40 tegn]]></value>
+	</definition>
+</definitions>

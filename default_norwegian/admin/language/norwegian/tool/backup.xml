@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Sikkerhetskopi / Gjenopprett / Last inn]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[Last ned sikkerhetskopi]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[Suksess: Du har opprettet sikkerhetskopifilen!]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Suksess: Du har importert databasen din!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[Suksess: Du har importert xml-filen din!]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Gjenopprett sikkerhetskopi:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[Sikkerhetskopi-tabeller:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Gjenopprett sikkerhetskopi:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[Last inn XML-fil:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[Sikkerhetskopi]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[Gjenopprett]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[Oppsett og datasettlading av XML]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advarsel: Du har ikke tillatelse til å endre sikkerhetskopier!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Advarsel: Vennligst angi hva du vil sikkerhetskopiere eller importere!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[Advarsel: Filen du lastet opp var tom eller hadde feil filtype!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value><![CDATA[Advarsel: Filen ble ikke lastet opp. Kontroller post_max_size- eller file_upload-direktivene i php.ini-filen din.]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value><![CDATA[Advarsel: Fila du lastet opp ble ikke lastet inn som XML! Vennligst se loggfilen for detaljer.]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_code</key>
+		<value><![CDATA[Backup-kode (%s)<br/><span class="help">Undermapper med kodefiler, unntatt dynamiske filer som cache, loggfiler, bilder, ressurser osv</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_content</key>
+		<value><![CDATA[Backup-innhold (%s)<br/><span class="help">Undermapper med dynamiske filer som bilder, nedlastinger, ressurser osv</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_compress_backup</key>
+		<value><![CDATA[Komprimer sikkerhetskopikatalog	%s ?<br/><span class="help">Arkiv *.tar.gz vil bli opprettet.<br/>Merk: det kan ta lang tid. Ellers kan du deaktivere komprimering og finne sikkerhetskopien din i mappen %s</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[Sikkerhetskopier nå]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[Last inn]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[Planlegg sikkerhetskopi]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Suksess: Du har opprettet en planlagt sikkerhetskopieringsoppgave! <a href="%s">Se detaljer</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[MERK: Kjøringen av denne prosessen avhenger av størrelsen på AbanteCart-dataene dine og serverens virtuelle minne. Hvis prosessen avsluttes med feil, sjekk at katalog %s har tillatelsene satt til -rw-rw-rw, og <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>. Øk minneinnstillingen eller kjør sikkerhetskopien manuelt hvis prosessen fortsatt feiler.]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[For å laste ned sikkerhetskopifilen, vennligst besøk <a href="#admin#rt=tool/install_upgrade_history">Installasjon/Oppgraderingshistorikk</a>]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[Katalogen med sikkerhetskopifiler er %s</a>]]></value>
+	</definition>
+</definitions>

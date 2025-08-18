@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Avatax-integrasjon]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Hvis du har standardavgift aktivert, vil den fungere sammen med Avatax, og du må kanskje deaktivere standardavgifter.	
+Sjekk System -> Lokalisering -> <a target="_new" href="#admin#rt=localisation/tax_class">Avgiftsklasse</a><br>	
+Ikke glem å aktivere utvidelsen <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br>	
+Viktig! Beregningsrekkefølgen for Avatax Integration Total i utvidelsenes totaler må være etter delsum. Delsum-beregningen bør komme før denne utvidelsestotalen. Sjekk dette i innstillingene for utvidelsestotaler.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Kontonummer:<br /><span class="help">Kontonummer oppgitt av Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Lisensnøkkel:<br /><span class="help">Lisensnøkkel levert av Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[Tjeneste-URL:<br /><span class="help">Avalara tjeneste-URL (produksjon eller utvikling)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Navn på avgift:<br /><span class="help">Navn på avgiften som vises for kunden i totalsseksjonen</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Firmakode:<br /><span class="help">Firmakode som skal brukes med Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[Butikkens ZIP/postnummer:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Feil! Vennligst sjekk om utvidelsen er slått PÅ.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Produkt Standard Skattekode]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Standard avgiftskoder for fraktmetoder]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Fraktmetode]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Fraktavgiftskode]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test tilkobling]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Tilkoblingen er vellykket og API-legitimasjonene er korrekt konfigurert.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Test tilkobling:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Adressevalidering:<br /><span class="help">Adressevalidering vil bli utført i kundens utsjekkingssteg</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Tittel for adressevalideringsknapp:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Send dokumenter til Avatax-tjenesten:<br /><span class="help">Hvis aktivert, vil skattedokumentet sendes inn ved angitt ordrestatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Returner dokumenter på Avatax Service:<br /><span class="help">Retur vil bli registrert ved angitt ordrestatus</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Lagre]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Tøm skattekode]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Produktskattekode:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Finn skattekode]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Fritaksstatus:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[Avventer]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Godkjent]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Avvist]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Ditt skattefritaksnummer har blitt avslått.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Ditt skattefritaksnummer har blitt avvist. For å sjekke gyldigheten, vennligst gå til siden for dine kontodetaljer %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Fritaksnummer:<br /><span class="help">Skattefritaksnummer</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entity\Use Code:<br /><span class="help">AvaTax har en gruppe koder som angir typen fritak. Se standardkodene eller opprett egendefinerte koder på AvaTax-nettstedet</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Commit på ordrestatus:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Retur ved ordrestatus:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Avbryt ved ordrestatus:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Feil i kontonummeret. Sjekk det!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Begge]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[USA]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Canada]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Land for adressevalidering]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Avatax integrasjon totalt]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Aktiver transaksjonslogging]]></value>
+	</definition>
+</definitions>

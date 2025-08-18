@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Krypteringsdatabehandler]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Utvidelser]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Kryptering Data Verktøy]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Sorteringsrekkefølge:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Generer nøkkelpar]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Krypter data]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advarsel: Du har ikke tillatelse til å endre vektbasert frakt!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Feil: Det valgte nøkkel-navnparet finnes allerede!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>Denne utvidelsen krever AVANSERT konfigurasjon og oppmerksomhet</b><br/> 
+<b>Når den er aktivert og data er kryptert, finnes det ingen angremulighet og utvidelsen kan ikke deaktiveres!</b><br/> 
+Denne utvidelsen hjelper til med å administrere opprettelse av krypteringsnøkler og migrering av data fra åpne til krypterte tabeller (initial migrering)<br/> 
+<b>VÆR OPPMERKSOM:</b> du må ha PHP med SSL-kryptering <b>AKTIVERT</b>
+<br/>
+<br/>For å aktivere datakryptering vennligst les hjelpeinstruksjonene (HOW TO-knappen)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Advarsel: OpenSSL for PHP er ikke tilgjengelig eller ikke aktivert. Du kan ikke bruke kryptering eller denne utvidelsen! <br> Sjekk HJELP for denne utvidelsen for flere detaljer.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Advarsel: Datakryptering er ikke aktivert på din AbanteCart. Du kan ikke kryptere/dekryptere data ved å bruke denne utvidelsen! <br> Sjekk HJELP for denne utvidelsen for mer informasjon.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Generer nøkkelpar]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Krypter data]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Obligatoriske datafelt mangler. Vennligst sjekk oppgitte verdier.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Navn på unik nøkkelpar:<br /><span class="help">Navnet skal ikke inneholde mellomrom eller spesialtegn. Hold det kort og enkelt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Nøkkellengde (biter):<br /><span class="help">Angi bitlengde for nøkkelkryptering. Høyere tall gir sterkere kryptering, men kan redusere ytelsen (Område 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Krypteringstype:<br /><span class="help">Dette er en krypteringsalgoritme. Bruk standard RSA hvis du ikke er en avansert bruker.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Aktiver passordbasert nøkkel:<br /><span class="help">Hvis aktivert kreves det en ekstra passfrase for å dekryptere tekst ved bruk av privat nøkkel. MERK: Dette støttes ikke for øyeblikket i datakryptering.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Passordfrase eller nøkkelpassord:<br /><span class="help">Husk at passordfrasen eller nøkkel(s) vil være ubrukelig og data kan gå tapt</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Nøkkelpar er opprettet. Se nøklene nedenfor og oppbevar dem trygt.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Generering av nøkkelpar mislyktes. Sjekk innstillingene dine og sjekk feilloggen.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Navn på nøkkelpar:<br /><span class="help">Velg nøkkel som skal brukes for kryptering. VIKTIG: Husk hvilken nøkkel du brukte</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabell(er) som skal krypteres:<br /><span class="help">Viste tabell(er) vil bli kryptert med den valgte nøkkelen. Data kan kun åpnes med denne nøkkelen</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Testmodus:<br /><span class="help">Sjekk først at alt er i orden for å krypteres.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Fjern kildedata:<br /><span class="help">Fjern kilde ukrypterte dataoppføringer etter at krypteringen er fullført</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Data har blitt kryptert. <br /> Se detaljer:</b> <br/><br/> %s <br /><br /> <b>Hvis du vil at denne nøkkelen skal brukes til ny datakryptering, legg til følgende linje i filen system/config.php: define('DATA_ENCRYPTION_KEYPAIR', '%s'); </b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Resultat av datakrypteringstesten</b> Sjekk feillogg for eventuelle feil! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Datakryptering mislyktes. Sjekk innstillingene dine og feilloggen.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Viktige merknader! Etter at krypteringen er fullført vil data bli kopiert til speiltabeller med krypterte data i dem.
+<br />Følg instruksjonene for å legge til konfigurasjon i system/config.php for AbanteCart for å bytte lese/skriveoperasjoner til krypterte tabeller. </b><br /> Legg til følgende linje i konfigurasjonsfilen: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name'); <br> Dette vil være standardnøkkelen for lese/skriveoperasjoner]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Bruk av kryptering]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Uenkrypterte dataoppføringer]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Bruk "Encrypt Data"-fanen for innledende kryptering.]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Krypterte dataoppføringer]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[Nøkkel-ID]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Nøkkelnavn]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Bruk av krypterte tabeller]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Roter (endre) kryptering til ny nøkkel]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[post(er)]]></value>
+	</definition>
+</definitions>

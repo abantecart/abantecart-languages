@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[Tekstmarkedsfører]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[For å aktivere sms-meldinger, gå til System -> Innstillinger -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a> og velg TextMarketer som standard sms-driver. Ikke glem å aktivere den seksjonen du ønsker å motta sms fra (admin eller butikkfront).	
+Denne utvidelsen gjør at feltet Mobiltelefon blir tilgjengelig for administratorer og kunder. Husk at dersom du deaktiverer denne utvidelsen, skjules dette feltet. Hvis den legges til i en eksisterende butikk med kunder, må du huske at denne informasjonen vil mangle.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API brukernavn]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API-passord]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Avsender: <span class="help">Hvem meldingen er fra (opprinnelses- eller avsender-ID). Dette kan være 11 alfanumeriske tegn eller 16 kun numeriske tegn.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Testmodus]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[Nei]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[Ja]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Status for feillogging<span class="help">Hvis du vil logge alle feil i TextMarketer-utvidelsen, slå denne innstillingen PÅ.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[Mobiltelefon]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Test forbindelsen din:<span class="help">Du kan teste om API-legitimasjonene du har oppgitt er korrekte.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Feil! Vennligst sjekk om utvidelsen er slått på.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Feil! Vennligst oppgi mottakerens telefonnummer.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Se feillogg for detaljer.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Tilkoblingen er vellykket og API-legitimasjonene er konfigurert riktig.]]></value>
+	</definition>
+</definitions>

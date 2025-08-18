@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Migrering av handlekurv]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_one</key>
+		<value><![CDATA[- Trinn 1]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_two</key>
+		<value><![CDATA[- Steg 2]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_step_three</key>
+		<value><![CDATA[- Fullfør]]></value>
+	</definition>
+	<definition>
+		<key>text_description</key>
+		<value><![CDATA[Migreringsverktøyet lar deg importere data fra andre handlekurver.<br>Merk: AbanteCart støtter foreløpig kun import fra mysql.<br>Trykk på start migrering-knappen for å fortsette...]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Suksess: Dataene dine ble overført til Abantecart!]]></value>
+	</definition>
+	<definition>
+		<key>text_cart_info</key>
+		<value><![CDATA[Kilde Handlekurv Info<span class="help">Detaljer om kildens handlekurvprogram.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_db_info</key>
+		<value><![CDATA[Databaseinfo<span class="help">Merk: AbanteCart støtter for øyeblikket kun import fra mysql.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_type</key>
+		<value><![CDATA[Kildekurvtype:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_url</key>
+		<value><![CDATA[URL til opprinnelig handlekurv:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_host</key>
+		<value><![CDATA[Databasevert:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_user</key>
+		<value><![CDATA[Databasebruker:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_password</key>
+		<value><![CDATA[Passord:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_name</key>
+		<value><![CDATA[Databasenavn:]]></value>
+	</definition>
+	<definition>
+		<key>entry_db_prefix</key>
+		<value><![CDATA[Database Prefiks:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_select</key>
+		<value><![CDATA[- velg handlekurvtype -]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_osc</key>
+		<value><![CDATA[Oscommerce 2.2RC2]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_oscmax</key>
+		<value><![CDATA[OscMAX]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_zen</key>
+		<value><![CDATA[ZenCart 1.3.9h]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_cre</key>
+		<value><![CDATA[CRE Loaded 6.4.1 STD]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_opencart</key>
+		<value><![CDATA[OpenCart 1.4.9]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data</key>
+		<value><![CDATA[Velg data som skal migreres]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_categories</key>
+		<value><![CDATA[Kategorier]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_products</key>
+		<value><![CDATA[Produkter, Kategorier, Merker]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_customers</key>
+		<value><![CDATA[Kunder]]></value>
+	</definition>
+	<definition>
+		<key>entry_migrate_data_orders</key>
+		<value><![CDATA[Bestillinger]]></value>
+	</definition>
+	<definition>
+		<key>entry_erase_existing_data</key>
+		<value><![CDATA[Slette eksisterende data?]]></value>
+	</definition>
+	<definition>
+		<key>button_start_migration</key>
+		<value><![CDATA[Start migrering]]></value>
+	</definition>
+	<definition>
+		<key>button_continue</key>
+		<value><![CDATA[Fortsett]]></value>
+	</definition>
+	<definition>
+		<key>button_back</key>
+		<value><![CDATA[Tilbake]]></value>
+	</definition>
+	<definition>
+		<key>button_cancel</key>
+		<value><![CDATA[Avbryt]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advarsel: Du har ikke tillatelse til å utføre migrering!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_host</key>
+		<value><![CDATA[Vert påkrevd!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_user</key>
+		<value><![CDATA[Bruker påkrevd!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_name</key>
+		<value><![CDATA[Databasenavn påkrevd!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_connection</key>
+		<value><![CDATA[Feil: Kunne ikke koble til databasen. Vennligst sørg for at databaseserveren, brukernavnet og passordet er riktige!]]></value>
+	</definition>
+	<definition>
+		<key>error_db_not_exist</key>
+		<value><![CDATA[Feil: Databasen finnes ikke!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_type</key>
+		<value><![CDATA[Feil: Vennligst velg handlekurvtype!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_url</key>
+		<value><![CDATA[Feil: Handlekurv-URL er påkrevd!]]></value>
+	</definition>
+	<definition>
+		<key>error_cart_not_supported</key>
+		<value><![CDATA[Advarsel: Valgt handlekurv støttes ikke nå!]]></value>
+	</definition>
+	<definition>
+		<key>error_migrate_data</key>
+		<value><![CDATA[Feil: Vennligst velg minst ett element!]]></value>
+	</definition>
+	<definition>
+		<key>text_no_customers</key>
+		<value><![CDATA[Merk: Ingen kunder ble importert.]]></value>
+	</definition>
+	<definition>
+		<key>text_no_products</key>
+		<value><![CDATA[Merk: Ingen produkter ble importert.]]></value>
+	</definition>
+	<definition>
+		<key>text_no_orders</key>
+		<value><![CDATA[Merk: Ingen ordre ble importert.]]></value>
+	</definition>
+	<definition>
+		<key>text_no_brands</key>
+		<value><![CDATA[Merk: Ingen merkevare ble importert.]]></value>
+	</definition>
+	<definition>
+		<key>text_no_categories</key>
+		<value><![CDATA[Merk: Ingen produktkategori ble importert.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_source_cart</key>
+		<value><![CDATA[Advarsel: Den valgte kildekurven er tom! Vennligst sjekk database- og tabellprefiks.]]></value>
+	</definition>
+	<definition>
+		<key>text_finished</key>
+		<value><![CDATA[Migreringen er fullført.]]></value>
+	</definition>
+</definitions>
