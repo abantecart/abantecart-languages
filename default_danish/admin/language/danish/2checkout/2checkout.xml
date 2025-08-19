@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2 Kasse]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Betaling]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Succes: Du har ændret 2Checkout kontooplysninger!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[
+ Med denne udvidelse kan du bruge 2Checkout betalingssystem til at acceptere betalinger fra dine kunder. <br/> 
+ <b>Tilmeld dig gratis i dag! Brug kampagnekoden ABANTECART2CO for at give afkald på dit ansøgningsservicegebyr (en besparelse på $10,99) og begynd at sælge online i dag!</b> Besøg <a href="https://www.2checkout.com/signup/">www.2checkout.com</a> , udfyld ansøgningen, og indtast derefter koden i kampagnekodefeltet for at drage fordel af dette særlige tilbud i dag! 
+ <br/> Når du har registreret login for at få kontooplysninger for at konfigurere denne udvidelse 
+ <br/> Glem ikke at konfigurere INS URL og omdirigerings-URL her <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>. 
+ <br/><br/> Din INS URL er<h4> #storefront#rt=udvidelse/2checkout/tilbagekald</h4> 
+ <br/><br/> Konfigurer også omdirigerings-URL&#39;en og vælg Returmetode &quot;Header-omdirigering&quot;. 
+ <br/><br/> Din omdirigerings-URL er<h4> #storefront#rt=checkout/succes</h4> 
+		 ]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[2Checkout sælgerkode:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[
+ hemmelig nøgle: <br/><span class="help">Det hemmelige ord til at bekræfte transaktioner med (skal være det samme som defineret på konfigurationssiden for sælgerkontoen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Testtilstand:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Ja]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Ingen]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Ordrestatus:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Beliggenhed:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Alle lokationer]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advarsel: Du har ikke tilladelse til at ændre betaling 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Sælgerkode påkrævet!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Hemmelig nøgle påkrævet!]]></value>
+	</definition>
+</definitions>

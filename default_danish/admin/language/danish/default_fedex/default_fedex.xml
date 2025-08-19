@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Forsendelse]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Succes: Du har ændret forsendelses-FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[
+ Fedex-produktionsnøgle: <br/><span class="help">Indtast den Fedex-produktionsnøgle, der er tildelt dig, påkrævet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Fedex Produktionsadgangskode: <br/><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[
+ Kontonummer: <br/><span class="help">Indtast det fedex-kontonummer, der er tildelt dig, påkrævet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Fedex-målernummer: <br/><span class="help">Indtast FedEx-målernummer.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Adresse: <br/><span class="help">Forsendelse fra adresse.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[By: <br/><span class="help">Forsendelse fra by.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Stat: <br/><span class="help">Forsendelse fra stat (to bogstaver).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[Postnummer: <br/><span class="help">Forsendelse fra postnummer.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Land: <br/><span class="help">Forsendelse fra land (to bogstaver).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[
+ Tilbudstype: <br/><span class="help">Tilbud til bolig eller kommerciel levering.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Bolig]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Kommerciel]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[
+ ekstra gebyrer: <br/><span class="help">ekstra gebyrer pålagt fedex-tilbud.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[FEDEX Første Overnatning]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[ FEDEX prioritet natten over	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[ FEDEX Standard natten over	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[ FEDEX 2. dag ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[ FEDEX Express Saver	]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[ FEDEX jorden	]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advarsel: Du har ikke tilladelse til at ændre forsendelses-FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Konto-id påkrævet!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Fedex måler-id påkrævet!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[For at få dit målernummer og din autorisationsnøgle skal du følge disse trin:</br> 
+ Gå til <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br/> 
+ Log ind med FedEx brugernavn og adgangskode, eller klik på Registrer nu, hvis de ikke har et. <br/> 
+ Klik på &quot;Tekniske ressourcer&quot; (venstre side). <br/> 
+ Klik derunder på &quot;FedEx-webtjenester til forsendelse. <br/> 
+ Klik på &quot;Flyt til produktion&quot; (højre side). <br/> 
+ Rul ned til knappen og klik på &quot;Hent produktionsnøgle&quot;. <br/> 
+ På formularen skal du vælge &quot;Nej&quot; på spørgsmål 1. <br/> 
+ Marker det første felt på 
+ 2. <br/> 
+ Vælg &quot;Virksomhedsudvikleraftale&quot; i spørgsmålet <br/> 
+ <br/>. (brug ikke bindestreger i kontonummeret). <br/> 
+ Modtag målernummer og nøgle med det samme.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Testtilstand: <br/><span class="help">Vil du bruge live- eller testgateway-serveren?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[ Ja ]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[ Ingen ]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Test din forbindelse: <span class="help">Du kan teste, om API-legitimationsoplysninger, du har indtastet, er korrekte.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Prøve]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Forbindelsen er vellykket, og API-legitimationsoplysninger er konfigureret korrekt.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Fejl! Tjek venligst, om forlængeren er tændt.]]></value>
+	</definition>
+</definitions>
