@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Sukces: Pakiet został pomyślnie zainstalowany.]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Instalator pakietów]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_license</key>
+		<value><![CDATA[Umowa licencyjna pakietu]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_ftp</key>
+		<value><![CDATA[Parametry dostępu FTP]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_download</key>
+		<value><![CDATA[Ładowanie pakietu]]></value>
+	</definition>
+	<definition>
+		<key>text_preloading</key>
+		<value><![CDATA[Plik pakietu %file% zostanie pobrany.]]></value>
+	</definition>
+	<definition>
+		<key>text_loading</key>
+		<value><![CDATA[Pobieranie pliku.	
+Rozmiar: %s.<br/>	
+Może to zająć kilka sekund w zależności od twojego połączenia.]]></value>
+	</definition>
+	<definition>
+		<key>text_key_hint</key>
+		<value><![CDATA[Wprowadź tutaj klucz instalacyjny]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_user</key>
+		<value><![CDATA[Nazwa użytkownika FTP:]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_password</key>
+		<value><![CDATA[Hasło użytkownika FTP:]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_host</key>
+		<value><![CDATA[Host FTP:]]></value>
+	</definition>
+	<definition>
+		<key>text_i_agree</key>
+		<value><![CDATA[Zgadzam się na licencję]]></value>
+	</definition>
+	<definition>
+		<key>text_agree</key>
+		<value><![CDATA[Zgadzam się]]></value>
+	</definition>
+	<definition>
+		<key>text_retry</key>
+		<value><![CDATA[Ponów próbę]]></value>
+	</definition>
+	<definition>
+		<key>text_disagree</key>
+		<value><![CDATA[Nie zgadzam się]]></value>
+	</definition>
+	<definition>
+		<key>text_download_error</key>
+		<value><![CDATA[Przepraszamy, ale podczas przesyłania pliku wystąpił błąd.</br>Spróbuj jeszcze raz.</br>Jeśli problem będzie się powtarzał, pobierz plik z historii zamówień i zainstaluj go ręcznie.]]></value>
+	</definition>
+	<definition>
+		<key>text_continue</key>
+		<value><![CDATA[Kontynuuj]]></value>
+	</definition>
+	<definition>
+		<key>text_disclaimer_heading</key>
+		<value><![CDATA[Wyłączenie odpowiedzialności]]></value>
+	</definition>
+	<definition>
+		<key>text_disclaimer</key>
+		<value><![CDATA[<h3>Drogi Kliencie AbanteCart,</h3><br>
+Zaraz zainstalujesz rozszerzenie dostawcy zewnętrznego w swoim AbanteCart.<br><br>
+Prosimy o zapoznanie się i zrozumienie tego zastrzeżenia dotyczącego rozszerzenia dostawcy zewnętrznego, które zamierzasz zainstalować.<br><br>
+Rozszerzenia i usługi stron trzecich są dostarczane przez zewnętrznych dostawców.<br><br>
+Chociaż AbanteCart weryfikuje jakość rozszerzeń i usług dostarczanych przez dostawców zewnętrznych, AbanteCart nie gwarantuje, że wszystkie rozszerzenia stron trzecich będą działać poprawnie lub nie spowodują żadnych konfliktów w systemie. Członkowie i partnerzy AbanteCart nie ponoszą żadnej odpowiedzialności za roszczenia związane z produktami lub usługami świadczonymi przez dostawców zewnętrznych. AbanteCart nie gwarantuje jakości rozszerzeń ani usług stron trzecich. Wszelkie pytania dotyczące rozszerzeń lub usług stron trzecich kieruj do odpowiedniego dostawcy zewnętrznego.<br><br>
+Jeżeli masz wątpliwości co do jakiegokolwiek dostawcy zewnętrznego, skontaktuj się z AbanteCart pod adresem <a href="http://www.abantecart.com/contact-us" target="_blank">http://www.abantecart.com/contact-us</a><br><br>
+Z poważaniem,<br>
+AbanteCart<br>
+Ideal OpenSource Ecommerce Solution]]></value>
+	</definition>
+	<definition>
+		<key>warning_ftp</key>
+		<value><![CDATA[Ostrzeżenie: Niektóre katalogi lub pliki nie mają uprawnień do zapisu (<span id="see_details">see more details</span>)<br>Możesz zmienić uprawnienia na swoim serwerze lub użyć dostępu FTP do serwera w celu instalacji (zazwyczaj dostawca hostingu wysyła te informacje e-mailem lub możesz nimi zarządzać w narzędziach do zarządzania hostingiem)<br>]]></value>
+	</definition>
+	<definition>
+		<key>warning_already_installed</key>
+		<value><![CDATA[<p class="success">Masz już zainstalowane rozszerzenie %EXTENSION%! Jeśli chcesz kontynuować i zaktualizować, prosimy o potwierdzenie.</p>]]></value>
+	</definition>
+	<definition>
+		<key>warning_already_installed_uninstall</key>
+		<value><![CDATA[Masz już to rozszerzenie "%EXTENSION%" zainstalowane! Jeśli chcesz je przeinstalować, najpierw odinstaluj i usuń rozszerzenie.]]></value>
+	</definition>
+	<definition>
+		<key>error_pack_file_not_found</key>
+		<value><![CDATA[Błąd: Nie można wyodrębnić rozszerzenia z archiwum do %s. Sprawdź <a href="#admin#rt=tool/error_log" target="_blank">dziennik</a> w poszukiwaniu błędów]]></value>
+	</definition>
+	<definition>
+		<key>error_mp</key>
+		<value><![CDATA[Błąd Marketplace:]]></value>
+	</definition>
+	<definition>
+		<key>error_repository</key>
+		<value><![CDATA[Błąd: Nie można pobrać pliku. Błąd repozytorium lub nieprawidłowy klucz rozszerzenia. Spróbuj jeszcze raz. Jeśli problem będzie się powtarzał, pobierz plik z historii zamówień i zainstaluj go ręcznie.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_user</key>
+		<value><![CDATA[Błąd: Nazwa użytkownika FTP jest pusta.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_password</key>
+		<value><![CDATA[Błąd: hasło użytkownika FTP jest puste.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_connect</key>
+		<value><![CDATA[Błąd: Nie można połączyć się z serwerem FTP]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_login</key>
+		<value><![CDATA[Błąd: Nie można zalogować się na serwer FTP. Nieprawidłowa nazwa użytkownika lub hasło.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_path</key>
+		<value><![CDATA[Błąd: Nie można znaleźć katalogu głównego AbanteCart za pomocą ścieżki FTP.<br>Spróbuj zostawić to puste, aby wyszukiwanie zostało przeprowadzone automatycznie.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_path_array</key>
+		<value><![CDATA[Błąd: Nie można automatycznie rozpoznać katalogu głównego AbanteCart w trybie FTP.<br>Proszę wypełnić pole ścieżki FTP.<br>Sugerowane ścieżki to:]]></value>
+	</definition>
+	<definition>
+		<key>error_dir_permission</key>
+		<value><![CDATA[Nie można zapisać pliku, ponieważ katalog nie jest zapisywalny:]]></value>
+	</definition>
+	<definition>
+		<key>error_package_structure</key>
+		<value><![CDATA[Błąd: prawdopodobnie pakiet jest uszkodzony. Błąd struktury pakietu.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_config_xml</key>
+		<value><![CDATA[Error: Nie można zlokalizować pliku package.xml wewnątrz rozpakowanego rozszerzenia. Możliwe, że rozszerzenie nie zostało poprawnie rozpakowane. Sprawdź <a href="#admin#rt=tool/error_log" target="_blank">dziennik</a> w poszukiwaniu błędów.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_config2</key>
+		<value><![CDATA[Błąd: Nie można znaleźć trybu instalacji w package.xml w pakiecie.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_info_not_exists</key>
+		<value><![CDATA[Błąd: Nie można znaleźć informacji o sesji pakietu dotyczącej tego pobrania.]]></value>
+	</definition>
+	<definition>
+		<key>error_unpack</key>
+		<value><![CDATA[Błąd: Nie można rozpakować pakietu "%PACKAGE%" po pobraniu. Błąd archiwum. Zobacz dziennik błędów, aby uzyskać szczegóły.]]></value>
+	</definition>
+	<definition>
+		<key>error_move</key>
+		<value><![CDATA[Błąd: nie można przenieść kodu pakietu po rozpakowaniu. Proszę spróbować sprawdzić uprawnienia zapisu katalogu:]]></value>
+	</definition>
+	<definition>
+		<key>error_install_mode</key>
+		<value><![CDATA[Błąd: Nie można zainstalować rozszerzenia "%package%", ponieważ jest już zainstalowane. Musisz je najpierw odinstalować i usunąć lub pobrać pakiet do aktualizacji.]]></value>
+	</definition>
+	<definition>
+		<key>error_install_mode2</key>
+		<value><![CDATA[Błąd: Nie można uaktualnić rozszerzenia "%package%", ponieważ nie jest ono zainstalowane. Musisz pobrać pakiet, aby go zainstalować.]]></value>
+	</definition>
+	<definition>
+		<key>error_version_compatibility</key>
+		<value><![CDATA[Błąd: Nie można zainstalować pakietu. Wersja Twojego koszyka to <b>%CURRENT_VERSION%</b>. Wersja(y) <b>%VERSIONS%</b> jest wymagana.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_version_compatibility</key>
+		<value><![CDATA[Błąd: Nie można zaktualizować pakietu. Nowsza wersja pakietu jest już zainstalowana.]]></value>
+	</definition>
+	<definition>
+		<key>error_install</key>
+		<value><![CDATA[Błąd: Nie można zainstalować pakietu. Aby uzyskać szczegóły, zobacz System -> Dziennik błędów.]]></value>
+	</definition>
+	<definition>
+		<key>error_core_version</key>
+		<value><![CDATA[Błąd: Masz zainstalowaną wersję AbanteCart %VERSION%.<br>Ten pakiet aktualizacyjny jest przeznaczony tylko dla wersji niższych niż]]></value>
+	</definition>
+	<definition>
+		<key>text_interrupt</key>
+		<value><![CDATA[Przerwij]]></value>
+	</definition>
+	<definition>
+		<key>text_continue</key>
+		<value><![CDATA[Kontynuuj]]></value>
+	</definition>
+	<definition>
+		<key>confirm_version_incompatibility</key>
+		<value><![CDATA[Obecna kopia tego rozszerzenia nie została zweryfikowana dla Twojej wersji AbanteCart (v%s).<br>Kompilacja rozszerzenia jest określona dla AbanteCart v%s.<br>
+To nie stanowi problemu, ale jeśli zauważysz problemy lub niekompatybilność, skontaktuj się z twórcą rozszerzenia.]]></value>
+	</definition>
+	<definition>
+		<key>error_move_ftp</key>
+		<value><![CDATA[Błąd: Nie można przenieść kodu pakietu po rozpakowaniu. Prawdopodobnie ścieżka FTP jest niepoprawna.<br>Proszę także sprawdzić uprawnienia do zapisu w katalogu:]]></value>
+	</definition>
+	<definition>
+		<key>text_network_install</key>
+		<value><![CDATA[Instalacja sieciowa]]></value>
+	</definition>
+	<definition>
+		<key>text_extension_upload</key>
+		<value><![CDATA[Wgrywanie rozszerzenia]]></value>
+	</definition>
+	<definition>
+		<key>error_archive_extension</key>
+		<value><![CDATA[Błąd: Obsługiwane są tylko pliki .tar.gz.]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_file</key>
+		<value><![CDATA[Prześlij plik:]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_url</key>
+		<value><![CDATA[Wprowadź adres URL:]]></value>
+	</definition>
+	<definition>
+		<key>error_move_backup</key>
+		<value><![CDATA[Błąd: Nie można wykonać kopii zapasowej plików przed aktualizacją. Sprawdź uprawnienia do zapisu katalogu:]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_title</key>
+		<value><![CDATA[Aktualizacja rdzenia AbanteCart]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_attention</key>
+		<value><![CDATA[Uwaga!
+AbanteCart zostanie zaktualizowany do wersji %s!]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_warning</key>
+		<value><![CDATA[Nie ma możliwości cofnięcia po rozpoczęciu procesu aktualizacji.	
+Pełna kopia zapasowa bazy danych i kodu jest wysoce zalecana.	
+Najpierw przetestuj aktualizację na stronach nieprodukcyjnych.	
+Aktualizację na stronach produkcyjnych należy przeprowadzać dopiero po testach.]]></value>
+	</definition>
+	<definition>
+		<key>text_upgrade_now</key>
+		<value><![CDATA[Aktualizuj teraz!]]></value>
+	</definition>
+	<definition>
+		<key>error_additional_help_text</key>
+		<value><![CDATA[Utknąłeś? Nie ma problemu. Możesz zainstalować rozszerzenia w inny sposób. Sprawdź <a href="http://docs.abantecart.com/pages/extensions/install.html#FTPinstall" target="_blank">ten link pomocy</a>]]></value>
+	</definition>
+	<definition>
+		<key>error_notconnected</key>
+		<value><![CDATA[Nie można zaktualizować ani zainstalować rozszerzeń z rynku. Ten sklep nie jest uwierzytelniony/połączony. Proszę uwierzytelnić się i połączyć z <a href="%s">rynkiem</a>]]></value>
+	</definition>
+</definitions>

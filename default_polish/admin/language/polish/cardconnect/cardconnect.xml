@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[Aby uzyskać poświadczenia API, odwiedź https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[ID Sprzedawcy]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[Nazwa użytkownika API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[Hasło API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[Rejestrowanie:<br /><span class="help">Plik dziennika znajduje się w system/logs/cardconnect.txt</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[Test połączenia]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[Pobierz testowe dane uwierzytelniające API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[Tryb testowy]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[Domain portion to API:<br /><span class="help">Ta wartość nie powinna być zmieniana, chyba że określono inaczej przez cardConnent.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[Połączenie powiodło się i poświadczenia API zostały poprawnie skonfigurowane.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[Wszystkie lokalizacje]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[Lokalizacja]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[Zwrócone:<br /><span class="help">Status zamówienia, jaki chcesz ustawić, jeśli płatność zostanie zwrócona w admin/order</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[Decline:<br /><span class="help">Status zamówienia, który chcesz zapisać w historii w odpowiedzi na status procesora płatności. Główny status zamówienia nie ulega zmianie. Zamówienie zostanie złożone dopiero po pomyślnym zakończeniu płatności.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[Sukces & nieuregulowane:<br /><span class="help">Wybierz główny status zamówienia, który chcesz ustawić w odpowiedzi na status procesora płatności</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[Pomyślnie zakończone i rozliczone:<br /><span class="help">Wybierz główny status zamówienia, który chcesz ustawić w odpowiedzi na status procesora płatności</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[Unieważnione:<br /><span class="help">Status zamówienia, który chcesz ustawić, jeśli płatność zostanie unieważniona w admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[Auto (autoryzacja i przechwycenie)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[Opóźniona (tylko autoryzacja)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Settlement type:<br /><span class="help">Jeśli ustawiono na "auto", transakcja zostanie uwzględniona w dzisiejszym rozliczeniu. Jeśli ustawiono na 'delayed', transakcja zostanie autoryzowana, ale nie zostanie rozliczona (przechwycona). Musisz ręcznie przechwycić transakcje w ciągu 7 dni od autoryzacji</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[Maksymalna liczba zapisanych kart kredytowych: <br/><span class="help">Ustaw maksymalną liczbę kart kredytowych zapisywanych przez klientów (do 100). Jeśli ustawiono na 0 lub pozostawiono puste, zapisywanie kart nie będzie dozwolone. Uwaga dotycząca bezpieczeństwa: Dane kart kredytowych klientów są przechowywane na bezpiecznych serwerach CardConnect w celu zapewnienia maksymalnych środków bezpieczeństwa danych. Żadne dane kart kredytowych nie będą przechowywane na Twojej stronie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Data transakcji]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Kwota]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Środki zostały pomyślnie pobrane.]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Pobranie zakończyło się sukcesem, status zamówienia został zaktualizowany na sukces - rozliczony]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Zwrot został pomyślnie przetworzony.]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Zwrot zakończył się pomyślnie, status zamówienia został zaktualizowany na zrefundowany.]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Unieważnienie zakończone pomyślnie, status zamówienia został zmieniony na unieważniony.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Szczegóły płatności]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Płatność pobrana]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Płatność unieważniona]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Płatność zwrócona]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Kwota przechwycenia]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Kwota zwrotu]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID obciążenia CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[Całkowita autoryzowana kwota]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Kwota salda]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Zwroty transakcji]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Proszę potwierdzić, czy chcesz anulować płatność?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Proszę potwierdzić, że chcesz zrealizować płatność?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Proszę potwierdzić, że chcesz zwrócić płatność?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Zwrot]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Unieważnij]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Pobierz]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Błąd wewnętrzny. Sprawdź log błędów lub parametry wejściowe!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Proszę wprowadzić dodatnią kwotę]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Nie można unieważnić transakcji, odśwież i sprawdź szczegóły transakcji]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Nie można przechwycić, odświeżyć szczegółów transakcji ani sprawdzić kwoty przechwycenia]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Nie można dokonać zwrotu, odśwież szczegóły transakcji i sprawdź kwotę zwrotu]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[Aktualny status rozliczenia]]></value>
+	</definition>
+</definitions>

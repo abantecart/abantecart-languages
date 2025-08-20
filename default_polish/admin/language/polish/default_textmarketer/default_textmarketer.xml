@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[Aby włączyć wysyłanie SMS-ów przejdź do System -> Ustawienia -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/>
+i wybierz TextMarketer jako domyślny sterownik SMS. Nie zapomnij włączyć sekcji, z której chcesz otrzymywać SMS-y (z panelu administracyjnego lub ze sklepu).<br/>
+To rozszerzenie doda pole Numer telefonu komórkowego dla administratorów i klientów. Pamiętaj, że wyłączenie tego rozszerzenia spowoduje ukrycie tego pola. Jeżeli zostanie dodane do istniejącego sklepu z klientami, pamiętaj, że te informacje będą brakować.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[Nazwa użytkownika API]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[Hasło API]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Nadawca: <span class="help">Who the message is from (the originator or sender ID). This can be 11 alpha-numeric or 16 numeric only characters.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Tryb testowy]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[Nie]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[Tak]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Status rejestrowania błędów<span class="help">Jeśli chcesz rejestrować wszystkie błędy rozszerzenia TextMarketer, włącz to ustawienie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[Telefon komórkowy]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Przetestuj połączenie:<span class="help">Możesz sprawdzić, czy wprowadzone dane uwierzytelniające API są poprawne.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Błąd! Proszę sprawdzić, czy rozszerzenie jest włączone.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Błąd! Proszę podać numer telefonu odbiorcy.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Zobacz dziennik błędów, aby uzyskać szczegóły.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Połączenie zostało nawiązane pomyślnie i poświadczenia API zostały poprawnie skonfigurowane.]]></value>
+	</definition>
+</definitions>

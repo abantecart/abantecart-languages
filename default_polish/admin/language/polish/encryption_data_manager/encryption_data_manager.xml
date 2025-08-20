@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Menedżer szyfrowania danych]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Rozszerzenia]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Narzędzia do szyfrowania danych]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Kolejność sortowania:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Wygeneruj parę kluczy]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Szyfruj dane]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Ostrzeżenie: Nie masz uprawnień do modyfikowania wysyłki opartej na wadze!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Błąd: Wybrana para nazwy klucza już istnieje!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>To rozszerzenie wymaga ZAAWANSOWANEJ konfiguracji i uwagi</b><br/> 
+<b>Po włączeniu i zaszyfrowaniu danych nie ma odwrotu i rozszerzenia nie można wyłączyć!</b><br/> 
+To rozszerzenie pomaga zarządzać tworzeniem kluczy szyfrowania oraz migracją danych z otwartych do zaszyfrowanych tabel (migracja początkowa)<br/> 
+<b>UWAGA:</b> musisz mieć PHP z szyfrowaniem SSL <b>WŁĄCZONE</b>
+<br/>
+<br/>Aby włączyć szyfrowanie danych, przeczytaj instrukcję pomocy (przycisk HOW TO)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Ostrzeżenie: OpenSSL dla PHP nie jest dostępny lub nie został aktywowany. Nie możesz używać szyfrowania ani tego rozszerzenia! <br> Sprawdź POMOC dla tego rozszerzenia, aby uzyskać więcej informacji.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Ostrzeżenie: Szyfrowanie danych nie jest włączone w Twoim AbanteCart. Nie możesz szyfrować/odszyfrowywać danych za pomocą tego rozszerzenia!<br>Sprawdź POMOC tego rozszerzenia, aby uzyskać więcej informacji.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Generuj parę kluczy]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Zaszyfruj dane]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Brak wymaganych pól danych. Proszę sprawdzić podane wartości.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Unikalna nazwa pary kluczy:<br /><span class="help">Nazwa nie powinna zawierać spacji ani znaków specjalnych. Trzymaj ją krótką i prostą.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Długość klucza (bity):<br /><span class="help">Określ długość klucza szyfrowania w bitach. Większa liczba oznacza mocniejsze szyfrowanie, ale może obniżyć wydajność (zakres 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Typ szyfrowania:<br /><span class="help">Jest to algorytm szyfrowania. Użyj domyślnego RSA, jeśli nie jesteś zaawansowanym użytkownikiem.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Włącz klucz oparty na haśle:<br /><span class="help">Jeśli włączono, dodatkowa fraza hasłowa będzie wymagana do odszyfrowania tekstu przy użyciu klucza prywatnego. UWAGA. Obecnie nie jest to obsługiwane w szyfrowaniu danych.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Fraza lub hasło klucza:<br /><span class="help">Pamiętaj, że fraza lub klucz(e) będą bezużyteczne i dane mogą zostać utracone</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Para kluczy została utworzona. Zobacz klucze poniżej i przechowuj je w bezpiecznym miejscu.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Generowanie pary kluczy nie powiodło się. Sprawdź swoje ustawienia i sprawdź dziennik błędów.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Nazwa pary kluczy:<br /><span class="help">Wybierz klucz, który ma być użyty do szyfrowania. WAŻNE: Zapamiętaj użyty klucz</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabela(y) do zaszyfrowania:<br /><span class="help">Pokazane tabela(y) zostaną zaszyfrowane wybranym kluczem. Dane można otworzyć wyłącznie za pomocą tego klucza</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Test Mode:<br /><span class="help">Sprawdź najpierw, czy wszystko jest w porządku, aby zostało zaszyfrowane.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Usuń dane źródłowe:<br /><span class="help">Usuń niezaszyfrowane rekordy danych źródłowych po zakończeniu szyfrowania</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Dane zostały zaszyfrowane. <br />	Zobacz szczegóły:</b> <br/><br/> %s <br /><br /> <b>Jeśli chcesz, aby ten klucz był używany do szyfrowania nowych danych, dodaj następującą linię do pliku system/config.php : define('DATA_ENCRYPTION_KEYPAIR', '%s'); </b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Wynik testu szyfrowania danych</b> Sprawdź dziennik błędów w poszukiwaniu możliwych błędów! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Szyfrowanie danych nie powiodło się. Sprawdź ustawienia i sprawdź dziennik błędów.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Ważne uwagi! Po zakończeniu szyfrowania dane zostaną skopiowane do tabel lustrzanych z danymi w nich zaszyfrowanymi. 
+<br />Postępuj zgodnie z instrukcjami, aby dodać konfigurację do system/config.php w AbanteCart, aby przełączyć operacje odczytu/zapisu na zaszyfrowane tabele. </b><br /> Dodaj następującą linię do pliku konfiguracyjnego: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name'); <br> To będzie domyślny klucz dla operacji odczytu/zapisu.]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Użycie szyfrowania]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Niezaszyfrowane rekordy danych]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Użyj zakładki 'Encrypt Data' do początkowego szyfrowania.]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Zaszyfrowane rekordy danych]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[ID klucza]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Nazwa klucza]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Użycie szyfrowanych tabel]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Obróć (zmień) szyfrowanie na nowy klucz]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[rekord(y)]]></value>
+	</definition>
+</definitions>
