@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Import a export]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Průvodce importem dat]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[Import]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Průvodce importem]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[Export]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[Tabulky]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[Možnosti]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Formát souboru:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Název souboru:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[Nahrát importní soubor]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Můžete nahrát soubor CSV nebo textový soubor pro import dat. Pro strukturu dat můžete použít proprietární formát (viz export) nebo volný formát.<br/>U dat ve volném formátu budete muset ručně namapovat datové prvky nebo použít JSON mapu.<br/>Pro import ve volném formátu jsou podporovány pouze produkty, kategorie a značky/výrobci.<br/>Sloupec Action lze zahrnout, aby import provedl 'insert', 'update' nebo 'delete'. Výchozí akce je update_or_insert.]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Vyberte cílovou tabulku a odpovídající pole v databázi pro každý sloupec importovaných dat. Pokud není vybráno žádné pole, budou data ze sloupce ignorována. <br/> <b>Poznámka:</b> Hodnoty dat specifické pro jazyk a obchod budou přiřazeny k aktuálně vybranému obsahovému úložišti a jazyku.]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Při tomto importu bude načteno a zpracováno %s záznamů!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Probíhající importní proces]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[Načíst]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Celkem načteno:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Soubor k importu:<br><span class="help">Podporované formáty souborů pro import: CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[Rozsah ID od:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[Komu:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[Oddělovač CSV/TXT:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Všechna pole budou uzavřena v dvojitých uvozovkách.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Všechna pole musí být uzavřena v dvojitých uvozovkách.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Spustit v testovacím režimu <br><span class="help">Doporučuje se nejdříve provést import dat v testovacím režimu, abyste zjistili případné problémy.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Sloupec souboru pro import]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Ukázka dat pro import]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Aktualizovat, pokud existuje]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Rozdělte data podle]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Vyberte, zkopírujte a uložte toto mapování pro budoucí použití.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Export mapování]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Vložte do pole níže předem uložená mapovací data]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Načíst mapování]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Nepodporovaný formát importního souboru!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Chyba při importu XML souboru!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Chyba při importu CSV/TXT souboru! Zkontrolujte oddělovač polí.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Data jsou prázdná nebo poškozená.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[Soubor je prázdný.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[Adresář záloh musí být zapisovatelný, aby export CSV/TXT fungoval.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Aktualizováno:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[Vytvořeno:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[Chyby:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Zobrazit podrobnosti]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Žádné podřízené položky]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Několik chyb.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Testovací běh dokončen. Celkem SQL dotazů:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Seřadit podle:]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Nebyla vybrána žádná cílová tabulka nebo pole pro import!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Chybí požadované datové pole '%s' pro cílovou tabulku!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Dočasný adresář %s není zapisovatelný! Prosím změňte oprávnění, abyste mohli pokračovat.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Prázdný požadavek.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Proces importu byl dokončen. %s řádek(ů) bylo zpracováno.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s řádek(ů) s chybami.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Pro více podrobností viz <a href="%s" target="_new">protokolový soubor %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Úloha byla úspěšně přerušena.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Naplánovat import]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Úspěch: Úspěšně jste vytvořili naplánovanou importní úlohu! <a href="%s">Zobrazit podrobnosti</a>]]></value>
+	</definition>
+</definitions>

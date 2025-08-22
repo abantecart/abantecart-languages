@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Správce šifrovacích dat]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Rozšíření]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Nástroje pro šifrování dat]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Stav:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Pořadí řazení:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Vygenerovat klíčový pár]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Šifrovat data]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Upozornění: Nemáte oprávnění měnit dopravu podle hmotnosti!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Chyba: Vybraný pár klíče a názvu již existuje!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>Toto rozšíření vyžaduje POKROČILÉ nastavení a pozornost</b><br/>
+<b>Po povolení a zašifrování dat už není možné vrátit zpět a rozšíření nelze deaktivovat!</b><br/>
+Toto rozšíření pomáhá spravovat vytváření šifrovacích klíčů a migraci dat z otevřených do šifrovaných tabulek (počáteční migrace)<br/>
+<b>UPOZORNĚNÍ:</b> musíte mít v PHP povolené SSL šifrování <b>POVOLENO</b>
+<br/>
+<br/>Pro povolení šifrování dat si přečtěte nápovědu (tlačítko JAK NA TO)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Varování: OpenSSL pro PHP není k dispozici nebo není aktivováno. Nemůžete používat šifrování ani toto rozšíření!<br> Zkontrolujte HELP pro toto rozšíření pro více podrobností.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Varování: šifrování dat není ve vašem AbanteCartu povoleno. Nemůžete pomocí tohoto rozšíření šifrovat/dešifrovat data!<br>Podívejte se do Nápovědy k tomuto rozšíření pro více podrobností.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Vygenerovat klíčový pár]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Šifrovat data]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Chybí požadovaná datová pole. Zkontrolujte prosím zadané hodnoty.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Jedinečný název páru klíčů:<br /><span class="help">Název by neměl obsahovat žádné mezery ani speciální znaky. Udržujte ho krátký a jednoduchý.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Délka klíče (bity):<br /><span class="help">Zadejte délku šifrovacího klíče v bitech. Vyšší číslo představuje silnější šifrování, ale může zpomalit výkon (Rozsah 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Typ šifrování:<br /><span class="help">Toto je šifrovací algoritmus. Pokud nejste pokročilý uživatel, použijte výchozí RSA.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Povolit klíč zabezpečený heslem:<br /><span class="help">Pokud je tato volba povolena, bude pro dešifrování textu pomocí privátního klíče vyžadována další heslová fráze. POZNÁMKA. V současné době toto není podporováno při šifrování dat.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Přístupová fráze nebo heslo klíče:<br /><span class="help">Pamatujte, že přístupová fráze nebo klíč(e) budou k ničemu a data mohou být ztracena</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Dvojice klíčů byla vytvořena. Podívejte se na klíče níže a uchovejte je v bezpečí.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Generování klíčového páru selhalo. Zkontrolujte své nastavení a protokol chyb.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Jméno klíčového páru:<br /><span class="help">Vyberte klíč, který bude použit pro šifrování. DŮLEŽITÉ: Zapamatujte si klíč, který jste použili.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabulka(y) k zašifrování:<br /><span class="help">Zobrazené tabulka(y) budou zašifrovány vybraným klíčem. Data lze otevřít pouze tímto klíčem</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Testovací režim:<br /><span class="help">Nejdříve zkontrolujte, že je vše připraveno k zašifrování.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Odstranit zdrojová data:<br /><span class="help">Odstranit nešifrované zdrojové záznamy dat po dokončení šifrování</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Data byla zašifrována. <br />	Viz podrobnosti:</b> <br/><br/> %s <br /><br /> <b>Pokud chcete, aby tento klíč byl použit pro šifrování nových dat, přidejte následující řádek do souboru system/config.php : define('DATA_ENCRYPTION_KEYPAIR', '%s'); </b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Výsledek testu šifrování dat</b> Zkontrolujte záznam chyb pro případné chyby! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Šifrování dat selhalo. Zkontrolujte svá nastavení a zkontrolujte protokol chyb.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[Důležité poznámky! Po dokončení šifrování budou data zkopírována do zrcadlových tabulek, ve kterých budou data zašifrována.	
+Postupujte podle pokynů pro přidání konfigurace do system/config.php, aby AbanteCart přepnul operace čtení/zápis na šifrované tabulky.	
+Přidejte následující řádek do konfiguračního souboru:	
+define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name');	
+Toto bude výchozí klíč pro operace čtení/zápis.]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Použití šifrování]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Nešifrované záznamy dat]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Použijte kartu 'Šifrovat data' pro počáteční šifrování]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Šifrované datové záznamy]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[ID klíče]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Název klíče]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Použití šifrovaných tabulek]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Rotovat (změnit) šifrování na nový klíč]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[záznam(y)]]></value>
+	</definition>
+</definitions>

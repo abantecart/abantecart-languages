@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Platba Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[Pro dokončení nastavení plateb Authorize.Net jsou vyžadována další nastavení. Viz záložka Další nastavení.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Platba]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Úspěch: Upravili jste nastavení plateb Authorize.Net!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[Umístění:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[Všechna umístění]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[ID přihlášení API:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Testovací režim:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[Transakční klíč:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[Veřejný klíč:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[Automatický výběr:<br /><span class="help">Můžete nastavit přeskočení stránky výběru platby, pokud je k dispozici pouze jedna platební možnost. Tato platební metoda bude vybrána automaticky</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[Ukládání kreditních karet:<br /><span class="help">Nastavte maximální počet kreditních karet, které si mohou zákazníci uložit (až 100). Pokud nastavíte hodnotu 0 nebo ponecháte pole prázdné, ukládání karet nebude povoleno. Bezpečnostní poznámka: Údaje o kreditních kartách zákazníků jsou ukládány na zabezpečených serverech authorizenet, aby byla zajištěna maximální bezpečnost dat. Na vašem webu nebudou uloženy žádné údaje o kreditních kartách.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[Potřebujete se připojit k Authorize.net, abyste nastavili platební údaje.]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Nastavení Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Připojit se k Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Odpojit Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Nelze se připojit?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Úspěšně připojeno k Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Úspěšně odpojeno od Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[Pořadí řazení]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Testovací režim:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[Živý tajný klíč:<br /><span class="help">Najděte jej v sekci API klíčů Authorize.Net. Klíč začíná na sk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[Živý publikovatelný klíč:<br /><span class="help">Najdete jej v sekci API klíčů Authorize.Net. Klíč začíná pk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[Testovací tajný klíč:<br /><span class="help">Najděte to v sekci API klíčů Authorize.Net. Klíč začíná na sk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[Testovací veřejný klíč:<br /><span class="help">Najděte jej v sekci API klíčů Authorize.Net. Klíč začíná na pk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[Typ vyrovnání:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[Pouze autorizovat]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[Autorizovat & Zachytit]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[Úspěšný a zúčtován:<br /><span class="help">Vyberte hlavní stav objednávky, který chcete nastavit v reakci na stav platebního procesoru</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[Úspěšné a nezúčtované:<br /><span class="help">Vyberte hlavní stav objednávky, který chcete nastavit v reakci na stav platebního procesoru</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Datum transakce]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Částka]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[Auto (autorizovat a zachytit)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[Zpožděno (pouze autorizace)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Platební údaje]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID transakce Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[Stav transakce]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Celková autorizovaná částka]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Zůstatková částka]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Interní chyba. Zkontrolujte protokol chyb nebo vstupní parametry!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Zadejte prosím kladnou částku]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[Testovací klíč Authorize.Net je vyžadován]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[Je vyžadován živý klíč Authorize.Net.]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varování: Nemáte oprávnění upravovat Authorize.Net Payment!]]></value>
+	</definition>
+</definitions>

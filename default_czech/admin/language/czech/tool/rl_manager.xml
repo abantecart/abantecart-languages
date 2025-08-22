@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Správce knihovny mediálních zdrojů]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_latest</key>
+		<value><![CDATA[Nejnověji přidané zdroje]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_type</key>
+		<value><![CDATA[typ zdroje]]></value>
+	</definition>
+	<definition>
+		<key>entry_type_name</key>
+		<value><![CDATA[Klíč typu zdroje<br/><span class="help">Tato hodnota klíče/názvu typu zdroje nelze změnit</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_directory</key>
+		<value><![CDATA[Resource directory<br/><span class="help">Adresář určující umístění zdrojů pro tento typ. Pokud se změní, stávající zdroje nebudou přístupné a bude je třeba zkopírovat do nového adresáře!</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_icon</key>
+		<value><![CDATA[Výchozí ikona<br/><span class="help">Obrázek ikony, který se zobrazí v seznamu zdrojů (Umístění: /image/... ).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_file_types</key>
+		<value><![CDATA[Povolené přípony souborů<br/><span class="help">Regulární výraz se seznamem povolených přípon souborů pro tento typ zdroje</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Úspěch: Aktualizovali jste typ zdroje!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_type_id</key>
+		<value><![CDATA[Chyba: Chybí ID typu zdroje!]]></value>
+	</definition>
+	<definition>
+		<key>error_type_name</key>
+		<value><![CDATA[Chyba: Název typu zdroje musí mít mezi 2 a 40 znaky]]></value>
+	</definition>
+	<definition>
+		<key>error_default_directory</key>
+		<value><![CDATA[Chyba: Adresář typu zdroje musí mít délku od 2 do 64 znaků]]></value>
+	</definition>
+	<definition>
+		<key>error_default_icon</key>
+		<value><![CDATA[Chyba: Ikona typu zdroje musí mít mezi 2 a 64 znaky.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_types</key>
+		<value><![CDATA[Chyba: Regulární výraz pro přípony souborů typu zdroje musí mít délku mezi 2 a 40 znaky.]]></value>
+	</definition>
+</definitions>

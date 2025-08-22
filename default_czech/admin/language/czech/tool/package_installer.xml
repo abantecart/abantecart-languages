@@ -1,0 +1,257 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Úspěch: balíček byl úspěšně nainstalován.]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Instalátor balíčků]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_license</key>
+		<value><![CDATA[Licenční smlouva balíčku]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_ftp</key>
+		<value><![CDATA[Parametry přístupu k FTP]]></value>
+	</definition>
+	<definition>
+		<key>heading_title_download</key>
+		<value><![CDATA[Načítání balíčku]]></value>
+	</definition>
+	<definition>
+		<key>text_preloading</key>
+		<value><![CDATA[Soubor balíčku %file% bude stažen.]]></value>
+	</definition>
+	<definition>
+		<key>text_loading</key>
+		<value><![CDATA[Stahování souboru. Velikost: %s.<br/>To může trvat několik sekund v závislosti na vašem připojení.]]></value>
+	</definition>
+	<definition>
+		<key>text_key_hint</key>
+		<value><![CDATA[Zadejte zde instalační klíč]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_user</key>
+		<value><![CDATA[FTP uživatelské jméno:]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_password</key>
+		<value><![CDATA[FTP uživatelské heslo:]]></value>
+	</definition>
+	<definition>
+		<key>text_ftp_host</key>
+		<value><![CDATA[FTP hostitel:]]></value>
+	</definition>
+	<definition>
+		<key>text_i_agree</key>
+		<value><![CDATA[Souhlasím s licencí]]></value>
+	</definition>
+	<definition>
+		<key>text_agree</key>
+		<value><![CDATA[Souhlasím]]></value>
+	</definition>
+	<definition>
+		<key>text_retry</key>
+		<value><![CDATA[Zkusit znovu]]></value>
+	</definition>
+	<definition>
+		<key>text_disagree</key>
+		<value><![CDATA[Nesouhlasím]]></value>
+	</definition>
+	<definition>
+		<key>text_download_error</key>
+		<value><![CDATA[Je nám líto, ale při nahrávání souboru došlo k chybě.</br>Zkuste to ještě jednou.</br>Pokud problém přetrvává, stáhněte si soubor ve svém přehledu objednávek a nainstalujte ho ručně.]]></value>
+	</definition>
+	<definition>
+		<key>text_continue</key>
+		<value><![CDATA[Pokračovat]]></value>
+	</definition>
+	<definition>
+		<key>text_disclaimer_heading</key>
+		<value><![CDATA[Prohlášení o vyloučení odpovědnosti]]></value>
+	</definition>
+	<definition>
+		<key>text_disclaimer</key>
+		<value><![CDATA[<h3>Vážený zákazníku AbanteCart,</h3><br>
+Chystáte se nainstalovat rozšíření třetích stran do svého AbanteCartu.<br><br>
+Přečtěte si prosím a porozumějte tomuto prohlášení o vyloučení odpovědnosti týkajícím se rozšíření třetích stran, která se chystáte nainstalovat.<br><br>
+Rozšíření a služby třetích stran jsou poskytovány prodejci třetích stran.<br><br>
+Ačkoli AbanteCart ověřuje kvalitu rozšíření a služeb poskytovaných třetími stranami, AbanteCart nezaručuje, že všechna rozšíření třetích stran budou fungovat správně nebo nezpůsobí žádné konflikty v systému.<br>
+Členové a partneři AbanteCart nejsou za žádných okolností odpovědní ani zodpovědní za nároky týkající se produktů nebo služeb poskytovaných třetími stranami. AbanteCart nezaručuje kvalitu rozšíření ani služeb třetích stran. Své dotazy ohledně rozšíření nebo služeb třetích stran směřujte prosím na příslušného prodejce třetí strany.<br><br>
+Pokud máte obavy ohledně jakéhokoli poskytovatele třetích stran, kontaktujte AbanteCart na <a href="http://www.abantecart.com/contact-us" target="_blank">http://www.abantecart.com/contact-us</a><br><br>
+S pozdravem,<br>
+AbanteCart<br>
+Ideální open source e-commerce řešení]]></value>
+	</definition>
+	<definition>
+		<key>warning_ftp</key>
+		<value><![CDATA[Warning: Některému adresáři nebo souboru chybí oprávnění pro zápis (<span id="see_details">zobrazit více podrobností</span>)<br>Můžete změnit oprávnění na vašem serveru nebo<br>použít ftp přístup k vašemu serveru pro instalaci (obvykle poskytovatel hostingu tyto informace zasílá e-mailem nebo je můžete spravovat v nástrojích pro správu hostingu)<br>]]></value>
+	</definition>
+	<definition>
+		<key>warning_already_installed</key>
+		<value><![CDATA[<p class="success">Rozšíření %EXTENSION% již máte nainstalované! Pokud chcete pokračovat a aktualizovat, potvrďte prosím.</p>]]></value>
+	</definition>
+	<definition>
+		<key>warning_already_installed_uninstall</key>
+		<value><![CDATA[Toto rozšíření "%EXTENSION%" již máte nainstalované! Pokud chcete pokračovat v přeinstalaci, nejprve prosím toto rozšíření odinstalujte a odstraňte.]]></value>
+	</definition>
+	<definition>
+		<key>error_pack_file_not_found</key>
+		<value><![CDATA[Chyba: Nelze extrahovat rozšíření z archivu do %s. Zkontrolujte <a href="#admin#rt=tool/error_log" target="_blank">protokol chyb</a>]]></value>
+	</definition>
+	<definition>
+		<key>error_mp</key>
+		<value><![CDATA[Chyba tržiště:]]></value>
+	</definition>
+	<definition>
+		<key>error_repository</key>
+		<value><![CDATA[Chyba: Nelze stáhnout soubor. Chyba repozitáře nebo neplatný klíč rozšíření. Zkuste to znovu. Pokud problém přetrvává, stáhněte soubor ve svém přehledu objednávek a nainstalujte jej ručně.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_user</key>
+		<value><![CDATA[Chyba: Uživatelské jméno FTP je prázdné.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_password</key>
+		<value><![CDATA[Chyba: FTP uživatelské heslo je prázdné.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_connect</key>
+		<value><![CDATA[Chyba: Nelze se připojit k ftp-serveru]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_login</key>
+		<value><![CDATA[Chyba: Nelze se přihlásit k ftp-serveru. Neplatné uživatelské jméno nebo heslo.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_path</key>
+		<value><![CDATA[Chyba: Nelze najít kořenový adresář AbanteCartu podle FTP cesty.<br>Zkuste ji ponechat prázdnou pro automatické vyhledávání.]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_path_array</key>
+		<value><![CDATA[Chyba: Nelze automaticky rozpoznat kořenový adresář AbanteCart v režimu FTP.<br>Vyplňte prosím pole pro FTP cestu.<br>Návrhy cest jsou:]]></value>
+	</definition>
+	<definition>
+		<key>error_dir_permission</key>
+		<value><![CDATA[Nelze uložit soubor, protože adresář není zapisovatelný:]]></value>
+	</definition>
+	<definition>
+		<key>error_package_structure</key>
+		<value><![CDATA[Chyba: Pravděpodobně je balíček poškozen. Chyba ve struktuře balíčku.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_config_xml</key>
+		<value><![CDATA[Chyba: Nebyl nalezen soubor package.xml v rozbaleném rozšíření. Možná rozšíření nebylo správně rozbaleno. Zkontrolujte <a href="#admin#rt=tool/error_log" target="_blank">záznam</a> chyb.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_config2</key>
+		<value><![CDATA[Chyba: Nelze najít režim instalace v package.xml uvnitř balíčku.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_info_not_exists</key>
+		<value><![CDATA[Chyba: Nelze najít informace o balíčku session pro toto stahování.]]></value>
+	</definition>
+	<definition>
+		<key>error_unpack</key>
+		<value><![CDATA[Chyba: Nelze po stažení rozbalit balíček "%PACKAGE%". Chyba archivu. Podrobnosti najdete v chybovém protokolu.]]></value>
+	</definition>
+	<definition>
+		<key>error_move</key>
+		<value><![CDATA[Chyba: Nelze přesunout kód balíčku po rozbalení. Zkuste zkontrolovat oprávnění pro zápis do adresáře:]]></value>
+	</definition>
+	<definition>
+		<key>error_install_mode</key>
+		<value><![CDATA[Chyba: Nelze nainstalovat rozšíření "%package%", protože je již nainstalováno.	
+Nejprve ho musíte odinstalovat a smazat, nebo získat balíček pro aktualizaci.]]></value>
+	</definition>
+	<definition>
+		<key>error_install_mode2</key>
+		<value><![CDATA[Chyba: Nelze aktualizovat rozšíření "%package%", protože není nainstalováno. Musíte získat balíček k instalaci.]]></value>
+	</definition>
+	<definition>
+		<key>error_version_compatibility</key>
+		<value><![CDATA[Chyba: Nelze nainstalovat balíček. Vaše verze košíku je <b>%CURRENT_VERSION%</b>. Požadována je verze(y) <b>%VERSIONS%</b>.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_version_compatibility</key>
+		<value><![CDATA[Chyba: Nelze aktualizovat balíček. Novější verze balíčku je již nainstalována.]]></value>
+	</definition>
+	<definition>
+		<key>error_install</key>
+		<value><![CDATA[Chyba: Nelze nainstalovat balíček. Podrobnosti najdete v Systém -> Protokol chyb.]]></value>
+	</definition>
+	<definition>
+		<key>error_core_version</key>
+		<value><![CDATA[Chyba: Máte nainstalovanou verzi AbanteCart %VERSION%.<br>Tento aktualizační balíček je určen pouze pro verze nižší než]]></value>
+	</definition>
+	<definition>
+		<key>text_interrupt</key>
+		<value><![CDATA[Přerušit]]></value>
+	</definition>
+	<definition>
+		<key>text_continue</key>
+		<value><![CDATA[Pokračovat]]></value>
+	</definition>
+	<definition>
+		<key>confirm_version_incompatibility</key>
+		<value><![CDATA[Aktuální kopie tohoto rozšíření není ověřena pro vaši verzi AbanteCartu (v%s).<br>Sestavení tohoto rozšíření je určeno pro AbanteCart v%s.<br>
+To není problém, ale pokud zaznamenáte problémy nebo nekompatibilitu, kontaktujte vývojáře rozšíření.]]></value>
+	</definition>
+	<definition>
+		<key>error_move_ftp</key>
+		<value><![CDATA[Chyba: Nelze přesunout kód balíčku po rozbalení. Pravděpodobně je chybně nastavená FTP cesta.<br>Také prosím zkontrolujte oprávnění pro zápis do adresáře:]]></value>
+	</definition>
+	<definition>
+		<key>text_network_install</key>
+		<value><![CDATA[Síťová instalace]]></value>
+	</definition>
+	<definition>
+		<key>text_extension_upload</key>
+		<value><![CDATA[Nahrání rozšíření]]></value>
+	</definition>
+	<definition>
+		<key>error_archive_extension</key>
+		<value><![CDATA[Chyba: Jsou podporovány pouze soubory .tar.gz.]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_file</key>
+		<value><![CDATA[Nahrát soubor:]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_url</key>
+		<value><![CDATA[Vložit URL:]]></value>
+	</definition>
+	<definition>
+		<key>error_move_backup</key>
+		<value><![CDATA[Chyba: Nelze zálohovat soubory před aktualizací. Zkontrolujte práva pro zápis do adresáře:]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_title</key>
+		<value><![CDATA[Aktualizace jádra AbanteCart]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_attention</key>
+		<value><![CDATA[Pozor!
+AbanteCart se chystá na aktualizaci na verzi %s!]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_warning</key>
+		<value><![CDATA[Po zahájení procesu upgradu nelze vrátit zpět.	
+Důrazně se doporučuje kompletní záloha databáze a kódu.	
+Nejprve otestujte upgrade na neprodukčních webech. Upgrade na produkčních webech by měl být proveden až po testování.]]></value>
+	</definition>
+	<definition>
+		<key>text_upgrade_now</key>
+		<value><![CDATA[Aktualizujte nyní!]]></value>
+	</definition>
+	<definition>
+		<key>error_additional_help_text</key>
+		<value><![CDATA[Zasekli jste se? Žádný problém. Rozšíření můžete nainstalovat i jiným způsobem. Podívejte se na <a href="http://docs.abantecart.com/pages/extensions/install.html#FTPinstall" target="_blank">tento odkaz nápovědy</a>]]></value>
+	</definition>
+	<definition>
+		<key>error_notconnected</key>
+		<value><![CDATA[Nelze aktualizovat ani nainstalovat rozšíření z tržiště. Tento obchod není autentizován/připojen. Prosím, autentizujte se a připojte se k <a href="%s">tržišti</a>.]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[Pro povolení zasílání SMS přejděte do Systém -> Nastavení -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/>
+a vyberte TextMarketer jako výchozí SMS-ovladač. Nezapomeňte také povolit sekci, ze které chcete SMS přijímat (administrace nebo veřejné části obchodu).<br/>
+Toto rozšíření přidá pole Mobilní telefon pro administrátory a zákazníky. Pamatujte, že deaktivace tohoto rozšíření toto pole skryje.	
+Pokud je rozšíření přidáno do existujícího obchodu se zákazníky, mějte na paměti, že tyto informace budou chybět.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[Uživatelské jméno API]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API heslo]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Odesílatel: <span class="help">Od koho zpráva pochází (ID původce nebo odesílatele). Může obsahovat 11 alfanumerických nebo 16 čistě číselných znaků.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Testovací režim]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[Ne]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[Ano]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Stav protokolování chyb<span class="help">Pokud chcete zaznamenávat všechny chyby rozšíření TextMarketer, zapněte toto nastavení.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[Mobilní telefon]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Otestujte své připojení:<span class="help">Můžete otestovat, zda jsou zadané přihlašovací údaje API správné.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Chyba! Zkontrolujte, zda je rozšíření zapnuto.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Chyba! Prosím zadejte telefonní číslo příjemce.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Podívejte se do protokolu chyb pro podrobnosti.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Připojení bylo úspěšné a přihlašovací údaje k API jsou správně nakonfigurovány.]]></value>
+	</definition>
+</definitions>

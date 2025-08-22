@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Záloha / Obnovení / Načíst]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[Stáhnout zálohu]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[Úspěch: Záložní soubor byl úspěšně vytvořen!]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Úspěch: Databázi jste úspěšně importovali!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[Úspěch: Úspěšně jste importovali svůj xml!]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Obnovit zálohu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[Tabulky k zálohování:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Obnovit zálohu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[Načíst XML soubor:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[Záloha]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[Obnovit]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[Načíst XML rozvržení a datové sady]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varování: Nemáte oprávnění upravovat zálohy!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Upozornění: Prosím, nastavte, co chcete zálohovat nebo importovat!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[Varování: Soubor, který jste nahráli, byl prázdný nebo měl nesprávný typ souboru!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value><![CDATA[Varování: Soubor nebyl nahrán. Zkontrolujte direktivy post_max_size nebo file_upload ve vašem souboru php.ini.]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value><![CDATA[Upozornění: Soubor, který jste nahráli, nebyl načten jako XML! Podrobnosti naleznete v logovacím souboru.]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_code</key>
+		<value><![CDATA[Záloha kódu (%s)<br/><span class="help">Podadresáře s kódovými soubory s výjimkou dynamických souborů jako cache, log soubory, obrázky, zdroje atd.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_content</key>
+		<value><![CDATA[Obsah zálohy (%s)<br/><span class="help">Podsložky s dynamickými soubory, jako jsou obrázky, soubory ke stažení, zdroje atd.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_compress_backup</key>
+		<value><![CDATA[Zkomprimovat adresář záloh %s?<br/><span class="help">Bude vytvořen archiv *.tar.gz.<br/> Poznámka: může to trvat dlouho. Jinak můžete kompresi vypnout a najít zálohu ve složce %s</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[Zálohovat nyní]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[Načíst]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[Naplánovat zálohu]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Úspěch: Úspěšně jste vytvořili naplánovanou zálohovací úlohu! <a href="%s">Zobrazit podrobnosti</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[POZNÁMKA: Provedení tohoto procesu závisí na velikosti vašich dat AbanteCart i na velikosti virtuální paměti serveru. Pokud proces skončí s chybami, zkontrolujte oprávnění adresáře %s, která by měla být nastavena na -rw-rw-rw, a <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>. Zvyšte nastavení paměti nebo spusťte zálohu ručně, pokud proces stále selhává.]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[Pro stažení záložního souboru navštivte <a href="#admin#rt=tool/install_upgrade_history">Instalace/Aktualizace historie</a>]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[Adresář se záložními soubory je %s</a>]]></value>
+	</definition>
+</definitions>

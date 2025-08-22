@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[Chcete-li získat přihlašovací údaje k API, navštivte prosím https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[ID obchodníka]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[API uživatelské jméno]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[Heslo API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[Protokolování:<br /><span class="help">Soubor protokolu se nachází v system/logs/cardconnect.txt</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[Otestovat připojení]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[Získat testovací API přístupové údaje]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[Testovací režim]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[Část domény pro API:<br /><span class="help">Tato hodnota by neměla být měněna, pokud cardConnent nestanoví jinak.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[Připojení je úspěšné a přístupové údaje API jsou správně nakonfigurovány.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[Všechna umístění]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[Umístění]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[Vráceno:<br /><span class="help">Stav objednávky, který chcete nastavit v admin/order, pokud je platba vrácena</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[Zamítnuto:<br /><span class="help">Stav objednávky, který chcete zaznamenat do historie jako reakci na stav platebního procesoru. Hlavní stav objednávky není ovlivněn. Objednávka nebude vytvořena, dokud nebude platba úspěšná.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[Úspěch & nezúčtováno:<br /><span class="help">Vyberte hlavní stav objednávky, který chcete nastavit v reakci na stav platebního procesoru</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[Úspěch a vyrovnáno:<br /><span class="help">Vyberte hlavní stav objednávky, který chcete nastavit v reakci na stav platebního procesoru</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[Stornováno:<br /><span class="help">Stav objednávky, který se má nastavit, pokud je platba stornována v admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[Automaticky (autorizovat a zachytit)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[Zpožděno (pouze autorizace)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Settlement type:<br /><span class="help">Pokud je zvoleno "auto", bude transakce zahrnuta do dnešního vypořádání. Pokud je zvoleno 'delayed', bude transakce autorizována, ale nebude vypořádána (zachycena). Musíte ručně zachytit transakce do 7 dnů od autorizace.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[Maximální počet uložených kreditních karet: <br/><span class="help">Nastavte maximální počet kreditních karet, které mohou zákazníci uložit (až 100). Pokud je hodnota nastavena na 0 nebo ponechána prázdná, ukládání karet nebude povoleno. Bezpečnostní poznámka: Údaje o kreditních kartách zákazníků jsou ukládány na zabezpečených serverech CardConnect, aby byla zajištěna maximální ochrana dat. Žádné údaje o kreditních kartách nebudou uloženy na vašem webu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Částka]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Prostředky byly úspěšně inkasovány.]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Zachycení bylo úspěšné, stav objednávky byl aktualizován na úspěch – vypořádáno]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Vrácení bylo úspěšně zpracováno.]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Vrácení bylo úspěšné, stav objednávky byl aktualizován na vráceno.]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Storno bylo úspěšné, stav objednávky byl aktualizován na stornovaný.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Platební údaje]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Platba zachycena]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Platba zrušena]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Platba vrácena]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Částka k zachycení]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Částka vrácení]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID platby CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[Celková autorizovaná částka]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Částka zůstatku]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Vrácení transakcí]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Prosím potvrďte, že chcete zrušit platbu?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Prosím, potvrďte, že chcete zachytit platbu.]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Prosím potvrďte, že chcete platbu vrátit?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Vrácení peněz]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Zrušit]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Zachytit]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Interní chyba. Zkontrolujte chybový protokol nebo vstupní parametry!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Prosím zadejte kladnou částku.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Nelze stornovat transakci, obnovte a zkontrolujte podrobnosti transakce]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Nelze provést zúčtování, obnovit podrobnosti transakce a zkontrolovat zúčtovanou částku]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Nelze vrátit platbu, obnovte informace o transakci a zkontrolujte částku k vrácení]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[Aktuální stav vypořádání]]></value>
+	</definition>
+</definitions>
