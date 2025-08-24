@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Košarica]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_basket</key>
+		<value><![CDATA[Uredi košaricu]]></value>
+	</definition>
+	<definition>
+		<key>text_accept_agree</key>
+		<value><![CDATA[Klikom na Potvrdi narudžbu, prihvaćate i slažete se sa svim uvjetima]]></value>
+	</definition>
+	<definition>
+		<key>text_cart_items</key>
+		<value><![CDATA[Stavke u vašoj košarici]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Dostava]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_shipping</key>
+		<value><![CDATA[Uredi dostavu]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Plaćanje]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_payment</key>
+		<value><![CDATA[Uredi plaćanje]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Potvrdi]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_address</key>
+		<value><![CDATA[Adresa dostave]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_method</key>
+		<value><![CDATA[Način dostave]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_address</key>
+		<value><![CDATA[Adresa plaćanja]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_method</key>
+		<value><![CDATA[Metoda plaćanja]]></value>
+	</definition>
+	<definition>
+		<key>text_change</key>
+		<value><![CDATA[Promijeni]]></value>
+	</definition>
+	<definition>
+		<key>text_comment</key>
+		<value><![CDATA[Vaši komentari]]></value>
+	</definition>
+	<definition>
+		<key>text_discount</key>
+		<value><![CDATA[Kupon za popust]]></value>
+	</definition>
+	<definition>
+		<key>column_product</key>
+		<value><![CDATA[Proizvod]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[Model]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[Količina]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[Cijena]]></value>
+	</definition>
+	<definition>
+		<key>column_total</key>
+		<value><![CDATA[Ukupno]]></value>
+	</definition>
+	<definition>
+		<key>text_add_coupon</key>
+		<value><![CDATA[Uredi kupon]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_name</key>
+		<value><![CDATA[Brza naplata]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_fast_checkout_title</key>
+		<value><![CDATA[Brza naplata]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Brza naplata]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_buy_now</key>
+		<value><![CDATA[Kupi sada]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_incorrect_request</key>
+		<value><![CDATA[Ups! Pogrešan zahtjev.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_handler</key>
+		<value><![CDATA[Nije moguće pronaći obrađivača plaćanja! Provjerite datoteke %s ili %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_handler</key>
+		<value><![CDATA[Nema dostupnog platnog procesora.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unknown_payment</key>
+		<value><![CDATA[Nepoznata uplata!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unexpected</key>
+		<value><![CDATA[Došlo je do neočekivane pogreške! Molimo pokušajte ponovno.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unexpected_log</key>
+		<value><![CDATA[Dogodila se neočekivana pogreška. Nije moguće izgraditi podatke o narudžbi na temelju niza: %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_handler_object</key>
+		<value><![CDATA[Nije moguće potvrditi narudžbu. Obraditelj plaćanja nije objekt.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_system_issue</key>
+		<value><![CDATA[Ups! Problem sa sustavom. Obratite se administratoru stranice.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_payment</key>
+		<value><![CDATA[Nema dostupnih plaćanja.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_product_option</key>
+		<value><![CDATA[Pogreška opcije proizvoda. %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_address</key>
+		<value><![CDATA[U vašem računu nije pronađena nijedna adresa! Molimo dodajte adresu u svoj račun.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_low_balance</key>
+		<value><![CDATA[Nemate dovoljno sredstava na računu za ovu narudžbu!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_balance_pay</key>
+		<value><![CDATA[Došlo je do problema prilikom obrade plaćanja kreditom s računa! Molimo pokušajte ponovno.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_payment_address</key>
+		<value><![CDATA[Adresa za plaćanje nedostaje ili nije odabrana.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_payment_unavailable</key>
+		<value><![CDATA[Plaćanje nije dostupno na vašoj lokaciji.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_shipping_address</key>
+		<value><![CDATA[Adresa dostave nedostaje ili nije odabrana.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_shipping_method</key>
+		<value><![CDATA[Metoda dostave nije odabrana.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_phone</key>
+		<value><![CDATA[Vaš kontakt broj telefona nije naveden.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_owner</key>
+		<value><![CDATA[Vaše ime nije navedeno.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_email</key>
+		<value><![CDATA[Vaš e-mail nije naveden ili je neispravan.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_card_number</key>
+		<value><![CDATA[Broj kreditne kartice nije naveden.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_cvv</key>
+		<value><![CDATA[CVV broj nije naveden.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_expire</key>
+		<value><![CDATA[Datum isteka kreditne kartice nije naveden ili je nevažeći.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_balance_apply</key>
+		<value><![CDATA[Datum isteka kreditne kartice nije naveden ili je nevažeći.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_account_created</key>
+		<value><![CDATA[Račun je kreiran i upute za prijavu su poslane na vašu e-mail adresu.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_mail_login_password</key>
+		<value><![CDATA[Vaše korisničko ime: %s <br>Vaša lozinka: %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_success_message</key>
+		<value><![CDATA[Uspjeh! Vaša narudžba je uspješno kreirana!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_processing_message</key>
+		<value><![CDATA[Uspješno! Narudžba se sada obrađuje!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_payment_address</key>
+		<value><![CDATA[Adresa za plaćanje]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_shipping_address</key>
+		<value><![CDATA[Adresa za dostavu]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_shipping_method</key>
+		<value><![CDATA[Odaberite način dostave]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay_with</key>
+		<value><![CDATA[Plaćanje putem:]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_credit_card</key>
+		<value><![CDATA[Kreditna kartica]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_account_credit</key>
+		<value><![CDATA[Kredit računa (%s)]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay</key>
+		<value><![CDATA[Plati]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_enter_cc_details</key>
+		<value><![CDATA[Unesite podatke o kreditnoj kartici u nastavku.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_your_balance</key>
+		<value><![CDATA[Stanje kredita na vašem računu je]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay_from_balance</key>
+		<value><![CDATA[Platite %s kreditom]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_telephone_placeholder</key>
+		<value><![CDATA[Kontakt broj telefona Npr. +1.212.555.5555]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_same_as_shipping_address</key>
+		<value><![CDATA[Isto za dostavu]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_enter_address</key>
+		<value><![CDATA[Nastavi]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_card_number</key>
+		<value><![CDATA[Broj kartice]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_bill_me_monthly</key>
+		<value><![CDATA[Fakturiraj mi mjesečno]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_create_account</key>
+		<value><![CDATA[Kreirajte račun]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_please_login</key>
+		<value><![CDATA[Molimo prijavite se pomoću dolje navedenih podataka]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_login</key>
+		<value><![CDATA[PRIJAVA]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_reset_login</key>
+		<value><![CDATA[Registriraj se / Resetiraj prijavu]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_login</key>
+		<value><![CDATA[Prijava]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_logout</key>
+		<value><![CDATA[Odjava]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_address</key>
+		<value><![CDATA[Adresa]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_new_customer</key>
+		<value><![CDATA[Ja sam novi kupac]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_loading</key>
+		<value><![CDATA[Učitavanje...]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_is_completed</key>
+		<value><![CDATA[Narudžba je dovršena!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_thank_you</key>
+		<value><![CDATA[Hvala vam na narudžbi!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_start_download</key>
+		<value><![CDATA[Započni preuzimanje]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_downloads</key>
+		<value><![CDATA[Preuzimanja narudžbi]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_order_details</key>
+		<value><![CDATA[Detalji narudžbe]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_delivery</key>
+		<value><![CDATA[Molimo odaberite opcije dostave]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_payment</key>
+		<value><![CDATA[Molimo odaberite opciju plaćanja]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_download_pending</key>
+		<value><![CDATA[Preuzimanje proizvoda u vašoj narudžbi još nije dostupno. Molimo pričekajte potvrdu narudžbe!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_info_duplicate_order</key>
+		<value><![CDATA[Izgleda da ste upravo postavili drugu narudžbu. <a href="%s">Pogledajte detalje narudžbe</a>]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_start_download</key>
+		<value><![CDATA[Možete pristupiti svom preuzimanju(ima) putem donje poveznice.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_order_downloads</key>
+		<value><![CDATA[Pristup preuzimanjima narudžbi možete ostvariti pomoću donjeg linka.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_download_subject</key>
+		<value><![CDATA[Preuzimanje vaše narudžbe.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_apply</key>
+		<value><![CDATA[Primijeni]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_remove</key>
+		<value><![CDATA[Ukloni]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_coupon_code</key>
+		<value><![CDATA[Unesite kuponski kod]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_comment</key>
+		<value><![CDATA[Dodajte komentar narudžbe]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_coupon</key>
+		<value><![CDATA[Kupon je nevažeći ili je istekao!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_back_to_cart</key>
+		<value><![CDATA[Natrag u košaricu]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_summary</key>
+		<value><![CDATA[Sažetak narudžbe]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_no_shipments_available</key>
+		<value><![CDATA[Nema dostupnih pošiljki.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_telephone_placeholder</key>
+		<value><![CDATA[Vaš telefonski broj]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_placeholder</key>
+		<value><![CDATA[Vaš e-mail]]></value>
+	</definition>
+	<definition>
+		<key>button_history</key>
+		<value><![CDATA[Povijest]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Neispravan poštanski broj]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Košarica]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_comment_placeholder</key>
+		<value><![CDATA[Dodajte komentar narudžbe]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_not_enough_stock</key>
+		<value><![CDATA[Nema dovoljno zaliha]]></value>
+	</definition>
+	<definition>
+		<key>order_confirm</key>
+		<value><![CDATA[Potvrda narudžbe]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_login_or_email</key>
+		<value><![CDATA[Korisničko ime ili adresa e-pošte]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_password</key>
+		<value><![CDATA[Lozinka]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_authenticating</key>
+		<value><![CDATA[Autentificira se ...]]></value>
+	</definition>
+	<definition>
+		<key>text_message_account</key>
+		<value><![CDATA[<p>Vaša narudžba #%s je kreirana!</p>
+<p>Možete pogledati detalje vaše narudžbe odlaskom na <a href="%s">stranicu računa</a>.</p>
+<p>Molimo da sva vaša pitanja usmjerite na <a href="%s">vlasnika trgovine</a>.</p>
+<p>Hvala vam što kupujete kod nas!</p>]]></value>
+	</definition>
+	<definition>
+		<key>text_message_guest</key>
+		<value><![CDATA[<p>Vaša narudžba je uspješno obrađena!</p>
+<p>Možete pregledati detalje svoje narudžbe odlaskom na <a href="%s">stranicu računa</a>.</p>
+<p>Za sva pitanja obratite se <a href="%s">vlasniku trgovine</a>.</p>
+<p>Hvala što ste kupovali kod nas!</p>]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Košarica]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Dostava]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Plaćanje]]></value>
+	</definition>
+	<definition>
+		<key>text_guest</key>
+		<value><![CDATA[Plaćanje kao gost]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Potvrdi]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Uspjeh]]></value>
+	</definition>
+	<definition>
+		<key>text_message_failed_order</key>
+		<value><![CDATA[Ups! Doživjeli smo problem s vašom transakcijom. Vaša će narudžba biti ručno provjerena od strane administratora.]]></value>
+	</definition>
+	<definition>
+		<key>text_title_failed_order_to_admin</key>
+		<value><![CDATA[Neuspjela narudžba #%s]]></value>
+	</definition>
+	<definition>
+		<key>text_message_failed_order_to_admin</key>
+		<value><![CDATA[Neuspješan ili nedostajući odgovor iz provjere plaćanja. Potrebna je ručna provjera!]]></value>
+	</definition>
+</definitions>

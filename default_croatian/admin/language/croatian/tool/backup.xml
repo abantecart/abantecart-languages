@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Sigurnosna kopija / Obnova / Učitavanje]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[Preuzmi sigurnosnu kopiju]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[Uspjeh: Uspješno ste kreirali datoteku sigurnosne kopije!]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Uspjeh: Uspješno ste uvezli svoju bazu podataka!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[Uspjeh: Uspješno ste uvezli svoj xml!]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Vraćanje sigurnosne kopije:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[Tablice sigurnosne kopije:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Obnovi sigurnosnu kopiju:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[Učitaj XML-datoteku:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[Sigurnosna kopija]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[Obnovi]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[Raspored i učitavanje XML skupa podataka]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Upozorenje: Nemate dozvolu za izmjenu sigurnosnih kopija!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Upozorenje: Molimo postavite što želite sigurnosno kopirati ili uvesti!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[Upozorenje: datoteka koju ste prenijeli bila je prazna ili je imala pogrešan tip datoteke!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value><![CDATA[Upozorenje: Datoteka nije prenesena. Provjerite post_max_size ili file_upload direktive u svojoj php.ini datoteci.]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value><![CDATA[Upozorenje: Datoteka koju ste prenijeli nije učitana kao XML! Molimo, pogledajte zapisnik za detalje]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_code</key>
+		<value><![CDATA[Sigurnosna kopija koda (%s)<br/><span class="help">Poddirektoriji sa datotekama koda, isključujući dinamičke datoteke poput predmemorije, datoteka zapisnika, slika, resursa itd.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_content</key>
+		<value><![CDATA[Sadržaj sigurnosne kopije (%s)<br/><span class="help">Poddirektoriji s dinamičkim datotekama kao što su slike, preuzimanja, resursi itd</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_compress_backup</key>
+		<value><![CDATA[Komprimirati mapu sigurnosne kopije %s?<br/><span class="help">Arhiva *.tar.gz će biti kreirana.<br/>Napomena: može potrajati dugo vremena. Inače možete onemogućiti kompresiju i pronaći svoju sigurnosnu kopiju u mapi %s</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[Izradi sigurnosnu kopiju sada]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[Učitaj]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[Zakazivanje sigurnosne kopije]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Uspjeh: Uspješno ste kreirali zakazani zadatak za sigurnosnu kopiju! <a href="%s">Pogledajte detalje</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[NAPOMENA: Izvođenje ovog procesa ovisi o veličini vaših AbanteCart podataka kao i o veličini virtualne memorije vašeg poslužitelja. Ako se proces prekine s pogreškama, provjerite jesu li dopuštenja direktorija %s postavljena na -rw-rw-rw i <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>. Povećajte postavku memorije ili ručno pokrenite sigurnosnu kopiju ako proces i dalje ne uspije.]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[Za preuzimanje datoteke sigurnosne kopije, molimo posjetite <a href="#admin#rt=tool/install_upgrade_history">Povijest instalacija/nadogradnji</a>]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[Direktorij s datotekama sigurnosnih kopija je %s</a>]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>ups_name</key>
+		<value><![CDATA[Ujedinjena služba za dostavu paketa]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[UPS]]></value>
+	</definition>
+	<definition>
+		<key>ups_account_number</key>
+		<value><![CDATA[Broj računa (otpremnika)]]></value>
+	</definition>
+	<definition>
+		<key>ups_client_id</key>
+		<value><![CDATA[API ID klijenta<br/><span class="help">Možete ga pronaći u odjeljku vaše aplikacije na https://developer.ups.com/apps</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_password</key>
+		<value><![CDATA[API lozinka<br/><span class="help">Možete je pronaći u odjeljku aplikacije na https://developer.ups.com/apps </span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_validate_address</key>
+		<value><![CDATA[Provjera adrese]]></value>
+	</definition>
+	<definition>
+		<key>ups_country</key>
+		<value><![CDATA[Zemlja i zona pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>ups_telephone</key>
+		<value><![CDATA[Telefonski broj pošiljatelja (10 znamenki ili više)]]></value>
+	</definition>
+	<definition>
+		<key>ups_address</key>
+		<value><![CDATA[Adresa pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>ups_city</key>
+		<value><![CDATA[Grad pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>ups_postcode</key>
+		<value><![CDATA[Poštanski broj pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>ups_weight_code</key>
+		<value><![CDATA[Kod težine:<br /><span class="help">Dozvoljeni kg, lbs.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_test_connection</key>
+		<value><![CDATA[Testiraj vezu]]></value>
+	</definition>
+	<definition>
+		<key>ups_length_code</key>
+		<value><![CDATA[Šifra duljine:<br /><span class="help">Dozvoljeni su inči ili centimetri.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id</key>
+		<value><![CDATA[Porezna klasa:]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id_0</key>
+		<value><![CDATA[-- Nema --]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id</key>
+		<value><![CDATA[Lokacija:]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id_0</key>
+		<value><![CDATA[Sve lokacije]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_weight</key>
+		<value><![CDATA[Zadana težina proizvoda:<br /><span class="help">Težina proizvoda ako nije postavljena</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_length</key>
+		<value><![CDATA[Zadana duljina proizvoda:<br /><span class="help">Duljina proizvoda ako nije postavljena</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_width</key>
+		<value><![CDATA[Zadana širina proizvoda:<br /><span class="help">Širina proizvoda ako nije postavljena</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_height</key>
+		<value><![CDATA[Zadana visina proizvoda:<br /><span class="help">Visina proizvoda ako nije postavljena</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging</key>
+		<value><![CDATA[Pakiranje]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging_02</key>
+		<value><![CDATA[Kutija]]></value>
+	</definition>
+	<definition>
+		<key>ups_manifest_order_status_id</key>
+		<value><![CDATA[Kreiraj otpremu kada status narudžbe postane]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label</key>
+		<value><![CDATA[Ispiši UPS naljepnicu (izvorna narudžba)]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_title</key>
+		<value><![CDATA[Ispisuje UPS naljepnicu koristeći izvornu težinu i dimenzije koje je kupac poslao prilikom naplate. Sve promjene koje administrator unese u narudžbu neće utjecati na naljepnicu.]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_suggestion</key>
+		<value><![CDATA[Promijenite status narudžbe u "%s" da biste kreirali pošiljku putem UPS API-ja i dobili etikete paketa]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_weight</key>
+		<value><![CDATA[Težina:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_height</key>
+		<value><![CDATA[Visina:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_width</key>
+		<value><![CDATA[Širina:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_depth</key>
+		<value><![CDATA[Dubina:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_parcel_info</key>
+		<value><![CDATA[Podaci o pošiljci:]]></value>
+	</definition>
+	<definition>
+		<key>ups_shipment_created_success_message</key>
+		<value><![CDATA[UPS pošiljka je uspješno kreirana. Više informacija potražite <a href="%s">ovdje</a>.]]></value>
+	</definition>
+</definitions>

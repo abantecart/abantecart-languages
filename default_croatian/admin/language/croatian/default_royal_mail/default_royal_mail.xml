@@ -1,0 +1,667 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_royal_mail_name</key>
+		<value><![CDATA[Royal Mail]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Dostava]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Uspjeh: izmijenili ste dostavu Royal Mail-a!]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class</key>
+		<value><![CDATA[1. razred (samo za Veliku Britaniju)<br/><span class="help">Cilj isporuke sljedeći dan za pisma i pakete</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_rates</key>
+		<value><![CDATA[Stope prve klase:<br/><span class="help">Primjer: .1:1.58,.25:1.96,.5:2.48 Težina:Trošak,Težina:Trošak itd. U ovom primjeru 0.1kg = £1.58. Gdje je KG vaša klasa težine postavljena u postavkama Royal Maila, a £ je osnovna valuta trgovine. Klasa težine trgovine bit će zanemarena.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_compensation_rates</key>
+		<value><![CDATA[Stope naknade za 1. klasu]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class</key>
+		<value><![CDATA[2. razred (samo za GB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_rates</key>
+		<value><![CDATA[Stope drugog razreda]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_compensation_rates</key>
+		<value><![CDATA[Stope odštete za 2. razred]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24</key>
+		<value><![CDATA[Praćeno 24® (samo za VB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_rates</key>
+		<value><![CDATA[Cijene Tracked 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_compensation_rates</key>
+		<value><![CDATA[Kompenzacijske stope Tracked 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48</key>
+		<value><![CDATA[Tracked 48® (samo za Veliku Britaniju)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_rates</key>
+		<value><![CDATA[Cijene Tracked 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_compensation_rates</key>
+		<value><![CDATA[Tracked 48® Stope naknade]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24</key>
+		<value><![CDATA[Mail 24® (samo za VB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_rates</key>
+		<value><![CDATA[Mail 24® tarife]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_compensation_rates</key>
+		<value><![CDATA[Stope naknada Mail 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48</key>
+		<value><![CDATA[Mail 48® (samo za GB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_rates</key>
+		<value><![CDATA[Cijene Mail 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_compensation_rates</key>
+		<value><![CDATA[Stope naknada za kompenzaciju Mail 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday</key>
+		<value><![CDATA[Sameday® (samo za GB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_rates</key>
+		<value><![CDATA[Sameday® tarife]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_compensation_rates</key>
+		<value><![CDATA[Stope naknade Sameday®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed</key>
+		<value><![CDATA[Posebna zagarantirana dostava® (samo za Veliku Britaniju)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_rates</key>
+		<value><![CDATA[Tarife za Zajamčenu Specijalnu Dostavu®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_compensation_rates</key>
+		<value><![CDATA[Stope naknade štete za jamčenu posebnu dostavu®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb</key>
+		<value><![CDATA[Način dostave za besplatnu dostavu (samo GB)<span class="help">Molimo odaberite metodu koja će biti odabrana u slučaju kada košarica sadrži samo proizvode s besplatnom dostavom</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_1st_class</key>
+		<value><![CDATA[Prva klasa]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_2nd_class</key>
+		<value><![CDATA[2. klasa]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked24</key>
+		<value><![CDATA[Praćeno 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked48</key>
+		<value><![CDATA[Praćeni 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail24</key>
+		<value><![CDATA[Mail 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail48</key>
+		<value><![CDATA[Pošta 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_sameday</key>
+		<value><![CDATA[Sameday®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_special_delivery_guaranteed</key>
+		<value><![CDATA[Posebna dostava zajamčena®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_1</key>
+		<value><![CDATA[Međunarodne cijene Europske zone 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_2</key>
+		<value><![CDATA[Međunarodno određivanje cijena Europske zone 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_3</key>
+		<value><![CDATA[Međunarodne cijene Europska zona 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_1</key>
+		<value><![CDATA[Međunarodne cijene Svjetska zona 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_2</key>
+		<value><![CDATA[Međunarodno određivanje cijena Svjetska zona 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_3</key>
+		<value><![CDATA[Međunarodno određivanje cijena Svjetska zona 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Međunarodni standardni ekonomski (Europa zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1_rates</key>
+		<value><![CDATA[Standardne ekonomske tarife (Evropska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2</key>
+		<value><![CDATA[Međunarodna standardna ekonomija (Europa zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2_rates</key>
+		<value><![CDATA[Standardne ekonomske tarife (Europa zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3</key>
+		<value><![CDATA[Međunarodni standardni ekonomski (Europa zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3_rates</key>
+		<value><![CDATA[Standardne ekonomske tarife (Europa zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1</key>
+		<value><![CDATA[Međunarodni standardni ekonomski (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1_rates</key>
+		<value><![CDATA[Standardne ekonomske tarife (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2</key>
+		<value><![CDATA[Međunarodni standardni ekonomski (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2_rates</key>
+		<value><![CDATA[Standardne ekonomske tarife (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3</key>
+		<value><![CDATA[Međunarodna standardna ekonomija (World Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3_rates</key>
+		<value><![CDATA[Standardne ekonomske cijene (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Međunarodni standardni prioritet (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1_rates</key>
+		<value><![CDATA[Standardne prioritetne tarife (Europa zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2</key>
+		<value><![CDATA[Međunarodni standardni prioritet (Europa zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2_rates</key>
+		<value><![CDATA[Standardne prioritetne tarife (Europska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3</key>
+		<value><![CDATA[Međunarodni standardni prioritet (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3_rates</key>
+		<value><![CDATA[Standardne prioritetne cijene (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1</key>
+		<value><![CDATA[Međunarodni standardni prioritet (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1_rates</key>
+		<value><![CDATA[Standardne prioritetne tarife (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2</key>
+		<value><![CDATA[Međunarodni standardni prioritet (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2_rates</key>
+		<value><![CDATA[Standardne prioritetne stope (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3</key>
+		<value><![CDATA[Međunarodni standardni prioritet (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3_rates</key>
+		<value><![CDATA[Standardne prioritetne tarife (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1</key>
+		<value><![CDATA[Međunarodna preporučena pošiljka (Europa zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1_rates</key>
+		<value><![CDATA[Potpisane cijene (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2</key>
+		<value><![CDATA[Međunarodno preporučeno (Europska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2_rates</key>
+		<value><![CDATA[Potpisane tarife (Europa Zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3</key>
+		<value><![CDATA[Međunarodno uz potpis (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3_rates</key>
+		<value><![CDATA[Potpisane cijene (Europa zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1</key>
+		<value><![CDATA[Međunarodno s potpisom (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1_rates</key>
+		<value><![CDATA[Potpisane tarife (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2</key>
+		<value><![CDATA[Međunarodna pošiljka uz potpis (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2_rates</key>
+		<value><![CDATA[Potpisane stope (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3</key>
+		<value><![CDATA[Međunarodno sa potpisom (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3_rates</key>
+		<value><![CDATA[Potpisane tarife (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Međunarodno praćeno uz potpis (Europa Zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1_rates</key>
+		<value><![CDATA[Tarife s praćenjem i potpisom (Europa zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[Međunarodno praćeno uz potpis (Europa zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2_rates</key>
+		<value><![CDATA[Stope praćene s potpisom (Europska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[Međunarodno praćeno potpisom (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3_rates</key>
+		<value><![CDATA[Cijene dostave s praćenjem i potpisom (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1</key>
+		<value><![CDATA[Međunarodno praćeno s potpisom (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1_rates</key>
+		<value><![CDATA[Tarife s praćenjem i potpisom (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2</key>
+		<value><![CDATA[Međunarodno praćeno potpisano (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2_rates</key>
+		<value><![CDATA[Tarife s praćenjem i potpisom (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3</key>
+		<value><![CDATA[Međunarodno praćena pošiljka s potpisom (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3_rates</key>
+		<value><![CDATA[Tarife s praćenjem i potpisom (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1</key>
+		<value><![CDATA[Međunarodno praćeno (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1_rates</key>
+		<value><![CDATA[Praćene cijene (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2</key>
+		<value><![CDATA[Međunarodno praćeno (Europska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2_rates</key>
+		<value><![CDATA[Praćene tarife (Europa zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3</key>
+		<value><![CDATA[Međunarodno praćeno (Europa zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3_rates</key>
+		<value><![CDATA[Praćene tarife (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1</key>
+		<value><![CDATA[Međunarodna praćena (World Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1_rates</key>
+		<value><![CDATA[Praćene tarife (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2</key>
+		<value><![CDATA[Međunarodno praćeno (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2_rates</key>
+		<value><![CDATA[Praćene tarife (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3</key>
+		<value><![CDATA[Međunarodno praćeno (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3_rates</key>
+		<value><![CDATA[Praćene tarife (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Međunarodno praćeno teže (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1_rates</key>
+		<value><![CDATA[Praćene tarife za teže pošiljke (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[Međunarodno praćeno teže (Europska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2_rates</key>
+		<value><![CDATA[Tarife za teže pošiljke s praćenjem (Europa zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[Međunarodni praćeni teži (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3_rates</key>
+		<value><![CDATA[Praćene tarife za teže pošiljke (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[Međunarodno praćeno teže (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1_rates</key>
+		<value><![CDATA[Praćene teže stope (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[Međunarodno praćeno teže (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2_rates</key>
+		<value><![CDATA[Praćene tarife za teže pošiljke (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[Međunarodno praćeno teže (svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3_rates</key>
+		<value><![CDATA[Praćene teže tarife (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free</key>
+		<value><![CDATA[Međunarodna metoda dostave za besplatnu dostavu <span class="help">Odaberite koja će metoda biti odabrana u slučaju kada košarica sadrži samo proizvode s besplatnom dostavom</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Standardna ekonomija (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Standardna ekonomija (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_2</key>
+		<value><![CDATA[Standardna ekonomija (Europska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_3</key>
+		<value><![CDATA[Standardna ekonomija (Europa zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_1</key>
+		<value><![CDATA[Standardna ekonomija (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_2</key>
+		<value><![CDATA[Standardna ekonomija (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_3</key>
+		<value><![CDATA[Standard Economy (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Standardni prioritet (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Standardni prioritet (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_2</key>
+		<value><![CDATA[Standardni prioritet (Europska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_3</key>
+		<value><![CDATA[Standardni prioritet (Europa zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_1</key>
+		<value><![CDATA[Standardni prioritet (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_2</key>
+		<value><![CDATA[Standardni prioritet (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_3</key>
+		<value><![CDATA[Standardni prioritet (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[Potpisano (Europa zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[Potpisano (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_2</key>
+		<value><![CDATA[Potpisano (Europska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_3</key>
+		<value><![CDATA[Potpisano (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_1</key>
+		<value><![CDATA[Potpisano (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_2</key>
+		<value><![CDATA[Potpisano (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_3</key>
+		<value><![CDATA[Potpisano (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Praćeno Potpisano (Europa Zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Praćeno s potpisom (Europa Zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[Praćeno s potpisom (Europa Zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[Praćeno s potpisom (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_1</key>
+		<value><![CDATA[Praćeno potpisom (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_2</key>
+		<value><![CDATA[Praćeno potpisom (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_3</key>
+		<value><![CDATA[Praćeno potpisom (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[Praćeno (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[Praćeno (Europa zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_2</key>
+		<value><![CDATA[Praćeno (Europa zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_3</key>
+		<value><![CDATA[Praćeno (Europska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_1</key>
+		<value><![CDATA[Praćeno (Svjetska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_2</key>
+		<value><![CDATA[Praćeno (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_3</key>
+		<value><![CDATA[Praćeno (Svjetska zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Praćeno teže (Europska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Praćeno teže (Evropska zona 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[Praćeni teži (Europa zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[Praćeno teže (Europa zona 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[Praćeno Teže (World Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[Praćeno teže (Svjetska zona 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[S praćenjem teže (World Zone 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_weight</key>
+		<value><![CDATA[Prikaži težinu dostave:<br /><span class="help">Želite li prikazati težinu dostave? (npr. Težina dostave: 2.7674 kg)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_insurance</key>
+		<value><![CDATA[Prikaz osiguranja:<br /><span class="help">Želite li prikazati osiguranje pošiljke? (npr. Osigurano do &pound;500)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_time</key>
+		<value><![CDATA[Prikaz vremena isporuke:<br /><span class="help">Želite li prikazati vrijeme dostave? (npr. Isporuka u roku od 3 do 5 dana)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_weight_class</key>
+		<value><![CDATA[Težinska klasa:<br /><span class="help">Težinska klasa vaših tarifa. Težinska klasa trgovine će biti zanemarena.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax</key>
+		<value><![CDATA[Porezna klasa:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax_0</key>
+		<value><![CDATA[---Nema---]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id</key>
+		<value><![CDATA[Lokacija:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id_0</key>
+		<value><![CDATA[Sve lokacije]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Upozorenje: Nemate dopuštenje za izmjenu isporuke Royal Maila!]]></value>
+	</definition>
+</definitions>

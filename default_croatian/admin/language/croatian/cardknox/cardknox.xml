@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardknox_name</key>
+		<value><![CDATA[CardKnox]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_key</key>
+		<value><![CDATA[Ključ transakcije (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_token</key>
+		<value><![CDATA[Token transakcije (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_test</key>
+		<value><![CDATA[Testni način]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_success_order_status</key>
+		<value><![CDATA[Order Status:<br /><span class="help">Status narudžbe koji će se postaviti nakon završetka narudžbe kupca na temelju odabrane metode transakcije</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id</key>
+		<value><![CDATA[Lokacija:<br /><span class="help">Ograniči korištenje ove metode plaćanja samo na odabrane lokacije.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id_0</key>
+		<value><![CDATA[Sve lokacije]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method</key>
+		<value><![CDATA[Metoda transakcije:<br /><span class="help">CardKnox transakcija koja će se pokrenuti pri naplati kupca prije nego što se postavi status narudžbe. Samo autorizacija ili naplata.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_capture</key>
+		<value><![CDATA[Zabilježi]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_authorization</key>
+		<value><![CDATA[Samo autorizacija]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_ifields_key</key>
+		<value><![CDATA[iFields ključ]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_pending_authorization</key>
+		<value><![CDATA[Na čekanju odobrenja]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_funds</key>
+		<value><![CDATA[Naplati sredstva]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture</key>
+		<value><![CDATA[Snimi]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_payment_status</key>
+		<value><![CDATA[Status plaćanja]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_success</key>
+		<value><![CDATA[Uspjeh! Sredstva su uspješno naplaćena.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_processing</key>
+		<value><![CDATA[Obrada]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_do_refund</key>
+		<value><![CDATA[Izvrši povrat CardKnox-a:<span class="help">Možete unijeti iznos koji treba vratiti.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refunded</key>
+		<value><![CDATA[Refundirano]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund</key>
+		<value><![CDATA[Povrat]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_refund_title</key>
+		<value><![CDATA[Povrat CardKnox-a]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund_success</key>
+		<value><![CDATA[Uspjeh! Narudžba je uspješno refundirana.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_empty_amount</key>
+		<value><![CDATA[Greška! Iznos je pogrešan.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_payment_method_data</key>
+		<value><![CDATA[Greška! Za ovu narudžbu nema podataka o načinu plaćanja.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_order_id</key>
+		<value><![CDATA[Greška! Nema ID narudžbe.]]></value>
+	</definition>
+</definitions>

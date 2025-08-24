@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Upravitelj biblioteke medijskih resursa]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_latest</key>
+		<value><![CDATA[Nedavno dodani resursi]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_type</key>
+		<value><![CDATA[vrsta resursa]]></value>
+	</definition>
+	<definition>
+		<key>entry_type_name</key>
+		<value><![CDATA[Ključ vrste resursa<br/><span class="help">Ova vrijednost ključa/naziva vrste resursa ne može se promijeniti</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_directory</key>
+		<value><![CDATA[Direktorij resursa<br/><span class="help">Direktorij koji locira resurse za ovu vrstu. Ako se promijeni, postojeći resursi neće biti dostupni i morat će se kopirati u novi direktorij!</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_icon</key>
+		<value><![CDATA[Zadana ikona<br/><span class="help">Slika ikone koja će se prikazati u popisu resursa (Lokacija: /image/... ).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_file_types</key>
+		<value><![CDATA[Dopuštene ekstenzije datoteka<br/><span class="help">Regex s popisom dopuštenih ekstenzija datoteka za ovu vrstu resursa</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Uspjeh: ažurirali ste vrstu resursa!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_type_id</key>
+		<value><![CDATA[Greška: Nedostaje ID vrste resursa!]]></value>
+	</definition>
+	<definition>
+		<key>error_type_name</key>
+		<value><![CDATA[Pogreška: Naziv vrste resursa mora imati između 2 i 40 znakova]]></value>
+	</definition>
+	<definition>
+		<key>error_default_directory</key>
+		<value><![CDATA[Greška: direktorij vrste resursa mora imati između 2 i 64 znaka]]></value>
+	</definition>
+	<definition>
+		<key>error_default_icon</key>
+		<value><![CDATA[Greška: Ikona vrste resursa mora imati između 2 i 64 znaka]]></value>
+	</definition>
+	<definition>
+		<key>error_file_types</key>
+		<value><![CDATA[Greška: Regex za ekstenzije datoteka tipa resursa mora imati duljinu između 2 i 40 znakova]]></value>
+	</definition>
+</definitions>
