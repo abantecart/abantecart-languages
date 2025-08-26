@@ -1,0 +1,655 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[מוצרים]]></value>
+	</definition>
+	<definition>
+		<key>text_product</key>
+		<value><![CDATA[מוצר]]></value>
+	</definition>
+	<definition>
+		<key>tab_media</key>
+		<value><![CDATA[מדיה]]></value>
+	</definition>
+	<definition>
+		<key>tab_shipping</key>
+		<value><![CDATA[משלוח]]></value>
+	</definition>
+	<definition>
+		<key>tab_files</key>
+		<value><![CDATA[קבצים]]></value>
+	</definition>
+	<definition>
+		<key>tab_relations</key>
+		<value><![CDATA[יחסים]]></value>
+	</definition>
+	<definition>
+		<key>tab_promotions</key>
+		<value><![CDATA[מבצעים]]></value>
+	</definition>
+	<definition>
+		<key>tab_extensions</key>
+		<value><![CDATA[תוספים]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[הצלחה: שינית את המוצרים!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy</key>
+		<value><![CDATA[הצלחה: שכפלת בהצלחה את המוצר <b>%s</b>!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[הערה: פריסת מוצר מותאמת אישית שוכפלה גם כן.]]></value>
+	</definition>
+	<definition>
+		<key>text_error_copy</key>
+		<value><![CDATA[שכפול נכשל! המוצר המקורי אינו זמין]]></value>
+	</definition>
+	<definition>
+		<key>text_plus</key>
+		<value><![CDATA[+]]></value>
+	</definition>
+	<definition>
+		<key>text_minus</key>
+		<value><![CDATA[-]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[ברירת מחדל]]></value>
+	</definition>
+	<definition>
+		<key>text_product_summary</key>
+		<value><![CDATA[סיכום המוצר]]></value>
+	</definition>
+	<definition>
+		<key>text_image_manager</key>
+		<value><![CDATA[מנהל תמונות]]></value>
+	</definition>
+	<definition>
+		<key>text_option</key>
+		<value><![CDATA[אפשרות]]></value>
+	</definition>
+	<definition>
+		<key>text_option_value</key>
+		<value><![CDATA[ערך אפשרות]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[שם המוצר]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[דגם]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[מק"ט]]></value>
+	</definition>
+	<definition>
+		<key>column_image</key>
+		<value><![CDATA[תמונה]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[כמות]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[סטטוס]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[מחיר]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[פעולה]]></value>
+	</definition>
+	<definition>
+		<key>entry_featured</key>
+		<value><![CDATA[מוצר מומלץ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[שם המוצר:]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[מילות מפתח לתג מטא:]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[תיאור תג מטא:]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[תיאור:]]></value>
+	</definition>
+	<definition>
+		<key>entry_blurb</key>
+		<value><![CDATA[תקציר:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store</key>
+		<value><![CDATA[חנויות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_keyword</key>
+		<value><![CDATA[מילת מפתח SEO:<br/><span class="help">מפתח SEO שיופיע ב-URL עבור מוצר זה. ניתן ליצור מפתח משם המוצר</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_model</key>
+		<value><![CDATA[דגם:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sku</key>
+		<value><![CDATA[מק"ט:]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[מיקום שונות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_manufacturer</key>
+		<value><![CDATA[מותג:]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping</key>
+		<value><![CDATA[דורש משלוח:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ship_individually</key>
+		<value><![CDATA[משלוח המוצר בנפרד:<br/><span class="help">המוצר יישלח באריזה נפרדת ותתווסף עלות משלוח נוספת להזמנה המכילה פריטים מרובים. אם אפשרות זו מופעלת, יש להגדיר מחיר משלוח קבוע.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_price</key>
+		<value><![CDATA[מחיר משלוח קבוע:<br/><span class="help">הגדרה ראשית עם מחיר משלוח קבוע למוצר זה.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_free_shipping</key>
+		<value><![CDATA[משלוח חינם:<br/><span class="help">הגדרה ראשית להפעלת משלוח חינם עבור מוצר זה.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_available</key>
+		<value><![CDATA[תאריך זמינות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_quantity</key>
+		<value><![CDATA[כמות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_quantity</key>
+		<value><![CDATA[כמות:<br/><span class="help">מחובר להגדרת מעקב מלאי</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_minimum</key>
+		<value><![CDATA[כמות מינימלית:<br/><span class="help">לחייב כמות מינימלית בהזמנה</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maximum</key>
+		<value><![CDATA[כמות מקסימלית:<br/><span class="help">קבע מגבלה על הכמות שניתן לבחור בכל הזמנה. 0 = ללא הגבלה</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_status</key>
+		<value><![CDATA[מצב מלאי בהזמנה מוקדמת:<br/><span class="help">טקסט שמוצג כשהמוצר אזל מהמלאי ורכישה מותרת</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[השלמת רכישה לפי מלאי:<br /><span class="help">אפשר ללקוחות להשלים את הרכישה גם אם המוצרים אינם במלאי.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[סטטוס:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_class</key>
+		<value><![CDATA[קטגוריית מס:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cost</key>
+		<value><![CDATA[עלות:<br/><span class="help"> העלות הסיטונאית המשמשת לדיווח על רווחים</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_price</key>
+		<value><![CDATA[מחיר:]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_option_cost</key>
+		<value><![CDATA[עלות בפועל (סך הכל):<span class="help">הזן את העלות בפועל (סך הכל) של אפשרות מוצר זו.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_track_option_stock</key>
+		<value><![CDATA[מעקב מלאי:]]></value>
+	</definition>
+	<definition>
+		<key>entry_subtract</key>
+		<value><![CDATA[עקוב אחר המלאי:<br/><span class="help">בחר YES אם אתה צריך לעקוב אחר כמות המלאי עבור מוצר זה. אם נעשה שימוש באפשרויות, בדוק את הגדרת ההפחתה עבור כל ערך אפשרות</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[קטגוריית משקל:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight</key>
+		<value><![CDATA[משקל:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_change</key>
+		<value><![CDATA[משקל: <span class="help">חשוב! אם הערך יינתן כמשקל אפשרות של %(percent), משקל האפשרות ישתנה באחוז שצוין בהתבסס על משקל המוצר הראשי. אם יינתן ערך משקל, הוא ישמש כערך מוחלט לאפשרות, ומשקל המוצר הראשי יתעלם.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[מחלקת אורך:]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[אורך חבילת המוצר: <span class="help">ממד החבילה מתייחס לגודל הקופסה, השקית או החבילה שבה יישלח הפריט שלך</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[רוחב חבילת המוצר: <span class="help">ממד החבילה מתייחס לגודל הקופסה, השקית או החבילה שבה ישלח הפריט שלך</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[גובה חבילת המוצר:<span class="help">מימדי החבילה מתייחסים לגודל של הקופסה, השקית או החבילה שבה יישלח הפריט שלך</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[מידות (L x W x H):]]></value>
+	</definition>
+	<definition>
+		<key>entry_image</key>
+		<value><![CDATA[Image:<br /><span class="help">לחץ על התמונה כדי לשנות אותה.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[קבוצת לקוחות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_start</key>
+		<value><![CDATA[תאריך התחלה:]]></value>
+	</definition>
+	<definition>
+		<key>entry_date_end</key>
+		<value><![CDATA[תאריך סיום:]]></value>
+	</definition>
+	<definition>
+		<key>entry_priority</key>
+		<value><![CDATA[עדיפות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option</key>
+		<value><![CDATA[אפשרות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_name</key>
+		<value><![CDATA[שם האפשרות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_value</key>
+		<value><![CDATA[ערך אפשרות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[סדר מיון:]]></value>
+	</definition>
+	<definition>
+		<key>entry_prefix</key>
+		<value><![CDATA[קידומת:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_prefix</key>
+		<value><![CDATA[שנה את המחיר ב:]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_price</key>
+		<value><![CDATA[משנה מחיר:]]></value>
+	</definition>
+	<definition>
+		<key>entry_category</key>
+		<value><![CDATA[קטגוריות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_download</key>
+		<value><![CDATA[הורדות:]]></value>
+	</definition>
+	<definition>
+		<key>entry_related</key>
+		<value><![CDATA[מוצרים קשורים:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tags</key>
+		<value><![CDATA[תגיות מוצר:<br /><span class="help">מופרדים בפסיק</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[אזהרה: אין לך הרשאה לשנות מוצרים!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[שם המוצר חייב להיות מעל 3 תווים ומתחת ל-255 תווים!]]></value>
+	</definition>
+	<definition>
+		<key>error_model</key>
+		<value><![CDATA[דגם המוצר חייב להיות פחות מ-64 תווים! מומלץ 5-25 תווים]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[הנתונים הנדרשים לא הוזנו. בדוק אם יש שגיאות בשדות!]]></value>
+	</definition>
+	<definition>
+		<key>error_product_not_found</key>
+		<value><![CDATA[שגיאה: המוצר לא נמצא!]]></value>
+	</definition>
+	<definition>
+		<key>error_sku</key>
+		<value><![CDATA[שגיאה: SKU לא נמצא!]]></value>
+	</definition>
+	<definition>
+		<key>filter_product</key>
+		<value><![CDATA[חפש מוצר]]></value>
+	</definition>
+	<definition>
+		<key>filter_any_word</key>
+		<value><![CDATA[כל אחת מהמילים האלה]]></value>
+	</definition>
+	<definition>
+		<key>filter_all_words</key>
+		<value><![CDATA[כל המילים האלה]]></value>
+	</definition>
+	<definition>
+		<key>filter_exact_match</key>
+		<value><![CDATA[הביטוי המדויק]]></value>
+	</definition>
+	<definition>
+		<key>filter_all_categories</key>
+		<value><![CDATA[- כל הקטגוריות -]]></value>
+	</definition>
+	<definition>
+		<key>filter_price_max</key>
+		<value><![CDATA[מקסימום]]></value>
+	</definition>
+	<definition>
+		<key>text_view</key>
+		<value><![CDATA[תצוגה]]></value>
+	</definition>
+	<definition>
+		<key>text_delete</key>
+		<value><![CDATA[מחק]]></value>
+	</definition>
+	<definition>
+		<key>text_choose_action</key>
+		<value><![CDATA[בחר פעולה]]></value>
+	</definition>
+	<definition>
+		<key>text_clone_selected</key>
+		<value><![CDATA[שכפל נבחרים]]></value>
+	</definition>
+	<definition>
+		<key>text_export_selected</key>
+		<value><![CDATA[ייצא את הנבחרים]]></value>
+	</definition>
+	<definition>
+		<key>text_delete_selected</key>
+		<value><![CDATA[מחק נבחרים]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_selected</key>
+		<value><![CDATA[ערוך נבחרים]]></value>
+	</definition>
+	<definition>
+		<key>text_clone</key>
+		<value><![CDATA[שכפול]]></value>
+	</definition>
+	<definition>
+		<key>text_export</key>
+		<value><![CDATA[ייצוא]]></value>
+	</definition>
+	<definition>
+		<key>text_select_category</key>
+		<value><![CDATA[- בחר קטגוריה -]]></value>
+	</definition>
+	<definition>
+		<key>text_select_product</key>
+		<value><![CDATA[- בחר מוצר -]]></value>
+	</definition>
+	<definition>
+		<key>text_option_name</key>
+		<value><![CDATA[שם האפשרות]]></value>
+	</definition>
+	<definition>
+		<key>text_group_option</key>
+		<value><![CDATA[אפשרות קבוצתית]]></value>
+	</definition>
+	<definition>
+		<key>text_option_type</key>
+		<value><![CDATA[סוג אפשרות]]></value>
+	</definition>
+	<definition>
+		<key>text_option_values</key>
+		<value><![CDATA[ערכי אפשרויות]]></value>
+	</definition>
+	<definition>
+		<key>text_no_option_values</key>
+		<value><![CDATA[אין ערכים לאפשרויות]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_option_values</key>
+		<value><![CDATA[עריכת ערך האפשרות]]></value>
+	</definition>
+	<definition>
+		<key>text_save_option_values</key>
+		<value><![CDATA[שמור ערך אפשרות]]></value>
+	</definition>
+	<definition>
+		<key>button_remove_option</key>
+		<value><![CDATA[הסר אפשרות]]></value>
+	</definition>
+	<definition>
+		<key>text_option_removed</key>
+		<value><![CDATA[האפשרות הוסרה]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_type</key>
+		<value><![CDATA[סוג משקל]]></value>
+	</definition>
+	<definition>
+		<key>text_product_pagination</key>
+		<value><![CDATA[מוצר(ים) {start} to {end} of {total}]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_id</key>
+		<value><![CDATA[מזהה מוצר]]></value>
+	</definition>
+	<definition>
+		<key>error_product_load</key>
+		<value><![CDATA[אזהרה: לא קיים מוצר עם מזהה כזה!]]></value>
+	</definition>
+	<definition>
+		<key>error_attribute_not_selected</key>
+		<value><![CDATA[אנא בחר אפשרות להוספה!]]></value>
+	</definition>
+	<definition>
+		<key>error_date</key>
+		<value><![CDATA[תאריך סיום" לא יכול להיות לפני "תאריך התחלה"!]]></value>
+	</definition>
+	<definition>
+		<key>error_required</key>
+		<value><![CDATA[שדה זה נדרש!]]></value>
+	</definition>
+	<definition>
+		<key>error_option_in_group</key>
+		<value><![CDATA[לא ניתן להוסיף אפשרות למוצר מאחר שהיא כבר חלק מאופציית קבוצה!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_layout</key>
+		<value><![CDATA[הצלחה: שינית את פריסת דף המוצר.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_option</key>
+		<value><![CDATA[הצלחה: שינית את אפשרות המוצר.]]></value>
+	</definition>
+	<definition>
+		<key>text_add_new_option</key>
+		<value><![CDATA[- הוסף אפשרות חדשה -]]></value>
+	</definition>
+	<definition>
+		<key>entry_required</key>
+		<value><![CDATA[נדרש:]]></value>
+	</definition>
+	<definition>
+		<key>entry_element_type</key>
+		<value><![CDATA[סוג אלמנט:]]></value>
+	</definition>
+	<definition>
+		<key>entry_element_values</key>
+		<value><![CDATA[ערכי האלמנט:]]></value>
+	</definition>
+	<definition>
+		<key>text_expand</key>
+		<value><![CDATA[+ הרחב]]></value>
+	</definition>
+	<definition>
+		<key>text_hide</key>
+		<value><![CDATA[- הסתר]]></value>
+	</definition>
+	<definition>
+		<key>entry_option_placeholder</key>
+		<value><![CDATA[ממלא מקום:]]></value>
+	</definition>
+	<definition>
+		<key>entry_regexp_pattern</key>
+		<value><![CDATA[תבנית ביטוי רגולרי:]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_text</key>
+		<value><![CDATA[הודעת שגיאה על ערך לא תקין:]]></value>
+	</definition>
+	<definition>
+		<key>text_product_condition</key>
+		<value><![CDATA[מצב המוצר:]]></value>
+	</definition>
+	<definition>
+		<key>text_product_available</key>
+		<value><![CDATA[זמין]]></value>
+	</definition>
+	<definition>
+		<key>text_product_disabled</key>
+		<value><![CDATA[מושבת]]></value>
+	</definition>
+	<definition>
+		<key>text_product_unavailable</key>
+		<value><![CDATA[לא זמין]]></value>
+	</definition>
+	<definition>
+		<key>text_product_out_of_stock</key>
+		<value><![CDATA[אזל מהמלאי]]></value>
+	</definition>
+	<definition>
+		<key>text_product_in_stock</key>
+		<value><![CDATA[במלאי]]></value>
+	</definition>
+	<definition>
+		<key>text_product_option_out_of_stock</key>
+		<value><![CDATA[אפשרות מוצר אזלה מהמלאי]]></value>
+	</definition>
+	<definition>
+		<key>text_call_to_order</key>
+		<value><![CDATA[התקשר להזמין]]></value>
+	</definition>
+	<definition>
+		<key>entry_call_to_order</key>
+		<value><![CDATA[חסום הזמנת המוצר:<br /><span class="help">זה יהפוך את המוצר למצב "תצוגה בלבד" ללא אפשרות להזמנה. תוצג הודעת "צור קשר להזמנה".</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_new_option</key>
+		<value><![CDATA[אפשרות חדשה]]></value>
+	</definition>
+	<definition>
+		<key>text_total_orders</key>
+		<value><![CDATA[סה"כ הזמנות]]></value>
+	</definition>
+	<definition>
+		<key>error_measure_value</key>
+		<value><![CDATA[הגבול של 999.99 הושג. הזן מספר קטן יותר.]]></value>
+	</definition>
+	<definition>
+		<key>error_dimension_value</key>
+		<value><![CDATA[מוצר זה מצריך משלוח. אנא מלא את כל ערכי הממדים.]]></value>
+	</definition>
+	<definition>
+		<key>error_weight_value</key>
+		<value><![CDATA[המוצר הזה דורש משלוח. אנא הגדר את ערך המשקל.]]></value>
+	</definition>
+	<definition>
+		<key>error_weight_class</key>
+		<value><![CDATA[אנא הגדר את מחלקת המשקל.]]></value>
+	</definition>
+	<definition>
+		<key>error_length_class</key>
+		<value><![CDATA[אנא הגדר את מחלקת האורך.]]></value>
+	</definition>
+	<definition>
+		<key>entry_allowed_extensions</key>
+		<value><![CDATA[סיומות קבצים מותרים (txt, jpg …)]]></value>
+	</definition>
+	<definition>
+		<key>entry_min_size</key>
+		<value><![CDATA[גודל קובץ מינימלי (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_max_size</key>
+		<value><![CDATA[גודל קובץ מרבי (Kb)]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_dir</key>
+		<value><![CDATA[שם תיקיית ההעלאה<br>%s]]></value>
+	</definition>
+	<definition>
+		<key>text_success_relation_set</key>
+		<value><![CDATA[הקשרים של המוצרים שנבחרו הוגדרו בהצלחה!]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_locations</key>
+		<value><![CDATA[מיקומי המלאי:]]></value>
+	</definition>
+	<definition>
+		<key>entry_locations</key>
+		<value><![CDATA[מיקומים:]]></value>
+	</definition>
+	<definition>
+		<key>text_create_collection</key>
+		<value><![CDATA[צור אוסף]]></value>
+	</definition>
+	<definition>
+		<key>text_warning_empty_set</key>
+		<value><![CDATA[אנא בחר לפחות מוצר אחד.]]></value>
+	</definition>
+	<definition>
+		<key>text_enable_selected</key>
+		<value><![CDATA[הפעל נבחרים]]></value>
+	</definition>
+	<definition>
+		<key>text_disable_selected</key>
+		<value><![CDATA[השבת הנבחרים]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_rule</key>
+		<value><![CDATA[כלל מס]]></value>
+	</definition>
+	<definition>
+		<key>entry_price_with_tax</key>
+		<value><![CDATA[מחיר כולל מיסים:]]></value>
+	</definition>
+	<definition>
+		<key>entry_txt_id</key>
+		<value><![CDATA[מזהה טקסט ייחודי:]]></value>
+	</definition>
+	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[html-attributes:<br /><span class="help">אתה יכול להוסיף html-attributes מותאמים אישית לאלמנט option. דוגמה: data-some-attribute="some value"</span>]]></value>
+	</definition>
+</definitions>

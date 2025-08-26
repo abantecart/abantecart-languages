@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[קארדקונקט]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[כדי לקבל פרטי גישה ל-API, אנא בקר בכתובת https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[מזהה סוחר]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[שם משתמש API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[סיסמת API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[יומן:<br /><span class="help">קובץ היומן נמצא בקובץ system/logs/cardconnect.txt</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[בדיקה]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[בדוק חיבור]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[קבל אישורי API לבדיקה]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[מצב בדיקה]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[חלק הדומיין ל-API:<br /><span class="help">אין לשנות ערך זה, אלא אם צוין אחרת על-ידי cardConnent.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[החיבור הצליח ופרטי הגישה של ה-API הוגדרו כהלכה.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[כל המיקומים]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[מיקום]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[הוחזר:<br /><span class="help">סטטוס ההזמנה שברצונך שיוגדר אם התשלום הוחזר ב-admin/order</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[דחייה:<br /><span class="help">סטטוס ההזמנה שברצונך לרשום בהיסטוריה בתגובה לסטטוס מעבד התשלומים. הסטטוס הראשי של ההזמנה אינו מושפע. ההזמנה לא תתבצע אלא לאחר שהתשלום יצליח.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[הצלחה ולא הוסדר:<br /><span class="help">בחר סטטוס הזמנה ראשי שברצונך להגדיר כתגובה לסטטוס של מעבד התשלומים</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[הצלחה והושלם:<br /><span class="help">בחר את סטטוס ההזמנה הראשי שברצונך להגדיר בתגובה לסטטוס של מעבד התשלום</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[מבוטל:<br /><span class="help">סטטוס ההזמנה שאתה רוצה שיוגדר אם התשלום בוטל ב-admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[אוטומטי (אישור וחיוב)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[מושהה (הרשאה בלבד)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Settlement type:<br /><span class="help">אם הוגדר "auto", העסקה תיכלל ביישוב של היום. אם הוגדר "delayed", העסקה תאושר אבל לא תסגר (תיתפס). עליך לתפוס עסקאות באופן ידני בתוך 7 ימים מהאישור.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[מקסימום כרטיסי אשראי שמורים: <br/><span class="help">הגדר את המספר המרבי של כרטיסי אשראי שישמרו על-ידי הלקוחות (עד 100). אם יוגדר 0 או יישאר ריק, שמירת הכרטיסים לא תתאפשר. הערת אבטחה: פרטי כרטיסי האשראי של הלקוחות נשמרים בשרתי CardConnect המאובטחים כדי להבטיח את אמצעי אבטחת המידע המרביים. לא יישמרו פרטי כרטיסי אשראי באתר שלך.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[תאריך העסקה]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[סכום]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[הכספים נגבו בהצלחה]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[הקיזוז בוצע בהצלחה, סטטוס ההזמנה עודכן ל'הצלחה - הוסדר']]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[ההחזר בוצע בהצלחה]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[ההחזר בוצע בהצלחה, סטטוס ההזמנה עודכן ל'הוחזר']]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[ביטול בוצע בהצלחה, סטטוס ההזמנה עודכן למבוטל]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[פרטי תשלום]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[חיוב בוצע]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[התשלום בוטל]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[התשלום הוחזר]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[סכום גבייה]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[סכום ההחזר]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[מזהה חיוב CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[הסכום הכולל שאושר]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[סכום היתרה]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[עסקאות החזר]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[אנא אשר שברצונך לבטל את התשלום?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[אנא אשר שאתה רוצה לגבות את התשלום?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[אנא אשר שברצונך להחזיר את התשלום?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[החזר]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[בטל]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[ביצוע גבייה]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[שגיאה פנימית. בדוק את יומן השגיאות או את הפרמטרים של הקלט!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[נא הזן סכום חיובי]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[לא ניתן לבטל את העסקה, רענן ובדוק את פרטי העסקה]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[לא ניתן לבצע חיוב, רענן את פרטי העסקה ובדוק את סכום החיוב]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[לא ניתן לבצע החזר, רענן את פרטי העסקה ובדוק את סכום ההחזר.]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[מצב הפירעון הנוכחי]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[תשלום Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[נדרשות הגדרות נוספות כדי להשלים את הגדרת התשלום ב-Authorize.Net. ראה את לשונית ההגדרות הנוספות.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[תשלום]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[הצלחה: עדכנת את הגדרות התשלום של Authorize.Net!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[מיקום:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[כל המיקומים]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[מזהה כניסה ל-API:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[מצב בדיקה:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[מפתח העסקה:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[מפתח ציבורי:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[בחירה אוטומטית:<br /><span class="help">ניתן להגדיר לדלג על עמוד בחירת תשלום אם קיימת אפשרות תשלום אחת בלבד. שיטת תשלום זו תבחר אוטומטית</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[אפשר לשמור כרטיסי אשראי:<br /><span class="help">הגדר את המספר המקסימלי של כרטיסי אשראי שישמרו על ידי הלקוחות (עד 100). אם מוגדר כ-0 או נשאר ריק, לא תתאפשר שמירת כרטיסים. הערת אבטחה: פרטי כרטיסי האשראי של הלקוחות נשמרים בשרתים מאובטחים של authorizenet כדי להבטיח אמצעי אבטחת מידע מקסימליים. לא יישמרו פרטי כרטיסי אשראי באתר שלכם.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[עליך להתחבר לאותוריזנט כדי להגדיר פרטי תשלום]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[הגדרות Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[התחבר עם Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[נתק את Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[לא ניתן להתחבר?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[התחבר בהצלחה ל-Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[התנתק בהצלחה מ-Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[סדר מיון]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[מצב בדיקה:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[מפתח סודי חי:	
+מצא אותו בסעיף מפתחות ה-API ב-Authorize.Net. המפתח מתחיל ב-sk_live_...]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[מפתח לפרסום חי:<br /><span class="help">מצא אותו בסעיף מפתחות ה-API של Authorize.Net. המפתח מתחיל ב- pk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[מפתח סודי לבדיקות:<br /><span class="help">את זה ניתן למצוא במדור מפתחות ה-API של Authorize.Net. המפתח מתחיל ב-sk_test_...</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[מפתח פרסום למבחן:<br /><span class="help">אתה יכול למצוא זאת בסעיף מפתחות ה-API של Authorize.Net. המפתח מתחיל ב-pk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[סוג היישוב:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[אישור בלבד]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[הרשאה & חיוב]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[הצלחה והסדרה:<br /><span class="help">בחר את סטטוס ההזמנה הראשי שברצונך להגדיר בתגובה לסטטוס של מעבד התשלומים</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[הצלחה ולא הושלם:<br /><span class="help">בחר את סטטוס ההזמנה הראשי שברצונך להגדיר בתגובה לסטטוס של מעבד התשלומים</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[תאריך העסקה]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[סכום]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[אוטומטי (לאשר ולגבות)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[מושהה (הרשאה בלבד)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[פרטי תשלום]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[מזהה העסקה של Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[סטטוס העסקה]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[סכום כולל מורשה]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[סכום היתרה]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[שגיאה פנימית. בדוק את יומן השגיאות או את פרמטרי הקלט!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[אנא הזן סכום חיובי]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[נדרש מפתח בדיקה של Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[נדרש מפתח חי ל-Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[אזהרה: אין לך הרשאה לשנות את Authorize.Net Payment!]]></value>
+	</definition>
+</definitions>

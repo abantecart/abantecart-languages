@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[יבוא & יצוא]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[אשף ייבוא נתונים]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[ייבוא]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[אשף היבוא]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[ייצוא]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[טבלאות]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[אפשרויות]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[פורמט קובץ:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[שם הקובץ:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[העלה קובץ ייבוא]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[ניתן להעלות קובץ CSV או קובץ טקסט כדי לייבא נתונים.	
+עבור מבנה הנתונים, ניתן להשתמש בפורמט קנייני או בפורמט חופשי.	
+עבור נתונים בפורמט חופשי תצטרך למפות ידנית את רכיבי הנתונים או להשתמש ב-JSON map.	
+רק מוצר, קטגוריות ו-brands/manufacturers נתמכים עבור ייבוא בפורמט חופשי.	
+ניתן לכלול עמודת Action כדי להורות לייבוא לבצע ‘insert’, ‘update’ או ‘delete’. ברירת המחדל היא update_or_insert.]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[בחר טבלת יעד ושדה תואם במסד הנתונים לכל עמודת נתוני הייבוא שסופקה. אם לא נבחר שדה, הנתונים בעמודת הקלט יתעלמו.<br/> <b>הערה:</b> ערכי נתונים ספציפיים לשפה ולחנות יוקצו לחנות התוכן ולשפה הנבחרות.]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[%s רשומות ייטענו ויעובדו בייבוא זה!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[הרצת תהליך ייבוא]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[טען]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[סה"כ נטען:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[קובץ לייבוא:<br><span class="help">פורמטים נתמכים עבור קבצי ייבוא: CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[טווח מזהים מ:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[אל:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV/TXT תו מפריד:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">כל השדות יהיו מוקפים במרכאות כפולות.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">כל השדות חייבים להיות במרכאות כפולות.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[הפעל במצב בדיקה <br><span class="help">מומלץ להריץ את ייבוא הנתונים במצב בדיקה תחילה כדי לראות אם קיימות בעיות.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[עמודת קובץ הייבוא]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[דוגמת נתוני יבוא]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[בחר טבלת יעד]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[עדכן אם קיים]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[פצל נתונים לפי]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[בחר, העתק ושמור את המיפוי הזה לשימוש עתידי.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[ייצוא מיפוי]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[הזן לשדה שלמטה את נתוני המיפוי שנשמרו מראש.]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[טען מיפוי]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[פורמט קובץ הייבוא אינו נתמך!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[שגיאה בייבוא קובץ XML!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[שגיאה במהלך ייבוא קובץ CSV/TXT! אנא בדוק את תו המפריד בין השדות.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[הנתונים ריקים או פגומים.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[הקובץ ריק.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[תיקיית הגיבוי חייבת להיות ניתנת לכתיבה כדי שייצוא CSV/TXT יעבוד.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[עודכן:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[נוצר:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[שגיאות:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[הצג פרטים]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[אין פריטים משניים]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[יש כמה שגיאות.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[בדיקת הרצה הושלמה. סך כל שאילתות SQL:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[מיין לפי:]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[לא נבחרה טבלת היעד או שדות לייבוא!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[שדה הנתונים הנדרש '%s' חסר בטבלת היעד!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[התיקיה הזמנית %s אינה ניתנת לכתיבה! אנא שנה את ההרשאות כדי להמשיך.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[בקשה ריקה.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[תהליך הייבוא הושלם. %s שורה(ות) עובדו.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s שורה/שורות עם שגיאות.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[לפרטים נוספים ראה <a href="%s" target="_new">קובץ היומן %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[המשימה הופסקה בהצלחה.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[ייבוא מתוזמן]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[הצלחה: יצרת בהצלחה משימת ייבוא מתוזמנת! <a href="%s">צפה בפרטים</a>]]></value>
+	</definition>
+</definitions>

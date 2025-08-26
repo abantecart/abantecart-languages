@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[גיבוי / שחזור / טעינה]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[הורד גיבוי]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[הצלחה: יצרת בהצלחה את קובץ הגיבוי!]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[הצלחה: ייבאת בהצלחה את מסד הנתונים שלך!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[הצלחה: ייבאת בהצלחה את ה-xml שלך!]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[שחזור גיבוי:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[טבלאות גיבוי:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[שחזר גיבוי:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[טען קובץ XML:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[גיבוי]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[שחזור]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[פריסה וטעינת XML של מערך נתונים]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[אזהרה: אין לך הרשאה לשנות גיבויים!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[אזהרה: נא הגדר מה ברצונך לגבות או לייבא!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[אזהרה: הקובץ שהעלית היה ריק או מסוג קובץ שגוי!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value><![CDATA[אזהרה: הקובץ לא הועלה. בדוק את ההגדרות post_max_size או file_upload בקובץ php.ini שלך.]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value><![CDATA[אזהרה: הקובץ שהעלית לא נטען כ-XML! אנא עיין בקובץ הלוג לפרטים]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_code</key>
+		<value><![CDATA[קוד גיבוי (%s)<br/><span class="help">תיקיות משנה עם קבצי קוד, ללא קבצים דינמיים כגון מטמון, קבצי יומן, תמונות, משאבים וכו'</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_content</key>
+		<value><![CDATA[תוכן גיבוי (%s)<br/><span class="help">תיקיות משנה עם קבצים דינמיים כגון תמונות, הורדות, משאבים וכו'</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_compress_backup</key>
+		<value><![CDATA[לדחוס את תיקיית הגיבוי %s?<br/><span class="help">ארכיון *.tar.gz ייווצר.<br/>הערה: זה עלול לקחת זמן רב. אחרת תוכל לבטל את הדחיסה ולמצוא את הגיבוי שלך בתיקייה %s</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[גבה עכשיו]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[טען]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[תזמן גיבוי]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[הצלחה: יצרת בהצלחה משימת גיבוי מתוזמנת! <a href="%s">ראה פרטים</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[הערה: ביצוע תהליך זה תלוי בגודל הנתונים של AbanteCart שלך וכן בגודל הזיכרון הווירטואלי של השרת שלך. אם התהליך מסתיים בשגיאות, בדוק שההרשאות של הספרייה %s מוגדרות כ- -rw-rw-rw ו-<a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>. הגדל את הגדרת הזיכרון או הפעל גיבוי ידנית אם התהליך עדיין נכשל.]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[להורדת קובץ הגיבוי, אנא בקר ב- <a href="#admin#rt=tool/install_upgrade_history">היסטוריית התקנה/שדרוג</a>]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[התיקייה עם קבצי הגיבוי היא %s</a>]]></value>
+	</definition>
+</definitions>

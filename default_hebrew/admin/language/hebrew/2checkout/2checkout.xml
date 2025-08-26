@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[תשלום]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[הצלחה: אתה עדכנת את פרטי חשבון 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[עם תוסף זה באפשרותך להשתמש במערכת התשלומים 2Checkout כדי לקבל תשלומים מהלקוחות שלך.<br>
+<b>הירשם בחינם עוד היום! השתמש בקוד מבצע ABANTECART2CO כדי לקבל פטור מעמלת הגשת הבקשה (חיסכון של $10.99) ולהתחיל למכור באינטרנט כבר היום!</b> בקר ב-<a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, השלם את טופס הבקשה ולאחר מכן הזן את הקוד בשדה קוד המבצע כדי לנצל את ההצעה המיוחדת הזו היום!
+<br>לאחר ההרשמה היכנס כדי להשיג אישורי חשבון ולהגדיר את התוסף הזה
+<br>אל תשכח להגדיר את כתובת ה-INS וכתובת ההפנייה כאן <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.
+<br><br>כתובת ה-INS שלך היא <h4>#storefront#rt=extension/2checkout/callback</h4>
+<br><br>הגדר גם את כתובת ההפנייה ובחר בשיטת החזרה "Header redirect".
+<br><br>כתובת ההפנייה שלך היא <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[קוד הסוחר של 2Checkout:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[מפתח סודי:<br /><span class="help">המילה הסודית לאישור העסקאות (חייבת להיות זהה לזו שהוגדרה בדף תצורת חשבון הסוחר).</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[מצב בדיקה:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[כן]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[לא]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[סטטוס ההזמנה:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[מיקום:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[כל המיקומים]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[אזהרה: אין לך הרשאה לשנות את התשלום 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[נדרש קוד סוחר!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[נדרש מפתח סודי!]]></value>
+	</definition>
+</definitions>

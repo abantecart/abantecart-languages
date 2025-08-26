@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[פדקס]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[משלוח]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[הצלחה: עדכנת את הגדרות המשלוח של FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[מפתח הייצור של Fedex:<br /><span class="help">הזן את מפתח הייצור של Fedex שהוקצה לך, חובה. </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[סיסמת ייצור Fedex:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[מספר חשבון:<br /><span class="help">הזן את מספר החשבון של fedex שהוקצה לך, דרוש.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[מספר המונה של Fedex:<br /><span class="help">הזן את מספר המונה של FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[כתובת:<br /><span class="help">משלוח מכתובת רחוב.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[עיר:<br /><span class="help">משלוח מהעיר.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[מדינה:<br /><span class="help">משלוח מהמדינה (שתי אותיות).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[מיקוד/מיקוד:<br /><span class="help">משלוח מהמיקוד.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[מדינה:<br /><span class="help">משלוח מהמדינה (שתי אותיות).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[סוג הצעת מחיר:<br /><span class="help">הצעת מחיר למשלוח למגורים או למטרות מסחריות.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[למגורים]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[מסחרי]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[חיובים נוספים:<br /><span class="help">חיוב נוסף הוחל על הצעת מחיר של FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[פדקס פרסט אוברנייט]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[FEDEX עדיפות לילה]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[FEDEX משלוח לילה סטנדרטי]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[FEDEX היום השני]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[FEDEX אקספרס סייבר]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[פדקס קרקע]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[אזהרה: אין לך הרשאה לשנות את משלוח פדקס!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[נדרש מזהה חשבון!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[נדרש מזהה מונה FedEx!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[כדי לקבל את מספר המונה ומפתח האישור שלך, עליך לבצע את השלבים הבאים:	
+1. עבור אל <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a>	
+2. התחבר באמצעות שם משתמש וסיסמה של FedEx או לחץ על "Register Now" אם אין לך חשבון.	
+3. לחץ על "Technical Resources" (בצד שמאל).	
+4. תחת זאת לחץ על "FedEx web services for shipping".	
+5. לחץ על "Move To Production" (בצד ימין).	
+6. גלול למטה אל הכפתור ולחץ על "Obtain Production Key".	
+7. בטופס, בחר "No" בשאלה 1.	
+8. סמן את התיבה הראשונה בשאלה 2.	
+9. בחר "Corporate Developer" בשאלה 3.	
+10. קבל את ההסכם.	
+11. מלא את הטופס (אל תשתמש בקווים מפרידים במספר החשבון).	
+
+תקבל את מספר המונה והמפתח באופן מיידי. סיסמת הייצור שלך תישלח אליך בדוא"ל לאחר שתשלים את השלבים שלעיל.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[מצב בדיקה:<br /><span class="help">האם להשתמש בשרת השער החי או בשרת השער הנסיוני?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[כן]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[לא]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[בדוק את החיבור שלך:<span class="help">אתה יכול לבדוק אם אישורי ה-API שהזנת נכונים.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[בדיקה]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[החיבור הצליח ואישורי ה-API הוגדרו כהלכה.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[שגיאה! אנא בדוק אם התוסף מופעל.]]></value>
+	</definition>
+</definitions>
