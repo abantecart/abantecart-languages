@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Καλάθι]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_basket</key>
+		<value><![CDATA[Επεξεργασία Καλαθιού]]></value>
+	</definition>
+	<definition>
+		<key>text_accept_agree</key>
+		<value><![CDATA[Κάνοντας κλικ στο «Επιβεβαίωση Παραγγελίας», εσείς αποδέχεστε και συμφωνείτε με όλους τους όρους του]]></value>
+	</definition>
+	<definition>
+		<key>text_cart_items</key>
+		<value><![CDATA[Είδη στο καλάθι σας]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Αποστολή]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_shipping</key>
+		<value><![CDATA[Επεξεργασία Αποστολής]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Πληρωμή]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_payment</key>
+		<value><![CDATA[Επεξεργασία Πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Επιβεβαίωση]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_address</key>
+		<value><![CDATA[Διεύθυνση αποστολής]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping_method</key>
+		<value><![CDATA[Τρόπος αποστολής]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_address</key>
+		<value><![CDATA[Διεύθυνση Πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_method</key>
+		<value><![CDATA[Μέθοδος Πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>text_change</key>
+		<value><![CDATA[Αλλαγή]]></value>
+	</definition>
+	<definition>
+		<key>text_comment</key>
+		<value><![CDATA[Τα σχόλιά σας]]></value>
+	</definition>
+	<definition>
+		<key>text_discount</key>
+		<value><![CDATA[Κουπόνι Έκπτωσης]]></value>
+	</definition>
+	<definition>
+		<key>column_product</key>
+		<value><![CDATA[Προϊόν]]></value>
+	</definition>
+	<definition>
+		<key>column_model</key>
+		<value><![CDATA[Model]]></value>
+	</definition>
+	<definition>
+		<key>column_quantity</key>
+		<value><![CDATA[Ποσότητα]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[Τιμή]]></value>
+	</definition>
+	<definition>
+		<key>column_total</key>
+		<value><![CDATA[Σύνολο]]></value>
+	</definition>
+	<definition>
+		<key>text_add_coupon</key>
+		<value><![CDATA[Επεξεργασία Κουπονιού]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_name</key>
+		<value><![CDATA[Γρήγορη ολοκλήρωση παραγγελίας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_fast_checkout_title</key>
+		<value><![CDATA[Γρήγορη ολοκλήρωση αγοράς]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Γρήγορη ολοκλήρωση παραγγελίας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_buy_now</key>
+		<value><![CDATA[Αγοράστε τώρα]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_incorrect_request</key>
+		<value><![CDATA[Ουπς! Λανθασμένο αίτημα.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_handler</key>
+		<value><![CDATA[Δεν ήταν δυνατός ο εντοπισμός του χειριστή πληρωμής! Παρακαλώ ελέγξτε τα αρχεία %s ή %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_handler</key>
+		<value><![CDATA[Δεν υπάρχει διαθέσιμος επεξεργαστής πληρωμών.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unknown_payment</key>
+		<value><![CDATA[Άγνωστη πληρωμή!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unexpected</key>
+		<value><![CDATA[Παρουσιάστηκε απρόσμενο σφάλμα! Παρακαλώ δοκιμάστε ξανά.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_unexpected_log</key>
+		<value><![CDATA[Παρουσιάστηκε απρόβλεπτο σφάλμα. Δεν ήταν δυνατή η δημιουργία των δεδομένων παραγγελίας με βάση τον πίνακα: %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_handler_object</key>
+		<value><![CDATA[Δεν ήταν δυνατή η επιβεβαίωση της παραγγελίας. Ο διαχειριστής πληρωμών δεν είναι αντικείμενο.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_system_issue</key>
+		<value><![CDATA[Ουπς! Πρόβλημα συστήματος. Επικοινωνήστε με τον διαχειριστή του ιστότοπου.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_payment</key>
+		<value><![CDATA[Δεν υπάρχουν διαθέσιμες πληρωμές.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_product_option</key>
+		<value><![CDATA[Σφάλμα επιλογής προϊόντος. %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_no_address</key>
+		<value><![CDATA[Δεν βρέθηκαν διευθύνσεις στον λογαριασμό σας! Παρακαλούμε προσθέστε μια διεύθυνση στον λογαριασμό σας.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_low_balance</key>
+		<value><![CDATA[Δεν έχετε επαρκές υπόλοιπο στο λογαριασμό σας για αυτή την παραγγελία!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_balance_pay</key>
+		<value><![CDATA[Υπάρχει ένα πρόβλημα κατά την επεξεργασία πληρωμής με πίστωση λογαριασμού! Παρακαλώ δοκιμάστε ξανά.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_payment_address</key>
+		<value><![CDATA[Η διεύθυνση πληρωμής λείπει ή δεν έχει επιλεγεί.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_payment_unavailable</key>
+		<value><![CDATA[Η πληρωμή δεν είναι διαθέσιμη στην τοποθεσία σας.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_shipping_address</key>
+		<value><![CDATA[Η διεύθυνση παράδοσης λείπει ή δεν έχει επιλεγεί.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_shipping_method</key>
+		<value><![CDATA[Η μέθοδος παράδοσης δεν επιλέχθηκε.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_phone</key>
+		<value><![CDATA[Ο αριθμός τηλεφώνου επικοινωνίας σας δεν έχει δοθεί.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_owner</key>
+		<value><![CDATA[Το όνομά σας δεν παρέχεται.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_email</key>
+		<value><![CDATA[Το email σας δεν παρέχεται ή είναι άκυρο.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_card_number</key>
+		<value><![CDATA[Ο αριθμός της πιστωτικής κάρτας δεν έχει δοθεί.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_cvv</key>
+		<value><![CDATA[Ο αριθμός CVV δεν έχει καταχωρηθεί.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_expire</key>
+		<value><![CDATA[Η ημερομηνία λήξης της πιστωτικής κάρτας δεν παρέχεται ή είναι άκυρη.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_balance_apply</key>
+		<value><![CDATA[Η ημερομηνία λήξης της πιστωτικής κάρτας δεν παρέχεται ή δεν είναι έγκυρη.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_account_created</key>
+		<value><![CDATA[Ο λογαριασμός έχει δημιουργηθεί και η οδηγία σύνδεσης εστάλη στο email σας.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_mail_login_password</key>
+		<value><![CDATA[Το όνομα σύνδεσης σας: %s <br>Ο κωδικός πρόσβασης σας: %s]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_success_message</key>
+		<value><![CDATA[Επιτυχία! Η παραγγελία σας δημιουργήθηκε με επιτυχία!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_processing_message</key>
+		<value><![CDATA[Επιτυχία! Η παραγγελία επεξεργάζεται τώρα!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_payment_address</key>
+		<value><![CDATA[Διεύθυνση πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_shipping_address</key>
+		<value><![CDATA[Διεύθυνση Παράδοσης]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_shipping_method</key>
+		<value><![CDATA[Επιλέξτε μέθοδο παράδοσης]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay_with</key>
+		<value><![CDATA[Πληρώστε με:]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_credit_card</key>
+		<value><![CDATA[Πιστωτική Κάρτα]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_account_credit</key>
+		<value><![CDATA[Πίστωση Λογαριασμού (%s)]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay</key>
+		<value><![CDATA[Πληρώστε]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_enter_cc_details</key>
+		<value><![CDATA[Εισάγετε παρακάτω τα στοιχεία της πιστωτικής κάρτας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_your_balance</key>
+		<value><![CDATA[Το υπόλοιπο πίστωσης του λογαριασμού σας είναι]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_pay_from_balance</key>
+		<value><![CDATA[Πληρώστε %s με πίστωση]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_telephone_placeholder</key>
+		<value><![CDATA[Τηλέφωνο επικοινωνίας π.χ. +1.212.555.5555]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_same_as_shipping_address</key>
+		<value><![CDATA[Το ίδιο για την παράδοση]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_enter_address</key>
+		<value><![CDATA[Συνέχεια]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_card_number</key>
+		<value><![CDATA[Αριθμός κάρτας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_bill_me_monthly</key>
+		<value><![CDATA[Χρεώστε με μηνιαίως]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_create_account</key>
+		<value><![CDATA[Δημιουργία λογαριασμού]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_please_login</key>
+		<value><![CDATA[Παρακαλώ συνδεθείτε με τα παρακάτω στοιχεία]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_login</key>
+		<value><![CDATA[Σύνδεση]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_reset_login</key>
+		<value><![CDATA[Εγγραφή / Επαναφορά σύνδεσης]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_login</key>
+		<value><![CDATA[Σύνδεση]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_logout</key>
+		<value><![CDATA[Αποσύνδεση]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_address</key>
+		<value><![CDATA[Διεύθυνση]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_new_customer</key>
+		<value><![CDATA[Είμαι νέος πελάτης]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_loading</key>
+		<value><![CDATA[Φόρτωση...]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_is_completed</key>
+		<value><![CDATA[Η παραγγελία ολοκληρώθηκε!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_thank_you</key>
+		<value><![CDATA[Σας ευχαριστούμε για την παραγγελία σας!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_start_download</key>
+		<value><![CDATA[Έναρξη λήψης]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_downloads</key>
+		<value><![CDATA[Λήψεις Παραγγελιών]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_button_order_details</key>
+		<value><![CDATA[Λεπτομέρειες Παραγγελίας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_delivery</key>
+		<value><![CDATA[Παρακαλώ επιλέξτε τις επιλογές παράδοσης]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_select_payment</key>
+		<value><![CDATA[Παρακαλώ επιλέξτε την επιλογή πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_download_pending</key>
+		<value><![CDATA[Η λήψη του προϊόντος στην παραγγελία σας δεν είναι ακόμη διαθέσιμη. Παρακαλούμε περιμένετε την επαλήθευση της παραγγελίας!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_info_duplicate_order</key>
+		<value><![CDATA[Φαίνεται ότι μόλις υποβάλατε μια διαφορετική παραγγελία. <a href="%s">Δείτε λεπτομέρειες παραγγελίας</a>]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_start_download</key>
+		<value><![CDATA[Μπορείτε να αποκτήσετε πρόσβαση στη λήψη(ες) σας με τον παρακάτω σύνδεσμο.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_order_downloads</key>
+		<value><![CDATA[Μπορείτε να αποκτήσετε πρόσβαση στις λήψεις παραγγελιών μέσω του παρακάτω συνδέσμου.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_download_subject</key>
+		<value><![CDATA[Λήψη της παραγγελίας σας.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_apply</key>
+		<value><![CDATA[Εφαρμογή]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_remove</key>
+		<value><![CDATA[Αφαίρεση]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_coupon_code</key>
+		<value><![CDATA[Εισαγάγετε κωδικό κουπονιού]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_order_comment</key>
+		<value><![CDATA[Προσθήκη σχολίου παραγγελίας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_coupon</key>
+		<value><![CDATA[Το κουπόνι είναι άκυρο ή έχει λήξει!]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_back_to_cart</key>
+		<value><![CDATA[Επιστροφή στο καλάθι]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_order_summary</key>
+		<value><![CDATA[Σύνοψη Παραγγελίας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_no_shipments_available</key>
+		<value><![CDATA[Δεν υπάρχουν διαθέσιμες αποστολές.]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_telephone_placeholder</key>
+		<value><![CDATA[Ο αριθμός τηλεφώνου σας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_email_placeholder</key>
+		<value><![CDATA[Το email σας]]></value>
+	</definition>
+	<definition>
+		<key>button_history</key>
+		<value><![CDATA[Ιστορία]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Μη έγκυρος ταχυδρομικός κώδικας]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Καλάθι]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_comment_placeholder</key>
+		<value><![CDATA[Προσθέστε ένα σχόλιο στην παραγγελία]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_not_enough_stock</key>
+		<value><![CDATA[Ανεπαρκές απόθεμα]]></value>
+	</definition>
+	<definition>
+		<key>order_confirm</key>
+		<value><![CDATA[Επιβεβαίωση Παραγγελίας]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_login_or_email</key>
+		<value><![CDATA[Όνομα χρήστη ή διεύθυνση email]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_password</key>
+		<value><![CDATA[Κωδικός πρόσβασης]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_text_authenticating</key>
+		<value><![CDATA[Έλεγχος ταυτότητας ...]]></value>
+	</definition>
+	<definition>
+		<key>text_message_account</key>
+		<value><![CDATA[<p>Η παραγγελία σας #%s έχει δημιουργηθεί!</p>
+<p>Μπορείτε να δείτε τις λεπτομέρειες της παραγγελίας σας πηγαίνοντας στη σελίδα τιμολογίου <a href="%s">σελίδα τιμολογίου</a>.</p>
+<p>Παρακαλούμε για τυχόν ερωτήσεις να απευθυνθείτε στον <a href="%s">ιδιοκτήτη του καταστήματος</a>.</p>
+<p>Σας ευχαριστούμε που ψωνίσατε μαζί μας!</p>]]></value>
+	</definition>
+	<definition>
+		<key>text_message_guest</key>
+		<value><![CDATA[<p>Η παραγγελία σας έχει ολοκληρωθεί επιτυχώς!</p>
+<p>Μπορείτε να δείτε τις λεπτομέρειες της παραγγελίας σας μεταβαίνοντας στη <a href="%s">σελίδα τιμολογίου</a>.</p>
+<p>Παρακαλούμε απευθύνετε τυχόν ερωτήσεις σας στον <a href="%s">ιδιοκτήτη του καταστήματος</a>.</p>
+<p>Σας ευχαριστούμε που ψωνίσατε μαζί μας!</p>]]></value>
+	</definition>
+	<definition>
+		<key>text_basket</key>
+		<value><![CDATA[Καλάθι]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Αποστολή]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Πληρωμή]]></value>
+	</definition>
+	<definition>
+		<key>text_guest</key>
+		<value><![CDATA[Ολοκλήρωση παραγγελίας ως επισκέπτης]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Επιβεβαίωση]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Επιτυχία]]></value>
+	</definition>
+	<definition>
+		<key>text_message_failed_order</key>
+		<value><![CDATA[Ουπς! Έχουμε αντιμετωπίσει κάποιο πρόβλημα με τη συναλλαγή σας. Η παραγγελία σας θα επαληθευτεί χειροκίνητα από τον διαχειριστή.]]></value>
+	</definition>
+	<definition>
+		<key>text_title_failed_order_to_admin</key>
+		<value><![CDATA[Αποτυχημένη παραγγελία #%s]]></value>
+	</definition>
+	<definition>
+		<key>text_message_failed_order_to_admin</key>
+		<value><![CDATA[Αποτυχία ή έλλειψη απάντησης από την επαλήθευση πληρωμής. Απαιτείται χειροκίνητη επαλήθευση!]]></value>
+	</definition>
+</definitions>

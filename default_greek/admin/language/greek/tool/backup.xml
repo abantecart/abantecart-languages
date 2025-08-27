@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Δημιουργία αντιγράφου ασφαλείας / Επαναφορά / Φόρτωση]]></value>
+	</definition>
+	<definition>
+		<key>text_backup</key>
+		<value><![CDATA[Λήψη αντιγράφου ασφαλείας]]></value>
+	</definition>
+	<definition>
+		<key>text_success_backup</key>
+		<value><![CDATA[Επιτυχία: Δημιουργήσατε με επιτυχία το αρχείο αντιγράφου ασφαλείας!]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Επιτυχία: Έχετε εισαγάγει με επιτυχία τη βάση δεδομένων σας!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_xml</key>
+		<value><![CDATA[Επιτυχία: Έχετε εισαγάγει με επιτυχία το xml σας!]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Επαναφορά αντιγράφου ασφαλείας:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tables</key>
+		<value><![CDATA[Πίνακες αντιγράφων ασφαλείας:]]></value>
+	</definition>
+	<definition>
+		<key>entry_restore</key>
+		<value><![CDATA[Επαναφορά αντιγράφου ασφαλείας:]]></value>
+	</definition>
+	<definition>
+		<key>entry_loadxml</key>
+		<value><![CDATA[Φόρτωση αρχείου XML:]]></value>
+	</definition>
+	<definition>
+		<key>tab_backup</key>
+		<value><![CDATA[Αντίγραφο ασφαλείας]]></value>
+	</definition>
+	<definition>
+		<key>tab_restore</key>
+		<value><![CDATA[Επαναφορά]]></value>
+	</definition>
+	<definition>
+		<key>tab_loadxml</key>
+		<value><![CDATA[Διάταξη και φόρτωση συνόλου δεδομένων XML]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Προειδοποίηση: Δεν έχετε άδεια να τροποποιήσετε τα αντίγραφα ασφαλείας!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Προειδοποίηση: Παρακαλώ ορίστε τι θέλετε να δημιουργήσετε αντίγραφο ασφαλείας ή να εισαγάγετε!]]></value>
+	</definition>
+	<definition>
+		<key>error_empty</key>
+		<value><![CDATA[Προειδοποίηση: Το αρχείο που ανεβάσατε ήταν κενό ή είχε λάθος τύπο αρχείου!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload</key>
+		<value><![CDATA[Προειδοποίηση: Το αρχείο δεν μεταφορτώθηκε. Ελέγξτε τις ρυθμίσεις post_max_size ή file_upload στο αρχείο php.ini.]]></value>
+	</definition>
+	<definition>
+		<key>error_xml</key>
+		<value><![CDATA[Προειδοποίηση: Το αρχείο που ανεβάσατε δεν φορτώθηκε ως XML! Παρακαλώ, δείτε το αρχείο καταγραφής για λεπτομέρειες]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_code</key>
+		<value><![CDATA[Κώδικας αντιγράφου ασφαλείας (%s)<br/><span class="help">Υποκατάλογοι με αρχεία κώδικα, εξαιρουμένων των δυναμικών αρχείων όπως cache, αρχεία καταγραφής, εικόνες, πόροι κ.λπ.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_backup_content</key>
+		<value><![CDATA[Περιεχόμενο αντιγράφου ασφαλείας (%s)<br/><span class="help">Υποκατάλογοι με δυναμικά αρχεία όπως εικόνες, λήψεις, πόροι κ.λπ.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_compress_backup</key>
+		<value><![CDATA[Θέλετε να συμπιέσετε τον φάκελο αντιγράφων ασφαλείας %s;<br/><span class="help">Θα δημιουργηθεί το αρχείο *.tar.gz.<br/> Σημείωση: μπορεί να πάρει πολύ χρόνο. Διαφορετικά, μπορείτε να απενεργοποιήσετε τη συμπίεση και να βρείτε το αντίγραφο ασφαλείας σας στο φάκελο %s</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_now</key>
+		<value><![CDATA[Δημιουργία αντιγράφου ασφαλείας τώρα]]></value>
+	</definition>
+	<definition>
+		<key>button_load</key>
+		<value><![CDATA[Φόρτωση]]></value>
+	</definition>
+	<definition>
+		<key>button_backup_schedule</key>
+		<value><![CDATA[Προγραμματισμός αντιγράφου ασφαλείας]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Επιτυχία: Έχετε δημιουργήσει με επιτυχία την προγραμματισμένη εργασία αντιγράφων ασφαλείας! <a href="%s">Δείτε λεπτομέρειες</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_fail_note</key>
+		<value><![CDATA[ΣΗΜΕΙΩΣΗ: Η εκτέλεση αυτής της διαδικασίας εξαρτάται από το μέγεθος των δεδομένων του AbanteCart σας καθώς και από το μέγεθος της εικονικής μνήμης του διακομιστή σας. Εάν η διαδικασία τερματιστεί με σφάλματα, ελέγξτε να έχουν ρυθμιστεί τα δικαιώματα του φακέλου %s σε -rw-rw-rw και <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP memory setting]</a>. Αυξήστε τη ρύθμιση μνήμης ή εκτελέστε το αντίγραφο ασφαλείας χειροκίνητα εάν η διαδικασία εξακολουθεί να αποτυγχάνει.]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[Για να κατεβάσετε το αρχείο αντιγράφου ασφαλείας, παρακαλώ επισκεφθείτε <a href="#admin#rt=tool/install_upgrade_history">Ιστορικό Εγκατάστασης/Αναβάθμισης</a>]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[Φάκελος με τα αρχεία αντιγράφων ασφαλείας είναι %s</a>]]></value>
+	</definition>
+</definitions>

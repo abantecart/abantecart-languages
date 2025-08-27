@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Πληρωμή]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Επιτυχία: Έχετε τροποποιήσει τα στοιχεία λογαριασμού 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[Με αυτήν την επέκταση μπορείτε να χρησιμοποιήσετε το σύστημα πληρωμών 2Checkout για να αποδέχεστε πληρωμές από τους πελάτες σας.<br>
+<b>Εγγραφείτε σήμερα δωρεάν!	Χρησιμοποιήστε τον κωδικό προσφοράς ABANTECART2CO για να απαλλαγείτε από το τέλος υπηρεσίας αίτησης (εξοικονομώντας $10,99) και ξεκινήστε να πουλάτε online σήμερα!</b> Επισκεφθείτε <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, συμπληρώστε την αίτηση και έπειτα εισάγετε τον κωδικό στο πεδίο του κωδικού προσφοράς για να επωφεληθείτε από αυτήν την ειδική προσφορά σήμερα!
+<br>Μόλις εγγραφείτε, συνδεθείτε για να λάβετε τα στοιχεία λογαριασμού για τη διαμόρφωση αυτής της επέκτασης.
+<br>Μην ξεχάσετε να ρυθμίσετε το INS URL και το Redirect URL εδώ: <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.
+<br><br>Το INS URL σας είναι <h4>#storefront#rt=extension/2checkout/callback</h4>
+<br><br>Επίσης ρυθμίστε το Redirect URL και επιλέξτε ως μέθοδο επιστροφής "Header redirect".
+<br><br>Το Redirect URL σας είναι <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[Κωδικός Εμπόρου 2Checkout:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[Μυστικό Κλειδί:<br /><span class="help">Η μυστική λέξη για την επιβεβαίωση των συναλλαγών (πρέπει να είναι η ίδια με αυτή που ορίζεται στη σελίδα ρυθμίσεων λογαριασμού εμπόρου.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Λειτουργία δοκιμής:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Ναι]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Όχι]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Κατάσταση Παραγγελίας:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Τοποθεσία:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Όλες οι Τοποθεσίες]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Προειδοποίηση: Δεν έχετε άδεια να τροποποιήσετε την πληρωμή 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Απαιτείται κωδικός εμπόρου!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Απαιτείται Μυστικό Κλειδί!]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Διαχειριστής βιβλιοθήκης πολυμεσικών πόρων]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_latest</key>
+		<value><![CDATA[Πρόσφατα προστιθέμενοι πόροι]]></value>
+	</definition>
+	<definition>
+		<key>text_rl_type</key>
+		<value><![CDATA[τύπος πόρου]]></value>
+	</definition>
+	<definition>
+		<key>entry_type_name</key>
+		<value><![CDATA[Κλειδί Τύπου Πόρου<br/><span class="help">Αυτή η τιμή κλειδιού/ονόματος τύπου πόρου δεν μπορεί να αλλάξει</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_directory</key>
+		<value><![CDATA[Κατάλογος πόρων<br/><span class="help">Κατάλογος που εντοπίζει τους πόρους για αυτόν τον τύπο. Εάν αλλάξει, οι υπάρχοντες πόροι δεν θα είναι προσβάσιμοι και θα χρειαστεί να αντιγραφούν στον νέο κατάλογο!</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_icon</key>
+		<value><![CDATA[Προεπιλεγμένο εικονίδιο<br/><span class="help">Εικόνα εικονιδίου που θα εμφανίζεται στον κατάλογο των πόρων (Location: /image/... ).</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_file_types</key>
+		<value><![CDATA[Επιτρεπόμενες επεκτάσεις αρχείων<br/><span class="help">Regex με λίστα επιτρεπόμενων επεκτάσεων αρχείων για αυτόν τον τύπο πόρου</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Επιτυχία: Έχετε ενημερώσει τον τύπο πόρου!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_type_id</key>
+		<value><![CDATA[Σφάλμα: Λείπει το αναγνωριστικό τύπου πόρου!]]></value>
+	</definition>
+	<definition>
+		<key>error_type_name</key>
+		<value><![CDATA[Σφάλμα: Το όνομα τύπου πόρου πρέπει να αποτελείται από 2 έως 40 χαρακτήρες]]></value>
+	</definition>
+	<definition>
+		<key>error_default_directory</key>
+		<value><![CDATA[Σφάλμα: Ο φάκελος τύπου πόρου πρέπει να έχει μήκος μεταξύ 2 και 64 χαρακτήρων]]></value>
+	</definition>
+	<definition>
+		<key>error_default_icon</key>
+		<value><![CDATA[Σφάλμα: Ο τύπος πόρου εικονιδίου πρέπει να περιέχει από 2 έως 64 χαρακτήρες]]></value>
+	</definition>
+	<definition>
+		<key>error_file_types</key>
+		<value><![CDATA[Σφάλμα: Η κανονική έκφραση (regex) για τις επεκτάσεις αρχείων τύπου πόρου πρέπει να είναι μεταξύ 2 και 40 χαρακτήρων.]]></value>
+	</definition>
+</definitions>

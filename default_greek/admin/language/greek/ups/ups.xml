@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>ups_name</key>
+		<value><![CDATA[Ενωμένη Υπηρεσία Δεμάτων]]></value>
+	</definition>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[UPS]]></value>
+	</definition>
+	<definition>
+		<key>ups_account_number</key>
+		<value><![CDATA[Αριθμός λογαριασμού]]></value>
+	</definition>
+	<definition>
+		<key>ups_client_id</key>
+		<value><![CDATA[ID Πελάτη API<br/><span class="help">Μπορείτε να το βρείτε στην ενότητα Εφαρμογών στο https://developer.ups.com/apps</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_password</key>
+		<value><![CDATA[Κωδικός API<br/><span class="help">Μπορείτε να τον βρείτε στην ενότητα εφαρμογών σας στο https://developer.ups.com/apps </span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_validate_address</key>
+		<value><![CDATA[Επαλήθευση Διεύθυνσης]]></value>
+	</definition>
+	<definition>
+		<key>ups_country</key>
+		<value><![CDATA[Χώρα & Ζώνη Αποστολέα]]></value>
+	</definition>
+	<definition>
+		<key>ups_telephone</key>
+		<value><![CDATA[Αριθμός τηλεφώνου αποστολέα (10 ψηφία ή περισσότερα)]]></value>
+	</definition>
+	<definition>
+		<key>ups_address</key>
+		<value><![CDATA[Διεύθυνση Αποστολέα]]></value>
+	</definition>
+	<definition>
+		<key>ups_city</key>
+		<value><![CDATA[Πόλη Αποστολέα]]></value>
+	</definition>
+	<definition>
+		<key>ups_postcode</key>
+		<value><![CDATA[Ταχυδρομικός Κώδικας Αποστολέα]]></value>
+	</definition>
+	<definition>
+		<key>ups_weight_code</key>
+		<value><![CDATA[Κωδικός Βάρους:<br /><span class="help">Επιτρεπόμενα κιλά, λίβρες.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_test_connection</key>
+		<value><![CDATA[Δοκιμή σύνδεσης]]></value>
+	</definition>
+	<definition>
+		<key>ups_length_code</key>
+		<value><![CDATA[Κωδικός μήκους:<br /><span class="help">Επιτρέπονται ίντσες ή εκατοστά.</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id</key>
+		<value><![CDATA[Φορολογική Κατηγορία:]]></value>
+	</definition>
+	<definition>
+		<key>ups_tax_class_id_0</key>
+		<value><![CDATA[-- Κανένα --]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id</key>
+		<value><![CDATA[Τοποθεσία:]]></value>
+	</definition>
+	<definition>
+		<key>ups_location_id_0</key>
+		<value><![CDATA[Όλες οι τοποθεσίες]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_weight</key>
+		<value><![CDATA[Προεπιλεγμένο Βάρος Προϊόντος:<br /><span class="help">Βάρος των προϊόντων αν δεν έχει οριστεί</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_length</key>
+		<value><![CDATA[Προεπιλεγμένο Μήκος Προϊόντος:<br /><span class="help">Μήκος του προϊόντος αν δεν έχει οριστεί</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_width</key>
+		<value><![CDATA[Προεπιλεγμένο πλάτος προϊόντος:<br /><span class="help">Πλάτος προϊόντος αν δεν έχει οριστεί</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_default_height</key>
+		<value><![CDATA[Προεπιλεγμένο Ύψος Προϊόντος:<br /><span class="help">Ύψος προϊόντος εάν δεν έχει οριστεί</span>]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging</key>
+		<value><![CDATA[Συσκευασία]]></value>
+	</definition>
+	<definition>
+		<key>ups_packaging_02</key>
+		<value><![CDATA[Κουτί]]></value>
+	</definition>
+	<definition>
+		<key>ups_manifest_order_status_id</key>
+		<value><![CDATA[Δημιουργία αποστολής όταν η κατάσταση παραγγελίας γίνει]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label</key>
+		<value><![CDATA[Εκτύπωση ετικέτας UPS (Αρχική Παραγγελία)]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_title</key>
+		<value><![CDATA[Εκτυπώνει την ετικέτα UPS με βάση το αρχικό βάρος και τις διαστάσεις που υποβλήθηκαν από τον πελάτη κατά την ολοκλήρωση της αγοράς. Οποιεσδήποτε αλλαγές στην παραγγελία από τον διαχειριστή δεν θα επηρεάσουν την ετικέτα.]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_suggestion</key>
+		<value><![CDATA[Αλλάξτε την κατάσταση της παραγγελίας σε "%s" για να δημιουργήσετε αποστολή μέσω UPS API και να λάβετε ετικέτες δεμάτων]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_weight</key>
+		<value><![CDATA[Βάρος:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_height</key>
+		<value><![CDATA[Ύψος:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_width</key>
+		<value><![CDATA[Πλάτος:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_depth</key>
+		<value><![CDATA[Βάθος:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_parcel_info</key>
+		<value><![CDATA[Πληροφορίες δεμάτων:]]></value>
+	</definition>
+	<definition>
+		<key>ups_shipment_created_success_message</key>
+		<value><![CDATA[Η αποστολή UPS δημιουργήθηκε με επιτυχία. Δείτε περισσότερες πληροφορίες <a href="%s">εδώ</a>]]></value>
+	</definition>
+</definitions>

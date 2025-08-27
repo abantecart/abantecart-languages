@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Διαχειριστής Δεδομένων Κρυπτογράφησης]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Επεκτάσεις]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Κρυπτογράφηση Δεδομένα Εργαλεία]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Σειρά ταξινόμησης:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Δημιουργία ζεύγους κλειδιών]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Κρυπτογράφηση δεδομένων]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Προειδοποίηση: Δεν έχετε άδεια να τροποποιήσετε την αποστολή βάσει βάρους!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Σφάλμα: Το επιλεγμένο ζεύγος ονόματος κλειδιού υπάρχει ήδη!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>Αυτή η επέκταση απαιτεί ΠΡΟΗΓΜΕΝΗ διαμόρφωση και προσοχή</b><br/>
+<b>Μόλις ενεργοποιηθεί και τα δεδομένα κρυπτογραφηθούν, δεν υπάρχει ΑΝΑΙΡΕΣΗ και η επέκταση δεν μπορεί να απενεργοποιηθεί!</b><br/>
+Αυτή η επέκταση βοηθά στη διαχείριση δημιουργίας κλειδιών κρυπτογράφησης και στη μετεγκατάσταση δεδομένων από ανοιχτούς σε κρυπτογραφημένους πίνακες (αρχική μετεγκατάσταση)<br/>
+<b>ΣΗΜΕΙΩΣΗ:</b> πρέπει να έχετε PHP με Κρυπτογράφηση SSL <b>ενεργοποιημένη</b>
+<br/>
+<br/>Για να ενεργοποιήσετε την κρυπτογράφηση δεδομένων, διαβάστε τις οδηγίες βοήθειας (κουμπί HOW TO)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Προειδοποίηση: Το OpenSSL για το PHP δεν είναι διαθέσιμο ή δεν είναι ενεργοποιημένο. Δεν μπορείτε να χρησιμοποιήσετε κρυπτογράφηση ή αυτήν την επέκταση!<br> Ελέγξτε τη Βοήθεια για αυτήν την επέκταση για περισσότερες λεπτομέρειες.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Προειδοποίηση: Η κρυπτογράφηση δεδομένων δεν είναι ενεργοποιημένη στο AbanteCart σας. Δεν μπορείτε να κρυπτογραφήσετε/αποκρυπτογραφήσετε δεδομένα χρησιμοποιώντας αυτό το πρόσθετο! <br> Ελέγξτε τη ΒΟΗΘΕΙΑ για αυτό το πρόσθετο για περισσότερες λεπτομέρειες.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Δημιουργήστε ζεύγος κλειδιών]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Κρυπτογράφηση δεδομένων]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Λείπουν υποχρεωτικά πεδία δεδομένων. Παρακαλώ ελέγξτε τις παρεχόμενες τιμές.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Όνομα μοναδικού ζεύγους κλειδιών:<br /><span class="help">Το όνομα δεν πρέπει να περιέχει κενά ή ειδικούς χαρακτήρες. Κρατήστε το σύντομο και απλό.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Key length (bits):<br /><span class="help">Καθορίστε το μήκος του κλειδιού κρυπτογράφησης σε bit. Όσο μεγαλύτερος ο αριθμός, τόσο ισχυρότερη η κρυπτογράφηση, αλλά μπορεί να επιβραδύνει την απόδοση (Εύρος 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Τύπος κρυπτογράφησης:<br /><span class="help">Αυτός είναι ένας αλγόριθμος κρυπτογράφησης. Χρησιμοποιήστε την προεπιλεγμένη RSA αν δεν είστε προχωρημένος χρήστης.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Ενεργοποίηση κλειδιού βάσει κωδικού πρόσβασης:<br /><span class="help">Εάν ενεργοποιηθεί, θα απαιτείται επιπλέον φράση πρόσβασης για την αποκρυπτογράφηση του κειμένου με χρήση του ιδιωτικού κλειδιού. ΣΗΜΕΙΩΣΗ. Αυτό δεν υποστηρίζεται προς το παρόν στην κρυπτογράφηση δεδομένων.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Φράση πρόσβασης ή κωδικός κλειδιού:<br /><span class="help">Θυμηθείτε ότι η φράση πρόσβασης ή το κλειδί(α) θα είναι άχρηστα και τα δεδομένα μπορεί να χαθούν</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Το ζεύγος κλειδιών έχει δημιουργηθεί. Δείτε τα κλειδιά παρακάτω και φυλάξτε τα με ασφάλεια.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Η δημιουργία του ζεύγους κλειδιών απέτυχε. Ελέγξτε τις ρυθμίσεις σας και ελέγξτε το αρχείο καταγραφής σφαλμάτων.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Όνομα ζεύγους κλειδιών:<br /><span class="help">Επιλέξτε το κλειδί που θα χρησιμοποιηθεί για κρυπτογράφηση. ΣΗΜΑΝΤΙΚΟ: Θυμηθείτε το κλειδί που χρησιμοποιήσατε.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Πίνακας(ες) προς κρυπτογράφηση:<br /><span class="help">Πίνακας(ες) που εμφανίζεται(ουν) θα κρυπτογραφηθεί(ουν) με το επιλεγμένο κλειδί. Τα δεδομένα μπορούν να ανοιχτούν μόνο με αυτό το κλειδί</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Λειτουργία δοκιμής:<br /><span class="help">Ελέγξτε πρώτα ότι όλα είναι ΟΚ για κρυπτογράφηση.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Διαγραφή δεδομένων πηγής:<br /><span class="help">Διαγραφή μη κρυπτογραφημένων εγγραφών δεδομένων πηγής μετά την ολοκλήρωση της κρυπτογράφησης</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Τα δεδομένα έχουν κρυπτογραφηθεί. <br />	Δείτε λεπτομέρειες:</b> <br/><br/> %s <br /><br /> <b>Αν θέλετε αυτό το κλειδί να χρησιμοποιηθεί για νέα κρυπτογράφηση δεδομένων, προσθέστε την ακόλουθη γραμμή στο αρχείο system/config.php : define('DATA_ENCRYPTION_KEYPAIR', '%s'); </b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Αποτέλεσμα δοκιμής κρυπτογράφησης δεδομένων</b> Ελέγξτε το αρχείο καταγραφής σφαλμάτων για τυχόν σφάλματα! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[Η κρυπτογράφηση δεδομένων απέτυχε. Ελέγξτε τις ρυθμίσεις σας και ελέγξτε το αρχείο καταγραφής σφαλμάτων.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Σημαντικές σημειώσεις! Μετά την ολοκλήρωση της κρυπτογράφησης, τα δεδομένα θα αντιγραφούν σε πίνακες καθρέφτη με τα δεδομένα κρυπτογραφημένα σε αυτούς. 
+<br />Ακολουθήστε τις οδηγίες για να προσθέσετε τη ρύθμιση στο system/config.php ώστε το ΑμπάντεΚαρτ να μεταβεί στις λειτουργίες ανάγνωσης/εγγραφής σε κρυπτογραφημένους πίνακες.</b><br /> Προσθέστε την ακόλουθη γραμμή στο αρχείο ρυθμίσεων: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name'); <br> Αυτό θα είναι το προεπιλεγμένο κλειδί για τις λειτουργίες ανάγνωσης/εγγραφής]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Χρήση κρυπτογράφησης]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Μη κρυπτογραφημένες εγγραφές δεδομένων]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Χρησιμοποιήστε την καρτέλα 'Κρυπτογράφηση Δεδομένων' για την αρχική κρυπτογράφηση]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Κρυπτογραφημένες εγγραφές δεδομένων]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[Αναγνωριστικό κλειδιού]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Όνομα κλειδιού]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Χρήση Κρυπτογραφημένων Πινάκων]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Αλλάξτε την κρυπτογράφηση σε νέο κλειδί]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[εγγραφή(ες)]]></value>
+	</definition>
+</definitions>

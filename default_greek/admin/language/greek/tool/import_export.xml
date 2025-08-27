@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>import_export_title</key>
+		<value><![CDATA[Εισαγωγή & Εξαγωγή]]></value>
+	</definition>
+	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Οδηγός εισαγωγής δεδομένων]]></value>
+	</definition>
+	<definition>
+		<key>tab_import</key>
+		<value><![CDATA[Εισαγωγή]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Οδηγός Εισαγωγής]]></value>
+	</definition>
+	<definition>
+		<key>tab_export</key>
+		<value><![CDATA[Εξαγωγή]]></value>
+	</definition>
+	<definition>
+		<key>text_tables</key>
+		<value><![CDATA[Πίνακες]]></value>
+	</definition>
+	<definition>
+		<key>text_options</key>
+		<value><![CDATA[Επιλογές]]></value>
+	</definition>
+	<definition>
+		<key>text_file_format</key>
+		<value><![CDATA[Μορφή αρχείου:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_name</key>
+		<value><![CDATA[Όνομα αρχείου:]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file</key>
+		<value><![CDATA[Μεταφόρτωση αρχείου εισαγωγής]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Μπορείτε να ανεβάσετε αρχείο CSV ή αρχείο κειμένου για να εισαγάγετε δεδομένα.	
+Για τη δομή των δεδομένων, μπορείτε να ακολουθήσετε την ιδιόκτητη μορφή (βλέπε εξαγωγή) ή την ελεύθερη μορφή.	
+Για δεδομένα σε ελεύθερη μορφή, θα χρειαστεί να αντιστοιχίσετε τα στοιχεία δεδομένων χειροκίνητα ή να χρησιμοποιήσετε JSON map.	
+Μόνο προϊόν, κατηγορίες και μάρκες/κατασκευαστές υποστηρίζονται για εισαγωγή σε ελεύθερη μορφή.	
+Μπορείτε να συμπεριλάβετε στήλη Action για να καθοδηγήσετε την εισαγωγή να εκτελέσει 'insert', 'update' ή 'delete'. Η προεπιλεγμένη ενέργεια είναι update_or_insert.]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Επιλέξτε έναν πίνακα προορισμού και το αντίστοιχο πεδίο βάσης δεδομένων για κάθε παρεχόμενη στήλη εισαγωγής δεδομένων. Εάν δεν επιλεγεί κανένα πεδίο, τα δεδομένα της στήλης εισαγωγής θα αγνοηθούν. <br/> <b>Note:</b> Οι τιμές δεδομένων συγκεκριμένες ανά γλώσσα και κατάστημα θα αντιστοιχιστούν στο τρέχον κατάστημα περιεχομένου & τη γλώσσα που έχει επιλεγεί.]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Θα φορτωθούν και θα επεξεργαστούν %s εγγραφές σε αυτήν την εισαγωγή!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Εκτέλεση διαδικασίας εισαγωγής]]></value>
+	</definition>
+	<definition>
+		<key>text_load</key>
+		<value><![CDATA[Φόρτωση]]></value>
+	</definition>
+	<definition>
+		<key>text_import_loaded</key>
+		<value><![CDATA[Συνολικά φορτωμένα:]]></value>
+	</definition>
+	<definition>
+		<key>text_file_field</key>
+		<value><![CDATA[Αρχείο προς εισαγωγή:<br><span class="help">Υποστηριζόμενες μορφές για αρχεία εισαγωγής: CSV, TXT</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_id_range_from</key>
+		<value><![CDATA[Εύρος ID από:]]></value>
+	</definition>
+	<definition>
+		<key>text_to</key>
+		<value><![CDATA[προς:]]></value>
+	</definition>
+	<definition>
+		<key>text_csv_delimiter</key>
+		<value><![CDATA[CSV/TXT διαχωριστικό:]]></value>
+	</definition>
+	<definition>
+		<key>text_export_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Όλα τα πεδία θα περικλειστούν σε διπλά εισαγωγικά.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_note_csv_delimiter</key>
+		<value><![CDATA[<span class="help">Όλα τα πεδία πρέπει να περικλείονται σε διπλά εισαγωγικά.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test_mode</key>
+		<value><![CDATA[Εκτέλεση σε δοκιμαστική λειτουργία <br><span class="help">Συνιστάται να εκτελέσετε πρώτα την εισαγωγή δεδομένων σε δοκιμαστική λειτουργία, για να δείτε αν υπάρχουν προβλήματα.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Στήλη αρχείου εισαγωγής]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Δείγμα εισαγωγής δεδομένων]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Επιλέξτε τον πίνακα προορισμού]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Ενημέρωση εάν υπάρχει]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Διαίρεση δεδομένων κατά]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Επιλέξτε, αντιγράψτε και αποθηκεύστε αυτήν την αντιστοίχιση για μελλοντική χρήση.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Εξαγωγή αντιστοίχισης]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Επικολλήστε στο παρακάτω πεδίο τα προ-αποθηκευμένα δεδομένα αντιστοίχισης]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Φόρτωση αντιστοίχισης]]></value>
+	</definition>
+	<definition>
+		<key>error_file_format</key>
+		<value><![CDATA[Μη υποστηριζόμενη μορφή αρχείου εισαγωγής!]]></value>
+	</definition>
+	<definition>
+		<key>error_xml_import</key>
+		<value><![CDATA[Σφάλμα κατά την εισαγωγή αρχείου XML!]]></value>
+	</definition>
+	<definition>
+		<key>error_csv_import</key>
+		<value><![CDATA[Σφάλμα κατά την εισαγωγή αρχείου CSV/TXT! Παρακαλώ ελέγξτε τον διαχωριστή πεδίων.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_corrupted</key>
+		<value><![CDATA[Τα δεδομένα είναι κενά ή κατεστραμμένα.]]></value>
+	</definition>
+	<definition>
+		<key>error_file_empty</key>
+		<value><![CDATA[Το αρχείο είναι κενό.]]></value>
+	</definition>
+	<definition>
+		<key>error_writable_backup</key>
+		<value><![CDATA[Ο φάκελος αντιγράφων ασφαλείας πρέπει να είναι εγγράψιμος για να λειτουργεί η εξαγωγή CSV/TXT.]]></value>
+	</definition>
+	<definition>
+		<key>text_updated</key>
+		<value><![CDATA[Ενημερώθηκε:]]></value>
+	</definition>
+	<definition>
+		<key>text_created</key>
+		<value><![CDATA[Δημιουργήθηκε:]]></value>
+	</definition>
+	<definition>
+		<key>text_errors</key>
+		<value><![CDATA[Σφάλματα:]]></value>
+	</definition>
+	<definition>
+		<key>text_show_details</key>
+		<value><![CDATA[Εμφάνιση λεπτομερειών]]></value>
+	</definition>
+	<definition>
+		<key>text_no_children</key>
+		<value><![CDATA[Δεν υπάρχουν υποστοιχεία]]></value>
+	</definition>
+	<definition>
+		<key>text_some_errors</key>
+		<value><![CDATA[Υπάρχουν κάποια σφάλματα.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_completed</key>
+		<value><![CDATA[Η δοκιμαστική εκτέλεση ολοκληρώθηκε. Συνολικός αριθμός ερωτημάτων SQL:]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_by</key>
+		<value><![CDATA[Ταξινόμηση κατά:]]></value>
+	</definition>
+	<definition>
+		<key>error_table_selection</key>
+		<value><![CDATA[Δεν έχει επιλεχθεί πίνακας προορισμού εισαγωγής ή πεδία!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_selection</key>
+		<value><![CDATA[Λείπει υποχρεωτικό πεδίο δεδομένων '%s' για τον πίνακα προορισμού!]]></value>
+	</definition>
+	<definition>
+		<key>error_tmp_dir_non_writable</key>
+		<value><![CDATA[Προσωρινός φάκελος %s δεν είναι εγγράψιμος! Παρακαλώ αλλάξτε τα δικαιώματα για να συνεχίσετε.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_request</key>
+		<value><![CDATA[Κενό αίτημα.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import</key>
+		<value><![CDATA[Η διαδικασία εισαγωγής ολοκληρώθηκε. %s γραμμή(ες) επεξεργάστηκαν.]]></value>
+	</definition>
+	<definition>
+		<key>text_complete_import_with_errors</key>
+		<value><![CDATA[%s γραμμή(ες) με σφάλματα.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Για περισσότερες λεπτομέρειες δείτε <a href="%s" target="_new">αρχείο καταγραφής %s</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_abort</key>
+		<value><![CDATA[Η εργασία διακόπηκε επιτυχώς.]]></value>
+	</definition>
+	<definition>
+		<key>button_schedule_import</key>
+		<value><![CDATA[Προγραμματισμός Εισαγωγής]]></value>
+	</definition>
+	<definition>
+		<key>text_success_scheduled</key>
+		<value><![CDATA[Επιτυχία: Έχετε δημιουργήσει με επιτυχία προγραμματισμένη εργασία εισαγωγής! <a href="%s">Δείτε λεπτομέρειες</a>]]></value>
+	</definition>
+</definitions>

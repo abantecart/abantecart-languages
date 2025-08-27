@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardknox_name</key>
+		<value><![CDATA[CardKnox]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_key</key>
+		<value><![CDATA[Κλειδί Συναλλαγής (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_token</key>
+		<value><![CDATA[]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_test</key>
+		<value><![CDATA[Λειτουργία Δοκιμής]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_success_order_status</key>
+		<value><![CDATA[Κατάσταση Παραγγελίας:<br /><span class="help">Η κατάσταση παραγγελίας που θα οριστεί μετά την ολοκλήρωση της παραγγελίας του πελάτη, βάσει της ορισμένης μεθόδου συναλλαγής</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id</key>
+		<value><![CDATA[Τοποθεσία:<br /><span class="help">Περιορίστε ώστε να επιτρέπεται μόνο σε επιλεγμένες τοποθεσίες η χρήση αυτής της μεθόδου πληρωμής.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_location_id_0</key>
+		<value><![CDATA[Όλες οι Τοποθεσίες]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method</key>
+		<value><![CDATA[Transaction Method:<br /><span class="help">Συναλλαγή CardKnox που εκτελείται στο ταμείο του πελάτη πριν οριστεί η κατάσταση της παραγγελίας. Εξουσιοδότηση μόνο ή είσπραξη.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_capture</key>
+		<value><![CDATA[Είσπραξη]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_transaction_method_authorization</key>
+		<value><![CDATA[Μόνο εξουσιοδότηση]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_ifields_key</key>
+		<value><![CDATA[iFields Κλειδί]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_pending_authorization</key>
+		<value><![CDATA[Εκκρεμεί Εξουσιοδότηση]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_funds</key>
+		<value><![CDATA[Είσπραξη χρημάτων]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture</key>
+		<value><![CDATA[Είσπραξη]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_payment_status</key>
+		<value><![CDATA[Κατάσταση πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_capture_success</key>
+		<value><![CDATA[Επιτυχία! Τα κεφάλαια παρακρατήθηκαν με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_processing</key>
+		<value><![CDATA[Επεξεργασία]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_do_refund</key>
+		<value><![CDATA[Κάντε επιστροφή χρημάτων μέσω CardKnox:<span class="help">Μπορείτε να εισαγάγετε το ποσό που πρέπει να επιστραφεί.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refunded</key>
+		<value><![CDATA[Επιστράφηκε]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund</key>
+		<value><![CDATA[Επιστροφή χρημάτων]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_refund_title</key>
+		<value><![CDATA[Επιστροφή CardKnox]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_text_refund_success</key>
+		<value><![CDATA[Επιτυχία! Η παραγγελία έχει επιστραφεί με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_empty_amount</key>
+		<value><![CDATA[Σφάλμα! Το ποσό είναι λάθος.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_payment_method_data</key>
+		<value><![CDATA[Σφάλμα! Δεν υπάρχουν δεδομένα μεθόδου πληρωμής για αυτή την παραγγελία.]]></value>
+	</definition>
+	<definition>
+		<key>cardknox_error_no_order_id</key>
+		<value><![CDATA[Σφάλμα! Δεν υπάρχει αναγνωριστικό παραγγελίας.]]></value>
+	</definition>
+</definitions>

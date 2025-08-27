@@ -1,0 +1,668 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_royal_mail_name</key>
+		<value><![CDATA[Βασιλικό Ταχυδρομείο]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Αποστολή]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Επιτυχία: Έχετε τροποποιήσει την αποστολή Royal Mail!]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class</key>
+		<value><![CDATA[1η Τάξη (μόνο για Μεγ. Βρετανία)<br/><span class="help">Στόχος παράδοσης επόμενης ημέρας για γράμματα και δέματα</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_rates</key>
+		<value><![CDATA[Τιμές Πρώτης Κατηγορίας:<br/><span class="help">Παράδειγμα: .1:1.58,.25:1.96,.5:2.48 Βάρος:Κόστος,Βάρος:Κόστος, κλπ. Σε αυτό το παράδειγμα 0.1kg = £1.58. Όπου KG είναι η κλάση βάρους που έχετε ορίσει στις ρυθμίσεις του Royal Mail και το £ είναι το βασικό νόμισμα του καταστήματος. Η κλάση βάρους του καταστήματος θα αγνοηθεί.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_1st_class_compensation_rates</key>
+		<value><![CDATA[Ποσοστά αποζημίωσης πρώτης τάξης]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class</key>
+		<value><![CDATA[2η Κατηγορία (μόνο για GB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_rates</key>
+		<value><![CDATA[Τιμές 2ης Κατηγορίας]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_2nd_class_compensation_rates</key>
+		<value><![CDATA[Τιμές Αποζημίωσης 2ης Κατηγορίας]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24</key>
+		<value><![CDATA[Με παρακολούθηση 24® (μόνο για ΗΒ)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_rates</key>
+		<value><![CDATA[Τιμές Tracked 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked24_compensation_rates</key>
+		<value><![CDATA[Ποσοστά Αποζημίωσης Tracked 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48</key>
+		<value><![CDATA[Παρακολούθηση 48® (μόνο για ΗΒ)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_rates</key>
+		<value><![CDATA[Τιμές Tracked 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tracked48_compensation_rates</key>
+		<value><![CDATA[Ποσοστά Αποζημίωσης Tracked 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24</key>
+		<value><![CDATA[Mail 24® (μόνο για GB)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_rates</key>
+		<value><![CDATA[Τιμές Mail 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail24_compensation_rates</key>
+		<value><![CDATA[Ποσοστά Αποζημίωσης Mail 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48</key>
+		<value><![CDATA[Mail 48® (μόνο για Μεγάλη Βρετανία)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_rates</key>
+		<value><![CDATA[Τιμές Mail 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_mail48_compensation_rates</key>
+		<value><![CDATA[Ποσοστά αποζημίωσης Mail 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday</key>
+		<value><![CDATA[Sameday® (μόνο για Ηνωμένο Βασίλειο)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_rates</key>
+		<value><![CDATA[Τιμές Sameday®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_sameday_compensation_rates</key>
+		<value><![CDATA[Sameday® Τιμές Αποζημίωσης]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed</key>
+		<value><![CDATA[Ειδική Παράδοση Με Εγγύηση® (για GB μόνο)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_rates</key>
+		<value><![CDATA[Τιμές Εγγυημένης Ειδικής Παράδοσης®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_special_delivery_guaranteed_compensation_rates</key>
+		<value><![CDATA[Εγγυημένη Ειδική Παράδοση® Ποσοστά Αποζημίωσης]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb</key>
+		<value><![CDATA[Μέθοδος αποστολής για δωρεάν αποστολή (μόνο για GB)
+<span class="help">Παρακαλούμε επιλέξτε ποια μέθοδος αποστολής θα χρησιμοποιηθεί στην περίπτωση που το καλάθι περιέχει μόνο προϊόντα με δωρεάν αποστολή</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_1st_class</key>
+		<value><![CDATA[1η Τάξη]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_2nd_class</key>
+		<value><![CDATA[2η κλάση]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked24</key>
+		<value><![CDATA[Παρακολούθηση 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_tracked48</key>
+		<value><![CDATA[Παρακολούθηση 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail24</key>
+		<value><![CDATA[Ταχυδρομείο 24®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_mail48</key>
+		<value><![CDATA[Ταχυδρομείο 48®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_sameday</key>
+		<value><![CDATA[Sameday®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_free_gb_special_delivery_guaranteed</key>
+		<value><![CDATA[Εγγυημένη Ειδική Παράδοση®]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_1</key>
+		<value><![CDATA[Διεθνής Τιμολόγηση Ευρώπη Ζώνη 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_2</key>
+		<value><![CDATA[Διεθνής Τιμολόγηση Ευρωπαϊκή Ζώνη 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_europe_zone_3</key>
+		<value><![CDATA[Διεθνής Τιμολόγηση Ευρώπη Ζώνη 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_1</key>
+		<value><![CDATA[Διεθνής Τιμολόγηση Παγκόσμια Ζώνη 1]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_2</key>
+		<value><![CDATA[Διεθνής Τιμολόγηση Παγκόσμια Ζώνη 2]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_world_zone_3</key>
+		<value><![CDATA[Διεθνής Τιμολόγηση Παγκόσμια Ζώνη 3]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Διεθνές Κανονικό Οικονομίας (Europe Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_1_rates</key>
+		<value><![CDATA[Τυπικές Οικονομικές Τιμές (Ζώνη 1 Ευρώπη)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2</key>
+		<value><![CDATA[Διεθνής Κανονική Οικονομική (Ζώνη Ευρώπης 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_2_rates</key>
+		<value><![CDATA[Τυπικές Τιμές Οικονομίας (Ζώνη Ευρώπης 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3</key>
+		<value><![CDATA[Διεθνής Τυπική Οικονομική (Ζώνη 3 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_europe_zone_3_rates</key>
+		<value><![CDATA[Τυπικές Οικονομικές Τιμές (Ζώνη 3 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1</key>
+		<value><![CDATA[Διεθνές Οικονομικό Πρότυπο (Ζώνη Κόσμου 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_1_rates</key>
+		<value><![CDATA[Τυπικές τιμές οικονομίας (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2</key>
+		<value><![CDATA[Διεθνής Κανονική Οικονομική (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_2_rates</key>
+		<value><![CDATA[Κανονικές Οικονομικές Χρεώσεις (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3</key>
+		<value><![CDATA[Διεθνής Τυπική Οικονομική (Ζώνη Κόσμου 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_economy_world_zone_3_rates</key>
+		<value><![CDATA[Κανονικές Οικονομικές Τιμές (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Διεθνής Κανονική Προτεραιότητα (Ζώνη 1 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_1_rates</key>
+		<value><![CDATA[Τυπικές χρεώσεις προτεραιότητας (Ζώνη 1 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2</key>
+		<value><![CDATA[Διεθνής Τυπική Προτεραιότητα (Ευρώπη Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_2_rates</key>
+		<value><![CDATA[Τυπικές Χρεώσεις Προτεραιότητας (Ζώνη 2 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3</key>
+		<value><![CDATA[Διεθνής Κανονική Προτεραιότητα (Ευρώπη Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_europe_zone_3_rates</key>
+		<value><![CDATA[Κανονικές Τιμές Προτεραιότητας (Ζώνη Ευρώπη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1</key>
+		<value><![CDATA[Διεθνής Τυπική Προτεραιότητα (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_1_rates</key>
+		<value><![CDATA[Τυπικές Τιμές Προτεραιότητας (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2</key>
+		<value><![CDATA[Διεθνής Πρότυπη Προτεραιότητα (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_2_rates</key>
+		<value><![CDATA[Κανονικές χρεώσεις προτεραιότητας (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3</key>
+		<value><![CDATA[Διεθνής Κανονική Προτεραιότητα (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_standard_priority_world_zone_3_rates</key>
+		<value><![CDATA[Τυπικές Τιμές Προτεραιότητας (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1</key>
+		<value><![CDATA[Διεθνής Υπογεγραμμένη (Ζώνη 1 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_1_rates</key>
+		<value><![CDATA[Υπογεγραμμένες Τιμές (Ζώνη Ευρώπη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2</key>
+		<value><![CDATA[Διεθνής με Υπογραφή (Ζώνη 2 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_2_rates</key>
+		<value><![CDATA[Υπογεγραμμένες Τιμές (Ζώνη Ευρώπη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3</key>
+		<value><![CDATA[Διεθνής συστημένη (Ευρώπη Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_europe_zone_3_rates</key>
+		<value><![CDATA[Υπογεγραμμένες Τιμές (Ευρωπαϊκή Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1</key>
+		<value><![CDATA[Διεθνής με υπογραφή (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_1_rates</key>
+		<value><![CDATA[Υπογεγραμμένες Τιμές (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2</key>
+		<value><![CDATA[Διεθνής με υπογραφή (Ζώνη 2 Κόσμου)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_2_rates</key>
+		<value><![CDATA[Υπογεγραμμένες Τιμές (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3</key>
+		<value><![CDATA[Διεθνής παραλαβή με υπογραφή (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_signed_world_zone_3_rates</key>
+		<value><![CDATA[Τιμές με υπογραφή (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Διεθνής Παρακολούθηση με Υπογραφή (Ζώνη Ευρώπης 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_1_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση και υπογραφή (Ζώνη Ευρώπης 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[Διεθνής με ιχνηλάτηση και υπογραφή (Ζώνη 2 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_2_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση και υπογραφή (Ευρώπη Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[Διεθνής Παρακολούθηση και Υπογραφή]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_europe_zone_3_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση και υπογραφή (Ζώνη Ευρώπης 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1</key>
+		<value><![CDATA[Διεθνής Παρακολούθηση & Υπογραφή (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_1_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση και υπογραφή (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2</key>
+		<value><![CDATA[Διεθνής παρακολούθηση με υπογραφή (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_2_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση και υπογραφή (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3</key>
+		<value><![CDATA[Διεθνής με παρακολούθηση και συστημένο (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_signed_world_zone_3_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση και υπογραφή (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1</key>
+		<value><![CDATA[Διεθνής Αποστολή με Παρακολούθηση (Ζώνη Ευρώπης 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_1_rates</key>
+		<value><![CDATA[Τιμές με ιχνηλάτηση (Ζώνη Ευρώπη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2</key>
+		<value><![CDATA[Διεθνής Παρακολούθηση (Ευρώπη Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_2_rates</key>
+		<value><![CDATA[Ιχνηλατούμενες τιμές (Ζώνη Ευρώπης 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3</key>
+		<value><![CDATA[Διεθνής με παρακολούθηση (Ευρώπη Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_europe_zone_3_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση (Ζώνη 3 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1</key>
+		<value><![CDATA[Διεθνής με παρακολούθηση (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_1_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2</key>
+		<value><![CDATA[Διεθνής Παρακολούθηση (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_2_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση (World Zone 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3</key>
+		<value><![CDATA[Διεθνής αποστολή με ιχνηλάτηση (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_world_zone_3_rates</key>
+		<value><![CDATA[Τιμές με παρακολούθηση (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Διεθνής Παρακολούθηση Βαρέων (Ευρώπη Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_1_rates</key>
+		<value><![CDATA[Παρακολουθούμενες Χρεώσεις Βαριών Αποστολών (Ζώνη Ευρώπη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[Διεθνής Παρακολούθηση Βαρύτερη (Ζώνη Ευρώπη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_2_rates</key>
+		<value><![CDATA[Βαριές χρεώσεις με παρακολούθηση (Ζώνη Ευρώπης 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[Διεθνής Παρακολουθούμενη Βαρύτερη (Ζώνη 3 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_europe_zone_3_rates</key>
+		<value><![CDATA[Βαρύτερες χρεώσεις με ιχνηλάτηση (Ζώνη Ευρώπη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[Διεθνές Με Παρακολούθηση Βαρύτερο (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_1_rates</key>
+		<value><![CDATA[Βαρύτερες Τιμές με Παρακολούθηση (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[Διεθνές Εντοπισμένο Βαρύτερο (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_2_rates</key>
+		<value><![CDATA[Χρεώσεις με παρακολούθηση για βαρύτερα (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[Διεθνής Παρακολούθηση Βαρύτερων (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_tracked_heavier_world_zone_3_rates</key>
+		<value><![CDATA[Βαρύτερες χρεώσεις με παρακολούθηση (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free</key>
+		<value><![CDATA[Διεθνής μέθοδος αποστολής για δωρεάν αποστολή <span class="help">Παρακαλώ επιλέξτε ποια μέθοδος θα επιλεχθεί στην περίπτωση που το καλάθι περιέχει μόνο προϊόντα με δωρεάν αποστολή</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Τυπική Οικονομική (Ζώνη 1 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_1</key>
+		<value><![CDATA[Κανονική Οικονομική (Ευρώπη Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_2</key>
+		<value><![CDATA[Τυπική Οικονομική (Ζώνη 2 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_europe_zone_3</key>
+		<value><![CDATA[Κανονική Οικονομική (Ευρώπη Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_1</key>
+		<value><![CDATA[Κανονική Οικονομική (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_2</key>
+		<value><![CDATA[Τυπική Οικονομική (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_economy_world_zone_3</key>
+		<value><![CDATA[Κανονική Οικονομική (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Κανονική Προτεραιότητα (Ευρώπη Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_1</key>
+		<value><![CDATA[Κανονική Προτεραιότητα (Ζώνη Ευρώπης 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_2</key>
+		<value><![CDATA[Τυπική Προτεραιότητα (Ευρώπη Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_europe_zone_3</key>
+		<value><![CDATA[Τυπική Προτεραιότητα (Ζώνη 3 Ευρώπης)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_1</key>
+		<value><![CDATA[Κανονική Προτεραιότητα (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_2</key>
+		<value><![CDATA[Τυπική Προτεραιότητα (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_standard_priority_world_zone_3</key>
+		<value><![CDATA[Κανονική Προτεραιότητα (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[Με υπογραφή (Ζώνη 1 Ευρώπη)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_1</key>
+		<value><![CDATA[Υπογεγραμμένο (Ζώνη Ευρώπης 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_2</key>
+		<value><![CDATA[Υπογεγραμμένο (Ζώνη Ευρώπης 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_europe_zone_3</key>
+		<value><![CDATA[Υπογεγραμμένο (Ζώνη Ευρώπης 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_1</key>
+		<value><![CDATA[Υπογεγραμμένο (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_2</key>
+		<value><![CDATA[Υπογεγραμμένο (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_signed_world_zone_3</key>
+		<value><![CDATA[Υπογεγραμμένο (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Ιχνηλατούμενο και υπογεγραμμένο (Ζώνη Ευρώπης 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_1</key>
+		<value><![CDATA[Με παρακολούθηση και υπογραφή (Ευρώπη Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_2</key>
+		<value><![CDATA[Με παρακολούθηση και υπογραφή (Ζώνη Ευρώπη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_europe_zone_3</key>
+		<value><![CDATA[Καταγεγραμμένο με υπογραφή (Ευρώπη Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_1</key>
+		<value><![CDATA[Με παρακολούθηση και υπογραφή (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_2</key>
+		<value><![CDATA[Ιχνηλατούμενη με υπογραφή (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_signed_world_zone_3</key>
+		<value><![CDATA[Παρακολούθηση με υπογραφή (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[Με ιχνηλάτηση (Ζώνη Ευρώπης 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_1</key>
+		<value><![CDATA[Παρακολουθούμενο (Ζώνη Ευρώπης 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_2</key>
+		<value><![CDATA[Με ιχνηλάτηση (Ευρώπη Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_europe_zone_3</key>
+		<value><![CDATA[Με παρακολούθηση (Ζώνη Ευρώπης 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_1</key>
+		<value><![CDATA[Με παρακολούθηση (World Zone 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_2</key>
+		<value><![CDATA[Με παρακολούθηση (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_world_zone_3</key>
+		<value><![CDATA[Με παρακολούθηση (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Βαρύτερο με παρακολούθηση (Ευρώπη Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_1</key>
+		<value><![CDATA[Με Παρακολούθηση Βαρύτερων (Ευρώπη Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_2</key>
+		<value><![CDATA[Με παρακολούθηση βαρύτερο (Ευρώπη Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_europe_zone_3</key>
+		<value><![CDATA[Πιο βαρύ με παρακολούθηση (Ζώνη Ευρώπη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_1</key>
+		<value><![CDATA[Με Παρακολούθηση Βαρύτερο (Παγκόσμια Ζώνη 1)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_2</key>
+		<value><![CDATA[Με παρακολούθηση βαρύτερων (Παγκόσμια Ζώνη 2)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_intl_free_tracked_heavier_world_zone_3</key>
+		<value><![CDATA[Ιχνηλάτηση Βαρύτερων (Παγκόσμια Ζώνη 3)]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_weight</key>
+		<value><![CDATA[Εμφάνιση Βάρους Αποστολής:<br /><span class="help">Θέλετε να εμφανίσετε το βάρος αποστολής; (π.χ. Βάρος Αποστολής : 2.7674 Kg)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_insurance</key>
+		<value><![CDATA[Εμφάνιση Ασφάλισης:<br /><span class="help">Θέλετε να εμφανίζεται η ασφάλεια αποστολής; (π.χ. Ασφαλισμένο έως £500)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_display_time</key>
+		<value><![CDATA[Display Delivery Time:<br /><span class="help">Θέλετε να εμφανίζεται ο χρόνος αποστολής; (π.χ. Αποστέλλεται εντός 3 έως 5 ημερών)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_weight_class</key>
+		<value><![CDATA[Weight Class:<br /><span class="help">Η κατηγορία βάρους των χρεώσεών σας. Η κατηγορία βάρους του καταστήματος θα αγνοείται</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax</key>
+		<value><![CDATA[Κατηγορία Φόρου:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_tax_0</key>
+		<value><![CDATA[---Κανένα---]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id</key>
+		<value><![CDATA[Τοποθεσία:]]></value>
+	</definition>
+	<definition>
+		<key>default_royal_mail_location_id_0</key>
+		<value><![CDATA[Όλες οι τοποθεσίες]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Προειδοποίηση: Δεν έχετε δικαίωμα να τροποποιήσετε τις αποστολές της Royal Mail!]]></value>
+	</definition>
+</definitions>

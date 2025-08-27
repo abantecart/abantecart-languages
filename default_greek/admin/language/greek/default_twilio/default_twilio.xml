@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_twilio_name</key>
+		<value><![CDATA[Τουίλιο]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_note</key>
+		<value><![CDATA[Για να ενεργοποιήσετε την αποστολή μηνυμάτων SMS, μεταβείτε στο Σύστημα -> Ρυθμίσεις -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a> και επιλέξτε το Twilio ως προεπιλεγμένο sms-driver. Μην ξεχάσετε να ενεργοποιήσετε την ενότητα από την οποία θέλετε να λαμβάνετε SMS (στον πίνακα διαχείρισης ή στο κατάστημα).	
+Αυτή η επέκταση θα ενεργοποιήσει το πεδίο Κινητό Τηλέφωνο για διαχειριστές και πελάτες. Θυμηθείτε ότι η απενεργοποίηση αυτής της επέκτασης θα αποκρύψει αυτό το πεδίο.	
+Εάν προστεθεί σε υπάρχον κατάστημα με πελάτες, να έχετε υπόψη σας ότι αυτή η πληροφορία θα λείπει.]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_username</key>
+		<value><![CDATA[SID λογαριασμού API]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_token</key>
+		<value><![CDATA[Διακριτικό εξουσιοδότησης API]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test</key>
+		<value><![CDATA[Λειτουργία Δοκιμής]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[Τηλέφωνο αποστολέα (Twilio): <span class="help">Phone number of sender in international format (ex. +14158675309)</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_send_to</key>
+		<value><![CDATA[Αποστολή δοκιμαστικού SMS σε:]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_0</key>
+		<value><![CDATA[Όχι]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_1</key>
+		<value><![CDATA[Ναι]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_test_connection</key>
+		<value><![CDATA[Δοκιμάστε τη σύνδεσή σας:<span class="help">Μπορείτε να ελέγξετε αν τα διαπιστευτήρια API που έχετε εισαγάγει είναι σωστά.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_logging</key>
+		<value><![CDATA[Κατάσταση Καταγραφής Σφαλμάτων<span class="help">Αν θέλετε να καταγράψετε όλα τα σφάλματα της επέκτασης Twilio, ενεργοποιήστε αυτή τη ρύθμιση.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[Κινητό Τηλέφωνο]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Δοκιμή]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Σφάλμα! Παρακαλώ ελέγξτε αν η επέκταση είναι ενεργοποιημένη.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Η σύνδεση είναι επιτυχής και τα διαπιστευτήρια API έχουν ρυθμιστεί σωστά.]]></value>
+	</definition>
+	<definition>
+		<key>default_twilio_sender_phone</key>
+		<value><![CDATA[Αποστολέας (Twilio) Τηλέφωνο: <span class="help">Αριθμός τηλεφώνου αποστολέα σε διεθνή μορφή (π.χ. +14158675309)</span>]]></value>
+	</definition>
+</definitions>

@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>stripe_name</key>
+		<value><![CDATA[Πληρωμή Stripe]]></value>
+	</definition>
+	<definition>
+		<key>stripe_note</key>
+		<value><![CDATA[Απαιτούνται επιπλέον ρυθμίσεις για την ολοκλήρωση της ρύθμισης πληρωμών Stripe. Δείτε την καρτέλα επιπλέον ρυθμίσεων.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Πληρωμή]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Επιτυχία: Έχετε τροποποιήσει τις ρυθμίσεις πληρωμών Stripe!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id</key>
+		<value><![CDATA[Τοποθεσία:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_location_id_0</key>
+		<value><![CDATA[Όλες οι τοποθεσίες]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_published_key</key>
+		<value><![CDATA[Δημοσιευμένο Κλειδί:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_autoselect</key>
+		<value><![CDATA[Αυτόματη Επιλογή:<br /><span class="help">Μπορείτε να ρυθμίσετε ώστε να παραλείπεται η σελίδα επιλογής πληρωμής εάν υπάρχει μόνο μία επιλογή πληρωμής. Αυτή η μέθοδος πληρωμής θα επιλέγεται αυτόματα.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list</key>
+		<value><![CDATA[Επιτρεπτοί τρόποι πληρωμής. <br /><span class="help">Αφήστε κενό για αυτόματη επιλογή</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_card</key>
+		<value><![CDATA[Κάρτες]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_klarna</key>
+		<value><![CDATA[Κλάρνα]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_acss_debit</key>
+		<value><![CDATA[ACSS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_afterpay_clearpay</key>
+		<value><![CDATA[Afterpay/Clearpay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_alipay</key>
+		<value><![CDATA[Αλιπάι]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_au_becs_debit</key>
+		<value><![CDATA[BECS Άμεση Χρέωση]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bacs_debit</key>
+		<value><![CDATA[Bacs Απευθείας Χρέωση]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_affirm</key>
+		<value><![CDATA[Επιβεβαίωση]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_bancontact</key>
+		<value><![CDATA[Μπανκοντακτ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_blik</key>
+		<value><![CDATA[Μπλικ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_boleto</key>
+		<value><![CDATA[Μπολέτο]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_interac_present</key>
+		<value><![CDATA[Ιντερακ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_pix</key>
+		<value><![CDATA[Πιξ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_revolut_pay</key>
+		<value><![CDATA[Πληρωμή Revolut]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_swish</key>
+		<value><![CDATA[Swish]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_mobilepay</key>
+		<value><![CDATA[MobilePay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_zip</key>
+		<value><![CDATA[Ταχυδρομικός κώδικας]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_eps</key>
+		<value><![CDATA[EPS]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_fpx</key>
+		<value><![CDATA[FPX]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_giropay</key>
+		<value><![CDATA[giropay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_grabpay</key>
+		<value><![CDATA[Γκραππέι]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_ideal</key>
+		<value><![CDATA[iDEAL]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_konbini</key>
+		<value><![CDATA[Κονμπίνι]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_link</key>
+		<value><![CDATA[Σύνδεσμος]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_oxxo</key>
+		<value><![CDATA[ΟΧΧΟ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sofort</key>
+		<value><![CDATA[Σόφορτ]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_p24</key>
+		<value><![CDATA[Πρζελεωυ24]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_paynow</key>
+		<value><![CDATA[Πλήρωσε τώρα]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_promptpay</key>
+		<value><![CDATA[PromptPay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_sepa_debit</key>
+		<value><![CDATA[Άμεση Χρέωση SEPA]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_us_bank_account</key>
+		<value><![CDATA[ACH Άμεση Χρέωση]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_wechat_pay</key>
+		<value><![CDATA[WeChat Pay]]></value>
+	</definition>
+	<definition>
+		<key>stripe_payment_method_list_twint</key>
+		<value><![CDATA[TWINT]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_connect</key>
+		<value><![CDATA[Πρέπει να συνδεθείτε με τη Stripe για να ρυθμίσετε τα στοιχεία πληρωμής.]]></value>
+	</definition>
+	<definition>
+		<key>text_stripe_settings</key>
+		<value><![CDATA[Ρυθμίσεις Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Συνδεθείτε με το Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Αποσύνδεση Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Δεν είναι δυνατή η σύνδεση;]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Συνδεθήκατε με το Stripe με επιτυχία]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Αποσυνδεθήκατε από το Stripe με επιτυχία]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sort_order</key>
+		<value><![CDATA[Σειρά ταξινόμησης]]></value>
+	</definition>
+	<definition>
+		<key>stripe_test_mode</key>
+		<value><![CDATA[Test mode:<br /><span class="help">Ορίστε σε ON αν θέλετε να χρησιμοποιήσετε δοκιμαστικό κλειδί</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_live</key>
+		<value><![CDATA[Ζωντανό Μυστικό Κλειδί:<br /><span class="help">Εντοπίστε το στην ενότητα Κλειδιά API του Stripe. Το κλειδί ξεκινά με sk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_live</key>
+		<value><![CDATA[Ζωντανό Δημόσιο Κλειδί:<br /><span class="help">Εντοπίστε το στην ενότητα Κλειδιά API του Stripe. Το κλειδί ξεκινά με pk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_sk_test</key>
+		<value><![CDATA[Δοκιμαστικό μυστικό κλειδί:<br /><span class="help">Βρείτε το στην ενότητα Κλειδιών API του Stripe. Το κλειδί ξεκινά με sk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_pk_test</key>
+		<value><![CDATA[Δοκιμαστικό Κλειδί Δημοσίευσης:<br /><span class="help">Βρείτε το στην ενότητα Κλειδιά API του Stripe. Το κλειδί ξεκινά με pk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement</key>
+		<value><![CDATA[Settlement type:<br /><span class="help">Εάν οριστεί σε 'auto', η συναλλαγή θα συμπεριληφθεί στη σημερινή εκκαθάριση. Εάν οριστεί σε 'delayed', η συναλλαγή θα εγκριθεί αλλά δεν θα εκκαθαριστεί (captured). Πρέπει να capture τις συναλλαγές χειροκίνητα εντός 7 ημερών από την έγκριση</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_settled</key>
+		<value><![CDATA[Επιτυχία & εκκαθάριση:<br /><span class="help">Επιλέξτε την κύρια κατάσταση παραγγελίας που θέλετε να ορίσετε ως απάντηση στην κατάσταση του επεξεργαστή πληρωμών</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_success_unsettled</key>
+		<value><![CDATA[Επιτυχία & μη εκκαθαρισμένο:<br /><span class="help">Επιλέξτε την κύρια κατάσταση παραγγελίας που θέλετε να ορίσετε ως απάντηση στην κατάσταση του επεξεργαστή πληρωμών</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_decline</key>
+		<value><![CDATA[Decline:<br /><span class="help">Κατάσταση παραγγελίας που θέλετε να καταγράψετε στο ιστορικό ως απάντηση στην κατάσταση του επεξεργαστή πληρωμών. Η κύρια κατάσταση της παραγγελίας δεν επηρεάζεται. Η παραγγελία δεν θα καταχωρηθεί παρά μόνο αφού η πληρωμή είναι επιτυχής.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_void</key>
+		<value><![CDATA[Ακυρωμένη:<br /><span class="help">Η κατάσταση παραγγελίας που θέλετε να οριστεί αν η πληρωμή ακυρωθεί στο admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>stripe_status_refund</key>
+		<value><![CDATA[Επιστράφηκε:<br /><span class="help">Κατάσταση παραγγελίας που θέλετε να οριστεί αν η πληρωμή επιστραφεί στο admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Ημερομηνία Συναλλαγής]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Ποσό]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Τα κεφάλαια εισπράχθηκαν με επιτυχία]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Η είσπραξη ολοκληρώθηκε με επιτυχία, η κατάσταση της παραγγελίας ενημερώθηκε σε επιτυχία - εξοφλημένη]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Η επιστροφή χρημάτων επεξεργάστηκε με επιτυχία]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Η επιστροφή χρημάτων ολοκληρώθηκε με επιτυχία, η κατάσταση της παραγγελίας ενημερώθηκε σε «Επιστράφηκε»]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Η ακύρωση ολοκληρώθηκε με επιτυχία, η κατάσταση της παραγγελίας ενημερώθηκε σε ακυρωμένη.]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_auto</key>
+		<value><![CDATA[Αυτόματο (εξουσιοδότηση και χρέωση)]]></value>
+	</definition>
+	<definition>
+		<key>stripe_settlement_delayed</key>
+		<value><![CDATA[Καθυστερημένο (μόνο εξουσιοδότηση)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Στοιχεία Πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Η πληρωμή καταγράφηκε]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Η πληρωμή ακυρώθηκε]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Η πληρωμή επιστράφηκε]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Ποσό Εκκαθάρισης]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Ποσό Επιστροφής]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Αναγνωριστικό χρέωσης Stripe]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Συνολικό εξουσιοδοτημένο ποσό]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Υπόλοιπο ποσό]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Συναλλαγές Επιστροφών]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Παρακαλώ επιβεβαιώστε ότι θέλετε να ακυρώσετε την πληρωμή;]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Παρακαλούμε επιβεβαιώστε ότι θέλετε να εισπράξετε την πληρωμή;]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Παρακαλώ επιβεβαιώστε ότι θέλετε να επιστρέψετε την πληρωμή;]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Επιστροφή χρημάτων]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Κενό]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Λήψη]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Εσωτερικό σφάλμα. Ελέγξτε το αρχείο καταγραφής σφαλμάτων ή τις παραμέτρους εισόδου!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Αδυναμία είσπραξης, ανανέωσης των στοιχείων συναλλαγής και ελέγχου του ποσού είσπραξης]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Δεν είναι δυνατή η ακύρωση της συναλλαγής, ανανεώστε και ελέγξτε τα στοιχεία της συναλλαγής]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Δεν είναι δυνατή η επιστροφή χρημάτων, ανανεώστε τα στοιχεία της συναλλαγής και ελέγξτε το ποσό επιστροφής]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_test</key>
+		<value><![CDATA[Απαιτείται το δημοσιευμένο κλειδί Stripe]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_pk_live</key>
+		<value><![CDATA[Το δημοσιευμένο κλειδί Stripe είναι απαραίτητο.]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_test</key>
+		<value><![CDATA[Απαιτείται δοκιμαστικό κλειδί Stripe.]]></value>
+	</definition>
+	<definition>
+		<key>error_stripe_sk_live</key>
+		<value><![CDATA[Απαιτείται ζωντανό κλειδί Stripe]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Προειδοποίηση: Δεν έχετε δικαίωμα να τροποποιήσετε την Πληρωμή Stripe!]]></value>
+	</definition>
+	<definition>
+		<key>stripe_webhook_howto_text</key>
+		<value><![CDATA[Σημείωση: Για να ολοκληρώσετε τη ρύθμιση πρέπει να δημιουργήσετε webhooks στην πλευρά του λογαριασμού Stripe.
+<br> Μεταβείτε στην <a href="https://dashboard.stripe.com/webhooks" target="_new">Ενότητα Προγραμματιστή του πίνακα ελέγχου Stripe</a>	
+και προσθέστε Endpoints που λαμβάνουν γεγονότα από τον λογαριασμό σας. Αφού δημιουργηθεί το Endpoint, αντιγράψτε το Signing Secret και αποθηκεύστε το στις ρυθμίσεις του Stripe Subscription Extension.]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_url</key>
+		<value><![CDATA[Διεύθυνση URL τελικού σημείου:]]></value>
+	</definition>
+	<definition>
+		<key>stripe_entry_endpoint_signing_secret</key>
+		<value><![CDATA[Μυστικό υπογραφής τερματικού σημείου:]]></value>
+	</definition>
+</definitions>

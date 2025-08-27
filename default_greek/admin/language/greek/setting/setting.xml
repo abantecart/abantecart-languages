@@ -1,0 +1,1064 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Ρυθμίσεις]]></value>
+	</definition>
+	<definition>
+		<key>column_store_alias</key>
+		<value><![CDATA[Κατάστημα]]></value>
+	</definition>
+	<definition>
+		<key>column_group</key>
+		<value><![CDATA[Ομάδα]]></value>
+	</definition>
+	<definition>
+		<key>column_key</key>
+		<value><![CDATA[Κλειδί]]></value>
+	</definition>
+	<definition>
+		<key>column_value</key>
+		<value><![CDATA[Αξία]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Επιτυχία: Έχετε αποθηκεύσει με επιτυχία τις ρυθμίσεις σας!]]></value>
+	</definition>
+	<definition>
+		<key>text_image_manager</key>
+		<value><![CDATA[Διαχείριση εικόνων]]></value>
+	</definition>
+	<definition>
+		<key>text_select_group</key>
+		<value><![CDATA[- Επιλέξτε Ομάδα -]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[Προεπιλογή]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store_settings</key>
+		<value><![CDATA[Επεξεργασία Ρυθμίσεων:]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_template_settings</key>
+		<value><![CDATA[Επεξεργασία ρυθμίσεων προτύπου:]]></value>
+	</definition>
+	<definition>
+		<key>text_common_template_settings</key>
+		<value><![CDATA[Επιλογή Προτύπου]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store</key>
+		<value><![CDATA[Επεξεργασία Καταστήματος]]></value>
+	</definition>
+	<definition>
+		<key>text_mail</key>
+		<value><![CDATA[Εσωτερικός Αποστολέας]]></value>
+	</definition>
+	<definition>
+		<key>text_smtp</key>
+		<value><![CDATA[SMTP]]></value>
+	</definition>
+	<definition>
+		<key>text_native</key>
+		<value><![CDATA[Εγγενής (δυαδικό αρχείο sendmail και επιλογές ρύθμισης "sendmail_path" στο php.ini)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[Λήψη από system/config.php]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[Mailer συνδυάζει ένα <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> από το αρχείο config.php. Παρακαλούμε διαβάστε την <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">τεκμηρίωσή μας</a> για λεπτομέρειες.]]></value>
+	</definition>
+	<definition>
+		<key>tab_all</key>
+		<value><![CDATA[Όλα]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[Όνομα καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_url</key>
+		<value><![CDATA[URL καταστήματος:<br /><span class="help">Συμπεριλάβετε την πλήρη διεύθυνση URL του καταστήματός σας. Βεβαιωθείτε ότι προσθέτετε '/' στο τέλος. Παράδειγμα: http://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_owner</key>
+		<value><![CDATA[Ιδιοκτήτης καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address</key>
+		<value><![CDATA[Διεύθυνση:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[Ηλεκτρονικό ταχυδρομείο:]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_emails</key>
+		<value><![CDATA[Επιπλέον E-Mails ειδοποίησης:<br /><span class="help">Οποιεσδήποτε επιπλέον διευθύνσεις email στις οποίες θέλετε να λαμβάνετε το μήνυμα ειδοποίησης, εκτός από την κύρια διεύθυνση email του καταστήματος. (διαχωρισμένες με κόμμα)</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[Τα E-Mails ειδοποίησης πρέπει να είναι έγκυρα και διαχωρισμένα με κόμματα!]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[Τηλέφωνο:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[Φαξ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_title</key>
+		<value><![CDATA[Τίτλος:<br /><span class="help">Αυτό εμφανίζεται στον τίτλο του προγράμματος περιήγησης του καταστήματος</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[Περιγραφή ετικέτας meta:<br /><span class="help">Περιγραφή της meta ετικέτας της κύριας σελίδας του καταστήματος</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[Meta Λέξεις-κλειδιά:<br /><span class="help">Λέξεις-κλειδιά ετικετών meta για την κύρια σελίδα του καταστήματος (διαχωρισμένες με κόμματα)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[Μήνυμα καλωσορίσματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_template</key>
+		<value><![CDATA[Πρότυπο:<span class="help">Πρότυπο πρόσοψης καταστήματος. Αυτό μπορεί να είναι κύριο πρότυπο ή πρότυπο επέκτασης</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_template</key>
+		<value><![CDATA[Πρότυπο Πίνακα Ελέγχου:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[Χώρα:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[Περιοχή / Πολιτεία:]]></value>
+	</definition>
+	<definition>
+		<key>entry_language</key>
+		<value><![CDATA[Γλώσσα καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_language</key>
+		<value><![CDATA[Γλώσσα διαχείρισης: <span class="help">ΣΗΜΕΙΩΣΗ: λειτουργεί αν δεν βρεθεί προτιμώμενη γλώσσα χρήστη στο πρόγραμμα περιήγησης</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency</key>
+		<value><![CDATA[Βασικό νόμισμα:<span class="help">Πρόκειται για βασικό νόμισμα για όλα τα καταστήματα. Μην το αλλάξετε εάν δεν καταλαβαίνετε τι θα συμβεί. Προσοχή: Η αλλαγή του βασικού νομίσματος δεν θα αλλάξει τις βασικές τιμές των προϊόντων σας. Θα χρειαστεί να ελέγξετε και να προσαρμόσετε όλες τις τιμές εάν είναι απαραίτητο. Η ισοτιμία του βασικού νομίσματος θα οριστεί στο 1.00 και οι ισοτιμίες όλων των άλλων νομισμάτων θα προσαρμοστούν σε σχέση με το νέο βασικό νόμισμα.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency_auto</key>
+		<value><![CDATA[Αυτόματη ενημέρωση νομισμάτων:<br /><span class="help">Ρυθμίστε το κατάστημά σας ώστε να ενημερώνει αυτόματα τα νομίσματα καθημερινά.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Κατηγορία βάρους:]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Κλάση μήκους:]]></value>
+	</definition>
+	<definition>
+		<key>entry_auto_translate_status</key>
+		<value><![CDATA[Κατάσταση αυτόματης μετάφρασης:<br /><span class="help">Αυτό ενεργοποιεί τη μετάφραση των ελλειπόντων ορισμών κειμένου ή των δεδομένων ειδικών για τη γλώσσα αν λείπουν τιμές κειμένου για τη χρησιμοποιούμενη γλώσσα.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_src_lang_code</key>
+		<value><![CDATA[Γλώσσα προέλευσης για μετάφραση:<br /><span class="help">Επιλέξτε τη γλώσσα προέλευσης που θα χρησιμοποιηθεί για αυτόματη μετάφραση.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_method</key>
+		<value><![CDATA[Μέθοδος Μετάφρασης Κειμένου:<br /><span class="help">Επιλέξτε τη μέθοδο που θέλετε να χρησιμοποιήσετε για τη μετάφραση. Η προεπιλεγμένη μέθοδος είναι ακριβές αντίγραφο του κειμένου στην αρχική γλώσσα</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_override_existing</key>
+		<value><![CDATA[Παράκαμψη εάν το κείμενο της πηγαίας γλώσσας έχει αλλάξει:<br /><span class="help">Εάν οριστεί, το κείμενο σε όλες τις γλώσσες θα αντικατασταθεί με τη νέα μετάφραση εάν το κείμενο της πηγαίας γλώσσας επεξεργαστεί. ΣΗΜΕΙΩΣΗ: Μπορεί να προκαλέσει πολλές μεταφράσεις.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_warn_lang_text_missing</key>
+		<value><![CDATA[Προειδοποίηση για ελλείπον κείμενο γλώσσας:<br /><span class="help">Λήψη μηνύματος προειδοποίησης εάν εντοπιστεί ελλείπον κείμενο γλώσσας.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Εμφάνιση Τιμών με Φόρο:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store</key>
+		<value><![CDATA[Προεπιλεγμένος συντελεστής φόρου καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_0</key>
+		<value><![CDATA[Χωρίς φορολογία]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_1</key>
+		<value><![CDATA[Προεπιλεγμένη Ζώνη Καταστήματος]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer</key>
+		<value><![CDATA[Χρήση φορολογικής διεύθυνσης πελάτη:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_0</key>
+		<value><![CDATA[Διεύθυνση Αποστολής]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_1</key>
+		<value><![CDATA[Διεύθυνση χρέωσης]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice</key>
+		<value><![CDATA[Αρ. Έναρξης Τιμολογίων:<br /><span class="help">Ορίστε τον αρχικό αριθμό από τον οποίο θα ξεκινούν τα τιμολόγια.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice_prefix</key>
+		<value><![CDATA[Πρόθεμα Τιμολογίου:<br /><span class="help">Καθορίστε το πρόθεμα του τιμολογίου π.χ. IN/001</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[Ομάδα Πελατών:<br /><span class="help">Προεπιλεγμένη ομάδα πελατών.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_price</key>
+		<value><![CDATA[Εμφάνιση τιμών χωρίς σύνδεση:<br /><span class="help">Εμφάνιση τιμών ακόμη και αν ο πελάτης δεν είναι συνδεδεμένος.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_approval</key>
+		<value><![CDATA[Έλεγχος νέων εγγραφών:<br /><span class="help">Εάν είναι ενεργοποιημένο, μην επιτρέπετε σε νέο πελάτη να συνδεθεί μέχρι να εγκριθεί ο λογαριασμός του.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_prevent_email_as_login</key>
+		<value><![CDATA[Require Login Name:<br /><span class="help">Για να βελτιωθεί η ασφάλεια, απαιτήστε από τους πελάτες να δημιουργήσουν μοναδικό όνομα σύνδεσης αντί να χρησιμοποιούν τη διεύθυνση email ως όνομα σύνδεσης. Αν οριστεί σε ON, οι υπάρχοντες πελάτες θα κληθούν να δημιουργήσουν νέο όνομα σύνδεσης κατά την πρώτη σύνδεση. Αν είναι OFF, το όνομα σύνδεσης ορίζεται ως η διεύθυνση email του πελάτη.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_guest_checkout</key>
+		<value><![CDATA[Ολοκλήρωση αγοράς ως επισκέπτης:<br /><span class="help">Επιτρέπει στους πελάτες να ολοκληρώσουν την αγορά χωρίς να δημιουργήσουν λογαριασμό. Αυτό δεν θα είναι διαθέσιμο όταν υπάρχει προϊόν προς λήψη στο καλάθι αγορών.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account</key>
+		<value><![CDATA[Όροι λογαριασμού:<br /><span class="help">Αναγκάζει τους χρήστες να συμφωνήσουν με τους όρους πριν δημιουργηθεί λογαριασμός.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_checkout</key>
+		<value><![CDATA[Όροι ολοκλήρωσης αγοράς:<br /><span class="help">Αναγκάζει τους χρήστες να συμφωνήσουν με τους όρους πριν ο πελάτης ολοκληρώσει την αγορά.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_status</key>
+		<value><![CDATA[Κατάσταση Παραγγελίας:<br /><span class="help">Ορίστε την προεπιλεγμένη κατάσταση παραγγελίας όταν μια παραγγελία υποβάλλεται σε επεξεργασία.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_cancelation_order_status</key>
+		<value><![CDATA[Να επιτρέπεται στον πελάτη να ακυρώσει την παραγγελία σε κατάσταση:]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_display</key>
+		<value><![CDATA[Εμφάνιση Ποσότητας Αποθέματος:<br /><span class="help">Εμφάνιση της ποσότητας αποθέματος στη σελίδα του προϊόντος.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_nostock_autodisable</key>
+		<value><![CDATA[Αυτόματη απενεργοποίηση σε μηδενικό απόθεμα:<br /><span class="help">Απενεργοποιήστε το προϊόν ή την τιμή επιλογής από την προβολή εάν το απόθεμα πέσει στο 0. Θα σταλεί ειδοποίηση μηνύματος.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Προεπιλεγμένη ολοκλήρωση αγοράς χωρίς διαθέσιμο απόθεμα:<br /><span class="help">Ορίστε την προεπιλεγμένη ρύθμιση ώστε να επιτρέπεται στους πελάτες να ολοκληρώνουν την αγορά ακόμη κι αν τα προϊόντα είναι εκτός αποθέματος</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_status</key>
+		<value><![CDATA[Προεπιλεγμένη κατάσταση αποθέματος προπαραγγελίας:<br /><span class="help">Προεπιλεγμένη ρύθμιση για το μήνυμα κατάστασης προπαραγγελίας του προϊόντος. Χρησιμοποιείται στη σελίδα επεξεργασίας προϊόντος.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_logo</key>
+		<value><![CDATA[Λογότυπο καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[Λογότυπο Email:]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Icon:<br /><span class="help">Το εικονίδιο μπορεί να είναι τύπου PNG ή ICON με διαστάσεις 16px x 16px.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Πλάτος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Ύψος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb</key>
+		<value><![CDATA[Μέγεθος μικρογραφίας εικόνας προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_width</key>
+		<value><![CDATA[Πλάτος μικρογραφίας εικόνας προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_height</key>
+		<value><![CDATA[Ύψος μικρογραφίας εικόνας προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup</key>
+		<value><![CDATA[Μέγεθος αναδυόμενου παραθύρου εικόνας προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_width</key>
+		<value><![CDATA[Πλάτος Προεπισκόπησης Μεγάλου Παραθύρου:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_height</key>
+		<value><![CDATA[Ύψος Μεγάλου Παραθύρου Προεπισκόπησης:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category</key>
+		<value><![CDATA[Μέγεθος λίστας κατηγοριών:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_width</key>
+		<value><![CDATA[Πλάτος λίστας κατηγοριών:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_height</key>
+		<value><![CDATA[Ύψος λίστας κατηγοριών:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_width</key>
+		<value><![CDATA[Πλάτος λίστας εικονιδίων μάρκας:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_height</key>
+		<value><![CDATA[Ύψος λίστας εικονιδίων μάρκας:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product</key>
+		<value><![CDATA[Μέγεθος λίστας προϊόντων:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_height</key>
+		<value><![CDATA[Ύψος λίστας προϊόντων:<br /><span class="help">Αυτό ελέγχει το ύψος της εικόνας προεπισκόπησης στις σελίδες καταλόγου του πίνακα διαχείρισης και σε άλλα μέρη του καταστήματος. Σημείωση: αυτή η ρύθμιση είναι κοινή για τον πίνακα διαχείρισης και το προεπιλεγμένο πρότυπο του καταστήματος.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_width</key>
+		<value><![CDATA[Πλάτος λίστας προϊόντων:<br /><span class="help">Αυτό καθορίζει το πλάτος της εικόνας προεπισκόπησης στις σελίδες καταλόγου του διαχειριστή και σε άλλα σημεία του καταστήματος. Σημείωση: αυτή η ρύθμιση χρησιμοποιείται από κοινού στο διαχειριστικό περιβάλλον και στο προεπιλεγμένο πρότυπο καταστήματος.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional</key>
+		<value><![CDATA[Επιπλέον Μέγεθος Εικόνας Προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_width</key>
+		<value><![CDATA[Πρόσθετο πλάτος εικόνας προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_height</key>
+		<value><![CDATA[Ύψος επιπλέον εικόνας προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related</key>
+		<value><![CDATA[Μέγεθος εικόνας σχετικού προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_width</key>
+		<value><![CDATA[Πλάτος Εικόνας Σχετικού Προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_height</key>
+		<value><![CDATA[Ύψος εικόνας σχετικού προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart</key>
+		<value><![CDATA[Μέγεθος εικόνας καλαθιού:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_width</key>
+		<value><![CDATA[Πλάτος εικόνας καλαθιού:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_height</key>
+		<value><![CDATA[Ύψος εικόνας καλαθιού:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid</key>
+		<value><![CDATA[Μέγεθος εικόνας πλέγματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_width</key>
+		<value><![CDATA[Πλάτος Εικόνας Πλέγματος:<br /><span class="help">Αυτό ελέγχει το πλάτος μιας πολύ μικρής εικόνας προεπισκόπησης στα πλέγματα καταλόγου του διαχειριστικού και σε άλλα σημεία της βιτρίνας. Σημείωση: αυτή η ρύθμιση μοιράζεται μεταξύ του διαχειριστικού και του προεπιλεγμένου προτύπου βιτρίνας.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_height</key>
+		<value><![CDATA[Ύψος Εικόνας Πλέγματος:<br /><span class="help">Αυτό ελέγχει το ύψος μιας πολύ μικρής προεπισκόπησης εικόνας στα πλέγματα καταχώρησης του διαχειριστικού περιβάλλοντος και σε άλλα σημεία στο κατάστημα. Σημειώστε ότι αυτή η ρύθμιση είναι κοινή τόσο για το διαχειριστικό περιβάλλον όσο και για το προεπιλεγμένο πρότυπο καταστήματος.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_mail</key>
+		<value><![CDATA[Ειδοποίηση ηλεκτρονικού ταχυδρομείου:<br /><span class="help">Αποστολή ηλεκτρονικού ταχυδρομείου στον ιδιοκτήτη του καταστήματος όταν δημιουργείται μια νέα παραγγελία.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_download</key>
+		<value><![CDATA[Να επιτρέπονται λήψεις:]]></value>
+	</definition>
+	<definition>
+		<key>entry_download_status</key>
+		<value><![CDATA[Κατάσταση παραγγελίας λήψης:<br /><span class="help">Ορίστε την κατάσταση παραγγελίας στην οποία πρέπει να φτάσει η παραγγελία των πελατών πριν να τους επιτραπεί η πρόσβαση στα προϊόντα προς λήψη.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[Μεταφορά αλληλογραφίας:]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[Το Mailer χρησιμοποιεί το εκτελέσιμο sendmail και τις επιλογές που έχουν ρυθμιστεί στη ρύθμιση sendmail_path του php.ini.]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_host</key>
+		<value><![CDATA[Διακομιστής SMTP:<br /><span class="help">Χρησιμοποιήστε ssl://smtp.yourdomain.com για ασφαλή σύνδεση SMTP</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_username</key>
+		<value><![CDATA[Όνομα χρήστη SMTP:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_password</key>
+		<value><![CDATA[Κωδικός πρόσβασης SMTP:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_port</key>
+		<value><![CDATA[Θύρα SMTP:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_timeout</key>
+		<value><![CDATA[Χρονικό όριο SMTP:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl</key>
+		<value><![CDATA[Χρησιμοποιήστε SSL:<br /><span class="help">Για να χρησιμοποιήσετε SSL, ελέγξτε με τον πάροχό σας αν έχει εγκατασταθεί πιστοποιητικό SSL.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_session_ttl</key>
+		<value><![CDATA[Λήξη Συνεδρίας Πίνακα Ελέγχου:<br /><span class="help">Η τιμή αυτή καθορίζει το χρονικό διάστημα σε λεπτά πριν σας ζητηθεί να συνδεθείτε ξανά λόγω μη δραστηριότητας.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encryption</key>
+		<value><![CDATA[Κλειδί Κρυπτογράφησης:<br /><span class="help">Η ρύθμιση μεταφέρθηκε στο αρχείο ρυθμίσεων από την έκδοση v1.2.1.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_seo_url</key>
+		<value><![CDATA[Χρησιμοποιήστε SEO διευθύνσεις URL:<br /><span class="help">Για να χρησιμοποιήσετε τις SEO διευθύνσεις URL, πρέπει να εγκατασταθεί η μονάδα Apache mod-rewrite και να μετονομάσετε το htaccess.txt σε .htaccess. Σημείωση: Αν το abantecart δεν είναι εγκατεστημένο στη ρίζα του domain, πρέπει να αλλάξετε τον κανόνα rewriteBase μέσα στο αρχείο .htaccess.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_retina_enable</key>
+		<value><![CDATA[Δημιουργήστε εικόνες υψηλής ανάλυσης (retina):<br /><span class="help">Για να χρησιμοποιήσετε αυτήν την apache module mod-rewrite πρέπει να εγκατασταθεί και να μετονομάσετε το htaccess.txt σε .htaccess. Σημείωση: Εάν το abantecart δεν είναι εγκατεστημένο στη ρίζα του domain, πρέπει να αλλάξετε τον κανόνα rewriteBase μέσα στο αρχείο .htaccess. <br>Μετά την ενεργοποίηση πρέπει να καθαρίσετε την cache των εικόνων.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_quality</key>
+		<value><![CDATA[Επίπεδο συμπίεσης εικόνων Jpeg]]></value>
+	</definition>
+	<definition>
+		<key>entry_compression</key>
+		<value><![CDATA[Επίπεδο Συμπίεσης Εξόδου:<br /><span class="help">GZIP για πιο αποδοτική μεταφορά προς τους πελάτες που ζητούν. Το επίπεδο συμπίεσης πρέπει να είναι μεταξύ 0 - 9</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_display</key>
+		<value><![CDATA[Εμφάνιση σφαλμάτων:<br /><span class="help">Ορίστε σε Ναι εάν θέλετε να δείτε τις εξαιρέσεις και τα σφάλματα</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_log</key>
+		<value><![CDATA[Σφάλματα καταγραφής:<br /><span class="help">Ορίστε σε ναι αν θέλετε να αποθηκεύσετε τις εξαιρέσεις και τα σφάλματα στο αρχείο καταγραφής</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enable_reviews</key>
+		<value><![CDATA[Ενεργοποίηση Κριτικών:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cache_enable</key>
+		<value><![CDATA[Κρυφή μνήμη ενεργοποιημένη:<br /><span class="help">Παρακαλώ να είστε προσεκτικοί όταν απενεργοποιείτε την προσωρινή αποθήκευση. Οι σελίδες που βρίσκονται στην προσωρινή μνήμη δεν θα αναδημιουργηθούν και ο ιστότοπος μπορεί να αρχίσει να φορτώνει αργά.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_cache_drivers</key>
+		<value><![CDATA[Αυτή τη στιγμή χρησιμοποιείται ο cache driver <b>%s</b>. Άλλοι drivers διαθέσιμοι για διαμόρφωση είναι <i>%s</i>.]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_status</key>
+		<value><![CDATA[Κατάσταση API της πρόσοψης καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_key</key>
+		<value><![CDATA[Κλειδί API της βιτρίνας:<br /><span class="help">Ορίστε αυτό το κλειδί για να παρέχετε περιορισμένη (πιο ασφαλή) πρόσβαση στο API της βιτρίνας.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_stock_check</key>
+		<value><![CDATA[Πρόσβαση στο API αποθέματος βιτρίνας καταστήματος:<br /><span class="help">Ενεργοποιήστε εάν επιτρέπετε στο API της βιτρίνας του καταστήματος να ελέγχει τη διαθεσιμότητα αποθέματος</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_status</key>
+		<value><![CDATA[Κατάσταση API διαχειριστή:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_key</key>
+		<value><![CDATA[Κλειδί API διαχειριστή:<br /><span class="help">Ορίστε αυτό το κλειδί για να παρέχετε περιορισμένη (πιο ασφαλή) πρόσβαση στο API διαχειριστή.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_access_ip_list</key>
+		<value><![CDATA[Admin API Access IPs:<br /><span class="help">Παρέχετε λίστα διευθύνσεων IP (διαχωρισμένες με κόμμα) στις οποίες θα επιτρέπεται η πρόσβαση στο Admin API. Οι υπόλοιπες διευθύνσεις IP θα αποκλειστούν</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_max_size</key>
+		<value><![CDATA[Μέγιστο Μέγεθος Αρχείου Μεταφόρτωσης Βιβλιοθήκης Πόρων, kB]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug</key>
+		<value><![CDATA[Εμφάνιση πληροφοριών αποσφαλμάτωσης:<br /><span class="help">Ενεργοποιήστε το αν θέλετε να δείτε τις λεπτομέρειες εκτέλεσης και τις λεπτομέρειες αποσφαλμάτωσης.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_0</key>
+		<value><![CDATA[Απενεργοποιημένο]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_1</key>
+		<value><![CDATA[Εμφάνιση]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_2</key>
+		<value><![CDATA[Καταγραφή]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level</key>
+		<value><![CDATA[Επίπεδο εντοπισμού σφαλμάτων:<br /><span class="help">Επιλέξτε το βάθος των λεπτομερειών που χρειάζεστε να δείτε στην έξοδο εντοπισμού σφαλμάτων.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_0</key>
+		<value><![CDATA[Επίπεδο 0 - χωρίς αρχεία καταγραφής, μόνο σφάλματα εξαίρεσης]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_1</key>
+		<value><![CDATA[Επίπεδο 1 - σφάλματα και προειδοποιήσεις]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_2</key>
+		<value><![CDATA[Επίπεδο 2 - #1 + χρόνος φόρτωσης mysql ιστότοπου, χρόνος εκτέλεσης αρχείου php και χρόνος φόρτωσης στοιχείων σελίδας]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_3</key>
+		<value><![CDATA[Επίπεδο 3 - #2 + βασικά αρχεία καταγραφής και στοίβα εκτέλεσης]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_4</key>
+		<value><![CDATA[Επίπεδο 4 - #3 + εξαγωγή εντολών MySQL]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_5</key>
+		<value><![CDATA[Επίπεδο 5 - #4 + ενδιάμεση μεταβλητή]]></value>
+	</definition>
+	<definition>
+		<key>entry_template_debug</key>
+		<value><![CDATA[Εντοπισμός σφαλμάτων προτύπου:<br /><span class="help">Ενεργοποιήστε αυτή τη ρύθμιση αν χρειάζεται να ελέγξετε προβλήματα με το πρότυπο στη βιτρίνα και στον πίνακα ελέγχου.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_filename</key>
+		<value><![CDATA[Όνομα αρχείου καταγραφής σφαλμάτων:<br /><span class="help">Αυτό είναι ένα αρχείο όπου αποθηκεύονται τα σφάλματα.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_session</key>
+		<value><![CDATA[Χρήση συνεδρίας αποστολής:<br /><span class="help">Αποθηκεύει τις τιμές αποστολής στη συνεδρία για να αποφευχθεί ο περιττός επανυπολογισμός. Οι τιμές θα επανυπολογίζονται μόνο εάν το καλάθι ή η διεύθυνση αλλάξουν.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_catalog_limit</key>
+		<value><![CDATA[Προεπιλεγμένα Αντικείμενα ανά Σελίδα (Βιτρίνα):<br /><span class="help">Καθορίζει πόσα αντικείμενα της βιτρίνας εμφανίζονται ανά σελίδα (προϊόντα, κατηγορίες κ.λπ.)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_limit</key>
+		<value><![CDATA[Προεπιλεγμένα αντικείμενα ανά σελίδα (Διαχειριστής):<br /><span class="help">Ορίζει πόσα αντικείμενα διαχειριστή εμφανίζονται ανά σελίδα στους πίνακες λίστας (παραγγελίες, πελάτες κ.λπ.)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_bestseller_limit</key>
+		<value><![CDATA[Αριθμός Αντικειμένων Στο Μπλοκ Των Κορυφαίων Πωλήσεων]]></value>
+	</definition>
+	<definition>
+		<key>entry_featured_limit</key>
+		<value><![CDATA[Αριθμός στοιχείων στο μπλοκ επιλεγμένων]]></value>
+	</definition>
+	<definition>
+		<key>entry_latest_limit</key>
+		<value><![CDATA[Αριθμός αντικειμένων στο τελευταίο μπλοκ]]></value>
+	</definition>
+	<definition>
+		<key>entry_special_limit</key>
+		<value><![CDATA[Αριθμός Αντικειμένων στο Ειδικό Μπλοκ]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[Αριθμός Αντικειμένων σε Μπλοκ Περιεχομένου]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_weight</key>
+		<value><![CDATA[Εμφάνιση βάρους στη σελίδα του καλαθιού:<br /><span class="help">Εμφανίζει το βάρος του καλαθιού στη σελίδα του καλαθιού</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_reviews</key>
+		<value><![CDATA[Υποβολή κριτικών:<br /><span class="help">Περιορίστε ποιος μπορεί να υποβάλλει κριτικές για τα προϊόντα</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maintenance</key>
+		<value><![CDATA[Λειτουργία Συντήρησης:<br /><span class="help">Εμποδίζει τους πελάτες να περιηγούνται στο κατάστημά σας. Αντ' αυτού, θα βλέπουν ένα μήνυμα συντήρησης. Εάν έχετε συνδεθεί ως διαχειριστής, θα βλέπετε το κατάστημά σας κανονικά.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_voicecontrol</key>
+		<value><![CDATA[Έλεγχος φωνής:<br /><span class="help">Ενεργοποιήστε τον έλεγχο φωνής διαχειριστή για να ενεργοποιήσετε τη λειτουργία φωνητικών εντολών. Αυτή τη στιγμή υποστηρίζεται μόνο στον Chrome έκδοσης 25 ή νεότερης.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_help_links</key>
+		<value><![CDATA[Σύνδεσμοι Βοήθειας:<br /><span class="help">Εάν θέλετε να δείτε εικονίδια βοήθειας και συνδέσμους προς την ιστοσελίδα του AbanteCart. Αυτό θα σας βοηθήσει να μάθετε για τις λειτουργίες και πώς να τις χρησιμοποιείτε. Εάν είστε προχωρημένος χρήστης και δεν θέλετε να βλέπετε αυτά τα εικονίδια βοήθειας, μπορείτε να τα απενεργοποιήσετε.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_tree_data</key>
+		<value><![CDATA[Ενεργοποίηση δενδροειδούς πλέγματος:<br /><span class="help">Επιτρέπει στα διαχειριστικά πλέγματα να εμφανίζουν τύπους γονέα/παιδιού σε μια ενιαία λίστα πλέγματος. ΣΗΜΕΙΩΣΗ: Η σελιδοποίηση και οι μαζικές ενέργειες είναι απενεργοποιημένες για αυτά τα πλέγματα</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_ajax</key>
+		<value><![CDATA[Προσθήκη στο καλάθι στην ίδια σελίδα:<br /><span class="help">Αυτό θα ενεργοποιήσει τη λειτουργία προσθήκης στο καλάθι με AJAX. Το προϊόν μπορεί να προστεθεί στο καλάθι χωρίς να γίνεται ανακατεύθυνση στη σελίδα του καλαθιού</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_width</key>
+		<value><![CDATA[Πλάτος ιστοσελίδας καταστήματος:<br /><span class="help">Παράδειγμα: 100% ή 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_width</key>
+		<value><![CDATA[Πλάτος Διαχείρισης Ιστότοπου:<br /><span class="help">Παράδειγμα: 100% ή 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_maximum</key>
+		<value><![CDATA[Μέγιστο επιτρεπόμενο ποσό παραγγελίας:<br /><span class="help">Αποτροπή ολοκλήρωσης αγοράς με μεγάλα ποσά υποσυνόλου παραγγελίας. 0 = ΧΩΡΙΣ ΟΡΙΟ</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_minimum</key>
+		<value><![CDATA[Ελάχιστο ποσό παραγγελίας:<br /><span class="help">Αποτροπή ολοκλήρωσης αγοράς εάν το υποσύνολο παραγγελίας δεν φτάνει το ορισμένο ελάχιστο ποσό. 0 = ΧΩΡΙΣ ΕΛΑΧΙΣΤΟ</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_system_check</key>
+		<value><![CDATA[Έλεγχος Συστήματος:<br /><span class="help">Ενεργοποιήστε αυτή τη ρύθμιση αν θέλετε να ελέγξετε την κατάσταση του συστήματός σας σε σχέση με τη λειτουργικότητα του AbanteCart. Τα προβλήματα του συστήματος που επηρεάζουν το AbanteCart θα αναφέρονται ως μηνύματα ορατά στον πίνακα διαχείρισης.</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_store</key>
+		<value><![CDATA[Νέο Κατάστημα]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Προειδοποίηση: Δεν έχετε άδεια να τροποποιήσετε τις ρυθμίσεις!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[Το όνομα σύνδεσης πρέπει να είναι μόνο αλφαριθμητικό και να έχει μήκος από 5 έως 64 χαρακτήρες!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname_notunique</key>
+		<value><![CDATA[Αυτό το όνομα χρήστη δεν είναι διαθέσιμο. Δοκιμάστε διαφορετικό όνομα χρήστη!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[Το όνομα καταστήματος πρέπει να είναι μεταξύ 2 και 32 χαρακτήρων!]]></value>
+	</definition>
+	<definition>
+		<key>error_url</key>
+		<value><![CDATA[Απαιτείται έγκυρο URL καταστήματος!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[Ο τίτλος πρέπει να είναι μεταξύ 2 και 32 χαρακτήρων!]]></value>
+	</definition>
+	<definition>
+		<key>error_owner</key>
+		<value><![CDATA[Ο ιδιοκτήτης καταστήματος πρέπει να έχει μήκος μεταξύ 2 και 64 χαρακτήρων!]]></value>
+	</definition>
+	<definition>
+		<key>error_address</key>
+		<value><![CDATA[Η Διεύθυνση Καταστήματος πρέπει να έχει μήκος από 10 έως 256 χαρακτήρες!]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[Η διεύθυνση e-mail δεν φαίνεται να είναι έγκυρη!]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[Το τηλέφωνο πρέπει να έχει μήκος μεταξύ 2 και 32 χαρακτήρων!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_thumb</key>
+		<value><![CDATA[Απαιτούνται διαστάσεις μικρογραφίας εικόνας προϊόντος!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_popup</key>
+		<value><![CDATA[Απαιτούνται διαστάσεις για το μέγεθος του αναδυόμενου παραθύρου εικόνας προϊόντος!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_category</key>
+		<value><![CDATA[Απαιτούνται διαστάσεις μεγέθους λίστας κατηγοριών!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_manufacturer</key>
+		<value><![CDATA[Απαιτούνται διαστάσεις μεγέθους για τη λίστα εικονιδίων μάρκας!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_product</key>
+		<value><![CDATA[Απαιτούνται διαστάσεις για το μέγεθος λίστας προϊόντων!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_additional</key>
+		<value><![CDATA[Απαιτούνται διαστάσεις για το πρόσθετο μέγεθος εικόνας προϊόντος!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_related</key>
+		<value><![CDATA[Απαιτούνται οι διαστάσεις μεγέθους εικόνας σχετικού προϊόντος!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_cart</key>
+		<value><![CDATA[Απαιτούνται διαστάσεις εικόνας καλαθιού!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_grid</key>
+		<value><![CDATA[Απαιτούνται οι διαστάσεις εικόνας πλέγματος!]]></value>
+	</definition>
+	<definition>
+		<key>error_error_filename</key>
+		<value><![CDATA[Απαιτείται το όνομα αρχείου καταγραφής σφαλμάτων!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Τα απαραίτητα δεδομένα δεν έχουν εισαχθεί. Ελέγξτε για σφάλματα πεδίων!]]></value>
+	</definition>
+	<definition>
+		<key>error_uploaded_image</key>
+		<value><![CDATA[Το αρχείο %s που ανέβηκε δεν είναι εικόνα ή είναι κατεστραμμένο!]]></value>
+	</definition>
+	<definition>
+		<key>error_limit</key>
+		<value><![CDATA[Απαιτείται όριο!]]></value>
+	</definition>
+	<definition>
+		<key>text_front</key>
+		<value><![CDATA[Πρόσοψη Καταστήματος]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Διαχειριστής]]></value>
+	</definition>
+	<definition>
+		<key>error_mail</key>
+		<value><![CDATA[Παρακαλώ συμπληρώστε τα απαιτούμενα πεδία για το πρωτόκολλο SMTP!]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_sort_order_asc</key>
+		<value><![CDATA[Σειρά ταξινόμησης προϊόντος: χαμηλή > υψηλή]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_asc</key>
+		<value><![CDATA[Όνομα A - Z]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_desc</key>
+		<value><![CDATA[Όνομα Z - A]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_asc</key>
+		<value><![CDATA[Τιμή Χαμηλή > Υψηλή]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_desc</key>
+		<value><![CDATA[Τιμή Υψηλή > Χαμηλή]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_asc</key>
+		<value><![CDATA[Χαμηλότερη αξιολόγηση]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_desc</key>
+		<value><![CDATA[Υψηλότερη βαθμολογία]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_asc</key>
+		<value><![CDATA[Ημερομηνία Παλαιότερη > Νεότερη]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_desc</key>
+		<value><![CDATA[Ημερομηνία Νεότερα > Παλαιότερα]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_default_sort_order</key>
+		<value><![CDATA[Ταξινόμηση προϊόντων ως προεπιλογή κατά:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zero_customer_balance</key>
+		<value><![CDATA[Εμφάνιση μηδενικού υπολοίπου πελάτη:<br /><span class="help">Σημείωση: Ενεργοποίηση/απενεργοποίηση εμφάνισης μηνύματος υπολοίπου εάν το υπόλοιπο λογαριασμού πελάτη είναι 0</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_tax_estimate</key>
+		<value><![CDATA[Εκτίμηση αποστολής και φόρου:
+Επιτρέψτε στους πελάτες να λάβουν γρήγορη εκτίμηση αποστολής και φόρου στο καλάθι αγορών.]]></value>
+	</definition>
+	<definition>
+		<key>entry_coupon_on_cart_page</key>
+		<value><![CDATA[Κουπόνι στη σελίδα καλαθιού αγορών:<br /><span class="help">Επιτρέψτε στους πελάτες να εισάγουν κωδικό κουπονιού και να δουν την έκπτωση στο καλάθι αγορών.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_analytics</key>
+		<value><![CDATA[ID ετικέτας Google Analytics 4:<br /><span class="help">Προσθέστε το <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">ID ετικέτας Google Analytics</a> για να ενεργοποιήσετε την παρακολούθηση δραστηριότητας στον ιστότοπο. Αυτό ενεργοποιεί επίσης την παρακολούθηση δραστηριότητας ηλεκτρονικού εμπορίου. Πρέπει να ενεργοποιήσετε την παρακολούθηση ηλεκτρονικού εμπορίου στη Google στη σελίδα ρυθμίσεων προφίλ για τον ιστότοπό σας</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Κλειδί API Google (για να ενεργοποιήσετε τους Χάρτες Google):<br /><span class="help">Μπορείτε να δείτε τη διεύθυνση στον χάρτη. Για να ενεργοποιήσετε τους Χάρτες Google, προσθέστε το Κλειδί API Χαρτών Google σας στη <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Σελίδα Διαπιστευτηρίων Google</a>.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[Όριο προβληθέντων προϊόντων:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[Πλάτος εικόνας προϊόντων που προβλήθηκαν:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[Ύψος εικόνας προϊόντων που έχουν προβληθεί:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl_url</key>
+		<value><![CDATA[Ασφαλές URL Καταστήματος:<br /><span class="help">Συμπεριλάβετε το πλήρες SSL URL (HTTPS) για το κατάστημά σας. Βεβαιωθείτε ότι προσθέτετε '/' στο τέλος. Παράδειγμα: https://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_ssl_url</key>
+		<value><![CDATA[Απαιτείται έγκυρο ασφαλές URL!]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_email_activation</key>
+		<value><![CDATA[Email Activation for New Customers:<br /><span class="help">Μην επιτρέπετε σε νέο πελάτη να συνδεθεί μέχρι ο λογαριασμός του να έχει επιβεβαιωθεί μέσω συνδέσμου ενεργοποίησης που στάλθηκε με email. Για να λειτουργήσει αυτό, βεβαιωθείτε ότι το "Approve New Customers" έχει οριστεί σε OFF.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_clone_template</key>
+		<value><![CDATA[Κλωνοποίηση Προτύπου με Εργαλεία Προγραμματιστή AbanteCart]]></value>
+	</definition>
+	<definition>
+		<key>text_set_template</key>
+		<value><![CDATA[Ορίστε αυτό το πρότυπο για τη βιτρίνα του καταστήματος]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_status</key>
+		<value><![CDATA[Ενεργοποίηση Ενσωμάτωσης Πρόσοψης Καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_click_action</key>
+		<value><![CDATA[Ενέργεια Κλικ Ενσωμάτωσης:]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_modal</key>
+		<value><![CDATA[Modal παράθυρο στην ίδια σελίδα]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_new_window</key>
+		<value><![CDATA[Άνοιγμα νέας σελίδας σε νέα καρτέλα]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_same_window</key>
+		<value><![CDATA[Άνοιγμα νέας σελίδας στο ίδιο παράθυρο]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_create_captcha</key>
+		<value><![CDATA[Captcha στη φόρμα δημιουργίας λογαριασμού :<br /><span class="help">Αποτρέψτε τη δημιουργία λογαριασμών spam/ρομπότ ενεργοποιώντας το captcha επαλήθευσης ανθρώπου</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_site_key</key>
+		<value><![CDATA[Google reCAPTCHA Site Key:<br /><span class="help">Προσθέστε το <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a> για να βοηθήσετε τους επισκέπτες σας με καλύτερη εισαγωγή captcha. Εάν ενεργοποιήσετε τα site/secret κλειδιά reCAPTCHA, το Google reCAPTCHA v2 θα ενεργοποιηθεί αντί της προεπιλεγμένης εικόνας captcha του AbanteCart</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_secret_key</key>
+		<value><![CDATA[Μυστικό κλειδί Google reCAPTCHA:<br /><span class="help">Προσθέστε <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a> για να βοηθήσετε τους επισκέπτες σας με καλύτερη εισαγωγή captcha. Εάν ενεργοποιήσετε τα κλειδιά site/secret του reCAPTCHA, το Google reCAPTCHA v2 θα ενεργοποιηθεί αντί για την προεπιλεγμένη εικόνα captcha του AbanteCart</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_php_exceed</key>
+		<value><![CDATA[Αυτή η τιμή δεν μπορεί να υπερβαίνει την οδηγία %s του php.ini σας (<=%s)]]></value>
+	</definition>
+	<definition>
+		<key>entry_start_order_id</key>
+		<value><![CDATA[Αριθμός Έναρξης Παραγγελιών:<br /><span class="help">Ορίστε τον αρχικό αριθμό από τον οποίο θα ξεκινούν οι παραγγελίες.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_start_order_id</key>
+		<value><![CDATA[Ο αρχικός αριθμός παραγγελίας πρέπει να είναι αριθμητικός!]]></value>
+	</definition>
+	<definition>
+		<key>error_starting_invoice_id</key>
+		<value><![CDATA[Ο αρχικός αριθμός τιμολογίου πρέπει να είναι αριθμητικός!]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_order_days</key>
+		<value><![CDATA[Λήξη μη ολοκληρωμένων παραγγελιών:<br /><span class="help">Αυτή η τιμή καθορίζει το χρονικό διάστημα σε ημέρες πριν διαγραφούν οι μη ολοκληρωμένες παραγγελίες. Μια κενή τιμή σημαίνει ότι καμία παραγγελία δεν θα διαγραφεί.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_expire_order_days</key>
+		<value><![CDATA[Η τιμή λήξης μη ολοκληρωμένης παραγγελίας πρέπει να είναι αριθμητική!]]></value>
+	</definition>
+	<definition>
+		<key>text_storefront</key>
+		<value><![CDATA[Πρόσοψη καταστήματος]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Διαχειριστής]]></value>
+	</definition>
+	<definition>
+		<key>text_im_driver</key>
+		<value><![CDATA[Οδηγός]]></value>
+	</definition>
+	<definition>
+		<key>text_im_protocol</key>
+		<value><![CDATA[Πρωτόκολλο IM]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver</key>
+		<value><![CDATA[Πάροχος SMS]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver_tooltip</key>
+		<value><![CDATA[Επιλέξτε μια επέκταση για τον πάροχο υπηρεσίας SMS]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_status_tooltip</key>
+		<value><![CDATA[Ενεργοποίηση SMS για πελάτες]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_status_tooltip</key>
+		<value><![CDATA[Ενεργοποίηση SMS για διαχειριστές]]></value>
+	</definition>
+	<definition>
+		<key>text_no_driver</key>
+		<value><![CDATA[Δεν βρέθηκε οδηγός IM]]></value>
+	</definition>
+	<definition>
+		<key>text_im_settings_attention</key>
+		<value><![CDATA[Αυτές οι ρυθμίσεις αφορούν τα άμεσα μηνύματα που αποστέλλονται αυτόματα κατά τη διάρκεια των συμβάντων του AbanteCart στο κατάστημα και στο διαχειριστικό περιβάλλον.]]></value>
+	</definition>
+	<definition>
+		<key>entry_task_api_key</key>
+		<value><![CDATA[Tasks API Key:<br/><span class="help">Πρόκειται για μυστικό κλειδί που επιτρέπει στο AbanteCart να εκτελεί προγραμματισμένες διεργασίες από το πρόγραμμα περιήγησης με το αρχείο /task.php. Εάν δεν οριστεί, οι εργασίες δεν θα εκτελούνται μέσω του προγράμματος περιήγησης.<br/>ΣΗΜΕΙΩΣΗ: Αυτό το κλειδί API δεν απαιτείται για την εκτέλεση εργασιών από τη γραμμή εντολών.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_duplicate_contact_us</key>
+		<value><![CDATA[Αντιγραφή αιτημάτων επαφής σε μηνύματα]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_class</key>
+		<value><![CDATA[Προεπιλεγμένη Κατηγορία Φόρου:<br/><span class="help">Η προεπιλεγμένη τιμή θα ληφθεί ως προεπιλεγμένη τιμή για την κατηγορία φόρου του νέου προϊόντος που δημιουργείται.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_recaptcha_v3</key>
+		<value><![CDATA[Ενεργοποίηση reCaptcha v3]]></value>
+	</definition>
+	<definition>
+		<key>text_review_disable</key>
+		<value><![CDATA[Μην επιτρέπετε]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_all</key>
+		<value><![CDATA[Οποιοσδήποτε πελάτης ή επισκέπτης]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_only_registered</key>
+		<value><![CDATA[Εγγεγραμμένος Πελάτης]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_who_purchase</key>
+		<value><![CDATA[Πελάτης με επιβεβαιωμένη παραγγελία]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_reviews</key>
+		<value><![CDATA[Εμφάνιση κριτικών:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[Πόλη:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Ταχυδρομικός Κωδικός:]]></value>
+	</definition>
+	<definition>
+		<key>entry_latitude</key>
+		<value><![CDATA[Γεωγραφικό πλάτος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_longitude</key>
+		<value><![CDATA[Γεωγραφικό μήκος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_opening_hours</key>
+		<value><![CDATA[Ώρες Λειτουργίας:]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Απαιτείται ο ταχυδρομικός κωδικός]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[Απαιτείται το όνομα πόλης]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_resize_fill_color</key>
+		<value><![CDATA[Χρώμα γεμίσματος για αλλαγή μεγέθους εικόνας<br/><span class="help">Χρώμα που θα γεμιστεί στις κενές περιοχές κατά την αλλαγή μεγέθους της εικόνας από ορθογώνιο σε τετράγωνο</span>]]></value>
+	</definition>
+	<definition>
+		<key>warning_https_store_url</key>
+		<value><![CDATA[Για τη διατήρηση της σωστής λειτουργίας της πλατφόρμας σε όλους τους περιηγητές και την ασφάλεια των δεδομένων, απαιτείται το πρωτόκολλο HTTPS. Όλα τα αιτήματα πρέπει να αποστέλλονται μέσω HTTPS.]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_logo</key>
+		<value><![CDATA[Προεπιλεγμένο λογότυπο καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_mail_logo</key>
+		<value><![CDATA[Προεπιλεγμένο Λογότυπο Ηλεκτρονικού Ταχυδρομείου:]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Πρότυπο Regex Επικύρωσης Τηλεφώνου:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cron_command</key>
+		<value><![CDATA[Εντολή crontab σε Linux <span class="help">Εκτελέστε την εντολή crontab -e με τον ίδιο χρήστη Linux που τρέχει τον διακομιστή ιστού για το AbanteCart. Στον επεξεργαστή προσθέστε την εντολή</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_allow_coupon</key>
+		<value><![CDATA[Επιτρέψτε την εισαγωγή κουπονιού στο ταμείο <br /><span class="help">Ενεργοποιήστε την εισαγωγή κουπονιού από πελάτες και επισκέπτες</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_payment_address_equal_shipping</key>
+		<value><![CDATA[Απαιτείται η διεύθυνση πληρωμής να είναι ίδια με τη διεύθυνση αποστολής]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_require_phone_number</key>
+		<value><![CDATA[Απαιτείται αριθμός τηλεφώνου κατά την ολοκλήρωση αγοράς <br /><span class="help">Όταν είναι ενεργοποιημένη, αυτή η ρύθμιση απαιτεί από τους πελάτες ή τους επισκέπτες να παράσχουν αριθμό τηλεφώνου κατά τη διαδικασία ολοκλήρωσης αγοράς.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_create_account</key>
+		<value><![CDATA[Ολοκλήρωση αγοράς ως επισκέπτης Δημιουργία λογαριασμού <br /><span class="help">Προσφέρετε στον επισκέπτη να δημιουργήσει λογαριασμό στο τέλος της ολοκλήρωσης αγοράς. Αυτό είναι διαφανές στους επισκέπτες και θα σταλεί email με τα στοιχεία σύνδεσης.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_buy_now_status</key>
+		<value><![CDATA[Εμφάνιση κουμπιού "Αγορά τώρα]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_show_order_comment_field</key>
+		<value><![CDATA[Εμφάνιση πεδίου σχολίου παραγγελίας<br/><span class="help">Το πεδίο κειμένου σχολίων θα εμφανίζεται κατά τη διαδικασία ολοκλήρωσης παραγγελίας</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_unauth_customer</key>
+		<value><![CDATA[Επιτρέψτε στους επιστρέφοντες πελάτες να περιηγούνται:<br /><span class="help">Οι μη αυθεντικοποιημένοι πελάτες που επιστρέφουν στον ιστότοπο θα μπορούν να περιηγούνται σε προϊόντα, να τα προσθέτουν στο καλάθι και στη λίστα επιθυμιών.</span>]]></value>
+	</definition>
+</definitions>

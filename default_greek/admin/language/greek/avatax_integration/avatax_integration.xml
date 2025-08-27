@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Ενσωμάτωση Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Εάν έχετε ενεργοποιήσει τον βασικό φόρο, θα λειτουργεί μαζί με την Avatax και ίσως χρειαστεί να απενεργοποιήσετε τους βασικούς φόρους. Ελέγξτε Σύστημα -> Τοπικοποίηση -> <a target="_new" href="#admin#rt=localisation/tax_class">Κατηγορία Φόρου</a><br>Επίσης, μην ξεχάσετε να ενεργοποιήσετε την επέκταση <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br>Σημαντικό! Η σειρά υπολογισμού του Avatax Integration Total στα συνολικά των επεκτάσεων πρέπει να είναι μετά το υποσύνολο. Ο υπολογισμός του υποσυνόλου πρέπει να προηγείται αυτού. Ελέγξτε αυτό στις ρυθμίσεις συνολικών επεκτάσεων.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Αριθμός Λογαριασμού:<br /><span class="help">Αριθμός λογαριασμού που παρέχεται από την Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Κλειδί άδειας:<br /><span class="help">Κλειδί άδειας που παρέχεται από την Αβαλάρα</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[URL υπηρεσίας:<br /><span class="help">URL υπηρεσίας Avalara (σε ζωντανό ή αναπτυξιακό περιβάλλον)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Όνομα Φόρου:<br /><span class="help">Το όνομα του φόρου που θα εμφανίζεται στον πελάτη στην ενότητα συνολικών</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Κωδικός Εταιρείας:<br /><span class="help">Κωδικός εταιρείας που θα χρησιμοποιηθεί με Αβαλάρα</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[Ταχυδρομικός κώδικας καταστήματος:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Σφάλμα! Παρακαλώ ελέγξτε αν η επέκταση είναι ενεργοποιημένη.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Προεπιλεγμένος Φορολογικός Κωδικός Προϊόντος]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Μέθοδοι Αποστολής Προεπιλεγμένοι Κωδικοί ΦΠΑ]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Τρόπος Αποστολής]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Κωδικός Φόρου Μεταφορικών]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Δοκιμή σύνδεσης]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Η σύνδεση είναι επιτυχής και τα διαπιστευτήρια API έχουν ρυθμιστεί σωστά.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Δοκιμή σύνδεσης:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Επαλήθευση διεύθυνσης:<br /><span class="help">Η επαλήθευση διεύθυνσης θα πραγματοποιηθεί στο βήμα ολοκλήρωσης αγοράς του πελάτη</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Τίτλος του κουμπιού επικύρωσης διεύθυνσης:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Καταχώρηση εγγράφων στην υπηρεσία Avatax:<br /><span class="help">Εάν ενεργοποιηθεί, το φορολογικό έγγραφο θα καταχωρείται στην καθορισμένη κατάσταση παραγγελίας</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Επιστροφή εγγράφων στην υπηρεσία Avatax:<br /><span class="help">Η επιστροφή θα καταγραφεί στην καθορισμένη κατάσταση παραγγελίας</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Αποθήκευση]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Διαγραφή φορολογικού κωδικού]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Φορολογικός Κωδικός Προϊόντος:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Εύρεση Φορολογικού Κώδικα]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Κατάσταση Απαλλαγής:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[Εκκρεμής]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Εγκεκριμένο]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Απορρίφθηκε]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Ο αριθμός φοροαπαλλαγής σας έχει απορριφθεί]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Ο αριθμός απαλλαγής φόρου σας έχει απορριφθεί. Για να ελέγξετε την εγκυρότητα, παρακαλούμε επισκεφθείτε τη σελίδα στοιχείων του λογαριασμού σας %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Αριθμός Απαλλαγής:<br /><span class="help">Αριθμός φορολογικής απαλλαγής</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entity\Κωδικός χρήσης:<br /><span class="help">Η AvaTax διαθέτει μια ομάδα κωδικών που υποδεικνύουν τον τύπο εξαίρεσης. Δείτε τους τυπικούς κωδικούς ή δημιουργήστε προσαρμοσμένους κωδικούς στον ιστότοπο της AvaTax</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Δέσμευση στην κατάσταση παραγγελίας:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Επιστροφή στην κατάσταση παραγγελίας:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Ακύρωση στην κατάσταση παραγγελίας:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Σφάλμα αριθμού λογαριασμού. Ελέγξτε το!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Και τα δύο]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[ΗΠΑ]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Καναδάς]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Χώρες για επαλήθευση διεύθυνσης]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Σύνολο Ενσωμάτωσης Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Ενεργοποίηση καταγραφής συναλλαγών]]></value>
+	</definition>
+</definitions>

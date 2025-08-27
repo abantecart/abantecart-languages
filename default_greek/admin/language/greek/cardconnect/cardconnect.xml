@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[Για να λάβετε τα διαπιστευτήρια API, επισκεφθείτε https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[Ταυτότητα Εμπόρου]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[Όνομα χρήστη API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[Κωδικός API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[Καταγραφή:<br /><span class="help">Το αρχείο καταγραφής βρίσκεται στο αρχείο system/logs/cardconnect.txt</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[Δοκιμή]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[Δοκιμή σύνδεσης]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[Λήψη δοκιμαστικών διαπιστευτηρίων API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[Λειτουργία Δοκιμής]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[Το τμήμα domain για το API:<br /><span class="help">Αυτή η τιμή δεν πρέπει να αλλάξει, εκτός εάν έχει καθοριστεί διαφορετικά από το cardConnent.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[Η σύνδεση ήταν επιτυχής και τα διαπιστευτήρια API έχουν ρυθμιστεί σωστά.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[Όλες οι Τοποθεσίες]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[Τοποθεσία]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[Επιστράφηκε:<br /><span class="help">Κατάσταση παραγγελίας που θέλετε να οριστεί εάν η πληρωμή επιστραφεί στο admin/order</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[Απόρριψη:<br /><span class="help">Κατάσταση παραγγελίας που θέλετε να καταγράψετε στο ιστορικό ως απάντηση στην κατάσταση του επεξεργαστή πληρωμών. Η κύρια κατάσταση της παραγγελίας δεν επηρεάζεται. Η παραγγελία καταχωρείται μόνο μετά την επιτυχή πληρωμή.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[Επιτυχία & μη διακανονισμένο:<br /><span class="help">Επιλέξτε την κύρια κατάσταση παραγγελίας που θέλετε να ορίσετε ως απάντηση στην κατάσταση του επεξεργαστή πληρωμών</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[Επιτυχία και εκκαθάριση:<br /><span class="help">Επιλέξτε την κύρια κατάσταση παραγγελίας που θέλετε να ορίσετε ως απάντηση στην κατάσταση του επεξεργαστή πληρωμών</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[Ακυρώθηκε:<br /><span class="help">Κατάσταση παραγγελίας που θέλετε να οριστεί εάν η πληρωμή ακυρωθεί στη διαχείριση/παραγγελία.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[Αυτόματο (έγκριση και είσπραξη)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[Καθυστερημένο (μόνο εξουσιοδότηση)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Settlement type:<br /><span class="help">Εάν οριστεί σε "auto", η συναλλαγή θα συμπεριληφθεί στην εκκαθάριση της σημερινής ημέρας. Εάν οριστεί σε "delayed", η συναλλαγή θα εγκριθεί αλλά δεν θα εκκαθαριστεί(captured). Πρέπει να captureάρετε χειροκίνητα τις συναλλαγές εντός 7 ημερών από την έγκριση.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[Μέγιστος αριθμός αποθηκευμένων πιστωτικών καρτών: <br/><span class="help">Ορίστε τον μέγιστο αριθμό πιστωτικών καρτών που θα αποθηκεύονται από τους πελάτες (έως 100). Αν οριστεί σε 0 ή αφεθεί κενό, η αποθήκευση καρτών δεν θα επιτρέπεται. Σημείωση ασφαλείας: Τα στοιχεία πιστωτικών καρτών των πελατών αποθηκεύονται σε ασφαλείς διακομιστές της CardConnect για να διασφαλιστούν οι μέγιστες προδιαγραφές ασφάλειας δεδομένων. Κανένα στοιχείο πιστωτικής κάρτας δεν θα αποθηκευτεί στον ιστότοπό σας.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Ημερομηνία Συναλλαγής]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Ποσό]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Τα κεφάλαια εισπράχθηκαν με επιτυχία]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Η είσπραξη ολοκληρώθηκε με επιτυχία, η κατάσταση της παραγγελίας ενημερώθηκε σε επιτυχία - διακανονίστηκε]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Η επιστροφή χρημάτων επεξεργάστηκε με επιτυχία]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Η επιστροφή χρημάτων ήταν επιτυχής, η κατάσταση της παραγγελίας ενημερώθηκε σε Επιστράφηκε.]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Η ακύρωση ολοκληρώθηκε με επιτυχία, η κατάσταση της παραγγελίας ενημερώθηκε σε ακυρωμένη.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Λεπτομέρειες Πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Η πληρωμή εισπράχθηκε]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Η πληρωμή ακυρώθηκε]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Η πληρωμή επιστράφηκε]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Ποσό Είσπραξης]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Ποσό Επιστροφής]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Κωδικός χρέωσης CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[Συνολικό εξουσιοδοτημένο ποσό]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Ποσό υπολοίπου]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Επιστροφές Συναλλαγών]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Παρακαλώ επιβεβαιώστε ότι θέλετε να ακυρώσετε την πληρωμή;]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Παρακαλούμε επιβεβαιώστε ότι θέλετε να εισπράξετε την πληρωμή;]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Παρακαλώ επιβεβαιώστε ότι θέλετε να επιστρέψετε την πληρωμή;]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Επιστροφή]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Άκυρο]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Είσπραξη]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Εσωτερικό σφάλμα. Ελέγξτε το αρχείο καταγραφής σφαλμάτων ή τις παραμέτρους εισόδου!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Παρακαλώ εισάγετε θετικό ποσό]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Δεν ήταν δυνατή η ακύρωση της συναλλαγής. Ανανεώστε και ελέγξτε τις λεπτομέρειες της συναλλαγής.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Δεν είναι δυνατή η λήψη, η ανανέωση των στοιχείων συναλλαγής και ο έλεγχος του ποσού λήψης]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Αδυναμία επιστροφής, ανανεώστε τα στοιχεία της συναλλαγής και ελέγξτε το ποσό επιστροφής]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[Τρέχουσα Κατάσταση Διακανονισμού]]></value>
+	</definition>
+</definitions>

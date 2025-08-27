@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_authorizenet_name</key>
+		<value><![CDATA[Πληρωμή Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_note</key>
+		<value><![CDATA[Απαιτούνται πρόσθετες ρυθμίσεις για να ολοκληρωθεί η ρύθμιση πληρωμής Authorize.Net. Δείτε την καρτέλα πρόσθετων ρυθμίσεων.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Πληρωμή]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Επιτυχία: έχετε τροποποιήσει τις ρυθμίσεις πληρωμής του Authorize.Net!]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id</key>
+		<value><![CDATA[Τοποθεσία:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_location_id_0</key>
+		<value><![CDATA[Όλες οι τοποθεσίες]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_login_id</key>
+		<value><![CDATA[Αναγνωριστικό σύνδεσης API:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Λειτουργία Δοκιμής:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_transaction_key</key>
+		<value><![CDATA[Κλειδί Συναλλαγής:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_api_public_key</key>
+		<value><![CDATA[Δημόσιο Κλειδί:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_autoselect</key>
+		<value><![CDATA[Αυτόματη Επιλογή:<br /><span class="help">Μπορείτε να ορίσετε να παραλείψετε τη σελίδα επιλογής πληρωμής αν υπάρχει μόνο μία επιλογή πληρωμής. Αυτή η μέθοδος πληρωμής θα επιλεγεί αυτόματα</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_save_cards_limit</key>
+		<value><![CDATA[Μπορεί να αποθηκεύει πιστωτικές κάρτες:<br /><span class="help">Ορίστε τον μέγιστο αριθμό πιστωτικών καρτών που μπορούν να αποθηκευτούν από τους πελάτες (έως 100). Αν οριστεί σε 0 ή αφεθεί κενό, η αποθήκευση καρτών δεν θα επιτραπεί. Σημείωση ασφάλειας: Τα στοιχεία πιστωτικής κάρτας των πελατών αποθηκεύονται στους ασφαλείς διακομιστές της authorizenet για να διασφαλιστούν τα μέγιστα μέτρα ασφάλειας δεδομένων. Κανένα στοιχείο πιστωτικής κάρτας δεν θα αποθηκευτεί στον ιστότοπό σας.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_connect</key>
+		<value><![CDATA[Πρέπει να συνδεθείτε με authorizenet για να ρυθμίσετε τις λεπτομέρειες πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>text_authorizenet_settings</key>
+		<value><![CDATA[Ρυθμίσεις Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Σύνδεση με Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Αποσύνδεση Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Δεν είναι δυνατή η σύνδεση;]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Συνδεθήκατε επιτυχώς με το Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Αποσυνδέθηκε από το Authorize.Net με επιτυχία]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sort_order</key>
+		<value><![CDATA[Σειρά Ταξινόμησης]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_test_mode</key>
+		<value><![CDATA[Λειτουργία δοκιμής:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_live</key>
+		<value><![CDATA[Ζωντανό μυστικό κλειδί:<br /><span class="help">Εντοπίστε το στην ενότητα Κλειδιά API του Authorize.Net. Το κλειδί ξεκινά με sk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_live</key>
+		<value><![CDATA[Ζωντανό Κλειδί Δημοσίευσης:<br /><span class="help">Εντοπίστε το στην ενότητα Κλειδιά API του Authorize.Net. Το κλειδί ξεκινά με pk_live_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_sk_test</key>
+		<value><![CDATA[Δοκιμαστικό Μυστικό Κλειδί:<br /><span class="help">Εντοπίστε αυτό στην ενότητα Κλειδιών API του Authorize.Net. Το κλειδί ξεκινά με sk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_pk_test</key>
+		<value><![CDATA[Δοκιμαστικό Δημοσιεύσιμο Κλειδί:<br /><span class="help">Εντοπίστε το στην ενότητα κλειδιών API του Authorize.Net. Το κλειδί ξεκινά με pk_test_... </span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement</key>
+		<value><![CDATA[Τύπος διακανονισμού:]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auth</key>
+		<value><![CDATA[Εξουσιοδότηση μόνο]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_authcapture</key>
+		<value><![CDATA[Εξουσιοδότηση & Είσπραξη]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_settled</key>
+		<value><![CDATA[Επιτυχία & Εκκαθάριση:<br /><span class="help">Επιλέξτε την κύρια κατάσταση παραγγελίας που θέλετε να ορίσετε ως απόκριση στην κατάσταση του επεξεργαστή πληρωμών</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_status_success_unsettled</key>
+		<value><![CDATA[Επιτυχία & μη διακανονισμένη:<br /><span class="help">Επιλέξτε την κύρια κατάσταση παραγγελίας που θέλετε να ορίσετε ως απάντηση στην κατάσταση του επεξεργαστή πληρωμών</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Ημερομηνία Συναλλαγής]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Ποσό]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_auto</key>
+		<value><![CDATA[Αυτόματο (εξουσιοδότηση και χρέωση)]]></value>
+	</definition>
+	<definition>
+		<key>default_authorizenet_settlement_delayed</key>
+		<value><![CDATA[Καθυστερημένο (μόνο εξουσιοδότηση)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Στοιχεία Πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[Αναγνωριστικό Συναλλαγής Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>text_transaction_status</key>
+		<value><![CDATA[Κατάσταση Συναλλαγής]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Συνολικό εξουσιοδοτημένο ποσό]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Υπόλοιπο ποσό]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Εσωτερικό σφάλμα. Ελέγξτε το αρχείο καταγραφής σφαλμάτων ή τις παραμέτρους εισόδου!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Παρακαλώ εισάγετε θετικό ποσό]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_test</key>
+		<value><![CDATA[Απαιτείται δοκιμαστικό κλειδί του Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>error_authorizenet_sk_live</key>
+		<value><![CDATA[Απαιτείται ζωντανό κλειδί Authorize.Net]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Προειδοποίηση: Δεν έχετε άδεια να τροποποιήσετε την πληρωμή Authorize.Net!]]></value>
+	</definition>
+</definitions>

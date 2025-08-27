@@ -1,0 +1,323 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>forms_manager_name</key>
+		<value><![CDATA[Διαχείριση Φορμών]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_status</key>
+		<value><![CDATA[Status:]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_note</key>
+		<value><![CDATA[Για να διαχειριστείτε τις φόρμες, παρακαλώ ενεργοποιήστε την επέκταση και ακολουθήστε Σχεδίαση-><a href="#admin#rt=tool/forms_manager">Διαχείριση Φορμών</a>]]></value>
+	</definition>
+	<definition>
+		<key>custom_forms_block</key>
+		<value><![CDATA[Μπλοκ Προσαρμοσμένων Φορμών]]></value>
+	</definition>
+	<definition>
+		<key>entry_form_name</key>
+		<value><![CDATA[Όνομα Φόρμας<br/><span class="help">Μόνο λατινικά γράμματα, κάτω παύλα και παύλα</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_controller_path</key>
+		<value><![CDATA[Ελεγκτής Επεξεργασίας]]></value>
+	</definition>
+	<definition>
+		<key>entry_success_page</key>
+		<value><![CDATA[Σελίδα επιτυχίας<br/><span class="help">Αφήστε το κενό εάν θέλετε να ανακατευθυνθείτε στην ίδια σελίδα με τον ελεγκτή</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_form_description</key>
+		<value><![CDATA[Περιγραφή]]></value>
+	</definition>
+	<definition>
+		<key>text_default_email</key>
+		<value><![CDATA[Προεπιλεγμένο Ηλεκτρονικό Ταχυδρομείο]]></value>
+	</definition>
+	<definition>
+		<key>text_contactus_page</key>
+		<value><![CDATA[Σελίδα Επικοινωνίας]]></value>
+	</definition>
+	<definition>
+		<key>text_form</key>
+		<value><![CDATA[Φόρμα]]></value>
+	</definition>
+	<definition>
+		<key>column_name</key>
+		<value><![CDATA[Όνομα]]></value>
+	</definition>
+	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[Όνομα πεδίου]]></value>
+	</definition>
+	<definition>
+		<key>column_description</key>
+		<value><![CDATA[Περιγραφή]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[Status]]></value>
+	</definition>
+	<definition>
+		<key>filter_exact_match</key>
+		<value><![CDATA[Η ακριβής φράση]]></value>
+	</definition>
+	<definition>
+		<key>filter_any_word</key>
+		<value><![CDATA[Οποιαδήποτε από αυτές τις λέξεις]]></value>
+	</definition>
+	<definition>
+		<key>filter_all_words</key>
+		<value><![CDATA[Όλες αυτές οι λέξεις]]></value>
+	</definition>
+	<definition>
+		<key>text_clone</key>
+		<value><![CDATA[Κλωνοποίηση]]></value>
+	</definition>
+	<definition>
+		<key>filter_form</key>
+		<value><![CDATA[Αναζήτηση φόρμας]]></value>
+	</definition>
+	<definition>
+		<key>text_add_new_field</key>
+		<value><![CDATA[-- Προσθήκη νέου πεδίου --]]></value>
+	</definition>
+	<definition>
+		<key>button_add_field</key>
+		<value><![CDATA[Προσθήκη πεδίου]]></value>
+	</definition>
+	<definition>
+		<key>button_reset</key>
+		<value><![CDATA[Επαναφορά]]></value>
+	</definition>
+	<definition>
+		<key>text_field_type</key>
+		<value><![CDATA[Τύπος πεδίου:]]></value>
+	</definition>
+	<definition>
+		<key>button_remove_field</key>
+		<value><![CDATA[Αφαίρεση πεδίου]]></value>
+	</definition>
+	<definition>
+		<key>entry_field</key>
+		<value><![CDATA[Πεδίο]]></value>
+	</definition>
+	<definition>
+		<key>entry_field_name</key>
+		<value><![CDATA[Όνομα πεδίου (μόνο λατινικά γράμματα, κάτω παύλα, παύλα)]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Σειρά ταξινόμησης]]></value>
+	</definition>
+	<definition>
+		<key>entry_required</key>
+		<value><![CDATA[Απαιτούμενο]]></value>
+	</definition>
+	<definition>
+		<key>entry_edit_fields</key>
+		<value><![CDATA[Επεξεργασία πεδίων]]></value>
+	</definition>
+	<definition>
+		<key>entry_field_value</key>
+		<value><![CDATA[Τιμή πεδίου]]></value>
+	</definition>
+	<definition>
+		<key>error_required</key>
+		<value><![CDATA[Αυτό το πεδίο είναι υποχρεωτικό!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_form_name</key>
+		<value><![CDATA[Υπάρχει ήδη μια φόρμα με τέτοιο χαρακτηριστικό ονόματος.]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_field_name</key>
+		<value><![CDATA[Υπάρχει ήδη Πεδίο με τέτοιο Όνομα στην τρέχουσα Φόρμα.]]></value>
+	</definition>
+	<definition>
+		<key>text_field_removed</key>
+		<value><![CDATA[Το πεδίο έχει αφαιρεθεί με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_form</key>
+		<value><![CDATA[Η φόρμα ενημερώθηκε με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_field</key>
+		<value><![CDATA[Το πεδίο έχει ενημερωθεί με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_added_form</key>
+		<value><![CDATA[Η νέα φόρμα έχει προστεθεί με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_added_field</key>
+		<value><![CDATA[Το νέο πεδίο προστέθηκε με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>text_add_field</key>
+		<value><![CDATA[Προσθήκη νέου πεδίου]]></value>
+	</definition>
+	<definition>
+		<key>entry_field_description</key>
+		<value><![CDATA[Εμφανιζόμενο όνομα]]></value>
+	</definition>
+	<definition>
+		<key>entry_add_new_form</key>
+		<value><![CDATA[Προσθήκη Νέας Φόρμας]]></value>
+	</definition>
+	<definition>
+		<key>text_create_block</key>
+		<value><![CDATA[Δημιουργία μπλοκ φόρμας]]></value>
+	</definition>
+	<definition>
+		<key>entry_no_set_values</key>
+		<value><![CDATA[Δεν μπορείτε να ορίσετε τιμές για αυτόν τον τύπο πεδίου.]]></value>
+	</definition>
+	<definition>
+		<key>text_field_values</key>
+		<value><![CDATA[Τιμές Πεδίων]]></value>
+	</definition>
+	<definition>
+		<key>note_create_form_block</key>
+		<value><![CDATA[Σημείωση: Για να δείτε αυτή τη φόρμα να εμφανίζεται στο κατάστημα, δημιουργήστε μπλοκ φόρμας στο Design-><a href="%s">Μπλοκ</a> και προσθέστε το στην κατάλληλη σελίδα στο Design-><a href="%s">Διατάξεις</a> σελίδα.]]></value>
+	</definition>
+	<definition>
+		<key>note_edit_layout</key>
+		<value><![CDATA[ΣΗΜΕΙΩΣΗ: Για να εμφανιστεί αυτό το μπλοκ στο κατάστημα, προσθέστε το στην κατάλληλη σελίδα στο Σχεδιασμός-><a href="%s">Διατάξεις</a>. Για να δημιουργήσετε νέα φόρμα, μεταβείτε στο Σχεδιασμός-><a href="%s">Διαχείριση Φορμών</a>.]]></value>
+	</definition>
+	<definition>
+		<key>text_select_field_type</key>
+		<value><![CDATA[--- Επιλέξτε ---]]></value>
+	</definition>
+	<definition>
+		<key>entry_field_note</key>
+		<value><![CDATA[Πεδίο εσωτερικής σημείωσης]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_default_sender_name</key>
+		<value><![CDATA[Προεπιλεγμένος Αποστολέας:]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_default_sender_email</key>
+		<value><![CDATA[Προεπιλεγμένο Email αποστολέα:]]></value>
+	</definition>
+	<definition>
+		<key>entry_field_placeholder</key>
+		<value><![CDATA[Υπόδειξη:]]></value>
+	</definition>
+	<definition>
+		<key>entry_regexp_pattern</key>
+		<value><![CDATA[Πρότυπο κανονικής έκφρασης:]]></value>
+	</definition>
+	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[html-attributes:<br /><span class="help">Μπορείτε να προσθέσετε τα δικά σας προσαρμοσμένα html-attributes για το στοιχείο επιλογής. Παράδειγμα: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_text</key>
+		<value><![CDATA[Μήνυμα σφάλματος για μη έγκυρη τιμή:]]></value>
+	</definition>
+	<definition>
+		<key>entry_form</key>
+		<value><![CDATA[Φόρμα]]></value>
+	</definition>
+	<definition>
+		<key>error_fill_required</key>
+		<value><![CDATA[Παρακαλώ συμπληρώστε όλα τα υποχρεωτικά πεδία της φόρμας!]]></value>
+	</definition>
+	<definition>
+		<key>error_form_name</key>
+		<value><![CDATA[Το όνομα της φόρμας δεν μπορεί να είναι κενό!]]></value>
+	</definition>
+	<definition>
+		<key>error_form_description</key>
+		<value><![CDATA[Η περιγραφή της φόρμας δεν μπορεί να είναι κενή!]]></value>
+	</definition>
+	<definition>
+		<key>error_field_name_exists</key>
+		<value><![CDATA[Το πεδίο με όνομα %s υπάρχει ήδη στη φόρμα!]]></value>
+	</definition>
+	<definition>
+		<key>error_regexp_pattern</key>
+		<value><![CDATA[Το πρότυπο Regex δεν είναι έγκυρο!]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_error_empty_sender</key>
+		<value><![CDATA[Προειδοποίηση! Παρακαλώ ορίστε το προεπιλεγμένο όνομα αποστολέα και τη προεπιλεγμένη διεύθυνση email αποστολέα στις <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">ρυθμίσεις διαχείρισης φορμών</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_groups</key>
+		<value><![CDATA[Ομάδες]]></value>
+	</definition>
+	<definition>
+		<key>text_fields</key>
+		<value><![CDATA[Πεδία]]></value>
+	</definition>
+	<definition>
+		<key>text_assign_fields_to_groups</key>
+		<value><![CDATA[Ανάθεση Πεδίων σε Ομάδες]]></value>
+	</definition>
+	<definition>
+		<key>text_add_new_group</key>
+		<value><![CDATA[Προσθήκη Νέας Ομάδας Πεδίων]]></value>
+	</definition>
+	<definition>
+		<key>text_no_group</key>
+		<value><![CDATA[Δεν υπάρχουν διαθέσιμες ομάδες πεδίων]]></value>
+	</definition>
+	<definition>
+		<key>text_no_fields</key>
+		<value><![CDATA[Δεν υπάρχουν διαθέσιμα πεδία]]></value>
+	</definition>
+	<definition>
+		<key>text_action</key>
+		<value><![CDATA[Ενέργεια]]></value>
+	</definition>
+	<definition>
+		<key>entry_group_name</key>
+		<value><![CDATA[Όνομα Ομάδας]]></value>
+	</definition>
+	<definition>
+		<key>entry_group_description</key>
+		<value><![CDATA[Περιγραφή ομάδας]]></value>
+	</definition>
+	<definition>
+		<key>entry_field_name</key>
+		<value><![CDATA[Όνομα πεδίου (μόνο λατινικά γράμματα, κάτω παύλα, παύλα)]]></value>
+	</definition>
+	<definition>
+		<key>button_save</key>
+		<value><![CDATA[Αποθήκευση]]></value>
+	</definition>
+	<definition>
+		<key>button_cancel</key>
+		<value><![CDATA[Ακύρωση]]></value>
+	</definition>
+	<definition>
+		<key>error_group_name_required</key>
+		<value><![CDATA[Απαιτείται όνομα ομάδας!]]></value>
+	</definition>
+	<definition>
+		<key>error_unknown</key>
+		<value><![CDATA[Παρουσιάστηκε άγνωστο σφάλμα]]></value>
+	</definition>
+	<definition>
+		<key>text_success_fields_assigned</key>
+		<value><![CDATA[Τα πεδία έχουν ανατεθεί με επιτυχία σε ομάδες.]]></value>
+	</definition>
+	<definition>
+		<key>button_reset</key>
+		<value><![CDATA[Επαναφορά]]></value>
+	</definition>
+	<definition>
+		<key>column_text_id</key>
+		<value><![CDATA[Αναγνωριστικό κειμένου]]></value>
+	</definition>
+	<definition>
+		<key>error_group_has_fields</key>
+		<value><![CDATA[Η ομάδα δεν μπορεί να αφαιρεθεί. Ένα ή περισσότερα πεδία έχουν ανατεθεί σε αυτήν την ομάδα.]]></value>
+	</definition>
+</definitions>
