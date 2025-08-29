@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>text_title</key>
+		<value><![CDATA[Kreditna kartica / debetna kartica (prek PayPala)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_name</key>
+		<value><![CDATA[PayPal trgovina]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_manual_connect</key>
+		<value><![CDATA[&nbsp;]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_client_id</key>
+		<value><![CDATA[Vaš ID API odjemalca<br /><span class="help">Poiščite ga v razdelku Moje aplikacije in poverilnice na nadzorni plošči PayPal -> Razvijalec</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_client_secret</key>
+		<value><![CDATA[Vaš API skrivni ključ<br /><span class="help">Najdite to v razdelku Moje aplikacije in poverilnice na nadzorni plošči PayPal -> Razvijalec</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_mode</key>
+		<value><![CDATA[Testni način]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type</key>
+		<value><![CDATA[Metoda transakcije:<br/><span class="help">PayPal transakcija se izvede ob zaključku nakupa stranke, preden je določen status naročila. Samo avtorizacija ali zajem sredstev.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type_capture</key>
+		<value><![CDATA[Zajem]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_transaction_type_authorize</key>
+		<value><![CDATA[Samo odobritev]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_connection</key>
+		<value><![CDATA[Preizkusi povezavo]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_test</key>
+		<value><![CDATA[Preizkusi zdaj]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_update_webhooks</key>
+		<value><![CDATA[Posodobi spletne kavlje]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_tooltip_update_webhooks</key>
+		<value><![CDATA[Webhooks se bodo med povezovanjem s PayPal samodejno nastavili. Uporabite ta gumb za posodobitev webhookov pri PayPalu.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_connection_success</key>
+		<value><![CDATA[Povezava je bila uspešno vzpostavljena.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Plačilo]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Uspeh: Spremenili ste nastavitve plačila Paypal!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_location_id</key>
+		<value><![CDATA[Lokacija:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_location_id_0</key>
+		<value><![CDATA[Vse lokacije]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status</key>
+		<value><![CDATA[Stanje:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_autoselect</key>
+		<value><![CDATA[Samodejna izbira:<br /><span class="help">Lahko nastavite, da se stran za izbiro načina plačila preskoči, če je na voljo samo ena možnost plačila. Ta način plačila bo izbran samodejno</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_paypal_commerce_connect</key>
+		<value><![CDATA[Povezati se morate s PayPal, da nastavite podrobnosti plačila.]]></value>
+	</definition>
+	<definition>
+		<key>text_paypal_commerce_settings</key>
+		<value><![CDATA[PayPal nastavitve]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_sort_order</key>
+		<value><![CDATA[Vrstni red razvrščanja]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_test_mode</key>
+		<value><![CDATA[Testni način]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_register_webhooks</key>
+		<value><![CDATA[Posodobite končne točke webhookov na strani API-ja]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_register_webhooks_success</key>
+		<value><![CDATA[Končne točke spletnih klicev so bile uspešno posodobljene!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_success_settled</key>
+		<value><![CDATA[Uspešno in zabeleženo:<br /><span class="help">Izberite glavni status naročila, ki ga želite nastaviti kot odziv na status plačilnega procesorja</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_success_unsettled</key>
+		<value><![CDATA[Uspeh in ne zajeto:<br /><span class="help">Izberite glavni status naročila, ki ga želite nastaviti kot odziv na status plačilnega procesorja</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_decline</key>
+		<value><![CDATA[Zavrni:<br /><span class="help">Stanje naročila, ki ga želite zabeležiti v zgodovini kot odziv na stanje procesorja plačila. Glavno stanje naročila ni prizadeto. Naročilo bo oddano šele, ko bo plačilo uspešno.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_capture_pending</key>
+		<value><![CDATA[Na čakanju:</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_status_refund</key>
+		<value><![CDATA[Refunded:<br /><span class="help">Stanje naročila, ki ga želite nastaviti, če je plačilo povrnjeno v admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Datum transakcije]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Znesek]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Sredstva so bila uspešno unovčena]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Zajem je bil uspešen, stanje naročila je posodobljeno na uspeh - zajeto]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Povračilo je bilo uspešno obdelano.]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Vračilo je bilo uspešno, status naročila je bil posodobljen na »vrnjeno«]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Preklic je bil uspešen, status naročila posodobljen na preklican]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_auto</key>
+		<value><![CDATA[Samodejno (avtoriziraj in zaračunaj)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_delayed</key>
+		<value><![CDATA[Zakasnjeno (samo avtorizacija)]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Podrobnosti plačila]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Plačilo je bilo zabeleženo]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Plačilo je bilo razveljavljeno]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Plačilo je bilo povrnjeno]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Zajeti znesek]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Znesek vračila]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID obremenitve PayPal]]></value>
+	</definition>
+	<definition>
+		<key>text_order_total</key>
+		<value><![CDATA[Skupni odobren znesek]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Znesek stanja]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Vračila transakcij]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Prosimo, potrdite, da želite preklicati plačilo?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Prosimo, potrdite, da želite zaračunati plačilo?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Prosimo, potrdite, da želite povrniti plačilo?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Vračilo]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Prazno]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Zajem]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Notranja napaka. Preverite dnevnik napak ali vhodne parametre!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Prosimo vnesite pozitiven znesek.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Zajem ni mogoč, osvežite podrobnosti transakcije in preverite znesek zajema.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Ni mogoče preklicati transakcije, osvežite in preverite podrobnosti transakcije.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Vračila ni mogoče izvesti, osvežite podrobnosti transakcije in preverite znesek vračila]]></value>
+	</definition>
+	<definition>
+		<key>text_connect</key>
+		<value><![CDATA[Povežite se s PayPalom]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect</key>
+		<value><![CDATA[Prekini povezavo s PayPal]]></value>
+	</definition>
+	<definition>
+		<key>text_skip_connect</key>
+		<value><![CDATA[Ne morem vzpostaviti povezave?]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Povezava s Paypalom je bila uspešna.]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_success</key>
+		<value><![CDATA[Povezava s PayPalom je bila uspešno prekinjena.]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Opozorilo: nimate dovoljenja za spreminjanje Paypal Commerce Payment!]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_auto</key>
+		<value><![CDATA[Samodejno (avtoriziraj in zajemi)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_settlement_delayed</key>
+		<value><![CDATA[Zakašnjeno (samo odobritev)]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Notranja napaka. Preverite dnevnik napak ali vhodne parametre!]]></value>
+	</definition>
+	<definition>
+		<key>error_paypal_commerce_client_id</key>
+		<value><![CDATA[ID odjemalca aplikacije je obvezen]]></value>
+	</definition>
+	<definition>
+		<key>error_paypal_commerce_client_secret</key>
+		<value><![CDATA[Skrivni ključ aplikacije je obvezen]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Opozorilo: Nimate dovoljenja za spreminjanje Paypal Commerce Payment!]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Napaka! Prosimo, preverite, ali je razširitev vklopljena.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_back</key>
+		<value><![CDATA[Nazaj]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_webhook_howto_text</key>
+		<value><![CDATA[Opomba: Za dokončanje nastavitve morate na strani vašega računa PayPal ustvariti spletne klice (webhooks).<br> Pojdite v vaš <a href="https://dashboard.paypal.com/webhooks" target="_new">razvojni odsek nadzorne plošče PayPal</a> in dodajte končne točke (Endpoints) za prejemanje dogodkov iz vašega računa. Ko je končna točka ustvarjena, kopirajte Signing Secret in ga shranite v nastavitvah razširitve PayPal Subscription Extension.]]></value>
+	</definition>
+</definitions>

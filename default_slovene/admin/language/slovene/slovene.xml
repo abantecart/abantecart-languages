@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>code</key>
+		<value><![CDATA[sl]]></value>
+	</definition>
+	<definition>
+		<key>direction</key>
+		<value><![CDATA[ltr]]></value>
+	</definition>
+	<definition>
+		<key>date_format_short</key>
+		<value><![CDATA[d.m.Y]]></value>
+	</definition>
+	<definition>
+		<key>date_format_long</key>
+		<value><![CDATA[l, j F Y]]></value>
+	</definition>
+	<definition>
+		<key>time_format</key>
+		<value><![CDATA[h:i:s]]></value>
+	</definition>
+	<definition>
+		<key>time_format_short</key>
+		<value><![CDATA[H:i]]></value>
+	</definition>
+	<definition>
+		<key>decimal_point</key>
+		<value><![CDATA[,]]></value>
+	</definition>
+	<definition>
+		<key>thousand_point</key>
+		<value><![CDATA[.]]></value>
+	</definition>
+	<definition>
+		<key>text_yes</key>
+		<value><![CDATA[Da]]></value>
+	</definition>
+	<definition>
+		<key>text_no</key>
+		<value><![CDATA[Ne]]></value>
+	</definition>
+	<definition>
+		<key>text_plus</key>
+		<value><![CDATA[+]]></value>
+	</definition>
+	<definition>
+		<key>text_minus</key>
+		<value><![CDATA[-]]></value>
+	</definition>
+	<definition>
+		<key>text_enabled</key>
+		<value><![CDATA[Omogočeno]]></value>
+	</definition>
+	<definition>
+		<key>text_disabled</key>
+		<value><![CDATA[Onemogočeno]]></value>
+	</definition>
+	<definition>
+		<key>text_none</key>
+		<value><![CDATA[--- Brez ---]]></value>
+	</definition>
+	<definition>
+		<key>text_select</key>
+		<value><![CDATA[--- Prosimo izberite ---]]></value>
+	</definition>
+	<definition>
+		<key>text_select_all</key>
+		<value><![CDATA[Izberi vse]]></value>
+	</definition>
+	<definition>
+		<key>text_unselect_all</key>
+		<value><![CDATA[Odznači vse]]></value>
+	</definition>
+	<definition>
+		<key>text_all_zones</key>
+		<value><![CDATA[Vse cone]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[(Privzeto)]]></value>
+	</definition>
+	<definition>
+		<key>text_close</key>
+		<value><![CDATA[Zapri]]></value>
+	</definition>
+	<definition>
+		<key>text_pagination</key>
+		<value><![CDATA[Prikazujem {start} to {end} of {total} ({pages} strani)]]></value>
+	</definition>
+	<definition>
+		<key>text_per_page</key>
+		<value><![CDATA[Na stran]]></value>
+	</definition>
+	<definition>
+		<key>text_no_results</key>
+		<value><![CDATA[Ni najdenega rezultata.]]></value>
+	</definition>
+	<definition>
+		<key>text_separator</key>
+		<value><![CDATA[>]]></value>
+	</definition>
+	<definition>
+		<key>text_edit</key>
+		<value><![CDATA[Uredi]]></value>
+	</definition>
+	<definition>
+		<key>text_view</key>
+		<value><![CDATA[Ogled]]></value>
+	</definition>
+	<definition>
+		<key>text_home</key>
+		<value><![CDATA[Domov]]></value>
+	</definition>
+	<definition>
+		<key>button_insert</key>
+		<value><![CDATA[Vstavi]]></value>
+	</definition>
+	<definition>
+		<key>button_delete</key>
+		<value><![CDATA[Izbriši]]></value>
+	</definition>
+	<definition>
+		<key>button_save</key>
+		<value><![CDATA[Shrani]]></value>
+	</definition>
+	<definition>
+		<key>button_save_and_close</key>
+		<value><![CDATA[Shrani in Zapri]]></value>
+	</definition>
+	<definition>
+		<key>button_cancel</key>
+		<value><![CDATA[Prekliči]]></value>
+	</definition>
+	<definition>
+		<key>button_reset</key>
+		<value><![CDATA[Ponastavi]]></value>
+	</definition>
+	<definition>
+		<key>button_reload</key>
+		<value><![CDATA[Osveži]]></value>
+	</definition>
+	<definition>
+		<key>button_clear</key>
+		<value><![CDATA[Počisti dnevnik]]></value>
+	</definition>
+	<definition>
+		<key>button_close</key>
+		<value><![CDATA[Zapri]]></value>
+	</definition>
+	<definition>
+		<key>button_upgrade</key>
+		<value><![CDATA[Nadgradnja]]></value>
+	</definition>
+	<definition>
+		<key>button_filter</key>
+		<value><![CDATA[Filter]]></value>
+	</definition>
+	<definition>
+		<key>button_send</key>
+		<value><![CDATA[Pošlji]]></value>
+	</definition>
+	<definition>
+		<key>button_edit</key>
+		<value><![CDATA[Uredi]]></value>
+	</definition>
+	<definition>
+		<key>button_copy</key>
+		<value><![CDATA[Kopiraj]]></value>
+	</definition>
+	<definition>
+		<key>button_agree</key>
+		<value><![CDATA[Strinjam se]]></value>
+	</definition>
+	<definition>
+		<key>button_back</key>
+		<value><![CDATA[Nazaj]]></value>
+	</definition>
+	<definition>
+		<key>button_continue</key>
+		<value><![CDATA[Nadaljuj]]></value>
+	</definition>
+	<definition>
+		<key>button_remove</key>
+		<value><![CDATA[Odstrani]]></value>
+	</definition>
+	<definition>
+		<key>button_backup</key>
+		<value><![CDATA[Varnostna kopija]]></value>
+	</definition>
+	<definition>
+		<key>button_restore</key>
+		<value><![CDATA[Obnovi]]></value>
+	</definition>
+	<definition>
+		<key>button_invoice</key>
+		<value><![CDATA[Natisni račun]]></value>
+	</definition>
+	<definition>
+		<key>button_invoices</key>
+		<value><![CDATA[Natisni račune]]></value>
+	</definition>
+	<definition>
+		<key>button_add_option</key>
+		<value><![CDATA[Dodaj možnost]]></value>
+	</definition>
+	<definition>
+		<key>button_add_option_value</key>
+		<value><![CDATA[Dodaj vrednost možnosti]]></value>
+	</definition>
+	<definition>
+		<key>button_add_discount</key>
+		<value><![CDATA[Dodaj popust]]></value>
+	</definition>
+	<definition>
+		<key>button_add_special</key>
+		<value><![CDATA[Dodaj posebno ceno]]></value>
+	</definition>
+	<definition>
+		<key>button_add_image</key>
+		<value><![CDATA[Dodaj sliko]]></value>
+	</definition>
+	<definition>
+		<key>button_add_location_zone</key>
+		<value><![CDATA[Dodaj lokacijsko cono]]></value>
+	</definition>
+	<definition>
+		<key>button_add_rate</key>
+		<value><![CDATA[Dodaj davčno stopnjo]]></value>
+	</definition>
+	<definition>
+		<key>button_add_history</key>
+		<value><![CDATA[Dodaj zgodovino naročila]]></value>
+	</definition>
+	<definition>
+		<key>button_actas</key>
+		<value><![CDATA[Ukrepati v imenu]]></value>
+	</definition>
+	<definition>
+		<key>button_message</key>
+		<value><![CDATA[Kontaktirajte tega kupca]]></value>
+	</definition>
+	<definition>
+		<key>button_approve</key>
+		<value><![CDATA[Odobri]]></value>
+	</definition>
+	<definition>
+		<key>button_generate</key>
+		<value><![CDATA[Ustvari]]></value>
+	</definition>
+	<definition>
+		<key>tab_admin</key>
+		<value><![CDATA[Administrator]]></value>
+	</definition>
+	<definition>
+		<key>tab_data</key>
+		<value><![CDATA[Podatki]]></value>
+	</definition>
+	<definition>
+		<key>tab_discount</key>
+		<value><![CDATA[Popusti]]></value>
+	</definition>
+	<definition>
+		<key>tab_details</key>
+		<value><![CDATA[Podrobnosti trgovine]]></value>
+	</definition>
+	<definition>
+		<key>tab_checkout</key>
+		<value><![CDATA[Zaključek nakupa]]></value>
+	</definition>
+	<definition>
+		<key>tab_appearance</key>
+		<value><![CDATA[Videz]]></value>
+	</definition>
+	<definition>
+		<key>tab_im</key>
+		<value><![CDATA[IM]]></value>
+	</definition>
+	<definition>
+		<key>tab_api</key>
+		<value><![CDATA[API]]></value>
+	</definition>
+	<definition>
+		<key>tab_general</key>
+		<value><![CDATA[Splošno]]></value>
+	</definition>
+	<definition>
+		<key>tab_image</key>
+		<value><![CDATA[Dodatne slike]]></value>
+	</definition>
+	<definition>
+		<key>tab_option</key>
+		<value><![CDATA[Možnosti]]></value>
+	</definition>
+	<definition>
+		<key>tab_system</key>
+		<value><![CDATA[Sistem]]></value>
+	</definition>
+	<definition>
+		<key>tab_store</key>
+		<value><![CDATA[Trgovina]]></value>
+	</definition>
+	<definition>
+		<key>tab_special</key>
+		<value><![CDATA[Posebne ponudbe]]></value>
+	</definition>
+	<definition>
+		<key>tab_local</key>
+		<value><![CDATA[Lokalno]]></value>
+	</definition>
+	<definition>
+		<key>tab_mail</key>
+		<value><![CDATA[Pošta]]></value>
+	</definition>
+	<definition>
+		<key>tab_order</key>
+		<value><![CDATA[Podrobnosti naročila]]></value>
+	</definition>
+	<definition>
+		<key>tab_history</key>
+		<value><![CDATA[Zgodovina naročil]]></value>
+	</definition>
+	<definition>
+		<key>tab_product</key>
+		<value><![CDATA[Izdelki]]></value>
+	</definition>
+	<definition>
+		<key>tab_shipping</key>
+		<value><![CDATA[Naslov za dostavo]]></value>
+	</definition>
+	<definition>
+		<key>tab_payment</key>
+		<value><![CDATA[Plačilni naslov]]></value>
+	</definition>
+	<definition>
+		<key>entry_discount</key>
+		<value><![CDATA[Popust]]></value>
+	</definition>
+	<definition>
+		<key>entry_special</key>
+		<value><![CDATA[Posebno]]></value>
+	</definition>
+	<definition>
+		<key>error_upload_1</key>
+		<value><![CDATA[Opozorilo: Naložena datoteka presega direktivo upload_max_filesize v php.ini!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload_2</key>
+		<value><![CDATA[Opozorilo: Naložena datoteka presega direktivo MAX_FILE_SIZE, določeno v HTML obrazcu!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload_3</key>
+		<value><![CDATA[Opozorilo: datoteka je bila le delno naložena!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload_4</key>
+		<value><![CDATA[Opozorilo: Nobena datoteka ni bila naložena!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload_6</key>
+		<value><![CDATA[Opozorilo: Manjka začasna mapa!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload_7</key>
+		<value><![CDATA[Opozorilo: ni bilo mogoče zapisati datoteke na disk!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload_8</key>
+		<value><![CDATA[Opozorilo: Nalaganje datoteke je bilo ustavljeno zaradi razširitve!]]></value>
+	</definition>
+	<definition>
+		<key>error_upload_999</key>
+		<value><![CDATA[Opozorilo: koda napake ni na voljo!]]></value>
+	</definition>
+	<definition>
+		<key>text_choose_action</key>
+		<value><![CDATA[izberi dejanje..]]></value>
+	</definition>
+	<definition>
+		<key>text_delete</key>
+		<value><![CDATA[Izbriši]]></value>
+	</definition>
+	<definition>
+		<key>text_delete_selected</key>
+		<value><![CDATA[izbriši izbrane]]></value>
+	</definition>
+	<definition>
+		<key>text_save_selected</key>
+		<value><![CDATA[Shrani izbrane]]></value>
+	</definition>
+	<definition>
+		<key>text_save_all</key>
+		<value><![CDATA[shrani vse]]></value>
+	</definition>
+	<definition>
+		<key>text_select_status</key>
+		<value><![CDATA[- Izberite status -]]></value>
+	</definition>
+	<definition>
+		<key>text_all_orders</key>
+		<value><![CDATA[Vsa naročila]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_password</key>
+		<value><![CDATA[Potrdi geslo]]></value>
+	</definition>
+	<definition>
+		<key>text_insert</key>
+		<value><![CDATA[Vstavi]]></value>
+	</definition>
+	<definition>
+		<key>text_edit</key>
+		<value><![CDATA[Uredi]]></value>
+	</definition>
+	<definition>
+		<key>text_select_items</key>
+		<value><![CDATA[Prosimo, izberite artikle]]></value>
+	</definition>
+	<definition>
+		<key>button_go</key>
+		<value><![CDATA[Pojdi]]></value>
+	</definition>
+	<definition>
+		<key>search_everywhere</key>
+		<value><![CDATA[Išči po celotni spletni strani]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[Dejanje]]></value>
+	</definition>
+	<definition>
+		<key>error_permission_access</key>
+		<value><![CDATA[Pozor: Nimate dovoljenja za dostop do %s!]]></value>
+	</definition>
+	<definition>
+		<key>error_permission_modify</key>
+		<value><![CDATA[Opozorilo: Nimate dovoljenja za spreminjanje %s!]]></value>
+	</definition>
+	<definition>
+		<key>text_add</key>
+		<value><![CDATA[Dodaj]]></value>
+	</definition>
+	<definition>
+		<key>text_add_block</key>
+		<value><![CDATA[Dodaj blok]]></value>
+	</definition>
+	<definition>
+		<key>text_resource_library</key>
+		<value><![CDATA[Knjižnica virov]]></value>
+	</definition>
+	<definition>
+		<key>text_add_media</key>
+		<value><![CDATA[Dodaj medij]]></value>
+	</definition>
+	<definition>
+		<key>confirm_unmap_title</key>
+		<value><![CDATA[Potrdi vir(e) Prekini povezavo]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_unmap</key>
+		<value><![CDATA[Ali ste prepričani, da želite prekiniti povezavo z vir(i)?]]></value>
+	</definition>
+	<definition>
+		<key>confirm_del_title</key>
+		<value><![CDATA[Potrdite vir(ov) Izbriši]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_del</key>
+		<value><![CDATA[Ali ste prepričani, da želite izbrisati vir(e)?]]></value>
+	</definition>
+	<definition>
+		<key>text_type_image</key>
+		<value><![CDATA[Slike]]></value>
+	</definition>
+	<definition>
+		<key>text_type_audio</key>
+		<value><![CDATA[Zvok]]></value>
+	</definition>
+	<definition>
+		<key>text_type_video</key>
+		<value><![CDATA[Video]]></value>
+	</definition>
+	<definition>
+		<key>text_type_pdf</key>
+		<value><![CDATA[PDF dokument]]></value>
+	</definition>
+	<definition>
+		<key>text_type_archive</key>
+		<value><![CDATA[Arhiv]]></value>
+	</definition>
+	<definition>
+		<key>text_type_download</key>
+		<value><![CDATA[Prenesi datoteko]]></value>
+	</definition>
+	<definition>
+		<key>button_unmap</key>
+		<value><![CDATA[Odstrani povezavo]]></value>
+	</definition>
+	<definition>
+		<key>button_select_resource</key>
+		<value><![CDATA[izberi]]></value>
+	</definition>
+	<definition>
+		<key>text_click_to_change</key>
+		<value><![CDATA[Kliknite na sliko, da jo spremenite.]]></value>
+	</definition>
+	<definition>
+		<key>text_select_from_list</key>
+		<value><![CDATA[Izberite s seznama]]></value>
+	</definition>
+	<definition>
+		<key>text_count_selected</key>
+		<value><![CDATA[Število izbranih artiklov:]]></value>
+	</definition>
+	<definition>
+		<key>text_delete_confirm</key>
+		<value><![CDATA[Prosimo, potrdite izbris]]></value>
+	</definition>
+	<definition>
+		<key>text_save_edit</key>
+		<value><![CDATA[Dodaj/Uredi]]></value>
+	</definition>
+	<definition>
+		<key>text_apply</key>
+		<value><![CDATA[Uporabi]]></value>
+	</definition>
+	<definition>
+		<key>text_on_top</key>
+		<value><![CDATA[Nazaj na vrh]]></value>
+	</definition>
+	<definition>
+		<key>text_all</key>
+		<value><![CDATA[Vsi]]></value>
+	</definition>
+	<definition>
+		<key>text_all_stores</key>
+		<value><![CDATA[Vse trgovine]]></value>
+	</definition>
+	<definition>
+		<key>text_create_new_block</key>
+		<value><![CDATA[Ustvari nov blok]]></value>
+	</definition>
+	<definition>
+		<key>button_unlink</key>
+		<value><![CDATA[Prekini povezavo]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_unlink</key>
+		<value><![CDATA[Ali ste prepričani, da želite razvezati vir?]]></value>
+	</definition>
+	<definition>
+		<key>confirm_unlink_title</key>
+		<value><![CDATA[Potrdi prekinitev povezave vira]]></value>
+	</definition>
+	<definition>
+		<key>text_select_store</key>
+		<value><![CDATA[Izberite drugo trgovino]]></value>
+	</definition>
+	<definition>
+		<key>text_click_browse_file</key>
+		<value><![CDATA[Kliknite za izbiro datoteke]]></value>
+	</definition>
+	<definition>
+		<key>text_browse</key>
+		<value><![CDATA[Brskaj]]></value>
+	</definition>
+	<definition>
+		<key>text_or</key>
+		<value><![CDATA[ali]]></value>
+	</definition>
+	<definition>
+		<key>error_seo_keyword</key>
+		<value><![CDATA[SEO ključna beseda <a target="_blank" href="%s">"%s"</a> že obstaja!]]></value>
+	</definition>
+	<definition>
+		<key>column_update_date</key>
+		<value><![CDATA[Datum posodobitve]]></value>
+	</definition>
+	<definition>
+		<key>text_automatic</key>
+		<value><![CDATA[Samodejno]]></value>
+	</definition>
+	<definition>
+		<key>text_sort_order</key>
+		<value><![CDATA[Vrstni red]]></value>
+	</definition>
+	<definition>
+		<key>text_select_copy_layout</key>
+		<value><![CDATA[Izberite, iz katere postavitve kopirati]]></value>
+	</definition>
+	<definition>
+		<key>text_apply_layout</key>
+		<value><![CDATA[Prijavite se zdaj]]></value>
+	</definition>
+	<definition>
+		<key>text_new_download</key>
+		<value><![CDATA[Nov prenos]]></value>
+	</definition>
+	<definition>
+		<key>text_free</key>
+		<value><![CDATA[Brezplačno]]></value>
+	</definition>
+	<definition>
+		<key>text_sure</key>
+		<value><![CDATA[Ali ste prepričani?]]></value>
+	</definition>
+	<definition>
+		<key>button_add</key>
+		<value><![CDATA[Dodaj]]></value>
+	</definition>
+	<definition>
+		<key>text_please_confirm</key>
+		<value><![CDATA[Prosimo, potrdite]]></value>
+	</definition>
+	<definition>
+		<key>button_confirm</key>
+		<value><![CDATA[Potrdi]]></value>
+	</definition>
+	<definition>
+		<key>button_download</key>
+		<value><![CDATA[Prenesi]]></value>
+	</definition>
+	<definition>
+		<key>recent_customers</key>
+		<value><![CDATA[Nedavno registrirani kupci]]></value>
+	</definition>
+	<definition>
+		<key>new_orders</key>
+		<value><![CDATA[Nova naročila]]></value>
+	</definition>
+	<definition>
+		<key>text_saved</key>
+		<value><![CDATA[Uspešno shranjeno]]></value>
+	</definition>
+	<definition>
+		<key>text_processing</key>
+		<value><![CDATA[Obdelujem ...]]></value>
+	</definition>
+	<definition>
+		<key>text_next</key>
+		<value><![CDATA[Naprej]]></value>
+	</definition>
+	<definition>
+		<key>text_previous</key>
+		<value><![CDATA[Prejšnji]]></value>
+	</definition>
+	<definition>
+		<key>text_on</key>
+		<value><![CDATA[Vklopljeno]]></value>
+	</definition>
+	<definition>
+		<key>text_off</key>
+		<value><![CDATA[IZKLOPLJENO]]></value>
+	</definition>
+	<definition>
+		<key>text_external_help</key>
+		<value><![CDATA[Zunanja pomoč]]></value>
+	</definition>
+	<definition>
+		<key>text_select_from_lookup</key>
+		<value><![CDATA[Začnite tipkati (name, model, sku, etc.), da poiščete in izberete rezultat.]]></value>
+	</definition>
+	<definition>
+		<key>text_continue_typing</key>
+		<value><![CDATA[Nadaljujte s tipkanjem ...]]></value>
+	</definition>
+	<definition>
+		<key>text_looking_for</key>
+		<value><![CDATA[Iščete]]></value>
+	</definition>
+	<definition>
+		<key>button_manage_extensions</key>
+		<value><![CDATA[Upravljanje razširitev]]></value>
+	</definition>
+	<definition>
+		<key>text_abc_notification</key>
+		<value><![CDATA[Posodobitve programske opreme & obvestila]]></value>
+	</definition>
+	<definition>
+		<key>text_not_applicable</key>
+		<value><![CDATA[Ni na voljo]]></value>
+	</definition>
+	<definition>
+		<key>text_share_embed_code</key>
+		<value><![CDATA[Pridobi kodo za vdelavo]]></value>
+	</definition>
+	<definition>
+		<key>text_copy_embed_code</key>
+		<value><![CDATA[Kopirajte in prilepite to v vašo HTML-kodo, kjer želite prodajati.]]></value>
+	</definition>
+	<definition>
+		<key>text_copy_embed_url</key>
+		<value><![CDATA[Kopirajte in prilepite ta URL na svojo drugo spletno stran, kjer želite prodajati.]]></value>
+	</definition>
+	<definition>
+		<key>button_retry</key>
+		<value><![CDATA[Poskusi znova]]></value>
+	</definition>
+	<definition>
+		<key>text_system_error</key>
+		<value><![CDATA[Prišlo je do sistemske napake. Preverite sistem <a target="_blank" href="%s">sporočila</a> ali <a target="_blank" href="%s">dnevnik napak</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_system_warning</key>
+		<value><![CDATA[Sistemsko opozorilo je bilo prijavljeno. Preverite sistemska <a target="_blank" href="%s">sporočila</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_system_notice</key>
+		<value><![CDATA[Sistemsko obvestilo je bilo prijavljeno. Preverite sistemska <a target="_blank" href="%s">sporočila</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_set_related</key>
+		<value><![CDATA[Nastavi sorodne]]></value>
+	</definition>
+	<definition>
+		<key>tab_text</key>
+		<value><![CDATA[HTML/Besedilo]]></value>
+	</definition>
+	<definition>
+		<key>tab_visual</key>
+		<value><![CDATA[Vizualno]]></value>
+	</definition>
+	<definition>
+		<key>button_add_media</key>
+		<value><![CDATA[Dodaj medije]]></value>
+	</definition>
+	<definition>
+		<key>button_field_history</key>
+		<value><![CDATA[Ogled zgodovine polja]]></value>
+	</definition>
+	<definition>
+		<key>text_view_more</key>
+		<value><![CDATA[Pokaži več]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Nadzorna plošča]]></value>
+	</definition>
+	<definition>
+		<key>text_storefront</key>
+		<value><![CDATA[Spletna trgovina]]></value>
+	</definition>
+	<definition>
+		<key>text_texteditor_extended_mode</key>
+		<value><![CDATA[<a class="texteditor_ext_mode" href="%s" ><i class="fa fa-external-link"></i> Uredi v razširjenem načinu</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_quick_view</key>
+		<value><![CDATA[Hitri pregled]]></value>
+	</definition>
+	<definition>
+		<key>text_more_current</key>
+		<value><![CDATA[Urejanje celotne strani]]></value>
+	</definition>
+	<definition>
+		<key>text_more_new</key>
+		<value><![CDATA[Uredi v novem zavihku]]></value>
+	</definition>
+	<definition>
+		<key>text_back_to_list</key>
+		<value><![CDATA[Nazaj na seznam]]></value>
+	</definition>
+	<definition>
+		<key>text_help_link</key>
+		<value><![CDATA[<a href="http://www.abantecart.com/contact-us" target="_abantecart">Potrebujete pomoč?</a>]]></value>
+	</definition>
+	<definition>
+		<key>text_subtract_order</key>
+		<value><![CDATA[Odštej naročilo]]></value>
+	</definition>
+	<definition>
+		<key>button_preview</key>
+		<value><![CDATA[Predogled]]></value>
+	</definition>
+	<definition>
+		<key>warning_extensions_with_layouts</key>
+		<value><![CDATA[Naslednje razširitve <br> %s <br> vključujejo strani ali postavitve, ki niso prisotne v izbranem predlogi. Če želite vključiti funkcije iz teh razširitev, boste morali znova namestiti razširitve, potem ko omogočite novo predlogo. Če ponovna namestitev ne pomaga, se za pomoč obrnite na prvotne razvijalce zgoraj navedenih razširitev.]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Stanje:]]></value>
+	</definition>
+	<definition>
+		<key>text_data_history</key>
+		<value><![CDATA[Zgodovina sprememb podatkov]]></value>
+	</definition>
+	<definition>
+		<key>text_design</key>
+		<value><![CDATA[Oblikovanje]]></value>
+	</definition>
+	<definition>
+		<key>text_select_brand</key>
+		<value><![CDATA[-Izberite znamko-]]></value>
+	</definition>
+	<definition>
+		<key>text_advanced_settings</key>
+		<value><![CDATA[Napredno]]></value>
+	</definition>
+</definitions>

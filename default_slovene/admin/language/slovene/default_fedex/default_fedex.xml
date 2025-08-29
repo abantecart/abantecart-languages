@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Dostava]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Uspešno: spremenili ste način dostave FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[Fedex Production Key:<br /><span class="help">Vnesite vam dodeljen produkcijski ključ Fedex. Obvezno.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Produkcijsko geslo Fedex:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[Številka računa:<br /><span class="help">Vnesite FedEx številko računa, ki vam je bila dodeljena. Obvezno.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Številka merilnika FedEx:<br /><span class="help">Vnesite številko merilnika FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Naslov:<br /><span class="help">Pošiljanje z uličnega naslova.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[Mesto:<br /><span class="help">Pošiljanje iz mesta.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Država:<br /><span class="help">Pošiljanje iz države (dve črki).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[Poštna številka/poštna koda:<br /><span class="help">Dostava iz poštne številke.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Država:<br /><span class="help">Pošiljanje iz države (dve črki).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[Tip ponudbe:<br /><span class="help">Ponudba za stanovanjsko ali poslovno dostavo.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Stanovanjski]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Komercialno]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[Dodatni stroški:<br /><span class="help">Dodatni strošek, obračunan na ponudbo FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[FEDEX Prva čez noč]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[FEDEX Prednostna dostava čez noč]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[FEDEX standardna dostava čez noč]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[FEDEX drugi dan]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[FEDEX Express Saver]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[FEDEX Kopno]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Opozorilo: Nimate dovoljenja za spreminjanje pošiljanja FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[ID računa je obvezen!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Fedex Meter ID je obvezen!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[Da bi pridobili svojo številko števca in avtorizacijski ključ, morate slediti naslednjim korakom:</br>
+Pojdite na <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br>
+Prijavite se z FedEx uporabniškim imenom in geslom ali kliknite Register Now, če ga nimate.<br>
+Kliknite "Technical Resources" (na levi strani).<br>
+Pod tem kliknite "FedEx web services for shipping.<br>
+Kliknite "Move To Production" (na desni strani).<br>
+Pomaknite se navzdol do gumba in kliknite "Obtain Production Key".<br>
+Na obrazcu izberite pri vprašanju 1 "No".<br>
+Označite prvo polje pri vprašanju 2.<br>
+Izberite pri vprašanju 3 "Corporate Developer".<br>
+Sprejmite pogodbo.<br>
+Izpolnite obrazec (ne uporabljajte vezajev v številki računa).<br>
+Takoj boste prejeli številko števca in ključ. Vaše produkcijsko geslo vam bo poslano po e-pošti, ko boste zaključili zgornje korake.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Preizkusni način:<br /><span class="help">Uporabite produkcijski ali testni strežnik prehoda?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[Da]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[Ne]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Preizkusite svojo povezavo:<span class="help">Lahko preverite, ali so API poverilnice, ki ste jih vnesli, pravilne.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Preizkus]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Povezava je uspešna in poverilnice API-ja so pravilno konfigurirane.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Napaka! Prosimo, preverite, ali je razširitev vklopljena.]]></value>
+	</definition>
+</definitions>

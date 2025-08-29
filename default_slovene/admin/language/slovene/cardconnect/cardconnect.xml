@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>cardconnect_name</key>
+		<value><![CDATA[CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_note</key>
+		<value><![CDATA[Za pridobitev poverilnic API obiščite https://cardconnect.com/signup/developer]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_merchant_id</key>
+		<value><![CDATA[ID trgovca]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_username</key>
+		<value><![CDATA[API uporabniško ime]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_password</key>
+		<value><![CDATA[Geslo za API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_logging</key>
+		<value><![CDATA[Beleženje:<br /><span class="help">Datoteka dnevnika se nahaja v system/logs/cardconnect.txt</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test</key>
+		<value><![CDATA[Preizkus]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_connection</key>
+		<value><![CDATA[Preizkusi povezavo]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_get_test_api_credentials</key>
+		<value><![CDATA[Pridobite testne poverilnice za API]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_test_mode</key>
+		<value><![CDATA[Testni način]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_site</key>
+		<value><![CDATA[Domain portion to API:<br /><span class="help">Ta vrednost se ne sme spreminjati, razen če cardConnent ne določi drugače.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_connection_success</key>
+		<value><![CDATA[Povezava je uspešna in API poverilnice so pravilno konfigurirane.]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id_0</key>
+		<value><![CDATA[Vse lokacije]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_location_id</key>
+		<value><![CDATA[Lokacija]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_refund</key>
+		<value><![CDATA[Vrnjeno:<br /><span class="help">Stanje naročila, ki ga želite nastaviti, če je plačilo povrnjeno v admin/order]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_decline</key>
+		<value><![CDATA[Zavrnitev:<br /><span class="help">Stanje naročila, ki ga želite zabeležiti v zgodovini kot odziv na stanje procesorja plačil. Glavno stanje naročila ni prizadeto. Naročilo ne bo oddano, dokler plačilo ni uspešno.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_unsettled</key>
+		<value><![CDATA[Uspešno in ne poravnano:<br /><span class="help">Izberite glavni status naročila, ki ga želite nastaviti glede na status plačilnega procesorja</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_success_settled</key>
+		<value><![CDATA[Uspešno in poravnano:<br /><span class="help">Izberite glavni status naročila, ki ga želite nastaviti kot odziv na status procesorja plačil</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_status_void</key>
+		<value><![CDATA[Preklicano:<br /><span class="help">Status naročila, ki ga želite nastaviti, če je plačilo preklicano v admin/order.</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_payment</key>
+		<value><![CDATA[Samodejno (odobri in poravnaj)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement_auth</key>
+		<value><![CDATA[Zakasnjeno (samo odobritev)]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_settlement</key>
+		<value><![CDATA[Settlement type:<br /><span class="help">Če je nastavljeno na "auto", bo transakcija vključena v današnjo poravnavo. Če je nastavljeno na 'delayed', bo transakcija odobrena, vendar ne poravnana(zajeta). Transakcije morate ročno zajeti v roku 7 dni od odobritve</span>]]></value>
+	</definition>
+	<definition>
+		<key>cardconnect_save_cards_limit</key>
+		<value><![CDATA[Največ shranjenih kreditnih kartic: <br/><span class="help">Določite največje število kreditnih kartic, ki jih lahko stranke shranijo (do 100). Če je vrednost 0 ali je polje prazno, shranjevanje kartic ne bo dovoljeno. Varnostno obvestilo: Podatki o kreditnih karticah strank so shranjeni na varnih strežnikih CardConnect, da se zagotovi najvišja raven varnosti podatkov. Podatki o kreditnih karticah ne bodo shranjeni na vaši spletni strani.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_column_date_added</key>
+		<value><![CDATA[Datum transakcije]]></value>
+	</definition>
+	<definition>
+		<key>text_column_amount</key>
+		<value><![CDATA[Znesek]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_ok</key>
+		<value><![CDATA[Sredstva so bila uspešno zaračunana.]]></value>
+	</definition>
+	<definition>
+		<key>text_captured_order</key>
+		<value><![CDATA[Zajem je bil uspešen, stanje naročila posodobljeno na uspešno - poravnano]]></value>
+	</definition>
+	<definition>
+		<key>text_refunded_ok</key>
+		<value><![CDATA[Povračilo je bilo uspešno obdelano]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_order</key>
+		<value><![CDATA[Povračilo je bilo uspešno, status naročila je posodobljen na povrnjen.]]></value>
+	</definition>
+	<definition>
+		<key>text_voided</key>
+		<value><![CDATA[Preklic je bil uspešen, status naročila je posodobljen na preklicano.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment_info</key>
+		<value><![CDATA[Podrobnosti plačila]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Plačilo potrjeno]]></value>
+	</definition>
+	<definition>
+		<key>text_void_status</key>
+		<value><![CDATA[Plačilo preklicano]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_status</key>
+		<value><![CDATA[Plačilo je bilo povrnjeno]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_amount</key>
+		<value><![CDATA[Znesek zajema]]></value>
+	</definition>
+	<definition>
+		<key>text_refund_amount</key>
+		<value><![CDATA[Znesek vračila]]></value>
+	</definition>
+	<definition>
+		<key>text_order_ref</key>
+		<value><![CDATA[ID zaračuna CardConnect]]></value>
+	</definition>
+	<definition>
+		<key>text_authorized_ammount</key>
+		<value><![CDATA[Skupni odobreni znesek]]></value>
+	</definition>
+	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Znesek stanja]]></value>
+	</definition>
+	<definition>
+		<key>text_transactions</key>
+		<value><![CDATA[Vračila transakcij]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_void</key>
+		<value><![CDATA[Prosimo, potrdite, da želite preklicati plačilo?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_capture</key>
+		<value><![CDATA[Prosimo, potrdite, da želite bremeniti plačilo?]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_refund</key>
+		<value><![CDATA[Prosimo, potrdite, da želite povrniti plačilo?]]></value>
+	</definition>
+	<definition>
+		<key>button_refund</key>
+		<value><![CDATA[Povračilo]]></value>
+	</definition>
+	<definition>
+		<key>button_void</key>
+		<value><![CDATA[Razveljavi]]></value>
+	</definition>
+	<definition>
+		<key>button_capture</key>
+		<value><![CDATA[Zajem]]></value>
+	</definition>
+	<definition>
+		<key>error_system</key>
+		<value><![CDATA[Notranja napaka. Preverite dnevnik napak ali vhodne parametre!]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Prosimo, vnesite pozitiven znesek.]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_void</key>
+		<value><![CDATA[Ni mogoče razveljaviti transakcije, osvežite in preverite podrobnosti transakcije]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_capture</key>
+		<value><![CDATA[Ni mogoče izvesti bremenitve, osvežite podrobnosti transakcije in preverite znesek bremenitve]]></value>
+	</definition>
+	<definition>
+		<key>error_unable_to_refund</key>
+		<value><![CDATA[Vračila ni mogoče izvesti, osvežite podrobnosti transakcije in preverite znesek vračila]]></value>
+	</definition>
+	<definition>
+		<key>text_settlement_status</key>
+		<value><![CDATA[Trenutni status poravnave]]></value>
+	</definition>
+</definitions>

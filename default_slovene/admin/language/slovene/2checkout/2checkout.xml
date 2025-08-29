@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Plačilo]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Uspeh: Spremenili ste podrobnosti 2Checkout računa!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[S to razširitvijo lahko uporabljate plačilni sistem 2Checkout za sprejemanje plačil od vaših strank.<br>
+<b>Prijavite se brezplačno že danes! Uporabite promocijsko kodo ABANTECART2CO za oprostitev plačila prijavne storitvene provizije (prihranek 10,99 $) in začnite prodajati na spletu že danes!</b> Obiščite <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, izpolnite prijavo in nato vnesite kodo v polje za promocijsko kodo, da izkoristite to posebno ponudbo že danes!<br>
+Ko se registrirate, se prijavite, da pridobite poverilnice računa za konfiguracijo te razširitve.<br>
+Ne pozabite nastaviti INS URL in preusmeritveni URL tukaj <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.<br><br>
+Vaš INS URL je <h4>#storefront#rt=extension/2checkout/callback</h4><br><br>
+Prav tako nastavite preusmeritveni URL in izberite metodo vračanja "Header redirect".<br><br>
+Vaš preusmeritveni URL je <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[Koda trgovca 2Checkout:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[Tajni ključ:<br /><span class="help">Tajna beseda za potrditev transakcij (mora biti enaka kot je določena na strani za konfiguracijo trgovskega računa.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Testni način:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Da]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Ne]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Status naročila:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Lokacija:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Vse lokacije]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Opozorilo: Nimate dovoljenja za urejanje plačila 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Potrebna je koda trgovca!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Potreben je skrivni ključ!]]></value>
+	</definition>
+</definitions>

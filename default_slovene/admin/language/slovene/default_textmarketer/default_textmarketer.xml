@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_textmarketer_name</key>
+		<value><![CDATA[TextMarketer]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_note</key>
+		<value><![CDATA[Za omogočanje SMS-sporočanja pojdite v Sistem -> Nastavitve -> <a href="#admin#rt=setting/setting/im" target="_im">IM</a><br/>
+in izberite TextMarketer kot privzetega SMS-voznika. Ne pozabite omogočiti razdelka, od koder želite prejemati SMS (admin ali storefront).<br/>
+Ta razširitev bo omogočila polje Mobilni telefon, ki ga morajo izpolniti skrbniki in kupci. Upoštevajte, da bo ob onemogočitvi te razširitve to polje skrito. Če je razširitev dodana v obstoječo trgovino s kupci, imejte v mislih, da bodo ti podatki manjkali.]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_username</key>
+		<value><![CDATA[API uporabniško ime]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_password</key>
+		<value><![CDATA[API geslo]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_originator</key>
+		<value><![CDATA[Originator: <span class="help">Od koga je sporočilo (izvornega pošiljatelja oziroma ID pošiljatelja). To je lahko 11 alfanumeričnih znakov ali 16 znakov, ki vsebujejo samo številke.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test</key>
+		<value><![CDATA[Preizkusni način]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_0</key>
+		<value><![CDATA[Ne]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_1</key>
+		<value><![CDATA[Da]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_logging</key>
+		<value><![CDATA[Status beleženja napak<span class="help">Če želite beležiti vse napake razširitve TextMarketer, vklopite to nastavitev.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms</key>
+		<value><![CDATA[Mobilni telefon]]></value>
+	</definition>
+	<definition>
+		<key>default_textmarketer_test_connection</key>
+		<value><![CDATA[Preizkusite svojo povezavo:<span class="help">Lahko preverite, ali so API poverilnice, ki ste jih vnesli, pravilne.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Preizkus]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Napaka! Prosimo, preverite, ali je razširitev vklopljena.]]></value>
+	</definition>
+	<definition>
+		<key>error_empty_test_phone_number</key>
+		<value><![CDATA[Napaka! Prosimo, vnesite telefonsko številko prejemnika.]]></value>
+	</definition>
+	<definition>
+		<key>text_see_log</key>
+		<value><![CDATA[Oglejte si dnevnik napak za podrobnosti.]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Povezava je uspešna in API poverilnice so pravilno konfigurirane.]]></value>
+	</definition>
+</definitions>
