@@ -28,4 +28,5 @@ return array (
   25 => 'EPS',
   26 => 'FPX',
   27 => 'UPS',
+  28 => '{start} - {end} of {total}',
 );

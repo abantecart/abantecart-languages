@@ -304,4 +304,16 @@
 		<key>paypal_commerce_webhook_howto_text</key>
 		<value><![CDATA[Opomba: Za dokončanje nastavitve morate na strani vašega računa PayPal ustvariti spletne klice (webhooks).<br> Pojdite v vaš <a href="https://dashboard.paypal.com/webhooks" target="_new">razvojni odsek nadzorne plošče PayPal</a> in dodajte končne točke (Endpoints) za prejemanje dogodkov iz vašega računa. Ko je končna točka ustvarjena, kopirajte Signing Secret in ga shranite v nastavitvah razširitve PayPal Subscription Extension.]]></value>
 	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Omogočene komponente:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[PayPal gumbi]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Polja kartice]]></value>
+	</definition>
 </definitions>

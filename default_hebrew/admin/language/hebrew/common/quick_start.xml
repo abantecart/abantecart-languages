@@ -6,44 +6,44 @@
 	</definition>
 	<definition>
 		<key>text_quick_start_note</key>
-		<value><![CDATA[ברוכים הבאים לממשק הניהול של AbanteCart.<br />
+		<value><![CDATA[ברוכים הבאים ללוח הניהול של AbanteCart.<br />
 זהו אשף שיעזור לך להגדיר במהירות את עגלת הקניות שלך עם ההגדרות הנפוצות ביותר.<br />]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_general</key>
-		<value><![CDATA[להלן ההגדרות הכלליות הנפוצות ביותר.
+		<value><![CDATA[להלן ההגדרות הכלליות הנפוצות ביותר.	
 הגדרות נוספות זמינות <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_details</key>
-		<value><![CDATA[להלן ההגדרות הנפוצות ביותר בחנות שלך.	
+		<value><![CDATA[להלן ההגדרות הנפוצות ביותר עבור החנות שלך.	
 הגדרות נוספות זמינות <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_checkout</key>
-		<value><![CDATA[להלן ההגדרות הנפוצות ביותר לתהליך התשלום.	
+		<value><![CDATA[להלן ההגדרות הנפוצות ביותר בתהליך הקופה.
 הגדרות נוספות זמינות <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_appearance</key>
-		<value><![CDATA[להלן ההגדרות הנפוצות ביותר למראה החנות.	
-עוד הגדרות זמינות <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[להלן ההגדרות הנפוצות ביותר למראה חזית החנות.	
+יש הגדרות נוספות זמינות <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_mail</key>
-		<value><![CDATA[להלן ההגדרות הנפוצות ביותר להפעלת הדואר האלקטרוני.	
-אם אתה משתמש בשרת דואר אלקטרוני חיצוני (google, וכו') כדי לשלוח אימיילים, עליך להשתמש באפשרות SMTP.	
-כדי שהאימיילים יישלחו מהשרת הזה, השתמש באפשרות Mail.	
+		<value><![CDATA[להלן ההגדרות הנפוצות ביותר להפעלת שליחת דואר אלקטרוני.	
+אם אתה משתמש בשרת דואר חיצוני (google, וכו') כדי לשלוח דואר, עליך להשתמש באפשרות SMTP.	
+כדי שהדואר יישלח מהשרת הזה, השתמש באפשרות Mail.	
 הגדרות נוספות זמינות <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last</key>
-		<value><![CDATA[להלן ביכולתך לבחור את שיטות התשלום והמשלוח הרצויות, שפות נוספות ועוד תכונות רבות להרחבת הפונקציונליות של מסחר אלקטרוני שלך.	
-זכרו לבדוק מבחר תוספים ב-<a href="#admin#rt=extension/extensions_store" target="_extension">שוק AbanteCart</a> המוצעים על-ידי קהילת מפתחים מקצועיים.]]></value>
+		<value><![CDATA[להלן ניתן לבחור שיטות תשלום ומשלוח רצויות, שפות נוספות ועוד תכונות רבות להרחבת פונקציונליות המסחר האלקטרוני שלך.	
+זכור לבדוק מבחר תוספים ב־<a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart marketplace</a> המוצעים על ידי קהילת מפתחים מקצועיים.]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last_footer</key>
-		<value><![CDATA[סיימת את אשף ההתחלה המהירה.<br /><br />תוכל למצוא את כל ההגדרות <a href="%s">בקישור הזה <i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[סיימת את אשף ההתחלה המהירה. <br /><br /> אתה יכול לאתר את כל ההגדרות ב<a href="%s">קישור זה <i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>payments_selection</key>
@@ -53,19 +53,19 @@
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=stripe" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/stripe/image/icon.png"><br>Stripe</a>
+				<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br><p class="mt10">Stripe</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=cardknox" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/cardknox/image/icon.png"><br>CardKnox</a>
+				<a href="#admin#rt=extension/extensions/install&extension=sola" target="_extension">
+				<img style="height: 94px;" src="extensions/sola/image/icon.webp"><br><p class="mt10">Sola</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=paypal_commerce" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br>Paypal Commerce</a>
+				<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br><p class="mt10">Paypal Commerce</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/payment" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>עוד שיטות תשלום</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/payment" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">תשלומים נוספים</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -77,19 +77,19 @@
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_free_shipping" target="_extension">
-				<img src="extensions/default_free_shipping/image/icon.png"><br>משלוח חינם</a>
+				<img style="height: 94px;" src="extensions/default_free_shipping/image/icon.png"><br><p class="mt10">משלוח חינם</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_fedex" target="_extension">
-				<img src="extensions/default_fedex/image/icon.png"><br>Fedex</a>
+				<img style="height: 94px;" src="extensions/default_fedex/image/icon.png"><br><p class="mt10">Fedex</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_local_delivery" target="_extension">
-				<img src="extensions/default_local_delivery/image/icon.png"><br>משלוח מקומי</a>
+				<img style="height: 94px;" src="extensions/default_local_delivery/image/icon.png"><br><p class="mt10">משלוח מקומי</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/shipping" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>משלוחים נוספים</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/shipping" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">משלוחים נוספים</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -99,33 +99,20 @@
 		<i class="fa fa-language fa-fw"></i> בחר שפות נוספות.
 </div>
 <div class="row">
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_italian" target="_extension">
-				<img src="extensions/default_italian/image/icon.png"><br>איטלקית</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_spanish" target="_extension">
-				<img src="extensions/default_spanish/image/icon.png"><br>ספרדית</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_russian" target="_extension">
-				<img src="extensions/default_russian/image/icon.png"><br>רוסית</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions_store&category_id=67&sidx=date_modified" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>עוד שפות</a>
+		<div class="col-sm-12 h5 center">
+				%s
 		</div>
 </div>]]></value>
 	</definition>
 	<definition>
 		<key>more_extensions</key>
 		<value><![CDATA[<div class="info alert alert-info">
-		<i class="fa fa-puzzle-piece fa-fw"></i> עוד תוספים בשוק של AbanteCart.
+		<i class="fa fa-puzzle-piece fa-fw"></i> עוד הרחבות בשוק של AbanteCart.
 </div>
 <div class="row center">
 		<div class="btn-group center">
 				<a class="btn btn-primary" href="#admin#rt=extension/extensions_store" target="_extension">
-						<i class="fa fa-cloud-download fa-fw"></i> שוק התוספים
+						<i class="fa fa-cloud-download fa-fw"></i> שוק ההרחבות
 				</a>
 		</div>
 </div>]]></value>

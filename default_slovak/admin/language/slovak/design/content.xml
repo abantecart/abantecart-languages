@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Správca obsahu]]></value>
+	</definition>
+	<definition>
+		<key>insert_title</key>
+		<value><![CDATA[Pridať nový obsah]]></value>
+	</definition>
+	<definition>
+		<key>update_title</key>
+		<value><![CDATA[Aktualizovať obsah]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Úspech: Upravili ste obsah!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_layout</key>
+		<value><![CDATA[Úspech: Upravili ste rozloženie obsahovej stránky.]]></value>
+	</definition>
+	<definition>
+		<key>text_hidden</key>
+		<value><![CDATA[Skryté]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[Predvolené]]></value>
+	</definition>
+	<definition>
+		<key>column_title</key>
+		<value><![CDATA[Názov obsahu]]></value>
+	</definition>
+	<definition>
+		<key>column_parent</key>
+		<value><![CDATA[Rodičovský obsah]]></value>
+	</definition>
+	<definition>
+		<key>entry_parent</key>
+		<value><![CDATA[Rodičovská obsahová stránka]]></value>
+	</definition>
+	<definition>
+		<key>column_sort_order</key>
+		<value><![CDATA[Poradie zoradenia]]></value>
+	</definition>
+	<definition>
+		<key>column_status</key>
+		<value><![CDATA[Stav]]></value>
+	</definition>
+	<definition>
+		<key>column_publish_date</key>
+		<value><![CDATA[Dátum zverejnenia]]></value>
+	</definition>
+	<definition>
+		<key>column_action</key>
+		<value><![CDATA[Akcia]]></value>
+	</definition>
+	<definition>
+		<key>entry_title</key>
+		<value><![CDATA[Názov obsahu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[Popis:<br /><span class="help">Nepoužívajte HTML značky v popise obsahu! To závisí od šablóny vášho obchodu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_content</key>
+		<value><![CDATA[Obsah:]]></value>
+	</definition>
+	<definition>
+		<key>entry_store</key>
+		<value><![CDATA[Obchody:]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Stav:]]></value>
+	</definition>
+	<definition>
+		<key>entry_keyword</key>
+		<value><![CDATA[SEO kľúčové slovo:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Poradie zoradenia:]]></value>
+	</definition>
+	<definition>
+		<key>entry_publish_date</key>
+		<value><![CDATA[Dátum zverejnenia:]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_date</key>
+		<value><![CDATA[Dátum vypršania platnosti:]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_bar</key>
+		<value><![CDATA[Lišta s podrobnosťami o obsahu:<br /><span class="help">Povoľte toto nastavenie, aby sa na stránke obsahu zobrazila lišta s autorom a dátumom zverejnenia</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Hlavný obrázok alebo ikona:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tags</key>
+		<value><![CDATA[Značky obsahu:<br /><span class="help">zoznam oddelený čiarkami</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_author</key>
+		<value><![CDATA[Autor:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Upozornenie: Nemáte povolenie upravovať obsah!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[Názov obsahu musí mať medzi 2 a 255 znakmi!]]></value>
+	</definition>
+	<definition>
+		<key>error_title_html</key>
+		<value><![CDATA[Názov obsahu nesmie obsahovať HTML značky!]]></value>
+	</definition>
+	<definition>
+		<key>error_description</key>
+		<value><![CDATA[Popis musí mať viac ako 1 znak!]]></value>
+	</definition>
+	<definition>
+		<key>error_description_html</key>
+		<value><![CDATA[HTML značky v popise obsahu nie sú podporované!]]></value>
+	</definition>
+	<definition>
+		<key>error_content</key>
+		<value><![CDATA[Obsah musí mať viac ako 1 znak!]]></value>
+	</definition>
+	<definition>
+		<key>error_seo_url</key>
+		<value><![CDATA[SEO URL musí mať viac než 1 znak!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Varovanie: Tento obsah nie je možné odstrániť, pretože je v súčasnosti nastavený ako predvolené zmluvné podmienky účtu obchodu!]]></value>
+	</definition>
+	<definition>
+		<key>error_checkout</key>
+		<value><![CDATA[Upozornenie: Tento obsah nemožno vymazať, pretože je v súčasnosti priradený ako predvolené podmienky pri pokladni obchodu!]]></value>
+	</definition>
+	<definition>
+		<key>error_delete_parent</key>
+		<value><![CDATA[Upozornenie: Nadradený obsah nie je možné odstrániť! Najprv presuňte alebo odstráňte podriadené obsahové stránky.]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Povinné údaje neboli zadané. Skontrolujte chyby polí!]]></value>
+	</definition>
+	<definition>
+		<key>text_top_level</key>
+		<value><![CDATA[Najvyššia úroveň]]></value>
+	</definition>
+	<definition>
+		<key>text_any</key>
+		<value><![CDATA[akýkoľvek]]></value>
+	</definition>
+	<definition>
+		<key>tab_form</key>
+		<value><![CDATA[Upraviť]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[Popis meta značky:]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[Kľúčové slová meta tagu:]]></value>
+	</definition>
+	<definition>
+		<key>text_clone</key>
+		<value><![CDATA[Klón]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy</key>
+		<value><![CDATA[Úspech: Úspešne ste skopírovali obsahovú stránku <b>%s</b>!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[Poznámka: Rozloženie stránky s obsahom bolo tiež klonované.]]></value>
+	</definition>
+	<definition>
+		<key>text_error_copy</key>
+		<value><![CDATA[Klonovanie zlyhalo! Pôvodná stránka obsahu nie je k dispozícii]]></value>
+	</definition>
+</definitions>

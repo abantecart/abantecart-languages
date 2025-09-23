@@ -305,4 +305,16 @@
 		<value><![CDATA[Megjegyzés: a beállítás befejezéséhez létre kell hoznia webhookokat a Paypal-fiók oldalán.
 <br> Lépjen az Ön <a href="https://dashboard.paypal.com/webhooks" target="_new">Paypal irányítópult fejlesztői szekciójába</a>, és vegyen fel végpontokat, amelyek fogadják a fiókjához érkező eseményeket. Miután a végpont elkészült, másolja ki az aláírási titkot, és mentse el a Paypal előfizetés bővítmény beállításaihoz.]]></value>
 	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Engedélyezett komponensek:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[PayPal gombok]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Kártyamezők]]></value>
+	</definition>
 </definitions>

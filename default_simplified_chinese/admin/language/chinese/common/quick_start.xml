@@ -6,39 +6,42 @@
 	</definition>
 	<definition>
 		<key>text_quick_start_note</key>
-		<value><![CDATA[欢迎来到 AbanteCart 管理界面。此向导将帮助您使用最常见的设置快速配置您的购物车。]]></value>
+		<value><![CDATA[欢迎来到 AbanteCart 管理后台。<br />
+这是一个向导，可帮助您快速使用最常用的设置来配置您的购物车。<br />]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_general</key>
-		<value><![CDATA[以下是最常见的一般设置。	
-更多设置可通过 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a> 获取。]]></value>
+		<value><![CDATA[下面是最常见的一般设置。	
+更多设置可用 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_details</key>
-		<value><![CDATA[以下是有关您的商店的最常用设置。更多设置可在 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a> 查看。]]></value>
+		<value><![CDATA[下面是您店铺最常用的设置。	
+更多设置可用 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_checkout</key>
 		<value><![CDATA[以下是结账流程中最常见的设置。	
-更多设置可在 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a> 查看。]]></value>
+更多设置可用 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_appearance</key>
-		<value><![CDATA[以下是最常见的店面外观设置。	
-更多设置可在 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a> 查看。]]></value>
+		<value><![CDATA[以下是店面外观的最常见设置。	
+更多设置可用 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_mail</key>
-		<value><![CDATA[以下是启用电子邮件的最常用设置。如果您使用外部电子邮件服务器（例如谷歌等）发送电子邮件，则需要使用 SMTP 选项。如果要从此服务器发送电子邮件，请使用 Mail 选项。更多设置可用 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[以下是启用电子邮件的最常见设置。如果您使用外部电子邮件服务器（如 Google 等）发送电子邮件，则需要使用 SMTP 选项。如果希望从此服务器发送电子邮件，请使用 Mail 选项。	
+更多设置请见 <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last</key>
-		<value><![CDATA[在下面，您可以选择所需的支付方式、配送方式、附加语言以及许多其他功能，以扩展您的电子商务功能。	
-请记得在<a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart 市场</a>查看由专业开发者社区提供的精选扩展。]]></value>
+		<value><![CDATA[在下面您可以选择所需的付款和配送方式、其他语言以及许多其他功能，以扩展您的电子商务功能。	
+请记得在 <a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart 市场</a> 查看由专业开发者社区提供的精选扩展。]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last_footer</key>
-		<value><![CDATA[您已完成快速入门向导。<br /><br />您可以通过<a href="%s">此链接 <i class="fa fa-link fa-fw"></i></a>找到所有设置]]></value>
+		<value><![CDATA[您已完成快速入门向导。<br /><br />您可以通过<a href="%s">此链接 <i class="fa fa-link fa-fw"></i></a>定位所有设置。]]></value>
 	</definition>
 	<definition>
 		<key>payments_selection</key>
@@ -48,19 +51,19 @@
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=stripe" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/stripe/image/icon.png"><br>Stripe</a>
+				<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br><p class="mt10">Stripe</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=cardknox" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/cardknox/image/icon.png"><br>CardKnox</a>
+				<a href="#admin#rt=extension/extensions/install&extension=sola" target="_extension">
+				<img style="height: 94px;" src="extensions/sola/image/icon.webp"><br><p class="mt10">Sola</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=paypal_commerce" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br>Paypal Commerce</a>
+				<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br><p class="mt10">Paypal Commerce</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/payment" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>更多支付方式</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/payment" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">更多支付方式</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -72,19 +75,19 @@
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_free_shipping" target="_extension">
-				<img src="extensions/default_free_shipping/image/icon.png"><br>免费配送</a>
+				<img style="height: 94px;" src="extensions/default_free_shipping/image/icon.png"><br><p class="mt10">免运费</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_fedex" target="_extension">
-				<img src="extensions/default_fedex/image/icon.png"><br>联邦快递</a>
+				<img style="height: 94px;" src="extensions/default_fedex/image/icon.png"><br><p class="mt10">联邦快递</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_local_delivery" target="_extension">
-				<img src="extensions/default_local_delivery/image/icon.png"><br>本地配送</a>
+				<img style="height: 94px;" src="extensions/default_local_delivery/image/icon.png"><br><p class="mt10">本地配送</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/shipping" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>更多配送方式</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/shipping" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">更多配送方式</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -94,28 +97,15 @@
 		<i class="fa fa-language fa-fw"></i> 选择附加语言。
 </div>
 <div class="row">
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_italian" target="_extension">
-				<img src="extensions/default_italian/image/icon.png"><br>意大利语</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_spanish" target="_extension">
-				<img src="extensions/default_spanish/image/icon.png"><br>西班牙语</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_russian" target="_extension">
-				<img src="extensions/default_russian/image/icon.png"><br>俄语</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions_store&category_id=67&sidx=date_modified" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>更多语言</a>
+		<div class="col-sm-12 h5 center">
+				%s
 		</div>
 </div>]]></value>
 	</definition>
 	<definition>
 		<key>more_extensions</key>
 		<value><![CDATA[<div class="info alert alert-info">
-		<i class="fa fa-puzzle-piece fa-fw"></i> 在 AbanteCart 市场上获取更多扩展。
+		<i class="fa fa-puzzle-piece fa-fw"></i> 在 AbanteCart 市场上查看更多扩展。
 </div>
 <div class="row center">
 		<div class="btn-group center">

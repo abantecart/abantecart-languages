@@ -133,10 +133,6 @@
 		<value><![CDATA[Rejilla Altura de la imagen:]]></value>
 	</definition>
 	<definition>
-		<key>entry_mail_parameter</key>
-		<value><![CDATA[Parámetros de correo:<span class="help">Cuando se utiliza 'Correo', los parámetros adicionales de correo se puede añadir aquí (por ejemplo "-femail@storeaddress.com".]]></value>
-	</definition>
-	<definition>
 		<key>entry_cache_enable</key>
 		<value><![CDATA[Caché habilitado:<br /><span class="help">Tenga cuidado al deshabilitar el almacenamiento en caché. Las páginas en caché no se vuelven a crear al menos hasta el presente ha transcurrido mucho tiempo. </span>]]></value>
 	</definition>
@@ -223,10 +219,6 @@
 	<definition>
 		<key>entry_admin_template</key>
 		<value><![CDATA[Panel de Control de Plantilla:]]></value>
-	</definition>
-	<definition>
-		<key>entry_review</key>
-		<value><![CDATA[Permitir Comentarios:<br /><span class="help">Activar / desactivar la entrada un nuevo comentario y la visualización de las revisiones existentes</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_maintenance</key>
@@ -461,16 +453,8 @@
 		<value><![CDATA[Sin Auto de archivo Desactivar:<br /><span class="help">Desactivar su producto para la vista si las acciones se reduce a 0. La notificación se enviará</span>]]></value>
 	</definition>
 	<definition>
-		<key>entry_stock_check</key>
-		<value><![CDATA[Mostrar Agotado:<br /><span class="help">Mostrar un mensaje en la pagina del carrito de la compra, si un producto esta agotado.</span>]]></value>
-	</definition>
-	<definition>
 		<key>entry_stock_checkout</key>
 		<value><![CDATA[Compras sin stock:<br /><span class="help">Permitir a los clientes pagar si los productos que estan pidiendo estan agotados.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_stock_subtract</key>
-		<value><![CDATA[Predeterminado Stock Checkout:<br /><span class="help">Establecer configuración predeterminada Stock Checkout para nuevos productos.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_status</key>
@@ -523,10 +507,6 @@
 	<definition>
 		<key>entry_download_status</key>
 		<value><![CDATA[Estado pedido Descargas:<br /><span class="help">Establecer el estado del pedido para los clientes antes de efectuar la descarga.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_protocol</key>
-		<value><![CDATA[Correo Protocolo:<span class="help">Correo: servidor servidor de correo por defecto se utilizará. Asegúrese de que está configurado y podrá enviar un correo electrónico con el correo de PHP.]]></value>
 	</definition>
 	<definition>
 		<key>entry_smtp_host</key>
@@ -1083,5 +1063,9 @@ imagen</span>]]></value>
 	<definition>
 		<key>entry_content_limit</key>
 		<value><![CDATA[Número de elementos en bloques de contenido ]]></value>
+	</definition>
+	<definition>
+		<key>entry_unauth_customer</key>
+		<value><![CDATA[Permitir a los clientes que regresan navegar:<br /><span class="help">Los clientes no autenticados que regresan al sitio podrán navegar por los productos, añadir al carrito y a la lista de deseos.</span>]]></value>
 	</definition>
 </definitions>

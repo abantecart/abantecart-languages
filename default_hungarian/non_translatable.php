@@ -75,4 +75,5 @@ return array (
   72 => 'UPS Saver',
   73 => 'UPS 3 Day Select',
   74 => 'UPS Today Express Saver',
+  75 => 'ltr',
 );

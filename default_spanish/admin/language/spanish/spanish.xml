@@ -10,15 +10,19 @@
 	</definition>
 	<definition>
 		<key>date_format_short</key>
-		<value><![CDATA[d/m/Y]]></value>
+		<value><![CDATA[d.m.Y]]></value>
 	</definition>
 	<definition>
 		<key>date_format_long</key>
-		<value><![CDATA[l dS F Y]]></value>
+		<value><![CDATA[l, j F Y]]></value>
 	</definition>
 	<definition>
 		<key>time_format</key>
-		<value><![CDATA[h:i:s A]]></value>
+		<value><![CDATA[h:i:s]]></value>
+	</definition>
+	<definition>
+		<key>time_format_short</key>
+		<value><![CDATA[H:i]]></value>
 	</definition>
 	<definition>
 		<key>decimal_point</key>
@@ -91,10 +95,6 @@
 	<definition>
 		<key>text_no_results</key>
 		<value><![CDATA[Sin resultados!]]></value>
-	</definition>
-	<definition>
-		<key>text_separator</key>
-		<value><![CDATA[ &gt; ]]></value>
 	</definition>
 	<definition>
 		<key>text_edit</key>
@@ -211,10 +211,6 @@
 	<definition>
 		<key>button_add_image</key>
 		<value><![CDATA[Añadir imagen]]></value>
-	</definition>
-	<definition>
-		<key>button_add_location</key>
-		<value><![CDATA[Añadir zona de ubicación]]></value>
 	</definition>
 	<definition>
 		<key>button_add_rate</key>
@@ -517,10 +513,6 @@
 		<value><![CDATA[ Crear nuevo bloque de ]]></value>
 	</definition>
 	<definition>
-		<key>additional_settings_confirm</key>
-		<value><![CDATA[Para configurar los ajustes adicionales de la extensión de la otra tienda debes iniciar una sesión en el panel de control de otro nombre de dominio. Ok? ]]></value>
-	</definition>
-	<definition>
 		<key>button_unlink</key>
 		<value><![CDATA[Desconectar]]></value>
 	</definition>
@@ -799,5 +791,13 @@
 	<definition>
 		<key>text_select_brand</key>
 		<value><![CDATA[-Seleccionar marca-]]></value>
+	</definition>
+	<definition>
+		<key>text_separator</key>
+		<value><![CDATA[&gt;]]></value>
+	</definition>
+	<definition>
+		<key>text_advanced_settings</key>
+		<value><![CDATA[Avanzado]]></value>
 	</definition>
 </definitions>

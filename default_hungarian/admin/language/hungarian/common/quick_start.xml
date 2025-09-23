@@ -7,63 +7,64 @@
 	<definition>
 		<key>text_quick_start_note</key>
 		<value><![CDATA[Üdvözöljük az AbanteCart adminisztrációs felületén.<br />
-Ez egy varázsló, amely segít Önnek gyorsan beállítani az Ön vásárlókosarát a leggyakoribb beállításokkal.<br />]]></value>
+Ez egy varázsló, amely segít gyorsan beállítani webáruházát a leggyakoribb beállításokkal.
+<br />]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_general</key>
-		<value><![CDATA[Az alábbiakban a leggyakoribb általános beállítások találhatók. További beállítások érhetők el <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Az alábbiakban a leggyakoribb általános beállítások láthatók.	
+További beállítások érhetők el <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_details</key>
-		<value><![CDATA[Az alábbiakban az áruház leggyakoribb beállításai találhatók.	
+		<value><![CDATA[Az alábbiakban az áruházára vonatkozó leggyakoribb beállítások találhatók.	
 További beállítások érhetők el <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_checkout</key>
-		<value><![CDATA[Az alábbiakban a pénztári folyamat leggyakoribb beállításai találhatók.	
+		<value><![CDATA[Az alábbiakban a fizetési folyamat leggyakoribb beállításai láthatók.
 További beállítások érhetők el <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_appearance</key>
-		<value><![CDATA[Az alábbiakban a webáruház megjelenésének leggyakoribb beállításai találhatók.	
+		<value><![CDATA[Az alábbiak a webáruház megjelenésének leggyakoribb beállításai.	
 További beállítások érhetők el <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_mail</key>
-		<value><![CDATA[Az alábbiakban találhatók a leggyakoribb beállítások az e-mail engedélyezéséhez. Ha külső e-mail szervert (pl. Google stb.) használ az e-mailek küldéséhez, SMTP opciót kell használnia. Ha e-maileket erről a szerverről szeretné küldeni, használja a Mail opciót.	
+		<value><![CDATA[Az alábbiakban a leggyakoribb beállítások találhatók az e-mail engedélyezéséhez. Ha külső e-mail szervert (google stb.) használsz e-mailek küldéséhez, az SMTP opciót kell használnod. Ahhoz, hogy erről a szerverről küldj e-maileket, használd a Mail opciót.	
 További beállítások érhetők el <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last</key>
-		<value><![CDATA[Alább kiválaszthatja a kívánt fizetési és szállítási módokat, további nyelveket és még sok más funkciót e-kereskedelmi funkcionalitása bővítéséhez.	
-Ne feledje megtekinteni a profi fejlesztők közössége által az <a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart piactéren</a> kínált bővítményeket.]]></value>
+		<value><![CDATA[Az alábbiakban kiválaszthatja a kívánt fizetési és szállítási módokat, további nyelveket, valamint számos egyéb funkciót az Ön e-kereskedelmi funkcionalitásának bővítéséhez.
+Ne felejtse el megnézni a professzionális fejlesztők közössége által kínált kiegészítők választékát az <a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart piactéren</a>.]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last_footer</key>
-		<value><![CDATA[Te befejezted a gyorsindító varázslót. <br /><br />
-Minden beállítást megtalálsz <a href="%s">ezen a linken <i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Befejezte a gyors indító varázslót. <br /><br /> Minden beállítást megtalálhatja <a href="%s">ezen a linken <i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>payments_selection</key>
 		<value><![CDATA[<div class="info alert alert-info">
-		<i class="fa fa-money fa-fw"></i> Válassza ki a fizetési módjait.
+		<i class="fa fa-money fa-fw"></i> Válassza ki a fizetési módokat.
 </div>
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=stripe" target="_extension">
-				<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br>Stripe</a>
+				<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br><p class="mt10">Stripe</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=cardknox" target="_extension">
-				<img style="width: 94px; height: 94px;" src="extensions/cardknox/image/icon.png"><br>CardKnox</a>
+				<a href="#admin#rt=extension/extensions/install&extension=sola" target="_extension">
+				<img style="height: 94px;" src="extensions/sola/image/icon.webp"><br><p class="mt10">Sola</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=paypal_commerce" target="_extension">
-				<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br>Paypal Commerce</a>
+				<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br><p class="mt10">Paypal Commerce</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/payment" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>További fizetési módok</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/payment" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">További fizetési módok</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -75,19 +76,19 @@ Minden beállítást megtalálsz <a href="%s">ezen a linken <i class="fa fa-link
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_free_shipping" target="_extension">
-				<img src="extensions/default_free_shipping/image/icon.png"><br>Ingyenes szállítás</a>
+				<img style="height: 94px;" src="extensions/default_free_shipping/image/icon.png"><br><p class="mt10">Ingyenes szállítás</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_fedex" target="_extension">
-				<img src="extensions/default_fedex/image/icon.png"><br>Fedex</a>
+				<img style="height: 94px;" src="extensions/default_fedex/image/icon.png"><br><p class="mt10">Fedex</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_local_delivery" target="_extension">
-				<img src="extensions/default_local_delivery/image/icon.png"><br>Helyi kiszállítás</a>
+				<img style="height: 94px;" src="extensions/default_local_delivery/image/icon.png"><br><p class="mt10">Helyi kiszállítás</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/shipping" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>További szállítási módok</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/shipping" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">További szállítási módok</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -97,21 +98,8 @@ Minden beállítást megtalálsz <a href="%s">ezen a linken <i class="fa fa-link
 		<i class="fa fa-language fa-fw"></i> Válasszon további nyelveket.
 </div>
 <div class="row">
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_italian" target="_extension">
-				<img src="extensions/default_italian/image/icon.png"><br>Olasz</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_spanish" target="_extension">
-				<img src="extensions/default_spanish/image/icon.png"><br>Spanyol</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_russian" target="_extension">
-				<img src="extensions/default_russian/image/icon.png"><br>Orosz</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions_store&category_id=67&sidx=date_modified" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>További nyelvek</a>
+		<div class="col-sm-12 h5 center">
+				%s
 		</div>
 </div>]]></value>
 	</definition>

@@ -2,12 +2,13 @@
 <definitions>
 	<definition>
 		<key>text_quick_start</key>
-		<value><![CDATA[Čarovnik za hiter začetek]]></value>
+		<value><![CDATA[Čarovnik hitrega zagona]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_note</key>
-		<value><![CDATA[Dobrodošli v administraciji AbanteCart.<br />
-To je čarovnik, ki vam bo pomagal hitro nastaviti vašo nakupovalno košarico z najpogostejšimi nastavitvami.<br />]]></value>
+		<value><![CDATA[Dobrodošli v upravljanju AbanteCarta.<br />
+To je čarovnik, ki vam pomaga hitro nastaviti vaš nakupovalni voziček z najpogostejšimi nastavitvami.
+<br />]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_general</key>
@@ -16,54 +17,55 @@ Več nastavitev je na voljo <a href="%s" target="_new_admin"><i class="fa fa-lin
 	</definition>
 	<definition>
 		<key>text_quick_start_details</key>
-		<value><![CDATA[Spodaj so najpogostejše nastavitve vaše trgovine. Več nastavitev je na voljo <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Spodaj so najpogostejše nastavitve vaše trgovine.	
+Več nastavitev je na voljo <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_checkout</key>
-		<value><![CDATA[Spodaj so najpogostejše nastavitve za postopek zaključka nakupa.	
+		<value><![CDATA[Spodaj so najpogostejše nastavitve za postopek nakupa.	
 Več nastavitev je na voljo <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_appearance</key>
-		<value><![CDATA[Spodaj so najpogostejše nastavitve za izgled trgovine.	
+		<value><![CDATA[Spodaj so najpogostejše nastavitve videza trgovine.	
 Več nastavitev je na voljo <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_mail</key>
-		<value><![CDATA[Spodaj so najpogostejše nastavitve za omogočanje e-pošte. Če za pošiljanje e-pošte uporabljate zunanji strežnik za e-pošto (Google itd.), morate uporabiti opcijo SMTP. Za e-pošto, ki bo poslana iz tega strežnika, uporabite opcijo Mail.
+		<value><![CDATA[Spodaj so najpogostejše nastavitve za omogočanje e-pošte. Če uporabljate zunanji e-poštni strežnik (Google itd.) za pošiljanje e-pošte, morate uporabiti možnost SMTP. Če želite, da se e-pošta pošilja iz tega strežnika, uporabite možnost Mail.	
 Več nastavitev je na voljo <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last</key>
-		<value><![CDATA[Spodaj lahko izberete želene načine plačila in dostave, dodatne jezike ter številne druge funkcije za razširitev funkcionalnosti vaše e-trgovine.	
-Ne pozabite preveriti izbor razširitev na <a href="#admin#rt=extension/extensions_store" target="_extension">tržnici AbanteCart</a>, ki jo ponuja skupnost profesionalnih razvijalcev.]]></value>
+		<value><![CDATA[Spodaj lahko izberete želene načine plačila in dostave, dodatne jezike ter številne druge funkcije za razširitev funkcionalnosti vaše spletne trgovine.	
+Ne pozabite preveriti izbora razširitev na <a href="#admin#rt=extension/extensions_store" target="_extension">tržnici AbanteCart</a>, ki jih ponuja skupnost profesionalnih razvijalcev.]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last_footer</key>
-		<value><![CDATA[Dokončali ste čarovnika za hiter začetek. <br /><br /> 
-Vse nastavitve lahko najdete na <a href="%s">tej povezavi <i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Dokončali ste čarovnika hitrega zagona. <br /><br /> 
+Lahko najdete vse nastavitve na <a href="%s">tej povezavi <i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>payments_selection</key>
 		<value><![CDATA[<div class="info alert alert-info">
-		<i class="fa fa-money fa-fw"></i> Izberite načine plačila.
+		<i class="fa fa-money fa-fw"></i> Izberite vaše načine plačila.
 </div>
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=stripe" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/stripe/image/icon.png"><br>Stripe</a>
+				<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br><p class="mt10">Stripe</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=cardknox" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/cardknox/image/icon.png"><br>CardKnox</a>
+				<a href="#admin#rt=extension/extensions/install&extension=sola" target="_extension">
+				<img style="height: 94px;" src="extensions/sola/image/icon.webp"><br><p class="mt10">Sola</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=paypal_commerce" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br>Paypal Commerce</a>
+				<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br><p class="mt10">Paypal Commerce</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/payment" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Več načinov plačila</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/payment" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">Več načinov plačila</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -75,19 +77,19 @@ Vse nastavitve lahko najdete na <a href="%s">tej povezavi <i class="fa fa-link f
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_free_shipping" target="_extension">
-				<img src="extensions/default_free_shipping/image/icon.png"><br>Brezplačna dostava</a>
+				<img style="height: 94px;" src="extensions/default_free_shipping/image/icon.png"><br><p class="mt10">Brezplačna dostava</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_fedex" target="_extension">
-				<img src="extensions/default_fedex/image/icon.png"><br>Fedex</a>
+				<img style="height: 94px;" src="extensions/default_fedex/image/icon.png"><br><p class="mt10">Fedex</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_local_delivery" target="_extension">
-				<img src="extensions/default_local_delivery/image/icon.png"><br>Lokalna dostava</a>
+				<img style="height: 94px;" src="extensions/default_local_delivery/image/icon.png"><br><p class="mt10">Lokalna dostava</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/shipping" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Več načinov dostave</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/shipping" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">Več načinov dostave</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -97,21 +99,8 @@ Vse nastavitve lahko najdete na <a href="%s">tej povezavi <i class="fa fa-link f
 		<i class="fa fa-language fa-fw"></i> Izberite dodatne jezike.
 </div>
 <div class="row">
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_italian" target="_extension">
-				<img src="extensions/default_italian/image/icon.png"><br>Italijanščina</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_spanish" target="_extension">
-				<img src="extensions/default_spanish/image/icon.png"><br>Španščina</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_russian" target="_extension">
-				<img src="extensions/default_russian/image/icon.png"><br>Ruščina</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions_store&category_id=67&sidx=date_modified" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Več jezikov</a>
+		<div class="col-sm-12 h5 center">
+				%s
 		</div>
 </div>]]></value>
 	</definition>

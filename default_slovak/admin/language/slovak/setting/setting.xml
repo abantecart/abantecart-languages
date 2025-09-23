@@ -1,0 +1,1063 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>heading_title</key>
+		<value><![CDATA[Nastavenia]]></value>
+	</definition>
+	<definition>
+		<key>column_store_alias</key>
+		<value><![CDATA[Obchod]]></value>
+	</definition>
+	<definition>
+		<key>column_group</key>
+		<value><![CDATA[Skupina]]></value>
+	</definition>
+	<definition>
+		<key>column_key</key>
+		<value><![CDATA[Kľúč]]></value>
+	</definition>
+	<definition>
+		<key>column_value</key>
+		<value><![CDATA[Hodnota]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Úspech: Vaše nastavenia boli úspešne uložené!]]></value>
+	</definition>
+	<definition>
+		<key>text_image_manager</key>
+		<value><![CDATA[Správca obrázkov]]></value>
+	</definition>
+	<definition>
+		<key>text_select_group</key>
+		<value><![CDATA[- Vyberte skupinu -]]></value>
+	</definition>
+	<definition>
+		<key>text_default</key>
+		<value><![CDATA[Predvolené]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store_settings</key>
+		<value><![CDATA[Upraviť nastavenia:]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_template_settings</key>
+		<value><![CDATA[Upraviť nastavenia šablóny:]]></value>
+	</definition>
+	<definition>
+		<key>text_common_template_settings</key>
+		<value><![CDATA[Výber šablóny]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_store</key>
+		<value><![CDATA[Upraviť obchod]]></value>
+	</definition>
+	<definition>
+		<key>text_mail</key>
+		<value><![CDATA[Vnútorný mailer]]></value>
+	</definition>
+	<definition>
+		<key>text_smtp</key>
+		<value><![CDATA[SMTP]]></value>
+	</definition>
+	<definition>
+		<key>text_native</key>
+		<value><![CDATA[Natívne (binárny súbor sendmail a možnosti nastavenia "sendmail_path" v php.ini)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[Zobrať zo system/config.php]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[Mailer kombinuje <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> z konfiguračného súboru config.php. Pre podrobnosti si, prosím, prečítajte <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">našu dokumentáciu</a>.]]></value>
+	</definition>
+	<definition>
+		<key>tab_all</key>
+		<value><![CDATA[Všetky]]></value>
+	</definition>
+	<definition>
+		<key>entry_name</key>
+		<value><![CDATA[Názov obchodu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_url</key>
+		<value><![CDATA[URL obchodu:<br /><span class="help">Zadajte úplnú URL adresu vášho obchodu. Uistite sa, že na konci pridáte '/'. Príklad: http://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_owner</key>
+		<value><![CDATA[Majiteľ obchodu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address</key>
+		<value><![CDATA[Adresa:]]></value>
+	</definition>
+	<definition>
+		<key>entry_email</key>
+		<value><![CDATA[E-mail:]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_emails</key>
+		<value><![CDATA[Ďalšie upozorňovacie e-maily:<br /><span class="help">Ďalšie e-mailové adresy, na ktoré chcete dostávať upozornenia, okrem hlavného e-mailu obchodu. (oddeľované čiarkou)</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[Upozorňovacie e-maily musia byť platné a oddelené čiarkami!]]></value>
+	</definition>
+	<definition>
+		<key>entry_telephone</key>
+		<value><![CDATA[Telefón:]]></value>
+	</definition>
+	<definition>
+		<key>entry_fax</key>
+		<value><![CDATA[Fax:]]></value>
+	</definition>
+	<definition>
+		<key>entry_title</key>
+		<value><![CDATA[Názov:<br /><span class="help">Toto sa zobrazuje v titulku prehliadača obchodu</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_description</key>
+		<value><![CDATA[Popis meta značky:<br /><span class="help">Popis meta značky hlavnej stránky obchodu</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[Meta kľúčové slová:<br /><span class="help">Kľúčové slová meta tagu hlavnej stránky obchodu (oddelené čiarkou)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_description</key>
+		<value><![CDATA[Uvítacia správa:]]></value>
+	</definition>
+	<definition>
+		<key>entry_template</key>
+		<value><![CDATA[Template:<span class="help">Šablóna prednej časti obchodu. Môže to byť hlavná alebo doplnková šablóna</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_template</key>
+		<value><![CDATA[Šablóna ovládacieho panela:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[Krajina:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[Región / Štát:]]></value>
+	</definition>
+	<definition>
+		<key>entry_language</key>
+		<value><![CDATA[Jazyk predajne:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_language</key>
+		<value><![CDATA[Jazyk administrácie: <span class="help">POZNÁMKA: funguje, ak v prehliadači nie je nájdený preferovaný jazyk používateľa</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency</key>
+		<value><![CDATA[Základná mena:<span class="help">Toto je základná mena pre všetky obchody. Nezmeňte ju, ak nechápete, čo sa stane. Upozornenie: Zmena základnej meny nezmení vaše základné ceny produktov. Bude potrebné skontrolovať a podľa potreby upraviť všetky ceny. Kurz základnej meny bude nastavený na 1,00 a všetky ostatné kurzy mien budú upravené vzhľadom na novú základnú menu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_currency_auto</key>
+		<value><![CDATA[Automatická aktualizácia meny:<br /><span class="help">Nastavte svoj obchod tak, aby denne automaticky aktualizoval meny.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Hmotnostná trieda:]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Trieda dĺžky:]]></value>
+	</definition>
+	<definition>
+		<key>entry_auto_translate_status</key>
+		<value><![CDATA[Stav automatického prekladu:<br /><span class="help">Toto umožňuje preklad chýbajúcich definícií textu alebo jazykovo špecifických údajov, ak pre používaný jazyk chýbajú hodnoty textu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_src_lang_code</key>
+		<value><![CDATA[Zdrojový jazyk pre preklad:<br /><span class="help">Vyberte zdrojový jazyk, ktorý sa má použiť na automatický preklad.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_method</key>
+		<value><![CDATA[Metóda prekladu textu:<br /><span class="help">Vyberte metódu, ktorú chcete použiť na preklad. Predvolená metóda je priame skopírovanie textu zdrojového jazyka</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_override_existing</key>
+		<value><![CDATA[Prepísať, ak bol text v zdrojovom jazyku zmenený:<br /><span class="help">Ak je nastavené, text vo všetkých jazykoch sa nahradí novým prekladom, ak je zdrojový text upravený. POZNÁMKA: Môže to spôsobiť veľa prekladov.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_warn_lang_text_missing</key>
+		<value><![CDATA[Upozorni na chýbajúci text jazyka:<br /><span class="help">Zobraz varovnú správu, ak sa zistí chýbajúci text jazyka.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Zobraziť ceny s daňou:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store</key>
+		<value><![CDATA[Predvolená daňová sadzba obchodu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_0</key>
+		<value><![CDATA[Bez dane]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_store_1</key>
+		<value><![CDATA[Predvolená zóna obchodu]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer</key>
+		<value><![CDATA[Použiť daňovú adresu zákazníka:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_0</key>
+		<value><![CDATA[Dodacia adresa]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_customer_1</key>
+		<value><![CDATA[Fakturačná adresa]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice</key>
+		<value><![CDATA[Začiatočné číslo faktúry:<br /><span class="help">Nastavte počiatočné číslo, od ktorého budú faktúry začínať.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_invoice_prefix</key>
+		<value><![CDATA[Predpona faktúry:<br /><span class="help">Nastavte predponu faktúry, napr. IN/001</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_group</key>
+		<value><![CDATA[Skupina zákazníkov:<br /><span class="help">Predvolená skupina zákazníkov.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_price</key>
+		<value><![CDATA[Zobraziť ceny po prihlásení:<br /><span class="help">Zobraziť ceny aj keď zákazník nie je prihlásený.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_approval</key>
+		<value><![CDATA[Kontrola nových registrácií:<br /><span class="help">Ak je povolené, nedovoľte novému zákazníkovi prihlásiť sa, kým jeho účet nebude schválený.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_prevent_email_as_login</key>
+		<value><![CDATA[Vyžadovať prihlasovacie meno:<br /><span class="help">Pre zvýšenie bezpečnosti vyžadujte, aby si zákazníci vytvorili jedinečné prihlasovacie meno namiesto použitia e-mailovej adresy ako prihlasovacieho mena. Ak je nastavené na ON, existujúcich zákazníkov bude pri prvom prihlásení vyzvaní na vytvorenie nového prihlasovacieho mena. Ak je OFF, prihlasovacie meno sa nastaví ako e-mailová adresa zákazníka.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_guest_checkout</key>
+		<value><![CDATA[Objednávka ako hosť:<br /><span class="help">Umožniť zákazníkom dokončiť nákup bez vytvorenia účtu. Nebude k dispozícii, keď je v nákupnom košíku stiahnuteľný produkt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account</key>
+		<value><![CDATA[Podmienky účtu:<br /><span class="help">Nutí ľudí súhlasiť s podmienkami pred vytvorením účtu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_checkout</key>
+		<value><![CDATA[Podmienky nákupu:<br /><span class="help">Núti zákazníkov súhlasiť s podmienkami pred dokončením objednávky.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_status</key>
+		<value><![CDATA[Stav objednávky:<br /><span class="help">Nastavte predvolený stav objednávky, keď je objednávka spracovaná.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_cancelation_order_status</key>
+		<value><![CDATA[Povoliť zákazníkovi zrušiť objednávku v stave:]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_display</key>
+		<value><![CDATA[Zobraziť množstvo na sklade:<br /><span class="help">Zobraziť množstvo na sklade na stránke produktu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_nostock_autodisable</key>
+		<value><![CDATA[Automatické zakázanie pri nedostatku zásob:<br /><span class="help">Zakáže zobrazenie vášho produktu alebo hodnoty možnosti, ak zásoba klesne na 0. Oznámenie správou bude odoslané </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Predvolené povolenie objednávky vypredaného tovaru:<br /><span class="help">Nastavte predvolené nastavenie, ktoré umožňuje zákazníkom dokončiť objednávku aj v prípade, že tovar nie je na sklade</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_status</key>
+		<value><![CDATA[Predvolený stav zásob predobjednávky:<br /><span class="help">Predvolené nastavenie správy o stave predobjednávky produktu. Používa sa na stránke úprav produktu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_logo</key>
+		<value><![CDATA[Logo obchodu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[Logo e-mailu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Ikona:<br /><span class="help">Ikona môže byť vo formáte PNG alebo ICO s rozmermi 16px x 16px.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Šírka:]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Výška:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb</key>
+		<value><![CDATA[Veľkosť miniatúry obrázku produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_width</key>
+		<value><![CDATA[Šírka náhľadového obrázka produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_thumb_height</key>
+		<value><![CDATA[Výška miniatury obrázka produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup</key>
+		<value><![CDATA[Veľkosť vyskakovacieho okna s obrázkom produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_width</key>
+		<value><![CDATA[Šírka náhľadu veľkého okna:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_popup_height</key>
+		<value><![CDATA[Výška náhľadu veľkého okna:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category</key>
+		<value><![CDATA[Veľkosť zoznamu kategórií:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_width</key>
+		<value><![CDATA[Šírka zoznamu kategórií:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_category_height</key>
+		<value><![CDATA[Výška zoznamu kategórií:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_width</key>
+		<value><![CDATA[Šírka zoznamu ikon značiek:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_height</key>
+		<value><![CDATA[Výška zoznamu ikon značky:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product</key>
+		<value><![CDATA[Veľkosť zoznamu produktov:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_height</key>
+		<value><![CDATA[Výška náhľadu v zozname produktov:<br /><span class="help">Slúži na nastavenie výšky náhľadového obrázka na stránkach so zoznamom produktov v administrácii a na ďalších miestach vo frontendovej časti obchodu. Poznámka: Toto nastavenie je zdieľané medzi administráciou a predvolenou šablónou frontendovej časti obchodu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_product_width</key>
+		<value><![CDATA[Šírka zoznamu produktov:<br /><span class="help">Toto slúži na nastavenie šírky náhľadového obrázka na stránkach výpisu v administrácii a na iných miestach na predajnej stránke. Poznámka: toto nastavenie je zdieľané medzi administráciou a predvolenou šablónou obchodu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional</key>
+		<value><![CDATA[Veľkosť ďalšieho obrázka produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_width</key>
+		<value><![CDATA[Šírka dodatočného obrázka produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_additional_height</key>
+		<value><![CDATA[Výška ďalšieho obrázka produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related</key>
+		<value><![CDATA[Veľkosť obrázku súvisiaceho produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_width</key>
+		<value><![CDATA[Šírka obrázka súvisiaceho produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_related_height</key>
+		<value><![CDATA[Výška obrázka súvisiaceho produktu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart</key>
+		<value><![CDATA[Veľkosť obrázka košíka:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_width</key>
+		<value><![CDATA[Šírka obrázka košíka:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_cart_height</key>
+		<value><![CDATA[Výška obrázku košíka:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid</key>
+		<value><![CDATA[Veľkosť obrázka v mriežke:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_width</key>
+		<value><![CDATA[Grid Image Width:<br /><span class="help">Toto slúži na ovládanie šírky veľmi malého náhľadového obrázka v zoznamových mriežkach administrácie a na ďalších miestach v prednej časti obchodu. Poznámka: toto nastavenie je zdieľané medzi administráciou a predvolenou šablónou prednej časti obchodu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_grid_height</key>
+		<value><![CDATA[Výška obrázka v mriežke:<br /><span class="help">Toto slúži na ovládanie výšky veľmi malého náhľadu obrázka v mriežkových zoznamoch administrácie a na ďalších miestach vo frontende obchodu. Poznámka: toto nastavenie sa zdieľa medzi administráciou a predvolenou šablónou frontendu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_alert_mail</key>
+		<value><![CDATA[E-mailové upozornenie:<br /><span class="help">Poslať e-mail majiteľovi obchodu, keď sa vytvorí nová objednávka.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_download</key>
+		<value><![CDATA[Povoliť sťahovanie:]]></value>
+	</definition>
+	<definition>
+		<key>entry_download_status</key>
+		<value><![CDATA[Stav objednávky pre stiahnutie:<br /><span class="help">Nastavte stav, ktorý musí objednávka zákazníka dosiahnuť, aby mal prístup k sťahovateľným produktom.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[Prenos pošty:]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[Mailer používa spustiteľný binárny súbor sendmail a možnosti nastavené v parametri sendmail_path v súbore php.ini.]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_host</key>
+		<value><![CDATA[SMTP server:<br /><span class="help">Použite ssl://smtp.yourdomain.com pre zabezpečené SMTP pripojenie</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_username</key>
+		<value><![CDATA[SMTP používateľské meno:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_password</key>
+		<value><![CDATA[SMTP heslo:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_port</key>
+		<value><![CDATA[SMTP port:]]></value>
+	</definition>
+	<definition>
+		<key>entry_smtp_timeout</key>
+		<value><![CDATA[Časový limit SMTP:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl</key>
+		<value><![CDATA[Použiť SSL:<br /><span class="help">Ak chcete používať SSL, overte u svojho poskytovateľa hostingu, či je nainštalovaný SSL certifikát.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_session_ttl</key>
+		<value><![CDATA[Vypršanie relácie ovládacieho panela:<br /><span class="help">Táto hodnota určuje časový interval v minútach predtým, než budete z dôvodu nečinnosti požiadaní o opätovné prihlásenie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encryption</key>
+		<value><![CDATA[Kľúč šifrovania:<br /><span class="help">Nastavenie migrované do konfiguračného súboru od verzie v1.2.1.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_seo_url</key>
+		<value><![CDATA[Use SEO URL’s:<br /><span class="help">Aby ste mohli používať SEO URLy, musí byť nainštalovaný modul mod-rewrite Apache a súbor htaccess.txt je potrebné premenovať na .htaccess. Poznámka: Ak AbanteCart nie je nainštalovaný v koreňovom adresári domény, je potrebné upraviť pravidlo rewriteBase v súbore .htaccess.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_retina_enable</key>
+		<value><![CDATA[Generate high-res (retina) images:<br /><span class="help">Na použitie tohto apache modulu mod-rewrite musí byť nainštalovaný a je potrebné premenovať htaccess.txt na .htaccess. Poznámka: Ak abantecart nie je nainštalovaný v koreňovom adresári domény, musí sa v súbore .htaccess zmeniť pravidlo rewriteBase. <br>Po povolení je potrebné vyčistiť vyrovnávaciu pamäť obrázkov.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_quality</key>
+		<value><![CDATA[Úroveň kompresie JPEG obrázkov]]></value>
+	</definition>
+	<definition>
+		<key>entry_compression</key>
+		<value><![CDATA[Úroveň kompresie výstupu:<br /><span class="help">GZIP pre efektívnejší prenos požadujúcim klientom. Úroveň kompresie musí byť medzi 0 - 9</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_display</key>
+		<value><![CDATA[Zobraziť chyby:<br /><span class="help">Nastavte na áno, ak chcete vidieť výnimky a chyby</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_log</key>
+		<value><![CDATA[Log Errors:<br /><span class="help">Nastavte na áno, ak chcete uložiť výnimky a chyby do protokolu</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enable_reviews</key>
+		<value><![CDATA[Povoliť recenzie:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cache_enable</key>
+		<value><![CDATA[Cache povolené:<br /><span class="help">Buďte opatrní pri vypnutí kešovania. Kešované stránky sa už nebudú znovu vytvárať a stránka sa môže začať načítavať pomaly. </span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_cache_drivers</key>
+		<value><![CDATA[Momentálne sa používa ovládač vyrovnávacej pamäte <b>%s</b>. Ďalšie ovládače dostupné na konfiguráciu sú <i>%s</i>.]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_status</key>
+		<value><![CDATA[Stav Storefront API:]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_key</key>
+		<value><![CDATA[Kľúč API predajne:<br /><span class="help">Nastavte tento kľúč pre obmedzený (bezpečnejší) prístup k API predajne.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_api_stock_check</key>
+		<value><![CDATA[Storefront API prístup k zásobám:<br /><span class="help">Povoliť, ak chcete, aby Storefront API kontrolovalo dostupnosť zásob</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_status</key>
+		<value><![CDATA[Stav administračného API:]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_api_key</key>
+		<value><![CDATA[Kľúč Admin API:<br /><span class="help">Nastavte tento kľúč na obmedzený (bezpečnejší) prístup k Admin API.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_access_ip_list</key>
+		<value><![CDATA[IP adresy prístupu k Admin API:<br /><span class="help">Zadajte zoznam IP adries (oddelených čiarkou), ktoré budú mať povolený prístup k Admin API. Ostatné IP adresy budú zablokované</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_upload_max_size</key>
+		<value><![CDATA[Maximálna veľkosť súboru pri nahrávaní do knižnice zdrojov, kB]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug</key>
+		<value><![CDATA[Show Debug Info:<br /><span class="help">Nastavte túto možnosť na ZAPNUTÉ, ak chcete vidieť detaily vykonávania a zobraziť diagnostické podrobnosti.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_0</key>
+		<value><![CDATA[Vypnuté]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_1</key>
+		<value><![CDATA[Zobraziť]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_2</key>
+		<value><![CDATA[Záznam]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level</key>
+		<value><![CDATA[Úroveň ladenia:<br /><span class="help">Vyberte hĺbku podrobností, ktoré potrebujete vidieť vo výstupe ladenia.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_0</key>
+		<value><![CDATA[Úroveň 0 - žiadne záznamy, iba výnimky]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_1</key>
+		<value><![CDATA[Úroveň 1 - chyby a varovania]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_2</key>
+		<value><![CDATA[Úroveň 2 - #1 + načítanie stránky MySQL, čas vykonávania PHP súboru a čas načítania prvkov stránky]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_3</key>
+		<value><![CDATA[Úroveň 3 - #2 + základné záznamy a zásobník vykonávania]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_4</key>
+		<value><![CDATA[Úroveň 4 - #3 + dump mysql príkazy]]></value>
+	</definition>
+	<definition>
+		<key>entry_debug_level_5</key>
+		<value><![CDATA[Úroveň 5 - #4 + medziľahlá premenná]]></value>
+	</definition>
+	<definition>
+		<key>entry_template_debug</key>
+		<value><![CDATA[Template debug:<br /><span class="help">Povoľte túto možnosť, ak potrebujete skontrolovať problémy so šablónou v prednej časti obchodu a v ovládacom paneli.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_error_filename</key>
+		<value><![CDATA[Názov súboru denníka chýb:<br /><span class="help">Toto je súbor, v ktorom sa ukladajú chyby.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_session</key>
+		<value><![CDATA[Použiť reláciu pre dopravu:<br /><span class="help">Ukladá ponuky na dopravu do relácie, aby sa zbytočne neprepočítavali. Ponuky sa znova prepočítajú iba v prípade zmeny košíka alebo adresy.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_catalog_limit</key>
+		<value><![CDATA[Predvolené položky na stránku (predná strana obchodu):<br /><span class="help">Nastavuje, koľko položiek sa zobrazí na jednej stránke v prednej časti obchodu (produkty, kategórie, atď.)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_limit</key>
+		<value><![CDATA[Predvolený počet položiek na stránku (Admin):<br /><span class="help">Nastavuje, koľko položiek sa v administračnom rozhraní zobrazí na jednu stránku v zoznamových mriežkach (objednávky, zákazníci atď.)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_bestseller_limit</key>
+		<value><![CDATA[Počet položiek v bloku bestsellerov]]></value>
+	</definition>
+	<definition>
+		<key>entry_featured_limit</key>
+		<value><![CDATA[Počet položiek v odporúčanom bloku]]></value>
+	</definition>
+	<definition>
+		<key>entry_latest_limit</key>
+		<value><![CDATA[Počet položiek v najnovšom bloku]]></value>
+	</definition>
+	<definition>
+		<key>entry_special_limit</key>
+		<value><![CDATA[Počet položiek v špeciálnom bloku]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[Počet položiek v obsahových blokoch]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_weight</key>
+		<value><![CDATA[Zobraziť hmotnosť na stránke košíka:<br /><span class="help">Zobraziť hmotnosť košíka na stránke košíka</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_reviews</key>
+		<value><![CDATA[Pridávanie recenzií:<br /><span class="help">Obmedzte, kto môže pridávať recenzie na produkty</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maintenance</key>
+		<value><![CDATA[Režim údržby:<br /><span class="help">Bráni zákazníkom v prehliadaní vášho obchodu. Namiesto toho uvidia správu o údržbe. Ak ste prihlásený ako administrátor, uvidíte obchod ako obvykle.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_voicecontrol</key>
+		<value><![CDATA[Voice Control:<br /><span class="help">Povoľte hlasové ovládanie administrátora pre aktiváciu funkcie hlasových príkazov. Aktuálne je podporované len v Chrome verzie 25 alebo novšej.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_help_links</key>
+		<value><![CDATA[Odkazy nápovedy:<br /><span class="help">Ak chcete vidieť ikony pomoci a odkazy na stránky AbanteCart. To vám pomôže oboznámiť sa s funkciami a ich používaním. Ak ste pokročilý používateľ a nechcete vidieť tieto ikony pomoci, môžete ich vypnúť.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_tree_data</key>
+		<value><![CDATA[Povoliť stromovú mriežku:<br /><span class="help">Umožňuje administrátorským mriežkam zobrazovať typy rodič/detí v jednom zozname mriežky. POZNÁMKA: Paginácia a viacnásobné akcie sú pre tieto mriežky zakázané</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_cart_ajax</key>
+		<value><![CDATA[Pridanie do košíka na rovnakej stránke:<br /><span class="help">Toto umožní funkciu pridávania do košíka pomocou AJAX-u. Produkt môže byť pridaný do košíka bez presmerovania na stránku košíka</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_width</key>
+		<value><![CDATA[Šírka stránky obchodu:<br /><span class="help">Príklad: 100% alebo 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_width</key>
+		<value><![CDATA[Šírka administračnej stránky:<br /><span class="help">Príklad: 100% alebo 1000px </span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_maximum</key>
+		<value><![CDATA[Maximálna povolená výška objednávky:<br /><span class="help">Zabraňte dokončeniu nákupu pri vysokom medzisúčte objednávky. 0 = ŽIADNY LIMIT</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_total_order_minimum</key>
+		<value><![CDATA[Minimálna hodnota objednávky:<br /><span class="help">Zabráňte dokončeniu nákupu, ak medzisúčet objednávky nedosiahne nastavenú minimálnu hodnotu. 0 = ŽIADNE MINIMUM</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_system_check</key>
+		<value><![CDATA[System Check:<br /><span class="help">Povoľte toto nastavenie, ak chcete skontrolovať stav svojho systému vzhľadom na funkčnosť AbanteCart. Problémy so systémom, ktoré ovplyvňujú AbanteCart, budú hlásené ako správy viditeľné v administrácii.</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_store</key>
+		<value><![CDATA[Nový obchod]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Upozornenie: Nemáte oprávnenie meniť nastavenia!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname</key>
+		<value><![CDATA[Prihlasovacie meno musí byť iba alfanumerické a mať medzi 5 a 64 znakmi!]]></value>
+	</definition>
+	<definition>
+		<key>error_loginname_notunique</key>
+		<value><![CDATA[Toto prihlasovacie meno nie je k dispozícii. Skúste iné prihlasovacie meno!]]></value>
+	</definition>
+	<definition>
+		<key>error_name</key>
+		<value><![CDATA[Názov obchodu musí mať medzi 2 a 32 znakmi!]]></value>
+	</definition>
+	<definition>
+		<key>error_url</key>
+		<value><![CDATA[Vyžaduje sa platná URL adresa obchodu!]]></value>
+	</definition>
+	<definition>
+		<key>error_title</key>
+		<value><![CDATA[Názov musí mať dĺžku medzi 2 a 32 znakmi!]]></value>
+	</definition>
+	<definition>
+		<key>error_owner</key>
+		<value><![CDATA[Majiteľ obchodu musí mať medzi 2 a 64 znakmi!]]></value>
+	</definition>
+	<definition>
+		<key>error_address</key>
+		<value><![CDATA[Adresa obchodu musí mať medzi 10 a 256 znakmi!]]></value>
+	</definition>
+	<definition>
+		<key>error_email</key>
+		<value><![CDATA[E-mailová adresa sa nezdá byť platná!]]></value>
+	</definition>
+	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[Telefón musí mať od 2 do 32 znakov!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_thumb</key>
+		<value><![CDATA[Rozmery miniatúry obrázka produktu sú povinné!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_popup</key>
+		<value><![CDATA[Požadované rozmery vyskakovacieho okna s obrázkom produktu!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_category</key>
+		<value><![CDATA[Požadované rozmery veľkosti zoznamu kategórií!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_manufacturer</key>
+		<value><![CDATA[Vyžadujú sa rozmery pre veľkosť zoznamu ikon značky!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_product</key>
+		<value><![CDATA[Rozmery veľkosti zoznamu produktov sú povinné!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_additional</key>
+		<value><![CDATA[Je potrebné zadať rozmery doplnkového obrázka produktu!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_related</key>
+		<value><![CDATA[Rozmery obrázka súvisiacich produktov sú povinné!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_cart</key>
+		<value><![CDATA[Vyžadujú sa rozmery obrázka košíka!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_grid</key>
+		<value><![CDATA[Rozmery veľkosti obrázka mriežky sú povinné!]]></value>
+	</definition>
+	<definition>
+		<key>error_error_filename</key>
+		<value><![CDATA[Názov súboru protokolu chýb je povinný!]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data</key>
+		<value><![CDATA[Povinné údaje neboli zadané. Skontrolujte chyby v poliach!]]></value>
+	</definition>
+	<definition>
+		<key>error_uploaded_image</key>
+		<value><![CDATA[Nahraný súbor %s nie je obrázok alebo je poškodený!]]></value>
+	</definition>
+	<definition>
+		<key>error_limit</key>
+		<value><![CDATA[Limit je povinný!]]></value>
+	</definition>
+	<definition>
+		<key>text_front</key>
+		<value><![CDATA[Predná strana obchodu]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Správca]]></value>
+	</definition>
+	<definition>
+		<key>error_mail</key>
+		<value><![CDATA[Prosím, vyplňte povinné polia pre smtp-protokol!]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_sort_order_asc</key>
+		<value><![CDATA[Poradie zoradenia produktu Nízke > Vysoké]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_asc</key>
+		<value><![CDATA[Názov A – Z]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_name_desc</key>
+		<value><![CDATA[Názov Z - A]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_asc</key>
+		<value><![CDATA[Cena od najnižšej po najvyššiu]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_price_desc</key>
+		<value><![CDATA[Cena od najvyššej po najnižšiu]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_asc</key>
+		<value><![CDATA[Najnižšie hodnotenie]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_rating_desc</key>
+		<value><![CDATA[Najvyššie hodnotenie]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_asc</key>
+		<value><![CDATA[Dátum Staré > Nové]]></value>
+	</definition>
+	<definition>
+		<key>text_sorting_date_desc</key>
+		<value><![CDATA[Dátum Nové > Staré]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_default_sort_order</key>
+		<value><![CDATA[Predvolené zoradenie produktov podľa:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zero_customer_balance</key>
+		<value><![CDATA[Zobraziť nulový zostatok zákazníka:<br /><span class="help">Poznámka: Povoliť/zakázať zobrazenie správy o zostatku, ak je zostatok na účte zákazníka 0</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_shipping_tax_estimate</key>
+		<value><![CDATA[Odhad dopravy a daní:<br /><span class="help">Umožnite zákazníkom získať rýchly odhad dopravy a daní v nákupnom košíku.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_coupon_on_cart_page</key>
+		<value><![CDATA[Kupón na stránke nákupného košíka:<br /><span class="help">Umožniť zákazníkom zadať kód kupónu a vidieť zľavu v nákupnom košíku.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_analytics</key>
+		<value><![CDATA[Google Analytics 4 tag ID:<br /><span class="help">Pridajte svoj <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">ID značky Google Analytics</a>, aby ste povolili sledovanie aktivity na webe. Toto tiež umožní sledovanie e-commerce aktivity. Musíte povoliť sledovanie e-commerce v Google na stránke nastavení profilu vášho webu</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Google API kľúč (na povolenie Google máp):<br /><span class="help">Na mape môžete vidieť adresu. Ak chcete povoliť Google mapy, pridajte svoj API kľúč pre Google mapy na <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google Credentials Page</a>.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[Limit zobrazených produktov:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[Šírka obrázka zobrazených produktov:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[Výška obrázkov zobrazených produktov:]]></value>
+	</definition>
+	<definition>
+		<key>entry_ssl_url</key>
+		<value><![CDATA[Secure Store URL:<br /><span class="help">Zahrňte úplnú SSL URL(HTTPS) vášho obchodu. Uistite sa, že na konci pridáte '/'. Príklad: https://www.yourdomain.com/path/</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_ssl_url</key>
+		<value><![CDATA[Vyžaduje sa platná zabezpečená URL adresa!]]></value>
+	</definition>
+	<definition>
+		<key>entry_customer_email_activation</key>
+		<value><![CDATA[E-mailová aktivácia pre nových zákazníkov:<br /><span class="help">Nepovoľte novému zákazníkovi prihlásiť sa, kým jeho účet nebol potvrdený aktivačným odkazom zaslaným e-mailom. Aby toto fungovalo, uistite sa, že "Schváliť nových zákazníkov" je nastavené na VYPNUTÉ.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_clone_template</key>
+		<value><![CDATA[Klonovať šablónu pomocou vývojárskych nástrojov AbanteCart]]></value>
+	</definition>
+	<definition>
+		<key>text_set_template</key>
+		<value><![CDATA[Nastavte túto šablónu pre vzhľad obchodu]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_status</key>
+		<value><![CDATA[Povoliť vloženie vitríny obchodu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_embed_click_action</key>
+		<value><![CDATA[Akcia pri kliknutí na vloženie:]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_modal</key>
+		<value><![CDATA[Modálne dialógové okno na rovnakej stránke]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_new_window</key>
+		<value><![CDATA[Otvoriť novú stránku v novej karte]]></value>
+	</definition>
+	<definition>
+		<key>text_embed_click_action_same_window</key>
+		<value><![CDATA[Otvoriť novú stránku v rovnakom okne]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_create_captcha</key>
+		<value><![CDATA[Captcha na formulári vytvorenia účtu :<br /><span class="help">Zabráňte vytváraniu spamových/robotických účtov povolením ľudského overenia cez Captcha</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_site_key</key>
+		<value><![CDATA[Kľúč stránky Google reCAPTCHA:<br /><span class="help">Pridajte <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a>, aby mohli vaši návštevníci lepšie vyplniť captcha. Ak povolíte kľúče stránky/tajné kľúče reCAPTCHA, Google reCAPTCHA v2 sa aktivuje namiesto predvoleného obrázka captcha AbanteCartu</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_recaptcha_secret_key</key>
+		<value><![CDATA[Google reCAPTCHA Secret Key:<br /><span class="help">Pridajte <a href="https://www.google.com/recaptcha" target="_blank">Google reCAPTCHA v2</a>, aby vaši návštevníci mohli ľahšie zadávať captcha. Ak aktivujete reCAPTCHA site/secret kľúče, Google reCAPTCHA v2 bude aktivovaná namiesto predvoleného obrázka captcha AbanteCart.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_php_exceed</key>
+		<value><![CDATA[Táto hodnota nesmie prekročiť vašu direktívu php.ini %s (<=%s)]]></value>
+	</definition>
+	<definition>
+		<key>entry_start_order_id</key>
+		<value><![CDATA[Počiatočné číslo objednávky:<br /><span class="help">Nastavte počiatočné číslo, od ktorého sa budú objednávky číslovať.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_start_order_id</key>
+		<value><![CDATA[Počiatočné číslo objednávky musí byť číslom!]]></value>
+	</definition>
+	<definition>
+		<key>error_starting_invoice_id</key>
+		<value><![CDATA[Počiatočné číslo faktúry musí byť číselné!]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_order_days</key>
+		<value><![CDATA[Vypršanie neúplných objednávok:<br /><span class="help">Táto hodnota určuje časový interval v dňoch, po ktorom budú neúplné objednávky zmazané. Prázdna hodnota znamená, že žiadne objednávky nebudú zmazané.</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_expire_order_days</key>
+		<value><![CDATA[Hodnota vypršania neúplnej objednávky musí byť číselná!]]></value>
+	</definition>
+	<definition>
+		<key>text_storefront</key>
+		<value><![CDATA[Vzhľad obchodu]]></value>
+	</definition>
+	<definition>
+		<key>text_admin</key>
+		<value><![CDATA[Administrátor]]></value>
+	</definition>
+	<definition>
+		<key>text_im_driver</key>
+		<value><![CDATA[Ovládač]]></value>
+	</definition>
+	<definition>
+		<key>text_im_protocol</key>
+		<value><![CDATA[IM protokol]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver</key>
+		<value><![CDATA[SMS poskytovateľ]]></value>
+	</definition>
+	<definition>
+		<key>entry_sms_driver_tooltip</key>
+		<value><![CDATA[Vyberte rozšírenie pre poskytovateľa SMS služieb]]></value>
+	</definition>
+	<definition>
+		<key>entry_storefront_status_tooltip</key>
+		<value><![CDATA[Povoliť SMS pre zákazníkov]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_status_tooltip</key>
+		<value><![CDATA[Povoliť SMS pre správcov]]></value>
+	</definition>
+	<definition>
+		<key>text_no_driver</key>
+		<value><![CDATA[Nenašiel sa žiadny IM ovládač]]></value>
+	</definition>
+	<definition>
+		<key>text_im_settings_attention</key>
+		<value><![CDATA[Tieto nastavenia sú určené pre okamžité správy odosielané automaticky počas udalostí AbanteCart v obchode a administrácii.]]></value>
+	</definition>
+	<definition>
+		<key>entry_task_api_key</key>
+		<value><![CDATA[Tasks API Key:<br/><span class="help">Toto je tajný kľúč, ktorý umožňuje AbanteCart spúšťať naplánované procesy z prehliadača pomocou súboru /task.php. Ak nie je nastavený, úlohy sa v prehliadači nespustia.<br/>POZNÁMKA: Tento API kľúč nie je potrebný pre spúšťanie úloh z príkazového riadka.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_duplicate_contact_us</key>
+		<value><![CDATA[Duplikovať kontaktové dopyty do správ]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax_class</key>
+		<value><![CDATA[Predvolená daňová trieda:<br/><span class="help">Predvolená hodnota sa použije ako predvolená hodnota daňovej triedy pri vytváraní nového produktu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_account_recaptcha_v3</key>
+		<value><![CDATA[Povoliť reCaptcha v3]]></value>
+	</definition>
+	<definition>
+		<key>text_review_disable</key>
+		<value><![CDATA[Nedovoľte]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_all</key>
+		<value><![CDATA[Akýkoľvek zákazník alebo návštevník]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_only_registered</key>
+		<value><![CDATA[Registrovaný zákazník]]></value>
+	</definition>
+	<definition>
+		<key>text_review_allow_who_purchase</key>
+		<value><![CDATA[Zákazník s overenou objednávkou]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_reviews</key>
+		<value><![CDATA[Zobraziť recenzie:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[Mesto:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[PSČ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_latitude</key>
+		<value><![CDATA[Zemepisná šírka:]]></value>
+	</definition>
+	<definition>
+		<key>entry_longitude</key>
+		<value><![CDATA[Zemepisná dĺžka:]]></value>
+	</definition>
+	<definition>
+		<key>entry_opening_hours</key>
+		<value><![CDATA[Otváracie hodiny:]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[PSČ je povinné]]></value>
+	</definition>
+	<definition>
+		<key>error_city</key>
+		<value><![CDATA[Názov mesta je povinný.]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_resize_fill_color</key>
+		<value><![CDATA[Farba výplne pre zmenu veľkosti obrázka<br/><span class="help">Farba, ktorá bude vyplnená do prázdnych oblastí pri zmene veľkosti obrázka z obdĺžnika na štvorec</span>]]></value>
+	</definition>
+	<definition>
+		<key>warning_https_store_url</key>
+		<value><![CDATA[Aby platforma správne fungovala vo všetkých prehliadačoch a bola zabezpečená ochrana údajov, je vyžadovaný protokol HTTPS. Všetky požiadavky musia byť odoslané cez HTTPS.]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_logo</key>
+		<value><![CDATA[Predvolené logo obchodu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_default_mail_logo</key>
+		<value><![CDATA[Predvolené logo e-mailu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regulárny výraz na overenie telefónneho čísla:]]></value>
+	</definition>
+	<definition>
+		<key>entry_cron_command</key>
+		<value><![CDATA[Príkaz crontab v Linuxe <span class="help">Spustite príkaz crontab -e pod tým istým Linuxovým používateľom, ktorý prevádzkuje webový server pre AbanteCart. V editore pridajte príkaz</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_allow_coupon</key>
+		<value><![CDATA[Povoliť zadanie kupónu pri pokladni <br /><span class="help">Povoliť zadanie kupónu zákazníkmi a hosťami</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_payment_address_equal_shipping</key>
+		<value><![CDATA[Vyžadovať, aby platobná adresa bola rovnaká ako doručovacia adresa]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_require_phone_number</key>
+		<value><![CDATA[Vyžadovať telefónne číslo pri dokončení objednávky <br /><span class="help">Po povolení toto nastavenie vyžaduje od zákazníkov alebo hostí zadanie telefónneho čísla počas dokončovania objednávky.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_create_account</key>
+		<value><![CDATA[Pokladňa pre hosťa Vytvoriť účet <br /><span class="help">Ponúknite hosťovi možnosť vytvoriť si účet na konci objednávky. Toto je pre hostí transparentné a e-mail s prihlasovacími údajmi bude odoslaný.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_buy_now_status</key>
+		<value><![CDATA[Zobraziť tlačidlo "Kúp teraz]]></value>
+	</definition>
+	<definition>
+		<key>entry_fast_checkout_show_order_comment_field</key>
+		<value><![CDATA[Zobraziť pole pre komentár k objednávke<br/><span class="help">Textové pole komentára sa zobrazí počas procesu objednávky</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_unauth_customer</key>
+		<value><![CDATA[Povoliť vracajúcim sa zákazníkom prehliadať:<br /><span class="help">Neprihlásení zákazníci vracajúci sa na stránku budú môcť prehliadať produkty, pridávať ich do košíka a do zoznamu želaní.</span>]]></value>
+	</definition>
+</definitions>

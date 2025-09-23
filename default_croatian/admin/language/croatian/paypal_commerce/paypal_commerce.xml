@@ -306,4 +306,16 @@
 <br> Idite u svoj <a href="https://dashboard.paypal.com/webhooks" target="_new">razvojni odjeljak PayPal nadzorne ploče</a>	
 i dodajte krajnje točke koje primaju događaje s vašeg računa. Nakon što je krajnja točka stvorena, kopirajte Signing Secret i spremite ga u pripadajuće postavke ekstenzije Paypal Subscription.]]></value>
 	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Omogućene komponente:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[PayPal gumbi]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Polja kartice]]></value>
+	</definition>
 </definitions>

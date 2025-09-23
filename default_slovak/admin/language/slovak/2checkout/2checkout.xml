@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Platba]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Úspech: Zmenili ste údaje o účte 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[S touto rozšírením môžete používať platobný systém 2Checkout na prijímanie platieb od vašich zákazníkov.<br>
+<b>Zaregistrujte sa zadarmo ešte dnes! Použite propagačný kód ABANTECART2CO na oslobodenie od poplatku za spracovanie žiadosti (úspora 10,99 USD) a začnite dnes predávať online!</b> Navštívte <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, vyplňte žiadosť a potom zadajte kód do poľa pre propagačný kód, aby ste dnes mohli využiť túto špeciálnu ponuku!<br>
+Po registrácii sa prihláste, aby ste získali prístupové údaje na konfiguráciu tohto rozšírenia.<br>
+Nezabudnite tu nastaviť INS URL a Redirect URL: <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.<br><br>
+Vaše INS URL je <h4>#storefront#rt=extension/2checkout/callback</h4><br><br>
+Nakonfigurujte tiež Redirect URL a zvoľte spôsob vrátenia „Header redirect“.<br><br>
+Vaše Redirect URL je <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[Kód obchodníka 2Checkout:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[Tajný kľúč:<br /><span class="help">Tajné slovo na potvrdenie transakcií (musí byť rovnaké ako je definované na stránke konfigurácie obchodného účtu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Testovací režim:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Áno]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[Nie]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Stav objednávky:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Umiestnenie:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Všetky lokality]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Upozornenie: Nemáte oprávnenie upraviť platobnú metódu 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Kód predajcu je povinný!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Vyžaduje sa tajný kľúč!]]></value>
+	</definition>
+</definitions>

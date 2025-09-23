@@ -305,4 +305,16 @@
 		<value><![CDATA[Примечание: чтобы завершить настройку, вам необходимо создать вебхуки на стороне аккаунта PayPal.
 <br>Перейдите в ваш <a href="https://dashboard.paypal.com/webhooks" target="_new">раздел разработчика панели PayPal</a> и добавьте конечные точки, принимающие события с вашего аккаунта. После создания конечной точки скопируйте секрет подписи и сохраните его в настройках расширения PayPal Subscription Extension.]]></value>
 	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Включенные компоненты:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[Кнопки PayPal]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Поля карты]]></value>
+	</definition>
 </definitions>

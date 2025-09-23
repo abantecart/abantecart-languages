@@ -257,10 +257,6 @@
 		<value><![CDATA[Nie można się połączyć?]]></value>
 	</definition>
 	<definition>
-		<key>text_connect_success</key>
-		<value><![CDATA[]]></value>
-	</definition>
-	<definition>
 		<key>text_disconnect_success</key>
 		<value><![CDATA[Pomyślnie odłączono od PayPal]]></value>
 	</definition>
@@ -303,5 +299,21 @@
 	<definition>
 		<key>paypal_commerce_webhook_howto_text</key>
 		<value><![CDATA[Uwaga: aby zakończyć konfigurację, musisz utworzyć webhooki po stronie konta PayPal.<br>Przejdź do <a href="https://dashboard.paypal.com/webhooks" target="_new">sekcji deweloperskiej w panelu PayPal</a> i dodaj punkty końcowe odbierające zdarzenia z Twojego konta. Po utworzeniu punktu końcowego skopiuj Signing Secret i zapisz go w ustawieniach rozszerzenia Paypal Subscription Extension.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Włączone komponenty:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[Przyciski PayPal]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Pola karty]]></value>
+	</definition>
+	<definition>
+		<key>text_connect_success</key>
+		<value><![CDATA[Pomyślnie połączono z PayPal]]></value>
 	</definition>
 </definitions>

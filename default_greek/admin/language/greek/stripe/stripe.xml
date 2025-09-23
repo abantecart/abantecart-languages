@@ -353,10 +353,6 @@
 		<value><![CDATA[Εσωτερικό σφάλμα. Ελέγξτε το αρχείο καταγραφής σφαλμάτων ή τις παραμέτρους εισόδου!]]></value>
 	</definition>
 	<definition>
-		<key>error_missing_amount</key>
-		<value><![CDATA[]]></value>
-	</definition>
-	<definition>
 		<key>error_unable_to_capture</key>
 		<value><![CDATA[Αδυναμία είσπραξης, ανανέωσης των στοιχείων συναλλαγής και ελέγχου του ποσού είσπραξης]]></value>
 	</definition>
@@ -401,5 +397,9 @@
 	<definition>
 		<key>stripe_entry_endpoint_signing_secret</key>
 		<value><![CDATA[Μυστικό υπογραφής τερματικού σημείου:]]></value>
+	</definition>
+	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Παρακαλώ εισάγετε θετικό ποσό]]></value>
 	</definition>
 </definitions>

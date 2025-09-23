@@ -1,0 +1,165 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Administrador de cifrado de datos]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Extensiones]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Herramientas de cifrado de datos]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Estado:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Orden de clasificación:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Generar par de claves]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Cifrar datos]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advertencia: ¡No tienes permiso para modificar el envío basado en peso!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Error: El par de clave y nombre seleccionado ya existe!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>Esta extensión requiere configuración y atención AVANZADAS</b><br/> 
+<b>Una vez habilitada y los datos cifrados, NO hay vuelta atrás y la extensión no se puede desactivar.</b><br/> 
+Esta extensión ayuda a gestionar la creación de claves de cifrado y la migración de datos de tablas abiertas a cifradas (migración inicial)<br/> 
+<b>NOTA:</b> necesita tener PHP con cifrado SSL <b>HABILITADO</b>
+<br/>
+<br/>Para habilitar el cifrado de datos, por favor lea las instrucciones de ayuda (botón HOW TO)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Advertencia: OpenSSL para PHP no está disponible o no está activado. No puede usar cifrado ni esta extensión! <br> Consulte AYUDA para esta extensión para más detalles.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Advertencia: El cifrado de datos no está habilitado en tu AbanteCart. ¡No puedes cifrar/descifrar datos usando esta extensión!<br>Consulta la AYUDA de esta extensión para más detalles.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Generar par de claves]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Cifrar datos]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Falta(n) campo(s) de datos requeridos. Por favor, compruebe los valores proporcionados.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Nombre único de par de claves:<br /><span class="help">El nombre no debe contener espacios ni caracteres especiales. Manténlo corto y sencillo.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Longitud de la clave (bits):<br /><span class="help">Especifique la longitud en bits del cifrado de la clave. Un número mayor representa un cifrado más fuerte, pero puede ralentizar el rendimiento (Rango 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Tipo de cifrado:<br /><span class="help">Este es un algoritmo de cifrado. Use el RSA predeterminado si no es un usuario avanzado.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Habilitar clave basada en contraseña:<br /><span class="help">Si se habilita, se requerirá una frase de contraseña adicional para descifrar el texto con el uso de la clave privada. NOTA. Esto no es compatible actualmente con el cifrado de datos.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Frase de contraseña o contraseña de clave:<br /><span class="help">Recuerde que la frase de contraseña o la(s) clave(s) serán inútiles y los datos podrían perderse</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>Se ha creado el par de claves. Vea las claves a continuación y guárdelas en un lugar seguro.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Falló la generación del par de claves. Verifique su configuración y revise el registro de errores.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Nombre del par de claves:<br /><span class="help">Seleccione la clave a usar para el cifrado. IMPORTANTE: Recuerde la clave que usó</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabla(s) para encriptar:<br /><span class="help">La(s) tabla(s) mostrada(s) se encriptará(n) con la clave seleccionada. Los datos solo se pueden abrir con esta clave</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Modo de Prueba:<br /><span class="help">Verifique primero que todo esté bien para ser encriptado.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Eliminar datos de origen:<br /><span class="help">Eliminar registros de datos de origen sin encriptar después de que se complete el cifrado</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>Los datos han sido cifrados. <br /> Ver detalles:</b> <br/><br/> %s <br /><br /> <b>Si desea que esta clave se utilice para el cifrado de nuevos datos, agregue la siguiente línea al archivo system/config.php: define('DATA_ENCRYPTION_KEYPAIR', '%s');</b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Resultado de la prueba de cifrado de datos</b> ¡Compruebe el registro de errores para detectar posibles errores! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[El cifrado de datos ha fallado. Compruebe su configuración y el registro de errores.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>¡Notas importantes! Una vez que se complete la encriptación, los datos se copiarán en tablas espejo con los datos cifrados en ellas.
+<br />Siga las instrucciones para agregar la configuración a system/config.php para que AbanteCart cambie las operaciones de lectura/escritura a tablas cifradas.</b><br />Agregue la siguiente línea al archivo de configuración: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name'); <br>Esta será la clave predeterminada para las operaciones de lectura/escritura]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Uso de cifrado]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Registros de datos sin cifrar]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Utilice la pestaña 'Cifrar datos' para el cifrado inicial.]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Registros de datos cifrados]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[ID de clave]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Nombre de la clave]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Uso de tablas encriptadas]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Rotar (cambiar) cifrado a nueva clave]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[registro(s)]]></value>
+	</definition>
+</definitions>

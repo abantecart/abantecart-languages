@@ -306,4 +306,16 @@
 <br> Přejděte do své <a href="https://dashboard.paypal.com/webhooks" target="_new">sekce vývojáře v řídicím panelu Paypal</a>
 a přidejte koncové body přijímající události z vašeho účtu. Poté, co byl koncový bod vytvořen, zkopírujte Signing Secret a uložte jej do příslušných nastavení rozšíření Paypal Subscription Extension.]]></value>
 	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Povolené komponenty:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[Tlačítka PayPal]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Pole karty]]></value>
+	</definition>
 </definitions>

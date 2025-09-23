@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>2checkout_name</key>
+		<value><![CDATA[2Checkout]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Payment]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Successo: Hai modificato i dettagli dell’account 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_note</key>
+		<value><![CDATA[Con questa estensione puoi utilizzare il sistema di pagamento 2Checkout per accettare i pagamenti dai tuoi clienti.<br>
+<b>Registrati gratuitamente oggi! Usa il codice promozionale ABANTECART2CO per esentarti dalla tariffa di iscrizione (risparmio di $10,99) e inizia subito a vendere online!</b> Visita <a href="https://www.2checkout.com/signup/">www.2checkout.com</a>, compila il modulo di registrazione, quindi inserisci il codice nel campo del codice promozionale per approfittare di questa offerta speciale!
+<br>Una volta registrato, accedi per ottenere le credenziali dell’account e configurare questa estensione.
+<br>Non dimenticare di configurare INS URL e Redirect URL qui <a href="https://secure.2checkout.com/cpanel/webhooks_api.php">https://secure.2checkout.com/cpanel/webhooks_api.php</a>.
+<br><br>Il tuo INS URL è <h4>#storefront#rt=extension/2checkout/callback</h4>
+<br><br>Configura inoltre il Redirect URL e seleziona come metodo di ritorno "Header redirect".
+<br><br>Il tuo Redirect URL è <h4>#storefront#rt=checkout/success</h4>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_account</key>
+		<value><![CDATA[Codice commerciante 2Checkout:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_secret</key>
+		<value><![CDATA[Chiave Segreta:<br /><span class="help">La parola segreta per confermare le transazioni (deve essere la stessa definita nella pagina di configurazione del conto commerciante.</span>]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test</key>
+		<value><![CDATA[Modalità di test:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_1</key>
+		<value><![CDATA[Sì]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_test_0</key>
+		<value><![CDATA[No]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_order_status_id</key>
+		<value><![CDATA[Stato dell'ordine:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id</key>
+		<value><![CDATA[Posizione:]]></value>
+	</definition>
+	<definition>
+		<key>2checkout_location_id_0</key>
+		<value><![CDATA[Tutte le località]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Avviso: non sei autorizzato a modificare il pagamento 2Checkout!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[Codice commerciante richiesto!]]></value>
+	</definition>
+	<definition>
+		<key>error_secret</key>
+		<value><![CDATA[Chiave segreta richiesta!]]></value>
+	</definition>
+</definitions>

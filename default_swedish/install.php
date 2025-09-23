@@ -79,7 +79,7 @@ if ($xml) {
     $storefront_menu->addLanguage($newLanguageId, $translates);
 }
 
-$countryList = (array)include('countries_zones.php');
+$countryList = (array)include(DIR_EXT . $extName . DS . 'countries_zones.php');
 foreach ($countryList['countries'] as $id => $name) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('country_descriptions') . " 
@@ -97,4 +97,6 @@ foreach ($countryList['zones'] as $id => $name) {
             (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
     );
 }
-include('translated_descriptions.php');
+
+include(DIR_EXT . $extName . DS. 'base_descriptions.php');
+include(DIR_EXT . $extName . DS. 'insertBaseDescriptions.php');

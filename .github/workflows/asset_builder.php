@@ -57,6 +57,7 @@ foreach ($directories as $dir) {
             echo "Updated version in $configXml\n";
         }
     }
+    exec("cp -r ".$rootDir."/insertBaseDescriptions.php ".$extensionPath."/insertBaseDescriptions.xml");
 }
 
 echo "Done!\n";

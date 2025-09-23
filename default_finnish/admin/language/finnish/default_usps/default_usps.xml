@@ -2,7 +2,7 @@
 <definitions>
 	<definition>
 		<key>default_usps_name</key>
-		<value><![CDATA[Yhdysvaltain postilaitos]]></value>
+		<value><![CDATA[Yhdysvaltain postipalvelu]]></value>
 	</definition>
 	<definition>
 		<key>text_shipping</key>
@@ -14,7 +14,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Onnistui: Olet muokannut Yhdysvaltain postipalvelua!]]></value>
+		<value><![CDATA[Onnistui: Olet muokannut United States Postal Service!]]></value>
 	</definition>
 	<definition>
 		<key>text_international_1</key>
@@ -26,19 +26,19 @@
 	</definition>
 	<definition>
 		<key>text_international_4</key>
-		<value><![CDATA[Global Express Guaranteed (asiakirjat ja ei-asiakirjat)]]></value>
+		<value><![CDATA[Global Express Guaranteed (Asiakirjat ja ei-asiakirjat)]]></value>
 	</definition>
 	<definition>
 		<key>text_international_5</key>
-		<value><![CDATA[Global Express Guaranteed -asiakirja käytetty]]></value>
+		<value><![CDATA[Global Express Guaranteed -dokumenttia käytetty]]></value>
 	</definition>
 	<definition>
 		<key>text_international_6</key>
-		<value><![CDATA[Global Express Guaranteed asiakirjaton suorakulmainen muoto]]></value>
+		<value><![CDATA[Global Express Guaranteed Ei-asiakirja Suorakulmainen muoto]]></value>
 	</definition>
 	<definition>
 		<key>text_international_7</key>
-		<value><![CDATA[Global Express Guaranteed Ei-asiakirja Epäsäännöllisen muotoinen]]></value>
+		<value><![CDATA[Global Express Guaranteed Ei-asiakirja Ei-suorakulmainen]]></value>
 	</definition>
 	<definition>
 		<key>text_international_8</key>
@@ -50,7 +50,7 @@
 	</definition>
 	<definition>
 		<key>text_international_10</key>
-		<value><![CDATA[Express Mail International -kiinteähintainen kirjekuori]]></value>
+		<value><![CDATA[Express Mail International kiinteähintainen kirjekuori]]></value>
 	</definition>
 	<definition>
 		<key>text_international_11</key>
@@ -58,7 +58,7 @@
 	</definition>
 	<definition>
 		<key>text_international_12</key>
-		<value><![CDATA[Global Express Guaranteed kuori]]></value>
+		<value><![CDATA[Global Express Guaranteed -kirjekuori]]></value>
 	</definition>
 	<definition>
 		<key>text_international_13</key>
@@ -82,7 +82,7 @@
 	</definition>
 	<definition>
 		<key>text_regular</key>
-		<value><![CDATA[Tavallinen]]></value>
+		<value><![CDATA[Normaali]]></value>
 	</definition>
 	<definition>
 		<key>text_large</key>
@@ -98,7 +98,7 @@
 	</definition>
 	<definition>
 		<key>text_non_rectangular</key>
-		<value><![CDATA[Ei Suorakulmainen]]></value>
+		<value><![CDATA[Ei suorakulmainen]]></value>
 	</definition>
 	<definition>
 		<key>text_variable</key>
@@ -106,7 +106,7 @@
 	</definition>
 	<definition>
 		<key>entry_user_id</key>
-		<value><![CDATA[User ID:<span class="help">USPS lähettää sinulle sähköpostitse käyttäjätunnuksen ja salasanan. Jos näin ei ole, ota yhteys USPS:ään varmistaaksesi USPS-käyttäjätunnuksesi. Sinun tulisi soittaa USPS:lle aktivoidaksesi tilisi tuotantopalvelimilla.</span>]]></value>
+		<value><![CDATA[Käyttäjätunnus:<span class="help">USPS:n tulisi lähettää sinulle sähköpostitse käyttäjätunnus ja salasana. Jos näin ei tapahdu, ota yhteyttä USPS:ään vahvistaaksesi USPS-käyttäjätunnuksesi. Sinun tulisi soittaa USPS:lle aktivoidaksesi tilisi tuotantopalvelimilla.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_password</key>
@@ -114,7 +114,7 @@
 	</definition>
 	<definition>
 		<key>entry_postcode</key>
-		<value><![CDATA[Postinumero:<span class="help">ZIP/postinumero pakettisi lähtöpaikan postinumero.</span>]]></value>
+		<value><![CDATA[Postinumero/Postinumero:<span class="help">Paketin lähtöpaikan postinumero.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_domestic</key>
@@ -126,43 +126,43 @@
 	</definition>
 	<definition>
 		<key>entry_size</key>
-		<value><![CDATA[Koko:<span class="help">Valitse pakkausastian koko, jota yleensä käytät verkkokaupastasi tilattujen tuotteiden pakkaamiseen.</span>]]></value>
+		<value><![CDATA[Koko:<span class="help">Valitse astian koko, jota yleensä käytät kaupastasi tilattujen tuotteiden pakkaamiseen.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_container</key>
-		<value><![CDATA[Pakkaus:<span class="help">Valitse pakkaustyyppi, jota yleensä käytät kaupastasi tilattujen tuotteiden pakkaamiseen. USPS toimittaa vain enintään 70 lbs painoisia paketteja.</span>]]></value>
+		<value><![CDATA[Säiliö:<span class="help">Valitse se säiliötyyppi, jota tavallisesti käytät pakatessasi myymälästäsi tilatut tuotteet. USPS toimittaa vain enintään 70 paunan painoisia paketteja</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_machinable</key>
-		<value><![CDATA[Koneellisesti käsiteltävä:<br /><span class="help">On suositeltavaa, että valitset Kyllä. Määritä, onko lähetysten käsittely koneellisesti sallittua. Tämän valinnan ottaminen käyttöön vähentää toimituskuluja.</span>]]></value>
+		<value><![CDATA[Soveltuu koneelliseen käsittelyyn:<br /><span class="help">Suosittelemme valitsemaan Kyllä. Määritä, onko lähetysten käsittely koneellisesti sallittua. Tämän asetuksen valitseminen vähentää toimituskustannuksia.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_dimension</key>
-		<value><![CDATA[Mitat (P x L x K):]]></value>
+		<value><![CDATA[Mitat (L x W x H):]]></value>
 	</definition>
 	<definition>
 		<key>entry_length</key>
-		<value><![CDATA[Mitat Pituus:<br /><span class="help">Keskimääräinen lähetyspaketin pituus.</span>]]></value>
+		<value><![CDATA[Mitat Pituus:<br /><span class="help">Keskimääräinen paketin mitta lähetyspakettia varten.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_width</key>
-		<value><![CDATA[Mitat Leveys:<br /><span class="help">Keskimääräinen paketin mitat lähetyspakettia varten.</span>]]></value>
+		<value><![CDATA[Mitat Leveys:<br /><span class="help">Keskimääräiset mitat lähetyspakkaukselle.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_height</key>
-		<value><![CDATA[Mitat Korkeus: Keskimääräinen paketin mitta lähetystä varten.]]></value>
+		<value><![CDATA[Mitat Korkeus:<br /><span class="help">Lähetyspaketin keskimääräiset mitat.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_girth</key>
-		<value><![CDATA[Ympärysmitta:<br /><span class="help">Löytääksesi pakettisi ympärysmitan, mittaa etäisyys ei-suorakulmaisen paketin paksuimman kohdan ympäri.</span>]]></value>
+		<value><![CDATA[Ympärysmitta:<br /><span class="help">Määrittääksesi pakettisi ympärysmitan, mittaa ei-säännöllisen paketin paksuimman kohdan ympärysmitta.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_display_time</key>
-		<value><![CDATA[Näytä toimitusaika:<br /><span class="help">Haluatko näyttää toimitusajan? (esim. Toimitetaan 3-5 päivän kuluessa)</span>]]></value>
+		<value><![CDATA[Näytä toimitusaika:<br /><span class="help">Haluatko näyttää toimitusajan? (esim. Toimitetaan 3–5 päivän kuluessa)</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_display_weight</key>
-		<value><![CDATA[Näytä toimituspaino:<br /><span class="help">Haluatko näyttää toimituspainon? (esim. Toimituspaino : 2.7674 Kg's)</span>]]></value>
+		<value><![CDATA[Näytä toimituspaino:<br /><span class="help">Haluatko näyttää toimituspainon? (esim. Toimituspaino: 2.7674 Kg's)</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_weight_class</key>
@@ -170,11 +170,11 @@
 	</definition>
 	<definition>
 		<key>entry_length_class</key>
-		<value><![CDATA[Pituusluokka:<br /><span class="help">Verkkokauppasi mitta- tai oletuspituusluokka.</span>]]></value>
+		<value><![CDATA[Pituusluokka:<br /><span class="help">Kauppasi mittayksikkö tai oletuspituusluokka.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax</key>
-		<value><![CDATA[Veroluokka:<br /><span class="help">Jos sinun pitää periä veroa tästä tuotteesta, valitse veroluokka.</span>]]></value>
+		<value><![CDATA[Veroluokka:<br /><span class="help">Jos sinun täytyy periä tästä tuotteesta vero, valitse veroluokka.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_location</key>
@@ -186,7 +186,7 @@
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varoitus: sinulla ei ole oikeutta muokata United States Postal Service ‑palvelua!]]></value>
+		<value><![CDATA[Varoitus: Sinulla ei ole oikeutta muokata Yhdysvaltain postilaitosta!]]></value>
 	</definition>
 	<definition>
 		<key>error_user_id</key>
@@ -198,14 +198,14 @@
 	</definition>
 	<definition>
 		<key>entry_free_domestic_method</key>
-		<value><![CDATA[Ilmaisen toimituksen vaihtoehto <span class="help">Valitse toimitustapa, kun ostoskori sisältää vain ilmaisella toimituksella varustettuja tuotteita</span>]]></value>
+		<value><![CDATA[Ilmaisen toimituksen vaihtoehto <span class="help">Valitse toimitustapa siltä varalta, että ostoskori sisältää vain ilmaisella toimituksella varustettuja tuotteita</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_free_international_method</key>
-		<value><![CDATA[Vaihtoehto kansainvälisten pakettien ilmaiseen toimitukseen <span class="help">Valitse, mikä toimitustapa valitaan, kun ostoskori sisältää vain ilmaisella toimituksella olevia tuotteita</span>]]></value>
+		<value><![CDATA[Vaihtoehto kansainvälisten pakettien ilmaiseen toimitukseen	<span class="help">Valitse, mikä toimitustapa käytetään, kun ostoskorissa on vain ilmaisella toimituksella varustettuja tuotteita</span>]]></value>
 	</definition>
 	<definition>
 		<key>default_usps_debug</key>
-		<value><![CDATA[Virheenkorjauslokituksen tila]]></value>
+		<value><![CDATA[Virheenkorjauksen lokituksen tila]]></value>
 	</definition>
 </definitions>

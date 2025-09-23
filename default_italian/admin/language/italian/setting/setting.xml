@@ -381,14 +381,6 @@
 		<value><![CDATA[Download dello stato dell'ordine:<br /><span class="help">Impostare lo stato dell'ordine per i clienti, prima del download.</span>]]></value>
 	</definition>
 	<definition>
-		<key>entry_mail_protocol</key>
-		<value><![CDATA[Protocollo Mail:<span class="help">Scegliere 'Mail' se il vostro fornitore dell'hosting ha disabilitato la funzione php mail.]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_parameter</key>
-		<value><![CDATA[Parametri Mail:<span class="help">Quando si utilizza 'Mail', i parametri aggiuntivi mail possono essere aggiunti qui. (esempio "-femail@mionegozio.com".]]></value>
-	</definition>
-	<definition>
 		<key>entry_smtp_host</key>
 		<value><![CDATA[SMTP Host:<br /><span class="help">Utilizza ssl://smtp.mionegozio.com per la connessione sicura smtp]]></value>
 	</definition>
@@ -1065,5 +1057,9 @@
 	<definition>
 		<key>entry_content_limit</key>
 		<value><![CDATA[Numero di elementi nei blocchi di contenuto ]]></value>
+	</definition>
+	<definition>
+		<key>entry_unauth_customer</key>
+		<value><![CDATA[Consenti ai clienti che tornano di navigare:<br /><span class="help">I clienti non autenticati che tornano sul sito potranno sfogliare i prodotti, aggiungerli al carrello e alla lista dei desideri.</span>]]></value>
 	</definition>
 </definitions>

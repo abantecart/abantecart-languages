@@ -305,4 +305,16 @@
 		<value><![CDATA[Σημείωση: Για να ολοκληρώσετε τη ρύθμιση, πρέπει να δημιουργήσετε webhooks στο λογαριασμό σας στο PayPal.
 <br> Μεταβείτε στο <a href="https://dashboard.paypal.com/webhooks" target="_new">Τμήμα Προγραμματιστών του Πίνακα Ελέγχου PayPal</a> και προσθέστε endpoints που λαμβάνουν συμβάντα από τον λογαριασμό σας. Αφού δημιουργηθεί το endpoint, αντιγράψτε το Signing Secret και αποθηκεύστε το στις ρυθμίσεις της επέκτασης PayPal Subscription.]]></value>
 	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Ενεργοποιημένα Στοιχεία:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[Κουμπιά PayPal]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Πεδία Κάρτας]]></value>
+	</definition>
 </definitions>

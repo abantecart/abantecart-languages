@@ -110,10 +110,6 @@ Ideell åpen kildekode e-handelsløsning]]></value>
 		<value><![CDATA[Feil: Kan ikke laste ned filen. Depotfeil eller ugyldig utvidelsesnøkkel. Prøv en gang til. Hvis problemet vedvarer, last ned filen fra ordrehistorikken din og installer den manuelt.]]></value>
 	</definition>
 	<definition>
-		<key>error_ftp_user</key>
-		<value><![CDATA[]]></value>
-	</definition>
-	<definition>
 		<key>error_ftp_password</key>
 		<value><![CDATA[Feil: FTP-brukerpassord er tomt.]]></value>
 	</definition>
@@ -250,5 +246,9 @@ Test oppgraderingen først på ikke-produksjonsnettsteder. Oppgradering på prod
 	<definition>
 		<key>error_notconnected</key>
 		<value><![CDATA[Kan ikke oppgradere eller installere utvidelser fra markedsplassen. Denne butikken er ikke autentisert/tilkoblet. Vennligst autentiser og koble til <a href="%s">markedsplassen</a>]]></value>
+	</definition>
+	<definition>
+		<key>error_ftp_user</key>
+		<value><![CDATA[Feil: FTP brukernavn er tomt.]]></value>
 	</definition>
 </definitions>

@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>avatax_integration_name</key>
+		<value><![CDATA[Integrácia Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_note</key>
+		<value><![CDATA[Ak máte povolenú štandardnú daň, bude fungovať spoločne s Avatax a možno budete musieť zakázať štandardné dane. Skontrolujte Systém -> Lokalizácia -> <a target="_new" href="#admin#rt=localisation/tax_class">Trieda dane</a><br>Tiež nezabudnite povoliť rozšírenie <a href="#admin#rt=total/avatax_integration_total">Avatax Integration Total</a><br>Dôležité! Poradie výpočtu rozšírenia Avatax Integration Total v rozšíreniach súm musí byť za medzisúčtom. Výpočet medzisúčtu by mal predchádzať výpočtu tohto rozšírenia. Skontrolujte to v nastaveniach rozšírení súm.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number</key>
+		<value><![CDATA[Číslo účtu:<br /><span class="help">Číslo účtu poskytované Avalarou</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_license_key</key>
+		<value><![CDATA[Licenčný kľúč:<br /><span class="help">Licenčný kľúč poskytnutý spoločnosťou Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url</key>
+		<value><![CDATA[Service URL:<br /><span class="help">URL služby Avalara (živá alebo vývojová)</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
+		<value><![CDATA[https://avatax.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_service_url_https://development.avalara.net</key>
+		<value><![CDATA[https://development.avalara.net]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_tax_name</key>
+		<value><![CDATA[Názov dane:<br /><span class="help">Názov dane, ktorý sa zobrazí zákazníkovi v sekcii súčtov</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_company_code</key>
+		<value><![CDATA[Kód spoločnosti:<br /><span class="help">Kód spoločnosti na použitie s Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_postal_code</key>
+		<value><![CDATA[PSČ/poštové smerovacie číslo predajne:]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Chyba! Prosím, skontrolujte, či je rozšírenie zapnuté.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_default_taxcode</key>
+		<value><![CDATA[Predvolený daňový kód produktu]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_shipping_taxcode</key>
+		<value><![CDATA[Spôsoby doručenia Predvolené daňové kódy]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_method</key>
+		<value><![CDATA[Spôsob dopravy]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_text_shipping_taxcode</key>
+		<value><![CDATA[Daňový kód prepravy]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Otestovať pripojenie]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Pripojenie je úspešné a prístupové údaje API sú správne nakonfigurované.]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Test pripojenia:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation</key>
+		<value><![CDATA[Overenie adresy:<br /><span class="help">Overenie adresy bude vykonané v kroku pokladne zákazníka</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validate_button_title</key>
+		<value><![CDATA[Titulok tlačidla na overenie adresy:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_commit_documents</key>
+		<value><![CDATA[Potvrdiť dokumenty v službe Avatax:<br /><span class="help">Ak je povolené, daňový dokument bude potvrdený pri zadanom stave objednávky</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_return_documents</key>
+		<value><![CDATA[Vrátiť dokumenty v službe Avatax:<br /><span class="help">Vrátenie bude zaznamenané pri určenom stave objednávky</span>]]></value>
+	</definition>
+	<definition>
+		<key>button_add_tax_code</key>
+		<value><![CDATA[Uložiť]]></value>
+	</definition>
+	<definition>
+		<key>button_delete_tax_code</key>
+		<value><![CDATA[Vymazať daňový kód]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_taxcode_name</key>
+		<value><![CDATA[Daňový kód produktu:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_button_find_taxcode</key>
+		<value><![CDATA[Vyhľadať daňový kód]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status</key>
+		<value><![CDATA[Stav oslobodenia:]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_pending</key>
+		<value><![CDATA[Čakajúce]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_approved</key>
+		<value><![CDATA[Schválené]]></value>
+	</definition>
+	<definition>
+		<key>exemption_status_declined</key>
+		<value><![CDATA[Odmietnuté]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_subject</key>
+		<value><![CDATA[Vaše číslo oslobodenia od dane bolo zamietnuté.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_mail_text</key>
+		<value><![CDATA[Vaše oslobodzovacie daňové číslo bolo zamietnuté. Ak chcete overiť jeho platnosť, navštívte stránku podrobností vášho účtu %s]]></value>
+	</definition>
+	<definition>
+		<key>exemption_number_name</key>
+		<value><![CDATA[Číslo oslobodenia:<br /><span class="help">Číslo daňového oslobodenia</span>]]></value>
+	</definition>
+	<definition>
+		<key>entity_use_code_name</key>
+		<value><![CDATA[Entita\Kód použitia:<br /><span class="help">AvaTax má skupinu kódov, ktoré určujú typ oslobodenia. Pozrite si štandardné kódy alebo vytvorte vlastné kódy na stránke AvaTax</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_success_settled</key>
+		<value><![CDATA[Potvrdenie pri stave objednávky:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_return_settled</key>
+		<value><![CDATA[Návrat pri stave objednávky:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_status_cancel_settled</key>
+		<value><![CDATA[Zrušiť pri stave objednávky:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_account_number_validation_error</key>
+		<value><![CDATA[Chyba čísla účtu. Skontrolujte to!]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_Both</key>
+		<value><![CDATA[Obidvaja]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_US</key>
+		<value><![CDATA[USA]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries_CA</key>
+		<value><![CDATA[Kanada]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_address_validation_countries</key>
+		<value><![CDATA[Krajiny na overenie adresy]]></value>
+	</definition>
+	<definition>
+		<key>total_name</key>
+		<value><![CDATA[Celková suma integrácie Avatax]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_logging</key>
+		<value><![CDATA[Povoliť protokolovanie transakcií]]></value>
+	</definition>
+</definitions>

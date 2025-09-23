@@ -53,7 +53,7 @@ $this->db->query(
 
 $newLanguageId = (int)$this->db->getLastId();
 
-$xml = simplexml_load_file(DIR_EXT . $extName . '/menu.xml');
+$xml = simplexml_load_file(DIR_EXT . $extName . DS. 'menu.xml');
 
 $routes = [
     'text_index_home_menu'        => 'index/home',
@@ -75,7 +75,7 @@ if ($xml) {
     $storefront_menu->addLanguage($newLanguageId, $translates);
 }
 
-$countryList = (array)include('countries_zones.php');
+$countryList = (array)include(DIR_EXT . $extName . DS . 'countries_zones.php');
 foreach ($countryList['countries'] as $cid => $cName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('country_descriptions') . " 
@@ -93,4 +93,6 @@ foreach ($countryList['zones'] as $zid => $zoneName) {
             (" . $zid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zoneName)) . "')"
     );
 }
-include('translated_descriptions.php');
+
+include(DIR_EXT . $extName . DS. 'base_descriptions.php');
+include(DIR_EXT . $extName . DS. 'insertBaseDescriptions.php');

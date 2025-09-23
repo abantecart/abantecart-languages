@@ -16,33 +16,35 @@ Další nastavení jsou k dispozici <a href="%s" target="_new_admin"><i class="f
 	</definition>
 	<definition>
 		<key>text_quick_start_details</key>
-		<value><![CDATA[Níže jsou uvedena nejčastější nastavení vašeho obchodu.	
+		<value><![CDATA[Níže jsou nejběžnější nastavení vašeho obchodu.	
 Další nastavení jsou k dispozici <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_checkout</key>
-		<value><![CDATA[Níže jsou nejčastější nastavení procesu pokladny.	
+		<value><![CDATA[Níže naleznete nejčastější nastavení objednávkového procesu.	
 Další nastavení je k dispozici <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_appearance</key>
 		<value><![CDATA[Níže jsou nejběžnější nastavení vzhledu e-shopu.	
- Další nastavení jsou k dispozici <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+Další nastavení je k dispozici <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_mail</key>
-		<value><![CDATA[Níže najdete nejčastější nastavení pro povolení e-mailů. Pokud k odesílání e-mailů používáte externí e-mailový server (google atd.), je nutné použít volbu SMTP. Chcete-li, aby e-maily byly odesílány z tohoto serveru, použijte volbu Mail.	
-Další nastavení jsou dostupná <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Níže jsou uvedena nejběžnější nastavení pro povolení e-mailů.	
+Pokud k odesílání e-mailů používáte externí e-mailový server (google, atd.), je třeba použít možnost SMTP.	
+Pro odesílání e-mailů z tohoto serveru zvolte možnost Mail.	
+Další nastavení jsou k dispozici <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last</key>
-		<value><![CDATA[Níže můžete vybrat požadované platební a přepravní metody, další jazyky a mnoho dalších funkcí k rozšíření funkčnosti vašeho eCommerce.	
-Nezapomeňte zkontrolovat výběr rozšíření na <a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart marketplace</a>, který nabízí komunita profesionálních vývojářů.]]></value>
+		<value><![CDATA[Níže můžete vybrat požadované platební a přepravní metody, další jazyky a mnoho dalších funkcí pro rozšíření funkčností vašeho e-shopu.	
+Nezapomeňte si prohlédnout výběr rozšíření na <a href="#admin#rt=extension/extensions_store" target="_extension">tržišti AbanteCart</a> nabízených komunitou profesionálních vývojářů.]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last_footer</key>
 		<value><![CDATA[Dokončili jste průvodce rychlým startem. <br /><br />
-Všechna nastavení najdete na <a href="%s">tomto odkazu <i class="fa fa-link fa-fw"></i></a>]]></value>
+Veškerá nastavení najdete na <a href="%s">tomto odkazu <i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>payments_selection</key>
@@ -52,19 +54,19 @@ Všechna nastavení najdete na <a href="%s">tomto odkazu <i class="fa fa-link fa
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=stripe" target="_extension">
-						<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br>Stripe</a>
+				<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br><p class="mt10">Stripe</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=cardknox" target="_extension">
-						<img style="width: 94px; height: 94px;" src="extensions/cardknox/image/icon.png"><br>CardKnox</a>
+				<a href="#admin#rt=extension/extensions/install&extension=sola" target="_extension">
+				<img style="height: 94px;" src="extensions/sola/image/icon.webp"><br><p class="mt10">Sola</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=paypal_commerce" target="_extension">
-						<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br>Paypal Commerce</a>
+				<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br><p class="mt10">Paypal Commerce</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/payment" target="_extension">
-						<img src="admin/view/default/image/default_extension.png"><br>Další platební metody</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/payment" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">Další platby</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -76,19 +78,19 @@ Všechna nastavení najdete na <a href="%s">tomto odkazu <i class="fa fa-link fa
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_free_shipping" target="_extension">
-				<img src="extensions/default_free_shipping/image/icon.png"><br>Doprava zdarma</a>
+				<img style="height: 94px;" src="extensions/default_free_shipping/image/icon.png"><br><p class="mt10">Doprava zdarma</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_fedex" target="_extension">
-				<img src="extensions/default_fedex/image/icon.png"><br>Fedex</a>
+				<img style="height: 94px;" src="extensions/default_fedex/image/icon.png"><br><p class="mt10">FedEx</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_local_delivery" target="_extension">
-				<img src="extensions/default_local_delivery/image/icon.png"><br>Místní doručení</a>
+				<img style="height: 94px;" src="extensions/default_local_delivery/image/icon.png"><br><p class="mt10">Místní doručení</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/shipping" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Více způsobů dopravy</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/shipping" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">Další způsoby dopravy</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -98,28 +100,15 @@ Všechna nastavení najdete na <a href="%s">tomto odkazu <i class="fa fa-link fa
 		<i class="fa fa-language fa-fw"></i> Vyberte další jazyky.
 </div>
 <div class="row">
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_italian" target="_extension">
-				<img src="extensions/default_italian/image/icon.png"><br>Italština</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_spanish" target="_extension">
-				<img src="extensions/default_spanish/image/icon.png"><br>Španělština</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_russian" target="_extension">
-				<img src="extensions/default_russian/image/icon.png"><br>Ruština</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions_store&category_id=67&sidx=date_modified" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Více jazyků</a>
+		<div class="col-sm-12 h5 center">
+				%s
 		</div>
 </div>]]></value>
 	</definition>
 	<definition>
 		<key>more_extensions</key>
 		<value><![CDATA[<div class="info alert alert-info">
-		<i class="fa fa-puzzle-piece fa-fw"></i> Více rozšíření na tržišti AbanteCartu.
+		<i class="fa fa-puzzle-piece fa-fw"></i> Více rozšíření na tržišti AbanteCart.
 </div>
 <div class="row center">
 		<div class="btn-group center">

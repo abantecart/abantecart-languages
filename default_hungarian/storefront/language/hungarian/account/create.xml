@@ -41,10 +41,6 @@
 		<value><![CDATA[Én elolvastam és egyetértek a(z)]]></value>
 	</definition>
 	<definition>
-		<key>entry_loginname</key>
-		<value><![CDATA[Bejelentkezési név:]]></value>
-	</definition>
-	<definition>
 		<key>entry_firstname</key>
 		<value><![CDATA[Keresztnév:]]></value>
 	</definition>
@@ -55,42 +51,6 @@
 	<definition>
 		<key>entry_email</key>
 		<value><![CDATA[E-mail:]]></value>
-	</definition>
-	<definition>
-		<key>entry_telephone</key>
-		<value><![CDATA[Telefon:]]></value>
-	</definition>
-	<definition>
-		<key>entry_fax</key>
-		<value><![CDATA[Fax:]]></value>
-	</definition>
-	<definition>
-		<key>entry_company</key>
-		<value><![CDATA[Cég:]]></value>
-	</definition>
-	<definition>
-		<key>entry_address_1</key>
-		<value><![CDATA[Cím 1:]]></value>
-	</definition>
-	<definition>
-		<key>entry_address_2</key>
-		<value><![CDATA[Cím 2:]]></value>
-	</definition>
-	<definition>
-		<key>entry_postcode</key>
-		<value><![CDATA[Irányítószám:]]></value>
-	</definition>
-	<definition>
-		<key>entry_city</key>
-		<value><![CDATA[Város:]]></value>
-	</definition>
-	<definition>
-		<key>entry_country</key>
-		<value><![CDATA[Ország:]]></value>
-	</definition>
-	<definition>
-		<key>entry_zone</key>
-		<value><![CDATA[Régió / Állam:]]></value>
 	</definition>
 	<definition>
 		<key>entry_newsletter</key>
@@ -109,24 +69,8 @@
 		<value><![CDATA[Hiba: Az e-mail cím már regisztrálva van!]]></value>
 	</definition>
 	<definition>
-		<key>error_loginname</key>
-		<value><![CDATA[A bejelentkezési név csak alfanumerikus lehet, és hossza 5 és 64 karakter között kell legyen!]]></value>
-	</definition>
-	<definition>
 		<key>error_loginname_notunique</key>
 		<value><![CDATA[Ez a bejelentkezési név nem elérhető. Próbáljon másik bejelentkezési nevet!]]></value>
-	</definition>
-	<definition>
-		<key>error_firstname</key>
-		<value><![CDATA[A keresztnévnek 1 és 32 karakter hosszúnak kell lennie!]]></value>
-	</definition>
-	<definition>
-		<key>error_lastname</key>
-		<value><![CDATA[A vezetéknévnek 1 és 32 karakter között kell lennie!]]></value>
-	</definition>
-	<definition>
-		<key>error_email</key>
-		<value><![CDATA[Az e-mail cím nem tűnik érvényesnek!]]></value>
 	</definition>
 	<definition>
 		<key>error_email_exists</key>
@@ -139,26 +83,6 @@
 	<definition>
 		<key>error_confirm</key>
 		<value><![CDATA[A jelszó megerősítése nem egyezik a jelszóval!]]></value>
-	</definition>
-	<definition>
-		<key>error_address_1</key>
-		<value><![CDATA[Az 1. címnek 3 és 128 karakter között kell lennie!]]></value>
-	</definition>
-	<definition>
-		<key>error_city</key>
-		<value><![CDATA[A városnak 3 és 128 karakter között kell lennie!]]></value>
-	</definition>
-	<definition>
-		<key>error_postcode</key>
-		<value><![CDATA[Az irányítószám/postai irányítószámnak 3 és 10 karakter közé kell esnie!]]></value>
-	</definition>
-	<definition>
-		<key>error_country</key>
-		<value><![CDATA[Kérjük, válasszon egy országot!]]></value>
-	</definition>
-	<definition>
-		<key>error_zone</key>
-		<value><![CDATA[Kérjük, válasszon egy régiót / államot!]]></value>
 	</definition>
 	<definition>
 		<key>error_telephone</key>

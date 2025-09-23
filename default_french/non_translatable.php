@@ -121,4 +121,5 @@ return array (
   118 => 'UPS 3 Day Select',
   119 => 'UPS Today Express Saver',
   120 => 'UPS Express Plus',
+  121 => '{start} - {end} of {total}',
 );

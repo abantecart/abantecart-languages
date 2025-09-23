@@ -38,7 +38,7 @@ $this->db->query(
 
 $newLanguageId = (int)$this->db->getLastId();
 
-$xml = simplexml_load_file(DIR_EXT . $extName . '/menu.xml');
+$xml = simplexml_load_file(DIR_EXT . $extName . DS. 'menu.xml');
 
 $routes = [
     'text_index_home_menu'        => 'index/home',
@@ -60,22 +60,24 @@ if ($xml) {
     $storefront_menu->addLanguage($newLanguageId, $translates);
 }
 
-$countryList = (array)include('countries_zones.php');
-foreach ($countryList['countries'] as $cid => $cName) {
+$countryList = (array)include(DIR_EXT . $extName . DS . 'countries_zones.php');
+foreach ($countryList['countries'] as $id => $name) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('country_descriptions') . " 
             (`country_id`, `language_id`, `name`)
         VALUES 
-            (" . $cid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
+            (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
     );
 }
 
-foreach ($countryList['zones'] as $zid => $zoneName) {
+foreach ($countryList['zones'] as $id => $name) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('zone_descriptions') . " 
             (`zone_id`,`language_id`, `name`)
         VALUES 
-            (" . $zid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zoneName)) . "')"
+            (" . $id . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($name)) . "')"
     );
 }
-include('translated_descriptions.php');
+
+include(DIR_EXT . $extName . DS. 'base_descriptions.php');
+include(DIR_EXT . $extName . DS. 'insertBaseDescriptions.php');

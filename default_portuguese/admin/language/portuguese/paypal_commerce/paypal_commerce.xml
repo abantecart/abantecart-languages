@@ -167,10 +167,6 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 		<value><![CDATA[Detalhes de Pagamento]]></value>
 	</definition>
 	<definition>
-		<key>text_capture_status</key>
-		<value><![CDATA[]]></value>
-	</definition>
-	<definition>
 		<key>text_void_status</key>
 		<value><![CDATA[O pagamento foi anulado]]></value>
 	</definition>
@@ -306,5 +302,21 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 		<key>paypal_commerce_webhook_howto_text</key>
 		<value><![CDATA[Nota: Para concluir a configuração, você deve criar webhooks no lado da sua conta do Paypal.
 <br>Vá para o seu <a href="https://dashboard.paypal.com/webhooks" target="_new">Painel de Desenvolvedor do Paypal</a> e adicione Endpoints que recebam eventos da sua conta. Depois que o Endpoint for criado, copie o Signing Secret e salve-o nas configurações da extensão Paypal Subscription correspondentes.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Componentes Habilitados:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[Botões do PayPal]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Campos do Cartão]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Pagamento foi capturado]]></value>
 	</definition>
 </definitions>

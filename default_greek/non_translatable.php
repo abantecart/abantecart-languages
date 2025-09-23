@@ -51,4 +51,5 @@ return array (
   48 => 'TWINT',
   49 => 'UPS',
   50 => 'UPS Saver',
+  51 => '{start} - {end} of {total}',
 );

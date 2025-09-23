@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>encryption_data_manager_name</key>
+		<value><![CDATA[Gestore dei dati di cifratura]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions</key>
+		<value><![CDATA[Estensioni]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Strumenti di cifratura dei dati]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Stato:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Ordine di ordinamento:]]></value>
+	</definition>
+	<definition>
+		<key>button_generate_keys</key>
+		<value><![CDATA[Genera coppia di chiavi]]></value>
+	</definition>
+	<definition>
+		<key>button_encrypt_data</key>
+		<value><![CDATA[Crittografa dati]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Attenzione: non hai il permesso di modificare la spedizione basata sul peso!]]></value>
+	</definition>
+	<definition>
+		<key>error_duplicate_key</key>
+		<value><![CDATA[Errore: la coppia nome-chiave selezionata esiste già!]]></value>
+	</definition>
+	<definition>
+		<key>encryption_data_manager_note</key>
+		<value><![CDATA[<b>Questa estensione richiede configurazione AVANZATA e attenzione</b><br/> 
+<b>Una volta abilitata e i dati crittografati, non c’è modo di tornare indietro e l’estensione non può essere disabilitata!</b><br/> 
+Questa estensione aiuta a gestire la creazione delle chiavi di crittografia e la migrazione dei dati da tabelle non criptate a tabelle criptate (migrazione iniziale)<br/> 
+<b>NOTA BENE:</b> è necessario avere PHP con crittografia SSL <b>ABILITATA</b>
+<br/>
+<br/>Per abilitare la crittografia dei dati, leggere le istruzioni di aiuto (pulsante HOW TO)]]></value>
+	</definition>
+	<definition>
+		<key>error_openssl_disabled</key>
+		<value><![CDATA[Avviso: OpenSSL per PHP non è disponibile o non è attivato. Non puoi usare la crittografia o questa estensione! <br> Controlla l’Aiuto per questa estensione per maggiori dettagli.]]></value>
+	</definition>
+	<definition>
+		<key>error_data_encryption_disabled</key>
+		<value><![CDATA[Avviso: la crittografia dei dati non è abilitata sul tuo AbanteCart. Non puoi crittografare/decrittografare i dati usando questa estensione! <br> Consulta l’Aiuto di questa estensione per maggiori dettagli.]]></value>
+	</definition>
+	<definition>
+		<key>key_gen_section_name</key>
+		<value><![CDATA[Genera coppia di chiavi]]></value>
+	</definition>
+	<definition>
+		<key>data_encryption</key>
+		<value><![CDATA[Crittografa i dati]]></value>
+	</definition>
+	<definition>
+		<key>error_required_data_missing</key>
+		<value><![CDATA[Campi dati obbligatori mancanti. Si prega di controllare i valori forniti.]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_name</key>
+		<value><![CDATA[Nome univoco della coppia di chiavi:<br /><span class="help">Il nome non deve contenere spazi né caratteri speciali. Mantienilo breve e semplice.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_key_length</key>
+		<value><![CDATA[Lunghezza chiave (bit):<br /><span class="help">Specifica la lunghezza in bit della cifratura della chiave. Un numero più grande indica una cifratura più forte, ma può rallentare le prestazioni (Intervallo 256 - 8192)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_private_key_type</key>
+		<value><![CDATA[Tipo di crittografia:<br /><span class="help">Questo è un algoritmo di crittografia. Utilizza RSA predefinito se non sei un utente avanzato.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_encrypt_key</key>
+		<value><![CDATA[Abilita chiave basata su password:<br /><span class="help">Se abilitata, sarà richiesta una passphrase aggiuntiva per decrittare il testo usando la chiave privata. NOTA. Questa funzionalità non è attualmente supportata nella crittografia dei dati.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_passphrase</key>
+		<value><![CDATA[Frase di accesso o password della chiave:<br /><span class="help">Ricorda che la frase di accesso o le chiavi saranno inutili e i dati potrebbero andare persi</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_key_get</key>
+		<value><![CDATA[<b>La coppia di chiavi è stata creata. Vedi le chiavi qui sotto e conservale al sicuro.</b> <br/><br/> %s <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_generating_keys_failed</key>
+		<value><![CDATA[Generazione della coppia di chiavi non riuscita. Controlla le impostazioni e il registro degli errori.]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_key</key>
+		<value><![CDATA[Nome coppia di chiavi:<br /><span class="help">Seleziona la chiave da utilizzare per la crittografia. IMPORTANTE: Ricorda la chiave che hai usato</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_tables</key>
+		<value><![CDATA[Tabella(e) da crittografare:<br /><span class="help">Tabella(e) mostrate saranno crittografate con la chiave selezionata. I dati possono essere aperti solo con questa chiave</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_test_mode</key>
+		<value><![CDATA[Modalità di test:<br /><span class="help">Verifica prima che tutto sia OK per essere criptato.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_enc_remove_original</key>
+		<value><![CDATA[Rimuovere i dati di origine:<br /><span class="help">Rimuovere i record di dati di origine non criptati dopo il completamento della crittografia</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_success_encrypting</key>
+		<value><![CDATA[<b>I dati sono stati crittografati. <br /> Vedi i dettagli:</b> <br/><br/> %s <br /><br /> <b>Se vuoi che questa chiave venga utilizzata per la crittografia di nuovi dati, aggiungi la seguente riga al file system/config.php : define('DATA_ENCRYPTION_KEYPAIR', '%s'); </b>]]></value>
+	</definition>
+	<definition>
+		<key>text_encryption_test</key>
+		<value><![CDATA[<b>Risultato del test di crittografia dei dati</b> Controlla il registro degli errori per eventuali errori! <br/><br/> %s]]></value>
+	</definition>
+	<definition>
+		<key>error_encrypting</key>
+		<value><![CDATA[La crittografia dei dati non è riuscita. Controlla le impostazioni e controlla il registro degli errori.]]></value>
+	</definition>
+	<definition>
+		<key>post_encrypting_notice</key>
+		<value><![CDATA[<b>Note importanti! Dopo il completamento della crittografia i dati verranno copiati nelle tabelle mirror con i dati crittografati al loro interno.<br />Segui le istruzioni per aggiungere la configurazione in system/config.php per AbanteCart in modo da reindirizzare le operazioni di lettura/scrittura alle tabelle crittografate.</b><br />Aggiungi la seguente riga al file di configurazione: define('DATA_ENCRYPTION_KEYPAIR', 'your_key_name');<br />Questa sarà la chiave predefinita per le operazioni di lettura/scrittura]]></value>
+	</definition>
+	<definition>
+		<key>encryption_usage</key>
+		<value><![CDATA[Utilizzo della crittografia]]></value>
+	</definition>
+	<definition>
+		<key>text_unencrepted_records</key>
+		<value><![CDATA[Record di dati non crittografati]]></value>
+	</definition>
+	<definition>
+		<key>warn_encrypt_open_data</key>
+		<value><![CDATA[Usa la scheda 'Encrypt Data' per la crittografia iniziale]]></value>
+	</definition>
+	<definition>
+		<key>text_encrepted_records</key>
+		<value><![CDATA[Record di dati crittografati]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_id</key>
+		<value><![CDATA[ID chiave]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_name</key>
+		<value><![CDATA[Nome Chiave]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_tables</key>
+		<value><![CDATA[Utilizzo delle tabelle cifrate]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_heading_key_rotate</key>
+		<value><![CDATA[Ruota (cambia) la crittografia su una nuova chiave]]></value>
+	</definition>
+	<definition>
+		<key>text_usage_records</key>
+		<value><![CDATA[record]]></value>
+	</definition>
+</definitions>

@@ -97,4 +97,44 @@
 		<key>ups_packaging_02</key>
 		<value><![CDATA[盒子]]></value>
 	</definition>
+	<definition>
+		<key>ups_manifest_order_status_id</key>
+		<value><![CDATA[当订单状态变为时创建发货]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label</key>
+		<value><![CDATA[打印UPS标签（原始订单）]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_title</key>
+		<value><![CDATA[使用客户在结账时提交的原始重量和尺寸打印UPS标签。管理员对订单所做的任何更改都不会影响该标签。]]></value>
+	</definition>
+	<definition>
+		<key>ups_text_print_label_suggestion</key>
+		<value><![CDATA[将订单状态更改为 "%s"，以通过 UPS API 创建货件并获取包裹标签]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_weight</key>
+		<value><![CDATA[重量：]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_height</key>
+		<value><![CDATA[高度：]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_width</key>
+		<value><![CDATA[宽度:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_depth</key>
+		<value><![CDATA[深度:]]></value>
+	</definition>
+	<definition>
+		<key>ups_entry_parcel_info</key>
+		<value><![CDATA[包裹信息：]]></value>
+	</definition>
+	<definition>
+		<key>ups_shipment_created_success_message</key>
+		<value><![CDATA[UPS 货件已成功创建。查看更多信息 <a href="%s">这里</a>]]></value>
+	</definition>
 </definitions>

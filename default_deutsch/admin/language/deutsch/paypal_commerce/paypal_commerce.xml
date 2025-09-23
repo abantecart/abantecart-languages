@@ -306,4 +306,16 @@ Verwenden Sie diese Schaltfläche, um die Webhooks bei PayPal zu aktualisieren.]
 		<value><![CDATA[Hinweis: Um die Einrichtung abzuschließen, sollten Sie Webhooks auf der PayPal-Kontoseite erstellen.
 <br> Gehen Sie zu Ihrem <a href="https://dashboard.paypal.com/webhooks" target="_new">PayPal-Dashboard-Entwicklerbereich</a> und fügen Sie Endpunkte hinzu, die Ereignisse von Ihrem Konto empfangen. Nachdem der Endpunkt erstellt wurde, kopieren Sie das Signing-Geheimnis und speichern es in den zugehörigen Einstellungen der PayPal-Abonnement-Erweiterung.]]></value>
 	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Aktivierte Komponenten:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[PayPal-Schaltflächen]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Kartenfelder]]></value>
+	</definition>
 </definitions>

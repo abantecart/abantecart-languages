@@ -6,19 +6,19 @@
 	</definition>
 	<definition>
 		<key>text_quick_start_note</key>
-		<value><![CDATA[Välkommen till AbanteCart-administrationen.<br />
-Det här är en guide som hjälper dig att snabbt ställa in din kundvagn med de vanligaste inställningarna.
+		<value><![CDATA[Välkommen till AbanteCart administration.<br />
+Detta är en guide som hjälper dig att snabbt ställa in din varukorg med de vanligaste inställningarna.
 <br />]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_general</key>
-		<value><![CDATA[Nedan finns de vanligaste allmänna inställningarna.	
-Fler inställningar finns tillgängliga <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Nedan är de vanligaste allmänna inställningarna.	
+Fler inställningar är tillgängliga <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_details</key>
-		<value><![CDATA[Nedan visas de vanligaste inställningarna för din butik.
-Fler inställningar finns tillgängliga <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Nedan finns de vanligaste inställningarna för din butik.	
+Fler inställningar är tillgängliga <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_checkout</key>
@@ -32,18 +32,18 @@ Fler inställningar finns tillgängliga <a href="%s" target="_new_admin"><i clas
 	</definition>
 	<definition>
 		<key>text_quick_start_mail</key>
-		<value><![CDATA[Nedan finns de vanligaste inställningarna för att aktivera e-post. Om du använder en extern e-postserver (Google etc.) för att skicka e-postmeddelanden måste du använda SMTP-alternativet. För att e-postmeddelanden ska skickas från denna server, använd Mail-alternativet.	
-Fler inställningar finns tillgängliga <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Nedan är de vanligaste inställningarna för att aktivera e-post. Om du använder en extern e-postserver (Google osv) för att skicka e-postmeddelanden måste du använda SMTP-alternativet. För att e-postmeddelanden ska skickas från denna server, använd Mail-alternativet.	
+Ytterligare inställningar finns tillgängliga <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last</key>
-		<value><![CDATA[Nedan kan du välja önskade betalnings- och leveransmetoder, ytterligare språk och många andra funktioner för att utöka din e-handelsfunktionalitet.	
-Kom ihåg att kolla urvalet av tillägg på <a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart marknadsplats</a> som erbjuds av en gemenskap av professionella utvecklare.]]></value>
+		<value><![CDATA[Nedan kan du välja önskade betalnings- och fraktmetoder, ytterligare språk och många andra funktioner för att utöka din e-handelsfunktionalitet.
+Kom ihåg att kolla urvalet av tillägg på <a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart-marknadsplatsen</a> som erbjuds av en gemenskap av professionella utvecklare.]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last_footer</key>
 		<value><![CDATA[Du har slutfört snabbstartsguiden. <br /><br />
-Du kan hitta alla inställningar via <a href="%s">denna länk <i class="fa fa-link fa-fw"></i></a>]]></value>
+Du kan hitta alla inställningar <a href="%s">denna länk <i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>payments_selection</key>
@@ -53,43 +53,47 @@ Du kan hitta alla inställningar via <a href="%s">denna länk <i class="fa fa-li
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=stripe" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/stripe/image/icon.png"><br>Stripe</a>
+						<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br><p class="mt10">Stripe</p>
+				</a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=cardknox" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/cardknox/image/icon.png"><br>CardKnox</a>
+				<a href="#admin#rt=extension/extensions/install&extension=sola" target="_extension">
+						<img style="height: 94px;" src="extensions/sola/image/icon.webp"><br><p class="mt10">Sola</p>
+				</a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=paypal_commerce" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br>Paypal Commerce</a>
+						<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br><p class="mt10">Paypal Commerce</p>
+				</a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/payment" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Fler betalningsmetoder</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/payment" target="_extension">
+						<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">Fler betalningsmetoder</p>
+				</a>
 		</div>
 </div>]]></value>
 	</definition>
 	<definition>
 		<key>shipping_selection</key>
 		<value><![CDATA[<div class="info alert alert-info">
-		<i class="fa fa-truck fa-fw"></i> Välj dina leveransmetoder.
+		<i class="fa fa-truck fa-fw"></i> Välj dina fraktmetoder.
 </div>
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_free_shipping" target="_extension">
-				<img src="extensions/default_free_shipping/image/icon.png"><br>Fri frakt</a>
+				<img style="height: 94px;" src="extensions/default_free_shipping/image/icon.png"><br><p class="mt10">Fri frakt</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_fedex" target="_extension">
-				<img src="extensions/default_fedex/image/icon.png"><br>Fedex</a>
+				<img style="height: 94px;" src="extensions/default_fedex/image/icon.png"><br><p class="mt10">Fedex</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_local_delivery" target="_extension">
-				<img src="extensions/default_local_delivery/image/icon.png"><br>Lokal leverans</a>
+				<img style="height: 94px;" src="extensions/default_local_delivery/image/icon.png"><br><p class="mt10">Lokal leverans</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/shipping" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Fler leveransmetoder</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/shipping" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">Fler fraktmetoder</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -99,28 +103,15 @@ Du kan hitta alla inställningar via <a href="%s">denna länk <i class="fa fa-li
 		<i class="fa fa-language fa-fw"></i> Välj ytterligare språk.
 </div>
 <div class="row">
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_italian" target="_extension">
-				<img src="extensions/default_italian/image/icon.png"><br>Italienska</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_spanish" target="_extension">
-				<img src="extensions/default_spanish/image/icon.png"><br>Spanska</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_russian" target="_extension">
-				<img src="extensions/default_russian/image/icon.png"><br>Ryska</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions_store&category_id=67&sidx=date_modified" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Fler språk</a>
+		<div class="col-sm-12 h5 center">
+				%s
 		</div>
 </div>]]></value>
 	</definition>
 	<definition>
 		<key>more_extensions</key>
 		<value><![CDATA[<div class="info alert alert-info">
-		<i class="fa fa-puzzle-piece fa-fw"></i> Mer tillägg på AbanteCart-marknadsplatsen.
+		<i class="fa fa-puzzle-piece fa-fw"></i> Fler tillägg på AbanteCart-marknadsplatsen.
 </div>
 <div class="row center">
 		<div class="btn-group center">

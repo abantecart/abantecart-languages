@@ -6,18 +6,17 @@
 	</definition>
 	<definition>
 		<key>text_quick_start_note</key>
-		<value><![CDATA[Witamy w panelu administracyjnym AbanteCart.<br />
-To kreator, który pomoże Ci szybko skonfigurować koszyk z najczęściej używanymi ustawieniami.
-<br />]]></value>
+		<value><![CDATA[Witamy w administracji AbanteCart.<br />
+Jest to kreator, który pomoże Ci szybko skonfigurować koszyk zakupowy z najczęściej używanymi ustawieniami.<br />]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_general</key>
-		<value><![CDATA[Poniżej znajdują się najczęściej używane ogólne ustawienia.	
+		<value><![CDATA[Poniżej znajdują się najczęściej używane ustawienia ogólne.	
 Więcej ustawień jest dostępnych <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_details</key>
-		<value><![CDATA[Poniżej znajdują się najczęściej używane ustawienia Twojego sklepu.	
+		<value><![CDATA[Poniżej znajdują się najczęściej używane ustawienia dotyczące Twojego sklepu.	
 Więcej ustawień jest dostępnych <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
@@ -27,25 +26,23 @@ Więcej ustawień jest dostępnych <a href="%s" target="_new_admin"><i class="fa
 	</definition>
 	<definition>
 		<key>text_quick_start_appearance</key>
-		<value><![CDATA[Poniżej znajdują się najczęstsze ustawienia wyglądu sklepu.	
-Dostępne są dodatkowe ustawienia <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Poniżej znajdują się najczęściej używane ustawienia wyglądu witryny sklepowej.	
+Więcej ustawień jest dostępnych <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_mail</key>
-		<value><![CDATA[Poniżej znajdują się najczęściej używane ustawienia do włączenia e-maili.	
-Jeśli używasz zewnętrznego serwera e-mail (Google, itd.) do wysyłania wiadomości e-mail, musisz użyć opcji SMTP.	
-Aby wiadomości e-mail były wysyłane z tego serwera, użyj opcji Mail.	
-Więcej ustawień dostępnych jest <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Poniżej znajdują się najczęściej używane ustawienia umożliwiające wysyłanie e-maili. Jeśli korzystasz z zewnętrznego serwera poczty (Google itp.) do wysyłania e-maili, musisz wybrać opcję SMTP. Aby e-maile były wysyłane z tego serwera, użyj opcji Mail.	
+Więcej ustawień dostępnych <a href="%s" target="_new_admin"><i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last</key>
-		<value><![CDATA[Poniżej możesz wybrać żądane metody płatności i wysyłki, dodatkowe języki oraz wiele innych funkcji, aby rozszerzyć funkcjonalność e-commerce.	
-Pamiętaj, aby sprawdzić wybór rozszerzeń na <a href="#admin#rt=extension/extensions_store" target="_extension">rynku AbanteCart</a> oferowanych przez społeczność profesjonalnych deweloperów.]]></value>
+		<value><![CDATA[Poniżej możesz wybrać preferowane metody płatności i wysyłki, dodatkowe języki oraz wiele innych funkcji, aby rozszerzyć funkcjonalność Twojego sklepu internetowego.	
+Pamiętaj, aby sprawdzić wybór rozszerzeń na <a href="#admin#rt=extension/extensions_store" target="_extension">AbanteCart marketplace</a> oferowanych przez społeczność profesjonalnych deweloperów.]]></value>
 	</definition>
 	<definition>
 		<key>text_quick_start_last_footer</key>
-		<value><![CDATA[Ukończyłeś kreatora szybkiego startu. <br /><br /> 
-Możesz znaleźć wszystkie ustawienia <a href="%s">pod tym linkiem <i class="fa fa-link fa-fw"></i></a>]]></value>
+		<value><![CDATA[Kreator szybkiego startu został ukończony. <br /><br />
+Wszystkie ustawienia znajdziesz pod <a href="%s">tym linkiem <i class="fa fa-link fa-fw"></i></a>]]></value>
 	</definition>
 	<definition>
 		<key>payments_selection</key>
@@ -55,43 +52,43 @@ Możesz znaleźć wszystkie ustawienia <a href="%s">pod tym linkiem <i class="fa
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=stripe" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/stripe/image/icon.png"><br>Stripe</a>
+				<img style="width: 94px; height: 94px;" src="extensions/stripe/image/icon.png"><br><p class="mt10">Stripe</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=cardknox" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/cardknox/image/icon.png"><br>CardKnox</a>
+				<a href="#admin#rt=extension/extensions/install&extension=sola" target="_extension">
+				<img style="height: 94px;" src="extensions/sola/image/icon.webp"><br><p class="mt10">Sola</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=paypal_commerce" target="_extension">
-				<img style="width: 94px; width: height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br>Paypal Commerce</a>
+				<img style="width: 94px; height: 94px;" src="extensions/paypal_commerce/image/icon.png"><br><p class="mt10">Paypal Commerce</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/payment" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Więcej płatności</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/payment" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">Więcej metod płatności</p></a>
 		</div>
 </div>]]></value>
 	</definition>
 	<definition>
 		<key>shipping_selection</key>
 		<value><![CDATA[<div class="info alert alert-info">
-		<i class="fa fa-truck fa-fw"></i> Wybierz swoje metody wysyłki.
+		<i class="fa fa-truck fa-fw"></i> Wybierz metody wysyłki.
 </div>
 <div class="row">
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_free_shipping" target="_extension">
-				<img src="extensions/default_free_shipping/image/icon.png"><br>Darmowa wysyłka</a>
+				<img style="height: 94px;" src="extensions/default_free_shipping/image/icon.png"><br><p class="mt10">Darmowa wysyłka</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_fedex" target="_extension">
-				<img src="extensions/default_fedex/image/icon.png"><br>Fedex</a>
+				<img style="height: 94px;" src="extensions/default_fedex/image/icon.png"><br><p class="mt10">Fedex</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
 				<a href="#admin#rt=extension/extensions/install&extension=default_local_delivery" target="_extension">
-				<img src="extensions/default_local_delivery/image/icon.png"><br>Dostawa lokalna</a>
+				<img style="height: 94px;" src="extensions/default_local_delivery/image/icon.png"><br><p class="mt10">Dostawa lokalna</p></a>
 		</div>
 		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/shipping" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Więcej metod wysyłki</a>
+				<a style="margin-top: 36px; display: block;" href="#admin#rt=extension/extensions/shipping" target="_extension">
+				<img src="admin/view/default/image/default_extension.png"><br><p class="mt10">Więcej wysyłek</p></a>
 		</div>
 </div>]]></value>
 	</definition>
@@ -99,25 +96,12 @@ Możesz znaleźć wszystkie ustawienia <a href="%s">pod tym linkiem <i class="fa
 		<key>language_selection</key>
 		<value><![CDATA[<div class="info alert alert-info">
 		<i class="fa fa-language fa-fw"></i> Wybierz dodatkowe języki.
-</div>
-<div class="row">
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_italian" target="_extension">
-				<img src="extensions/default_italian/image/icon.png"><br>Włoski</a>
 		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_spanish" target="_extension">
-				<img src="extensions/default_spanish/image/icon.png"><br>Hiszpański</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions/install&extension=default_russian" target="_extension">
-				<img src="extensions/default_russian/image/icon.png"><br>Rosyjski</a>
-		</div>
-		<div class="col-sm-3 h5 center">
-				<a href="#admin#rt=extension/extensions_store&category_id=67&sidx=date_modified" target="_extension">
-				<img src="admin/view/default/image/default_extension.png"><br>Więcej języków</a>
-		</div>
-</div>]]></value>
+		<div class="row">
+			<div class="col-sm-12 h5 center">
+					%s
+			</div>
+		</div>]]></value>
 	</definition>
 	<definition>
 		<key>more_extensions</key>

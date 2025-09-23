@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<definitions>
+	<definition>
+		<key>default_fedex_name</key>
+		<value><![CDATA[FEDEX]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Doprava]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Úspech: Upravili ste dopravu FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_key</key>
+		<value><![CDATA[Produkčný kľúč Fedexu:<br /><span class="help">Zadajte priradený vám produkčný kľúč Fedexu, povinné.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_password</key>
+		<value><![CDATA[Produkčné heslo Fedex:<br /><span class="help"></span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_account</key>
+		<value><![CDATA[Číslo účtu:<br /><span class="help">Zadajte pridelené číslo účtu FedEx, povinné.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_meter</key>
+		<value><![CDATA[Číslo merača Fedex:<br /><span class="help">Zadajte číslo merača FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_address</key>
+		<value><![CDATA[Adresa:<br /><span class="help">Odoslanie z ulicnej adresy.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_city</key>
+		<value><![CDATA[Mesto:<br /><span class="help">Doprava z mesta.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_state</key>
+		<value><![CDATA[Štát:<br /><span class="help">Štát odoslania (dve písmená).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_zip</key>
+		<value><![CDATA[PSČ:<br /><span class="help">Doprava z PSČ.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_country</key>
+		<value><![CDATA[Krajina:<br /><span class="help">Odosielanie z krajiny (dve písmená).</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type</key>
+		<value><![CDATA[Typ ponuky:<br /><span class="help">Ponuka na doručenie na súkromnú alebo firemnú adresu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_residential</key>
+		<value><![CDATA[Rezidenčný]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_quote_type_commercial</key>
+		<value><![CDATA[Komerčný]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_add_chrg</key>
+		<value><![CDATA[Ďalšie poplatky:<br /><span class="help">Ďalší poplatok pridaný k cenovej ponuke FedEx.</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_01</key>
+		<value><![CDATA[FEDEX First Overnight]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_02</key>
+		<value><![CDATA[FEDEX Priority Overnight]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_03</key>
+		<value><![CDATA[FEDEX štandardné doručenie na nasledujúci deň]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_04</key>
+		<value><![CDATA[FEDEX druhý deň]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_05</key>
+		<value><![CDATA[FEDEX Expresný úsporný]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_default_fedex_us_06</key>
+		<value><![CDATA[FEDEX pozemná]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Upozornenie: Nemáte oprávnenie meniť dopravu FEDEX!]]></value>
+	</definition>
+	<definition>
+		<key>error_account</key>
+		<value><![CDATA[ID účtu je povinné!]]></value>
+	</definition>
+	<definition>
+		<key>error_meter</key>
+		<value><![CDATA[Vyžaduje sa ID merača FedEx!]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_note</key>
+		<value><![CDATA[Na získanie čísla merača a autorizačného kľúča musíte postupovať podľa týchto krokov:</br>
+Prejdite na <a href="http://fedex.com/us/developer" target="_blank">http://fedex.com/us/developer</a><br>
+Prihláste sa pomocou používateľského mena a hesla FedEx alebo kliknite na Registrovať sa teraz, ak ešte nemáte účet.<br>
+Kliknite na „Technické zdroje“ (vľavo).<br>
+Pod tým kliknite na „FedEx webové služby pre prepravu zásielok“.<br>
+Kliknite na „Presunúť do produkcie“ (vpravo).<br>
+Posuňte sa nadol k tlačidlu a kliknite na „Získať produkčný kľúč“.<br>
+V formulári pri otázke 1 vyberte „Nie“.<br>
+Pri otázke 2 začiarknite prvé políčko.<br>
+Pri otázke 3 vyberte „Firemný vývojár“.<br>
+Akceptujte dohodu.<br>
+Vyplňte formulár (v čísle účtu nepoužívajte pomlčky).<br>
+Číslo merača a kľúč získate okamžite. Vaše produkčné heslo vám bude zaslané e-mailom, keď dokončíte vyššie uvedené kroky.]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test</key>
+		<value><![CDATA[Testovací režim:<br /><span class="help">Použiť živý alebo testovací server brány?</span>]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_1</key>
+		<value><![CDATA[Áno]]></value>
+	</definition>
+	<definition>
+		<key>default_fedex_test_0</key>
+		<value><![CDATA[Nie]]></value>
+	</definition>
+	<definition>
+		<key>text_test_connection</key>
+		<value><![CDATA[Otestujte svoje pripojenie:<span class="help">Môžete otestovať, či API prihlasovacie údaje, ktoré ste zadali, sú správne.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_test</key>
+		<value><![CDATA[Test]]></value>
+	</definition>
+	<definition>
+		<key>text_connection_success</key>
+		<value><![CDATA[Pripojenie je úspešné a API poverenia sú správne nakonfigurované.]]></value>
+	</definition>
+	<definition>
+		<key>error_turn_extension_on</key>
+		<value><![CDATA[Chyba! Skontrolujte, či je rozšírenie zapnuté.]]></value>
+	</definition>
+</definitions>
