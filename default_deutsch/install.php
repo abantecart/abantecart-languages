@@ -49,6 +49,7 @@ $routes = [
     'text_account_history_menu'   => 'account/history',
     'text_checkout_cart_menu'     => 'checkout/cart',
     'text_checkout_shipping_menu' => 'checkout/fast_checkout',
+    'text_account_invoice_menu'   => 'account/order_details',
 ];
 
 if ($xml) {

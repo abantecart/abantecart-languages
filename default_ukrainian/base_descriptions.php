@@ -33,7 +33,7 @@ array (
       'INCH' => 
       array (
         'title' => 'Дюйм',
-        'unit' => 'в',
+        'unit' => '″',
       ),
     ),
   ),
