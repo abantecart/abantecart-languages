@@ -69,4 +69,5 @@ return array (
   66 => 'UPS Standard',
   67 => 'UPS Saver',
   68 => 'UPS Express',
+  69 => '{start} - {end} of {total}',
 );

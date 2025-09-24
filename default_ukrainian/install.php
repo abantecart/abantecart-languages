@@ -30,7 +30,6 @@ if ($query->row['language_id']) {
     return false;
 }
 
-
 $this->db->query(
     "INSERT INTO " . $this->db->table('languages') . " 
         (`name`,`code`,`locale`,`image`,`directory`,`filename`, `sort_order`, `status`)
@@ -61,24 +60,26 @@ if ($xml) {
     $storefront_menu->addLanguage($newLanguageId, $translates);
 }
 
-$countryList = (array)include(DIR_EXT . $extName . DS. 'countries_zones.php');
-foreach ($countryList['countries'] as $cid => $cName) {
+$countryList = (array)include(DIR_EXT . $extName . DS . 'countries_zones.php');
+foreach ($countryList['countries'] as $cId => $cName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('country_descriptions') . " 
             (`country_id`, `language_id`, `name`)
         VALUES 
-            (" . $cid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
+            (" . $cId . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
     );
 }
 
-foreach ($countryList['zones'] as $zid => $zoneName) {
+foreach ($countryList['zones'] as $zId => $zName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('zone_descriptions') . " 
             (`zone_id`,`language_id`, `name`)
         VALUES 
-            (" . $zid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zoneName)) . "')"
+            (" . $zId . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zName)) . "')"
     );
 }
 
-include(DIR_EXT . $extName . DS. 'base_descriptions.php');
-include(DIR_EXT . $extName . DS. 'insertBaseDescriptions.php');
+$combinedReplaces = include(DIR_EXT . $extName . DS. 'base_descriptions.php');
+if($combinedReplaces) {
+    include(DIR_EXT . $extName . DS . 'insertBaseDescriptions.php');
+}

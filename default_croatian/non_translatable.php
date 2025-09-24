@@ -74,4 +74,5 @@ return array (
   71 => 'UPS Worldwide Express Plus',
   72 => 'UPS Ground',
   73 => 'UPS Express',
+  74 => '{start} - {end} of {total}',
 );

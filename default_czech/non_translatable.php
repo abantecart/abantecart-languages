@@ -80,4 +80,6 @@ return array (
   77 => 'UPS Saver',
   78 => 'UPS Standard',
   79 => 'UPS 3 Day Select',
+  80 => 'Text:',
+  81 => '{start} - {end} of {total}',
 );

@@ -1,22 +1,5 @@
 <?php
-/*
- *   $Id$
- *
- *   AbanteCart, Ideal OpenSource Ecommerce Solution
- *   http://www.AbanteCart.com
- *
- *   Copyright © 2011-2025 Belavier Commerce LLC
- *
- *   This source file is subject to Open Software License (OSL 3.0)
- *   License details is bundled with this package in the file LICENSE.txt.
- *   It is also available at this URL:
- *   <http://www.opensource.org/licenses/OSL-3.0>
- *
- *  UPGRADE NOTE:
- *    Do not edit or add to this file if you wish to upgrade AbanteCart to newer
- *    versions in the future. If you wish to customize AbanteCart for your
- *    needs please refer to http://www.AbanteCart.com for more information.
- */
+
 
 if (!defined('DIR_CORE')) {
     header('Location: static_pages/');
@@ -31,6 +14,7 @@ $lngLocale = 'ru_RU.UTF-8,ru_RU,russian';
 $lngFlagPath = "extensions/" . $extName . "/storefront/language/" . $lngDir . "/flag.png";
 $lngSortOrder = 2; // sorting order with other languages
 $lngStatus = 0; // Status on installation of extension
+
 
 $query = $this->db->query(
     "SELECT language_id 
@@ -77,23 +61,25 @@ if ($xml) {
 }
 
 $countryList = (array)include(DIR_EXT . $extName . DS . 'countries_zones.php');
-foreach ($countryList['countries'] as $cid => $cName) {
+foreach ($countryList['countries'] as $cId => $cName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('country_descriptions') . " 
             (`country_id`, `language_id`, `name`)
         VALUES 
-            (" . $cid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
+            (" . $cId . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
     );
 }
 
-foreach ($countryList['zones'] as $zid => $zoneName) {
+foreach ($countryList['zones'] as $zId => $zName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('zone_descriptions') . " 
             (`zone_id`,`language_id`, `name`)
         VALUES 
-            (" . $zid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zoneName)) . "')"
+            (" . $zId . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zName)) . "')"
     );
 }
 
-include(DIR_EXT . $extName . DS. 'base_descriptions.php');
-include(DIR_EXT . $extName . DS. 'insertBaseDescriptions.php');
+$combinedReplaces = include(DIR_EXT . $extName . DS. 'base_descriptions.php');
+if($combinedReplaces) {
+    include(DIR_EXT . $extName . DS . 'insertBaseDescriptions.php');
+}

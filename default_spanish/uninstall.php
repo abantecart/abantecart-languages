@@ -31,14 +31,15 @@ $query = $this->db->query(
     WHERE code='" . $language_code . "' AND directory='" . $language_directory . "'"
 );
 $language_id = $query->row['language_id'];
+if ($language_id) {
 //delete menu
-$storefront_menu = new AMenu_Storefront();
-$storefront_menu->deleteLanguage($language_id);
+    $storefront_menu = new AMenu_Storefront();
+    $storefront_menu->deleteLanguage($language_id);
 
 //delete all other language related tables
-$lm = new ALanguageManager($this->registry, $language_code);
-$lm->deleteAllLanguageEntries($language_id);
-
+    $lm = new ALanguageManager($this->registry, $language_code);
+    $lm->deleteAllLanguageEntries($language_id);
+}
 //delete language
 $this->db->query("DELETE FROM " . $this->db->table("languages") . " WHERE `code`='" . $language_code . "'");
-$this->cache->remove('localization');
+$this->cache->remove('*');

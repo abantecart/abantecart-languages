@@ -99,4 +99,5 @@ return array (
   96 => 'UPS 3 Day Select',
   97 => 'UPS Saver',
   98 => 'UPS Ground',
+  99 => '2Checkout',
 );

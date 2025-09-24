@@ -1,6 +1,8 @@
 <?php
-if (! defined ( 'DIR_CORE' )) {
- header ( 'Location: static_pages/' );
+/** @noinspection SqlNoDataSourceInspection */
+
+if (!defined('DIR_CORE')) {
+    header('Location: static_pages/');
 }
 
 //before install validate it is unique
@@ -59,23 +61,25 @@ if ($xml) {
 }
 
 $countryList = (array)include(DIR_EXT . $extName . DS . 'countries_zones.php');
-foreach ($countryList['countries'] as $cid => $cName) {
+foreach ($countryList['countries'] as $cId => $cName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('country_descriptions') . " 
             (`country_id`, `language_id`, `name`)
         VALUES 
-            (" . $cid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
+            (" . $cId . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($cName)) . "')"
     );
 }
 
-foreach ($countryList['zones'] as $zid => $zoneName) {
+foreach ($countryList['zones'] as $zId => $zName) {
     $this->db->query(
         "INSERT INTO " . $this->db->table('zone_descriptions') . " 
             (`zone_id`,`language_id`, `name`)
         VALUES 
-            (" . $zid . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zoneName)) . "')"
+            (" . $zId . "," . $newLanguageId . ",'" . $this->db->escape(htmlspecialchars($zName)) . "')"
     );
 }
 
-include(DIR_EXT . $extName . DS. 'base_descriptions.php');
-include(DIR_EXT . $extName . DS. 'insertBaseDescriptions.php');
+$combinedReplaces = include(DIR_EXT . $extName . DS. 'base_descriptions.php');
+if($combinedReplaces) {
+    include(DIR_EXT . $extName . DS . 'insertBaseDescriptions.php');
+}
