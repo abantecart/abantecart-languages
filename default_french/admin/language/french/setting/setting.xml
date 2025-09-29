@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>column_store_alias</key>
-		<value><![CDATA[Magasin]]></value>
+		<value><![CDATA[Boutique]]></value>
 	</definition>
 	<definition>
 		<key>column_group</key>
@@ -14,7 +14,7 @@
 	</definition>
 	<definition>
 		<key>column_key</key>
-		<value><![CDATA[Clé]]></value>
+		<value><![CDATA[Clef]]></value>
 	</definition>
 	<definition>
 		<key>column_value</key>
@@ -22,7 +22,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Succès : Vous avez enregistré vos paramètres avec succès !]]></value>
+		<value><![CDATA[Succès : vos paramètres ont été enregistrés avec succès !]]></value>
 	</definition>
 	<definition>
 		<key>text_image_manager</key>
@@ -34,7 +34,7 @@
 	</definition>
 	<definition>
 		<key>text_default</key>
-		<value><![CDATA[Par défaut]]></value>
+		<value><![CDATA[Défaut]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_store_settings</key>
@@ -42,11 +42,11 @@
 	</definition>
 	<definition>
 		<key>text_edit_template_settings</key>
-		<value><![CDATA[Modifier les paramètres du modèle :]]></value>
+		<value><![CDATA[Modifier les paramètres du template :]]></value>
 	</definition>
 	<definition>
 		<key>text_common_template_settings</key>
-		<value><![CDATA[Sélection du modèle]]></value>
+		<value><![CDATA[Sélection du Template]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_store</key>
@@ -54,19 +54,19 @@
 	</definition>
 	<definition>
 		<key>text_mail</key>
-		<value><![CDATA[Messagerie interne]]></value>
+		<value><![CDATA[Mailer interne]]></value>
 	</definition>
 	<definition>
 		<key>text_smtp</key>
-		<value><![CDATA[Protocole simple de transfert de courrier]]></value>
+		<value><![CDATA[SMTP]]></value>
 	</definition>
 	<definition>
 		<key>text_native</key>
-		<value><![CDATA[Natif (binaire sendmail et options du paramètre "sendmail_path" dans php.ini)]]></value>
+		<value><![CDATA[Natif (fichier exécutable sendmail et paramètre "sendmail_path" dans le fichier php.ini)]]></value>
 	</definition>
 	<definition>
 		<key>text_dsn</key>
-		<value><![CDATA[Prendre depuis system/config.php]]></value>
+		<value><![CDATA[Extraire les informations de system/config.php]]></value>
 	</definition>
 	<definition>
 		<key>text_dsn_description</key>
@@ -74,11 +74,11 @@
 	</definition>
 	<definition>
 		<key>tab_all</key>
-		<value><![CDATA[Tout]]></value>
+		<value><![CDATA[Tous]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
-		<value><![CDATA[Nom du magasin :]]></value>
+		<value><![CDATA[Nom de la boutique :]]></value>
 	</definition>
 	<definition>
 		<key>entry_url</key>
@@ -94,7 +94,7 @@
 	</definition>
 	<definition>
 		<key>entry_email</key>
-		<value><![CDATA[Courriel:]]></value>
+		<value><![CDATA[E-mail :]]></value>
 	</definition>
 	<definition>
 		<key>entry_alert_emails</key>
@@ -134,7 +134,7 @@
 	</definition>
 	<definition>
 		<key>entry_admin_template</key>
-		<value><![CDATA[Modèle du panneau de contrôle :]]></value>
+		<value><![CDATA[Modèle de panneau de contrôle :]]></value>
 	</definition>
 	<definition>
 		<key>entry_country</key>
@@ -190,19 +190,19 @@
 	</definition>
 	<definition>
 		<key>entry_tax</key>
-		<value><![CDATA[Afficher les prix TTC :]]></value>
+		<value><![CDATA[Afficher les prix avec taxes :]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_store</key>
-		<value><![CDATA[Taux de taxe par défaut de la boutique :]]></value>
+		<value><![CDATA[Taux de taxe par défaut pour la boutique :]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_store_0</key>
-		<value><![CDATA[Aucune taxe]]></value>
+		<value><![CDATA[Pas de taxe]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_store_1</key>
-		<value><![CDATA[Zone par défaut du magasin]]></value>
+		<value><![CDATA[Zone par défaut de la boutique]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_customer</key>
@@ -411,7 +411,7 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 	</definition>
 	<definition>
 		<key>entry_download_status</key>
-		<value><![CDATA[Statut de la commande pour téléchargement :<br /><span class="help">Définissez le statut que doit atteindre la commande du client avant qu’il ne soit autorisé à accéder à ses produits téléchargeables.</span>]]></value>
+		<value><![CDATA[État de la commande de téléchargement :<br /><span class="help">Définissez le statut de commande que la commande du client doit atteindre avant de pouvoir accéder aux produits téléchargeables.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_mail_transporting</key>
@@ -475,7 +475,7 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 	</definition>
 	<definition>
 		<key>entry_error_log</key>
-		<value><![CDATA[Consigner les erreurs :<br /><span class="help">Réglez sur oui si vous souhaitez consigner les exceptions et les erreurs dans le journal</span>]]></value>
+		<value><![CDATA[Journaliser les erreurs :<br /><span class="help">Cochez « Oui » si vous souhaitez enregistrer les exceptions et les erreurs dans le journal.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_enable_reviews</key>

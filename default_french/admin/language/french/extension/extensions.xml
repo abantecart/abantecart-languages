@@ -54,11 +54,11 @@
 	</definition>
 	<definition>
 		<key>column_id</key>
-		<value><![CDATA[Identifiant d’extension]]></value>
+		<value><![CDATA[ID de l'extension]]></value>
 	</definition>
 	<definition>
 		<key>column_required</key>
-		<value><![CDATA[Requis]]></value>
+		<value><![CDATA[Obligatoire]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -94,11 +94,11 @@
 	</definition>
 	<definition>
 		<key>error_required_field</key>
-		<value><![CDATA[Erreur : veuillez fournir les champs requis. Rien n’a été mis à jour !]]></value>
+		<value><![CDATA[Erreur : Veuillez remplir les champs obligatoires. Aucune mise à jour ! ]]></value>
 	</definition>
 	<definition>
 		<key>error_payment_uninstall</key>
-		<value><![CDATA[Attention : désactivez l’extension avant la désinstallation !]]></value>
+		<value><![CDATA[Attention : désactivez l'extension avant de la désinstaller !]]></value>
 	</definition>
 	<definition>
 		<key>error_uninstall</key>
@@ -114,15 +114,15 @@
 	</definition>
 	<definition>
 		<key>text_extensions_store</key>
-		<value><![CDATA[Obtenir les extensions]]></value>
+		<value><![CDATA[Obtenir des extensions]]></value>
 	</definition>
 	<definition>
 		<key>text_required</key>
-		<value><![CDATA[Obligatoire]]></value>
+		<value><![CDATA[Requise]]></value>
 	</definition>
 	<definition>
 		<key>text_optional</key>
-		<value><![CDATA[Facultatif]]></value>
+		<value><![CDATA[Facultative]]></value>
 	</definition>
 	<definition>
 		<key>text_add_new</key>
@@ -130,7 +130,7 @@
 	</definition>
 	<definition>
 		<key>text_search</key>
-		<value><![CDATA[Recherche]]></value>
+		<value><![CDATA[Chercher]]></value>
 	</definition>
 	<definition>
 		<key>text_search_for_extension</key>
@@ -138,7 +138,7 @@
 	</definition>
 	<definition>
 		<key>text_missing_extension</key>
-		<value><![CDATA[Extension %s : impossible de localiser la source ! Veuillez supprimer l’extension et visiter le fournisseur de l’extension pour obtenir la source complète et l’installer à nouveau.]]></value>
+		<value><![CDATA["Extension %s : source introuvable ! Veuillez la supprimer et consulter le fournisseur de l'extension pour obtenir la source complète et la réinstaller.  "]]></value>
 	</definition>
 	<definition>
 		<key>text_broken_extension</key>
@@ -154,15 +154,15 @@
 	</definition>
 	<definition>
 		<key>text_error_in_ajax</key>
-		<value><![CDATA[Erreur lors de l'appel Ajax]]></value>
+		<value><![CDATA[Erreur dans l'appel ajax]]></value>
 	</definition>
 	<definition>
 		<key>text_saved</key>
-		<value><![CDATA[Enregistré]]></value>
+		<value><![CDATA[Sauvegarder]]></value>
 	</definition>
 	<definition>
 		<key>text_save</key>
-		<value><![CDATA[Enregistrer]]></value>
+		<value><![CDATA[Sauvegardé]]></value>
 	</definition>
 	<definition>
 		<key>text_reset</key>
@@ -198,11 +198,11 @@
 	</definition>
 	<definition>
 		<key>text_visit_repository</key>
-		<value><![CDATA[Veuillez visiter le dépôt d’extensions</a> pour télécharger l’extension]]></value>
+		<value><![CDATA[Veuillez visiter le référentiel d'extensions</a> pour télécharger l'extension]]></value>
 	</definition>
 	<definition>
 		<key>text_license</key>
-		<value><![CDATA[Licence]]></value>
+		<value><![CDATA[License]]></value>
 	</definition>
 	<definition>
 		<key>text_dependency</key>
@@ -250,7 +250,7 @@
 	</definition>
 	<definition>
 		<key>additional_settings_confirm</key>
-		<value><![CDATA[Pour configurer des paramètres supplémentaires de l’extension d’une autre boutique, vous devez vous connecter au panneau de contrôle sur un autre nom de domaine. D’accord ?]]></value>
+		<value><![CDATA[Pour définir des paramètres supplémentaires pour l'extension d'une autre boutique, vous devez vous connecter au panneau de configuration sur un autre nom de domaine. D'accord ? ]]></value>
 	</definition>
 	<definition>
 		<key>error_no_help_file</key>
@@ -286,7 +286,7 @@
 	</definition>
 	<definition>
 		<key>text_discount</key>
-		<value><![CDATA[Remise]]></value>
+		<value><![CDATA[Rabais]]></value>
 	</definition>
 	<definition>
 		<key>text_confirm_disable_dependants</key>
@@ -298,7 +298,8 @@
 	</definition>
 	<definition>
 		<key>text_sort_order</key>
-		<value><![CDATA[Ordre d'exécution :<span class="help">Nombre permettant de définir l'ordre d'affichage pour cette extension par rapport aux autres extensions activées. (Le tri se fait du nombre le plus bas au plus élevé, en ignorant 0 et les valeurs vides)</span>]]></value>
+		<value>
+			<![CDATA[Ordre d'exécution :<span class="help">Numéro permettant de définir l'ordre d'affichage de cette extension par rapport aux autres extensions activées. (Le tri s'effectue du plus petit au plus grand nombre, sans tenir compte des valeurs nulles et vides.) </span>]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_minimum_total</key>
@@ -306,7 +307,7 @@
 	</definition>
 	<definition>
 		<key>text_payment_maximum_total</key>
-		<value><![CDATA[Montant total maximum de la commande:<span class="help">Montant maximal de la commande devant être atteint pour interdire ce moyen de paiement</span>]]></value>
+		<value><![CDATA[Montant total maximum de la commande :<span class="help">Montant maximum de commande à atteindre pour refuser ce paiement</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_payment_storefront_icon</key>
@@ -314,7 +315,7 @@
 	</definition>
 	<definition>
 		<key>text_shipping_storefront_icon</key>
-		<value><![CDATA[Icône de la vitrine:<span class="help">Icône de livraison à afficher lors de la sélection d’expédition à la caisse</span>]]></value>
+		<value><![CDATA[Icône de vitrine :<span class="help">Icône d'expédition à afficher lors de la sélection d'expédition à la caisse</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_autoselect_payment</key>
@@ -322,7 +323,7 @@
 	</definition>
 	<definition>
 		<key>text_autoselect_shipping</key>
-		<value><![CDATA[Auto Select:<span class="help">Simplifie le processus de commande en choisissant automatiquement un mode de livraison lorsque plusieurs options sont disponibles.</span>]]></value>
+		<value><![CDATA[Sélection automatique :<span class="help">Simplifie le processus de paiement en choisissant automatiquement un mode de livraison lorsque plusieurs options sont disponibles.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_accept_payments_shipping</key>
@@ -366,7 +367,7 @@
 	</definition>
 	<definition>
 		<key>button_cancel</key>
-		<value><![CDATA[Annuler]]></value>
+		<value><![CDATA[Abandonner]]></value>
 	</definition>
 	<definition>
 		<key>error_could_not_load_config</key>
@@ -374,7 +375,7 @@
 	</definition>
 	<definition>
 		<key>error_could_not_load_override</key>
-		<value><![CDATA[Erreur : Impossible de charger le modèle de surcharge %s dans l’extension %s !]]></value>
+		<value><![CDATA[Erreur : impossible de charger le modèle de remplacement %s dans l’extension %s !]]></value>
 	</definition>
 	<definition>
 		<key>tab_general</key>
@@ -398,7 +399,7 @@
 	</definition>
 	<definition>
 		<key>button_get_support</key>
-		<value><![CDATA[Obtenir de l’assistance]]></value>
+		<value><![CDATA[Obtenir de l'aide]]></value>
 	</definition>
 	<definition>
 		<key>text_min_volume</key>
