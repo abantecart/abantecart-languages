@@ -17,28 +17,12 @@
 		<value><![CDATA[Klucz licencyjny:<br /><span class="help">Klucz licencyjny dostarczony przez Avalara</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[Adres URL usługi:<br /><span class="help">URL usługi Avalara (środowisko produkcyjne lub deweloperskie)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Nazwa podatku:<br /><span class="help">Nazwa podatku wyświetlana klientowi w sekcji podsumowania</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Kod firmy:<br /><span class="help">Kod firmy do użycia z Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Kod pocztowy/kod pocztowy sklepu:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -67,10 +51,6 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Połączenie jest udane, a dane uwierzytelniające API zostały poprawnie skonfigurowane.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Test połączenia:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -175,5 +155,13 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Włącz rejestrowanie transakcji]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Tryb testowy:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Test połączenia:]]></value>
 	</definition>
 </definitions>

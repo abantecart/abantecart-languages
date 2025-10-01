@@ -20,28 +20,12 @@ Tärkeää! Avatax Integration Total -laajennuksen laskentajärjestyksen laajenn
 		<value><![CDATA[Lisenssiavain:<br /><span class="help">Avalaran toimittama lisenssiavain</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[Palvelun URL:<br /><span class="help">Avalara-palvelun URL (tuotanto- tai kehitysympäristö)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Veron nimi:<br /><span class="help">Veron nimi, joka näytetään asiakkaalle yhteenveto-osiossa</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Yrityskoodi:<br /><span class="help">Yrityskoodi, jota käytetään Avalaran kanssa</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Myymälän ZIP/postinumero:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -70,10 +54,6 @@ Tärkeää! Avatax Integration Total -laajennuksen laskentajärjestyksen laajenn
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Yhteys onnistui ja API-tunnistetiedot on määritetty oikein.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Testaa yhteys:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -178,5 +158,13 @@ Tärkeää! Avatax Integration Total -laajennuksen laskentajärjestyksen laajenn
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Ota tapahtumien lokitus käyttöön]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Testitila:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Testaa yhteys:]]></value>
 	</definition>
 </definitions>

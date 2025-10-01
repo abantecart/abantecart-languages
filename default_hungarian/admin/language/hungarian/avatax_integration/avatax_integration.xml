@@ -20,28 +20,12 @@ Fontos! Az Avatax Integration Total kiterjesztés összegszámítási sorrendjé
 		<value><![CDATA[Licenckulcs:<br /><span class="help">Az Avalara által biztosított licenckulcs</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[Szolgáltatási URL:<br /><span class="help">Avalara szolgáltatási URL (éles vagy fejlesztői)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Adónév:<br /><span class="help">Az adó neve, amely a végösszeg-szakaszban jelenik meg a vásárlónál</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Vállalati kód:<br /><span class="help">Avalara használatához használandó vállalati kód</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Bolt ZIP/Postal irányítószám:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -70,10 +54,6 @@ Fontos! Az Avatax Integration Total kiterjesztés összegszámítási sorrendjé
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[A kapcsolat sikeres, és az API-hitelesítő adatok helyesen vannak konfigurálva.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Kapcsolat tesztelése:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -178,5 +158,13 @@ Fontos! Az Avatax Integration Total kiterjesztés összegszámítási sorrendjé
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Tranzakciónaplózás engedélyezése]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Teszt mód:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Kapcsolat tesztelése:]]></value>
 	</definition>
 </definitions>

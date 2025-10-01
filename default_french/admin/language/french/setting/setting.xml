@@ -1026,10 +1026,6 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 		<value><![CDATA[Logo e-mail par défaut:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Modèle Regex de validation de téléphone :]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Commande crontab sous Linux <span class="help">Run command crontab -e with the same Linux user running a web server for the AbanteCart. In the editor add the command</span>]]></value>
 	</definition>
@@ -1060,5 +1056,9 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Autoriser les clients qui reviennent à naviguer :<br /><span class="help">Les clients non authentifiés revenant sur le site pourront parcourir les produits, les ajouter au panier et à la liste de souhaits.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Expression régulière de validation de numéro de téléphone :]]></value>
 	</definition>
 </definitions>

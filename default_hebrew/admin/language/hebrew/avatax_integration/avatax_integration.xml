@@ -20,28 +20,12 @@
 		<value><![CDATA[מפתח רישיון:<br /><span class="help">מפתח רישיון שסופק על ידי Avalara</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[כתובת ה-URL של השירות:<br /><span class="help">כתובת ה-URL של שירות Avalara (חי או פיתוח)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[שם המס:<br /><span class="help">שם המס שיוצג ללקוח בסעיף הסכומים</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[קוד החברה:<br /><span class="help">קוד החברה שיש להשתמש בו עם Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[מיקוד/מיקוד דואר של החנות:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -70,10 +54,6 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[החיבור הצליח ואישורי ה-API הוגדרו כראוי.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[בדוק את החיבור:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -178,5 +158,13 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[הפעל רישום עסקאות]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[מצב בדיקה:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[בדיקת חיבור:]]></value>
 	</definition>
 </definitions>

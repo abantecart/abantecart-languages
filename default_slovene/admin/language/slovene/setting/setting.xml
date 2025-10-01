@@ -1026,10 +1026,6 @@ Omogoča prikaz nadrejenih in podrejenih tipov v enem prikazu skrbniških mrež.
 		<value><![CDATA[Privzeti e-poštni logotip:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex vzorec za preverjanje telefonske številke:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Ukaz crontab v Linuxu <span class="help">Zaženite ukaz crontab -e z istim Linux uporabnikom, ki poganja spletni strežnik za AbanteCart. V urejevalnik dodajte ukaz</span>]]></value>
 	</definition>
@@ -1060,5 +1056,9 @@ Omogoča prikaz nadrejenih in podrejenih tipov v enem prikazu skrbniških mrež.
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Dovoli vračajočim se strankam brskanje:<br /><span class="help">Neprijavljene stranke, ki se vrnejo na spletno stran, bodo lahko brskale po izdelkih, jih dodale v košarico in dodale na seznam želja.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Vzorec regularnega izraza za preverjanje telefonske številke:]]></value>
 	</definition>
 </definitions>

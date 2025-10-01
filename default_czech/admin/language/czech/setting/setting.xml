@@ -1025,10 +1025,6 @@
 		<value><![CDATA[Výchozí e-mailové logo:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Vzorec regulárního výrazu pro ověření telefonního čísla:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Linuxový příkaz crontab <span class="help">Spusťte příkaz crontab -e pod stejným uživatelem Linuxu, který provozuje webový server pro AbanteCart. V editoru přidejte příkaz</span>]]></value>
 	</definition>
@@ -1059,5 +1055,9 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Povolit vracejícím se zákazníkům prohlížet:<br /><span class="help">Neautentizovaní zákazníci vracející se na webu budou moci prohlížet produkty, přidávat do košíku a do seznamu přání.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex vzorec pro ověření telefonu:]]></value>
 	</definition>
 </definitions>

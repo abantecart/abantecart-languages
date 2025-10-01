@@ -1021,10 +1021,6 @@
 		<value><![CDATA[Standard e-postlogo:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex-mønster for telefonvalidering:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab Linux-kommando <span class="help">Kjør kommandoen crontab -e med samme Linux-bruker som kjører en webserver for AbanteCart. Legg til kommandoen i editoren</span>]]></value>
 	</definition>
@@ -1059,5 +1055,9 @@
 	<definition>
 		<key>entry_download_status</key>
 		<value><![CDATA[Ordrestatus for nedlasting:<br /><span class="help">Angi hvilken ordrestatus kundens bestilling må nå før de får tilgang til sine nedlastbare produkter.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex-mønster for telefonvalidering:]]></value>
 	</definition>
 </definitions>

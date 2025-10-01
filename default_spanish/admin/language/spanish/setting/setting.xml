@@ -990,10 +990,6 @@ imagen</span>]]></value>
 		<value><![CDATA[Logotipo de correo electrónico predeterminado:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Patrón de expresiones regulares de validación de teléfono:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab en el comando de Linux <span class="help">Ejecute el comando crontab -e con el mismo usuario de Linux que ejecuta un servidor web para AbanteCart. En el editor agregue el comando</span>]]></value>
 	</definition>
@@ -1067,5 +1063,9 @@ imagen</span>]]></value>
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Permitir a los clientes que regresan navegar:<br /><span class="help">Los clientes no autenticados que regresan al sitio podrán navegar por los productos, añadir al carrito y a la lista de deseos.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Patrón Regex de validación de teléfono:]]></value>
 	</definition>
 </definitions>

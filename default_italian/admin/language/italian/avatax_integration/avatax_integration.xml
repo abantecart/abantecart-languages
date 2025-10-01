@@ -17,28 +17,12 @@
 		<value><![CDATA[Chiave di licenza:<br /><span class="help">Chiave di licenza fornita da Avalara</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[URL di servizio:<br /><span class="help">URL di servizio Avalara (produzione o sviluppo)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Nome imposta:<br /><span class="help">Nome dell'imposta da mostrare al cliente nella sezione dei totali</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Codice azienda:<br /><span class="help">Codice azienda da utilizzare con Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Codice ZIP/CAP del negozio:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -67,10 +51,6 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[La connessione è avvenuta con successo e le credenziali API sono state configurate correttamente.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Test di connessione:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -175,5 +155,13 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Abilita la registrazione delle transazioni]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Modalità di test:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Test connessione:]]></value>
 	</definition>
 </definitions>

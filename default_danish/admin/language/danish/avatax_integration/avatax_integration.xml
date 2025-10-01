@@ -17,28 +17,12 @@
 		<value><![CDATA[Licensnøgle: <br/><span class="help">licensnøgler leveret af Avalara</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[Tjeneste-URL: <br/><span class="help">Avalara-tjeneste-URL (live eller udvikling)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Skattenavn: <br/><span class="help">Skattenavn, der skal vises til kunden i totalsektionen</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Firmakode: <br/><span class="help">Firmakode, der skal bruges med Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Butiks postnummer:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -67,10 +51,6 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Forbindelsen er vellykket, og API-legitimationsoplysninger er konfigureret korrekt.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Test forbindelse:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -175,5 +155,13 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Aktiver transaktionslogning]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Testtilstand:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Test forbindelse:]]></value>
 	</definition>
 </definitions>

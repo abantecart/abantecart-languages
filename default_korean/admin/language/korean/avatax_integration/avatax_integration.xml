@@ -20,28 +20,12 @@
 		<value><![CDATA[라이선스 키:<br /><span class="help">Avalara에서 제공한 라이선스 키</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[서비스 URL:<br /><span class="help">Avalara 서비스 URL (실제 또는 개발)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[세금 이름:<br /><span class="help">합계 섹션에서 고객에게 표시될 세금 이름</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[회사 코드:<br /><span class="help">Avalara에 사용할 회사 코드</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[상점 ZIP/우편번호:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -70,10 +54,6 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[연결이 성공했으며 API 자격 증명이 올바르게 구성되었습니다.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[연결 테스트:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -178,5 +158,13 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[거래 기록 활성화]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[테스트 모드:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[연결 테스트:]]></value>
 	</definition>
 </definitions>

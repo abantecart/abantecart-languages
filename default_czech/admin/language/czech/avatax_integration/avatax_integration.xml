@@ -20,28 +20,12 @@ Důležité! Pořadí výpočtu rozšíření Avatax Integration Total v součte
 		<value><![CDATA[Licenční klíč:<br /><span class="help">Licenční klíč poskytnutý Avalarou</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[URL služby:<br /><span class="help">URL služby Avalara (produkční nebo vývojové)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Název daně:<br /><span class="help">Název daně, který se zobrazí zákazníkovi v sekci souhrnu</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Kód společnosti:<br /><span class="help">Kód společnosti pro použití s Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[PSČ/poštovní směrovací číslo obchodu:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -70,10 +54,6 @@ Důležité! Pořadí výpočtu rozšíření Avatax Integration Total v součte
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Připojení je úspěšné a přihlašovací údaje API jsou správně nakonfigurovány.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Test připojení:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -178,5 +158,13 @@ Důležité! Pořadí výpočtu rozšíření Avatax Integration Total v součte
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Povolit protokolování transakcí]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Testovací režim:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Test připojení:]]></value>
 	</definition>
 </definitions>

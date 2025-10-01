@@ -1026,10 +1026,6 @@ Speichert Versandangebote in der Session, um unnötiges erneutes Anfragen zu ver
 		<value><![CDATA[Standard-E-Mail-Logo:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex-Muster zur Telefonvalidierung:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab im Linux-Kommando <span class="help">Führen Sie den Befehl crontab -e mit demselben Linux-Benutzer aus, der den Webserver für AbanteCart betreibt. Fügen Sie im Editor den Befehl hinzu</span>]]></value>
 	</definition>
@@ -1060,5 +1056,9 @@ Speichert Versandangebote in der Session, um unnötiges erneutes Anfragen zu ver
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Ermöglichen Sie wiederkehrenden Kunden das Stöbern:<br /><span class="help">Nicht authentifizierte Kunden, die auf die Seite zurückkehren, können Produkte durchsuchen, in den Warenkorb legen und zur Wunschliste hinzufügen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex-Muster zur Telefonvalidierung:]]></value>
 	</definition>
 </definitions>

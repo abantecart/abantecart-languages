@@ -17,28 +17,12 @@
 		<value><![CDATA[Clave de licencia:<br /><span class="help">Clave de licencia proporcionada por Avalara</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[URL del servicio:<br /><span class="help">URL del servicio de Avalara (producción o desarrollo)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Nombre del impuesto:<br /><span class="help">Nombre del impuesto que se mostrará al cliente en la sección de totales</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Código de la empresa:<br /><span class="help">Código de la empresa para usar con Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Código ZIP/código postal de la tienda:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -67,10 +51,6 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[La conexión ha sido exitosa y las credenciales de la API están configuradas correctamente.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Prueba de conexión:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -175,5 +155,13 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Habilitar registro de transacciones]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Modo de prueba:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Probar conexión:]]></value>
 	</definition>
 </definitions>

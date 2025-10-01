@@ -984,10 +984,6 @@
 		<value><![CDATA[Logo email predefinito:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Pattern Regex di convalida del telefono:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Comando Crontab in Linux <span class="help">Esegui il comando crontab -e con lo stesso utente Linux che esegue un server web per AbanteCart. Nell&#39;editor aggiungi il comando</span>]]></value>
 	</definition>
@@ -1061,5 +1057,9 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Consenti ai clienti che tornano di navigare:<br /><span class="help">I clienti non autenticati che tornano sul sito potranno sfogliare i prodotti, aggiungerli al carrello e alla lista dei desideri.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Espressione regolare di convalida del telefono:]]></value>
 	</definition>
 </definitions>

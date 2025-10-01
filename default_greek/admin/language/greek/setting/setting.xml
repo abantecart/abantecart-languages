@@ -1026,10 +1026,6 @@
 		<value><![CDATA[Προεπιλεγμένο Λογότυπο Ηλεκτρονικού Ταχυδρομείου:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Πρότυπο Regex Επικύρωσης Τηλεφώνου:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Εντολή crontab σε Linux <span class="help">Εκτελέστε την εντολή crontab -e με τον ίδιο χρήστη Linux που τρέχει τον διακομιστή ιστού για το AbanteCart. Στον επεξεργαστή προσθέστε την εντολή</span>]]></value>
 	</definition>
@@ -1060,5 +1056,9 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Επιτρέψτε στους επιστρέφοντες πελάτες να περιηγούνται:<br /><span class="help">Οι μη αυθεντικοποιημένοι πελάτες που επιστρέφουν στον ιστότοπο θα μπορούν να περιηγούνται σε προϊόντα, να τα προσθέτουν στο καλάθι και στη λίστα επιθυμιών.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Πρότυπο Regex Επαλήθευσης Τηλεφώνου:]]></value>
 	</definition>
 </definitions>

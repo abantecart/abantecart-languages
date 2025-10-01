@@ -1026,10 +1026,6 @@ Add meg azoknak az IP-címeknek a listáját (vesszővel elválasztva), amelyek 
 		<value><![CDATA[Alapértelmezett e-mail logó:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Telefon érvényesítő regex minta:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab parancs Linuxon <span class="help">Futtassa a crontab -e parancsot ugyanazzal a Linux felhasználóval, amely az AbanteCart webszervert futtatja. A szerkesztőben adja hozzá a parancsot</span>]]></value>
 	</definition>
@@ -1060,5 +1056,9 @@ Add meg azoknak az IP-címeknek a listáját (vesszővel elválasztva), amelyek 
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Engedélyezze a visszatérő vásárlóknak a böngészést:<br /><span class="help">Az oldalra visszatérő, bejelentkezés nélküli vásárlók böngészhetik a termékeket, hozzáadhatják azokat a kosárba és a kívánságlistára.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Telefonszám-érvényesítő regex-minta:]]></value>
 	</definition>
 </definitions>

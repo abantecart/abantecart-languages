@@ -1021,10 +1021,6 @@
 		<value><![CDATA[Zadani logotip e-pošte:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex obrazac za provjeru valjanosti telefonskog broja:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Naredba crontab u Linuxu <span class="help">Pokrenite naredbu crontab -e s istim Linux korisnikom koji pokreće web poslužitelj za AbanteCart. U uređivaču dodajte naredbu</span>]]></value>
 	</definition>
@@ -1059,5 +1055,9 @@
 	<definition>
 		<key>entry_maintenance</key>
 		<value><![CDATA[Maintenance Mode:<br /><span class="help">Onemogućuje kupcima pregledavanje vaše trgovine. Oni će umjesto toga vidjeti poruku o održavanju. Ako ste prijavljeni kao administrator, trgovinu ćete vidjeti kao i obično.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regularni izraz za validaciju telefonskog broja:]]></value>
 	</definition>
 </definitions>

@@ -20,28 +20,12 @@ Importante! A ordem de cálculo de Avatax Integration Total nos totais de extens
 		<value><![CDATA[Chave de Licença:<br /><span class="help">Chave de licença fornecida pela Avalara</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[URL do serviço:<br /><span class="help">URL do serviço Avalara (produção ou desenvolvimento)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Nome do Imposto:<br /><span class="help">Nome do imposto a ser exibido ao cliente na seção de totais</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Código da Empresa:<br /><span class="help">Código da empresa a ser usado com a Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[CEP/Código Postal da Loja:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -70,10 +54,6 @@ Importante! A ordem de cálculo de Avatax Integration Total nos totais de extens
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[A conexão foi bem-sucedida e as credenciais da API estão configuradas corretamente.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Testar conexão:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -178,5 +158,13 @@ Importante! A ordem de cálculo de Avatax Integration Total nos totais de extens
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Ativar registro de transações]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Modo de teste:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Teste de conexão:]]></value>
 	</definition>
 </definitions>

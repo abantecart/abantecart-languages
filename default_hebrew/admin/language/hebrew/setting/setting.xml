@@ -1025,10 +1025,6 @@
 		<value><![CDATA[לוגו דוא"ל ברירת מחדל:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[תבנית Regex לאימות טלפון:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[פקודת crontab בלינוקס <span class="help">הפעל את הפקודה crontab -e עם אותו משתמש לינוקס שמפעיל את שרת האינטרנט של AbanteCart. בעורך, הוסף את הפקודה</span>]]></value>
 	</definition>
@@ -1059,5 +1055,9 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[אפשר ללקוחות חוזרים לדפדף:<br /><span class="help">לקוחות שאינם מאומתים החוזרים לאתר יוכלו לדפדף במוצרים, להוסיף לעגלת הקניות ולרשימת המשאלות.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[תבנית Regex לאימות מספר טלפון:]]></value>
 	</definition>
 </definitions>

@@ -984,10 +984,6 @@
 		<value><![CDATA[Логотип электронной почты по умолчанию:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Шаблон регулярного выражения проверки телефона:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab в команде Linux <span class="help">Выполните команду crontab -e с тем же пользователем Linux, который запускает веб-сервер для AbanteCart. В редакторе добавляем команду</span>]]></value>
 	</definition>
@@ -1061,5 +1057,9 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Разрешить возвращающимся клиентам просматривать:<br /><span class="help">Неавторизованные клиенты, возвращающиеся на сайт, смогут просматривать товары, добавлять их в корзину и в список желаемого.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Шаблон регулярного выражения для проверки номера телефона:]]></value>
 	</definition>
 </definitions>

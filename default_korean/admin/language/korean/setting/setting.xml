@@ -1027,10 +1027,6 @@
 		<value><![CDATA[기본 이메일 로고:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[전화 유효성 검사 정규식 패턴:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[리눅스의 Crontab 명령어 <span class="help">AbanteCart 웹 서버를 실행 중인 동일한 리눅스 사용자로 crontab -e 명령을 실행하세요. 편집기에 다음 명령을 추가합니다</span>]]></value>
 	</definition>
@@ -1061,5 +1057,9 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[재방문 고객이 상품을 둘러볼 수 있도록 허용:<br /><span class="help">로그인하지 않은 재방문 고객은 상품을 둘러보고, 장바구니에 추가하며, 위시리스트에 담을 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[전화번호 유효성 검사 정규식 패턴:]]></value>
 	</definition>
 </definitions>

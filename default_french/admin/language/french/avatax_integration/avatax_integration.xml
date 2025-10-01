@@ -17,28 +17,12 @@
 		<value><![CDATA[Clé de licence:<br /><span class="help">Clé de licence fournie par Avalara</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[URL du service:<br /><span class="help">URL du service Avalara (production ou développement)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Nom de la taxe :<br /><span class="help">Nom de la taxe à afficher au client dans la section des totaux</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Code de l'entreprise :<br /><span class="help">Code de l'entreprise à utiliser avec Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Code ZIP/postal du magasin :]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -67,10 +51,6 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[La connexion est réussie et les identifiants API sont correctement configurés.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Test de connexion :]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -175,5 +155,13 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Activer la journalisation des transactions]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Mode test :]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Test de connexion :]]></value>
 	</definition>
 </definitions>

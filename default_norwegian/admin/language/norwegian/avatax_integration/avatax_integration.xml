@@ -20,28 +20,12 @@ Viktig! Beregningsrekkefølgen for Avatax Integration Total i utvidelsenes total
 		<value><![CDATA[Lisensnøkkel:<br /><span class="help">Lisensnøkkel levert av Avalara</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[Tjeneste-URL:<br /><span class="help">Avalara tjeneste-URL (produksjon eller utvikling)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Navn på avgift:<br /><span class="help">Navn på avgiften som vises for kunden i totalsseksjonen</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Firmakode:<br /><span class="help">Firmakode som skal brukes med Avalara</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Butikkens ZIP/postnummer:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -70,10 +54,6 @@ Viktig! Beregningsrekkefølgen for Avatax Integration Total i utvidelsenes total
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Tilkoblingen er vellykket og API-legitimasjonene er korrekt konfigurert.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Test tilkobling:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -178,5 +158,13 @@ Viktig! Beregningsrekkefølgen for Avatax Integration Total i utvidelsenes total
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Aktiver transaksjonslogging]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Testmodus:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Test tilkobling:]]></value>
 	</definition>
 </definitions>

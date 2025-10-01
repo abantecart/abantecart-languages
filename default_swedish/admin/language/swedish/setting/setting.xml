@@ -1027,10 +1027,6 @@ Aktivera den här inställningen om du vill kontrollera systemets skick med avse
 		<value><![CDATA[Standard e-postlogotyp:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex-mönster för telefonvalidering:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab i Linux-kommando <span class="help">Kör kommandot crontab -e med samma Linux-användare som kör webbservern för AbanteCart. Lägg till kommandot i editorn</span>]]></value>
 	</definition>
@@ -1061,5 +1057,9 @@ Aktivera den här inställningen om du vill kontrollera systemets skick med avse
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Tillåt återkommande kunder att bläddra:<br /><span class="help">Ej autentiserade kunder som återvänder till webbplatsen kommer att kunna bläddra bland produkter, lägga till i varukorgen och på önskelistan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regexmönster för telefonvalidering:]]></value>
 	</definition>
 </definitions>

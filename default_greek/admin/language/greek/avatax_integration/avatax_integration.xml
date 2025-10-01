@@ -17,28 +17,12 @@
 		<value><![CDATA[Κλειδί άδειας:<br /><span class="help">Κλειδί άδειας που παρέχεται από την Αβαλάρα</span>]]></value>
 	</definition>
 	<definition>
-		<key>avatax_integration_service_url</key>
-		<value><![CDATA[URL υπηρεσίας:<br /><span class="help">URL υπηρεσίας Avalara (σε ζωντανό ή αναπτυξιακό περιβάλλον)</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://avatax.avalara.net</key>
-		<value><![CDATA[https://avatax.avalara.net]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_service_url_https://development.avalara.net</key>
-		<value><![CDATA[https://development.avalara.net]]></value>
-	</definition>
-	<definition>
 		<key>avatax_integration_tax_name</key>
 		<value><![CDATA[Όνομα Φόρου:<br /><span class="help">Το όνομα του φόρου που θα εμφανίζεται στον πελάτη στην ενότητα συνολικών</span>]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_company_code</key>
 		<value><![CDATA[Κωδικός Εταιρείας:<br /><span class="help">Κωδικός εταιρείας που θα χρησιμοποιηθεί με Αβαλάρα</span>]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_postal_code</key>
-		<value><![CDATA[Ταχυδρομικός κώδικας καταστήματος:]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -67,10 +51,6 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Η σύνδεση είναι επιτυχής και τα διαπιστευτήρια API έχουν ρυθμιστεί σωστά.]]></value>
-	</definition>
-	<definition>
-		<key>text_test_connection</key>
-		<value><![CDATA[Δοκιμή σύνδεσης:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -175,5 +155,13 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Ενεργοποίηση καταγραφής συναλλαγών]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Λειτουργία δοκιμής:]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Δοκιμή σύνδεσης:]]></value>
 	</definition>
 </definitions>

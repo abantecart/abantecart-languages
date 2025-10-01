@@ -1025,10 +1025,6 @@
 		<value><![CDATA[Логотип електронної пошти за замовчуванням:]]></value>
 	</definition>
 	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Шаблон регулярного виразу для перевірки номера телефону:]]></value>
-	</definition>
-	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Команда Crontab у Linux <span class="help">Запустіть команду crontab -e під тим же користувачем Linux, що запускає веб-сервер AbanteCart. У редакторі додайте команду</span>]]></value>
 	</definition>
@@ -1059,5 +1055,9 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Дозволити клієнтам, що повертаються, переглядати:<br /><span class="help">Неверифіковані клієнти, які повертаються на сайт, зможуть переглядати товари, додавати їх до кошика та списку бажань.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Шаблон регулярного виразу для перевірки телефону:]]></value>
 	</definition>
 </definitions>
