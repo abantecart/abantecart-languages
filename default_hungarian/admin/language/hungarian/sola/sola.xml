@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>sola_name</key>
+		<value><![CDATA[Sola]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_key</key>
+		<value><![CDATA[Tranzakciós kulcs (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_token</key>
+		<value><![CDATA[Tranzakciós token (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>sola_test</key>
+		<value><![CDATA[Teszt mód]]></value>
+	</definition>
+	<definition>
+		<key>sola_success_order_status</key>
+		<value><![CDATA[Rendelés állapota:<br /><span class="help">A rendelés állapotát a vásárló rendelésének befejezése után a beállított tranzakciós módszer alapján kell beállítani.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id</key>
+		<value><![CDATA[Helyszín:<br /><span class="help">Korlátozza, hogy csak a kiválasztott helyszínek használhassák ezt a fizetési módot.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id_0</key>
+		<value><![CDATA[Összes helyszín]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method</key>
+		<value><![CDATA[Tranzakció módja:<br /><span class="help">Sola tranzakció fusson le a vásárló pénztáránál, mielőtt a rendelés állapota beállításra kerül. Csak engedélyezés vagy terhelés.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_capture</key>
+		<value><![CDATA[Rögzítés]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_authorization</key>
+		<value><![CDATA[Csak engedélyezés]]></value>
+	</definition>
+	<definition>
+		<key>sola_ifields_key</key>
+		<value><![CDATA[iFields kulcs]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_pending_authorization</key>
+		<value><![CDATA[Függőben lévő engedélyezés]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_funds</key>
+		<value><![CDATA[Pénzeszközök lekérése]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture</key>
+		<value><![CDATA[Rögzítés]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_payment_status</key>
+		<value><![CDATA[Fizetési állapot]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_success</key>
+		<value><![CDATA[Siker! A pénzeszközöket sikeresen lekötötték.]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_processing</key>
+		<value><![CDATA[Feldolgozás]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_do_refund</key>
+		<value><![CDATA[Hajtsa végre a Sola-visszatérítést:<span class="help">Megadhatja a visszatérítendő összeget.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refunded</key>
+		<value><![CDATA[Visszatérítve]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund</key>
+		<value><![CDATA[Visszatérítés]]></value>
+	</definition>
+	<definition>
+		<key>sola_refund_title</key>
+		<value><![CDATA[Sola Visszatérítés]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund_success</key>
+		<value><![CDATA[Siker! A rendelés visszatérítése sikeresen megtörtént.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_empty_amount</key>
+		<value><![CDATA[Hiba! Az összeg helytelen.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_payment_method_data</key>
+		<value><![CDATA[Hiba! Ehhez a rendeléshez nincs fizetési mód adata.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_order_id</key>
+		<value><![CDATA[Hiba! Nincs rendelésazonosító.]]></value>
+	</definition>
+</definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -9,12 +9,32 @@
 		<value><![CDATA[Producto]]></value>
 	</definition>
 	<definition>
+		<key>text_edit_product_file</key>
+		<value><![CDATA[Editar archivo de producto]]></value>
+	</definition>
+	<definition>
 		<key>tab_files</key>
 		<value><![CDATA[Archivos]]></value>
 	</definition>
 	<definition>
+		<key>tab_general</key>
+		<value><![CDATA[General]]></value>
+	</definition>
+	<definition>
+		<key>tab_attributes</key>
+		<value><![CDATA[Descarga Atributos]]></value>
+	</definition>
+	<definition>
 		<key>entry_file_icon</key>
 		<value><![CDATA[Icono del archivo]]></value>
+	</definition>
+	<definition>
+		<key>entry_status</key>
+		<value><![CDATA[Estado]]></value>
+	</definition>
+	<definition>
+		<key>entry_resource</key>
+		<value><![CDATA[ Recursos]]></value>
 	</definition>
 	<definition>
 		<key>entry_name</key>
@@ -45,12 +65,24 @@
 		<value><![CDATA[Estado]]></value>
 	</definition>
 	<definition>
+		<key>entry_also_mapped_to</key>
+		<value><![CDATA[Compartido con]]></value>
+	</definition>
+	<definition>
 		<key>entry_file_push_to_customers</key>
 		<value><![CDATA[Empujar a los clientes]]></value>
 	</definition>
 	<definition>
 		<key>entry_file_activation</key>
 		<value><![CDATA[Modo de Activación]]></value>
+	</definition>
+	<definition>
+		<key>text_add_file</key>
+		<value><![CDATA[Agregar archivo]]></value>
+	</definition>
+	<definition>
+		<key>text_new_file</key>
+		<value><![CDATA[Añadir Nuevo Archivo]]></value>
 	</definition>
 	<definition>
 		<key>text_download_attributes</key>
@@ -193,6 +225,10 @@
 		<value><![CDATA[Empuje Descargar para %s Órdenes]]></value>
 	</definition>
 	<definition>
+		<key>success_push_to_orders</key>
+		<value><![CDATA[éxito: Descargar fue empujado a %s pedido(s) exitosamente]]></value>
+	</definition>
+	<definition>
 		<key>text_no_download_attributes_yet</key>
 		<value><![CDATA[ Sin descargas atribuye todavía. <a href="%s" target="_blank">Haga clic para agregar</a>]]></value>
 	</definition>
@@ -217,43 +253,7 @@
 		<value><![CDATA[Vas a editar descarga compartida. Editar afectará a otros productos.]]></value>
 	</definition>
 	<definition>
-		<key>text_edit_product_file</key>
-		<value><![CDATA[Editar archivo de producto]]></value>
-	</definition>
-	<definition>
-		<key>tab_general</key>
-		<value><![CDATA[General]]></value>
-	</definition>
-	<definition>
-		<key>tab_attributes</key>
-		<value><![CDATA[Descarga Atributos]]></value>
-	</definition>
-	<definition>
-		<key>entry_status</key>
-		<value><![CDATA[Estado]]></value>
-	</definition>
-	<definition>
-		<key>entry_resource</key>
-		<value><![CDATA[ Recursos]]></value>
-	</definition>
-	<definition>
-		<key>text_add_file</key>
-		<value><![CDATA[Agregar archivo]]></value>
-	</definition>
-	<definition>
-		<key>text_new_file</key>
-		<value><![CDATA[Añadir Nuevo Archivo]]></value>
-	</definition>
-	<definition>
-		<key>success_push_to_orders</key>
-		<value><![CDATA[éxito: Descargar fue empujado a %s pedido(s) exitosamente]]></value>
-	</definition>
-	<definition>
 		<key>text_shared_with</key>
 		<value><![CDATA[Compartido con:]]></value>
-	</definition>
-	<definition>
-		<key>entry_also_mapped_to</key>
-		<value><![CDATA[Compartido con]]></value>
 	</definition>
 </definitions>

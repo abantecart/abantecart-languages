@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -49,6 +49,10 @@
 		<value><![CDATA[Stato]]></value>
 	</definition>
 	<definition>
+		<key>column_publish_date</key>
+		<value><![CDATA[Data di pubblicazione]]></value>
+	</definition>
+	<definition>
 		<key>column_action</key>
 		<value><![CDATA[Azione]]></value>
 	</definition>
@@ -81,6 +85,34 @@
 		<value><![CDATA[Ordine:]]></value>
 	</definition>
 	<definition>
+		<key>entry_publish_date</key>
+		<value><![CDATA[Data di pubblicazione:]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_date</key>
+		<value><![CDATA[Data di scadenza:]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_bar</key>
+		<value><![CDATA[Barra dei dettagli del contenuto: <br/><span class="help">Abilita questa impostazione per mostrare la barra con l&#39;autore e la data di pubblicazione sulla pagina del contenuto</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_title</key>
+		<value><![CDATA[Mostra il titolo del contenuto:<br /><span class="help">Abilita questa impostazione per mostrare il titolo nella pagina del contenuto</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Immagine o icona principale:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tags</key>
+		<value><![CDATA[Tag di contenuto: <br/><span class="help">elenco separato da virgole</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_author</key>
+		<value><![CDATA[Autore:]]></value>
+	</definition>
+	<definition>
 		<key>error_permission</key>
 		<value><![CDATA[ATTENZIONE: Non si dispone dell'autorizzazione per modificare il contenuto!]]></value>
 	</definition>
@@ -89,8 +121,16 @@
 		<value><![CDATA[Il titolo del contenuto deve avere da 2 e 64 caratteri!]]></value>
 	</definition>
 	<definition>
+		<key>error_title_html</key>
+		<value><![CDATA[Il titolo del contenuto non può contenere tag HTML!]]></value>
+	</definition>
+	<definition>
 		<key>error_description</key>
 		<value><![CDATA[La descrizione deve avere più di 1 carattere!]]></value>
+	</definition>
+	<definition>
+		<key>error_description_html</key>
+		<value><![CDATA[Descrizione del contenuto I tag HTML non sono supportati!]]></value>
 	</definition>
 	<definition>
 		<key>error_content</key>
@@ -107,6 +147,11 @@
 	<definition>
 		<key>error_checkout</key>
 		<value><![CDATA[ATTENZIONE: Il contenuto non può essere eliminato, in quanto è attualmente assegnato come termini di pagamento e spedizione predefiniti per il negozio!]]></value>
+	</definition>
+	<definition>
+		<key>error_delete_parent</key>
+		<value><![CDATA[
+ Attenzione: i contenuti padre non possono essere eliminati! Sposta o elimina prima le pagine dei contenuti figlio.]]></value>
 	</definition>
 	<definition>
 		<key>error_required_data</key>
@@ -131,47 +176,6 @@
 	<definition>
 		<key>entry_meta_keywords</key>
 		<value><![CDATA[Parole chiave meta tag:]]></value>
-	</definition>
-	<definition>
-		<key>column_publish_date</key>
-		<value><![CDATA[Data di pubblicazione]]></value>
-	</definition>
-	<definition>
-		<key>entry_publish_date</key>
-		<value><![CDATA[Data di pubblicazione:]]></value>
-	</definition>
-	<definition>
-		<key>entry_expire_date</key>
-		<value><![CDATA[Data di scadenza:]]></value>
-	</definition>
-	<definition>
-		<key>entry_content_bar</key>
-		<value><![CDATA[Barra dei dettagli del contenuto: <br/><span class="help">Abilita questa impostazione per mostrare la barra con l&#39;autore e la data di pubblicazione sulla pagina del contenuto</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_icon</key>
-		<value><![CDATA[Immagine o icona principale:]]></value>
-	</definition>
-	<definition>
-		<key>entry_tags</key>
-		<value><![CDATA[Tag di contenuto: <br/><span class="help">elenco separato da virgole</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_author</key>
-		<value><![CDATA[Autore:]]></value>
-	</definition>
-	<definition>
-		<key>error_title_html</key>
-		<value><![CDATA[Il titolo del contenuto non può contenere tag HTML!]]></value>
-	</definition>
-	<definition>
-		<key>error_description_html</key>
-		<value><![CDATA[Descrizione del contenuto I tag HTML non sono supportati!]]></value>
-	</definition>
-	<definition>
-		<key>error_delete_parent</key>
-		<value><![CDATA[
- Attenzione: i contenuti padre non possono essere eliminati! Sposta o elimina prima le pagine dei contenuti figlio.]]></value>
 	</definition>
 	<definition>
 		<key>text_clone</key>

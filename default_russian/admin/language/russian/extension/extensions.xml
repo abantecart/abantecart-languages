@@ -105,6 +105,10 @@
 		<value><![CDATA[Внимание: Деинсталлируйте расширение перед удалением!]]></value>
 	</definition>
 	<definition>
+		<key>text_save_success</key>
+		<value><![CDATA[Успех: Вы изменили настройки расширения!]]></value>
+	</definition>
+	<definition>
 		<key>text_restore_success</key>
 		<value><![CDATA[Успешно: Вы восстановили настройки расширения по умолчанию!]]></value>
 	</definition>
@@ -313,6 +317,16 @@
 		<value><![CDATA[Изображение на витрине:<span class="help">Изображение доставки для отображения в процессе заказа в разделе выбора доставки</span>]]></value>
 	</definition>
 	<definition>
+		<key>text_autoselect_payment</key>
+		<value><![CDATA[
+ Автоматический выбор: <span class="help">оптимизирует процесс оформления заказа, автоматически выбирая способ оплаты, когда доступно несколько вариантов.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_autoselect_shipping</key>
+		<value><![CDATA[
+ Автоматический выбор: <span class="help">оптимизирует процесс оформления заказа, автоматически выбирая способ доставки, когда доступно несколько вариантов.</span>]]></value>
+	</definition>
+	<definition>
 		<key>text_accept_payments_shipping</key>
 		<value><![CDATA[Разрешенные методы оплаты:<br /><span class="help">Выбрать конкретные способы оплаты необходимые для данного способа доставки. Если ничего не выбрано, все доступные способы оплаты будут показаны</span>]]></value>
 	</definition>
@@ -377,10 +391,6 @@
 		<value><![CDATA[Больше расширений доступно для легкой установки.]]></value>
 	</definition>
 	<definition>
-		<key>text_save_success</key>
-		<value><![CDATA[Успех: Вы изменили настройки расширения!]]></value>
-	</definition>
-	<definition>
 		<key>text_support_expiration</key>
 		<value><![CDATA[Поддержка активна до]]></value>
 	</definition>
@@ -419,16 +429,6 @@
 	<definition>
 		<key>text_max_order_subtotal</key>
 		<value><![CDATA[Максимальная промежуточная сумма заказа: <span class="help">введите максимальную промежуточную сумму заказа для варианта доставки, доступного для клиента. Это поле является необязательным.</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_autoselect_payment</key>
-		<value><![CDATA[
- Автоматический выбор: <span class="help">оптимизирует процесс оформления заказа, автоматически выбирая способ оплаты, когда доступно несколько вариантов.</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_autoselect_shipping</key>
-		<value><![CDATA[
- Автоматический выбор: <span class="help">оптимизирует процесс оформления заказа, автоматически выбирая способ доставки, когда доступно несколько вариантов.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_customer_groups</key>

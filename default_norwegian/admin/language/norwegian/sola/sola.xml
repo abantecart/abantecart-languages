@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>sola_name</key>
+		<value><![CDATA[Sola]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_key</key>
+		<value><![CDATA[Transaksjonsnøkkel (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_token</key>
+		<value><![CDATA[Transaksjonstoken (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>sola_test</key>
+		<value><![CDATA[Testmodus]]></value>
+	</definition>
+	<definition>
+		<key>sola_success_order_status</key>
+		<value><![CDATA[Order Status:<br /><span class="help">Ordrestatus som skal settes etter at kundens bestilling er fullført basert på angitt transaksjonsmetode</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id</key>
+		<value><![CDATA[Sted:<br /><span class="help">Begrens slik at kun valgte steder kan bruke denne betalingsmetoden.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id_0</key>
+		<value><![CDATA[Alle lokasjoner]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method</key>
+		<value><![CDATA[Transaksjonsmetode:<br /><span class="help">Sola-transaksjon som kjøres i kundens kasse før ordrestatus er satt. Kun autorisering eller belastning.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_capture</key>
+		<value><![CDATA[Inndriving]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_authorization</key>
+		<value><![CDATA[Kun autorisasjon]]></value>
+	</definition>
+	<definition>
+		<key>sola_ifields_key</key>
+		<value><![CDATA[iFields nøkkel]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_pending_authorization</key>
+		<value><![CDATA[Venter på autorisasjon]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_funds</key>
+		<value><![CDATA[Innhent midler]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture</key>
+		<value><![CDATA[Inndriv]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_payment_status</key>
+		<value><![CDATA[Betalingsstatus]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_success</key>
+		<value><![CDATA[Suksess! Midlene har blitt trukket.]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_processing</key>
+		<value><![CDATA[Under behandling]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_do_refund</key>
+		<value><![CDATA[Utfør Sola-refusjon:<span class="help">Du kan oppgi beløpet som skal refunderes.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refunded</key>
+		<value><![CDATA[Refundert]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund</key>
+		<value><![CDATA[Refusjon]]></value>
+	</definition>
+	<definition>
+		<key>sola_refund_title</key>
+		<value><![CDATA[Sola Refusjon]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund_success</key>
+		<value><![CDATA[Suksess! Bestillingen er tilbakebetalt.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_empty_amount</key>
+		<value><![CDATA[Feil! Beløpet er feil.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_payment_method_data</key>
+		<value><![CDATA[Feil! Det finnes ingen betalingsmetodedata for denne ordren.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_order_id</key>
+		<value><![CDATA[Feil! Det er ingen ordre-ID.]]></value>
+	</definition>
+</definitions>

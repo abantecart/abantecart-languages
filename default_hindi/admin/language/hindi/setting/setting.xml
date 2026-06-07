@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -447,7 +447,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">यह मान उस समय अंतराल (मिनटों में) को नियंत्रित करता है, जिसके बाद बिना किसी गतिविधि के आपको पुनः लॉगिन करने के लिए कहा जाएगा।</span>]]></value>
+		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">यह मान उस समयांतराल (मिनटों में) को नियंत्रित करता है जिसके बाद कोई गतिविधि न होने पर आपको पुनः लॉगिन करने के लिए कहा जाएगा। कठोर निष्क्रिय टाइमआउट व्यवहार के लिए, कीप लॉन्ग सेशन को अक्षम करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[लंबा सत्र बनाए रखें:<br /><span class="help">प्रशासन अधिसूचनाओं और प्रणाली जाँच के लिए नियमित पृष्ठभूमि अनुरोध सक्षम करें। सक्रिय सत्र के विस्तार को रोकने के लिए पृष्ठभूमि रिफ्रेश को अक्षम करें। इस सेटिंग को बदलने के बाद, आपको एक बार पुनः-लॉग इन करने का संकेत मिल सकता है।</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -816,7 +820,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API कुंजी (Google मैप्स सक्षम करने के लिए):<br /><span class="help">आप नक्शे पर पता देख सकते हैं। Google मैप्स को सक्षम करने के लिए अपनी Google मैप्स API कुंजी जोड़ें <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google प्रमाण-पत्र पृष्ठ</a>।</span>]]></value>
+		<value><![CDATA[Google Maps एवं Places API कुंजी:<br /><span class="help">अपने Google Maps एवं Places API कुंजी दर्ज करें ताकि नक्शे पर पते दिख सकें और स्टोरफ़्रंट पते के फ़ॉर्म में पता स्वतः पूर्ण हो सके। यह कुंजी स्टोरफ़्रंट पृष्ठों पर उपयोग की जाती है और क्लाइंट-साइड पर प्रदर्शित होती है, इसलिए इसे Google Cloud Console में अनुमत डोमेन और/या IP पते द्वारा सीमित करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Address Autocomplete (Google Places):<br /><span class="help">स्टोरफ़्रंट पता फॉर्म में Google Places API पता स्वतः पूर्ण को सक्षम या अक्षम करें। इसके लिए Google API Key की आवश्यकता है।</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -887,6 +895,10 @@
 		<value><![CDATA[यह मान आपके php.ini निर्देश %s (<=%s) से अधिक नहीं हो सकता]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[निष्क्रिय समय समाप्ति अपेक्षित रूप से काम करती है जब <b>लंबा सत्र बनाए रखें</b> बंद हो।]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Order प्रारंभ संख्या:<br /><span class="help">उस प्रारंभिक संख्या को सेट करें जिससे ऑर्डर शुरू होंगे.</span>]]></value>
 	</definition>
@@ -909,10 +921,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[दुकान का मुखपृष्ठ]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[प्रशासक]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1027,6 +1035,10 @@
 		<value><![CDATA[डिफ़ॉल्ट ईमेल लोगो:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[फ़ोन प्रमाणीकरण रेगेक्स पैटर्न:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Linux में Crontab कमांड <span class="help">AbanteCart के लिए वेब सर्वर चलाने वाले उसी Linux उपयोगकर्ता के साथ crontab -e कमांड चलाएँ। संपादक में कमांड जोड़ें।</span>]]></value>
 	</definition>
@@ -1057,9 +1069,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Allow returning customers to browse:<br /><span class="help">अप्रमाणित ग्राहक जो साइट पर लौट रहे हैं, उत्पाद ब्राउज़ कर सकेंगे, कार्ट में जोड़ सकेंगे, और विशलिस्ट कर सकेंगे।</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[फ़ोन प्रमाणीकरण रेगेक्स पैटर्न:]]></value>
 	</definition>
 </definitions>

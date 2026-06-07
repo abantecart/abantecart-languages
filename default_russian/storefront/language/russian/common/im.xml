@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>im_text_notification</key>
@@ -45,6 +45,10 @@
 		<value><![CDATA[ Новый клиент #%s был зарегистрирован!]]></value>
 	</definition>
 	<definition>
+		<key>im_new_subscriber_text_to_admin</key>
+		<value><![CDATA[ Зарегистрирован Новый Подписчик %s !]]></value>
+	</definition>
+	<definition>
 		<key>im_sendpoint_name_customer_account_update</key>
 		<value><![CDATA[ Обновление учетной записи]]></value>
 	</definition>
@@ -55,6 +59,18 @@
 	<definition>
 		<key>im_customer_account_update_text_to_customer</key>
 		<value><![CDATA[ Ваш аккаунт был обновлен!]]></value>
+	</definition>
+	<definition>
+		<key>im_customer_account_update_email_to_customer</key>
+		<value><![CDATA[ Ваш адрес электронной почты был изменен на %s! Если это сделали не Вы, пожалуйста обратитесь к владельцу сайта.]]></value>
+	</definition>
+	<definition>
+		<key>im_customer_account_update_login_to_customer</key>
+		<value><![CDATA[ Ваше имя учетной записи почты было изменено на %s! Если это сделали не Вы, пожалуйста обратитесь к владельцу сайта.]]></value>
+	</definition>
+	<definition>
+		<key>im_customer_account_update_password_to_customer</key>
+		<value><![CDATA[	Ваш пароль учетной записи был изменен! Если это сделали не Вы, пожалуйста обратитесь к владельцу сайта.]]></value>
 	</definition>
 	<definition>
 		<key>im_customer_contact_admin_text</key>
@@ -75,21 +91,5 @@
 	<definition>
 		<key>im_product_out_of_stock_admin_text</key>
 		<value><![CDATA[ Продукта с ID #%s нет в наличии.]]></value>
-	</definition>
-	<definition>
-		<key>im_customer_account_update_email_to_customer</key>
-		<value><![CDATA[ Ваш адрес электронной почты был изменен на %s! Если это сделали не Вы, пожалуйста обратитесь к владельцу сайта.]]></value>
-	</definition>
-	<definition>
-		<key>im_customer_account_update_login_to_customer</key>
-		<value><![CDATA[ Ваше имя учетной записи почты было изменено на %s! Если это сделали не Вы, пожалуйста обратитесь к владельцу сайта.]]></value>
-	</definition>
-	<definition>
-		<key>im_customer_account_update_password_to_customer</key>
-		<value><![CDATA[	Ваш пароль учетной записи был изменен! Если это сделали не Вы, пожалуйста обратитесь к владельцу сайта.]]></value>
-	</definition>
-	<definition>
-		<key>im_new_subscriber_text_to_admin</key>
-		<value><![CDATA[ Зарегистрирован Новый Подписчик %s !]]></value>
 	</definition>
 </definitions>

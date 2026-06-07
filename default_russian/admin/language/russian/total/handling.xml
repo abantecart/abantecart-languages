@@ -21,8 +21,24 @@
 		<value><![CDATA[Сумма заказа:]]></value>
 	</definition>
 	<definition>
+		<key>entry_total_placeholder</key>
+		<value><![CDATA[Текстовое Значение]]></value>
+	</definition>
+	<definition>
 		<key>entry_fee</key>
 		<value><![CDATA[Взнос:]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment_fee</key>
+		<value><![CDATA[Комиссия:<span class="help">Комиссия будет добавлена к заказу если минимальная сумма не достигнута. Это значение перезаписывает ставку основной комиссии</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_payment</key>
+		<value><![CDATA[Оплата:]]></value>
+	</definition>
+	<definition>
+		<key>entry_order_subtotal</key>
+		<value><![CDATA[Под-итог:]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax</key>
@@ -47,25 +63,5 @@
 	<definition>
 		<key>error_number</key>
 		<value><![CDATA[Предупреждение: Общая сумма заказа и Плата за обработку заказа должны быть числами!]]></value>
-	</definition>
-	<definition>
-		<key>entry_total_placeholder</key>
-		<value><![CDATA[Текстовое Значение]]></value>
-	</definition>
-	<definition>
-		<key>entry_payment</key>
-		<value><![CDATA[Оплата:]]></value>
-	</definition>
-	<definition>
-		<key>entry_order_subtotal</key>
-		<value><![CDATA[Под-итог:]]></value>
-	</definition>
-	<definition>
-		<key>entry_total_placeholder</key>
-		<value><![CDATA[Текстовое Значение]]></value>
-	</definition>
-	<definition>
-		<key>entry_payment_fee</key>
-		<value><![CDATA[Комиссия:<span class="help">Комиссия будет добавлена к заказу если минимальная сумма не достигнута. Это значение перезаписывает ставку основной комиссии</span>]]></value>
 	</definition>
 </definitions>

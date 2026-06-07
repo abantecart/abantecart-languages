@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -61,6 +61,18 @@
 		<value><![CDATA[SMTP]]></value>
 	</definition>
 	<definition>
+		<key>text_native</key>
+		<value><![CDATA[Nativo ( binario sendmail e opzioni &quot;sendmail_path&quot; impostazione di php.ini)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[Prendi da system/config.php]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[Mailer combina un <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> dal file config.php. Si prega di leggere <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">la nostra documentazione</a> per i dettagli]]></value>
+	</definition>
+	<definition>
 		<key>tab_all</key>
 		<value><![CDATA[Tutti]]></value>
 	</definition>
@@ -87,6 +99,11 @@
 	<definition>
 		<key>entry_alert_emails</key>
 		<value><![CDATA[Ulteriori avvisi E-Mails:<br /><span class="help">Ogni email aggiuntiva che si desidera ricevere come e-mail di avviso, oltre alla e-mail del negozio principale. (separate dalla virgola)</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[
+ Le e-mail di avviso devono essere valide e separate da virgole!]]></value>
 	</definition>
 	<definition>
 		<key>entry_telephone</key>
@@ -241,6 +258,10 @@
 		<value><![CDATA[Stato dell'ordine:<br /><span class="help">Imposta lo stato dell'ordine predefinito quando un ordine viene elaborato.</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_customer_cancelation_order_status</key>
+		<value><![CDATA[Lasciare clienti di revoca per lo stato:]]></value>
+	</definition>
+	<definition>
 		<key>entry_stock_display</key>
 		<value><![CDATA[Mostra Stock:<br /><span class="help">Mostra la quantità rimanete dello Stock nella pagina del prodotto.</span>]]></value>
 	</definition>
@@ -259,6 +280,10 @@
 	<definition>
 		<key>entry_logo</key>
 		<value><![CDATA[Logo del negozio:]]></value>
+	</definition>
+	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[Logo e-mail:]]></value>
 	</definition>
 	<definition>
 		<key>entry_icon</key>
@@ -307,6 +332,14 @@
 	<definition>
 		<key>entry_image_category_height</key>
 		<value><![CDATA[Altezza dell'elenco della categoria:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_width</key>
+		<value><![CDATA[Marca Icona Lista Larghezza:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_height</key>
+		<value><![CDATA[Marca Icona Lista Altezza:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_product</key>
@@ -381,6 +414,16 @@
 		<value><![CDATA[Download dello stato dell'ordine:<br /><span class="help">Impostare lo stato dell'ordine per i clienti, prima del download.</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[
+ Trasporto Posta:]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[
+ Mailer utilizza il binario sendmail e le opzioni configurate nell&#39;impostazione sendmail_path di php.ini.]]></value>
+	</definition>
+	<definition>
 		<key>entry_smtp_host</key>
 		<value><![CDATA[SMTP Host:<br /><span class="help">Utilizza ssl://smtp.mionegozio.com per la connessione sicura smtp]]></value>
 	</definition>
@@ -406,7 +449,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Termine della sessione del pannello di controllo:<br /><span class="help">Questo valore controlla l'intervallo di tempo in minuti prima che si venga disconnessi a causa di innattività.</span>]]></value>
+		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">Questo valore determina l’intervallo di tempo in minuti prima che ti venga chiesto di accedere nuovamente a causa di inattività. Per un comportamento rigoroso di timeout di inattività, disabilita Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Mantieni sessione prolungata:<br /><span class="help">Abilita richieste periodiche in background per le notifiche di amministrazione e i controlli di sistema. Disabilita questa opzione per evitare che l’aggiornamento in background estenda la sessione attiva. Dopo aver modificato questa impostazione, potresti vedere un messaggio di richiesta di nuovo accesso una sola volta.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -557,6 +604,10 @@
 		<value><![CDATA[Numero di voci nel Blocco Speciale ]]></value>
 	</definition>
 	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[Numero di elementi nei blocchi di contenuto ]]></value>
+	</definition>
+	<definition>
 		<key>entry_cart_weight</key>
 		<value><![CDATA[Mostra il peso nella pagina del carrello:<br /><span class="help">Mostra il peso del carrello nella pagina del carrello.</span>]]></value>
 	</definition>
@@ -599,6 +650,10 @@
 	<definition>
 		<key>entry_total_order_minimum</key>
 		<value><![CDATA[Ordine minimo:<br /><span class="help">Impedire il pagamento se il totale parziale dell'ordine non raggiunge l'importo minimo. 0 = NIENTE MINIMO</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_system_check</key>
+		<value><![CDATA[Controllo di Sistema:<br /><span class="help">Attivare questa impostazione se si desidera controllare il vostro stato del sistema in relazione alla funzionalità AbanteCart. Problemi di sistema che riguardano AbanteCart saranno segnalati come messaggi visibili in admin.</span>]]></value>
 	</definition>
 	<definition>
 		<key>button_add_store</key>
@@ -655,6 +710,10 @@
 	<definition>
 		<key>error_image_category</key>
 		<value><![CDATA[Le dimensioni della lista categoria sono richieste!]]></value>
+	</definition>
+	<definition>
+		<key>error_image_manufacturer</key>
+		<value><![CDATA[Marca Elenco Icona dimensioni formato richiesto!]]></value>
 	</definition>
 	<definition>
 		<key>error_image_product</key>
@@ -757,6 +816,31 @@
 		<value><![CDATA[Coupon sulla pagina del carrello:<br /><span class="help">Consentono ai clienti di inserire il codice coupon e vedono sconto nel carrello.</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_google_analytics</key>
+		<value><![CDATA[
+ ID tag Google Analytics 4: <br/><span class="help">Aggiungi il tuo <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">ID tag Google Analytics</a> per abilitare il monitoraggio dell&#39;attività del sito. Ciò consente anche il monitoraggio delle attività di e-commerce. Devi abilitare il monitoraggio dell&#39;e-commerce in google nella pagina delle impostazioni del profilo per il tuo sito web</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Chiave API di Google Maps e Places:<br /><span class="help">Inserisci la tua chiave API di Google Maps e Places per visualizzare gli indirizzi sulla mappa e abilitare il completamento automatico dell'indirizzo nei moduli di indirizzo del negozio. Questa chiave è utilizzata nelle pagine del negozio e viene esposta lato client, quindi limitane l'uso ai dominio(s) e/o indirizzo IP autorizzati nella Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Address Autocomplete (Google Places):<br /><span class="help">Abilita o disabilita il completamento automatico degli indirizzi con Google Places API nei moduli di indirizzo del negozio. Richiede una chiave API Google.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[Limite prodotti visualizzati:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[Larghezza immagine prodotti visualizzati:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[Altezza immagine prodotti visualizzati:]]></value>
+	</definition>
+	<definition>
 		<key>entry_ssl_url</key>
 		<value><![CDATA[Sicuro Store URL:<br /><span class="help">Include the full SSL URL(HTTPS) to your store. Make sure to add '/' at the end. Example: https://www.yourdomain.com/path/</span>]]></value>
 	</definition>
@@ -771,6 +855,10 @@
 	<definition>
 		<key>text_clone_template</key>
 		<value><![CDATA[Modello clone con strumenti per sviluppatori AbanteCart]]></value>
+	</definition>
+	<definition>
+		<key>text_set_template</key>
+		<value><![CDATA[Impostare questo modello (template) per il piccolo ufficio]]></value>
 	</definition>
 	<definition>
 		<key>entry_embed_status</key>
@@ -793,18 +881,6 @@
 		<value><![CDATA[Apri una nuova pagina nella stessa finestra]]></value>
 	</definition>
 	<definition>
-		<key>entry_customer_cancelation_order_status</key>
-		<value><![CDATA[Lasciare clienti di revoca per lo stato:]]></value>
-	</definition>
-	<definition>
-		<key>entry_system_check</key>
-		<value><![CDATA[Controllo di Sistema:<br /><span class="help">Attivare questa impostazione se si desidera controllare il vostro stato del sistema in relazione alla funzionalità AbanteCart. Problemi di sistema che riguardano AbanteCart saranno segnalati come messaggi visibili in admin.</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_set_template</key>
-		<value><![CDATA[Impostare questo modello (template) per il piccolo ufficio]]></value>
-	</definition>
-	<definition>
 		<key>entry_account_create_captcha</key>
 		<value><![CDATA[Captcha sul creare la forma conto:<br /><span class="help">Prevenire la creazione di account spam / robot con abilitazione captcha verifica umana</span>]]></value>
 	</definition>
@@ -819,6 +895,10 @@
 	<definition>
 		<key>text_setting_php_exceed</key>
 		<value><![CDATA[Questo valore non può superare il direttiva php.ini %s (<=%s) ]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Il timeout di inattività funziona come previsto quando <b>Keep Long Session</b> è disattivato.]]></value>
 	</definition>
 	<definition>
 		<key>entry_start_order_id</key>
@@ -878,29 +958,8 @@
 		<value><![CDATA[Queste impostazioni sono per i messaggi istantanei inviati automaticamente durante gli eventi AbanteCart in vetrina e admin.]]></value>
 	</definition>
 	<definition>
-		<key>entry_image_manufacturer_width</key>
-		<value><![CDATA[Marca Icona Lista Larghezza:]]></value>
-	</definition>
-	<definition>
-		<key>entry_image_manufacturer_height</key>
-		<value><![CDATA[Marca Icona Lista Altezza:]]></value>
-	</definition>
-	<definition>
-		<key>error_image_manufacturer</key>
-		<value><![CDATA[Marca Elenco Icona dimensioni formato richiesto!]]></value>
-	</definition>
-	<definition>
 		<key>entry_task_api_key</key>
 		<value><![CDATA[Compiti API chiave: <br/><span class="help"> Si tratta di una chiave segreta per permettere AbanteCart per eseguire i processi in programma dal browser con file di /task.php. Se non è impostata, compiti non verrà eseguito tramite browser <br/> NOTA:.. Questo API Key non è richiesta per l'esecuzione di compiti di riga di comando </span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_logo</key>
-		<value><![CDATA[Logo e-mail:]]></value>
-	</definition>
-	<definition>
-		<key>entry_google_analytics</key>
-		<value><![CDATA[
- ID tag Google Analytics 4: <br/><span class="help">Aggiungi il tuo <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">ID tag Google Analytics</a> per abilitare il monitoraggio dell&#39;attività del sito. Ciò consente anche il monitoraggio delle attività di e-commerce. Devi abilitare il monitoraggio dell&#39;e-commerce in google nella pagina delle impostazioni del profilo per il tuo sito web</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_duplicate_contact_us</key>
@@ -967,11 +1026,6 @@
 		<value><![CDATA[Colore di riempimento per il ridimensionamento dell&#39;immagine <br/><span class="help">Colore che verrà riempito in aree vuote durante il ridimensionamento dell&#39;immagine dal rettangolo al quadrato</span>]]></value>
 	</definition>
 	<definition>
-		<key>entry_google_api_key</key>
-		<value><![CDATA[
- Google API Key (per abilitare Google Maps): <br/><span class="help">Puoi vedere l&#39;indirizzo sulla mappa. Per abilitare Google Maps, aggiungi la tua chiave API di Google Maps. <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Pagina delle credenziali di Google.</a></span>]]></value>
-	</definition>
-	<definition>
 		<key>warning_https_store_url</key>
 		<value><![CDATA[Per mantenere la corretta funzionalità della piattaforma in tutti i browser e mantenere la sicurezza dei dati, è richiesto il protocollo HTTPS. Tutte le richieste devono essere inviate a HTTPS]]></value>
 	</definition>
@@ -984,47 +1038,12 @@
 		<value><![CDATA[Logo email predefinito:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Espressione regolare di convalida del telefono:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Comando Crontab in Linux <span class="help">Esegui il comando crontab -e con lo stesso utente Linux che esegue un server web per AbanteCart. Nell&#39;editor aggiungi il comando</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_native</key>
-		<value><![CDATA[Nativo ( binario sendmail e opzioni &quot;sendmail_path&quot; impostazione di php.ini)]]></value>
-	</definition>
-	<definition>
-		<key>text_dsn</key>
-		<value><![CDATA[Prendi da system/config.php]]></value>
-	</definition>
-	<definition>
-		<key>text_dsn_description</key>
-		<value><![CDATA[Mailer combina un <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> dal file config.php. Si prega di leggere <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">la nostra documentazione</a> per i dettagli]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_transporting</key>
-		<value><![CDATA[
- Trasporto Posta:]]></value>
-	</definition>
-	<definition>
-		<key>text_native_mail_description</key>
-		<value><![CDATA[
- Mailer utilizza il binario sendmail e le opzioni configurate nell&#39;impostazione sendmail_path di php.ini.]]></value>
-	</definition>
-	<definition>
-		<key>error_alert_emails</key>
-		<value><![CDATA[
- Le e-mail di avviso devono essere valide e separate da virgole!]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_limit</key>
-		<value><![CDATA[Limite prodotti visualizzati:]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_image_width</key>
-		<value><![CDATA[Larghezza immagine prodotti visualizzati:]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_image_height</key>
-		<value><![CDATA[Altezza immagine prodotti visualizzati:]]></value>
 	</definition>
 	<definition>
 		<key>entry_fast_checkout_allow_coupon</key>
@@ -1051,15 +1070,7 @@
 		<value><![CDATA[Mostra il campo dei commenti dell&#39;ordine <br/><span class="help">L&#39;area di testo dei commenti verrà mostrata durante il processo di pagamento</span>]]></value>
 	</definition>
 	<definition>
-		<key>entry_content_limit</key>
-		<value><![CDATA[Numero di elementi nei blocchi di contenuto ]]></value>
-	</definition>
-	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Consenti ai clienti che tornano di navigare:<br /><span class="help">I clienti non autenticati che tornano sul sito potranno sfogliare i prodotti, aggiungerli al carrello e alla lista dei desideri.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Espressione regolare di convalida del telefono:]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -447,7 +447,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">此值用于设置在无操作后要求您重新登录的时间间隔（以分钟为单位）。</span>]]></value>
+		<value><![CDATA[控制面板会话过期：<br /><span class="help">此值以分钟为单位，控制在无活动后再次提示您登录之前的时间间隔。若要实现严格的空闲超时行为，请禁用保持长时间会话。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[保持长会话：<br /><span class="help">启用后台定期请求，以获取管理员通知并进行系统检查。禁用此功能可防止后台刷新延长活动会话。更改此设置后，您可能会看到一次性重新登录提示。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -816,7 +820,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API 密钥（用于启用 Google 地图）：<br /><span class="help">您可以在地图上查看地址。要启用 Google 地图，请添加您的 Google 地图 API 密钥 <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google 凭证页面</a>。</span>]]></value>
+		<value><![CDATA[Google Maps 和 Places API 密钥：<br /><span class="help">输入您的 Google Maps 和 Places API 密钥，以便在地图上显示地址并启用前台地址表单中的地址自动完成功能。此密钥用于前台页面并在客户端暴露，因此请在 Google Cloud 控制台中按允许的域名和/或 IP 地址进行限制。</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Address 自动完成 (Google Places):<br /><span class="help">在店铺前端地址表单中启用或禁用 Google Places API 地址自动完成。需要 Google API 密钥。</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -887,6 +895,10 @@
 		<value><![CDATA[此值不能超过您的 php.ini 文件中的指令 %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[当 <b>Keep Long Session</b> 关闭时，空闲超时按预期工作。]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[订单起始编号：<br /><span class="help">设置订单开始使用的起始编号。</span>]]></value>
 	</definition>
@@ -909,10 +921,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[店面]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[管理员]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1027,6 +1035,10 @@
 		<value><![CDATA[默认电子邮件徽标:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[电话号码验证正则表达式模式：]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Linux 中的 Crontab 命令 <span class="help">运行 crontab -e 命令，使用与运行 AbanteCart Web 服务器相同的 Linux 用户。在编辑器中添加命令</span>]]></value>
 	</definition>
@@ -1057,9 +1069,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[允许回访客户浏览：<br /><span class="help">未登录的回访客户返回本站时，将能够浏览产品、添加至购物车和愿望清单。</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[电话号码验证正则表达式模式：]]></value>
 	</definition>
 </definitions>

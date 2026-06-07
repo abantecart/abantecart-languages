@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -447,7 +447,11 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Expiration de session du Panneau de contrôle:<br /><span class="help">Cette valeur contrôle l’intervalle de temps en minutes avant qu’il vous soit demandé de vous reconnecter en raison d’inactivité.</span>]]></value>
+		<value><![CDATA[Expiration de la session du panneau de contrôle :<br /><span class="help">Cette valeur définit l’intervalle de temps en minutes avant que vous ne soyez invité à vous reconnecter en raison de l’inactivité. Pour un comportement strict d’expiration en cas d’inactivité, désactivez Conserver la session longue.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Maintenir une longue session :<br /><span class="help">Activer les requêtes périodiques en arrière-plan pour les notifications d’administration et les vérifications du système. Désactivez cette option pour empêcher le rafraîchissement en arrière-plan d’étendre la session active. Après avoir modifié ce paramètre, vous pouvez voir une invite de reconnexion unique.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -815,7 +819,11 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Clé API Google (pour activer Google Maps) :<br /><span class="help">Vous pouvez voir l’adresse sur la carte. Pour activer Google Maps, ajoutez votre clé API Google Maps sur la <a href="https://console.cloud.google.com/apis/credentials" target="_blank">page des identifiants Google</a>.</span>]]></value>
+		<value><![CDATA[Clé API Google Maps et Places :<br /><span class="help">Entrez votre clé API Google Maps et Places pour afficher les adresses sur la carte et activer l’autocomplétion des adresses dans les formulaires d’adresse de la vitrine. Cette clé est utilisée sur les pages de la vitrine et est exposée côté client, donc restreignez-la aux domaine(s) autorisé(s) et/ou adresse IP autorisée dans la Console Google Cloud.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Autocomplétion d'adresse (Google Places) :<br /><span class="help">Activer ou désactiver l'autocomplétion d'adresse de l'API Google Places dans les formulaires d'adresse de la vitrine. Nécessite une clé API Google.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -886,6 +894,10 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 		<value><![CDATA[Cette valeur ne peut pas dépasser votre directive %s de php.ini (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Le délai d’inactivité fonctionne comme prévu lorsque <b>Keep Long Session</b> est désactivé.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Numéro de départ des commandes :<br /><span class="help">Définissez le numéro de départ à partir duquel les commandes commenceront.</span>]]></value>
 	</definition>
@@ -908,10 +920,6 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Vitrine]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Administrateur]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1026,6 +1034,10 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 		<value><![CDATA[Logo e-mail par défaut:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Expression régulière de validation de numéro de téléphone :]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Commande crontab sous Linux <span class="help">Run command crontab -e with the same Linux user running a web server for the AbanteCart. In the editor add the command</span>]]></value>
 	</definition>
@@ -1056,9 +1068,5 @@ Définissez le paramètre par défaut pour autoriser les clients à passer à la
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Autoriser les clients qui reviennent à naviguer :<br /><span class="help">Les clients non authentifiés revenant sur le site pourront parcourir les produits, les ajouter au panier et à la liste de souhaits.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Expression régulière de validation de numéro de téléphone :]]></value>
 	</definition>
 </definitions>

@@ -1,5 +1,17 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
+	<definition>
+		<key>text_send_email</key>
+		<value><![CDATA[Enviar correo]]></value>
+	</definition>
+	<definition>
+		<key>text_send_sms</key>
+		<value><![CDATA[Enviar SMS]]></value>
+	</definition>
+	<definition>
+		<key>text_success</key>
+		<value><![CDATA[Su mensaje ha sido enviado con exito!]]></value>
+	</definition>
 	<definition>
 		<key>text_default</key>
 		<value><![CDATA[Defecto]]></value>
@@ -21,16 +33,24 @@
 		<value><![CDATA[Sólo los clientes]]></value>
 	</definition>
 	<definition>
-		<key>text_success</key>
-		<value><![CDATA[Su mensaje ha sido enviado con exito!]]></value>
-	</definition>
-	<definition>
 		<key>entry_store</key>
 		<value><![CDATA[De:]]></value>
 	</definition>
 	<definition>
+		<key>text_customers_who_ordered</key>
+		<value><![CDATA[Para clientes que ordenaron productos seleccionados]]></value>
+	</definition>
+	<definition>
 		<key>entry_to</key>
 		<value><![CDATA[A:]]></value>
+	</definition>
+	<definition>
+		<key>text_customers_from_lookup</key>
+		<value><![CDATA[Empieza a escribir el nombre del cliente para buscar y seleccionar]]></value>
+	</definition>
+	<definition>
+		<key>text_products_from_lookup</key>
+		<value><![CDATA[Empieza a escribir el nombre del producto para buscar y seleccionar]]></value>
 	</definition>
 	<definition>
 		<key>entry_subject</key>
@@ -47,6 +67,14 @@
 	<definition>
 		<key>error_subject</key>
 		<value><![CDATA[E-Mail Asunto requerido!]]></value>
+	</definition>
+	<definition>
+		<key>error_message_email</key>
+		<value><![CDATA[Se requiere un cuerpo de mensaje de correo electrónico]]></value>
+	</definition>
+	<definition>
+		<key>error_message_sms</key>
+		<value><![CDATA[Se requiere un cuerpo de mensaje SMS]]></value>
 	</definition>
 	<definition>
 		<key>error_recipients</key>
@@ -73,32 +101,16 @@
 		<value><![CDATA[- Seleccione Clientes -]]></value>
 	</definition>
 	<definition>
-		<key>text_send_email</key>
-		<value><![CDATA[Enviar correo]]></value>
-	</definition>
-	<definition>
-		<key>text_send_sms</key>
-		<value><![CDATA[Enviar SMS]]></value>
-	</definition>
-	<definition>
-		<key>text_customers_who_ordered</key>
-		<value><![CDATA[Para clientes que ordenaron productos seleccionados]]></value>
-	</definition>
-	<definition>
-		<key>text_customers_from_lookup</key>
-		<value><![CDATA[Empieza a escribir el nombre del cliente para buscar y seleccionar]]></value>
-	</definition>
-	<definition>
-		<key>text_products_from_lookup</key>
-		<value><![CDATA[Empieza a escribir el nombre del producto para buscar y seleccionar]]></value>
-	</definition>
-	<definition>
 		<key>text_email</key>
 		<value><![CDATA[Correo electrónico]]></value>
 	</definition>
 	<definition>
 		<key>text_sms</key>
 		<value><![CDATA[SMS]]></value>
+	</definition>
+	<definition>
+		<key>text_incomplete_tasks</key>
+		<value><![CDATA[Tareas incompletas]]></value>
 	</definition>
 	<definition>
 		<key>text_task_id</key>
@@ -159,17 +171,5 @@
 	<definition>
 		<key>text_sent</key>
 		<value><![CDATA[ %s de %s mensajes se envían]]></value>
-	</definition>
-	<definition>
-		<key>error_message_email</key>
-		<value><![CDATA[Se requiere un cuerpo de mensaje de correo electrónico]]></value>
-	</definition>
-	<definition>
-		<key>error_message_sms</key>
-		<value><![CDATA[Se requiere un cuerpo de mensaje SMS]]></value>
-	</definition>
-	<definition>
-		<key>text_incomplete_tasks</key>
-		<value><![CDATA[Tareas incompletas]]></value>
 	</definition>
 </definitions>

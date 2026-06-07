@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -37,6 +37,10 @@
 		<value><![CDATA[Orden]]></value>
 	</definition>
 	<definition>
+		<key>column_status</key>
+		<value><![CDATA[Estado]]></value>
+	</definition>
+	<definition>
 		<key>column_products</key>
 		<value><![CDATA[Productos cuenta]]></value>
 	</definition>
@@ -45,12 +49,12 @@
 		<value><![CDATA[Subcategorías cuenta]]></value>
 	</definition>
 	<definition>
-		<key>column_status</key>
-		<value><![CDATA[Estado]]></value>
-	</definition>
-	<definition>
 		<key>entry_name</key>
 		<value><![CDATA[Nombre de categoría:]]></value>
+	</definition>
+	<definition>
+		<key>entry_meta_keywords</key>
+		<value><![CDATA[Palabras clave de etiquetas meta:]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
@@ -61,16 +65,12 @@
 		<value><![CDATA[Descripción:]]></value>
 	</definition>
 	<definition>
-		<key>entry_parent_category</key>
-		<value><![CDATA[Categoría principal:]]></value>
-	</definition>
-	<definition>
-		<key>entry_meta_keywords</key>
-		<value><![CDATA[Palabras clave de etiquetas meta:]]></value>
-	</definition>
-	<definition>
 		<key>entry_status</key>
 		<value><![CDATA[Categoría Estado:]]></value>
+	</definition>
+	<definition>
+		<key>entry_parent_category</key>
+		<value><![CDATA[Categoría principal:]]></value>
 	</definition>
 	<definition>
 		<key>entry_store</key>
@@ -105,6 +105,10 @@
 		<value><![CDATA[- Todas las categorías -]]></value>
 	</definition>
 	<definition>
+		<key>text_top_level</key>
+		<value><![CDATA[- Nivel superior -]]></value>
+	</definition>
+	<definition>
 		<key>text_select_parent</key>
 		<value><![CDATA[- Seleccione los Padres -]]></value>
 	</definition>
@@ -115,10 +119,6 @@
 	<definition>
 		<key>tab_image</key>
 		<value><![CDATA[Imágenes]]></value>
-	</definition>
-	<definition>
-		<key>text_top_level</key>
-		<value><![CDATA[- Nivel superior -]]></value>
 	</definition>
 	<definition>
 		<key>error_deadlock</key>

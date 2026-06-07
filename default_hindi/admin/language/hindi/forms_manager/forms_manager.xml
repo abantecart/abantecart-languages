@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>column_name</key>
 		<value><![CDATA[नाम]]></value>
+	</definition>
+	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[क्षेत्र का नाम]]></value>
 	</definition>
 	<definition>
 		<key>column_description</key>
@@ -209,6 +213,10 @@
 		<value><![CDATA[नियमित अभिव्यक्ति पैटर्न:]]></value>
 	</definition>
 	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[html-विशेषताएँ:<br /><span class="help">आप विकल्प तत्व के लिए अपनी कस्टम html-विशेषताएँ जोड़ सकते हैं। उदाहरण: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_error_text</key>
 		<value><![CDATA[अमान्य मान के बारे में त्रुटि संदेश:]]></value>
 	</definition>
@@ -233,20 +241,12 @@
 		<value><![CDATA[%s नाम वाला फ़ील्ड पहले से ही फ़ॉर्म में मौजूद है!]]></value>
 	</definition>
 	<definition>
-		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[चेतावनी! कृपया डिफ़ॉल्ट प्रेषक नाम और डिफ़ॉल्ट प्रेषक ईमेल <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">फॉर्म मैनेजर सेटिंग्स</a> में सेट करें]]></value>
-	</definition>
-	<definition>
-		<key>column_field_name</key>
-		<value><![CDATA[क्षेत्र का नाम]]></value>
-	</definition>
-	<definition>
-		<key>entry_html_attributes</key>
-		<value><![CDATA[html-विशेषताएँ:<br /><span class="help">आप विकल्प तत्व के लिए अपनी कस्टम html-विशेषताएँ जोड़ सकते हैं। उदाहरण: data-some-attribute="some value"</span>]]></value>
-	</definition>
-	<definition>
 		<key>error_regexp_pattern</key>
 		<value><![CDATA[Regex पैटर्न अमान्य है!]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_error_empty_sender</key>
+		<value><![CDATA[चेतावनी! कृपया डिफ़ॉल्ट प्रेषक नाम और डिफ़ॉल्ट प्रेषक ईमेल <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">फॉर्म मैनेजर सेटिंग्स</a> में सेट करें]]></value>
 	</definition>
 	<definition>
 		<key>text_groups</key>

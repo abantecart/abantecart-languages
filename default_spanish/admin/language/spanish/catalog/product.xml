@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -41,12 +41,12 @@
 		<value><![CDATA[Éxito: Ha clonar productos <b>%s</b>!]]></value>
 	</definition>
 	<definition>
-		<key>text_error_copy</key>
-		<value><![CDATA[La clonación ha fallado! Producto original no está disponible]]></value>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[Nota: La distribución de productos personalizada también se ha clonado.]]></value>
 	</definition>
 	<definition>
-		<key>text_product_summary</key>
-		<value><![CDATA[Resumen del producto]]></value>
+		<key>text_error_copy</key>
+		<value><![CDATA[La clonación ha fallado! Producto original no está disponible]]></value>
 	</definition>
 	<definition>
 		<key>text_plus</key>
@@ -59,6 +59,10 @@
 	<definition>
 		<key>text_default</key>
 		<value><![CDATA[Tienda por defecto]]></value>
+	</definition>
+	<definition>
+		<key>text_product_summary</key>
+		<value><![CDATA[Resumen del producto]]></value>
 	</definition>
 	<definition>
 		<key>text_image_manager</key>
@@ -81,12 +85,12 @@
 		<value><![CDATA[Modelo]]></value>
 	</definition>
 	<definition>
-		<key>column_image</key>
-		<value><![CDATA[Imagen]]></value>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
 	</definition>
 	<definition>
-		<key>column_price</key>
-		<value><![CDATA[Precio]]></value>
+		<key>column_image</key>
+		<value><![CDATA[Imagen]]></value>
 	</definition>
 	<definition>
 		<key>column_quantity</key>
@@ -95,6 +99,10 @@
 	<definition>
 		<key>column_status</key>
 		<value><![CDATA[Estado]]></value>
+	</definition>
+	<definition>
+		<key>column_price</key>
+		<value><![CDATA[Precio]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
@@ -111,34 +119,6 @@
 	<definition>
 		<key>entry_meta_keywords</key>
 		<value><![CDATA[Palabras clave de etiquetas meta:]]></value>
-	</definition>
-	<definition>
-		<key>entry_minimum</key>
-		<value><![CDATA[Cantidad Mínima:<br/><span class="help">El pedido mínimo</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_maximum</key>
-		<value><![CDATA[Cantidad máxima:<br/><span class="help">Establezca un límite en quantaty que se puede seleccionar por cada pedido. 0 = sin límite</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_cost</key>
-		<value><![CDATA[Costo:<br/><span class="help">El costo al por mayor utilizan para la información ganancias</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_length</key>
-		<value><![CDATA[Longitud:]]></value>
-	</definition>
-	<definition>
-		<key>entry_width</key>
-		<value><![CDATA[Ancho:]]></value>
-	</definition>
-	<definition>
-		<key>entry_height</key>
-		<value><![CDATA[Altura:]]></value>
-	</definition>
-	<definition>
-		<key>entry_length_class</key>
-		<value><![CDATA[Duración de las clases:]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>
@@ -205,8 +185,20 @@
 		<value><![CDATA[Cantidad:<br/><span class="help">Conectado a la pista escenario de archivo</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_minimum</key>
+		<value><![CDATA[Cantidad Mínima:<br/><span class="help">El pedido mínimo</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_maximum</key>
+		<value><![CDATA[Cantidad máxima:<br/><span class="help">Establezca un límite en quantaty que se puede seleccionar por cada pedido. 0 = sin límite</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_stock_status</key>
 		<value><![CDATA[Estado de almacen:<br/><span class="help">Texto mostrado cuando un producto no está disponible</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Stock Checkout: <br/><span class="help">Permita que los clientes continúen comprando si los productos que están pidiendo no están en stock.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_status</key>
@@ -217,8 +209,16 @@
 		<value><![CDATA[Impuesto:]]></value>
 	</definition>
 	<definition>
+		<key>entry_cost</key>
+		<value><![CDATA[Costo:<br/><span class="help">El costo al por mayor utilizan para la información ganancias</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_price</key>
 		<value><![CDATA[Precio:]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_option_cost</key>
+		<value><![CDATA[Costo real (total): <span class="help">ingrese el costo real (total) de esta opción de producto.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_track_option_stock</key>
@@ -237,8 +237,24 @@
 		<value><![CDATA[Peso:]]></value>
 	</definition>
 	<definition>
+		<key>entry_weight_change</key>
+		<value><![CDATA[Peso: <span class="help">¡Importante! Si el valor se proporciona como% (porcentaje), el peso de la opción se cambiará en un porcentaje especificado en función del peso del producto principal. Si se proporciona el valor de peso, se utilizará como valor absoluto para la opción, se ignorará el peso principal.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Duración de las clases:]]></value>
+	</definition>
+	<definition>
 		<key>entry_length</key>
-		<value><![CDATA[Medida:]]></value>
+		<value><![CDATA[Longitud:]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Ancho:]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Altura:]]></value>
 	</definition>
 	<definition>
 		<key>entry_dimension</key>
@@ -275,10 +291,6 @@
 	<definition>
 		<key>entry_option_value</key>
 		<value><![CDATA[Valor de la opción:]]></value>
-	</definition>
-	<definition>
-		<key>entry_product_id</key>
-		<value><![CDATA[Producto ID]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
@@ -329,12 +341,12 @@
 		<value><![CDATA[No han sido introducidos datos	obligatorios. Compruebe si hay errores de campo!]]></value>
 	</definition>
 	<definition>
-		<key>error_product_load</key>
-		<value><![CDATA[Advertencia: No hay producto con identidad tal!]]></value>
-	</definition>
-	<definition>
 		<key>error_product_not_found</key>
 		<value><![CDATA[Error: No encontrado!]]></value>
+	</definition>
+	<definition>
+		<key>error_sku</key>
+		<value><![CDATA[Error: ¡SKU no encontrado!]]></value>
 	</definition>
 	<definition>
 		<key>filter_product</key>
@@ -405,26 +417,6 @@
 		<value><![CDATA[- Seleccionar producto -]]></value>
 	</definition>
 	<definition>
-		<key>text_product_pagination</key>
-		<value><![CDATA[Producto(s) de {start} a {end} de {total}]]></value>
-	</definition>
-	<definition>
-		<key>error_date</key>
-		<value><![CDATA["Fecha de finalización" no puede ser inferior a "Fecha de Inicio"!]]></value>
-	</definition>
-	<definition>
-		<key>text_success_layout</key>
-		<value><![CDATA[Éxito: Se ha modificado el diseño categoría de página.]]></value>
-	</definition>
-	<definition>
-		<key>text_success_option</key>
-		<value><![CDATA[Éxito: Se ha modificado la opción de producto.]]></value>
-	</definition>
-	<definition>
-		<key>text_add_new_option</key>
-		<value><![CDATA[- Añadir una nueva Opción -]]></value>
-	</definition>
-	<definition>
 		<key>text_option_name</key>
 		<value><![CDATA[Nombre de la Opción]]></value>
 	</definition>
@@ -465,8 +457,24 @@
 		<value><![CDATA[Peso Tipo]]></value>
 	</definition>
 	<definition>
+		<key>text_product_pagination</key>
+		<value><![CDATA[Producto(s) de {start} a {end} de {total}]]></value>
+	</definition>
+	<definition>
+		<key>entry_product_id</key>
+		<value><![CDATA[Producto ID]]></value>
+	</definition>
+	<definition>
+		<key>error_product_load</key>
+		<value><![CDATA[Advertencia: No hay producto con identidad tal!]]></value>
+	</definition>
+	<definition>
 		<key>error_attribute_not_selected</key>
 		<value><![CDATA[Por favor, seleccione la opción para agregar!]]></value>
+	</definition>
+	<definition>
+		<key>error_date</key>
+		<value><![CDATA["Fecha de finalización" no puede ser inferior a "Fecha de Inicio"!]]></value>
 	</definition>
 	<definition>
 		<key>error_required</key>
@@ -475,6 +483,18 @@
 	<definition>
 		<key>error_option_in_group</key>
 		<value><![CDATA[La opción no se puede agregar a la máquina, pues ya forma parte de la opción de grupo!]]></value>
+	</definition>
+	<definition>
+		<key>text_success_layout</key>
+		<value><![CDATA[Éxito: Se ha modificado el diseño categoría de página.]]></value>
+	</definition>
+	<definition>
+		<key>text_success_option</key>
+		<value><![CDATA[Éxito: Se ha modificado la opción de producto.]]></value>
+	</definition>
+	<definition>
+		<key>text_add_new_option</key>
+		<value><![CDATA[- Añadir una nueva Opción -]]></value>
 	</definition>
 	<definition>
 		<key>entry_required</key>
@@ -529,6 +549,10 @@
 		<value><![CDATA[Fuera de Stock]]></value>
 	</definition>
 	<definition>
+		<key>text_product_in_stock</key>
+		<value><![CDATA[Disponible]]></value>
+	</definition>
+	<definition>
 		<key>text_product_option_out_of_stock</key>
 		<value><![CDATA[Opción del producto (s) Fuera de Stock]]></value>
 	</definition>
@@ -553,12 +577,20 @@
 		<value><![CDATA[Se ha alcanzado el límite de 999.99. Proporcione el número más pequeño.]]></value>
 	</definition>
 	<definition>
+		<key>error_dimension_value</key>
+		<value><![CDATA[Este producto requiere envío. Complete todos los valores de dimensión.]]></value>
+	</definition>
+	<definition>
 		<key>error_weight_value</key>
 		<value><![CDATA[Este producto requiere el envío. Por favor, establece el valor del peso.]]></value>
 	</definition>
 	<definition>
 		<key>error_weight_class</key>
 		<value><![CDATA[Por favor, establezca la clase de peso.]]></value>
+	</definition>
+	<definition>
+		<key>error_length_class</key>
+		<value><![CDATA[Establezca la clase de longitud.]]></value>
 	</definition>
 	<definition>
 		<key>entry_allowed_extensions</key>
@@ -577,20 +609,8 @@
 		<value><![CDATA[Subir nombre del directorio]]></value>
 	</definition>
 	<definition>
-		<key>text_product_in_stock</key>
-		<value><![CDATA[Disponible]]></value>
-	</definition>
-	<definition>
 		<key>text_success_relation_set</key>
 		<value><![CDATA[Las relaciones de los productos seleccionados se estableció con éxito!]]></value>
-	</definition>
-	<definition>
-		<key>text_success_copy_layout</key>
-		<value><![CDATA[Nota: La distribución de productos personalizada también se ha clonado.]]></value>
-	</definition>
-	<definition>
-		<key>entry_stock_checkout</key>
-		<value><![CDATA[Stock Checkout: <br/><span class="help">Permita que los clientes continúen comprando si los productos que están pidiendo no están en stock.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_locations</key>
@@ -605,36 +625,16 @@
 		<value><![CDATA[Crear colección]]></value>
 	</definition>
 	<definition>
+		<key>text_warning_empty_set</key>
+		<value><![CDATA[Por favor seleccione al menos un producto]]></value>
+	</definition>
+	<definition>
 		<key>text_enable_selected</key>
 		<value><![CDATA[Habilitar seleccionados]]></value>
 	</definition>
 	<definition>
 		<key>text_disable_selected</key>
 		<value><![CDATA[Desactivar seleccionado]]></value>
-	</definition>
-	<definition>
-		<key>entry_product_option_cost</key>
-		<value><![CDATA[Costo real (total): <span class="help">ingrese el costo real (total) de esta opción de producto.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_weight_change</key>
-		<value><![CDATA[Peso: <span class="help">¡Importante! Si el valor se proporciona como% (porcentaje), el peso de la opción se cambiará en un porcentaje especificado en función del peso del producto principal. Si se proporciona el valor de peso, se utilizará como valor absoluto para la opción, se ignorará el peso principal.</span>]]></value>
-	</definition>
-	<definition>
-		<key>error_dimension_value</key>
-		<value><![CDATA[Este producto requiere envío. Complete todos los valores de dimensión.]]></value>
-	</definition>
-	<definition>
-		<key>error_length_class</key>
-		<value><![CDATA[Establezca la clase de longitud.]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[SKU]]></value>
-	</definition>
-	<definition>
-		<key>error_sku</key>
-		<value><![CDATA[Error: ¡SKU no encontrado!]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_rule</key>
@@ -649,11 +649,19 @@
 		<value><![CDATA[ID de texto único:]]></value>
 	</definition>
 	<definition>
-		<key>text_warning_empty_set</key>
-		<value><![CDATA[Por favor seleccione al menos un producto]]></value>
-	</definition>
-	<definition>
 		<key>entry_html_attributes</key>
 		<value><![CDATA[Atributos HTML:<br /><span class="help">Puede agregar sus atributos HTML personalizados para el elemento de opción. Ejemplo: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_new_price</key>
+		<value><![CDATA[Nuevo precio]]></value>
+	</definition>
+	<definition>
+		<key>text_prc_off</key>
+		<value><![CDATA[% de descuento]]></value>
+	</definition>
+	<definition>
+		<key>text_fixed_amount_off</key>
+		<value><![CDATA[Descuento de monto fijo]]></value>
 	</definition>
 </definitions>

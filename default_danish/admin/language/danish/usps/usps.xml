@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>usps_name</key>
+		<value><![CDATA[De Forenede Staters Postvæsen]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Forsendelse]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[USPS Indstillinger]]></value>
+	</definition>
+	<definition>
+		<key>text_usps_success</key>
+		<value><![CDATA[Succes: Du har ændret United States Postal Service!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[Eksprespost International]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[Prioriteret international forsendelse]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[Global Express Garanteret (Dokumenter og Ikke-dokumenter)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[Global Express Guaranteed-dokument anvendt]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[Global Express Guaranteed Ikke-Dokument Rektangulær Form]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[Global Express Guaranteed Ikke-Dokument Ikke-Rektangulær]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[Prioriteret postkonvolut med fast pris]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[Kasse med fast pris til prioritetsforsendelse]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[Expresspost International konvolut med fast pris]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[Priority Mail stor fastprisboks]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[Global Ekspres Garanteret Kuvert]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[Førsteklasses internationale breve]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[Førsteklasses international post – flade forsendelser]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[Første klasses internationale pakker]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[Priority Mail Lille kasse med fast pris]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[Postkort]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[Almindelig]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[Stor]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[Oversize]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[Rektangulær]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[Ikke-rektangulær]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[Variabel]]></value>
+	</definition>
+	<definition>
+		<key>entry_api_environment</key>
+		<value><![CDATA[API Udviklertilstand]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment</key>
+		<value><![CDATA[API udviklertilstand]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment_production</key>
+		<value><![CDATA[Produktion (live satser)]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_shipping</key>
+		<value><![CDATA[Udviklertilstand]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_id</key>
+		<value><![CDATA[Forbruger-nøgle<br/><span class="help">Opret en APP på https://cop.usps.com. Disse legitimationsoplysninger kræves for at generere OAuth-tokenet</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_id</key>
+		<value><![CDATA[Forbrugernøgle:<span class="help">Du kan finde den i din applikationssektion på https://cop.usps.com. Disse legitimationsoplysninger kræves for at generere OAuth-tokenet</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_client_id_shipping</key>
+		<value><![CDATA[API-klient-id]]></value>
+	</definition>
+	<definition>
+		<key>text_country_shipping</key>
+		<value><![CDATA[Afsenderland og Zone]]></value>
+	</definition>
+	<definition>
+		<key>text_address_shipping</key>
+		<value><![CDATA[Afsenderadresse]]></value>
+	</definition>
+	<definition>
+		<key>text_city_shipping</key>
+		<value><![CDATA[Afsender By]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone_shipping</key>
+		<value><![CDATA[Afsenderens telefonnummer<span class="help">10 digits or more, no spaces or special character</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_secret</key>
+		<value><![CDATA[API-klienthemmelighed<br/><span class="help">Du kan finde den i din applikationssektion på https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token</key>
+		<value><![CDATA[Test af etiketgenerering:<span class="help">For etiketgenerering kan USPS kræve yderligere tilladelser til generering af betalingstokens på din konto. Kontakt USPS-support for at aktivere denne adgang.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token_button</key>
+		<value><![CDATA[Test Etiket Generering]]></value>
+	</definition>
+	<definition>
+		<key>usps_country</key>
+		<value><![CDATA[Afsenderland & Zone]]></value>
+	</definition>
+	<definition>
+		<key>usps_telephone</key>
+		<value><![CDATA[Afsenderens telefonnummer (10 cifre eller mere)]]></value>
+	</definition>
+	<definition>
+		<key>usps_address</key>
+		<value><![CDATA[Afsenderadresse]]></value>
+	</definition>
+	<definition>
+		<key>usps_city</key>
+		<value><![CDATA[Afsenderens by]]></value>
+	</definition>
+	<definition>
+		<key>usps_postcode</key>
+		<value><![CDATA[Forsenders Postnummer]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_crid</key>
+		<value><![CDATA[Kunde-registrerings-ID (CRID):<span class="help">Påkrævet til USPS-etiketgenerering. Du kan finde det i dit kontoafsnit på https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_mid</key>
+		<value><![CDATA[Mailer ID (MID):<span class="help">Påkrævet for USPS-labelgenerering. Du kan finde det i din kontosektion på https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_manifest_mid</key>
+		<value><![CDATA[Manifest MID:<span class="help">Påkrævet for USPS-etiketgenerering. Du kan finde det i din kontosektion på https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_account_number</key>
+		<value><![CDATA[EPS-kontonummer:<span class="help">Påkrævet til generering af USPS-etiketter. Du kan finde det på din Enterprise Payment System-konto på https://epay.usps.com/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_manifest_order_status_id</key>
+		<value><![CDATA[Opret forsendelse, når ordrestatus bliver]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_secret</key>
+		<value><![CDATA[Forbrugerhemmelighed:<span class="help">Du kan finde den i din applikationssektion på https://cop.usps.com. Disse legitimationsoplysninger kræves for at generere OAuth-token</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_manifest_order_status_id</key>
+		<value><![CDATA[Opret forsendelse når ordrestatus bliver]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipping_storefront_icon</key>
+		<value><![CDATA[Butiksfacadeikon]]></value>
+	</definition>
+	<definition>
+		<key>usps_debug</key>
+		<value><![CDATA[Debug-loggingstatus]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_1</key>
+		<value><![CDATA[Prioriteret post]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_2</key>
+		<value><![CDATA[Prioriteret eksprespost]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_3</key>
+		<value><![CDATA[Pakkevalg]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_4</key>
+		<value><![CDATA[Bundet trykt materiale]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_5</key>
+		<value><![CDATA[Mediepost]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_6</key>
+		<value><![CDATA[Biblioteksmail]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_7</key>
+		<value><![CDATA[USPS Ground Advantage]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_1</key>
+		<value><![CDATA[Prioriteret eksprespost international]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_2</key>
+		<value><![CDATA[Prioriteret international post]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_3</key>
+		<value><![CDATA[Global Express Garanti (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_4</key>
+		<value><![CDATA[Førsteklasses pakke international service]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_1</key>
+		<value><![CDATA[Prioriteret post]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_2</key>
+		<value><![CDATA[Prioriteret eksprespost]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_3</key>
+		<value><![CDATA[Parcel Select]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_4</key>
+		<value><![CDATA[Indbundet trykt materiale]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_5</key>
+		<value><![CDATA[Mediepost]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_6</key>
+		<value><![CDATA[Mailbibliotek]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_7</key>
+		<value><![CDATA[USPS Ground Advantage]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_1</key>
+		<value><![CDATA[Prioriteret international eksprespost]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_2</key>
+		<value><![CDATA[International prioriteret post]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_3</key>
+		<value><![CDATA[Global Express-garanti (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_4</key>
+		<value><![CDATA[Førsteklasses international pakkeservice]]></value>
+	</definition>
+	<definition>
+		<key>usps_length</key>
+		<value><![CDATA[Dimensioner Længde]]></value>
+	</definition>
+	<definition>
+		<key>usps_width</key>
+		<value><![CDATA[Dimensioner Bredde]]></value>
+	</definition>
+	<definition>
+		<key>usps_height</key>
+		<value><![CDATA[Dimensioner Højde]]></value>
+	</definition>
+	<definition>
+		<key>usps_display_weight</key>
+		<value><![CDATA[Vis leveringsvægt]]></value>
+	</definition>
+	<definition>
+		<key>usps_tax_class_id</key>
+		<value><![CDATA[Skatteklasse]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id</key>
+		<value><![CDATA[Placering]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id_0</key>
+		<value><![CDATA[Alle lokationer]]></value>
+	</definition>
+	<definition>
+		<key>usps_sort_order</key>
+		<value><![CDATA[Sorteringsrækkefølge]]></value>
+	</definition>
+	<definition>
+		<key>usps_test_connection</key>
+		<value><![CDATA[Test forbindelse]]></value>
+	</definition>
+	<definition>
+		<key>text_client_secret_shipping</key>
+		<value><![CDATA[API-klienthemmelighed]]></value>
+	</definition>
+	<definition>
+		<key>text_manifest_order_status_id_shipping</key>
+		<value><![CDATA[Opret forsendelse, når ordrestatus bliver]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Postnummer:<span class="help">Postnummer/postnummer for startstedet på din pakke.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[Huslige tjenester:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[Internationale tjenester:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[Størrelse:<span class="help">Vælg den beholderstørrelse, du typisk bruger til at pakke de produkter, der bestilles fra din butik.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[Container:<span class="help">Vælg den beholdertype, du typisk bruger til at pakke de produkter, der er bestilt fra din butik. USPS leverer kun pakker, der vejer op til 70 lbs</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[Maskinelt håndterbar:<br /><span class="help"> Det anbefales, at du vælger Ja. Angiv, om det er i orden at håndtere dine forsendelser med maskiner. Aktivering af denne indstilling reducerer forsendelsesomkostningerne.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[Dimensioner (L x B x H):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[Dimensioner længde:<br /><span class="help">Gennemsnitlig pakkedimension for forsendelsespakke.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Dimensioner Bredde:<br /><span class="help">Gennemsnitlig pakkedimension for en forsendelsespakke.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Dimensioners højde:<br /><span class="help">Gennemsnitlig pakkedimension til forsendelsespakke.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[Omkreds:<br /><span class="help">For at finde omkredsen af din pakke, mål afstanden rundt om den tykkeste del af den ikke-rektangulære pakke.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[Vis leveringstid:<br /><span class="help">Vil du vise leveringstiden? (f.eks. Sendes inden for 3 til 5 dage)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[Vis leveringsvægt:<br /><span class="help">Vil du vise forsendelsesvægten? (f.eks. Leveringsvægt: 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Vægtklasse:<br /><span class="help">Angiv i pund.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Længdeklasse:<br /><span class="help">Dimensionen eller standardlængdeklassen for din butik.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Skatteklasse:<br /><span class="help">Hvis du er forpligtet til at opkræve skat på denne vare, vælg skatteklasse.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[Placering:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Sorteringsrækkefølge:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Advarsel: Du har ikke tilladelse til at ændre United States Postal Service!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_id</key>
+		<value><![CDATA[API-klient-id påkrævet!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_secret</key>
+		<value><![CDATA[API-klienthemmelighed påkrævet!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Postnummer kræves!]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_production</key>
+		<value><![CDATA[Produktion (live satser)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label</key>
+		<value><![CDATA[Udskriv USPS-etiket (oprindelig ordre)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_title</key>
+		<value><![CDATA[Udskriver USPS-etiketten med den oprindelige vægt og de oprindelige dimensioner, som kunden indtastede ved kassen. Ændringer foretaget af administratoren i ordren påvirker ikke etiketten.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_suggestion</key>
+		<value><![CDATA[Skift ordrestatus til "%s" for at oprette forsendelse via USPS API og få pakkeetiketter]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_missing_settings</key>
+		<value><![CDATA[For at generere etiketter skal du først udfylde dine USPS-kontooplysninger i Udvidelsesindstillinger.]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_weight</key>
+		<value><![CDATA[Vægt:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_height</key>
+		<value><![CDATA[Højde:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_width</key>
+		<value><![CDATA[Bredde:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_depth</key>
+		<value><![CDATA[Dybde:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_parcel_info</key>
+		<value><![CDATA[Pakkeoplysninger:]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipment_created_success_message</key>
+		<value><![CDATA[USPS-forsendelse er blevet oprettet med succes. Sporingsnummer: %s. Se flere oplysninger <a href="%s">her</a>]]></value>
+	</definition>
+</definitions>

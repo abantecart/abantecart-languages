@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>sola_name</key>
+		<value><![CDATA[Sola]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_key</key>
+		<value><![CDATA[Tapahtuma-avain (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_token</key>
+		<value><![CDATA[Tapahtumatunnus (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>sola_test</key>
+		<value><![CDATA[Testitila]]></value>
+	</definition>
+	<definition>
+		<key>sola_success_order_status</key>
+		<value><![CDATA[Tilauksen tila:<br /><span class="help">Tilauksen tila, joka asetetaan asiakkaan tilauksen päätyttyä valitun maksutavan perusteella</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id</key>
+		<value><![CDATA[Sijainti:<br /><span class="help">Rajoita siten, että vain valitut sijainnit voivat käyttää tätä maksutapaa.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id_0</key>
+		<value><![CDATA[Kaikki sijainnit]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method</key>
+		<value><![CDATA[Tapahtumamenetelmä:<br /><span class="help">Sola-tapahtuma, joka suoritetaan asiakkaan kassalla ennen tilauksen tilan asettamista. Vain valtuutus tai veloitus.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_capture</key>
+		<value><![CDATA[Veloita]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_authorization</key>
+		<value><![CDATA[Vain valtuutus]]></value>
+	</definition>
+	<definition>
+		<key>sola_ifields_key</key>
+		<value><![CDATA[iFields Avain]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_pending_authorization</key>
+		<value><![CDATA[Odottaa valtuutusta]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_funds</key>
+		<value><![CDATA[Veloita rahat]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture</key>
+		<value><![CDATA[Veloita]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_payment_status</key>
+		<value><![CDATA[Maksun tila]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_success</key>
+		<value><![CDATA[Onnistui! Varat on veloitettu onnistuneesti.]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_processing</key>
+		<value><![CDATA[Käsittely]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_do_refund</key>
+		<value><![CDATA[Tee Sola-hyvitys:<span class="help">Voit syöttää hyvitykseksi palautettavan summan.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refunded</key>
+		<value><![CDATA[Hyvitetty]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund</key>
+		<value><![CDATA[Hyvitys]]></value>
+	</definition>
+	<definition>
+		<key>sola_refund_title</key>
+		<value><![CDATA[Sola hyvitys]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund_success</key>
+		<value><![CDATA[Onnistui! Tilaus on hyvitetty onnistuneesti.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_empty_amount</key>
+		<value><![CDATA[Virhe! Määrä on väärä.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_payment_method_data</key>
+		<value><![CDATA[Virhe! Tälle tilaukselle ei ole maksutavan tietoja.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_order_id</key>
+		<value><![CDATA[Virhe! Tilauksen tunnusta ei ole.]]></value>
+	</definition>
+</definitions>

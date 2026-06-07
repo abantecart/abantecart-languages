@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -29,10 +29,6 @@
 		<value><![CDATA[Tabelle di backup:]]></value>
 	</definition>
 	<definition>
-		<key>entry_restore</key>
-		<value><![CDATA[Ripristino da file sql o xml:]]></value>
-	</definition>
-	<definition>
 		<key>entry_loadxml</key>
 		<value><![CDATA[Carica XML-file:]]></value>
 	</definition>
@@ -51,6 +47,10 @@
 	<definition>
 		<key>error_permission</key>
 		<value><![CDATA[ATTENZIONE: Non hai l'autorizzazione per modificare il backups!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Avvertimento: Si prega di ottenere ciò che si desidera effettuare il backup o importare!]]></value>
 	</definition>
 	<definition>
 		<key>error_empty</key>
@@ -103,9 +103,5 @@
 	<definition>
 		<key>backup_complete_text_dir</key>
 		<value><![CDATA[La directory con i file di backup è %s]]></value>
-	</definition>
-	<definition>
-		<key>error_nothing_to_do</key>
-		<value><![CDATA[Avvertimento: Si prega di ottenere ciò che si desidera effettuare il backup o importare!]]></value>
 	</definition>
 </definitions>

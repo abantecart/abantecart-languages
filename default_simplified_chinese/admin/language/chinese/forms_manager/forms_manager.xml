@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>column_name</key>
 		<value><![CDATA[名称]]></value>
+	</definition>
+	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[字段名称]]></value>
 	</definition>
 	<definition>
 		<key>column_description</key>
@@ -209,6 +213,10 @@
 		<value><![CDATA[正则表达式模式:]]></value>
 	</definition>
 	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[HTML 属性:<br /><span class="help">您可以为选项元素添加自定义 HTML 属性。示例: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_error_text</key>
 		<value><![CDATA[关于无效值的错误消息：]]></value>
 	</definition>
@@ -233,20 +241,12 @@
 		<value><![CDATA[表单中已存在名称为 %s 的字段！]]></value>
 	</definition>
 	<definition>
-		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[警告！请在 <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">表单管理器设置</a> 中设置默认发件人名称和默认发件人邮箱]]></value>
-	</definition>
-	<definition>
-		<key>column_field_name</key>
-		<value><![CDATA[字段名称]]></value>
-	</definition>
-	<definition>
-		<key>entry_html_attributes</key>
-		<value><![CDATA[HTML 属性:<br /><span class="help">您可以为选项元素添加自定义 HTML 属性。示例: data-some-attribute="some value"</span>]]></value>
-	</definition>
-	<definition>
 		<key>error_regexp_pattern</key>
 		<value><![CDATA[正则表达式模式无效！]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_error_empty_sender</key>
+		<value><![CDATA[警告！请在 <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">表单管理器设置</a> 中设置默认发件人名称和默认发件人邮箱]]></value>
 	</definition>
 	<definition>
 		<key>text_groups</key>

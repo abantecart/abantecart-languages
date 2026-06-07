@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -18,6 +18,10 @@ Fontos! Az Avatax Integration Total kiterjesztés összegszámítási sorrendjé
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[Licenckulcs:<br /><span class="help">Az Avalara által biztosított licenckulcs</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Teszt mód:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -54,6 +58,10 @@ Fontos! Az Avatax Integration Total kiterjesztés összegszámítási sorrendjé
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[A kapcsolat sikeres, és az API-hitelesítő adatok helyesen vannak konfigurálva.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Kapcsolat tesztelése:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -158,13 +166,5 @@ Fontos! Az Avatax Integration Total kiterjesztés összegszámítási sorrendjé
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Tranzakciónaplózás engedélyezése]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[Teszt mód:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[Kapcsolat tesztelése:]]></value>
 	</definition>
 </definitions>

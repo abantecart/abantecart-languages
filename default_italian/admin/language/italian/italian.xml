@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -137,6 +137,10 @@
 		<value><![CDATA[Ripristina]]></value>
 	</definition>
 	<definition>
+		<key>button_reload</key>
+		<value><![CDATA[Ricaricare]]></value>
+	</definition>
+	<definition>
 		<key>button_clear</key>
 		<value><![CDATA[Cancella registro]]></value>
 	</definition>
@@ -233,6 +237,10 @@
 		<value><![CDATA[Agire per conto del]]></value>
 	</definition>
 	<definition>
+		<key>button_message</key>
+		<value><![CDATA[Prendere contatto con la clientela]]></value>
+	</definition>
+	<definition>
 		<key>button_approve</key>
 		<value><![CDATA[Approva]]></value>
 	</definition>
@@ -249,8 +257,8 @@
 		<value><![CDATA[Dati]]></value>
 	</definition>
 	<definition>
-		<key>tab_discount</key>
-		<value><![CDATA[Sconti]]></value>
+		<key>text_quantity_discount</key>
+		<value><![CDATA[Sconti quantità]]></value>
 	</definition>
 	<definition>
 		<key>tab_details</key>
@@ -263,6 +271,10 @@
 	<definition>
 		<key>tab_appearance</key>
 		<value><![CDATA[Aspetto]]></value>
+	</definition>
+	<definition>
+		<key>tab_im</key>
+		<value><![CDATA[MI]]></value>
 	</definition>
 	<definition>
 		<key>tab_api</key>
@@ -397,10 +409,6 @@
 		<value><![CDATA[Inserisci ]]></value>
 	</definition>
 	<definition>
-		<key>text_edit</key>
-		<value><![CDATA[Modifica ]]></value>
-	</definition>
-	<definition>
 		<key>text_select_items</key>
 		<value><![CDATA[Seleziona articolo]]></value>
 	</definition>
@@ -477,6 +485,10 @@
 		<value><![CDATA[Archivio]]></value>
 	</definition>
 	<definition>
+		<key>text_type_download</key>
+		<value><![CDATA[File di download]]></value>
+	</definition>
+	<definition>
 		<key>button_unmap</key>
 		<value><![CDATA[Unmap]]></value>
 	</definition>
@@ -515,6 +527,10 @@
 	<definition>
 		<key>text_all</key>
 		<value><![CDATA[Tutti]]></value>
+	</definition>
+	<definition>
+		<key>text_all_stores</key>
+		<value><![CDATA[Tutti i negozi]]></value>
 	</definition>
 	<definition>
 		<key>text_create_new_block</key>
@@ -669,12 +685,12 @@
 		<value><![CDATA[Copia e incolla questo codice nel tuo HTML dove vorresti vendere]]></value>
 	</definition>
 	<definition>
-		<key>button_retry</key>
-		<value><![CDATA[Riprova]]></value>
+		<key>text_copy_embed_url</key>
+		<value><![CDATA[Copia e incolla questo URL nel tuo altro sito in cui desideri vendere]]></value>
 	</definition>
 	<definition>
-		<key>button_reload</key>
-		<value><![CDATA[Ricaricare]]></value>
+		<key>button_retry</key>
+		<value><![CDATA[Riprova]]></value>
 	</definition>
 	<definition>
 		<key>text_system_error</key>
@@ -687,18 +703,6 @@
 	<definition>
 		<key>text_system_notice</key>
 		<value><![CDATA[È stata riportata avviso di sistema. Controlla i <a target="_blank" href="%s">messaggi</a> di sistema]]></value>
-	</definition>
-	<definition>
-		<key>button_message</key>
-		<value><![CDATA[Prendere contatto con la clientela]]></value>
-	</definition>
-	<definition>
-		<key>tab_im</key>
-		<value><![CDATA[MI]]></value>
-	</definition>
-	<definition>
-		<key>text_type_download</key>
-		<value><![CDATA[File di download]]></value>
 	</definition>
 	<definition>
 		<key>text_set_related</key>
@@ -715,6 +719,10 @@
 	<definition>
 		<key>button_add_media</key>
 		<value><![CDATA[Aggiungi media]]></value>
+	</definition>
+	<definition>
+		<key>button_field_history</key>
+		<value><![CDATA[Visualizza la cronologia del campo]]></value>
 	</definition>
 	<definition>
 		<key>text_view_more</key>
@@ -749,20 +757,12 @@
 		<value><![CDATA[Torna alla quotazione]]></value>
 	</definition>
 	<definition>
-		<key>text_all_stores</key>
-		<value><![CDATA[Tutti i negozi]]></value>
-	</definition>
-	<definition>
 		<key>text_help_link</key>
 		<value><![CDATA[<a href="https://www.abantecart.com/contact-us" target="_abantecart">Ho bisogno di aiuto?</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_subtract_order</key>
 		<value><![CDATA[Sottrai ordine]]></value>
-	</definition>
-	<definition>
-		<key>text_copy_embed_url</key>
-		<value><![CDATA[Copia e incolla questo URL nel tuo altro sito in cui desideri vendere]]></value>
 	</definition>
 	<definition>
 		<key>button_preview</key>
@@ -779,10 +779,6 @@
 	<definition>
 		<key>entry_status</key>
 		<value><![CDATA[Stato:]]></value>
-	</definition>
-	<definition>
-		<key>button_field_history</key>
-		<value><![CDATA[Visualizza la cronologia del campo]]></value>
 	</definition>
 	<definition>
 		<key>text_data_history</key>

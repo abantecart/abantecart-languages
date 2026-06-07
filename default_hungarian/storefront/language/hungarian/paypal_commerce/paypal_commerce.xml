@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
@@ -55,5 +55,13 @@
 	<definition>
 		<key>paypal_commerce_error_declined</key>
 		<value><![CDATA[Fizetés elutasítva]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_required_options_warning</key>
+		<value><![CDATA[Kérjük, válassza ki az összes kötelező termékopciót, mielőtt a PayPalt használná.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_failed</key>
+		<value><![CDATA[A 3D Secure-hitelesítés sikertelen vagy nem elérhető. A fizetés nem került rögzítésre.]]></value>
 	</definition>
 </definitions>

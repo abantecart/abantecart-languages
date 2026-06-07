@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -18,6 +18,10 @@ Viktig! Beregningsrekkefølgen for Avatax Integration Total i utvidelsenes total
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[Lisensnøkkel:<br /><span class="help">Lisensnøkkel levert av Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Testmodus:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -54,6 +58,10 @@ Viktig! Beregningsrekkefølgen for Avatax Integration Total i utvidelsenes total
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Tilkoblingen er vellykket og API-legitimasjonene er korrekt konfigurert.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Test tilkobling:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -158,13 +166,5 @@ Viktig! Beregningsrekkefølgen for Avatax Integration Total i utvidelsenes total
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Aktiver transaksjonslogging]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[Testmodus:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[Test tilkobling:]]></value>
 	</definition>
 </definitions>

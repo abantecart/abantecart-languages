@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_success</key>
@@ -110,6 +110,10 @@ Ideell åpen kildekode e-handelsløsning]]></value>
 		<value><![CDATA[Feil: Kan ikke laste ned filen. Depotfeil eller ugyldig utvidelsesnøkkel. Prøv en gang til. Hvis problemet vedvarer, last ned filen fra ordrehistorikken din og installer den manuelt.]]></value>
 	</definition>
 	<definition>
+		<key>error_ftp_user</key>
+		<value><![CDATA[Feil: FTP brukernavn er tomt.]]></value>
+	</definition>
+	<definition>
 		<key>error_ftp_password</key>
 		<value><![CDATA[Feil: FTP-brukerpassord er tomt.]]></value>
 	</definition>
@@ -186,10 +190,6 @@ Ideell åpen kildekode e-handelsløsning]]></value>
 		<value><![CDATA[Avbrudd]]></value>
 	</definition>
 	<definition>
-		<key>text_continue</key>
-		<value><![CDATA[Fortsett]]></value>
-	</definition>
-	<definition>
 		<key>confirm_version_incompatibility</key>
 		<value><![CDATA[Den nåværende kopien av denne utvidelsen er ikke verifisert for din versjon av AbanteCart (v%s).<br>Utvidelsens byggeversjon er angitt for AbanteCart v%s.<br>Dette er ikke et problem, men hvis du oppdager feil eller inkompatibilitet, vennligst kontakt utvidelsens utvikler.]]></value>
 	</definition>
@@ -246,9 +246,5 @@ Test oppgraderingen først på ikke-produksjonsnettsteder. Oppgradering på prod
 	<definition>
 		<key>error_notconnected</key>
 		<value><![CDATA[Kan ikke oppgradere eller installere utvidelser fra markedsplassen. Denne butikken er ikke autentisert/tilkoblet. Vennligst autentiser og koble til <a href="%s">markedsplassen</a>]]></value>
-	</definition>
-	<definition>
-		<key>error_ftp_user</key>
-		<value><![CDATA[Feil: FTP brukernavn er tomt.]]></value>
 	</definition>
 </definitions>

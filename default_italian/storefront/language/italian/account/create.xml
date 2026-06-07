@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -31,6 +31,10 @@
 	<definition>
 		<key>text_your_password</key>
 		<value><![CDATA[La tua Password]]></value>
+	</definition>
+	<definition>
+		<key>text_login_details</key>
+		<value><![CDATA[dettagli del login]]></value>
 	</definition>
 	<definition>
 		<key>text_agree</key>
@@ -73,16 +77,16 @@
 		<value><![CDATA[L'indirizzo e-mail esiste già!]]></value>
 	</definition>
 	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[Il telefono deve avere da 3 a 32 caratteri!]]></value>
+	</definition>
+	<definition>
 		<key>error_password</key>
 		<value><![CDATA[La Password deve avere da 3 a 20 caratteri!]]></value>
 	</definition>
 	<definition>
 		<key>error_confirm</key>
 		<value><![CDATA[Conferma Password non corrisponde alla password!]]></value>
-	</definition>
-	<definition>
-		<key>error_telephone</key>
-		<value><![CDATA[Il telefono deve avere da 3 a 32 caratteri!]]></value>
 	</definition>
 	<definition>
 		<key>error_agree</key>
@@ -119,9 +123,5 @@
 	<definition>
 		<key>text_pending_subscriber_approval</key>
 		<value><![CDATA[Subscriber %s ha registrato con il nuovo account. è necessaria un'azione di approvazione! Clicca per vedere #admin#rt=sale/customer/update&customer_id=%s ]]></value>
-	</definition>
-	<definition>
-		<key>text_login_details</key>
-		<value><![CDATA[dettagli del login]]></value>
 	</definition>
 </definitions>

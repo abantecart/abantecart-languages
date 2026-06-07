@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>im_text_notification</key>
@@ -11,6 +11,10 @@
 	<definition>
 		<key>im_order_update_text_to_customer</key>
 		<value><![CDATA[Il vostro ordine <a href="%s">#%s</a> è stato aggiornato. Per ulteriori informazioni, accedere al %s conto.]]></value>
+	</definition>
+	<definition>
+		<key>im_order_update_text_to_guest</key>
+		<value><![CDATA[Il tuo ordine <a href="%s"># %s</a> è stato aggiornato. Per maggiori dettagli, visita la pagina dell&#39;ordine %s.]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_order</key>
@@ -33,16 +37,16 @@
 		<value><![CDATA[Aggiornamento account utente]]></value>
 	</definition>
 	<definition>
+		<key>im_account_update_text_to_admin</key>
+		<value><![CDATA[I suoi dati account utente di amministratore sono stati cambiati.]]></value>
+	</definition>
+	<definition>
 		<key>im_customer_account_update_text_to_admin</key>
 		<value><![CDATA[ Nuovo cliente #%s è stato aggiornato!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_customer_contact</key>
 		<value><![CDATA[Richiesta informazioni!]]></value>
-	</definition>
-	<definition>
-		<key>im_sendpoint_name_account_update</key>
-		<value><![CDATA[Aggiornamento account utente]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_out_of_stock</key>
@@ -79,14 +83,6 @@
 	<definition>
 		<key>im_error_mail_address</key>
 		<value><![CDATA[Indirizzo email %s sembra non valida!]]></value>
-	</definition>
-	<definition>
-		<key>im_account_update_text_to_admin</key>
-		<value><![CDATA[I suoi dati account utente di amministratore sono stati cambiati.]]></value>
-	</definition>
-	<definition>
-		<key>im_order_update_text_to_guest</key>
-		<value><![CDATA[Il tuo ordine <a href="%s"># %s</a> è stato aggiornato. Per maggiori dettagli, visita la pagina dell&#39;ordine %s.]]></value>
 	</definition>
 	<definition>
 		<key>im_threshold</key>

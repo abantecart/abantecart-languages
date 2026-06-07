@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -73,6 +73,10 @@
 		<value><![CDATA[Stato:]]></value>
 	</definition>
 	<definition>
+		<key>entry_ims</key>
+		<value><![CDATA[Notificazione]]></value>
+	</definition>
+	<definition>
 		<key>entry_captcha</key>
 		<value><![CDATA[Inserisci il codice qui sotto:]]></value>
 	</definition>
@@ -113,12 +117,12 @@
 		<value><![CDATA[Il codice di verifica non corrisponde all'immagine!]]></value>
 	</definition>
 	<definition>
-		<key>text_select_group</key>
-		<value><![CDATA[- Seleziona gruppo -]]></value>
+		<key>error_user_group</key>
+		<value><![CDATA[Non hai i permessi per cambiare gruppo di utenti.]]></value>
 	</definition>
 	<definition>
-		<key>entry_ims</key>
-		<value><![CDATA[Notificazione]]></value>
+		<key>text_select_group</key>
+		<value><![CDATA[- Seleziona gruppo -]]></value>
 	</definition>
 	<definition>
 		<key>entry_im_email</key>
@@ -139,9 +143,5 @@
 	<definition>
 		<key>text_change_im_addresses</key>
 		<value><![CDATA[Modifica di notifica Indirizzi per questo SendPoint]]></value>
-	</definition>
-	<definition>
-		<key>error_user_group</key>
-		<value><![CDATA[Non hai i permessi per cambiare gruppo di utenti.]]></value>
 	</definition>
 </definitions>

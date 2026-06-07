@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
-		<value><![CDATA[Cartão de Crédito / Cartão de Débito (Via Paypal)]]></value>
+		<value><![CDATA[Cartão de Crédito / Cartão de Débito (Via PayPal)]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_name</key>
-		<value><![CDATA[PayPal Comércio]]></value>
+		<value><![CDATA[Comércio do PayPal]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_manual_connect</key>
@@ -14,13 +14,11 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_client_id</key>
-		<value><![CDATA[Seu ID de Cliente da API
-
-Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Desenvolvedor]]></value>
+		<value><![CDATA[Seu ID de Cliente da API<br /><span class="help">Localize isto na seção Meus Apps e Credenciais do Painel do PayPal -> Desenvolvedor</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_client_secret</key>
-		<value><![CDATA[Sua Chave Secreta da API<br /><span class="help">Localize isto na seção Meus aplicativos e credenciais do painel do PayPal -> Desenvolvedor</span>]]></value>
+		<value><![CDATA[Sua Chave Secreta da API<br /><span class="help">Localize isto na seção Meus Apps & Credenciais do painel do PayPal -> Desenvolvedor</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_test_mode</key>
@@ -37,6 +35,18 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	<definition>
 		<key>paypal_commerce_transaction_type_authorize</key>
 		<value><![CDATA[Somente autorizar]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Componentes habilitados:<span class="help">Selecione quais componentes de pagamento ativar: Botões do PayPal para checkout expresso ou Campos de Cartão para processamento direto de cartão de crédito.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[Botões do PayPal]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Campos do Cartão]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_test_connection</key>
@@ -64,7 +74,7 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Sucesso: Você modificou as configurações de pagamento do Paypal!]]></value>
+		<value><![CDATA[Sucesso: Você modificou as configurações de pagamento do PayPal!]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_location_id</key>
@@ -80,31 +90,27 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	</definition>
 	<definition>
 		<key>paypal_commerce_autoselect</key>
-		<value><![CDATA[Seleção Automática:<br /><span class="help">Você pode configurar para pular a página de seleção de pagamento se houver apenas uma opção de pagamento. Este método de pagamento será selecionado automaticamente</span>]]></value>
+		<value><![CDATA[Seleção Automática:<br /><span class="help">Você pode definir para pular a página de seleção de pagamento se houver apenas uma opção de pagamento. Este método de pagamento será selecionado automaticamente</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_paypal_commerce_connect</key>
-		<value><![CDATA[Você precisa conectar-se ao PayPal para configurar os detalhes de pagamento.]]></value>
+		<value><![CDATA[Você precisa se conectar ao PayPal para configurar os detalhes de pagamento]]></value>
 	</definition>
 	<definition>
 		<key>text_paypal_commerce_settings</key>
-		<value><![CDATA[Configurações do Paypal]]></value>
+		<value><![CDATA[Configurações do PayPal]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_sort_order</key>
 		<value><![CDATA[Ordem de classificação]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_test_mode</key>
-		<value><![CDATA[Modo de Teste]]></value>
-	</definition>
-	<definition>
 		<key>paypal_commerce_text_register_webhooks</key>
-		<value><![CDATA[Atualizar endpoints de webhooks no lado da API]]></value>
+		<value><![CDATA[Atualizar endpoints de Webhooks no lado da API]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_register_webhooks_success</key>
-		<value><![CDATA[Endpoints de Webhooks foram atualizados com sucesso!]]></value>
+		<value><![CDATA[Endpoints de webhook foram atualizados com sucesso!]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_success_settled</key>
@@ -148,11 +154,11 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	</definition>
 	<definition>
 		<key>text_refund_order</key>
-		<value><![CDATA[Reembolso realizado com sucesso, status do pedido atualizado para reembolsado]]></value>
+		<value><![CDATA[Reembolso realizado com sucesso, status do pedido atualizado para reembolso]]></value>
 	</definition>
 	<definition>
 		<key>text_voided</key>
-		<value><![CDATA[Anulação foi bem-sucedida, status do pedido atualizado para anulado]]></value>
+		<value><![CDATA[Anulação foi bem-sucedida, status do pedido atualizado para anulado.]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_settlement_auto</key>
@@ -165,6 +171,10 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	<definition>
 		<key>text_payment_info</key>
 		<value><![CDATA[Detalhes de Pagamento]]></value>
+	</definition>
+	<definition>
+		<key>text_capture_status</key>
+		<value><![CDATA[Pagamento foi capturado]]></value>
 	</definition>
 	<definition>
 		<key>text_void_status</key>
@@ -184,7 +194,7 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[ID de cobrança do PayPal]]></value>
+		<value><![CDATA[ID de Cobrança do PayPal]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total</key>
@@ -228,11 +238,11 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	</definition>
 	<definition>
 		<key>error_missing_amount</key>
-		<value><![CDATA[Por favor, insira um valor positivo]]></value>
+		<value><![CDATA[Por favor, insira um valor positivo.]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_capture</key>
-		<value><![CDATA[Não é possível capturar, atualizar detalhes da transação e verificar o valor da captura]]></value>
+		<value><![CDATA[Não foi possível capturar, atualizar os detalhes da transação e verificar o valor capturado]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_void</key>
@@ -240,19 +250,31 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	</definition>
 	<definition>
 		<key>error_unable_to_refund</key>
-		<value><![CDATA[Não é possível efetuar o reembolso, atualize os detalhes da transação e verifique o valor do reembolso.]]></value>
+		<value><![CDATA[Não é possível reembolsar, atualize os detalhes da transação e verifique o valor do reembolso]]></value>
 	</definition>
 	<definition>
 		<key>text_connect</key>
 		<value><![CDATA[Conectar-se ao PayPal]]></value>
 	</definition>
 	<definition>
-		<key>text_disconnect</key>
-		<value><![CDATA[Desconectar PayPal]]></value>
+		<key>text_disconnect_sandbox</key>
+		<value><![CDATA[Desconectar Sandbox]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_live</key>
+		<value><![CDATA[Desconectar ao vivo]]></value>
 	</definition>
 	<definition>
 		<key>text_skip_connect</key>
 		<value><![CDATA[Não é possível conectar?]]></value>
+	</definition>
+	<definition>
+		<key>text_connected_account</key>
+		<value><![CDATA[Você está conectado com a conta:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_error_cannot_connect</key>
+		<value><![CDATA[Conexão com o servidor Paypal não pode ser estabelecida.<br>%s<br>Verifique a configuração do seu servidor ou entre em contato com seu provedor de hospedagem.]]></value>
 	</definition>
 	<definition>
 		<key>text_connect_success</key>
@@ -264,19 +286,7 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Aviso: Você não tem permissão para modificar o Paypal Commerce Payment!]]></value>
-	</definition>
-	<definition>
-		<key>paypal_commerce_settlement_auto</key>
-		<value><![CDATA[Automático (autorizar e capturar)]]></value>
-	</definition>
-	<definition>
-		<key>paypal_commerce_settlement_delayed</key>
-		<value><![CDATA[Atrasado (somente autorização)]]></value>
-	</definition>
-	<definition>
-		<key>error_system</key>
-		<value><![CDATA[Erro interno. Verifique o log de erros ou os parâmetros de entrada!]]></value>
+		<value><![CDATA[Aviso: Você não tem permissão para modificar o PayPal Commerce Payment!]]></value>
 	</definition>
 	<definition>
 		<key>error_paypal_commerce_client_id</key>
@@ -285,10 +295,6 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	<definition>
 		<key>error_paypal_commerce_client_secret</key>
 		<value><![CDATA[Chave secreta do aplicativo é obrigatória]]></value>
-	</definition>
-	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Aviso: Você não tem permissão para modificar Paypal Commerce Payment!]]></value>
 	</definition>
 	<definition>
 		<key>error_turn_extension_on</key>
@@ -300,23 +306,120 @@ Encontre-o na seção Meus Aplicativos e Credenciais no painel do PayPal -> Dese
 	</definition>
 	<definition>
 		<key>paypal_commerce_webhook_howto_text</key>
-		<value><![CDATA[Nota: Para concluir a configuração, você deve criar webhooks no lado da sua conta do Paypal.
-<br>Vá para o seu <a href="https://dashboard.paypal.com/webhooks" target="_blank">Painel de Desenvolvedor do Paypal</a> e adicione Endpoints que recebam eventos da sua conta. Depois que o Endpoint for criado, copie o Signing Secret e salve-o nas configurações da extensão Paypal Subscription correspondentes.]]></value>
+		<value><![CDATA[Nota: Para concluir a configuração, você deve criar webhooks no lado da conta PayPal.	
+<br> Acesse sua <a href="https://dashboard.paypal.com/webhooks" target="_blank">Seção de Desenvolvedor do Painel do PayPal</a>	
+e adicione endpoints que recebam eventos da sua conta. Após o endpoint ser criado, copie o Signing Secret e salve nas configurações da Extensão de Assinaturas do PayPal correspondentes.]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components</key>
-		<value><![CDATA[Componentes Habilitados:]]></value>
+		<key>paypal_commerce_enabled_funding</key>
+		<value><![CDATA[Opções de Financiamento:]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components_buttons</key>
-		<value><![CDATA[Botões do PayPal]]></value>
+		<key>paypal_commerce_enabled_funding_venmo</key>
+		<value><![CDATA[Venmo]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components_card-fields</key>
-		<value><![CDATA[Campos do Cartão]]></value>
+		<key>paypal_commerce_enabled_funding_paylater</key>
+		<value><![CDATA[Pague Depois]]></value>
 	</definition>
 	<definition>
-		<key>text_capture_status</key>
-		<value><![CDATA[Pagamento foi capturado]]></value>
+		<key>paypal_commerce_enabled_funding_credit</key>
+		<value><![CDATA[Crédito]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_bancontact</key>
+		<value><![CDATA[Bancontact]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_blik</key>
+		<value><![CDATA[BLIK]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_eps</key>
+		<value><![CDATA[EPS]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_giropay</key>
+		<value><![CDATA[Giropay]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_ideal</key>
+		<value><![CDATA[iDEAL]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_mybank</key>
+		<value><![CDATA[MyBank]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_p24</key>
+		<value><![CDATA[Przelewy24]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_sepa</key>
+		<value><![CDATA[SEPA]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_sofort</key>
+		<value><![CDATA[Sofort]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_trustly</key>
+		<value><![CDATA[Trustly]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_mercadopago</key>
+		<value><![CDATA[Mercado Pago]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_oxxo</key>
+		<value><![CDATA[OXXO]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_boleto</key>
+		<value><![CDATA[Boleto]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_wechatpay</key>
+		<value><![CDATA[WeChat Pay]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy</key>
+		<value><![CDATA[Política de 3D Secure (apenas campos do cartão)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_0</key>
+		<value><![CDATA[-- n/a --]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_SCA_WHEN_REQUIRED</key>
+		<value><![CDATA[Quando necessário]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_SCA_ALWAYS</key>
+		<value><![CDATA[Sempre]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_pay_later_message_configurator</key>
+		<value><![CDATA[Mensagens da Oferta Pague Depois<span class="help">As mensagens da oferta Pague Depois podem ser configuradas para exibição nas páginas de produtos e de finalização de compra. Este recurso permite que os comerciantes forneçam aos clientes informações sobre as opções e condições de pagamento disponíveis.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_run_configurator</key>
+		<value><![CDATA[Executar Configurador]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_connect_for_configurator</key>
+		<value><![CDATA[Por favor, conecte-se ao PayPal para ver o Configurador]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_show_buttons_product</key>
+		<value><![CDATA[Botões de Checkout na Página do Produto]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_show_buttons_cart</key>
+		<value><![CDATA[Botões de Checkout da Página do Carrinho]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_debug_logging</key>
+		<value><![CDATA[Registro de Depuração:<span class="help">Veja o registro em Administração->Sistema->Registros de Erros</span>]]></value>
 	</definition>
 </definitions>

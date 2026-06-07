@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
@@ -55,5 +55,13 @@
 	<definition>
 		<key>paypal_commerce_error_declined</key>
 		<value><![CDATA[Betaling avvist]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_required_options_warning</key>
+		<value><![CDATA[Vennligst velg alle påkrevde produktvalg før du bruker PayPal.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_failed</key>
+		<value><![CDATA[3D Secure-autentisering mislyktes eller er utilgjengelig. Betalingen ble ikke gjennomført.]]></value>
 	</definition>
 </definitions>

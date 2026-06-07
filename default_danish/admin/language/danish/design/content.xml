@@ -49,6 +49,10 @@
 		<value><![CDATA[status]]></value>
 	</definition>
 	<definition>
+		<key>column_publish_date</key>
+		<value><![CDATA[Udgivelsesdato]]></value>
+	</definition>
+	<definition>
 		<key>column_action</key>
 		<value><![CDATA[Handling]]></value>
 	</definition>
@@ -81,6 +85,34 @@
 		<value><![CDATA[Sorteringsrækkefølge:]]></value>
 	</definition>
 	<definition>
+		<key>entry_publish_date</key>
+		<value><![CDATA[Udgivelsesdato:]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_date</key>
+		<value><![CDATA[Udløbsdato:]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_bar</key>
+		<value><![CDATA[Indholdsdetaljerlinje: <br/><span class="help">Aktiver denne indstilling for at vise linjen med forfatteren og udgivelsesdatoen på indholdssiden</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_title</key>
+		<value><![CDATA[Vis indholdstitel:<br /><span class="help">Aktivér denne indstilling for at vise titlen på indholdssiden</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Hovedbillede eller ikon:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tags</key>
+		<value><![CDATA[Indholdstags: <br/><span class="help">kommasepareret liste</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_author</key>
+		<value><![CDATA[Forfatter:]]></value>
+	</definition>
+	<definition>
 		<key>error_permission</key>
 		<value><![CDATA[Advarsel: Du har ikke tilladelse til at ændre indhold!]]></value>
 	</definition>
@@ -89,8 +121,16 @@
 		<value><![CDATA[Indhold Titel skal være mellem 2 og 64 tegn!]]></value>
 	</definition>
 	<definition>
+		<key>error_title_html</key>
+		<value><![CDATA[Indholdstitel må ikke indeholde HTML-tags!]]></value>
+	</definition>
+	<definition>
 		<key>error_description</key>
 		<value><![CDATA[Beskrivelsen skal være mere end 1 tegn!]]></value>
+	</definition>
+	<definition>
+		<key>error_description_html</key>
+		<value><![CDATA[Indholdsbeskrivelse HTML-tags understøttes ikke!]]></value>
 	</definition>
 	<definition>
 		<key>error_content</key>
@@ -109,6 +149,11 @@
 		<value><![CDATA[Advarsel: Dette indhold kan ikke slettes, da det i øjeblikket er tildelt som standard butik kassen vilkår!]]></value>
 	</definition>
 	<definition>
+		<key>error_delete_parent</key>
+		<value><![CDATA[
+ Advarsel: Forældreindhold kan ikke slettes! Flyt eller slet underordnede indholdssider først.]]></value>
+	</definition>
+	<definition>
 		<key>error_required_data</key>
 		<value><![CDATA[Nødvendige data ikke er blevet indtastet. Tjek for marken fejl!]]></value>
 	</definition>
@@ -123,47 +168,6 @@
 	<definition>
 		<key>tab_form</key>
 		<value><![CDATA[Redigere]]></value>
-	</definition>
-	<definition>
-		<key>column_publish_date</key>
-		<value><![CDATA[Udgivelsesdato]]></value>
-	</definition>
-	<definition>
-		<key>entry_publish_date</key>
-		<value><![CDATA[Udgivelsesdato:]]></value>
-	</definition>
-	<definition>
-		<key>entry_expire_date</key>
-		<value><![CDATA[Udløbsdato:]]></value>
-	</definition>
-	<definition>
-		<key>entry_content_bar</key>
-		<value><![CDATA[Indholdsdetaljerlinje: <br/><span class="help">Aktiver denne indstilling for at vise linjen med forfatteren og udgivelsesdatoen på indholdssiden</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_icon</key>
-		<value><![CDATA[Hovedbillede eller ikon:]]></value>
-	</definition>
-	<definition>
-		<key>entry_tags</key>
-		<value><![CDATA[Indholdstags: <br/><span class="help">kommasepareret liste</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_author</key>
-		<value><![CDATA[Forfatter:]]></value>
-	</definition>
-	<definition>
-		<key>error_title_html</key>
-		<value><![CDATA[Indholdstitel må ikke indeholde HTML-tags!]]></value>
-	</definition>
-	<definition>
-		<key>error_description_html</key>
-		<value><![CDATA[Indholdsbeskrivelse HTML-tags understøttes ikke!]]></value>
-	</definition>
-	<definition>
-		<key>error_delete_parent</key>
-		<value><![CDATA[
- Advarsel: Forældreindhold kan ikke slettes! Flyt eller slet underordnede indholdssider først.]]></value>
 	</definition>
 	<definition>
 		<key>entry_meta_description</key>

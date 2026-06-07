@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
@@ -55,5 +55,13 @@
 	<definition>
 		<key>paypal_commerce_error_declined</key>
 		<value><![CDATA[Paiement refusé]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_required_options_warning</key>
+		<value><![CDATA[Veuillez sélectionner toutes les options de produit requises avant d’utiliser PayPal.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_failed</key>
+		<value><![CDATA[L’authentification 3D Secure a échoué ou est indisponible. Le paiement n’a pas été capturé.]]></value>
 	</definition>
 </definitions>

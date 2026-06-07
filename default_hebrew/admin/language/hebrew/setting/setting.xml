@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[פג תוקף מושב לוח הבקרה:<br /><span class="help">ערך זה קובע את מרווח הזמן בדקות לפני שתתבקש להתחבר שוב עקב חוסר פעילות.</span>]]></value>
+		<value><![CDATA[פג תוקף מושב לוח הבקרה:<br /><span class="help">ערך זה קובע את מרווח הזמן בדקות לפני שתתבקש להיכנס שוב עקב חוסר פעילות. לחוויית ניתוק קפדנית עקב חוסר פעילות, השבת את Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[שמירה על סשן ממושך:<br /><span class="help">הפעל בקשות רקע תקופתיות עבור התראות מנהל ובדיקות מערכת. השבת אפשרות זו כדי למנוע מרענון רקע שמאריך את הסשן הפעיל. לאחר שינוי הגדרה זו, ייתכן שתראה הודעת התחברות חוזרת חד-פעמית.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -814,7 +818,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[מפתח ה-API של Google (להפעלת Google Maps):<br /><span class="help">ניתן לראות את הכתובת על המפה. כדי להפעיל את Google Maps הוסף את מפתח ה-API של Google Maps שלך ב-<a href="https://console.cloud.google.com/apis/credentials" target="_blank">עמוד האישורים של Google</a>.</span>]]></value>
+		<value><![CDATA[Google Maps and Places API Key:<br /><span class="help">הכנס את מפתח ה-API של Google Maps ו-Places שלך כדי להציג כתובות על המפה ולאפשר השלמת כתובת אוטומטית בטפסי כתובת בחזית החנות. מפתח זה משמש בדפי חזית החנות ונחשף בצד הלקוח, לכן הגבל אותו לפי תחום(ים) מורשה ו/או כתובת IP בקונסולת Google Cloud.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[השלמה אוטומטית לכתובת (Google Places):<br /><span class="help">הפעל או בטל את ההשלמה האוטומטית של כתובת בעזרת Google Places API בטפסי הכתובת של החנות. דורש מפתח API של Google.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -885,6 +893,10 @@
 		<value><![CDATA[ערך זה לא יכול לעלות על ההגדרה %s בקובץ php.ini שלך (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[פסק זמן של אי-פעילות פועל כמצופה כאשר <b>Keep Long Session</b> כבוי.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[מספר התחלה להזמנות:<br /><span class="help">הגדר את מספר ההתחלה שממנו יתחילו ההזמנות.</span>]]></value>
 	</definition>
@@ -907,10 +919,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[חזית החנות]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[מנהל]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1025,6 +1033,10 @@
 		<value><![CDATA[לוגו דוא"ל ברירת מחדל:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[תבנית Regex לאימות מספר טלפון:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[פקודת crontab בלינוקס <span class="help">הפעל את הפקודה crontab -e עם אותו משתמש לינוקס שמפעיל את שרת האינטרנט של AbanteCart. בעורך, הוסף את הפקודה</span>]]></value>
 	</definition>
@@ -1055,9 +1067,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[אפשר ללקוחות חוזרים לדפדף:<br /><span class="help">לקוחות שאינם מאומתים החוזרים לאתר יוכלו לדפדף במוצרים, להוסיף לעגלת הקניות ולרשימת המשאלות.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[תבנית Regex לאימות מספר טלפון:]]></value>
 	</definition>
 </definitions>

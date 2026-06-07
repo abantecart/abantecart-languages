@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -15,6 +15,10 @@
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[Κλειδί άδειας:<br /><span class="help">Κλειδί άδειας που παρέχεται από την Αβαλάρα</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Λειτουργία δοκιμής:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -51,6 +55,10 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Η σύνδεση είναι επιτυχής και τα διαπιστευτήρια API έχουν ρυθμιστεί σωστά.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Δοκιμή σύνδεσης:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -155,13 +163,5 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Ενεργοποίηση καταγραφής συναλλαγών]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[Λειτουργία δοκιμής:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[Δοκιμή σύνδεσης:]]></value>
 	</definition>
 </definitions>

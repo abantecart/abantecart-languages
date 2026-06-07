@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -33,6 +33,10 @@
 		<value><![CDATA[Añadir]]></value>
 	</definition>
 	<definition>
+		<key>column_id</key>
+		<value><![CDATA[CARNÉ DE IDENTIDAD]]></value>
+	</definition>
+	<definition>
 		<key>column_name</key>
 		<value><![CDATA[Nombre del cliente]]></value>
 	</definition>
@@ -41,12 +45,12 @@
 		<value><![CDATA[Correo electrónico]]></value>
 	</definition>
 	<definition>
-		<key>column_group</key>
-		<value><![CDATA[Grupo]]></value>
-	</definition>
-	<definition>
 		<key>column_customer_group</key>
 		<value><![CDATA[Grupo de clientes]]></value>
+	</definition>
+	<definition>
+		<key>column_group</key>
+		<value><![CDATA[Grupo]]></value>
 	</definition>
 	<definition>
 		<key>column_status</key>
@@ -101,12 +105,48 @@
 		<value><![CDATA[Estado:]]></value>
 	</definition>
 	<definition>
+		<key>entry_approved</key>
+		<value><![CDATA[Aprobado:]]></value>
+	</definition>
+	<definition>
 		<key>entry_password</key>
 		<value><![CDATA[Contraseña:]]></value>
 	</definition>
 	<definition>
 		<key>entry_confirm</key>
 		<value><![CDATA[Confirmar:]]></value>
+	</definition>
+	<definition>
+		<key>entry_company</key>
+		<value><![CDATA[Empresa:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_1</key>
+		<value><![CDATA[Dirección 1:]]></value>
+	</definition>
+	<definition>
+		<key>entry_address_2</key>
+		<value><![CDATA[Dirección 2:]]></value>
+	</definition>
+	<definition>
+		<key>entry_city</key>
+		<value><![CDATA[Ciudad:]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Código Postal:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country</key>
+		<value><![CDATA[País:]]></value>
+	</definition>
+	<definition>
+		<key>entry_country_id</key>
+		<value><![CDATA[País:]]></value>
+	</definition>
+	<definition>
+		<key>entry_zone</key>
+		<value><![CDATA[Región / Estado:]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
@@ -145,38 +185,6 @@
 		<value><![CDATA[La contrase&ntilde;a y confirmaci�n de la contrase&ntilde;a no coinciden!]]></value>
 	</definition>
 	<definition>
-		<key>entry_company</key>
-		<value><![CDATA[Empresa:]]></value>
-	</definition>
-	<definition>
-		<key>entry_address_1</key>
-		<value><![CDATA[Dirección 1:]]></value>
-	</definition>
-	<definition>
-		<key>entry_address_2</key>
-		<value><![CDATA[Dirección 2:]]></value>
-	</definition>
-	<definition>
-		<key>entry_city</key>
-		<value><![CDATA[Ciudad:]]></value>
-	</definition>
-	<definition>
-		<key>entry_postcode</key>
-		<value><![CDATA[Código Postal:]]></value>
-	</definition>
-	<definition>
-		<key>entry_country</key>
-		<value><![CDATA[País:]]></value>
-	</definition>
-	<definition>
-		<key>entry_country_id</key>
-		<value><![CDATA[País:]]></value>
-	</definition>
-	<definition>
-		<key>entry_zone</key>
-		<value><![CDATA[Región / Estado:]]></value>
-	</definition>
-	<definition>
 		<key>error_address_firstname</key>
 		<value><![CDATA[Nombre debe ser entre 1 y 32 caracteres!]]></value>
 	</definition>
@@ -209,24 +217,16 @@
 		<value><![CDATA[- Select Group -]]></value>
 	</definition>
 	<definition>
-		<key>entry_approved</key>
-		<value><![CDATA[Aprobado:]]></value>
-	</definition>
-	<definition>
-		<key>text_select_group</key>
-		<value><![CDATA[- Select Group -]]></value>
-	</definition>
-	<definition>
 		<key>tab_customer_details</key>
 		<value><![CDATA[Detalles del cliente]]></value>
 	</definition>
 	<definition>
 		<key>tab_transactions</key>
-		<value><![CDATA[Actas]]></value>
+		<value><![CDATA[Historial del saldo de la cuenta]]></value>
 	</definition>
 	<definition>
 		<key>heading_title_transactions</key>
-		<value><![CDATA[transacciones del cliente]]></value>
+		<value><![CDATA[Historial del saldo de la cuenta]]></value>
 	</definition>
 	<definition>
 		<key>column_create_date</key>
@@ -253,6 +253,14 @@
 		<value><![CDATA[Balance:]]></value>
 	</definition>
 	<definition>
+		<key>text_last_login</key>
+		<value><![CDATA[Último acceso:]]></value>
+	</definition>
+	<definition>
+		<key>text_never</key>
+		<value><![CDATA[Nunca]]></value>
+	</definition>
+	<definition>
 		<key>popup_title_info</key>
 		<value><![CDATA[Información de la transacción]]></value>
 	</definition>
@@ -277,6 +285,10 @@
 		<value><![CDATA[Otro de un tipo de transacción: ]]></value>
 	</definition>
 	<definition>
+		<key>text_other_type_placeholder</key>
+		<value><![CDATA[escriba el nuevo nombre aquí]]></value>
+	</definition>
+	<definition>
 		<key>text_option_other_type</key>
 		<value><![CDATA[Otros ... ]]></value>
 	</definition>
@@ -293,6 +305,10 @@
 		<value><![CDATA[Actualizado:]]></value>
 	</definition>
 	<definition>
+		<key>entry_create_date</key>
+		<value><![CDATA[Fecha de Creación:]]></value>
+	</definition>
+	<definition>
 		<key>error_transaction_type</key>
 		<value><![CDATA[Error: Rellene transacción campo de formulario tipo.]]></value>
 	</definition>
@@ -301,12 +317,12 @@
 		<value><![CDATA[Error: Rellene débito o crédito para la transacción en el valor del cliente.]]></value>
 	</definition>
 	<definition>
-		<key>text_transaction_success</key>
-		<value><![CDATA[Exito: Se ha modificado transacción!]]></value>
+		<key>error_incorrect_debit_credit</key>
+		<value><![CDATA[Error: el valor de débito o crédito no puede ser mayor que 99999999999.9999]]></value>
 	</definition>
 	<definition>
-		<key>text_add_address</key>
-		<value><![CDATA[Añadir nueva dirección]]></value>
+		<key>text_transaction_success</key>
+		<value><![CDATA[Exito: Se ha modificado transacción!]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_address</key>
@@ -337,10 +353,6 @@
 		<value><![CDATA[Para actuar en nombre del cliente en almacén adicional que debe abrirse una sesión en parte de administración de otra tienda. De acuerdo?]]></value>
 	</definition>
 	<definition>
-		<key>entry_create_date</key>
-		<value><![CDATA[Fecha de Creación:]]></value>
-	</definition>
-	<definition>
 		<key>entry_notify</key>
 		<value><![CDATA[Notificará al cliente:]]></value>
 	</definition>
@@ -357,28 +369,8 @@
 		<value><![CDATA[El total de pedidos:]]></value>
 	</definition>
 	<definition>
-		<key>text_last_login</key>
-		<value><![CDATA[Último acceso:]]></value>
-	</definition>
-	<definition>
-		<key>text_never</key>
-		<value><![CDATA[Nunca]]></value>
-	</definition>
-	<definition>
-		<key>text_other_type_placeholder</key>
-		<value><![CDATA[escriba el nuevo nombre aquí]]></value>
-	</definition>
-	<definition>
 		<key>text_register_date</key>
 		<value><![CDATA[Fecha de registro:]]></value>
-	</definition>
-	<definition>
-		<key>column_id</key>
-		<value><![CDATA[CARNÉ DE IDENTIDAD]]></value>
-	</definition>
-	<definition>
-		<key>error_incorrect_debit_credit</key>
-		<value><![CDATA[Error: el valor de débito o crédito no puede ser mayor que 99999999999.9999]]></value>
 	</definition>
 	<definition>
 		<key>error_email_exists</key>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Vypršanie relácie ovládacieho panela:<br /><span class="help">Táto hodnota určuje časový interval v minútach predtým, než budete z dôvodu nečinnosti požiadaní o opätovné prihlásenie.</span>]]></value>
+		<value><![CDATA[Vypršanie relácie ovládacieho panela:<br /><span class="help">Táto hodnota určuje časový interval v minútach, po ktorom budete pri nečinnosti vyzvaní na opätovné prihlásenie. Pre prísne správanie pri vypršaní nečinnosti vypnite možnosť Udržiavať dlhú reláciu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Udržať dlhú reláciu:<br /><span class="help">Povoľte periodické požiadavky na pozadí pre administrátorské oznámenia a systémové kontroly. Deaktivujte toto nastavenie, aby obnova na pozadí nepredlžovala aktívnu reláciu. Po zmene nastavenia sa môže zobraziť jednorazová výzva na opätovné prihlásenie.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -814,7 +818,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API kľúč (na povolenie Google máp):<br /><span class="help">Na mape môžete vidieť adresu. Ak chcete povoliť Google mapy, pridajte svoj API kľúč pre Google mapy na <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google Credentials Page</a>.</span>]]></value>
+		<value><![CDATA[Google Maps a Places API kľúč:<br /><span class="help">Zadajte svoj Google Maps a Places API kľúč na zobrazenie adries na mape a na povolenie automatického dopĺňania adries vo formulároch na stránke obchodu. Tento kľúč sa používa na stránkach obchodu a je odhalený na strane klienta, preto ho obmedzte podľa povolených doména(y) a/alebo IP adries v Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Automatické dopĺňanie adresy (Google Places):<br /><span class="help">Povoliť alebo zakázať automatické dopĺňanie adries pomocou Google Places API vo formulároch adries v obchode. Vyžaduje kľúč Google API.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -885,6 +893,10 @@
 		<value><![CDATA[Táto hodnota nesmie prekročiť vašu direktívu php.ini %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Časový limit nečinnosti funguje podľa očakávania, keď je <b>Udržať dlhú reláciu</b> vypnutá.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Počiatočné číslo objednávky:<br /><span class="help">Nastavte počiatočné číslo, od ktorého sa budú objednávky číslovať.</span>]]></value>
 	</definition>
@@ -907,10 +919,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Vzhľad obchodu]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Administrátor]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1023,6 +1031,10 @@
 	<definition>
 		<key>entry_default_mail_logo</key>
 		<value><![CDATA[Predvolené logo e-mailu:]]></value>
+	</definition>
+	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex vzor na overenie telefónneho čísla:]]></value>
 	</definition>
 	<definition>
 		<key>entry_cron_command</key>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -15,6 +15,14 @@
 	<definition>
 		<key>column_name</key>
 		<value><![CDATA[Nome dello stato dell'ordine]]></value>
+	</definition>
+	<definition>
+		<key>column_text_id</key>
+		<value><![CDATA[Lo stato dell'ordine Text ID]]></value>
+	</definition>
+	<definition>
+		<key>entry_text_id</key>
+		<value><![CDATA[Lo stato dell'ordine Text ID:]]></value>
 	</definition>
 	<definition>
 		<key>column_action</key>
@@ -51,14 +59,6 @@
 	<definition>
 		<key>error_nondeletable</key>
 		<value><![CDATA[ATTENZIONE: Questo è importante lo stato dell'ordine che si collega ai pagamenti. Non è possibile eliminare questo stato.]]></value>
-	</definition>
-	<definition>
-		<key>column_text_id</key>
-		<value><![CDATA[Lo stato dell'ordine Text ID]]></value>
-	</definition>
-	<definition>
-		<key>entry_text_id</key>
-		<value><![CDATA[Lo stato dell'ordine Text ID:]]></value>
 	</definition>
 	<definition>
 		<key>error_status_text_id</key>

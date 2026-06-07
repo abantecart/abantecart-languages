@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>usps_name</key>
+		<value><![CDATA[미국 우편 서비스]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[배송]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[USPS 설정]]></value>
+	</definition>
+	<definition>
+		<key>text_usps_success</key>
+		<value><![CDATA[성공: 미국 우정청을 수정했습니다!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[국제 특급 우편]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[국제 우선 우편]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[전세계 특급 보장 (문서 및 비문서)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[Global Express Guaranteed 문서전용]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[글로벌 익스프레스 보장 비서류 직사각형 모양]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[글로벌 익스프레스 보장 비문서 비직사각형]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[우선우편 정액 요금 봉투]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[우선 우편 고정 요금 상자]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[국제 특급 우편 고정 요금 봉투]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[우선 우편 대형 정액 요금 상자]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[글로벌 익스프레스 보장 봉투]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[일등급 국제 우편 편지]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[국제 1등급 우편(평판물)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[퍼스트 클래스 우편 국제 소포]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[우선 우편 소형 정액 요금 상자]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[엽서]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[일반]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[대형]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[규격 초과]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[직사각형의]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[비직사각형]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[변수]]></value>
+	</definition>
+	<definition>
+		<key>entry_api_environment</key>
+		<value><![CDATA[API 개발자 모드]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment</key>
+		<value><![CDATA[API 개발자 모드]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment_production</key>
+		<value><![CDATA[운영(실시간 환율)]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_shipping</key>
+		<value><![CDATA[개발자 모드]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_id</key>
+		<value><![CDATA[소비자 키<br/><span class="help">https://cop.usps.com에서 앱을 생성하세요. OAuth 토큰을 생성하려면 이 자격 증명이 필요합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_id</key>
+		<value><![CDATA[소비자 키:<span class="help">https://cop.usps.com의 애플리케이션 섹션에서 찾을 수 있습니다. 이 자격 증명은 OAuth 토큰을 생성하는 데 필요합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_client_id_shipping</key>
+		<value><![CDATA[API 클라이언트 ID]]></value>
+	</definition>
+	<definition>
+		<key>text_country_shipping</key>
+		<value><![CDATA[발송자 국가 및 지역]]></value>
+	</definition>
+	<definition>
+		<key>text_address_shipping</key>
+		<value><![CDATA[발송인 주소]]></value>
+	</definition>
+	<definition>
+		<key>text_city_shipping</key>
+		<value><![CDATA[송하인 도시]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone_shipping</key>
+		<value><![CDATA[발송인 전화번호<span class="help">10자리 이상, 공백 또는 특수문자 없이</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_secret</key>
+		<value><![CDATA[API 클라이언트 시크릿<br/><span class="help">https://developers.usps.com의 애플리케이션 섹션에서 찾을 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token</key>
+		<value><![CDATA[라벨 생성 테스트:<span class="help">라벨 생성 시 USPS는 귀하의 계정에 결제 토큰 생성을 위한 추가 권한이 필요할 수 있습니다. 이 권한을 활성화하려면 USPS 지원팀에 문의하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token_button</key>
+		<value><![CDATA[테스트 레이블 생성]]></value>
+	</definition>
+	<definition>
+		<key>usps_country</key>
+		<value><![CDATA[발송인 국가 및 지역]]></value>
+	</definition>
+	<definition>
+		<key>usps_telephone</key>
+		<value><![CDATA[발송인 전화번호 (10자리 이상)]]></value>
+	</definition>
+	<definition>
+		<key>usps_address</key>
+		<value><![CDATA[발송자 주소]]></value>
+	</definition>
+	<definition>
+		<key>usps_city</key>
+		<value><![CDATA[발송자 도시]]></value>
+	</definition>
+	<definition>
+		<key>usps_postcode</key>
+		<value><![CDATA[발송인 우편번호]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_crid</key>
+		<value><![CDATA[고객 등록 ID (CRID):<span class="help">USPS 라벨 생성을 위해 필요합니다. https://developers.usps.com의 계정 섹션에서 확인할 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_mid</key>
+		<value><![CDATA[메일러 ID (MID):<span class="help">USPS 라벨 생성에 필요합니다. https://developers.usps.com의 계정 섹션에서 찾을 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_manifest_mid</key>
+		<value><![CDATA[매니페스트 MID:<span class="help">USPS 라벨 생성에 필요합니다. 귀하의 계정 섹션은 https://developers.usps.com에서 확인할 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_account_number</key>
+		<value><![CDATA[EPS 계정 번호:<span class="help">USPS 라벨 생성에 필요합니다. https://epay.usps.com/의 Enterprise Payment System 계정에서 찾을 수 있습니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_manifest_order_status_id</key>
+		<value><![CDATA[주문 상태가 될 때 배송 생성]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_secret</key>
+		<value><![CDATA[소비자 비밀키:<span class="help">https://cop.usps.com의 애플리케이션 섹션에서 확인하실 수 있습니다. 이 자격 증명은 OAuth 토큰 생성을 위해 필요합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_manifest_order_status_id</key>
+		<value><![CDATA[주문 상태가 되면 배송을 생성]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipping_storefront_icon</key>
+		<value><![CDATA[스토어프런트 아이콘]]></value>
+	</definition>
+	<definition>
+		<key>usps_debug</key>
+		<value><![CDATA[디버그 로깅 상태]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_1</key>
+		<value><![CDATA[우선 우편]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_2</key>
+		<value><![CDATA[우선 우편 익스프레스]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_3</key>
+		<value><![CDATA[소포 선택]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_4</key>
+		<value><![CDATA[제본 인쇄물]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_5</key>
+		<value><![CDATA[미디어 메일]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_6</key>
+		<value><![CDATA[라이브러리 메일]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_7</key>
+		<value><![CDATA[USPS 그라운드 어드밴티지]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_1</key>
+		<value><![CDATA[국제 우선 특급 우편]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_2</key>
+		<value><![CDATA[국제 우선 우편]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_3</key>
+		<value><![CDATA[글로벌 익스프레스 보장 (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_4</key>
+		<value><![CDATA[퍼스트 클래스 패키지 국제 서비스]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_1</key>
+		<value><![CDATA[우선 우편]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_2</key>
+		<value><![CDATA[우선 우편 특급]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_3</key>
+		<value><![CDATA[소포 선택]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_4</key>
+		<value><![CDATA[제본 인쇄물]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_5</key>
+		<value><![CDATA[미디어 메일]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_6</key>
+		<value><![CDATA[라이브러리 메일]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_7</key>
+		<value><![CDATA[USPS 그라운드 어드밴티지]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_1</key>
+		<value><![CDATA[국제 우선 특급 우편]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_2</key>
+		<value><![CDATA[국제 우선 우편]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_3</key>
+		<value><![CDATA[글로벌 익스프레스 보장 (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_4</key>
+		<value><![CDATA[일등급 국제 소포 서비스]]></value>
+	</definition>
+	<definition>
+		<key>usps_length</key>
+		<value><![CDATA[치수 길이]]></value>
+	</definition>
+	<definition>
+		<key>usps_width</key>
+		<value><![CDATA[치수 폭]]></value>
+	</definition>
+	<definition>
+		<key>usps_height</key>
+		<value><![CDATA[치수 높이]]></value>
+	</definition>
+	<definition>
+		<key>usps_display_weight</key>
+		<value><![CDATA[배송 중량 표시]]></value>
+	</definition>
+	<definition>
+		<key>usps_tax_class_id</key>
+		<value><![CDATA[세금 등급]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id</key>
+		<value><![CDATA[위치]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id_0</key>
+		<value><![CDATA[모든 위치]]></value>
+	</definition>
+	<definition>
+		<key>usps_sort_order</key>
+		<value><![CDATA[정렬 순서]]></value>
+	</definition>
+	<definition>
+		<key>usps_test_connection</key>
+		<value><![CDATA[연결 테스트]]></value>
+	</definition>
+	<definition>
+		<key>text_client_secret_shipping</key>
+		<value><![CDATA[API 클라이언트 비밀 키]]></value>
+	</definition>
+	<definition>
+		<key>text_manifest_order_status_id_shipping</key>
+		<value><![CDATA[주문 상태가 ~이 되면 배송 생성]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[우편번호:<span class="help">패키지 출발 위치의 우편/우편번호.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[가정 서비스:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[국제 서비스:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[크기:<span class="help">귀하의 상점에서 주문된 상품을 포장할 때 일반적으로 사용하는 용기 크기를 선택하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[Container:<span class="help">상점에서 주문된 제품을 포장할 때 일반적으로 사용하는 용기 유형을 선택하세요. USPS는 최대 70파운드 무게의 패키지만 배송합니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[기계 처리 가능:<br /><span class="help">예를 선택하는 것이 좋습니다. 배송물을 기계로 취급해도 되는지 지정하세요. 이 옵션을 활성화하면 배송 비용이 줄어듭니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[치수 (L x W x H):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[치수 길이:<br /><span class="help">배송 패키지의 평균 치수입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[치수 너비:<br /><span class="help">평균 배송용 패키지 치수입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[치수 높이:<br /><span class="help">배송 패키지의 평균 치수입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[둘레:	
+패키지의 둘레를 확인하려면 직사각형이 아닌 패키지의 가장 두꺼운 부분을 둘러싼 거리를 측정하세요.]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[Display Delivery Time:<br /><span class="help">배송 시간을 표시하시겠습니까? (예: 3~5일 이내에 배송됩니다)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[배송 중량 표시:<br /><span class="help">배송 중량을 표시하시겠습니까? (예: 배송 중량 : 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[무게 등급:<br /><span class="help">파운드 단위로 설정.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[길이 단위:<br /><span class="help">상점의 치수 또는 기본 길이 단위입니다.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[세금 등급:<br /><span class="help">이 항목에 세금을 부과해야 하는 경우, 세금 등급을 선택하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[위치:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[정렬 순서:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[경고: 미국 우정국을 수정할 권한이 없습니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_id</key>
+		<value><![CDATA[API 클라이언트 ID가 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_secret</key>
+		<value><![CDATA[API 클라이언트 시크릿이 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[우편번호가 필요합니다!]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_production</key>
+		<value><![CDATA[운영 (실시간 요율)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label</key>
+		<value><![CDATA[USPS 라벨 인쇄 (원본 주문)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_title</key>
+		<value><![CDATA[고객이 체크아웃 시 제출한 원래의 무게 및 치수를 사용하여 USPS 라벨을 인쇄합니다. 관리자가 주문을 변경해도 라벨에는 영향을 주지 않습니다.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_suggestion</key>
+		<value><![CDATA[주문 상태를 "%s"(으)로 변경하여 USPS API를 통해 배송을 생성하고 소포 라벨을 가져옵니다.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_missing_settings</key>
+		<value><![CDATA[라벨을 생성하려면 먼저 확장 설정에서 USPS 계정 세부 정보를 입력하세요.]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_weight</key>
+		<value><![CDATA[무게:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_height</key>
+		<value><![CDATA[높이:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_width</key>
+		<value><![CDATA[폭:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_depth</key>
+		<value><![CDATA[깊이:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_parcel_info</key>
+		<value><![CDATA[소포 정보:]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipment_created_success_message</key>
+		<value><![CDATA[USPS 배송이 성공적으로 생성되었습니다. 운송장 번호: %s. 자세한 정보는 <a href="%s">여기</a>에서 확인하세요.]]></value>
+	</definition>
+</definitions>

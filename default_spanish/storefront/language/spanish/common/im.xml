@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>im_text_notification</key>
@@ -45,6 +45,10 @@
 		<value><![CDATA[ Nuevo cliente #%s ha sido registrado!]]></value>
 	</definition>
 	<definition>
+		<key>im_new_subscriber_text_to_admin</key>
+		<value><![CDATA[ Se ha registrado el nuevo suscriptor #%s]]></value>
+	</definition>
+	<definition>
 		<key>im_sendpoint_name_customer_account_update</key>
 		<value><![CDATA[ Actualización de cuenta]]></value>
 	</definition>
@@ -55,6 +59,18 @@
 	<definition>
 		<key>im_customer_account_update_text_to_customer</key>
 		<value><![CDATA[ ¡Tu cuenta ha sido actualizada!]]></value>
+	</definition>
+	<definition>
+		<key>im_customer_account_update_email_to_customer</key>
+		<value><![CDATA[ Su cuenta dirección de correo electrónico se cambió a %s! Si no lo hace este cambio, por favor, póngase en contacto con propietario del sitio]]></value>
+	</definition>
+	<definition>
+		<key>im_customer_account_update_login_to_customer</key>
+		<value><![CDATA[ Su cuenta de inicio de sesión nombre fue cambiado a %s! Si no lo hace este cambio, por favor, póngase en contacto con propietario del sitio]]></value>
+	</definition>
+	<definition>
+		<key>im_customer_account_update_password_to_customer</key>
+		<value><![CDATA[ Su contraseña de la cuenta se ha cambiado! Si no lo hace este cambio, por favor, póngase en contacto con propietario del sitio]]></value>
 	</definition>
 	<definition>
 		<key>im_customer_contact_admin_text</key>
@@ -75,21 +91,5 @@
 	<definition>
 		<key>im_product_out_of_stock_admin_text</key>
 		<value><![CDATA[ Producto con el identificador #%s está agotado.]]></value>
-	</definition>
-	<definition>
-		<key>im_customer_account_update_email_to_customer</key>
-		<value><![CDATA[ Su cuenta dirección de correo electrónico se cambió a %s! Si no lo hace este cambio, por favor, póngase en contacto con propietario del sitio]]></value>
-	</definition>
-	<definition>
-		<key>im_customer_account_update_login_to_customer</key>
-		<value><![CDATA[ Su cuenta de inicio de sesión nombre fue cambiado a %s! Si no lo hace este cambio, por favor, póngase en contacto con propietario del sitio]]></value>
-	</definition>
-	<definition>
-		<key>im_customer_account_update_password_to_customer</key>
-		<value><![CDATA[ Su contraseña de la cuenta se ha cambiado! Si no lo hace este cambio, por favor, póngase en contacto con propietario del sitio]]></value>
-	</definition>
-	<definition>
-		<key>im_new_subscriber_text_to_admin</key>
-		<value><![CDATA[ Se ha registrado el nuevo suscriptor #%s]]></value>
 	</definition>
 </definitions>

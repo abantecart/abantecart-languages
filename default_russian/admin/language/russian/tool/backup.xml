@@ -29,10 +29,6 @@
 		<value><![CDATA[Резервировать таблицы:]]></value>
 	</definition>
 	<definition>
-		<key>entry_restore</key>
-		<value><![CDATA[Восстановление из SQL или XML файла:]]></value>
-	</definition>
-	<definition>
 		<key>entry_loadxml</key>
 		<value><![CDATA[Загрузка XML-файла:]]></value>
 	</definition>
@@ -53,6 +49,10 @@
 		<value><![CDATA[Внимание: Вы не имеете прав модифицировать резервные копии!]]></value>
 	</definition>
 	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Внимание: Пожалуйста, выберите файл!]]></value>
+	</definition>
+	<definition>
 		<key>error_empty</key>
 		<value><![CDATA[Предупреждение: Загруженный файл был пуст или имеет неправильный тип файла!]]></value>
 	</definition>
@@ -63,14 +63,6 @@
 	<definition>
 		<key>error_xml</key>
 		<value><![CDATA[Предупреждение: Загруженный файл не загружается как XML! Пожалуйста, см. лог-файл для подробностей]]></value>
-	</definition>
-	<definition>
-		<key>backup_complete_text_file</key>
-		<value><![CDATA[Чтобы скачать резервную копию посетите страницу <a href="#admin#rt=tool/install_upgrade_history">Истории установок/обновлений</a> ]]></value>
-	</definition>
-	<definition>
-		<key>backup_complete_text_dir</key>
-		<value><![CDATA[Все резервные файлы сохранены в директории %s</a> ]]></value>
 	</definition>
 	<definition>
 		<key>entry_backup_code</key>
@@ -105,7 +97,11 @@
 		<value><![CDATA[Примечание: выполнение этого процесса зависит от размера Ваших данных и объема виртуальной памяти вашего сервера. Если процесс завершится с ошибкой, проверьте права доступа к директории %s (выставьте -rw-rw-rw), а также <a href="http://php.net/manual/en/ini.core.php#ini.memory-limit" target="_blank">[PHP настроки памяти]</a>. Увеличьте размер выделенной памяти или запустите резервное копирование вручную, если процесс все равно прерывается.]]></value>
 	</definition>
 	<definition>
-		<key>error_nothing_to_do</key>
-		<value><![CDATA[Внимание: Пожалуйста, выберите файл!]]></value>
+		<key>backup_complete_text_file</key>
+		<value><![CDATA[Чтобы скачать резервную копию посетите страницу <a href="#admin#rt=tool/install_upgrade_history">Истории установок/обновлений</a> ]]></value>
+	</definition>
+	<definition>
+		<key>backup_complete_text_dir</key>
+		<value><![CDATA[Все резервные файлы сохранены в директории %s</a> ]]></value>
 	</definition>
 </definitions>

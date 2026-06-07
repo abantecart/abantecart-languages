@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>column_name</key>
 		<value><![CDATA[Имя]]></value>
+	</definition>
+	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[Имя поля]]></value>
 	</definition>
 	<definition>
 		<key>column_description</key>
@@ -209,6 +213,10 @@
 		<value><![CDATA[Шаблон регулярного выражения:]]></value>
 	</definition>
 	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[html-attributes:<br /><span class="help">Вы можете добавить свои собственные HTML-атрибуты для элемента option. Пример: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_error_text</key>
 		<value><![CDATA[Сообщение об ошибке о недопустимом значении:]]></value>
 	</definition>
@@ -233,20 +241,12 @@
 		<value><![CDATA[Поле с именем %s уже присутствует в форме!]]></value>
 	</definition>
 	<definition>
-		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[Внимание! Пожалуйста, задайте имя отправителя по умолчанию и адрес электронной почты отправителя по умолчанию в <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">настройках менеджера форм</a>]]></value>
-	</definition>
-	<definition>
-		<key>column_field_name</key>
-		<value><![CDATA[Имя поля]]></value>
-	</definition>
-	<definition>
-		<key>entry_html_attributes</key>
-		<value><![CDATA[html-attributes:<br /><span class="help">Вы можете добавить свои собственные HTML-атрибуты для элемента option. Пример: data-some-attribute="some value"</span>]]></value>
-	</definition>
-	<definition>
 		<key>error_regexp_pattern</key>
 		<value><![CDATA[Шаблон регулярного выражения недействителен!]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_error_empty_sender</key>
+		<value><![CDATA[Внимание! Пожалуйста, задайте имя отправителя по умолчанию и адрес электронной почты отправителя по умолчанию в <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">настройках менеджера форм</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_groups</key>

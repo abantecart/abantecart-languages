@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>sola_name</key>
+		<value><![CDATA[Sola]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_key</key>
+		<value><![CDATA[Klucz transakcji (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_token</key>
+		<value><![CDATA[Token transakcji (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>sola_test</key>
+		<value><![CDATA[Tryb testowy]]></value>
+	</definition>
+	<definition>
+		<key>sola_success_order_status</key>
+		<value><![CDATA[Status zamówienia:<br /><span class="help">Status zamówienia, który zostanie ustawiony po zakończeniu zamówienia klienta w oparciu o wybraną metodę transakcji</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id</key>
+		<value><![CDATA[Lokalizacja:<br /><span class="help">Ogranicz dostęp do tej metody płatności tylko dla wybranych lokalizacji.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id_0</key>
+		<value><![CDATA[Wszystkie lokalizacje]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method</key>
+		<value><![CDATA[Metoda transakcji:<br /><span class="help">Transakcja Sola przeprowadzana przy finalizacji zamówienia przez klienta, przed ustawieniem statusu zamówienia. Tylko autoryzacja lub pobranie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_capture</key>
+		<value><![CDATA[Przechwytywanie]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_authorization</key>
+		<value><![CDATA[Tylko autoryzacja]]></value>
+	</definition>
+	<definition>
+		<key>sola_ifields_key</key>
+		<value><![CDATA[Klucz iFields]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_pending_authorization</key>
+		<value><![CDATA[Oczekiwanie na autoryzację]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_funds</key>
+		<value><![CDATA[Pobierz środki]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture</key>
+		<value><![CDATA[Przechwyć]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_payment_status</key>
+		<value><![CDATA[Status płatności]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_success</key>
+		<value><![CDATA[Sukces! Środki zostały pomyślnie pobrane.]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_processing</key>
+		<value><![CDATA[Przetwarzanie]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_do_refund</key>
+		<value><![CDATA[Wykonaj zwrot Sola:<span class="help">Możesz wprowadzić kwotę, która ma zostać zwrócona.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refunded</key>
+		<value><![CDATA[Zwrócono]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund</key>
+		<value><![CDATA[Zwrot]]></value>
+	</definition>
+	<definition>
+		<key>sola_refund_title</key>
+		<value><![CDATA[Sola Zwrot]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund_success</key>
+		<value><![CDATA[Sukces! Zamówienie zostało pomyślnie zrefundowane.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_empty_amount</key>
+		<value><![CDATA[Błąd! Kwota jest nieprawidłowa.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_payment_method_data</key>
+		<value><![CDATA[Błąd! Nie ma danych metody płatności dla tego zamówienia.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_order_id</key>
+		<value><![CDATA[Błąd! Nie ma identyfikatora zamówienia.]]></value>
+	</definition>
+</definitions>

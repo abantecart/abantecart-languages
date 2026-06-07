@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>error_permission</key>
 		<value><![CDATA[Atención: No tiene permisos para acceder a las copias de seguridad!]]></value>
+	</definition>
+	<definition>
+		<key>error_nothing_to_do</key>
+		<value><![CDATA[Advertencia: Por favor, establece lo que desea hacer copia de seguridad o de importación!]]></value>
 	</definition>
 	<definition>
 		<key>error_empty</key>
@@ -99,9 +103,5 @@
 	<definition>
 		<key>backup_complete_text_dir</key>
 		<value><![CDATA[Directorio de backup-archivos es %s</a> ]]></value>
-	</definition>
-	<definition>
-		<key>error_nothing_to_do</key>
-		<value><![CDATA[Advertencia: Por favor, establece lo que desea hacer copia de seguridad o de importación!]]></value>
 	</definition>
 </definitions>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>usps_name</key>
+		<value><![CDATA[संयुक्त राज्य डाक सेवा]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[शिपिंग]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[यूएसपीएस सेटिंग्स]]></value>
+	</definition>
+	<definition>
+		<key>text_usps_success</key>
+		<value><![CDATA[सफलता: आपने संयुक्त राज्य डाक सेवा को संशोधित किया है!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[एक्सप्रेस मेल इंटरनेशनल]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[प्राथमिकता मेल अंतर्राष्ट्रीय]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[ग्लोबल एक्सप्रेस गारंटीड (दस्तावेज़ और गैर-दस्तावेज़)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[वैश्विक त्वरित गारंटीकृत दस्तावेज़ का उपयोग किया गया]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[ग्लोबल एक्सप्रेस गारंटीड गैर-दस्तावेज आयताकार आकार]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[ग्लोबल एक्सप्रेस गारंटीड गैर-दस्तावेजी गैर-आयताकार]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[प्राथमिकता मेल फ्लैट रेट लिफाफ़ा]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[प्राथमिकता मेल नियत दर बॉक्स]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[एक्सप्रेस मेल अंतर्राष्ट्रीय फ्लैट रेट लिफाफा]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[प्राथमिकता डाक का बड़ा निश्चित दर डिब्बा]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[वैश्विक एक्सप्रेस गारंटीशुदा लिफाफा]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[प्रथम श्रेणी अंतरराष्ट्रीय डाक पत्र]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[प्रथम श्रेणी डाक अंतरराष्ट्रीय लिफाफे]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[अंतरराष्ट्रीय प्रथम श्रेणी मेल पार्सल]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[प्राथमिकता मेल छोटा फ्लैट रेट बॉक्स]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[पोस्टकार्ड]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[नियमित]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[बड़ा]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[अतिविशाल]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[आयताकार]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[गैर आयताकार]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[चर]]></value>
+	</definition>
+	<definition>
+		<key>entry_api_environment</key>
+		<value><![CDATA[एपीआई विकासकर्ता मोड]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment</key>
+		<value><![CDATA[API डेवलपर मोड]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment_production</key>
+		<value><![CDATA[उत्पादन (लाइव दरें)]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_shipping</key>
+		<value><![CDATA[डेवलपर मोड]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_id</key>
+		<value><![CDATA[उपभोक्ता कुंजी<br/><span class="help">अपने https://cop.usps.com पर एक ऐप बनाएं। ये क्रेडेंशियल्स OAuth टोकन उत्पन्न करने के लिए आवश्यक हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_id</key>
+		<value><![CDATA[Consumer Key:<span class="help">आप इसे https://cop.usps.com पर अपने application सेक्शन में पा सकते हैं। OAuth टोकन उत्पन्न करने के लिए इन क्रेडेंशियल्स की आवश्यकता है</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_client_id_shipping</key>
+		<value><![CDATA[एपीआई क्लाइंट आईडी]]></value>
+	</definition>
+	<definition>
+		<key>text_country_shipping</key>
+		<value><![CDATA[शिपर देश और क्षेत्र]]></value>
+	</definition>
+	<definition>
+		<key>text_address_shipping</key>
+		<value><![CDATA[शिपर का पता]]></value>
+	</definition>
+	<definition>
+		<key>text_city_shipping</key>
+		<value><![CDATA[प्रेषक शहर]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone_shipping</key>
+		<value><![CDATA[शिपर फोन नंबर<span class="help">10 अंक या अधिक, कोई स्पेस या विशेष अक्षर नहीं</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_secret</key>
+		<value><![CDATA[API क्लाइंट सीक्रेट<br/><span class="help">आप इसे https://developers.usps.com पर अपने एप्लिकेशन सेक्शन में पा सकते हैं</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token</key>
+		<value><![CDATA[परीक्षण लेबल निर्माण:<span class="help">लेबल निर्माण के लिए, USPS को आपके खाते पर भुगतान टोकन निर्माण के लिए अतिरिक्त अनुमतियाँ आवश्यक हो सकती हैं। इस एक्सेस को सक्षम करने के लिए USPS समर्थन से संपर्क करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token_button</key>
+		<value><![CDATA[टेस्ट लेबल जनरेशन]]></value>
+	</definition>
+	<definition>
+		<key>usps_country</key>
+		<value><![CDATA[शिपर देश और क्षेत्र]]></value>
+	</definition>
+	<definition>
+		<key>usps_telephone</key>
+		<value><![CDATA[शिपर फोन नंबर (10 अंक या अधिक)]]></value>
+	</definition>
+	<definition>
+		<key>usps_address</key>
+		<value><![CDATA[प्रेषक का पता]]></value>
+	</definition>
+	<definition>
+		<key>usps_city</key>
+		<value><![CDATA[प्रेषक शहर]]></value>
+	</definition>
+	<definition>
+		<key>usps_postcode</key>
+		<value><![CDATA[प्रेषक का डाक कोड]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_crid</key>
+		<value><![CDATA[ग्राहक पंजीकरण आईडी (CRID):<span class="help">USPS लेबल निर्माण के लिए आवश्यक। आप इसे अपने खाते के अनुभाग में https://developers.usps.com पर पा सकते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_mid</key>
+		<value><![CDATA[Mailer ID (MID):<span class="help">USPS लेबल जनरेशन के लिए आवश्यक है। आप इसे https://developers.usps.com पर अपने खाते के अनुभाग में पा सकते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_manifest_mid</key>
+		<value><![CDATA[Manifest MID:<span class="help">USPS लेबल जनरेशन के लिए आवश्यक। आप इसे https://developers.usps.com पर अपने खाते के सेक्शन में पा सकते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_account_number</key>
+		<value><![CDATA[ईपीएस खाता संख्या:<span class="help">USPS लेबल बनाने के लिए आवश्यक। आप इसे अपने Enterprise Payment System खाते में https://epay.usps.com/ पर पा सकते हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_manifest_order_status_id</key>
+		<value><![CDATA[ऑर्डर की स्थिति … होने पर शिपमेंट बनाएँ]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_secret</key>
+		<value><![CDATA[उपभोक्ता रहस्य:<span class="help">आप इसे https://cop.usps.com में अपने आवेदन अनुभाग में पा सकते हैं। OAuth टोकन उत्पन्न करने के लिए ये क्रेडेंशियल्स आवश्यक हैं।</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_manifest_order_status_id</key>
+		<value><![CDATA[शिपमेंट बनाएँ जब आदेश की स्थिति हो जाए]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipping_storefront_icon</key>
+		<value><![CDATA[स्टोरफ़्रंट आइकन]]></value>
+	</definition>
+	<definition>
+		<key>usps_debug</key>
+		<value><![CDATA[डिबग लॉगिंग की स्थिति]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_1</key>
+		<value><![CDATA[प्राथमिकता मेल]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_2</key>
+		<value><![CDATA[प्राथमिक डाक एक्सप्रेस]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_3</key>
+		<value><![CDATA[पार्सल सेलेक्ट]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_4</key>
+		<value><![CDATA[बंधित मुद्रित सामग्री]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_5</key>
+		<value><![CDATA[मीडिया डाक]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_6</key>
+		<value><![CDATA[पुस्तकालय मेल]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_7</key>
+		<value><![CDATA[USPS ग्राउंड एडवांटेज]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_1</key>
+		<value><![CDATA[प्राथमिकता मेल एक्सप्रेस अंतर्राष्ट्रीय]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_2</key>
+		<value><![CDATA[अंतरराष्ट्रीय प्राथमिकता डाक]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_3</key>
+		<value><![CDATA[वैश्विक त्वरित गारंटीकृत (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_4</key>
+		<value><![CDATA[प्रथम श्रेणी पैकेज अंतर्राष्ट्रीय सेवा]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_1</key>
+		<value><![CDATA[प्राथमिकता मेल]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_2</key>
+		<value><![CDATA[प्राथमिकता मेल एक्सप्रेस]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_3</key>
+		<value><![CDATA[पार्सल चयन]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_4</key>
+		<value><![CDATA[बंधित मुद्रित सामग्री]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_5</key>
+		<value><![CDATA[मीडिया मेल]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_6</key>
+		<value><![CDATA[पुस्तकालय मेल]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_7</key>
+		<value><![CDATA[USPS ग्राउंड एडवांटेज]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_1</key>
+		<value><![CDATA[प्राथमिकता मेल एक्सप्रेस अंतरराष्ट्रीय]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_2</key>
+		<value><![CDATA[प्राथमिकता डाक अंतरराष्ट्रीय]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_3</key>
+		<value><![CDATA[ग्लोबल एक्सप्रेस गारंटीड (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_4</key>
+		<value><![CDATA[प्रथम श्रेणी पैकेज अंतर्राष्ट्रीय सेवा]]></value>
+	</definition>
+	<definition>
+		<key>usps_length</key>
+		<value><![CDATA[आयाम लंबाई]]></value>
+	</definition>
+	<definition>
+		<key>usps_width</key>
+		<value><![CDATA[आयाम चौड़ाई]]></value>
+	</definition>
+	<definition>
+		<key>usps_height</key>
+		<value><![CDATA[आयाम ऊंचाई]]></value>
+	</definition>
+	<definition>
+		<key>usps_display_weight</key>
+		<value><![CDATA[डिलीवरी वजन दिखाएँ]]></value>
+	</definition>
+	<definition>
+		<key>usps_tax_class_id</key>
+		<value><![CDATA[कर वर्ग]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id</key>
+		<value><![CDATA[स्थान]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id_0</key>
+		<value><![CDATA[सभी स्थान]]></value>
+	</definition>
+	<definition>
+		<key>usps_sort_order</key>
+		<value><![CDATA[क्रमबद्ध क्रम]]></value>
+	</definition>
+	<definition>
+		<key>usps_test_connection</key>
+		<value><![CDATA[कनेक्शन का परीक्षण करें]]></value>
+	</definition>
+	<definition>
+		<key>text_client_secret_shipping</key>
+		<value><![CDATA[API ग्राहक गुप्त]]></value>
+	</definition>
+	<definition>
+		<key>text_manifest_order_status_id_shipping</key>
+		<value><![CDATA[शिपमेंट बनाएँ जब ऑर्डर की स्थिति हो जाए]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[ज़िप कोड:<span class="help">आपके पैकेज के शुरुआती स्थान का ज़िप/पोस्टल कोड।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[घरेलू सेवाएँ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[अंतर्राष्ट्रीय सेवाएँ:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[आकार:<span class="help">अपने स्टोर से ऑर्डर किए गए उत्पादों को पैकेज करने के लिए आप आमतौर पर जिस कंटेनर का आकार उपयोग करते हैं, उसे चुनें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[कंटेनर:<span class="help">वह कंटेनर प्रकार चुनें जिसका उपयोग आप सामान्यतः अपने स्टोर से ऑर्डर किए गए उत्पादों को पैकेज करने के लिए करते हैं। USPS केवल 70 lbs तक के पैकेज वितरित करेगा।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[मशीन द्वारा संभालने योग्य:<br /><span class="help">अनुशंसा की जाती है कि आप हाँ चुनें। निर्दिष्ट करें कि क्या आपकी शिपमेंट को मशीनों द्वारा संभालना ठीक है। इस विकल्प को सक्षम करने से शिपिंग लागत कम हो जाती है।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[आयाम (लंबाई x चौड़ाई x ऊँचाई):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[आयाम लंबाई:<br /><span class="help">शिपिंग पैकेज के लिए औसत पैकेज का आयाम।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[आयाम चौड़ाई:<br /><span class="help">शिपिंग पैकेज के लिए औसत पैकेज का आयाम।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[आयाम ऊँचाई:<br /><span class="help">शिपिंग पैकेज के लिए औसत पैकेज का आयाम।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[परिधि:<br /><span class="help">अपने पैकेज की परिधि जानने के लिए, गैर-आयताकार पैकेज के सबसे मोटे हिस्से के चारों ओर की दूरी मापें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[डिलीवरी समय दिखाएँ:<br /><span class="help">क्या आप शिपिंग समय दिखाना चाहते हैं? (उदाहरण: 3 से 5 दिनों में शिप होगा)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[डिलीवरी वज़न दिखाएँ:<br /><span class="help">क्या आप शिपिंग वज़न दिखाना चाहते हैं? (उदा. डिलीवरी वज़न : 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[वजन वर्ग:<br /><span class="help">इसे पाउंड में सेट करें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[लंबाई वर्ग:<br /><span class="help">आपकी दुकान का आयाम या डिफ़ॉल्ट लंबाई वर्ग।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[कर वर्ग:<br /><span class="help">यदि इस वस्तु पर कर वसूलना आवश्यक है, तो कर वर्ग चुनें।</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[स्थान:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[छंटाई क्रम:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[चेतावनी: आपके पास संयुक्त राज्य अमेरिका डाक सेवा को संशोधित करने की अनुमति नहीं है!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_id</key>
+		<value><![CDATA[API क्लाइंट आईडी आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_secret</key>
+		<value><![CDATA[API क्लाइंट सीक्रेट आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[ज़िप कोड आवश्यक है!]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_production</key>
+		<value><![CDATA[उत्पादन (लाइव दरें)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label</key>
+		<value><![CDATA[USPS लेबल प्रिंट करें (मूल आदेश)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_title</key>
+		<value><![CDATA[चेकआउट पर ग्राहक द्वारा प्रस्तुत मूल वजन और आयामों का उपयोग करके USPS लेबल मुद्रित करता है। ऑर्डर में व्यवस्थापक द्वारा किए गए कोई भी परिवर्तन लेबल को प्रभावित नहीं करेगा।]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_suggestion</key>
+		<value><![CDATA[ऑर्डर की स्थिति को "%s" में बदलें ताकि यूएसपीएस एपीआई के माध्यम से शिपमेंट बनाया जा सके और पार्सल लेबल्स प्राप्त करें]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_missing_settings</key>
+		<value><![CDATA[लेबल बनाने के लिए, पहले एक्सटेंशन सेटिंग्स में अपने USPS खाते का विवरण पूरा करें।]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_weight</key>
+		<value><![CDATA[वजन:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_height</key>
+		<value><![CDATA[ऊंचाई:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_width</key>
+		<value><![CDATA[चौड़ाई:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_depth</key>
+		<value><![CDATA[गहराई:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_parcel_info</key>
+		<value><![CDATA[पार्सल जानकारी:]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipment_created_success_message</key>
+		<value><![CDATA[USPS शिपमेंट सफलतापूर्वक बनाया गया है। ट्रैकिंग नंबर: %s। अधिक जानकारी के लिए <a href="%s">यहाँ</a> देखें।]]></value>
+	</definition>
+</definitions>

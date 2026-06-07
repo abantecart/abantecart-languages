@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -35,6 +35,10 @@
 	<definition>
 		<key>column_model</key>
 		<value><![CDATA[Modello]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
 	</definition>
 	<definition>
 		<key>column_quantity</key>
@@ -121,19 +125,15 @@
 		<value><![CDATA[Successo: Lo sconto coupon è stato applicato!]]></value>
 	</definition>
 	<definition>
+		<key>text_coupon_removal</key>
+		<value><![CDATA[Successo: Coupon è stato rimosso!]]></value>
+	</definition>
+	<definition>
 		<key>error_quantity_maximum</key>
 		<value><![CDATA[La quantità supera quella ammessa. La quantità è stata impostata al massimo.]]></value>
 	</definition>
 	<definition>
 		<key>error_quantity_minimum</key>
 		<value><![CDATA[La quantità di prodotto consentita è inferiore al minimo richiesto. La quantità è stata impostata al minimo.]]></value>
-	</definition>
-	<definition>
-		<key>text_coupon_removal</key>
-		<value><![CDATA[Successo: Coupon è stato rimosso!]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[SKU]]></value>
 	</definition>
 </definitions>

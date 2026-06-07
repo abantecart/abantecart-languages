@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -55,6 +55,10 @@
 	<definition>
 		<key>text_all_zones</key>
 		<value><![CDATA[Toutes les zones]]></value>
+	</definition>
+	<definition>
+		<key>text_pagination</key>
+		<value><![CDATA[{start} - {end} of {total}]]></value>
 	</definition>
 	<definition>
 		<key>text_per_page</key>
@@ -217,6 +221,10 @@
 		<value><![CDATA[Date du plus récent au plus ancien]]></value>
 	</definition>
 	<definition>
+		<key>text_google_places_address_placeholder</key>
+		<value><![CDATA[Commencez à taper votre adresse]]></value>
+	</definition>
+	<definition>
 		<key>text_add_cart_confirm</key>
 		<value><![CDATA[Ajouté au panier]]></value>
 	</definition>
@@ -363,9 +371,5 @@
 	<definition>
 		<key>warning_capslock</key>
 		<value><![CDATA[Le verrouillage des majuscules est activé !]]></value>
-	</definition>
-	<definition>
-		<key>text_pagination</key>
-		<value><![CDATA[{start} - {end} of {total}]]></value>
 	</definition>
 </definitions>

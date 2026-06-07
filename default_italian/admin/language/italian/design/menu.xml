@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -25,12 +25,20 @@
 		<value><![CDATA[Link<br /><span class="help">Per i collegamenti esterni aggiungere http: // o https: // all'inizio. Puoi anche utilizzare un URL relativo, ad esempio ../subfolder/index.php</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_item_target</key>
+		<value><![CDATA[Target <br/><span class="help">_self: apre il documento collegato nello stesso frame in cui è stato fatto clic. <br/> _blank: apre il documento collegato in una nuova finestra o scheda</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_parent_id</key>
 		<value><![CDATA[Superiore]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
 		<value><![CDATA[Ordine]]></value>
+	</definition>
+	<definition>
+		<key>entry_link_type</key>
+		<value><![CDATA[Tipo di collegamento]]></value>
 	</definition>
 	<definition>
 		<key>text_select_parent_id</key>
@@ -49,10 +57,6 @@
 		<value><![CDATA[Solo caratteri alfanumerici sono consentiti per il campo ID menu!]]></value>
 	</definition>
 	<definition>
-		<key>entry_link_type</key>
-		<value><![CDATA[Tipo di collegamento]]></value>
-	</definition>
-	<definition>
 		<key>text_category_link_type</key>
 		<value><![CDATA[Pagina categoria]]></value>
 	</definition>
@@ -63,10 +67,6 @@
 	<definition>
 		<key>text_custom_link_type</key>
 		<value><![CDATA[Link o URL personalizzato]]></value>
-	</definition>
-	<definition>
-		<key>entry_item_target</key>
-		<value><![CDATA[Target <br/><span class="help">_self: apre il documento collegato nello stesso frame in cui è stato fatto clic. <br/> _blank: apre il documento collegato in una nuova finestra o scheda</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_include_children_items</key>

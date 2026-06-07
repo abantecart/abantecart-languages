@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
@@ -55,5 +55,13 @@
 	<definition>
 		<key>paypal_commerce_error_declined</key>
 		<value><![CDATA[付款被拒绝]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_required_options_warning</key>
+		<value><![CDATA[请在使用 PayPal 之前选择所有必需的产品选项。]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_failed</key>
+		<value><![CDATA[3D Secure 验证失败或不可用。支付未被捕获。]]></value>
 	</definition>
 </definitions>

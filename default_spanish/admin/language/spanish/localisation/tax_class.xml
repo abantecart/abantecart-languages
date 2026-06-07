@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -13,14 +13,6 @@
 		<value><![CDATA[Tasa de Impuesto]]></value>
 	</definition>
 	<definition>
-		<key>tab_details</key>
-		<value><![CDATA[Detalles]]></value>
-	</definition>
-	<definition>
-		<key>tab_rates</key>
-		<value><![CDATA[Precios]]></value>
-	</definition>
-	<definition>
 		<key>text_success</key>
 		<value><![CDATA[Correcto: Ha modificado los tipos de impuestos!]]></value>
 	</definition>
@@ -31,6 +23,14 @@
 	<definition>
 		<key>column_action</key>
 		<value><![CDATA[Acción]]></value>
+	</definition>
+	<definition>
+		<key>tab_details</key>
+		<value><![CDATA[Detalles]]></value>
+	</definition>
+	<definition>
+		<key>tab_rates</key>
+		<value><![CDATA[Precios]]></value>
 	</definition>
 	<definition>
 		<key>entry_title</key>
@@ -81,15 +81,15 @@
 		<value><![CDATA[Aplicar este impuesto sólo si, cantidad sujeta a impuestos (producto, el envío, subtotales, etc) es ... ]]></value>
 	</definition>
 	<definition>
+		<key>entry_tax_exempt_groups</key>
+		<value><![CDATA[Exentas de Impuestos Grupos<br /><span class="help">Seleccionar los grupos de clientes a exentos de este impuesto</span>]]></value>
+	</definition>
+	<definition>
 		<key>text_absolute</key>
 		<value><![CDATA[Absoluto]]></value>
 	</definition>
 	<definition>
 		<key>text_percent</key>
 		<value><![CDATA[Por ciento]]></value>
-	</definition>
-	<definition>
-		<key>entry_tax_exempt_groups</key>
-		<value><![CDATA[Exentas de Impuestos Grupos<br /><span class="help">Seleccionar los grupos de clientes a exentos de este impuesto</span>]]></value>
 	</definition>
 </definitions>

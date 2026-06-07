@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -15,6 +15,10 @@
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[Licenčni ključ:<br /><span class="help">Licenčni ključ, ki ga je zagotovila Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Testni način:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -51,6 +55,10 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Povezava je uspešna in API poverilnice so pravilno konfigurirane.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Preizkusi povezavo:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -155,13 +163,5 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Omogoči beleženje transakcij]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[Testni način:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[Preizkusi povezavo:]]></value>
 	</definition>
 </definitions>

@@ -61,6 +61,18 @@
 		<value><![CDATA[SMTP]]></value>
 	</definition>
 	<definition>
+		<key>text_native</key>
+		<value><![CDATA[Собственный (бинарный файл sendmail и параметры настройки «sendmail_path» в php.ini)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[Взять из system/config.php]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[Mailer объединяет <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> из файла config.php. Больше информации можете найти <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">в нашей документации</a>]]></value>
+	</definition>
+	<definition>
 		<key>tab_all</key>
 		<value><![CDATA[Все]]></value>
 	</definition>
@@ -87,6 +99,11 @@
 	<definition>
 		<key>entry_alert_emails</key>
 		<value><![CDATA[Дополнительная электронная почта: <br /> <span class="help">Любые дополнительные электронные адреса, на которые вы хотите получать уведомление по электронной почте, в дополнение к основной электронной почте магазина. (Разделенные запятой)</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[
+ Электронные письма с оповещениями должны быть действительными и разделены запятыми!]]></value>
 	</definition>
 	<definition>
 		<key>entry_telephone</key>
@@ -265,6 +282,10 @@
 		<value><![CDATA[Лого магазина:]]></value>
 	</definition>
 	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[Логотип в email-письме:]]></value>
+	</definition>
+	<definition>
 		<key>entry_icon</key>
 		<value><![CDATA[Иконка: <br /> <span class="help">Иконка может быть PNG или ICON размером 16px х 16px.</span>]]></value>
 	</definition>
@@ -311,6 +332,14 @@
 	<definition>
 		<key>entry_image_category_height</key>
 		<value><![CDATA[Высота изображения категории:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_width</key>
+		<value><![CDATA[Ширина лого производителя в списке:]]></value>
+	</definition>
+	<definition>
+		<key>entry_image_manufacturer_height</key>
+		<value><![CDATA[Высота лого производителя в списке:]]></value>
 	</definition>
 	<definition>
 		<key>entry_image_product</key>
@@ -385,6 +414,16 @@
 		<value><![CDATA[Статус завершённого заказа для загрузок: <br /> <span class="help">Установите статус заказа, которого надо достичь, чтобы покупателю стали доступны файлы для скачивания (загружаемые товары)</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[
+ Перевозка почты:]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[
+ Mailer использует двоичный файл sendmail и параметры, настроенные в настройке sendmail_path файла php.ini.]]></value>
+	</definition>
+	<definition>
 		<key>entry_smtp_host</key>
 		<value><![CDATA[SMTP хост: <br /> <span class="help">Использовать ssl://smtp.yourdomain.com для безопасного SMTP соединения</span>]]></value>
 	</definition>
@@ -410,7 +449,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Срок годности сессии панели управления:<br /><span class="help">Определяет временной интервал в минутах, прежде чем будет предложено войти снова из-за отсутствия активности.</span>]]></value>
+		<value><![CDATA[Истечение срока действия сеанса панели управления:<br /><span class="help">Это значение определяет интервал времени в минутах до того, как у вас снова запросят вход из-за бездействия. Для строгого поведения при простое отключите функцию «Длительный сеанс».</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Поддерживать длительную сессию:<br /><span class="help">Включите периодические фоновые запросы для уведомлений администратора и проверок системы. Отключите это, чтобы предотвратить продление активной сессии при фоновом обновлении. После изменения этого параметра вы можете увидеть одноразовый запрос на повторный вход.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -561,6 +604,10 @@
 		<value><![CDATA[Количество товаров в блоке Акции]]></value>
 	</definition>
 	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[Количество элементов в блоках контента ]]></value>
+	</definition>
+	<definition>
 		<key>entry_cart_weight</key>
 		<value><![CDATA[Показывать вес на странице корзины:<br /><span class="help">Показывает вес заказанных товаров на странице корзины</span>]]></value>
 	</definition>
@@ -665,6 +712,10 @@
 		<value><![CDATA[Укажите размеры изображения категории!]]></value>
 	</definition>
 	<definition>
+		<key>error_image_manufacturer</key>
+		<value><![CDATA[Требуются размеры лого производителя в списках!]]></value>
+	</definition>
+	<definition>
 		<key>error_image_product</key>
 		<value><![CDATA[Укажите размеры изображения в списке товаров!]]></value>
 	</definition>
@@ -765,6 +816,31 @@
 		<value><![CDATA[Купон на странице корзины:<br /><span class="help">Позволить клиентам вводить код купона и получить скидку.</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_google_analytics</key>
+		<value><![CDATA[
+ Идентификатор тега Google Analytics 4: <br/><span class="help">Добавьте <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">идентификатор тега Google Analytics</a> , чтобы включить отслеживание активности на сайте. Это также позволяет отслеживать активность электронной торговли. Вы должны включить отслеживание электронной торговли в Google на странице настроек профиля вашего сайта.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Ключ API Google Maps и Places:<br /><span class="help">Введите ваш ключ API Google Maps и Places, чтобы отображать адреса на карте и включить автозаполнение адресов в формах ввода адреса на витрине. Этот ключ используется на страницах витрины и доступен на стороне клиента, поэтому ограничьте его разрешёнными домен(ы) и/или IP-адресом в консоли Google Cloud.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Автозаполнение адреса (Google Places):<br /><span class="help">Включить или отключить автозаполнение адресов через Google Places API в формах ввода адреса на витрине. Требуется ключ API Google.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[Лимит просмотренных товаров:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[Ширина изображения просмотренных товаров:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[Высота изображения просмотренных товаров:]]></value>
+	</definition>
+	<definition>
 		<key>entry_ssl_url</key>
 		<value><![CDATA[Безопасный URL магазина:<br /><span class="help">используйте полный URL SSL (HTTPS) в вашем магазине. Убедитесь, что добавили &#39;/&#39; в конце. Например: https://www.yourdomain.com/path/ </span>]]></value>
 	</definition>
@@ -819,6 +895,10 @@
 	<definition>
 		<key>text_setting_php_exceed</key>
 		<value><![CDATA[Это значение не может превышать вашу директиву php.ini %s (<=%s)]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Тайм-аут бездействия работает как ожидалось, когда <b>Поддерживать длительную сессию</b> отключена.]]></value>
 	</definition>
 	<definition>
 		<key>entry_start_order_id</key>
@@ -878,33 +958,12 @@
 		<value><![CDATA[Эти настройки предназначены для обмена мгновенными сообщениями, отправляемых автоматически во время событий AbanteCart в витрине магазина и администратора.]]></value>
 	</definition>
 	<definition>
-		<key>entry_image_manufacturer_width</key>
-		<value><![CDATA[Ширина лого производителя в списке:]]></value>
-	</definition>
-	<definition>
-		<key>entry_image_manufacturer_height</key>
-		<value><![CDATA[Высота лого производителя в списке:]]></value>
-	</definition>
-	<definition>
-		<key>error_image_manufacturer</key>
-		<value><![CDATA[Требуются размеры лого производителя в списках!]]></value>
-	</definition>
-	<definition>
 		<key>entry_task_api_key</key>
 		<value><![CDATA[Ключ API Заданий:<br/><span class="help">Этот секретный ключ позволяет запускать запланированные задания из браузера через /task.php файл. Если не указан то задания не запустятся через браузер.<br/>Примечание: Этот ключ не требуется для запуска заданий из коммандной строки.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_duplicate_contact_us</key>
 		<value><![CDATA[Дублировать запросы через Контакты-форму мгновенными уведомлениями]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_logo</key>
-		<value><![CDATA[Логотип в email-письме:]]></value>
-	</definition>
-	<definition>
-		<key>entry_google_analytics</key>
-		<value><![CDATA[
- Идентификатор тега Google Analytics 4: <br/><span class="help">Добавьте <a href="https://support.google.com/analytics/answer/9539598?hl=en" target="_blank">идентификатор тега Google Analytics</a> , чтобы включить отслеживание активности на сайте. Это также позволяет отслеживать активность электронной торговли. Вы должны включить отслеживание электронной торговли в Google на странице настроек профиля вашего сайта.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_class</key>
@@ -967,11 +1026,6 @@
 		<value><![CDATA[Цвет заливки для изменения размера изображения <br/><span class="help">Цвет, который будет заполняться пустыми областями при изменении размера изображения с прямоугольника на квадрат</span>]]></value>
 	</definition>
 	<definition>
-		<key>entry_google_api_key</key>
-		<value><![CDATA[
- Ключ Google API (для включения карт Google): <br/><span class="help">Вы можете увидеть адрес на карте. Чтобы включить карты Google Maps, добавьте свой ключ API карт Google Maps <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Страница учетных данных Google</a> .</span>]]></value>
-	</definition>
-	<definition>
 		<key>warning_https_store_url</key>
 		<value><![CDATA[Для обеспечения правильной работы платформы во всех браузерах и обеспечения безопасности данных требуется протокол HTTPS. Все запросы следует отправлять на HTTPS.]]></value>
 	</definition>
@@ -984,47 +1038,12 @@
 		<value><![CDATA[Логотип электронной почты по умолчанию:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Шаблон регулярного выражения для проверки номера телефона:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab в команде Linux <span class="help">Выполните команду crontab -e с тем же пользователем Linux, который запускает веб-сервер для AbanteCart. В редакторе добавляем команду</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_native</key>
-		<value><![CDATA[Собственный (бинарный файл sendmail и параметры настройки «sendmail_path» в php.ini)]]></value>
-	</definition>
-	<definition>
-		<key>text_dsn</key>
-		<value><![CDATA[Взять из system/config.php]]></value>
-	</definition>
-	<definition>
-		<key>text_dsn_description</key>
-		<value><![CDATA[Mailer объединяет <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> из файла config.php. Больше информации можете найти <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">в нашей документации</a>]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_transporting</key>
-		<value><![CDATA[
- Перевозка почты:]]></value>
-	</definition>
-	<definition>
-		<key>text_native_mail_description</key>
-		<value><![CDATA[
- Mailer использует двоичный файл sendmail и параметры, настроенные в настройке sendmail_path файла php.ini.]]></value>
-	</definition>
-	<definition>
-		<key>error_alert_emails</key>
-		<value><![CDATA[
- Электронные письма с оповещениями должны быть действительными и разделены запятыми!]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_limit</key>
-		<value><![CDATA[Лимит просмотренных товаров:]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_image_width</key>
-		<value><![CDATA[Ширина изображения просмотренных товаров:]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_image_height</key>
-		<value><![CDATA[Высота изображения просмотренных товаров:]]></value>
 	</definition>
 	<definition>
 		<key>entry_fast_checkout_allow_coupon</key>
@@ -1051,15 +1070,7 @@
 		<value><![CDATA[Показать поле комментария к заказу <br/><span class="help">Текстовое поле комментария будет отображаться во время оформления заказа.</span>]]></value>
 	</definition>
 	<definition>
-		<key>entry_content_limit</key>
-		<value><![CDATA[Количество элементов в блоках контента ]]></value>
-	</definition>
-	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Разрешить возвращающимся клиентам просматривать:<br /><span class="help">Неавторизованные клиенты, возвращающиеся на сайт, смогут просматривать товары, добавлять их в корзину и в список желаемого.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Шаблон регулярного выражения для проверки номера телефона:]]></value>
 	</definition>
 </definitions>

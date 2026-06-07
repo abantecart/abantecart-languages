@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Suksess: Du har med hell slettet cache-filene!]]></value>
+		<value><![CDATA[Suksess: Du har med hell slettet hurtigbufferdata!]]></value>
 	</definition>
 	<definition>
 		<key>text_configuration</key>
@@ -111,5 +111,13 @@
 	<definition>
 		<key>desc_edits_history</key>
 		<value><![CDATA[Tøm all tekstredigeringshistorikk]]></value>
+	</definition>
+	<definition>
+		<key>text_clear_session_data</key>
+		<value><![CDATA[Tøm alle øktdata]]></value>
+	</definition>
+	<definition>
+		<key>desc_clear_session_data</key>
+		<value><![CDATA[Alle sesjonsdata vil bli slettet. Alle brukere vil bli logget ut av systemet, og sesjonsdata fra handleprosesser eldre enn 3 dager vil bli fjernet.]]></value>
 	</definition>
 </definitions>

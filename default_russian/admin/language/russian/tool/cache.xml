@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Успешно: Вы успешно удалили файлы кэша!]]></value>
+		<value><![CDATA[Успех: Вы успешно удалили данные кэша!]]></value>
 	</definition>
 	<definition>
 		<key>text_configuration</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>text_clear_cache</key>
 		<value><![CDATA[Очистить выбранный кэш]]></value>
+	</definition>
+	<definition>
+		<key>text_clear_all_cache</key>
+		<value><![CDATA[Очистить весь кеш]]></value>
 	</definition>
 	<definition>
 		<key>desc_configuration</key>
@@ -93,10 +97,6 @@
 		<value><![CDATA[Описание]]></value>
 	</definition>
 	<definition>
-		<key>text_clear_all_cache</key>
-		<value><![CDATA[Очистить весь кеш]]></value>
-	</definition>
-	<definition>
 		<key>text_install_upgrade_history</key>
 		<value><![CDATA[История обновлений]]></value>
 	</definition>
@@ -111,5 +111,13 @@
 	<definition>
 		<key>desc_edits_history</key>
 		<value><![CDATA[Очистить историю редактирования]]></value>
+	</definition>
+	<definition>
+		<key>text_clear_session_data</key>
+		<value><![CDATA[Очистить все данные сессии]]></value>
+	</definition>
+	<definition>
+		<key>desc_clear_session_data</key>
+		<value><![CDATA[Все данные сессий будут удалены. Все пользователи будут выведены из системы, а данные сессий процесса покупки старше 3 дней будут удалены.]]></value>
 	</definition>
 </definitions>

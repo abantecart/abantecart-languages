@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Erfolg: Sie haben die Cache-Dateien erfolgreich gelöscht!]]></value>
+		<value><![CDATA[Erfolg: Sie haben die Cache-Daten erfolgreich gelöscht!]]></value>
 	</definition>
 	<definition>
 		<key>text_configuration</key>
@@ -111,5 +111,13 @@
 	<definition>
 		<key>desc_edits_history</key>
 		<value><![CDATA[Alle Textbearbeitungshistorie löschen]]></value>
+	</definition>
+	<definition>
+		<key>text_clear_session_data</key>
+		<value><![CDATA[Alle Sitzungsdaten löschen]]></value>
+	</definition>
+	<definition>
+		<key>desc_clear_session_data</key>
+		<value><![CDATA[Alle Sitzungsdaten werden gelöscht. Alle Benutzer werden aus dem System abgemeldet, und Sitzungsdaten des Einkaufsprozesses, die älter als 3 Tage sind, werden entfernt.]]></value>
 	</definition>
 </definitions>

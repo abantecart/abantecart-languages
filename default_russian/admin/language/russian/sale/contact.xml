@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
+		<key>text_send_email</key>
+		<value><![CDATA[Отправить письма]]></value>
+	</definition>
+	<definition>
+		<key>text_send_sms</key>
+		<value><![CDATA[Отправить SMS]]></value>
+	</definition>
+	<definition>
 		<key>text_success</key>
 		<value><![CDATA[Ваше сообщение было успешно отправлено!]]></value>
 	</definition>
@@ -29,8 +37,20 @@
 		<value><![CDATA[От:]]></value>
 	</definition>
 	<definition>
+		<key>text_customers_who_ordered</key>
+		<value><![CDATA[Для клиентов, заказавших выбранные продукты]]></value>
+	</definition>
+	<definition>
 		<key>entry_to</key>
 		<value><![CDATA[Кому:]]></value>
+	</definition>
+	<definition>
+		<key>text_customers_from_lookup</key>
+		<value><![CDATA[Начните вводить имя клиента для поиска и выбера]]></value>
+	</definition>
+	<definition>
+		<key>text_products_from_lookup</key>
+		<value><![CDATA[Начните вводить название продукта для поиска и выбера]]></value>
 	</definition>
 	<definition>
 		<key>entry_subject</key>
@@ -47,6 +67,14 @@
 	<definition>
 		<key>error_subject</key>
 		<value><![CDATA[Укажите тему E-Mail!]]></value>
+	</definition>
+	<definition>
+		<key>error_message_email</key>
+		<value><![CDATA[Требуется Содержимое письма!]]></value>
+	</definition>
+	<definition>
+		<key>error_message_sms</key>
+		<value><![CDATA[Требуется текст SMS-сообщения!]]></value>
 	</definition>
 	<definition>
 		<key>error_recipients</key>
@@ -73,32 +101,16 @@
 		<value><![CDATA[- Выберите покупателей -]]></value>
 	</definition>
 	<definition>
-		<key>text_send_email</key>
-		<value><![CDATA[Отправить письма]]></value>
-	</definition>
-	<definition>
-		<key>text_send_sms</key>
-		<value><![CDATA[Отправить SMS]]></value>
-	</definition>
-	<definition>
-		<key>text_customers_who_ordered</key>
-		<value><![CDATA[Для клиентов, заказавших выбранные продукты]]></value>
-	</definition>
-	<definition>
-		<key>text_customers_from_lookup</key>
-		<value><![CDATA[Начните вводить имя клиента для поиска и выбера]]></value>
-	</definition>
-	<definition>
-		<key>text_products_from_lookup</key>
-		<value><![CDATA[Начните вводить название продукта для поиска и выбера]]></value>
-	</definition>
-	<definition>
 		<key>text_email</key>
 		<value><![CDATA[Электронная почта]]></value>
 	</definition>
 	<definition>
 		<key>text_sms</key>
 		<value><![CDATA[SMS]]></value>
+	</definition>
+	<definition>
+		<key>text_incomplete_tasks</key>
+		<value><![CDATA[Незавершенные задания]]></value>
 	</definition>
 	<definition>
 		<key>text_task_id</key>
@@ -159,17 +171,5 @@
 	<definition>
 		<key>text_sent</key>
 		<value><![CDATA[ %s из %s сообщений отправлено]]></value>
-	</definition>
-	<definition>
-		<key>error_message_email</key>
-		<value><![CDATA[Требуется Содержимое письма!]]></value>
-	</definition>
-	<definition>
-		<key>error_message_sms</key>
-		<value><![CDATA[Требуется текст SMS-сообщения!]]></value>
-	</definition>
-	<definition>
-		<key>text_incomplete_tasks</key>
-		<value><![CDATA[Незавершенные задания]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -15,6 +15,10 @@
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[Clave de licencia:<br /><span class="help">Clave de licencia proporcionada por Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Modo de prueba:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -51,6 +55,10 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[La conexión ha sido exitosa y las credenciales de la API están configuradas correctamente.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Probar conexión:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -155,13 +163,5 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Habilitar registro de transacciones]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[Modo de prueba:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[Probar conexión:]]></value>
 	</definition>
 </definitions>

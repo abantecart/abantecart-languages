@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>stripe_name</key>
@@ -201,6 +201,10 @@
 		<value><![CDATA[Αποσυνδεθήκατε από το Stripe με επιτυχία]]></value>
 	</definition>
 	<definition>
+		<key>text_connected_account</key>
+		<value><![CDATA[Συνδεθήκατε με το λογαριασμό:]]></value>
+	</definition>
+	<definition>
 		<key>stripe_sort_order</key>
 		<value><![CDATA[Σειρά ταξινόμησης]]></value>
 	</definition>
@@ -353,6 +357,10 @@
 		<value><![CDATA[Εσωτερικό σφάλμα. Ελέγξτε το αρχείο καταγραφής σφαλμάτων ή τις παραμέτρους εισόδου!]]></value>
 	</definition>
 	<definition>
+		<key>error_missing_amount</key>
+		<value><![CDATA[Παρακαλώ εισάγετε θετικό ποσό]]></value>
+	</definition>
+	<definition>
 		<key>error_unable_to_capture</key>
 		<value><![CDATA[Αδυναμία είσπραξης, ανανέωσης των στοιχείων συναλλαγής και ελέγχου του ποσού είσπραξης]]></value>
 	</definition>
@@ -397,9 +405,5 @@
 	<definition>
 		<key>stripe_entry_endpoint_signing_secret</key>
 		<value><![CDATA[Μυστικό υπογραφής τερματικού σημείου:]]></value>
-	</definition>
-	<definition>
-		<key>error_missing_amount</key>
-		<value><![CDATA[Παρακαλώ εισάγετε θετικό ποσό]]></value>
 	</definition>
 </definitions>

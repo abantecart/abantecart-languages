@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -35,6 +35,10 @@
 	<definition>
 		<key>column_model</key>
 		<value><![CDATA[Modelo]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
 	</definition>
 	<definition>
 		<key>column_quantity</key>
@@ -97,10 +101,6 @@
 		<value><![CDATA[Su pedido subtotal importe exceda la cantidad máxima %s permitida por pedido. Elimina algunos artículos de su carrito!]]></value>
 	</definition>
 	<definition>
-		<key>text_coupon_success</key>
-		<value><![CDATA[Éxito: El cupón de descuento se ha aplicado!]]></value>
-	</definition>
-	<definition>
 		<key>error_empty_file_data</key>
 		<value><![CDATA[Los datos del archivo está dañado o vacío.]]></value>
 	</definition>
@@ -121,19 +121,19 @@
 		<value><![CDATA[Tamaño máximo de archivo para la carga es de %s Kb.]]></value>
 	</definition>
 	<definition>
-		<key>error_quantity_maximum</key>
-		<value><![CDATA[Cantidad permitida de producto excede. Cantidad se ajusta al máximo.]]></value>
-	</definition>
-	<definition>
-		<key>error_quantity_minimum</key>
-		<value><![CDATA[Cantidad permitida de producto es por debajo del mínimo requerido. Cantidad se establece en cantidad mínima.]]></value>
+		<key>text_coupon_success</key>
+		<value><![CDATA[Éxito: El cupón de descuento se ha aplicado!]]></value>
 	</definition>
 	<definition>
 		<key>text_coupon_removal</key>
 		<value><![CDATA[Éxito: se eliminó el cupón]]></value>
 	</definition>
 	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[SKU]]></value>
+		<key>error_quantity_maximum</key>
+		<value><![CDATA[Cantidad permitida de producto excede. Cantidad se ajusta al máximo.]]></value>
+	</definition>
+	<definition>
+		<key>error_quantity_minimum</key>
+		<value><![CDATA[Cantidad permitida de producto es por debajo del mínimo requerido. Cantidad se establece en cantidad mínima.]]></value>
 	</definition>
 </definitions>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>usps_name</key>
+		<value><![CDATA[Förenta staternas postverk]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Frakt]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[USPS-inställningar]]></value>
+	</definition>
+	<definition>
+		<key>text_usps_success</key>
+		<value><![CDATA[Framgång: Du har ändrat United States Postal Service!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[Expresspost Internationell]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[Internationell prioriterad post]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[Global Express Garanterat (Document and Non-document)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[Global Express Guaranteed-dokument använt]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[Global Express garanterad icke-dokument rektangulär form]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[Global Express Guaranteed Icke-dokument Icke-rektangulär]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[Priority Mail-kuvert med fast porto]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[Prioriterad post fastprislåda]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[Expresspost internationellt kuvert med fast pris]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[Prioriterad post stor låda med fast pris]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[Global Express Garanterat Kuvert]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[Internationella förstaklassbrev]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[Förstaklasspost internationella stora kuvert]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[Förstaklass internationella paket]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[Prioriterad post liten fastprislåda]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[Vykort]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[Ordinarie]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[Stor]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[Överdimensionerad]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[Rektangulär]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[Icke rektangulär]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[Variabel]]></value>
+	</definition>
+	<definition>
+		<key>entry_api_environment</key>
+		<value><![CDATA[API-utvecklarläge]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment</key>
+		<value><![CDATA[API Utvecklarläge]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment_production</key>
+		<value><![CDATA[Produktion (livekurser)]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_shipping</key>
+		<value><![CDATA[Utvecklarläge]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_id</key>
+		<value><![CDATA[Konsumentnyckel<br/><span class="help">Skapa en APP på ditt https://cop.usps.com. Dessa uppgifter krävs för att generera OAuth-token</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_id</key>
+		<value><![CDATA[Konsumentnyckel:<span class="help">Du kan hitta den i din ansökningssektion på https://cop.usps.com. Dessa uppgifter krävs för att generera OAuth-token</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_client_id_shipping</key>
+		<value><![CDATA[API-klient-ID]]></value>
+	</definition>
+	<definition>
+		<key>text_country_shipping</key>
+		<value><![CDATA[Avsändarland & Zon]]></value>
+	</definition>
+	<definition>
+		<key>text_address_shipping</key>
+		<value><![CDATA[Avsändaradress]]></value>
+	</definition>
+	<definition>
+		<key>text_city_shipping</key>
+		<value><![CDATA[Avsändarens stad]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone_shipping</key>
+		<value><![CDATA[Avsändarens telefonnummer<span class="help">10 siffror eller fler, inga mellanslag eller specialtecken</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_secret</key>
+		<value><![CDATA[API-klienthemlighet<br/><span class="help">Du kan hitta den i applikationsavsnittet på https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token</key>
+		<value><![CDATA[Testetikettgenerering:<span class="help">För etikettgenerering kan USPS kräva ytterligare behörigheter för generering av betalningstoken på ditt konto. Kontakta USPS support för att aktivera denna åtkomst.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token_button</key>
+		<value><![CDATA[Testetikettgenerering]]></value>
+	</definition>
+	<definition>
+		<key>usps_country</key>
+		<value><![CDATA[Avsändares Land & Zon]]></value>
+	</definition>
+	<definition>
+		<key>usps_telephone</key>
+		<value><![CDATA[Avsändarens telefonnummer (10 siffror eller fler)]]></value>
+	</definition>
+	<definition>
+		<key>usps_address</key>
+		<value><![CDATA[Avsändaradress]]></value>
+	</definition>
+	<definition>
+		<key>usps_city</key>
+		<value><![CDATA[Avsändarens stad]]></value>
+	</definition>
+	<definition>
+		<key>usps_postcode</key>
+		<value><![CDATA[Avsändarens postnummer]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_crid</key>
+		<value><![CDATA[Kundregistrerings-ID (CRID):<span class="help">Obligatoriskt för USPS-etikettgenerering. Du kan hitta det i ditt kontoavsnitt på https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_mid</key>
+		<value><![CDATA[Mailer-ID (MID):<span class="help">Krävs för USPS-etikettgenerering. Du kan hitta det i ditt kontoavsnitt på https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_manifest_mid</key>
+		<value><![CDATA[Manifest MID:<span class="help">Krävs för generering av USPS-etiketter. Du hittar det under ditt konto på https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_account_number</key>
+		<value><![CDATA[EPS kontonummer:<span class="help">Krävs för USPS-etikettgenerering. Du hittar det i ditt Enterprise Payment System-konto på https://epay.usps.com/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_manifest_order_status_id</key>
+		<value><![CDATA[Skapa försändelse när orderstatus blir]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_secret</key>
+		<value><![CDATA[Konsumenthemlighet:<span class="help">Du hittar den i avsnittet för din applikation på https://cop.usps.com. Dessa uppgifter krävs för att generera OAuth-token</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_manifest_order_status_id</key>
+		<value><![CDATA[Skapa leverans när orderstatus blir]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipping_storefront_icon</key>
+		<value><![CDATA[Butiksfasadikon]]></value>
+	</definition>
+	<definition>
+		<key>usps_debug</key>
+		<value><![CDATA[Status för felsökningsloggning]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_1</key>
+		<value><![CDATA[Prioriterad post]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_2</key>
+		<value><![CDATA[Prioriterad expresspost]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_3</key>
+		<value><![CDATA[Paketval]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_4</key>
+		<value><![CDATA[Bundna trycksaker]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_5</key>
+		<value><![CDATA[Mediepost]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_6</key>
+		<value><![CDATA[E-postbibliotek]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_7</key>
+		<value><![CDATA[USPS Ground Advantage]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_1</key>
+		<value><![CDATA[Prioriterad internationell expresspost]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_2</key>
+		<value><![CDATA[Prioriterad internationell post]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_3</key>
+		<value><![CDATA[Global Express Garanterat (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_4</key>
+		<value><![CDATA[Förstaklassig internationell paketservice]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_1</key>
+		<value><![CDATA[Prioriterad post]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_2</key>
+		<value><![CDATA[Prioriterad expresspost]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_3</key>
+		<value><![CDATA[Paketval]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_4</key>
+		<value><![CDATA[bundna trycksaker]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_5</key>
+		<value><![CDATA[Mediepost]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_6</key>
+		<value><![CDATA[Biblioteksmejl]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_7</key>
+		<value><![CDATA[USPS Ground Advantage]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_1</key>
+		<value><![CDATA[Prioriterad internationell expresspost]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_2</key>
+		<value><![CDATA[Prioriterad internationell post]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_3</key>
+		<value><![CDATA[Globalt Expressgaranterat (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_4</key>
+		<value><![CDATA[Förstaklasspaket Internationell Service]]></value>
+	</definition>
+	<definition>
+		<key>usps_length</key>
+		<value><![CDATA[Mått Längd]]></value>
+	</definition>
+	<definition>
+		<key>usps_width</key>
+		<value><![CDATA[Dimensioner Bredd]]></value>
+	</definition>
+	<definition>
+		<key>usps_height</key>
+		<value><![CDATA[Dimensioner Höjd]]></value>
+	</definition>
+	<definition>
+		<key>usps_display_weight</key>
+		<value><![CDATA[Visa leveransvikt]]></value>
+	</definition>
+	<definition>
+		<key>usps_tax_class_id</key>
+		<value><![CDATA[Skatteklass]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id</key>
+		<value><![CDATA[Plats]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id_0</key>
+		<value><![CDATA[Alla platser]]></value>
+	</definition>
+	<definition>
+		<key>usps_sort_order</key>
+		<value><![CDATA[Sorteringsordning]]></value>
+	</definition>
+	<definition>
+		<key>usps_test_connection</key>
+		<value><![CDATA[Testa anslutning]]></value>
+	</definition>
+	<definition>
+		<key>text_client_secret_shipping</key>
+		<value><![CDATA[API-klienthemlighet]]></value>
+	</definition>
+	<definition>
+		<key>text_manifest_order_status_id_shipping</key>
+		<value><![CDATA[Skapa försändelse när orderstatus blir]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Postnummer:<span class="help">Postnummer/postkod för paketets avsändningsplats.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[Hushållstjänster:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[Internationella tjänster:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[Storlek:<span class="help">Välj den behållarstorlek som du vanligtvis använder för att förpacka de produkter som beställts från din butik.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[Container:<span class="help">Välj den förpackningstyp som du vanligtvis använder för att paketera de produkter som beställs från din butik. USPS levererar endast paket som väger upp till 70 lbs</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[Machinable:<br /><span class="help">Det rekommenderas att du väljer Ja. Ange om det är okej att hantera dina försändelser med maskiner. Att aktivera det här alternativet minskar fraktkostnaderna.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[Mått (L x B x H):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[Dimensioner Längd:<br /><span class="help">Genomsnittlig paketdimension för fraktpaket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Mått Bredd:<br /><span class="help">Genomsnittligt paketmått för fraktförpackningen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Mått Höjd:<br /><span class="help">Genomsnittliga paketmått för fraktförpackningen.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[Omkrets:<br /><span class="help">För att ta reda på ditt pakets omkrets, mät avståndet runt den tjockaste delen av det icke-rektangulära paketet.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[Visa leveranstid:<br /><span class="help">Vill du visa leveranstiden? (t.ex. Levereras inom 3 till 5 dagar)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[Visa leveransvikt:<br /><span class="help">Vill du visa fraktvikten? (t.ex. Leveransvikt: 2.7674 kg)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Viktklass:<br /><span class="help">Ange i pund.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Längdklass:<br /><span class="help">Dimensionen eller standardlängdklassen för din butik.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Skatteklass:<br /><span class="help">Om du måste ta ut skatt på den här varan, välj skatteklass.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[Plats:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Sorteringsordning:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra USA:s postverk!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_id</key>
+		<value><![CDATA[API-klient-ID krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_secret</key>
+		<value><![CDATA[API-klienthemlighet krävs!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Postnummer krävs!]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_production</key>
+		<value><![CDATA[Produktion (aktuella priser)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label</key>
+		<value><![CDATA[Skriv ut USPS-etikett (ursprunglig beställning)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_title</key>
+		<value><![CDATA[Skriver ut USPS-fraktsedeln med ursprunglig vikt och mått som kunden angav i kassan. Eventuella ändringar som administratören gör i ordern påverkar inte etiketten.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_suggestion</key>
+		<value><![CDATA[Ändra orderstatus till "%s" för att skapa en försändelse via USPS API och få paketetiketter]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_missing_settings</key>
+		<value><![CDATA[För att generera etiketter, fyll först i dina USPS-kontouppgifter i Tilläggsinställningar.]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_weight</key>
+		<value><![CDATA[Vikt:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_height</key>
+		<value><![CDATA[Höjd:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_width</key>
+		<value><![CDATA[Bredd:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_depth</key>
+		<value><![CDATA[Djup:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_parcel_info</key>
+		<value><![CDATA[Paketinfo:]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipment_created_success_message</key>
+		<value><![CDATA[USPS-sändningen har skapats framgångsrikt. Spårningsnummer: %s. Se mer info <a href="%s">här</a>]]></value>
+	</definition>
+</definitions>

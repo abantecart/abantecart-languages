@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
@@ -55,5 +55,13 @@
 	<definition>
 		<key>paypal_commerce_error_declined</key>
 		<value><![CDATA[भुगतान अस्वीकृत]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_required_options_warning</key>
+		<value><![CDATA[कृपया PayPal का उपयोग करने से पहले सभी आवश्यक उत्पाद विकल्प चुनें।]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_failed</key>
+		<value><![CDATA[3D Secure प्रमाणीकरण विफल रहा या अनुपलब्ध है। भुगतान कैप्चर नहीं हुआ।]]></value>
 	</definition>
 </definitions>

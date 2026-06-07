@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>usps_name</key>
+		<value><![CDATA[Poštna služba Združenih držav Amerike]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Dostava]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Nastavitve USPS]]></value>
+	</definition>
+	<definition>
+		<key>text_usps_success</key>
+		<value><![CDATA[Uspeh: spremenili ste Poštno službo Združenih držav Amerike!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[Mednarodna ekspresna pošta]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[Prednostna mednarodna pošta]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[Global Express Guaranteed (za dokumente in nedokumentne pošiljke)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[Uporabljen dokument Global Express Guaranteed]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[Global Express Guaranteed pravokotna oblika za nedokumente]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[Global Express Guaranteed Nedokumentno Nepravokotno]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[Enotna cenovna ovojnica prioritetne pošte]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[Škatla z enotno ceno za prioritetno pošto]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[Mednarodna ekspresna poštna kuverta s pavšalno ceno]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[Priority Mail velika škatla fiksne tarife]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[Kuverta Global Express Guaranteed]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[Pisma prvega razreda mednarodne pošte]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[Mednarodne velike kuverte prvega razreda]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[Mednarodni paketi po pošti prvega razreda]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[Priority Mail majhna škatla s fiksno ceno]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[Razglednice]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[Redno]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[Velik]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[Prevelik]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[Pravokoten]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[Nepravokoten]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[Spremenljivka]]></value>
+	</definition>
+	<definition>
+		<key>entry_api_environment</key>
+		<value><![CDATA[API razvojni način]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment</key>
+		<value><![CDATA[API način za razvijalce]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment_production</key>
+		<value><![CDATA[Produkcija (dejanski tečaji)]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_shipping</key>
+		<value><![CDATA[Razvojni način]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_id</key>
+		<value><![CDATA[Consumer Key<br/><span class="help">Ustvarite aplikacijo na https://cop.usps.com. Te poverilnice so potrebne za pridobitev žetona OAuth</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_id</key>
+		<value><![CDATA[Ključ odjemalca:<span class="help">You can find it in your application section on https://cop.usps.com. These credentials are required for generating the OAuth Token</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_client_id_shipping</key>
+		<value><![CDATA[ID odjemalca API-ja]]></value>
+	</definition>
+	<definition>
+		<key>text_country_shipping</key>
+		<value><![CDATA[Država in cona pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>text_address_shipping</key>
+		<value><![CDATA[Naslov pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>text_city_shipping</key>
+		<value><![CDATA[Mesto pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone_shipping</key>
+		<value><![CDATA[Telefonska številka pošiljatelja<span class="help">10 številk ali več, brez presledkov ali posebnih znakov</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_secret</key>
+		<value><![CDATA[API skrivnost odjemalca<br/><span class="help">Lahko jo poiščete v razdelku vaše aplikacije na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token</key>
+		<value><![CDATA[Generiranje testne nalepke:<span class="help">Za generiranje nalepk lahko USPS na vašem računu zahteva dodatna dovoljenja za generiranje plačilnih žetonov. Obrnite se na podporo USPS, da omogočite ta dostop.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token_button</key>
+		<value><![CDATA[Generiranje testnih oznak]]></value>
+	</definition>
+	<definition>
+		<key>usps_country</key>
+		<value><![CDATA[Država pošiljatelja & cona]]></value>
+	</definition>
+	<definition>
+		<key>usps_telephone</key>
+		<value><![CDATA[Telefonska številka pošiljatelja (vsaj 10 številk)]]></value>
+	</definition>
+	<definition>
+		<key>usps_address</key>
+		<value><![CDATA[Naslov pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>usps_city</key>
+		<value><![CDATA[Mesto pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>usps_postcode</key>
+		<value><![CDATA[Poštna številka pošiljatelja]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_crid</key>
+		<value><![CDATA[Registracijski ID kupca (CRID):<span class="help">Zahtevano za generiranje nalepk USPS. Najdete ga v razdelku vašega računa na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_mid</key>
+		<value><![CDATA[Mailer ID (MID):<span class="help">Zahtevano za generiranje nalepke USPS. Najdete ga v razdelku vašega računa na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_manifest_mid</key>
+		<value><![CDATA[Manifest MID:<span class="help">Zahtevano za generiranje nalepk USPS. Najdete ga v svojem razdelku računa na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_account_number</key>
+		<value><![CDATA[Številka računa EPS:<span class="help">Potrebno za ustvarjanje nalepk USPS. Najdete ga v svojem računu Enterprise Payment System na https://epay.usps.com/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_manifest_order_status_id</key>
+		<value><![CDATA[Ustvari pošiljko, ko stanje naročila postane]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_secret</key>
+		<value><![CDATA[Consumer Secret:<span class="help">Lahko ga najdete v razdelku vaše aplikacije na https://cop.usps.com. Za ustvarjanje OAuth žetona so potrebne te poverilnice</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_manifest_order_status_id</key>
+		<value><![CDATA[Ustvari pošiljko, ko status naročila postane]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipping_storefront_icon</key>
+		<value><![CDATA[Ikona trgovine]]></value>
+	</definition>
+	<definition>
+		<key>usps_debug</key>
+		<value><![CDATA[Stanje beleženja odpravljanja napak]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_1</key>
+		<value><![CDATA[Prednostna pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_2</key>
+		<value><![CDATA[Prioritetna ekspresna pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_3</key>
+		<value><![CDATA[Izbrani paket]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_4</key>
+		<value><![CDATA[Vezano tiskano gradivo]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_5</key>
+		<value><![CDATA[Medijska pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_6</key>
+		<value><![CDATA[Knjižnična pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_7</key>
+		<value><![CDATA[USPS prednost kopenske dostave]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_1</key>
+		<value><![CDATA[Mednarodna Prioritetna Ekspresna Pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_2</key>
+		<value><![CDATA[Mednarodna prioritetna pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_3</key>
+		<value><![CDATA[Global Express Guaranteed (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_4</key>
+		<value><![CDATA[Mednarodna storitev paketov prvega razreda]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_1</key>
+		<value><![CDATA[Prioritetna pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_2</key>
+		<value><![CDATA[Ekspresna prioritetna pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_3</key>
+		<value><![CDATA[Parcel Select]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_4</key>
+		<value><![CDATA[Zvezano tiskano gradivo]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_5</key>
+		<value><![CDATA[Medijska pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_6</key>
+		<value><![CDATA[Poštna knjižnica]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_7</key>
+		<value><![CDATA[USPS Kopenska prednost]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_1</key>
+		<value><![CDATA[Mednarodna prioritetna ekspresna pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_2</key>
+		<value><![CDATA[Mednarodna prioritetna pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_3</key>
+		<value><![CDATA[Global Express Guaranteed (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_4</key>
+		<value><![CDATA[Mednarodna storitev paketa prvega razreda]]></value>
+	</definition>
+	<definition>
+		<key>usps_length</key>
+		<value><![CDATA[Dimenzije Dolžina]]></value>
+	</definition>
+	<definition>
+		<key>usps_width</key>
+		<value><![CDATA[Dimenzije Širina]]></value>
+	</definition>
+	<definition>
+		<key>usps_height</key>
+		<value><![CDATA[Dimenzije Višina]]></value>
+	</definition>
+	<definition>
+		<key>usps_display_weight</key>
+		<value><![CDATA[Prikaz teže dostave]]></value>
+	</definition>
+	<definition>
+		<key>usps_tax_class_id</key>
+		<value><![CDATA[Davčni razred]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id</key>
+		<value><![CDATA[Lokacija]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id_0</key>
+		<value><![CDATA[Vse lokacije]]></value>
+	</definition>
+	<definition>
+		<key>usps_sort_order</key>
+		<value><![CDATA[Vrstni red]]></value>
+	</definition>
+	<definition>
+		<key>usps_test_connection</key>
+		<value><![CDATA[Preizkusi povezavo]]></value>
+	</definition>
+	<definition>
+		<key>text_client_secret_shipping</key>
+		<value><![CDATA[Skrivni ključ API odjemalca]]></value>
+	</definition>
+	<definition>
+		<key>text_manifest_order_status_id_shipping</key>
+		<value><![CDATA[Ustvari pošiljko, ko status naročila postane]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Poštna številka:<span class="help">ZIP/poštna koda izvorne lokacije vašega paketa.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[Domače storitve:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[Mednarodne storitve:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[Velikost:<span class="help">Izberite velikost posode, ki jo običajno uporabljate za pakiranje izdelkov, naročenih iz vaše trgovine.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[Embalaža:<span class="help">Izberite vrsto embalaže, ki jo običajno uporabljate za pakiranje izdelkov, naročenih v vaši trgovini. USPS bo dostavil le pakete, ki tehtajo do 70 lbs</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[Machinable:<br /><span class="help"> Priporočljivo je, da izberete Da. Določite, ali je v redu, da z vašimi pošiljkami ravnajo stroji. Omogočanje te možnosti zniža stroške dostave.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[Dimenzije (D x Š x V):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[Dimenzije Dolžina:<br /><span class="help">Povprečna dimenzija paketa za pošiljanje.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Širina dimenzij:<br /><span class="help">Povprečna dimenzija paketa za pošiljanje.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Dimenzije Višina:<br /><span class="help">Povprečna dimenzija paketa za pošiljanje.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[Obseg:<br /><span class="help">Če želite izmeriti obseg vašega paketa, izmerite razdaljo okoli najdebelejšega dela nepravokotnega paketa.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[Prikaži čas dostave:<br /><span class="help">Ali želite prikazati čas dostave? (npr. Dobava v 3 do 5 dneh)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[Prikaži težo dostave:<br /><span class="help">Ali želite prikazati težo pošiljanja? (npr. Teža dostave : 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Težinski razred:<br /><span class="help">Nastavite na funte.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Razred dolžine:<br /><span class="help">Dimenzija ali privzeti razred dolžine vaše trgovine.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Davčna stopnja:<br /><span class="help">Če morate obračunati davek za ta izdelek, izberite davčno stopnjo.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[Lokacija:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Vrstni red:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Opozorilo: Nimate dovoljenja za spreminjanje Poštne službe Združenih držav!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_id</key>
+		<value><![CDATA[Zahtevan je ID odjemalca API!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_secret</key>
+		<value><![CDATA[Potrebna je skrivnost API odjemalca!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Poštna številka je obvezna!]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_production</key>
+		<value><![CDATA[Proizvodnja (cene v realnem času)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label</key>
+		<value><![CDATA[Natisni USPS nalepko (prvotno naročilo)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_title</key>
+		<value><![CDATA[Natisne nalepko USPS z uporabo prvotne teže in dimenzij, ki jih je stranka posredovala pri zaključku nakupa. Vse spremembe naročila, ki jih izvede skrbnik, ne bodo vplivale na nalepko.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_suggestion</key>
+		<value><![CDATA[Spremenite status naročila v "%s", da ustvarite pošiljko prek USPS API in pridobite nalepke za paket]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_missing_settings</key>
+		<value><![CDATA[Za ustvarjanje etiket najprej izpolnite podatke svojega USPS računa v Nastavitvah razširitve.]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_weight</key>
+		<value><![CDATA[Teža:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_height</key>
+		<value><![CDATA[Višina:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_width</key>
+		<value><![CDATA[Širina:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_depth</key>
+		<value><![CDATA[Globina:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_parcel_info</key>
+		<value><![CDATA[Informacije o pošiljki:]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipment_created_success_message</key>
+		<value><![CDATA[USPS pošiljka je bila uspešno ustvarjena. Številka za sledenje: %s. Več informacij <a href="%s">tukaj</a>.]]></value>
+	</definition>
+</definitions>

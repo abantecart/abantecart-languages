@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -49,10 +49,6 @@
 		<value><![CDATA[Código ISO (3):]]></value>
 	</definition>
 	<definition>
-		<key>entry_status</key>
-		<value><![CDATA[Progreso de los países:]]></value>
-	</definition>
-	<definition>
 		<key>entry_address_format</key>
 		<value><![CDATA[Formato de direccion:<br /><span class="help">
 Nombre = {firstname}<br />
@@ -78,6 +74,10 @@ EL DATO QUE NO NECESITE</span>]]></value>
 		<value><![CDATA[El nombre del país debe ser superior a 2 caracteres e inferior a 128!]]></value>
 	</definition>
 	<definition>
+		<key>error_default</key>
+		<value><![CDATA[Advertencia: Este país no puede ser eliminado ya que no está asignado como el almacén de campo por defecto!]]></value>
+	</definition>
+	<definition>
 		<key>error_store</key>
 		<value><![CDATA[Advertencia: Este pais no puede suprimirse, ya que esta actualmente asignado a %s tiendas!]]></value>
 	</definition>
@@ -92,9 +92,5 @@ EL DATO QUE NO NECESITE</span>]]></value>
 	<definition>
 		<key>error_zone_to_location</key>
 		<value><![CDATA[Atención: Este país no puede ser eliminado porque está asignado actualmente a %s zones to locations!]]></value>
-	</definition>
-	<definition>
-		<key>error_default</key>
-		<value><![CDATA[Advertencia: Este país no puede ser eliminado ya que no está asignado como el almacén de campo por defecto!]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_basket</key>
@@ -147,6 +147,10 @@
 	<definition>
 		<key>fast_checkout_error_no_address</key>
 		<value><![CDATA[आपके खाते में कोई पता नहीं मिला! कृपया अपने खाते में एक पता जोड़ें।]]></value>
+	</definition>
+	<definition>
+		<key>fast_checkout_error_low_balance</key>
+		<value><![CDATA[आपके खाते में इस ऑर्डर के लिए पर्याप्त शेष राशि नहीं है!]]></value>
 	</definition>
 	<definition>
 		<key>fast_checkout_error_balance_pay</key>
@@ -405,10 +409,6 @@
 		<value><![CDATA[पोस्टकोड गलत]]></value>
 	</definition>
 	<definition>
-		<key>text_basket</key>
-		<value><![CDATA[कार्ट]]></value>
-	</definition>
-	<definition>
 		<key>fast_checkout_text_comment_placeholder</key>
 		<value><![CDATA[एक ऑर्डर टिप्पणी जोड़ें]]></value>
 	</definition>
@@ -447,24 +447,8 @@
 <p>हमारे साथ खरीदारी करने के लिए धन्यवाद!</p>]]></value>
 	</definition>
 	<definition>
-		<key>text_basket</key>
-		<value><![CDATA[कार्ट]]></value>
-	</definition>
-	<definition>
-		<key>text_shipping</key>
-		<value><![CDATA[वितरण]]></value>
-	</definition>
-	<definition>
-		<key>text_payment</key>
-		<value><![CDATA[भुगतान]]></value>
-	</definition>
-	<definition>
 		<key>text_guest</key>
 		<value><![CDATA[अतिथि चेकआउट]]></value>
-	</definition>
-	<definition>
-		<key>text_confirm</key>
-		<value><![CDATA[पुष्टि करें]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -483,7 +467,15 @@
 		<value><![CDATA[भुगतान सत्यापन से प्रतिक्रिया विफल या अनुपलब्ध है। मैन्युअल सत्यापन आवश्यक है!]]></value>
 	</definition>
 	<definition>
-		<key>fast_checkout_error_low_balance</key>
-		<value><![CDATA[आपके खाते में इस ऑर्डर के लिए पर्याप्त शेष राशि नहीं है!]]></value>
+		<key>text_see_more_cart_products</key>
+		<value><![CDATA[और अधिक कार्ट उत्पाद देखें]]></value>
+	</definition>
+	<definition>
+		<key>warning_order_changed</key>
+		<value><![CDATA[ऑर्डर बदल दिया गया है। कृपया अपनी कार्ट की समीक्षा करें।]]></value>
+	</definition>
+	<definition>
+		<key>text_add_address</key>
+		<value><![CDATA[पता जोड़ें]]></value>
 	</definition>
 </definitions>

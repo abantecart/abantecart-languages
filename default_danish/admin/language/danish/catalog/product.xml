@@ -41,6 +41,10 @@
 		<value><![CDATA[Succes: Du har klone produkt <b>%s!</b>]]></value>
 	</definition>
 	<definition>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[ Bemærk: Brugerdefineret produktlayout er også blevet klonet.]]></value>
+	</definition>
+	<definition>
 		<key>text_error_copy</key>
 		<value><![CDATA[Kloning mislykkedes! Original produkt er ikke tilgængelig]]></value>
 	</definition>
@@ -79,6 +83,10 @@
 	<definition>
 		<key>column_model</key>
 		<value><![CDATA[Model]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
 	</definition>
 	<definition>
 		<key>column_image</key>
@@ -189,6 +197,10 @@
 		<value><![CDATA[Out Of Stock Status: <br/><span class="help">status vises, når et produkt er udsolgt</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Lagerudtjekning: <br/><span class="help">Giv kunderne mulighed for at betale, selvom produkterne ikke er på lager.</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_status</key>
 		<value><![CDATA[status:]]></value>
 	</definition>
@@ -205,6 +217,10 @@
 		<value><![CDATA[Pris:]]></value>
 	</definition>
 	<definition>
+		<key>entry_product_option_cost</key>
+		<value><![CDATA[Faktiske omkostninger (i alt): <span class="help">Indtast den faktiske pris (i alt) for denne produktindstilling.</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_track_option_stock</key>
 		<value><![CDATA[Spor lager:]]></value>
 	</definition>
@@ -219,6 +235,10 @@
 	<definition>
 		<key>entry_weight</key>
 		<value><![CDATA[Vægt:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_change</key>
+		<value><![CDATA[Vægt: <span class="help">Vigtigt! Hvis værdien angives som %(procent) vil optionens vægt blive ændret med specificeret procent baseret på hovedproduktets vægt. Hvis vægtværdien angives, vil den blive brugt som absolut værdi for optionen, vil hovedvægten blive ignoreret.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_length_class</key>
@@ -323,6 +343,10 @@
 	<definition>
 		<key>error_product_not_found</key>
 		<value><![CDATA[Fejl: Produkt blev ikke fundet!]]></value>
+	</definition>
+	<definition>
+		<key>error_sku</key>
+		<value><![CDATA[Fejl: SKU blev ikke fundet!]]></value>
 	</definition>
 	<definition>
 		<key>filter_product</key>
@@ -553,12 +577,20 @@
 		<value><![CDATA[Grænsen på 999,99 er nået. Giv mindre antal.]]></value>
 	</definition>
 	<definition>
+		<key>error_dimension_value</key>
+		<value><![CDATA[Dette produkt kræver forsendelse. Udfyld venligst alle dimensionsværdier.]]></value>
+	</definition>
+	<definition>
 		<key>error_weight_value</key>
 		<value><![CDATA[Dette produkt kræver forsendelse. Venligst sæt vægt værdi.]]></value>
 	</definition>
 	<definition>
 		<key>error_weight_class</key>
 		<value><![CDATA[Venligst sæt vægtklasse.]]></value>
+	</definition>
+	<definition>
+		<key>error_length_class</key>
+		<value><![CDATA[Indstil venligst længdeklasse.]]></value>
 	</definition>
 	<definition>
 		<key>entry_allowed_extensions</key>
@@ -581,38 +613,6 @@
 		<value><![CDATA[Forbindelser af udvalgte produkter blev sat med succes!]]></value>
 	</definition>
 	<definition>
-		<key>text_success_copy_layout</key>
-		<value><![CDATA[ Bemærk: Brugerdefineret produktlayout er også blevet klonet.]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[SKU]]></value>
-	</definition>
-	<definition>
-		<key>entry_stock_checkout</key>
-		<value><![CDATA[Lagerudtjekning: <br/><span class="help">Giv kunderne mulighed for at betale, selvom produkterne ikke er på lager.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_product_option_cost</key>
-		<value><![CDATA[Faktiske omkostninger (i alt): <span class="help">Indtast den faktiske pris (i alt) for denne produktindstilling.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_weight_change</key>
-		<value><![CDATA[Vægt: <span class="help">Vigtigt! Hvis værdien angives som %(procent) vil optionens vægt blive ændret med specificeret procent baseret på hovedproduktets vægt. Hvis vægtværdien angives, vil den blive brugt som absolut værdi for optionen, vil hovedvægten blive ignoreret.</span>]]></value>
-	</definition>
-	<definition>
-		<key>error_sku</key>
-		<value><![CDATA[Fejl: SKU blev ikke fundet!]]></value>
-	</definition>
-	<definition>
-		<key>error_dimension_value</key>
-		<value><![CDATA[Dette produkt kræver forsendelse. Udfyld venligst alle dimensionsværdier.]]></value>
-	</definition>
-	<definition>
-		<key>error_length_class</key>
-		<value><![CDATA[Indstil venligst længdeklasse.]]></value>
-	</definition>
-	<definition>
 		<key>entry_stock_locations</key>
 		<value><![CDATA[Lagersteder:]]></value>
 	</definition>
@@ -623,6 +623,10 @@
 	<definition>
 		<key>text_create_collection</key>
 		<value><![CDATA[Opret samling]]></value>
+	</definition>
+	<definition>
+		<key>text_warning_empty_set</key>
+		<value><![CDATA[Vælg venligst mindst et produkt]]></value>
 	</definition>
 	<definition>
 		<key>text_enable_selected</key>
@@ -649,7 +653,15 @@
 		<value><![CDATA[html-attributter: <br/><span class="help">Du kan tilføje dine brugerdefinerede html-attributter for option element. Eksempel: data-some-attribute=&quot;en eller anden værdi&quot;</span>]]></value>
 	</definition>
 	<definition>
-		<key>text_warning_empty_set</key>
-		<value><![CDATA[Vælg venligst mindst et produkt]]></value>
+		<key>text_new_price</key>
+		<value><![CDATA[Ny pris]]></value>
+	</definition>
+	<definition>
+		<key>text_prc_off</key>
+		<value><![CDATA[% rabat]]></value>
+	</definition>
+	<definition>
+		<key>text_fixed_amount_off</key>
+		<value><![CDATA[Fast beløbsrabat]]></value>
 	</definition>
 </definitions>

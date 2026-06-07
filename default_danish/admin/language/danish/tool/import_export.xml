@@ -5,8 +5,16 @@
 		<value><![CDATA[Import Eksport]]></value>
 	</definition>
 	<definition>
+		<key>import_wizard_title</key>
+		<value><![CDATA[Importer Data Wizard]]></value>
+	</definition>
+	<definition>
 		<key>tab_import</key>
 		<value><![CDATA[Importere]]></value>
+	</definition>
+	<definition>
+		<key>tab_import_wizard</key>
+		<value><![CDATA[Import Wizard]]></value>
 	</definition>
 	<definition>
 		<key>tab_export</key>
@@ -31,6 +39,22 @@
 	<definition>
 		<key>text_load_file</key>
 		<value><![CDATA[Indlæs fil]]></value>
+	</definition>
+	<definition>
+		<key>text_load_file_notes</key>
+		<value><![CDATA[Du kan uploade CSV- eller tekstfil for at importere data. For datastruktur kan du følge proprietært format (se eksport) eller frit format. <br/> For data med det frie format skal du kortlægge dataelementer manuelt eller bruge JSON-kort. <br/> Kun produkter, kategorier og mærker/producenter understøttes til import af frit format. <br/> Action-kolonnen kan inkluderes for at instruere import til &#39;indsæt&#39;, &#39;opdater&#39; eller &#39;slet&#39;. Standardhandlingen er update_or_insert. ]]></value>
+	</definition>
+	<definition>
+		<key>text_import_wizard_notes</key>
+		<value><![CDATA[Vælg en destinationstabel og det tilsvarende databasefelt til hver angivne importdatakolonne. Hvis der ikke er valgt noget felt, vil inputkolonnedata blive ignoreret. <br/><b>Bemærk:</b> Sprog- og butiksspecifikke dataværdier vil blive tildelt til det aktuelle indholdslager og det valgte sprog]]></value>
+	</definition>
+	<definition>
+		<key>text_records_to_be_loaded</key>
+		<value><![CDATA[Der vil være %s poster indlæst og behandlet i denne import!]]></value>
+	</definition>
+	<definition>
+		<key>text_import_task_title</key>
+		<value><![CDATA[Kører importprocessen]]></value>
 	</definition>
 	<definition>
 		<key>text_load</key>
@@ -67,6 +91,42 @@
 	<definition>
 		<key>text_test_mode</key>
 		<value><![CDATA[Kør i en test-mode <br/><span class="help">Det anbefales at køre data import i en test-mode først at se, om eventuelle problemer er til stede.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_col</key>
+		<value><![CDATA[Importer filkolonne]]></value>
+	</definition>
+	<definition>
+		<key>text_import_file_data</key>
+		<value><![CDATA[Importer dataeksempel]]></value>
+	</definition>
+	<definition>
+		<key>text_destination_col</key>
+		<value><![CDATA[Vælg destinationstabel]]></value>
+	</definition>
+	<definition>
+		<key>text_import_update_on</key>
+		<value><![CDATA[Opdater hvis den findes]]></value>
+	</definition>
+	<definition>
+		<key>text_import_split</key>
+		<value><![CDATA[Opdel data efter]]></value>
+	</definition>
+	<definition>
+		<key>title_export_map</key>
+		<value><![CDATA[Vælg, kopier og gem denne kortlægning til fremtidig brug.]]></value>
+	</definition>
+	<definition>
+		<key>text_export_map</key>
+		<value><![CDATA[Eksporter kortlægning]]></value>
+	</definition>
+	<definition>
+		<key>title_load_map</key>
+		<value><![CDATA[Send til feltet under forudgemte kortdata]]></value>
+	</definition>
+	<definition>
+		<key>text_load_map</key>
+		<value><![CDATA[Load mapping]]></value>
 	</definition>
 	<definition>
 		<key>error_file_format</key>
@@ -123,66 +183,6 @@
 	<definition>
 		<key>text_sort_by</key>
 		<value><![CDATA[Sorter efter:]]></value>
-	</definition>
-	<definition>
-		<key>import_wizard_title</key>
-		<value><![CDATA[Importer Data Wizard]]></value>
-	</definition>
-	<definition>
-		<key>tab_import_wizard</key>
-		<value><![CDATA[Import Wizard]]></value>
-	</definition>
-	<definition>
-		<key>text_load_file_notes</key>
-		<value><![CDATA[Du kan uploade CSV- eller tekstfil for at importere data. For datastruktur kan du følge proprietært format (se eksport) eller frit format. <br/> For data med det frie format skal du kortlægge dataelementer manuelt eller bruge JSON-kort. <br/> Kun produkter, kategorier og mærker/producenter understøttes til import af frit format. <br/> Action-kolonnen kan inkluderes for at instruere import til &#39;indsæt&#39;, &#39;opdater&#39; eller &#39;slet&#39;. Standardhandlingen er update_or_insert. ]]></value>
-	</definition>
-	<definition>
-		<key>text_import_wizard_notes</key>
-		<value><![CDATA[Vælg en destinationstabel og det tilsvarende databasefelt til hver angivne importdatakolonne. Hvis der ikke er valgt noget felt, vil inputkolonnedata blive ignoreret. <br/><b>Bemærk:</b> Sprog- og butiksspecifikke dataværdier vil blive tildelt til det aktuelle indholdslager og det valgte sprog]]></value>
-	</definition>
-	<definition>
-		<key>text_records_to_be_loaded</key>
-		<value><![CDATA[Der vil være %s poster indlæst og behandlet i denne import!]]></value>
-	</definition>
-	<definition>
-		<key>text_import_task_title</key>
-		<value><![CDATA[Kører importprocessen]]></value>
-	</definition>
-	<definition>
-		<key>text_import_file_col</key>
-		<value><![CDATA[Importer filkolonne]]></value>
-	</definition>
-	<definition>
-		<key>text_import_file_data</key>
-		<value><![CDATA[Importer dataeksempel]]></value>
-	</definition>
-	<definition>
-		<key>text_destination_col</key>
-		<value><![CDATA[Vælg destinationstabel]]></value>
-	</definition>
-	<definition>
-		<key>text_import_update_on</key>
-		<value><![CDATA[Opdater hvis den findes]]></value>
-	</definition>
-	<definition>
-		<key>text_import_split</key>
-		<value><![CDATA[Opdel data efter]]></value>
-	</definition>
-	<definition>
-		<key>title_export_map</key>
-		<value><![CDATA[Vælg, kopier og gem denne kortlægning til fremtidig brug.]]></value>
-	</definition>
-	<definition>
-		<key>text_export_map</key>
-		<value><![CDATA[Eksporter kortlægning]]></value>
-	</definition>
-	<definition>
-		<key>title_load_map</key>
-		<value><![CDATA[Send til feltet under forudgemte kortdata]]></value>
-	</definition>
-	<definition>
-		<key>text_load_map</key>
-		<value><![CDATA[Load mapping]]></value>
 	</definition>
 	<definition>
 		<key>error_table_selection</key>

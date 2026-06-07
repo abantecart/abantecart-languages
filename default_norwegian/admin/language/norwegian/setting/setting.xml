@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -409,6 +409,10 @@
 		<value><![CDATA[Tillat nedlastinger:]]></value>
 	</definition>
 	<definition>
+		<key>entry_download_status</key>
+		<value><![CDATA[Ordrestatus for nedlasting:<br /><span class="help">Angi hvilken ordrestatus kundens bestilling må nå før de får tilgang til sine nedlastbare produkter.</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_mail_transporting</key>
 		<value><![CDATA[E-posttransport:]]></value>
 	</definition>
@@ -442,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Kontrollpanel-øktsutløp:<br /><span class="help">Denne verdien angir tidsintervallet i minutter før du blir bedt om å logge inn igjen på grunn av inaktivitet.</span>]]></value>
+		<value><![CDATA[Øktutløp i kontrollpanelet:<br /><span class="help">Denne verdien angir tidsintervallet i minutter før du blir bedt om å logge inn på nytt på grunn av inaktivitet. For streng inaktivitetstimeout, deaktiver Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Behold lang økt:<br /><span class="help">Aktiver periodiske bakgrunnsforespørsler for administratorvarsler og systemsjekker. Deaktiver dette for å hindre at bakgrunnsoppdateringen forlenge den aktive økten. Etter at du har endret denne innstillingen, kan du se en engangs påloggingsprompt.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -810,7 +818,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API-nøkkel (for å aktivere Google Maps):<br /><span class="help">Du kan se adressen på kartet. For å aktivere Google Maps legger du til din Google Maps API-nøkkel <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google Credentials Page</a>.</span>]]></value>
+		<value><![CDATA[Google Maps and Places API-nøkkel:<br /><span class="help">Skriv inn din Google Maps and Places API-nøkkel for å vise adresser på kartet og aktivere automatisk utfylling av adresser i adressefeltene i butikken. Denne nøkkelen brukes på butikkens sider og eksponeres klient-side, så begrens den til tillatte domene(r) og/eller IP-adresse i Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Adresseautofullføring (Google Places):<br /><span class="help">Aktiver eller deaktiver adresseautofullføring via Google Places API i butikkens adresseskjemaer. Krever Google API-nøkkel.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -881,6 +893,10 @@
 		<value><![CDATA[Denne verdien kan ikke overskride php.ini-direktivet ditt %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Inaktivitetstimeout fungerer som forventet når <b>Behold lang økt</b> er slått AV.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Ordre startnr.:<br /><span class="help">Angi startnummeret som ordrene skal begynne fra.</span>]]></value>
 	</definition>
@@ -903,10 +919,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Butikkfront]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Administrator]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1021,6 +1033,10 @@
 		<value><![CDATA[Standard e-postlogo:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex-mønster for telefonvalidering:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab Linux-kommando <span class="help">Kjør kommandoen crontab -e med samme Linux-bruker som kjører en webserver for AbanteCart. Legg til kommandoen i editoren</span>]]></value>
 	</definition>
@@ -1051,13 +1067,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Tillat tilbakevendende kunder å bla gjennom:<br /><span class="help">Uautentiserte kunder som vender tilbake til nettstedet vil kunne bla gjennom produkter, legge dem i handlekurven og legge dem til i ønskelisten.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_download_status</key>
-		<value><![CDATA[Ordrestatus for nedlasting:<br /><span class="help">Angi hvilken ordrestatus kundens bestilling må nå før de får tilgang til sine nedlastbare produkter.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex-mønster for telefonvalidering:]]></value>
 	</definition>
 </definitions>

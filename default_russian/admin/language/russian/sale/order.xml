@@ -105,12 +105,28 @@
 		<value><![CDATA[Цена за штуку]]></value>
 	</definition>
 	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[Артикул]]></value>
+	</definition>
+	<definition>
 		<key>column_download</key>
 		<value><![CDATA[Имя загрузки]]></value>
 	</definition>
 	<definition>
+		<key>column_file</key>
+		<value><![CDATA[Файл]]></value>
+	</definition>
+	<definition>
 		<key>column_remaining</key>
 		<value><![CDATA[Остальное]]></value>
+	</definition>
+	<definition>
+		<key>column_expire_date</key>
+		<value><![CDATA[Истекает]]></value>
+	</definition>
+	<definition>
+		<key>column_mask</key>
+		<value><![CDATA[Маска]]></value>
 	</definition>
 	<definition>
 		<key>column_notify</key>
@@ -261,6 +277,10 @@
 		<value><![CDATA[Детали]]></value>
 	</definition>
 	<definition>
+		<key>tab_address</key>
+		<value><![CDATA[Адрес заказа]]></value>
+	</definition>
+	<definition>
 		<key>tab_history</key>
 		<value><![CDATA[Статус и Комментарии]]></value>
 	</definition>
@@ -321,6 +341,14 @@
 		<value><![CDATA[- Нажмите Скачать -]]></value>
 	</definition>
 	<definition>
+		<key>text_add_product_to_order</key>
+		<value><![CDATA[Добавить продукт в заказ №%s]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_order_product</key>
+		<value><![CDATA[Редактировать продукт]]></value>
+	</definition>
+	<definition>
 		<key>attention_check_total</key>
 		<value><![CDATA[Внимание: Данные продукта заказа изменились. Суммы обновились автоматически и требуют проверки.]]></value>
 	</definition>
@@ -341,26 +369,6 @@
 		<value><![CDATA[Пересчитать]]></value>
 	</definition>
 	<definition>
-		<key>column_file</key>
-		<value><![CDATA[Файл]]></value>
-	</definition>
-	<definition>
-		<key>column_expire_date</key>
-		<value><![CDATA[Истекает]]></value>
-	</definition>
-	<definition>
-		<key>column_mask</key>
-		<value><![CDATA[Маска]]></value>
-	</definition>
-	<definition>
-		<key>text_add_product_to_order</key>
-		<value><![CDATA[Добавить продукт в заказ №%s]]></value>
-	</definition>
-	<definition>
-		<key>text_edit_order_product</key>
-		<value><![CDATA[Редактировать продукт]]></value>
-	</definition>
-	<definition>
 		<key>entry_im</key>
 		<value><![CDATA[МС:]]></value>
 	</definition>
@@ -369,19 +377,11 @@
 		<value><![CDATA[Расположение на складе:]]></value>
 	</definition>
 	<definition>
-		<key>tab_address</key>
-		<value><![CDATA[Адрес заказа]]></value>
-	</definition>
-	<definition>
 		<key>edit_title_map</key>
 		<value><![CDATA[На карте]]></value>
 	</definition>
 	<definition>
 		<key>text_enable_google_map</key>
 		<value><![CDATA[Для просмотра адресов на интерактивной карте Google укажите ключ Google API в общих настройках.]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[Артикул]]></value>
 	</definition>
 </definitions>

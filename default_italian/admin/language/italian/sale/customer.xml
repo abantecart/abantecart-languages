@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -31,6 +31,10 @@
 	<definition>
 		<key>button_add</key>
 		<value><![CDATA[Aggiungi]]></value>
+	</definition>
+	<definition>
+		<key>column_id</key>
+		<value><![CDATA[ID]]></value>
 	</definition>
 	<definition>
 		<key>column_name</key>
@@ -218,11 +222,11 @@
 	</definition>
 	<definition>
 		<key>tab_transactions</key>
-		<value><![CDATA[Transazioni]]></value>
+		<value><![CDATA[Cronologia del saldo del conto]]></value>
 	</definition>
 	<definition>
 		<key>heading_title_transactions</key>
-		<value><![CDATA[Transazioni dei clienti]]></value>
+		<value><![CDATA[Cronologia del saldo del conto]]></value>
 	</definition>
 	<definition>
 		<key>column_create_date</key>
@@ -249,6 +253,14 @@
 		<value><![CDATA[Saldo:]]></value>
 	</definition>
 	<definition>
+		<key>text_last_login</key>
+		<value><![CDATA[Ultimo accesso:]]></value>
+	</definition>
+	<definition>
+		<key>text_never</key>
+		<value><![CDATA[mai]]></value>
+	</definition>
+	<definition>
 		<key>popup_title_info</key>
 		<value><![CDATA[Informazione sulla transazione]]></value>
 	</definition>
@@ -271,6 +283,10 @@
 	<definition>
 		<key>entry_other_type</key>
 		<value><![CDATA[Altro tipo personalizzato di transazione: ]]></value>
+	</definition>
+	<definition>
+		<key>text_other_type_placeholder</key>
+		<value><![CDATA[digita qui il nuovo nome]]></value>
 	</definition>
 	<definition>
 		<key>text_option_other_type</key>
@@ -301,12 +317,12 @@
 		<value><![CDATA[Errore: Si prega di compilare il valore di accredito o di addebito per la transazione del cliente.]]></value>
 	</definition>
 	<definition>
-		<key>text_transaction_success</key>
-		<value><![CDATA[Hai modificato la transazione con successo!]]></value>
+		<key>error_incorrect_debit_credit</key>
+		<value><![CDATA[Errore: il valore di debito o credito non può essere maggiore di 99999999999.99.99]]></value>
 	</definition>
 	<definition>
-		<key>text_add_address</key>
-		<value><![CDATA[Aggiungi nuovo indirizzo]]></value>
+		<key>text_transaction_success</key>
+		<value><![CDATA[Hai modificato la transazione con successo!]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_address</key>
@@ -351,26 +367,6 @@
 	<definition>
 		<key>text_total_order</key>
 		<value><![CDATA[Gli ordini totali:]]></value>
-	</definition>
-	<definition>
-		<key>text_last_login</key>
-		<value><![CDATA[Ultimo accesso:]]></value>
-	</definition>
-	<definition>
-		<key>text_never</key>
-		<value><![CDATA[mai]]></value>
-	</definition>
-	<definition>
-		<key>column_id</key>
-		<value><![CDATA[ID]]></value>
-	</definition>
-	<definition>
-		<key>text_other_type_placeholder</key>
-		<value><![CDATA[digita qui il nuovo nome]]></value>
-	</definition>
-	<definition>
-		<key>error_incorrect_debit_credit</key>
-		<value><![CDATA[Errore: il valore di debito o credito non può essere maggiore di 99999999999.99.99]]></value>
 	</definition>
 	<definition>
 		<key>text_register_date</key>

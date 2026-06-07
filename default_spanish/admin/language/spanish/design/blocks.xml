@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -9,12 +9,24 @@
 		<value><![CDATA[borrar un bloque]]></value>
 	</definition>
 	<definition>
+		<key>text_edit</key>
+		<value><![CDATA[edición de bloques]]></value>
+	</definition>
+	<definition>
+		<key>text_enable</key>
+		<value><![CDATA[Habilitar/Desactivar]]></value>
+	</definition>
+	<definition>
 		<key>text_details</key>
 		<value><![CDATA[Detalles]]></value>
 	</definition>
 	<definition>
-		<key>text_edit</key>
-		<value><![CDATA[edición de bloques]]></value>
+		<key>text_create</key>
+		<value><![CDATA[Crear bloque]]></value>
+	</definition>
+	<definition>
+		<key>text_all_block_types</key>
+		<value><![CDATA[Todos los tipos de bloque]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -37,6 +49,10 @@
 		<value><![CDATA[ Fecha Alta ]]></value>
 	</definition>
 	<definition>
+		<key>column_date_modified</key>
+		<value><![CDATA[Fecha modificada]]></value>
+	</definition>
+	<definition>
 		<key>column_block_type</key>
 		<value><![CDATA[ Tipo ]]></value>
 	</definition>
@@ -45,12 +61,28 @@
 		<value><![CDATA[ Acción ]]></value>
 	</definition>
 	<definition>
-		<key>entry_block_type</key>
-		<value><![CDATA[ Tipo de bloque personalizado ]]></value>
+		<key>column_sort_order</key>
+		<value><![CDATA[ Orden de Clasificación ]]></value>
+	</definition>
+	<definition>
+		<key>column_image</key>
+		<value><![CDATA[ Imagen ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_status</key>
+		<value><![CDATA[Estado]]></value>
 	</definition>
 	<definition>
 		<key>entry_block_status_note</key>
 		<value><![CDATA[ Note: Es necesario añadir este bloque en <a style="text-decoration: underline; font-weight: bold;" href="#admin#rt=design/layout">EL DISENO</a> de la página deseada para ver su funcionamiento ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_type</key>
+		<value><![CDATA[ Tipo de bloque personalizado ]]></value>
+	</definition>
+	<definition>
+		<key>entry_block_name</key>
+		<value><![CDATA[ Nombre de bloque personalizado ]]></value>
 	</definition>
 	<definition>
 		<key>entry_block_wrapper</key>
@@ -59,10 +91,6 @@
 	<definition>
 		<key>entry_block_framed</key>
 		<value><![CDATA[ Utilice marco del bloque ]]></value>
-	</definition>
-	<definition>
-		<key>entry_block_name</key>
-		<value><![CDATA[ Nombre de bloque personalizado ]]></value>
 	</definition>
 	<definition>
 		<key>entry_block_title</key>
@@ -125,6 +153,10 @@
 		<value><![CDATA[Ofertas Especiales]]></value>
 	</definition>
 	<definition>
+		<key>text_products_related</key>
+		<value><![CDATA[Productos relacionados]]></value>
+	</definition>
+	<definition>
 		<key>text_products_popular</key>
 		<value><![CDATA[Productos populares]]></value>
 	</definition>
@@ -169,6 +201,10 @@
 		<value><![CDATA[Fabricantes personalizadas]]></value>
 	</definition>
 	<definition>
+		<key>text_selected_content</key>
+		<value><![CDATA[Contenido seleccionado]]></value>
+	</definition>
+	<definition>
 		<key>text_html_block</key>
 		<value><![CDATA[HTML]]></value>
 	</definition>
@@ -177,12 +213,12 @@
 		<value><![CDATA[Listado]]></value>
 	</definition>
 	<definition>
-		<key>text_data_listed</key>
-		<value><![CDATA[ Los datos que se lista ]]></value>
-	</definition>
-	<definition>
 		<key>text_selected</key>
 		<value><![CDATA[ Los elementos seleccionados: ]]></value>
+	</definition>
+	<definition>
+		<key>text_data_listed</key>
+		<value><![CDATA[ Los datos que se lista ]]></value>
 	</definition>
 	<definition>
 		<key>text_save_edit</key>
@@ -191,18 +227,6 @@
 	<definition>
 		<key>text_apply</key>
 		<value><![CDATA[ Aplicar la selección ]]></value>
-	</definition>
-	<definition>
-		<key>text_create</key>
-		<value><![CDATA[Crear bloque]]></value>
-	</definition>
-	<definition>
-		<key>column_sort_order</key>
-		<value><![CDATA[ Orden de Clasificación ]]></value>
-	</definition>
-	<definition>
-		<key>column_image</key>
-		<value><![CDATA[ Imagen ]]></value>
 	</definition>
 	<definition>
 		<key>text_block_id</key>
@@ -245,10 +269,6 @@
 		<value><![CDATA[Este bloque no se mostrará en la posición seleccionada en una tienda!]]></value>
 	</definition>
 	<definition>
-		<key>text_enable</key>
-		<value><![CDATA[Habilitar/Desactivar]]></value>
-	</definition>
-	<definition>
 		<key>text_collection</key>
 		<value><![CDATA[Colección]]></value>
 	</definition>
@@ -257,19 +277,7 @@
 		<value><![CDATA[Colección seleccionada:]]></value>
 	</definition>
 	<definition>
-		<key>text_products_related</key>
-		<value><![CDATA[Productos relacionados]]></value>
-	</definition>
-	<definition>
-		<key>text_selected_content</key>
-		<value><![CDATA[Contenido seleccionado]]></value>
-	</definition>
-	<definition>
 		<key>text_top_level</key>
 		<value><![CDATA[Nivel superior]]></value>
-	</definition>
-	<definition>
-		<key>entry_block_status</key>
-		<value><![CDATA[Estado]]></value>
 	</definition>
 </definitions>

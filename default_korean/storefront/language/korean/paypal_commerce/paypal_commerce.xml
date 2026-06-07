@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
@@ -55,5 +55,13 @@
 	<definition>
 		<key>paypal_commerce_error_declined</key>
 		<value><![CDATA[결제 거부됨]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_required_options_warning</key>
+		<value><![CDATA[PayPal을 사용하기 전에 모든 필수 제품 옵션을 선택해 주세요.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_failed</key>
+		<value><![CDATA[3D Secure 인증에 실패했거나 사용할 수 없습니다. 결제가 캡처되지 않았습니다.]]></value>
 	</definition>
 </definitions>

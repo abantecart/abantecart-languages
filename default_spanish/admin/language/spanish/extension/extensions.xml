@@ -105,6 +105,10 @@
 		<value><![CDATA[Advertencia: Desinstalar extensión antes de borrar!]]></value>
 	</definition>
 	<definition>
+		<key>text_save_success</key>
+		<value><![CDATA[éxito: Ha modificado la configuración de extensión!]]></value>
+	</definition>
+	<definition>
 		<key>text_restore_success</key>
 		<value><![CDATA[Éxito: Se ha restaurado la configuración predeterminada de extensión!]]></value>
 	</definition>
@@ -313,6 +317,16 @@
 		<value><![CDATA[Escaparate Icono:<span class="help">Envios Icono que se mostrará en la selección del envío checkout</span>]]></value>
 	</definition>
 	<definition>
+		<key>text_autoselect_payment</key>
+		<value><![CDATA[
+ Selección automática: <span class="help">agiliza el proceso de pago al elegir automáticamente un método de pago cuando hay múltiples opciones disponibles.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_autoselect_shipping</key>
+		<value><![CDATA[
+ Selección automática: <span class="help">agiliza el proceso de pago al elegir automáticamente un método de entrega cuando hay múltiples opciones disponibles.</span>]]></value>
+	</definition>
+	<definition>
 		<key>text_accept_payments_shipping</key>
 		<value><![CDATA[Acepte los siguientes pagos: <br/><span class="help"> Si sólo se necesitan métodos de pago específicos para este método de envío, seleccione aquí. Si no hay nada seleccionado, todos los métodos de pago disponibles se mostrarán</span>]]></value>
 	</definition>
@@ -377,10 +391,6 @@
 		<value><![CDATA[Más extensiones están disponibles para una fácil instalación.]]></value>
 	</definition>
 	<definition>
-		<key>text_save_success</key>
-		<value><![CDATA[éxito: Ha modificado la configuración de extensión!]]></value>
-	</definition>
-	<definition>
 		<key>text_support_expiration</key>
 		<value><![CDATA[El soporte está activo hasta]]></value>
 	</definition>
@@ -419,16 +429,6 @@
 	<definition>
 		<key>text_max_order_subtotal</key>
 		<value><![CDATA[Subtotal máximo del pedido: <span class="help">ingrese el valor máximo del subtotal del pedido para que la opción de envío esté disponible para el cliente. Este campo es opcional.</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_autoselect_payment</key>
-		<value><![CDATA[
- Selección automática: <span class="help">agiliza el proceso de pago al elegir automáticamente un método de pago cuando hay múltiples opciones disponibles.</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_autoselect_shipping</key>
-		<value><![CDATA[
- Selección automática: <span class="help">agiliza el proceso de pago al elegir automáticamente un método de entrega cuando hay múltiples opciones disponibles.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_customer_groups</key>

@@ -41,6 +41,10 @@
 		<value><![CDATA[Успешно: Вы успешно клонировали товар %s !]]></value>
 	</definition>
 	<definition>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[Примечание. Пользовательский макет продукта также клонирован.]]></value>
+	</definition>
+	<definition>
 		<key>text_error_copy</key>
 		<value><![CDATA[Клонирование не удалось! Исходный продукт не доступен]]></value>
 	</definition>
@@ -79,6 +83,10 @@
 	<definition>
 		<key>column_model</key>
 		<value><![CDATA[Модель]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[Артикул]]></value>
 	</definition>
 	<definition>
 		<key>column_image</key>
@@ -189,6 +197,10 @@
 		<value><![CDATA[Статус на складе: <br/><span class="help">Текст отображения наличия товара на складе</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Разрешать покупку если нет в наличии: <br/><span class="help">Позвольте клиентам покупать товар, когда его нет на складе.</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_status</key>
 		<value><![CDATA[Статус:]]></value>
 	</definition>
@@ -205,6 +217,10 @@
 		<value><![CDATA[Цена:]]></value>
 	</definition>
 	<definition>
+		<key>entry_product_option_cost</key>
+		<value><![CDATA[Фактическая стоимость (общая): <span class="help">введите фактическую стоимость (общую) для этого варианта продукта.</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_track_option_stock</key>
 		<value><![CDATA[Отслеживание товара на складе:]]></value>
 	</definition>
@@ -219,6 +235,10 @@
 	<definition>
 		<key>entry_weight</key>
 		<value><![CDATA[Вес:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_change</key>
+		<value><![CDATA[Вес: <span class="help">Важно! Если значение указано в процентах (%), то вес будет изменен на указанный процент в зависимости от веса основного продукта. Если значение веса в единицах измерения, оно будет использоваться как абсолютное значение для опции, основной вес будет проигнорирован.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_length_class</key>
@@ -323,6 +343,10 @@
 	<definition>
 		<key>error_product_not_found</key>
 		<value><![CDATA[Ошибка: Товар не найден!]]></value>
+	</definition>
+	<definition>
+		<key>error_sku</key>
+		<value><![CDATA[Ошибка: Артикул не найден!]]></value>
 	</definition>
 	<definition>
 		<key>filter_product</key>
@@ -525,6 +549,10 @@
 		<value><![CDATA[Распродано]]></value>
 	</definition>
 	<definition>
+		<key>text_product_in_stock</key>
+		<value><![CDATA[В наличии]]></value>
+	</definition>
+	<definition>
 		<key>text_product_option_out_of_stock</key>
 		<value><![CDATA[Вариант(ы) товара отсутствует на складе]]></value>
 	</definition>
@@ -549,12 +577,20 @@
 		<value><![CDATA[Ограничение 999,99 было достигнуто. Задайте меньшее количество.]]></value>
 	</definition>
 	<definition>
+		<key>error_dimension_value</key>
+		<value><![CDATA[Этот товар требует доставки. Пожалуйста, заполните все значения размеров.]]></value>
+	</definition>
+	<definition>
 		<key>error_weight_value</key>
 		<value><![CDATA[Этот продукт требует доставки. Пожалуйста, укажите вес.]]></value>
 	</definition>
 	<definition>
 		<key>error_weight_class</key>
 		<value><![CDATA[Пожалуйста, укажите единицу измерения веса.]]></value>
+	</definition>
+	<definition>
+		<key>error_length_class</key>
+		<value><![CDATA[Пожалуйста, установите класс длины.]]></value>
 	</definition>
 	<definition>
 		<key>entry_allowed_extensions</key>
@@ -573,20 +609,8 @@
 		<value><![CDATA[Добавить имя каталога]]></value>
 	</definition>
 	<definition>
-		<key>text_product_in_stock</key>
-		<value><![CDATA[В наличии]]></value>
-	</definition>
-	<definition>
 		<key>text_success_relation_set</key>
 		<value><![CDATA[Связи выбранных видов продукции были установлены успешно!]]></value>
-	</definition>
-	<definition>
-		<key>text_success_copy_layout</key>
-		<value><![CDATA[Примечание. Пользовательский макет продукта также клонирован.]]></value>
-	</definition>
-	<definition>
-		<key>entry_stock_checkout</key>
-		<value><![CDATA[Разрешать покупку если нет в наличии: <br/><span class="help">Позвольте клиентам покупать товар, когда его нет на складе.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_stock_locations</key>
@@ -601,36 +625,16 @@
 		<value><![CDATA[Создать коллекцию]]></value>
 	</definition>
 	<definition>
+		<key>text_warning_empty_set</key>
+		<value><![CDATA[Пожалуйста, выберите хотя бы один товар.]]></value>
+	</definition>
+	<definition>
 		<key>text_enable_selected</key>
 		<value><![CDATA[Включить выбранное]]></value>
 	</definition>
 	<definition>
 		<key>text_disable_selected</key>
 		<value><![CDATA[Отключить выбранное]]></value>
-	</definition>
-	<definition>
-		<key>entry_product_option_cost</key>
-		<value><![CDATA[Фактическая стоимость (общая): <span class="help">введите фактическую стоимость (общую) для этого варианта продукта.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_weight_change</key>
-		<value><![CDATA[Вес: <span class="help">Важно! Если значение указано в процентах (%), то вес будет изменен на указанный процент в зависимости от веса основного продукта. Если значение веса в единицах измерения, оно будет использоваться как абсолютное значение для опции, основной вес будет проигнорирован.</span>]]></value>
-	</definition>
-	<definition>
-		<key>error_dimension_value</key>
-		<value><![CDATA[Этот товар требует доставки. Пожалуйста, заполните все значения размеров.]]></value>
-	</definition>
-	<definition>
-		<key>error_length_class</key>
-		<value><![CDATA[Пожалуйста, установите класс длины.]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[Артикул]]></value>
-	</definition>
-	<definition>
-		<key>error_sku</key>
-		<value><![CDATA[Ошибка: Артикул не найден!]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_rule</key>
@@ -645,11 +649,19 @@
 		<value><![CDATA[Уникальный текстовый идентификатор:]]></value>
 	</definition>
 	<definition>
-		<key>text_warning_empty_set</key>
-		<value><![CDATA[Пожалуйста, выберите хотя бы один товар.]]></value>
-	</definition>
-	<definition>
 		<key>entry_html_attributes</key>
 		<value><![CDATA[html-атрибуты:<br /><span class="help">Вы можете добавить свои настраиваемые html-атрибуты для элемента option. Пример: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_new_price</key>
+		<value><![CDATA[Новая цена]]></value>
+	</definition>
+	<definition>
+		<key>text_prc_off</key>
+		<value><![CDATA[% Скидка]]></value>
+	</definition>
+	<definition>
+		<key>text_fixed_amount_off</key>
+		<value><![CDATA[Фиксированная сумма скидки]]></value>
 	</definition>
 </definitions>

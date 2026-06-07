@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -149,6 +149,10 @@
 		<value><![CDATA[Region / stat:]]></value>
 	</definition>
 	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra kunder!]]></value>
+	</definition>
+	<definition>
 		<key>error_loginname</key>
 		<value><![CDATA[Inloggningsnamnet måste bestå av enbart alfanumeriska tecken och vara mellan 5 och 64 tecken långt!]]></value>
 	</definition>
@@ -171,6 +175,10 @@
 	<definition>
 		<key>error_telephone</key>
 		<value><![CDATA[Telefon måste bestå av mellan 3 och 32 siffror!]]></value>
+	</definition>
+	<definition>
+		<key>error_password</key>
+		<value><![CDATA[Lösenordet måste vara mellan 3 och 20 tecken!]]></value>
 	</definition>
 	<definition>
 		<key>error_confirm</key>
@@ -214,11 +222,11 @@
 	</definition>
 	<definition>
 		<key>tab_transactions</key>
-		<value><![CDATA[Transaktioner]]></value>
+		<value><![CDATA[Kontosaldohistorik]]></value>
 	</definition>
 	<definition>
 		<key>heading_title_transactions</key>
-		<value><![CDATA[Kundens transaktioner]]></value>
+		<value><![CDATA[Kontobalanshistorik]]></value>
 	</definition>
 	<definition>
 		<key>column_create_date</key>
@@ -317,10 +325,6 @@
 		<value><![CDATA[Framgång: Du har ändrat transaktionen!]]></value>
 	</definition>
 	<definition>
-		<key>text_add_address</key>
-		<value><![CDATA[Lägg till adress]]></value>
-	</definition>
-	<definition>
 		<key>text_edit_address</key>
 		<value><![CDATA[Redigera adress]]></value>
 	</definition>
@@ -371,13 +375,5 @@
 	<definition>
 		<key>error_email_exists</key>
 		<value><![CDATA[Kund med denna e-postadress finns redan!]]></value>
-	</definition>
-	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Varning: Du har inte behörighet att ändra kunder!]]></value>
-	</definition>
-	<definition>
-		<key>error_password</key>
-		<value><![CDATA[Lösenordet måste vara mellan 3 och 20 tecken!]]></value>
 	</definition>
 </definitions>

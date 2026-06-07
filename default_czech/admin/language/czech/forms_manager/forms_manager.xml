@@ -49,6 +49,10 @@
 		<value><![CDATA[Jméno]]></value>
 	</definition>
 	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[Název pole]]></value>
+	</definition>
+	<definition>
 		<key>column_description</key>
 		<value><![CDATA[Popis]]></value>
 	</definition>
@@ -209,6 +213,10 @@
 		<value><![CDATA[Vzor regulárního výrazu:]]></value>
 	</definition>
 	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[html-attributes:<br /><span class="help">Můžete přidat vlastní html-atributy pro prvek option. Příklad: data-some-attribute="nějaká hodnota"</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_error_text</key>
 		<value><![CDATA[Chybová zpráva o neplatné hodnotě:]]></value>
 	</definition>
@@ -233,20 +241,12 @@
 		<value><![CDATA[Pole s názvem %s už se v tomto formuláři nachází!]]></value>
 	</definition>
 	<definition>
-		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[Varování! Prosím nastavte výchozí jméno odesílatele a výchozí e-mail odesílatele v <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">nastavení správce formulářů</a>]]></value>
-	</definition>
-	<definition>
-		<key>column_field_name</key>
-		<value><![CDATA[Název pole]]></value>
-	</definition>
-	<definition>
-		<key>entry_html_attributes</key>
-		<value><![CDATA[html-attributes:<br /><span class="help">Můžete přidat vlastní html-atributy pro prvek option. Příklad: data-some-attribute="nějaká hodnota"</span>]]></value>
-	</definition>
-	<definition>
 		<key>error_regexp_pattern</key>
 		<value><![CDATA[Vzor regulárního výrazu je neplatný!]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_error_empty_sender</key>
+		<value><![CDATA[Varování! Prosím nastavte výchozí jméno odesílatele a výchozí e-mail odesílatele v <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">nastavení správce formulářů</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_groups</key>

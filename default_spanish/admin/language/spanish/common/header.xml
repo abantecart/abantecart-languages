@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -9,12 +9,32 @@
 		<value><![CDATA[Copia de Seguridad / Restaurar]]></value>
 	</definition>
 	<definition>
+		<key>text_welcome</key>
+		<value><![CDATA[Bienvenida, <b>%s</b>]]></value>
+	</definition>
+	<definition>
+		<key>text_last_login</key>
+		<value><![CDATA[Último inicio de sesión: %s]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_details</key>
+		<value><![CDATA[Editar detalles del perfil]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_notifications</key>
+		<value><![CDATA[Editar configuración de notificación]]></value>
+	</definition>
+	<definition>
 		<key>text_catalog</key>
 		<value><![CDATA[Catalogo]]></value>
 	</definition>
 	<definition>
 		<key>text_category</key>
 		<value><![CDATA[Categor&iacute;as]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm</key>
+		<value><![CDATA[Confirmar?]]></value>
 	</definition>
 	<definition>
 		<key>text_country</key>
@@ -57,12 +77,8 @@
 		<value><![CDATA[Extensiones]]></value>
 	</definition>
 	<definition>
-		<key>text_add_extension</key>
-		<value><![CDATA[ Agregar Nueva extensión ]]></value>
-	</definition>
-	<definition>
-		<key>text_extensions_store</key>
-		<value><![CDATA[Extensiones de la tienda]]></value>
+		<key>text_extensions_short</key>
+		<value><![CDATA[Extensiones]]></value>
 	</definition>
 	<definition>
 		<key>text_front</key>
@@ -83,6 +99,10 @@
 	<definition>
 		<key>text_language</key>
 		<value><![CDATA[Lenguajes]]></value>
+	</definition>
+	<definition>
+		<key>text_language_definitions</key>
+		<value><![CDATA[Definiciones del lenguaje]]></value>
 	</definition>
 	<definition>
 		<key>text_localisation</key>
@@ -113,6 +133,10 @@
 		<value><![CDATA[Situaci&oacute;n pedidos]]></value>
 	</definition>
 	<definition>
+		<key>text_abantecart</key>
+		<value><![CDATA[Página principal]]></value>
+	</definition>
+	<definition>
 		<key>text_payment</key>
 		<value><![CDATA[Formas de pago]]></value>
 	</definition>
@@ -130,27 +154,15 @@
 	</definition>
 	<definition>
 		<key>text_transactions</key>
-		<value><![CDATA[Transacciones]]></value>
+		<value><![CDATA[Historial de saldo]]></value>
+	</definition>
+	<definition>
+		<key>text_balance_history</key>
+		<value><![CDATA[Historial de saldo]]></value>
 	</definition>
 	<definition>
 		<key>text_tax</key>
 		<value><![CDATA[Impuesto]]></value>
-	</definition>
-	<definition>
-		<key>text_welcome</key>
-		<value><![CDATA[Bienvenida, <b>%s</b>]]></value>
-	</definition>
-	<definition>
-		<key>text_last_login</key>
-		<value><![CDATA[Último inicio de sesión: %s]]></value>
-	</definition>
-	<definition>
-		<key>text_edit_details</key>
-		<value><![CDATA[Editar detalles del perfil]]></value>
-	</definition>
-	<definition>
-		<key>text_confirm</key>
-		<value><![CDATA[Confirmar?]]></value>
 	</definition>
 	<definition>
 		<key>text_report_purchased</key>
@@ -161,28 +173,12 @@
 		<value><![CDATA[Ventas]]></value>
 	</definition>
 	<definition>
+		<key>text_analytics</key>
+		<value><![CDATA[Análisis e información]]></value>
+	</definition>
+	<definition>
 		<key>text_report_viewed</key>
 		<value><![CDATA[Productos vistos]]></value>
-	</definition>
-	<definition>
-		<key>text_language_definitions</key>
-		<value><![CDATA[Definiciones del lenguaje]]></value>
-	</definition>
-	<definition>
-		<key>text_abantecart</key>
-		<value><![CDATA[Página principal]]></value>
-	</definition>
-	<definition>
-		<key>text_migrate</key>
-		<value><![CDATA[Herramienta de migración]]></value>
-	</definition>
-	<definition>
-		<key>text_updater</key>
-		<value><![CDATA[Actualizador]]></value>
-	</definition>
-	<definition>
-		<key>text_templates</key>
-		<value><![CDATA[Plantillas]]></value>
 	</definition>
 	<definition>
 		<key>text_review</key>
@@ -253,8 +249,24 @@
 		<value><![CDATA[Todas las Extensiones]]></value>
 	</definition>
 	<definition>
-		<key>text_extensions_short</key>
-		<value><![CDATA[Extensiones]]></value>
+		<key>text_add_extension</key>
+		<value><![CDATA[ Agregar Nueva extensión ]]></value>
+	</definition>
+	<definition>
+		<key>text_extensions_store</key>
+		<value><![CDATA[Extensiones de la tienda]]></value>
+	</definition>
+	<definition>
+		<key>text_migrate</key>
+		<value><![CDATA[Herramienta de migración]]></value>
+	</definition>
+	<definition>
+		<key>text_updater</key>
+		<value><![CDATA[Actualizador]]></value>
+	</definition>
+	<definition>
+		<key>text_templates</key>
+		<value><![CDATA[Plantillas]]></value>
 	</definition>
 	<definition>
 		<key>text_layout</key>
@@ -273,16 +285,16 @@
 		<value><![CDATA[Cache]]></value>
 	</definition>
 	<definition>
-		<key>text_datasets_manager</key>
-		<value><![CDATA[Conjuntos de datos]]></value>
-	</definition>
-	<definition>
 		<key>text_messages</key>
 		<value><![CDATA[Mensajes]]></value>
 	</definition>
 	<definition>
 		<key>text_content</key>
 		<value><![CDATA[Contenido]]></value>
+	</definition>
+	<definition>
+		<key>text_datasets_manager</key>
+		<value><![CDATA[Conjuntos de datos]]></value>
 	</definition>
 	<definition>
 		<key>text_install_upgrade_history</key>
@@ -345,6 +357,10 @@
 		<value><![CDATA[Correo]]></value>
 	</definition>
 	<definition>
+		<key>text_settings_im</key>
+		<value><![CDATA[MI]]></value>
+	</definition>
+	<definition>
 		<key>text_settings_api</key>
 		<value><![CDATA[API]]></value>
 	</definition>
@@ -355,46 +371,6 @@
 	<definition>
 		<key>text_settings_newstore</key>
 		<value><![CDATA[Crear nueva tienda]]></value>
-	</definition>
-	<definition>
-		<key>text_tasks</key>
-		<value><![CDATA[Tareas programadas]]></value>
-	</definition>
-	<definition>
-		<key>text_read_all_messages</key>
-		<value><![CDATA[Leer todos los mensajes]]></value>
-	</definition>
-	<definition>
-		<key>text_short_stats</key>
-		<value><![CDATA[Estadísticas rápidas]]></value>
-	</definition>
-	<definition>
-		<key>text_online_now</key>
-		<value><![CDATA[Clientes en línea]]></value>
-	</definition>
-	<definition>
-		<key>text_online_new</key>
-		<value><![CDATA[Nuevo]]></value>
-	</definition>
-	<definition>
-		<key>text_online_registered</key>
-		<value><![CDATA[Conectado]]></value>
-	</definition>
-	<definition>
-		<key>text_today_orders</key>
-		<value><![CDATA[Entradas de Pedidos en la actualidad]]></value>
-	</definition>
-	<definition>
-		<key>text_today_sales</key>
-		<value><![CDATA[Ventas totales Hoy]]></value>
-	</definition>
-	<definition>
-		<key>text_today_customers</key>
-		<value><![CDATA[Clientes Nuevos Hoy]]></value>
-	</definition>
-	<definition>
-		<key>text_today_reviews</key>
-		<value><![CDATA[Comentarios Nuevo Hoy]]></value>
 	</definition>
 	<definition>
 		<key>text_voice_command_prompt</key>
@@ -437,20 +413,48 @@
 		<value><![CDATA[Control por voz no es compatible con este navegador. <a href="//www.google.com/chrome" target="_blank">Chrome</a> versión 25 o posterior.]]></value>
 	</definition>
 	<definition>
-		<key>text_edit_notifications</key>
-		<value><![CDATA[Editar configuración de notificación]]></value>
+		<key>text_tasks</key>
+		<value><![CDATA[Tareas programadas]]></value>
 	</definition>
 	<definition>
-		<key>text_settings_im</key>
-		<value><![CDATA[MI]]></value>
+		<key>text_read_all_messages</key>
+		<value><![CDATA[Leer todos los mensajes]]></value>
+	</definition>
+	<definition>
+		<key>text_short_stats</key>
+		<value><![CDATA[Estadísticas rápidas]]></value>
+	</definition>
+	<definition>
+		<key>text_online_now</key>
+		<value><![CDATA[Clientes en línea]]></value>
+	</definition>
+	<definition>
+		<key>text_online_new</key>
+		<value><![CDATA[Nuevo]]></value>
+	</definition>
+	<definition>
+		<key>text_online_registered</key>
+		<value><![CDATA[Conectado]]></value>
+	</definition>
+	<definition>
+		<key>text_today_orders</key>
+		<value><![CDATA[Entradas de Pedidos en la actualidad]]></value>
+	</definition>
+	<definition>
+		<key>text_today_sales</key>
+		<value><![CDATA[Ventas totales Hoy]]></value>
+	</definition>
+	<definition>
+		<key>text_today_customers</key>
+		<value><![CDATA[Clientes Nuevos Hoy]]></value>
+	</definition>
+	<definition>
+		<key>text_today_reviews</key>
+		<value><![CDATA[Comentarios Nuevo Hoy]]></value>
 	</definition>
 	<definition>
 		<key>text_rl_manager</key>
 		<value><![CDATA[Administrador de medios]]></value>
-	</definition>
-	<definition>
-		<key>text_analytics</key>
-		<value><![CDATA[Análisis e información]]></value>
 	</definition>
 	<definition>
 		<key>text_server_time</key>

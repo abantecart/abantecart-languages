@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Λήξη Συνεδρίας Πίνακα Ελέγχου:<br /><span class="help">Η τιμή αυτή καθορίζει το χρονικό διάστημα σε λεπτά πριν σας ζητηθεί να συνδεθείτε ξανά λόγω μη δραστηριότητας.</span>]]></value>
+		<value><![CDATA[Λήξη συνεδρίας Πίνακα Ελέγχου:<br /><span class="help">Αυτή η τιμή ελέγχει το χρονικό διάστημα σε λεπτά πριν σας ζητηθεί να συνδεθείτε ξανά λόγω έλλειψης δραστηριότητας. Για αυστηρή συμπεριφορά χρονικού ορίου αδράνειας, απενεργοποιήστε την επιλογή Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Διατήρηση μακροχρόνιας συνεδρίας:<br /><span class="help">Ενεργοποιήστε περιοδικά αιτήματα στο παρασκήνιο για ειδοποιήσεις διαχειριστή και ελέγχους συστήματος. Απενεργοποιήστε αυτή τη ρύθμιση για να αποτρέψετε την ανανέωση στο παρασκήνιο από την επέκταση της ενεργής συνεδρίας. Μετά την αλλαγή αυτής της ρύθμισης, ενδέχεται να δείτε μια εφάπαξ προτροπή επανεισόδου.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -815,7 +819,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Κλειδί API Google (για να ενεργοποιήσετε τους Χάρτες Google):<br /><span class="help">Μπορείτε να δείτε τη διεύθυνση στον χάρτη. Για να ενεργοποιήσετε τους Χάρτες Google, προσθέστε το Κλειδί API Χαρτών Google σας στη <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Σελίδα Διαπιστευτηρίων Google</a>.</span>]]></value>
+		<value><![CDATA[Google Maps and Places API Key:<br /><span class="help">Εισάγετε το κλειδί API των Google Maps και Places σας για να εμφανίζονται διευθύνσεις στο χάρτη και να ενεργοποιείται η αυτόματη συμπλήρωση διευθύνσεων στις φόρμες διεύθυνσης του καταστήματος. Αυτό το κλειδί χρησιμοποιείται στις σελίδες του καταστήματος και εκτίθεται στην πλευρά του πελάτη, οπότε περιορίστε το με επιτρεπόμενα domains και/ή διεύθυνση IP στο Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Αυτόματη συμπλήρωση διεύθυνσης (Google Places):<br /><span class="help">Ενεργοποιήστε ή απενεργοποιήστε την αυτόματη συμπλήρωση διεύθυνσης μέσω του Google Places API στις φόρμες διεύθυνσης του καταστήματος. Απαιτείται κλειδί API της Google.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -886,6 +894,10 @@
 		<value><![CDATA[Αυτή η τιμή δεν μπορεί να υπερβαίνει την οδηγία %s του php.ini σας (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Ο χρονικός περιορισμός αδράνειας λειτουργεί όπως αναμένεται όταν η <b>Διατήρηση Μακράς Συνεδρίας</b> είναι απενεργοποιημένη.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Αριθμός Έναρξης Παραγγελιών:<br /><span class="help">Ορίστε τον αρχικό αριθμό από τον οποίο θα ξεκινούν οι παραγγελίες.</span>]]></value>
 	</definition>
@@ -908,10 +920,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Πρόσοψη καταστήματος]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Διαχειριστής]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1026,6 +1034,10 @@
 		<value><![CDATA[Προεπιλεγμένο Λογότυπο Ηλεκτρονικού Ταχυδρομείου:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Πρότυπο Regex Επαλήθευσης Τηλεφώνου:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Εντολή crontab σε Linux <span class="help">Εκτελέστε την εντολή crontab -e με τον ίδιο χρήστη Linux που τρέχει τον διακομιστή ιστού για το AbanteCart. Στον επεξεργαστή προσθέστε την εντολή</span>]]></value>
 	</definition>
@@ -1056,9 +1068,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Επιτρέψτε στους επιστρέφοντες πελάτες να περιηγούνται:<br /><span class="help">Οι μη αυθεντικοποιημένοι πελάτες που επιστρέφουν στον ιστότοπο θα μπορούν να περιηγούνται σε προϊόντα, να τα προσθέτουν στο καλάθι και στη λίστα επιθυμιών.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Πρότυπο Regex Επαλήθευσης Τηλεφώνου:]]></value>
 	</definition>
 </definitions>

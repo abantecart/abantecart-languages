@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -18,6 +18,10 @@ Tärkeää! Avatax Integration Total -laajennuksen laskentajärjestyksen laajenn
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[Lisenssiavain:<br /><span class="help">Avalaran toimittama lisenssiavain</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Testitila:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -54,6 +58,10 @@ Tärkeää! Avatax Integration Total -laajennuksen laskentajärjestyksen laajenn
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[Yhteys onnistui ja API-tunnistetiedot on määritetty oikein.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Testaa yhteys:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -158,13 +166,5 @@ Tärkeää! Avatax Integration Total -laajennuksen laskentajärjestyksen laajenn
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Ota tapahtumien lokitus käyttöön]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[Testitila:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[Testaa yhteys:]]></value>
 	</definition>
 </definitions>

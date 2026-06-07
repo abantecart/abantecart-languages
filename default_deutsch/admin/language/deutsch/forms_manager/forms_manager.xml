@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>column_name</key>
 		<value><![CDATA[Name]]></value>
+	</definition>
+	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[Feldname]]></value>
 	</definition>
 	<definition>
 		<key>column_description</key>
@@ -209,6 +213,10 @@
 		<value><![CDATA[Muster für reguläre Ausdrücke:]]></value>
 	</definition>
 	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[html-attributes:<br /><span class="help">Sie können benutzerdefinierte HTML-Attribute für das Optionselement hinzufügen. Beispiel: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_error_text</key>
 		<value><![CDATA[Fehlermeldung über ungültigen Wert:]]></value>
 	</definition>
@@ -233,20 +241,12 @@
 		<value><![CDATA[Feld mit dem Namen %s ist bereits im Formular vorhanden!]]></value>
 	</definition>
 	<definition>
-		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[Warnung! Bitte legen Sie den Standard-Absendernamen und die Standard-Absender-E-Mail in den <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">Formular-Manager-Einstellungen</a> fest.]]></value>
-	</definition>
-	<definition>
-		<key>entry_html_attributes</key>
-		<value><![CDATA[html-attributes:<br /><span class="help">Sie können benutzerdefinierte HTML-Attribute für das Optionselement hinzufügen. Beispiel: data-some-attribute="some value"</span>]]></value>
-	</definition>
-	<definition>
 		<key>error_regexp_pattern</key>
 		<value><![CDATA[Regex-Muster ist ungültig!]]></value>
 	</definition>
 	<definition>
-		<key>column_field_name</key>
-		<value><![CDATA[Feldname]]></value>
+		<key>forms_manager_error_empty_sender</key>
+		<value><![CDATA[Warnung! Bitte legen Sie den Standard-Absendernamen und die Standard-Absender-E-Mail in den <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">Formular-Manager-Einstellungen</a> fest.]]></value>
 	</definition>
 	<definition>
 		<key>text_groups</key>

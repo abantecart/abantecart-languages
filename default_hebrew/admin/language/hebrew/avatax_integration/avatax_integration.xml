@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -18,6 +18,10 @@
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[מפתח רישיון:<br /><span class="help">מפתח רישיון שסופק על ידי Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[מצב בדיקה:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -54,6 +58,10 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[החיבור הצליח ואישורי ה-API הוגדרו כראוי.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[בדיקת חיבור:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -158,13 +166,5 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[הפעל רישום עסקאות]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[מצב בדיקה:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[בדיקת חיבור:]]></value>
 	</definition>
 </definitions>

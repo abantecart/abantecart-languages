@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Framgång: Du har framgångsrikt raderat cachefilerna!]]></value>
+		<value><![CDATA[Succé: Du har framgångsrikt raderat cachedata!]]></value>
 	</definition>
 	<definition>
 		<key>text_configuration</key>
@@ -111,5 +111,13 @@
 	<definition>
 		<key>desc_edits_history</key>
 		<value><![CDATA[Rensa all textredigeringshistorik]]></value>
+	</definition>
+	<definition>
+		<key>text_clear_session_data</key>
+		<value><![CDATA[Rensa all sessiondata]]></value>
+	</definition>
+	<definition>
+		<key>desc_clear_session_data</key>
+		<value><![CDATA[Alla sessionsdata kommer att raderas. Alla användare kommer att loggas ut från systemet, och sessionsdata för inköpsprocessen som är äldre än 3 dagar kommer att tas bort.]]></value>
 	</definition>
 </definitions>

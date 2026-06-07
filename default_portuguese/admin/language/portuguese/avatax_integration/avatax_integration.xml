@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -18,6 +18,10 @@ Importante! A ordem de cálculo de Avatax Integration Total nos totais de extens
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[Chave de Licença:<br /><span class="help">Chave de licença fornecida pela Avalara</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[Modo de teste:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -54,6 +58,10 @@ Importante! A ordem de cálculo de Avatax Integration Total nos totais de extens
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[A conexão foi bem-sucedida e as credenciais da API estão configuradas corretamente.]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[Teste de conexão:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -158,13 +166,5 @@ Importante! A ordem de cálculo de Avatax Integration Total nos totais de extens
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[Ativar registro de transações]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[Modo de teste:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[Teste de conexão:]]></value>
 	</definition>
 </definitions>

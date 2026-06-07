@@ -49,6 +49,10 @@
 		<value><![CDATA[Статус]]></value>
 	</definition>
 	<definition>
+		<key>column_publish_date</key>
+		<value><![CDATA[Дата публикации]]></value>
+	</definition>
+	<definition>
 		<key>column_action</key>
 		<value><![CDATA[Действие]]></value>
 	</definition>
@@ -81,6 +85,34 @@
 		<value><![CDATA[Порядок сортировки:]]></value>
 	</definition>
 	<definition>
+		<key>entry_publish_date</key>
+		<value><![CDATA[Дата публикации:]]></value>
+	</definition>
+	<definition>
+		<key>entry_expire_date</key>
+		<value><![CDATA[Дата окончания срока:]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_bar</key>
+		<value><![CDATA[Панель сведений о контенте: <br/><span class="help">Включите этот параметр, чтобы отобразить панель с автором и датой публикации на странице контента.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_show_title</key>
+		<value><![CDATA[Показывать заголовок содержимого:<br /><span class="help">Включите эту настройку, чтобы показать заголовок на странице содержимого</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_icon</key>
+		<value><![CDATA[Основное изображение или значок:]]></value>
+	</definition>
+	<definition>
+		<key>entry_tags</key>
+		<value><![CDATA[Теги контента: список из <br/><span class="help">запятых</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_author</key>
+		<value><![CDATA[Автор:]]></value>
+	</definition>
+	<definition>
 		<key>error_permission</key>
 		<value><![CDATA[Внимание: Вы не имеете прав модифицировать статью!]]></value>
 	</definition>
@@ -89,8 +121,16 @@
 		<value><![CDATA[Название статьи должно быть от 2 до 255 символов!]]></value>
 	</definition>
 	<definition>
+		<key>error_title_html</key>
+		<value><![CDATA[Заголовок контента не может содержать HTML-теги!]]></value>
+	</definition>
+	<definition>
 		<key>error_description</key>
 		<value><![CDATA[Описание должно быть более 1 символа!]]></value>
+	</definition>
+	<definition>
+		<key>error_description_html</key>
+		<value><![CDATA[HTML-теги описания контента не поддерживаются!]]></value>
 	</definition>
 	<definition>
 		<key>error_content</key>
@@ -107,6 +147,11 @@
 	<definition>
 		<key>error_checkout</key>
 		<value><![CDATA[Предупреждение: Эта статья не может быть удалена, так как в настоящее время используется по умолчанию в условиях оформления заказа магазина!]]></value>
+	</definition>
+	<definition>
+		<key>error_delete_parent</key>
+		<value><![CDATA[
+ Предупреждение: родительская публикация не может быть удалено! Сначала переместите или удалите страницы дочернего содержимого.]]></value>
 	</definition>
 	<definition>
 		<key>error_required_data</key>
@@ -131,47 +176,6 @@
 	<definition>
 		<key>entry_meta_keywords</key>
 		<value><![CDATA[Мета ключевые слова:]]></value>
-	</definition>
-	<definition>
-		<key>column_publish_date</key>
-		<value><![CDATA[Дата публикации]]></value>
-	</definition>
-	<definition>
-		<key>entry_publish_date</key>
-		<value><![CDATA[Дата публикации:]]></value>
-	</definition>
-	<definition>
-		<key>entry_expire_date</key>
-		<value><![CDATA[Дата окончания срока:]]></value>
-	</definition>
-	<definition>
-		<key>entry_content_bar</key>
-		<value><![CDATA[Панель сведений о контенте: <br/><span class="help">Включите этот параметр, чтобы отобразить панель с автором и датой публикации на странице контента.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_icon</key>
-		<value><![CDATA[Основное изображение или значок:]]></value>
-	</definition>
-	<definition>
-		<key>entry_tags</key>
-		<value><![CDATA[Теги контента: список из <br/><span class="help">запятых</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_author</key>
-		<value><![CDATA[Автор:]]></value>
-	</definition>
-	<definition>
-		<key>error_title_html</key>
-		<value><![CDATA[Заголовок контента не может содержать HTML-теги!]]></value>
-	</definition>
-	<definition>
-		<key>error_description_html</key>
-		<value><![CDATA[HTML-теги описания контента не поддерживаются!]]></value>
-	</definition>
-	<definition>
-		<key>error_delete_parent</key>
-		<value><![CDATA[
- Предупреждение: родительская публикация не может быть удалено! Сначала переместите или удалите страницы дочернего содержимого.]]></value>
 	</definition>
 	<definition>
 		<key>text_clone</key>

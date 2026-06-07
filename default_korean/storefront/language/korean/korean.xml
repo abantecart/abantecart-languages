@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -55,6 +55,10 @@
 	<definition>
 		<key>text_all_zones</key>
 		<value><![CDATA[모든 지역]]></value>
+	</definition>
+	<definition>
+		<key>text_pagination</key>
+		<value><![CDATA[{start} - {end} of {total}]]></value>
 	</definition>
 	<definition>
 		<key>text_per_page</key>
@@ -217,6 +221,10 @@
 		<value><![CDATA[날짜 최신 > 오래된]]></value>
 	</definition>
 	<definition>
+		<key>text_google_places_address_placeholder</key>
+		<value><![CDATA[주소 입력을 시작하세요]]></value>
+	</definition>
+	<definition>
 		<key>text_add_cart_confirm</key>
 		<value><![CDATA[장바구니에 추가됨]]></value>
 	</definition>
@@ -363,9 +371,5 @@
 	<definition>
 		<key>warning_capslock</key>
 		<value><![CDATA[CapsLock이 켜져 있습니다!]]></value>
-	</definition>
-	<definition>
-		<key>text_pagination</key>
-		<value><![CDATA[{start} - {end} of {total}]]></value>
 	</definition>
 </definitions>

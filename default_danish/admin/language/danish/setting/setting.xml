@@ -61,6 +61,18 @@
 		<value><![CDATA[SMTP]]></value>
 	</definition>
 	<definition>
+		<key>text_native</key>
+		<value><![CDATA[Native (binær sendmail og indstillingerne &quot;sendmail_path&quot; for php.ini)]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn</key>
+		<value><![CDATA[Tag fra system/config.php]]></value>
+	</definition>
+	<definition>
+		<key>text_dsn_description</key>
+		<value><![CDATA[Mailer kombinerer en <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> fra config.php-fil. Læs venligst <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">vores dokumentation</a> for detaljer	]]></value>
+	</definition>
+	<definition>
 		<key>tab_all</key>
 		<value><![CDATA[Alle]]></value>
 	</definition>
@@ -87,6 +99,11 @@
 	<definition>
 		<key>entry_alert_emails</key>
 		<value><![CDATA[Yderligere Alert e-mails: <br/><span class="help">Eventuelle yderligere e-mails du ønsker at modtage advarslen email, i tillæg til de vigtigste butikken e-mail. (komma separeret)</span>]]></value>
+	</definition>
+	<definition>
+		<key>error_alert_emails</key>
+		<value><![CDATA[
+ advarsels-e-mails skal være gyldige og kommaseparerede!]]></value>
 	</definition>
 	<definition>
 		<key>entry_telephone</key>
@@ -265,6 +282,10 @@
 		<value><![CDATA[Butikslogo:]]></value>
 	</definition>
 	<definition>
+		<key>entry_mail_logo</key>
+		<value><![CDATA[E-mail logo:]]></value>
+	</definition>
+	<definition>
 		<key>entry_icon</key>
 		<value><![CDATA[Ikon: <br/><span class="help">Ikonet kan være en PNG eller ICON type, der er 16px x 16px.</span>]]></value>
 	</definition>
@@ -393,6 +414,16 @@
 		<value><![CDATA[Hent Order Status: <br/><span class="help">Indstil ordrestatus kunderne bestiller skal være, før de får lov til at få adgang til deres downloades produkter.</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_mail_transporting</key>
+		<value><![CDATA[
+ Posttransport:]]></value>
+	</definition>
+	<definition>
+		<key>text_native_mail_description</key>
+		<value><![CDATA[
+ Mailer bruger sendmail binær og muligheder konfigureret i sendmail_path indstillingen af php.ini. ]]></value>
+	</definition>
+	<definition>
 		<key>entry_smtp_host</key>
 		<value><![CDATA[SMTP Host: <br/><span class="help">Brug ssl: //smtp.yourdomain.com for sikker smtp tilslutning</span>]]></value>
 	</definition>
@@ -418,7 +449,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Kontrolpanel Session Udløb: <br/><span class="help">Denne værdi styrer tidsinterval i minutter, før du bliver bedt om at logge ind igen på grund af ingen aktivitet.</span>]]></value>
+		<value><![CDATA[Kontrolpanelets sessionsudløb:<br /><span class="help">Denne værdi styrer tidsintervallet i minutter, før du bliver bedt om at logge ind igen på grund af inaktivitet. For streng timeout ved inaktivitet skal du deaktivere Hold lang session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Keep Long Session:<br /><span class="help">Aktiver periodiske baggrundsanmodninger for administratorunderretninger og systemkontroller. Deaktiver dette for at forhindre, at baggrundsopdateringer forlænger den aktive session. Efter ændring af denne indstilling kan du se en engangs genindlogeringsprompt.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -567,6 +602,10 @@
 	<definition>
 		<key>entry_special_limit</key>
 		<value><![CDATA[Antallet af elementer i Special Block]]></value>
+	</definition>
+	<definition>
+		<key>entry_content_limit</key>
+		<value><![CDATA[Antal elementer i indholdsblokke ]]></value>
 	</definition>
 	<definition>
 		<key>entry_cart_weight</key>
@@ -781,6 +820,26 @@
 		<value><![CDATA[Google Analytics kontonummer: <br/><span class="help">Tilføj din <a href="https://support.google.com/analytics/answer/1032385?hl=en&ref_topic=1008082" target="_blank">Google Analytics-kontonummer</a> for at aktivere websted aktivitet tracking. Dette muliggør også e-handel aktivitet tracking. Du skal aktivere ecommerce sporing i google på siden med profilindstillinger for din hjemmeside</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_google_api_key</key>
+		<value><![CDATA[Google Maps og Places API-nøgle:<br /><span class="help">Indtast din Google Maps og Places API-nøgle for at vise adresser på kortet og aktivere automatisk adresseudfyldning i butikssidens adresseformularer. Denne nøgle bruges på butikssidens sider og er eksponeret på klientsiden, så begræns den til tilladte domæner og/eller IP-adresser i Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Adresse-autofuldførelse (Google Places):<br /><span class="help">Aktiver eller deaktiver Google Places API-adresseautofuldførelse i butikkens adresseformularer. Kræver Google API-nøgle.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_limit</key>
+		<value><![CDATA[Grænse for sete produkter:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_width</key>
+		<value><![CDATA[De viste produkters billedbredde:]]></value>
+	</definition>
+	<definition>
+		<key>entry_viewed_products_image_height</key>
+		<value><![CDATA[Billedhøjde af det viste produkt:]]></value>
+	</definition>
+	<definition>
 		<key>entry_ssl_url</key>
 		<value><![CDATA[Sikker Store URL: <br/><span class="help">Medtag fulde SSL URL (HTTPS) til din butik. Sørg for at tilføje &#39;/&#39; i slutningen. Eksempel: https://www.yourdomain.com/path/</span>]]></value>
 	</definition>
@@ -835,6 +894,10 @@
 	<definition>
 		<key>text_setting_php_exceed</key>
 		<value><![CDATA[Denne værdi kan ikke overstige din php.ini direktiv %s (&lt;= %s)]]></value>
+	</definition>
+	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Inaktivitetstimeout fungerer som forventet, når <b>Bevar lang session</b> er slået fra.]]></value>
 	</definition>
 	<definition>
 		<key>entry_start_order_id</key>
@@ -899,58 +962,6 @@
 	<definition>
 		<key>entry_duplicate_contact_us</key>
 		<value><![CDATA[Duplicate Kontakt Henvendelser til meddelelser]]></value>
-	</definition>
-	<definition>
-		<key>text_native</key>
-		<value><![CDATA[Native (binær sendmail og indstillingerne &quot;sendmail_path&quot; for php.ini)]]></value>
-	</definition>
-	<definition>
-		<key>text_dsn</key>
-		<value><![CDATA[Tag fra system/config.php]]></value>
-	</definition>
-	<definition>
-		<key>text_dsn_description</key>
-		<value><![CDATA[Mailer kombinerer en <a target="_blank" href="https://en.wikipedia.org/wiki/Data_source_name">DSN</a> fra config.php-fil. Læs venligst <a target="_blank" href="https://abantecart.atlassian.net/wiki/spaces/AD/pages/7372837/Mail+Settings">vores dokumentation</a> for detaljer	]]></value>
-	</definition>
-	<definition>
-		<key>error_alert_emails</key>
-		<value><![CDATA[
- advarsels-e-mails skal være gyldige og kommaseparerede!]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_logo</key>
-		<value><![CDATA[E-mail logo:]]></value>
-	</definition>
-	<definition>
-		<key>entry_mail_transporting</key>
-		<value><![CDATA[
- Posttransport:]]></value>
-	</definition>
-	<definition>
-		<key>text_native_mail_description</key>
-		<value><![CDATA[
- Mailer bruger sendmail binær og muligheder konfigureret i sendmail_path indstillingen af php.ini. ]]></value>
-	</definition>
-	<definition>
-		<key>entry_content_limit</key>
-		<value><![CDATA[Antal elementer i indholdsblokke ]]></value>
-	</definition>
-	<definition>
-		<key>entry_google_api_key</key>
-		<value><![CDATA[
- Google API-nøgle (for at aktivere google maps): <br/><span class="help">Du kan se adressen på kortet. For at aktivere google maps tilføj din Google maps API-nøgle <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google-legitimationsside</a> .</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_limit</key>
-		<value><![CDATA[Grænse for sete produkter:]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_image_width</key>
-		<value><![CDATA[De viste produkters billedbredde:]]></value>
-	</definition>
-	<definition>
-		<key>entry_viewed_products_image_height</key>
-		<value><![CDATA[Billedhøjde af det viste produkt:]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_class</key>
@@ -1025,6 +1036,10 @@
 		<value><![CDATA[Standard e-mail-logo:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex-mønster til telefonvalidering:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab i Linux-kommando <span class="help">Kør kommandoen crontab -e med den samme Linux-bruger, der kører en webserver til AbanteCart. Tilføj kommandoen i editoren</span>]]></value>
 	</definition>
@@ -1055,9 +1070,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Tillad tilbagevendende kunder at gennemse:<br /><span class="help">Uloggede kunder, der vender tilbage til siden, vil kunne gennemse produkter, tilføje til indkøbskurv og ønskeliste.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex-mønster til telefonvalidering:]]></value>
 	</definition>
 </definitions>

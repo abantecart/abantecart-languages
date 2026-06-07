@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[관리자 패널 세션 만료:<br /><span class="help">이 값은 활동이 없을 경우 다시 로그인하라는 요청을 받기 전까지의 분 단위 시간 간격을 제어합니다.</span>]]></value>
+		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">이 값은 아무 활동이 없을 경우 다시 로그인하라는 요청이 뜨기 전까지의 시간을 분 단위로 설정합니다. 엄격한 유휴 시간 초과 동작을 원한다면 긴 세션 유지 옵션을 비활성화하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[긴 세션 유지:<br /><span class="help">관리자 알림 및 시스템 점검을 위해 주기적으로 백그라운드 요청을 활성화합니다. 활성 세션이 백그라운드 새로고침으로 연장되는 것을 방지하려면 이 기능을 비활성화하세요. 이 설정을 변경한 후 한 번만 로그인하라는 메시지가 표시될 수 있습니다.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -816,7 +820,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[구글 API 키 (to enable google maps):<br /><span class="help">지도를 통해 주소를 확인할 수 있습니다. 구글 지도를 사용하려면 자신의 구글 API 키를 <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google 자격 증명 페이지</a>에 추가하세요.</span>]]></value>
+		<value><![CDATA[Google Maps 및 Places API 키:<br /><span class="help">지도에 주소를 표시하고 스토어프론트 주소 양식에서 주소 자동 완성을 활성화하려면 Google Maps 및 Places API 키를 입력하세요. 이 키는 스토어프론트 페이지에서 사용되며 클라이언트 측에 노출되므로 Google Cloud Console에서 허용된 도메인 및/또는 IP 주소로 제한하세요.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[주소 자동완성 (Google Places):<br /><span class="help">쇼핑몰 주소 입력 양식에서 Google Places API의 주소 자동완성을 사용 또는 사용 중지합니다. Google API 키가 필요합니다.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -887,6 +895,10 @@
 		<value><![CDATA[이 값은 당신의 php.ini 지시어 %s (<=%s)를 초과할 수 없습니다]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[유휴 시간 초과는 <b>Keep Long Session</b>이 꺼져 있을 때 예상대로 작동합니다.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[주문 시작 번호:<br /><span class="help">주문 번호의 시작 값을 설정합니다.</span>]]></value>
 	</definition>
@@ -909,10 +921,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[매장 전면]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[관리자]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1027,6 +1035,10 @@
 		<value><![CDATA[기본 이메일 로고:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[전화번호 유효성 검사 정규식 패턴:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[리눅스의 Crontab 명령어 <span class="help">AbanteCart 웹 서버를 실행 중인 동일한 리눅스 사용자로 crontab -e 명령을 실행하세요. 편집기에 다음 명령을 추가합니다</span>]]></value>
 	</definition>
@@ -1057,9 +1069,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[재방문 고객이 상품을 둘러볼 수 있도록 허용:<br /><span class="help">로그인하지 않은 재방문 고객은 상품을 둘러보고, 장바구니에 추가하며, 위시리스트에 담을 수 있습니다.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[전화번호 유효성 검사 정규식 패턴:]]></value>
 	</definition>
 </definitions>

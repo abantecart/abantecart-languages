@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Sitzungsablauf im Bedienfeld:<br /><span class="help">Dieser Wert steuert das Zeitintervall in Minuten, bevor Sie aufgrund von Inaktivität erneut zur Anmeldung aufgefordert werden.</span>]]></value>
+		<value><![CDATA[Sitzungsende im Control Panel:<br /><span class="help">Dieser Wert legt das Zeitintervall in Minuten fest, nach dem Sie aufgrund fehlender Aktivität erneut zur Anmeldung aufgefordert werden. Für ein striktes Leerlauf-Timeout-Verhalten deaktivieren Sie Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Lange Sitzung beibehalten:<br /><span class="help">Aktiviere periodische Hintergrundanfragen für Administratorbenachrichtigungen und Systemprüfungen. Deaktiviere dies, um zu verhindern, dass die Hintergrundaktualisierung die aktive Sitzung verlängert. Nach der Änderung dieser Einstellung werden Sie möglicherweise einmalig zur erneuten Anmeldung aufgefordert.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -815,7 +819,11 @@ Speichert Versandangebote in der Session, um unnötiges erneutes Anfragen zu ver
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API-Schlüssel (um Google Maps zu aktivieren):<br /><span class="help">Sie können die Adresse auf der Karte sehen. Um Google Maps zu aktivieren, fügen Sie Ihren Google Maps API-Schlüssel auf der <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google-Anmeldedaten-Seite</a> hinzu.</span>]]></value>
+		<value><![CDATA[Google Maps und Places-API-Schlüssel:<br /><span class="help">Geben Sie Ihren Google Maps- und Places-API-Schlüssel ein, um Adressen auf der Karte anzuzeigen und die Autovervollständigung von Adressen in Formularen im Shop-Frontend zu aktivieren. Dieser Schlüssel wird auf Shop-Frontend-Seiten verwendet und ist auf der Client-Seite sichtbar, daher beschränken Sie ihn über erlaubte Domain(s) und/oder IP-Adresse in der Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Address Autocomplete (Google Places):<br /><span class="help">Aktivieren oder deaktivieren Sie die Google Places API Adressautovervollständigung in den Adressformularen des Shops. Erfordert einen Google-API-Schlüssel.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -886,6 +894,10 @@ Speichert Versandangebote in der Session, um unnötiges erneutes Anfragen zu ver
 		<value><![CDATA[Dieser Wert darf Ihre php.ini-Direktive %s nicht überschreiten (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Der Leerlauf-Timeout funktioniert wie erwartet, wenn <b>Lange Sitzung beibehalten</b> ausgeschaltet ist.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Bestell-Start-Nr.:<br /><span class="help">Geben Sie die Startnummer an, ab der die Bestellungen beginnen.</span>]]></value>
 	</definition>
@@ -908,10 +920,6 @@ Speichert Versandangebote in der Session, um unnötiges erneutes Anfragen zu ver
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Shop-Frontend]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Administrator]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1026,6 +1034,10 @@ Speichert Versandangebote in der Session, um unnötiges erneutes Anfragen zu ver
 		<value><![CDATA[Standard-E-Mail-Logo:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex-Muster zur Telefonvalidierung:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab im Linux-Kommando <span class="help">Führen Sie den Befehl crontab -e mit demselben Linux-Benutzer aus, der den Webserver für AbanteCart betreibt. Fügen Sie im Editor den Befehl hinzu</span>]]></value>
 	</definition>
@@ -1056,9 +1068,5 @@ Speichert Versandangebote in der Session, um unnötiges erneutes Anfragen zu ver
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Ermöglichen Sie wiederkehrenden Kunden das Stöbern:<br /><span class="help">Nicht authentifizierte Kunden, die auf die Seite zurückkehren, können Produkte durchsuchen, in den Warenkorb legen und zur Wunschliste hinzufügen.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex-Muster zur Telefonvalidierung:]]></value>
 	</definition>
 </definitions>

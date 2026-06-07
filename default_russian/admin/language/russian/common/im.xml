@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>im_text_notification</key>
@@ -11,6 +11,10 @@
 	<definition>
 		<key>im_order_update_text_to_customer</key>
 		<value><![CDATA[Ваш заказ <a href="%s">#%s</a> был обновлен. Для получения более подробной информации, войдите в %s аккаунт.]]></value>
+	</definition>
+	<definition>
+		<key>im_order_update_text_to_guest</key>
+		<value><![CDATA[Ваш заказ <a href="%s"># %s</a> обновлен. Для получения более подробной информации, пожалуйста, посетите страницу заказа %s.]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_new_order</key>
@@ -33,16 +37,16 @@
 		<value><![CDATA[Обновление учетных записей пользователей!]]></value>
 	</definition>
 	<definition>
+		<key>im_account_update_text_to_admin</key>
+		<value><![CDATA[Ваша учетная запись администратора была изменена.]]></value>
+	</definition>
+	<definition>
 		<key>im_customer_account_update_text_to_admin</key>
 		<value><![CDATA[ Новый клиент #%s обновлен!]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_customer_contact</key>
 		<value><![CDATA[Запрос клиента]]></value>
-	</definition>
-	<definition>
-		<key>im_sendpoint_name_account_update</key>
-		<value><![CDATA[Обновление учетных записей пользователей]]></value>
 	</definition>
 	<definition>
 		<key>im_sendpoint_name_product_out_of_stock</key>
@@ -79,14 +83,6 @@
 	<definition>
 		<key>im_error_mail_address</key>
 		<value><![CDATA[Адрес электронной почты %s выглядит недействительным!]]></value>
-	</definition>
-	<definition>
-		<key>im_account_update_text_to_admin</key>
-		<value><![CDATA[Ваша учетная запись администратора была изменена.]]></value>
-	</definition>
-	<definition>
-		<key>im_order_update_text_to_guest</key>
-		<value><![CDATA[Ваш заказ <a href="%s"># %s</a> обновлен. Для получения более подробной информации, пожалуйста, посетите страницу заказа %s.]]></value>
 	</definition>
 	<definition>
 		<key>im_threshold</key>

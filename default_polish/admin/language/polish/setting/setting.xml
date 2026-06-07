@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Wygaśnięcie sesji Panelu sterowania:<br /><span class="help">Ta wartość kontroluje odstęp czasu w minutach, po którym zostaniesz poproszony o ponowne zalogowanie z powodu braku aktywności.</span>]]></value>
+		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">Ta wartość określa odstęp czasu w minutach, po którym z powodu braku aktywności zostaniesz poproszony o ponowne zalogowanie. Aby uzyskać surowe zachowanie limitu bezczynności, wyłącz Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Utrzymuj długą sesję:<br /><span class="help">Włącz okresowe zapytania w tle o powiadomienia administratora i kontrole systemu. Wyłącz tę opcję, aby zapobiec przedłużaniu aktywnej sesji przez odświeżanie w tle. Po zmianie tego ustawienia może pojawić się jednokrotne wezwanie do ponownego zalogowania.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -814,7 +818,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Klucz API Google (aby włączyć Mapy Google):<br /><span class="help">Możesz zobaczyć adres na mapie. Aby włączyć Mapy Google, dodaj swój klucz API na <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Stronie poświadczeń Google</a>.</span>]]></value>
+		<value><![CDATA[Google Maps and Places API Key:<br /><span class="help">Wprowadź swój klucz API Google Maps i Places, aby wyświetlać adresy na mapie i włączyć autouzupełnianie adresów w formularzach adresowych sklepu. Ten klucz jest używany na stronach sklepu i jest widoczny po stronie klienta, dlatego ogranicz go do dozwolonych domen i/lub adresów IP w Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Autouzupełnianie adresu (Google Places):<br /><span class="help">Włącz lub wyłącz autouzupełnianie adresu Google Places API w formularzach adresowych sklepu. Wymaga klucza API Google.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -885,6 +893,10 @@
 		<value><![CDATA[Ta wartość nie może przekraczać dyrektywy php.ini %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Limit czasu bezczynności działa zgodnie z oczekiwaniami, gdy <b>Keep Long Session</b> jest wyłączony.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Początkowy numer zamówienia:<br /><span class="help">Ustaw numer początkowy, od którego rozpoczną się zamówienia.</span>]]></value>
 	</definition>
@@ -907,10 +919,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Witryna sklepu]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Administrator]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1025,6 +1033,10 @@
 		<value><![CDATA[Domyślne logo e-maila:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Wzorzec regex walidacji numeru telefonu:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Polecenie crontab w systemie Linux <span class="help">Uruchom polecenie crontab -e tym samym użytkownikiem Linuksa, który uruchamia serwer WWW dla AbanteCart. W edytorze dodaj polecenie</span>]]></value>
 	</definition>
@@ -1055,9 +1067,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Pozwól powracającym klientom przeglądać:<br /><span class="help">Niezalogowani klienci, powracający na stronę, będą mogli przeglądać produkty, dodawać do koszyka i do listy życzeń.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Wzorzec regex walidacji numeru telefonu:]]></value>
 	</definition>
 </definitions>

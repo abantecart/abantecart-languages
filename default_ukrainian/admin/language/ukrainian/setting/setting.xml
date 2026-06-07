@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">Це значення визначає інтервал часу в хвилинах перед тим, як вас попросять увійти знову через відсутність активності.</span>]]></value>
+		<value><![CDATA[Час до закінчення сесії панелі керування:<br /><span class="help">Це значення визначає інтервал часу в хвилинах, після якого вас попросять знову увійти через відсутність активності. Для суворого механізму виявлення бездіяльності вимкніть Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Підтримувати тривалу сесію:<br /><span class="help">Увімкнути періодичні фонові запити для сповіщень адміністратора та перевірки системи. Вимкніть це, щоб фонове оновлення не подовжувало активну сесію. Після зміни цього налаштування ви можете побачити одноразовий запит на повторний вхід.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -814,7 +818,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Ключ API Google (щоб увімкнути Google Maps):<br /><span class="help">Ви можете побачити адресу на карті. Щоб увімкнути Google Maps, додайте свій ключ API Google Maps на <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Сторінку облікових даних Google</a>.</span>]]></value>
+		<value><![CDATA[Ключ API Google Maps і Places:<br /><span class="help">Введіть ключ API Google Maps і Places, щоб відображати адреси на карті та активувати автозаповнення адрес у формах адрес вітрини. Цей ключ використовується на сторінках вітрини та доступний на стороні клієнта, тому обмежте його за допомогою дозволених доменів та/або IP-адрес у Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Автозаповнення адреси (Google Places):<br /><span class="help">Увімкнути або вимкнути автозаповнення адреси за допомогою Google Places API у формах адреси інтернет-магазину. Потребує API-ключа Google.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -885,6 +893,10 @@
 		<value><![CDATA[Це значення не може перевищувати вашу директиву php.ini %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Таймаут бездіяльності працює як очікується, коли <b>Keep Long Session</b> вимкнено.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Початковий номер замовлення:<br /><span class="help">Встановіть початковий номер, з якого починатимуться замовлення.</span>]]></value>
 	</definition>
@@ -907,10 +919,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Вітрина]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Адмін]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1025,6 +1033,10 @@
 		<value><![CDATA[Логотип електронної пошти за замовчуванням:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Шаблон регулярного виразу для перевірки телефону:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Команда Crontab у Linux <span class="help">Запустіть команду crontab -e під тим же користувачем Linux, що запускає веб-сервер AbanteCart. У редакторі додайте команду</span>]]></value>
 	</definition>
@@ -1055,9 +1067,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Дозволити клієнтам, що повертаються, переглядати:<br /><span class="help">Неверифіковані клієнти, які повертаються на сайт, зможуть переглядати товари, додавати їх до кошика та списку бажань.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Шаблон регулярного виразу для перевірки телефону:]]></value>
 	</definition>
 </definitions>

@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
-		<value><![CDATA[Kreditkort / Betalkort (Via Paypal)]]></value>
+		<value><![CDATA[Kreditkort / Betalkort (via PayPal)]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_name</key>
-		<value><![CDATA[PayPal-handel]]></value>
+		<value><![CDATA[PayPal Commerce]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_manual_connect</key>
@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_client_id</key>
-		<value><![CDATA[Ditt API-klient-ID<br /><span class="help">Hitta detta i avsnittet Mina appar och referenser i PayPal-instrumentpanelen -> Utvecklare</span>]]></value>
+		<value><![CDATA[Ditt API-klient-ID<br /><span class="help">Hitta detta i avsnittet Mina Appar & autentiseringsuppgifter i PayPal-instrumentpanelen -> Utvecklare</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_client_secret</key>
-		<value><![CDATA[Din API-hemliga nyckel<br /><span class="help">Leta reda på detta i avsnittet Mina appar och referenser i PayPal-instrumentpanelen -> Utvecklare</span>]]></value>
+		<value><![CDATA[Din API-hemliga nyckel<br /><span class="help">Hitta den i sektionen Mina appar och uppgifter i PayPal-instrumentpanelen -> Utvecklare</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_test_mode</key>
@@ -35,6 +35,18 @@
 	<definition>
 		<key>paypal_commerce_transaction_type_authorize</key>
 		<value><![CDATA[Endast auktorisera]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Aktiverade komponenter:<span class="help">Välj vilka betalningskomponenter som ska aktiveras: PayPal-knappar för expressutcheckning eller kortfält för direkt kreditkortshantering.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[PayPal-knappar]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Kortfält]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_test_connection</key>
@@ -78,7 +90,7 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_autoselect</key>
-		<value><![CDATA[Automatiskt val:<br /><span class="help">Du kan ställa in att hoppa över betalningsvalssidan om det bara finns ett betalningsalternativ. Denna betalningsmetod kommer att väljas automatiskt</span>]]></value>
+		<value><![CDATA[Automatiskt val:<br /><span class="help">Du kan ange att sidan för val av betalningsmetod ska hoppas över om det bara finns ett betalningsalternativ. Denna betalningsmetod kommer att väljas automatiskt</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_paypal_commerce_connect</key>
@@ -86,31 +98,27 @@
 	</definition>
 	<definition>
 		<key>text_paypal_commerce_settings</key>
-		<value><![CDATA[PayPal inställningar]]></value>
+		<value><![CDATA[PayPal-inställningar]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_sort_order</key>
 		<value><![CDATA[Sorteringsordning]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_test_mode</key>
-		<value><![CDATA[Testläge]]></value>
-	</definition>
-	<definition>
 		<key>paypal_commerce_text_register_webhooks</key>
-		<value><![CDATA[Uppdatera webhooks-ändpunkter på API-sidan]]></value>
+		<value><![CDATA[Uppdatera webhook-slutpunkter på API-sidan]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_register_webhooks_success</key>
-		<value><![CDATA[Webhooks Endpoints har uppdaterats framgångsrikt!]]></value>
+		<value><![CDATA[Webhook-slutpunkter har uppdaterats framgångsrikt!]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_success_settled</key>
-		<value><![CDATA[Lyckat & debiterat:<br /><span class="help">Välj huvudorderstatus som du vill ange som svar på betalningsprocessorns status</span>]]></value>
+		<value><![CDATA[Godkänd & genomförd:<br /><span class="help">Välj den huvudsakliga orderstatus som du vill ange som svar på betalningsprocessorstatus</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_success_unsettled</key>
-		<value><![CDATA[Godkänd & inte debiterad:<br /><span class="help">Välj den huvudsakliga orderstatus du vill ange som svar på betalningsprocessorns status</span>]]></value>
+		<value><![CDATA[Lyckad & inte infångad:<br /><span class="help">Välj den huvudsakliga orderstatus du vill ange som svar på betalningsleverantörens status</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_decline</key>
@@ -146,11 +154,11 @@
 	</definition>
 	<definition>
 		<key>text_refund_order</key>
-		<value><![CDATA[Återbetalningen lyckades, orderns status uppdaterad till återbetald]]></value>
+		<value><![CDATA[Återbetalningen lyckades, orderstatus uppdaterades till återbetalning]]></value>
 	</definition>
 	<definition>
 		<key>text_voided</key>
-		<value><![CDATA[Makuleringen lyckades, orderstatus uppdaterad till makulerad]]></value>
+		<value><![CDATA[Annulleringen lyckades, orderstatus uppdaterad till annullerad]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_settlement_auto</key>
@@ -186,7 +194,7 @@
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[PayPals debiterings-ID]]></value>
+		<value><![CDATA[PayPal Debiterings-ID]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total</key>
@@ -234,7 +242,7 @@
 	</definition>
 	<definition>
 		<key>error_unable_to_capture</key>
-		<value><![CDATA[Kunde inte debitera, uppdatera transaktionsdetaljerna och kontrollera debiteringsbeloppet]]></value>
+		<value><![CDATA[Kan inte genomföra debitering, uppdatera transaktionsdetaljerna och kontrollera debiteringsbeloppet]]></value>
 	</definition>
 	<definition>
 		<key>error_unable_to_void</key>
@@ -246,39 +254,39 @@
 	</definition>
 	<definition>
 		<key>text_connect</key>
-		<value><![CDATA[Anslut med Paypal]]></value>
+		<value><![CDATA[Anslut med PayPal]]></value>
 	</definition>
 	<definition>
-		<key>text_disconnect</key>
-		<value><![CDATA[Koppla från PayPal]]></value>
+		<key>text_disconnect_sandbox</key>
+		<value><![CDATA[Koppla från Sandlådan]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_live</key>
+		<value><![CDATA[Koppla från Live]]></value>
 	</definition>
 	<definition>
 		<key>text_skip_connect</key>
 		<value><![CDATA[Kan inte ansluta?]]></value>
 	</definition>
 	<definition>
+		<key>text_connected_account</key>
+		<value><![CDATA[Du är ansluten till kontot:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_error_cannot_connect</key>
+		<value><![CDATA[Anslutning till Paypal-servern kan inte upprättas.<br>%s<br>Kontrollera din serverkonfiguration eller kontakta din hostingleverantör.]]></value>
+	</definition>
+	<definition>
 		<key>text_connect_success</key>
-		<value><![CDATA[Framgångsrikt ansluten till PayPal]]></value>
+		<value><![CDATA[Lyckades ansluta till PayPal]]></value>
 	</definition>
 	<definition>
 		<key>text_disconnect_success</key>
-		<value><![CDATA[Frånkopplad från PayPal framgångsrikt]]></value>
+		<value><![CDATA[Frånkopplingen från PayPal lyckades]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Varning: Du har inte behörighet att modifiera Paypal Commerce Payment!]]></value>
-	</definition>
-	<definition>
-		<key>paypal_commerce_settlement_auto</key>
-		<value><![CDATA[Automatisk (auktorisera och inlösa)]]></value>
-	</definition>
-	<definition>
-		<key>paypal_commerce_settlement_delayed</key>
-		<value><![CDATA[Fördröjd (endast auktorisering)]]></value>
-	</definition>
-	<definition>
-		<key>error_system</key>
-		<value><![CDATA[Internt fel. Kontrollera felloggen eller indata-parametrarna!]]></value>
+		<value><![CDATA[Varning: Du har inte behörighet att ändra PayPal Commerce Payment!]]></value>
 	</definition>
 	<definition>
 		<key>error_paypal_commerce_client_id</key>
@@ -289,12 +297,8 @@
 		<value><![CDATA[Appens hemliga nyckel krävs]]></value>
 	</definition>
 	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Varning: Du har inte behörighet att ändra Paypal Commerce Payment!]]></value>
-	</definition>
-	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Fel! Kontrollera att tillägget är aktiverat.]]></value>
+		<value><![CDATA[Fel! Vänligen kontrollera om tillägget är aktiverat.]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_back</key>
@@ -302,20 +306,119 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_webhook_howto_text</key>
-		<value><![CDATA[Observera: För att slutföra konfigurationen måste du skapa webhooks på din PayPal-kontosida.
-<br> Gå till din <a href="https://dashboard.paypal.com/webhooks" target="_blank">PayPal-instrumentpanel för utvecklare</a>
-och lägg till ändpunkter som tar emot händelser från ditt konto. Efter att en ändpunkt har skapats kopierar du signeringshemligheten och sparar den i inställningarna för PayPal Subscription Extension.]]></value>
+		<value><![CDATA[Obs: För att slutföra konfigurationen ska du skapa webhooks på PayPal-kontosidan.
+<br>Gå till din <a href="https://dashboard.paypal.com/webhooks" target="_blank">utvecklarsektion i PayPal Dashboard</a> och lägg till slutpunkter som tar emot händelser från ditt konto. När en slutpunkt har skapats kopierar du signeringshemligheten och sparar den i inställningarna för PayPal Subscription Extension.]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components</key>
-		<value><![CDATA[Aktiverade komponenter:]]></value>
+		<key>paypal_commerce_enabled_funding</key>
+		<value><![CDATA[Finansieringsalternativ:]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components_buttons</key>
-		<value><![CDATA[PayPal-knappar]]></value>
+		<key>paypal_commerce_enabled_funding_venmo</key>
+		<value><![CDATA[Venmo]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components_card-fields</key>
-		<value><![CDATA[Kortfält]]></value>
+		<key>paypal_commerce_enabled_funding_paylater</key>
+		<value><![CDATA[Betala senare]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_credit</key>
+		<value><![CDATA[Kredit]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_bancontact</key>
+		<value><![CDATA[Bancontact]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_blik</key>
+		<value><![CDATA[BLIK]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_eps</key>
+		<value><![CDATA[EPS]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_giropay</key>
+		<value><![CDATA[Giropay]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_ideal</key>
+		<value><![CDATA[iDEAL]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_mybank</key>
+		<value><![CDATA[Min bank]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_p24</key>
+		<value><![CDATA[Przelewy24]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_sepa</key>
+		<value><![CDATA[SEPA]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_sofort</key>
+		<value><![CDATA[Sofort]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_trustly</key>
+		<value><![CDATA[Trustly]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_mercadopago</key>
+		<value><![CDATA[Mercado Pago]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_oxxo</key>
+		<value><![CDATA[OXXO]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_boleto</key>
+		<value><![CDATA[Boleto]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_wechatpay</key>
+		<value><![CDATA[WeChat Pay]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy</key>
+		<value><![CDATA[3D Secure-policy (endast kortfält)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_0</key>
+		<value><![CDATA[-- ej tillämpligt --]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_SCA_WHEN_REQUIRED</key>
+		<value><![CDATA[När det krävs (beroende på kreditkortets inställningar)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_SCA_ALWAYS</key>
+		<value><![CDATA[Alltid]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_pay_later_message_configurator</key>
+		<value><![CDATA[Meddelanden om Betala Senare-erbjudanden<span class="help">Meddelanden om Betala Senare-erbjudanden kan konfigureras att visas på produktsidor och kassasidor. Denna funktion gör det möjligt för handlare att ge kunder information om tillgängliga betalningsalternativ och villkor.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_run_configurator</key>
+		<value><![CDATA[Kör konfiguratorn]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_connect_for_configurator</key>
+		<value><![CDATA[Vänligen anslut till PayPal för att se konfiguratorn]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_show_buttons_product</key>
+		<value><![CDATA[Knappar för kassan på produktsidan]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_show_buttons_cart</key>
+		<value><![CDATA[Knappar till kassan på varukorgssidan]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_debug_logging</key>
+		<value><![CDATA[Felsökningsloggning:<span class="help">Se loggen i Admin->System->Felloggar-sektionen</span>]]></value>
 	</definition>
 </definitions>

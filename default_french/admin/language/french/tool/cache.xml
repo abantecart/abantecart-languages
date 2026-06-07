@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -6,7 +6,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Succès : Vous avez supprimé avec succès les fichiers de cache !]]></value>
+		<value><![CDATA[Succès : Vous avez supprimé avec succès les données du cache !]]></value>
 	</definition>
 	<definition>
 		<key>text_configuration</key>
@@ -111,5 +111,13 @@
 	<definition>
 		<key>desc_edits_history</key>
 		<value><![CDATA[Effacer tout l’historique des modifications de texte]]></value>
+	</definition>
+	<definition>
+		<key>text_clear_session_data</key>
+		<value><![CDATA[Effacer toutes les données de session]]></value>
+	</definition>
+	<definition>
+		<key>desc_clear_session_data</key>
+		<value><![CDATA[Toutes les données de session seront supprimées. Tous les utilisateurs seront déconnectés du système, et les données de session du processus d’achat de plus de 3 jours seront supprimées.]]></value>
 	</definition>
 </definitions>

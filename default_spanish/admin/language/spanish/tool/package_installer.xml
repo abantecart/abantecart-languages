@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_success</key>
@@ -53,6 +53,10 @@
 		<value><![CDATA[ Aceptar ]]></value>
 	</definition>
 	<definition>
+		<key>text_retry</key>
+		<value><![CDATA[ Reintente ]]></value>
+	</definition>
+	<definition>
 		<key>text_disagree</key>
 		<value><![CDATA[ Discrepar ]]></value>
 	</definition>
@@ -94,6 +98,10 @@ Solución ideal para comercio electrónico OpenSource ]]></value>
 		<value><![CDATA[Ya han %EXTENSION% extensión instalada! Si desea proceder a reinstalar, por favor, desinstalar y eliminar la primera extensión.]]></value>
 	</definition>
 	<definition>
+		<key>error_pack_file_not_found</key>
+		<value><![CDATA[Error: No se puede extraer la extensión del archivo a %s. Compruebe <a href="#admin#rt=tool/error_log" target="_blank">log</a> de errores ]]></value>
+	</definition>
+	<definition>
 		<key>error_mp</key>
 		<value><![CDATA[Error del mercado:]]></value>
 	</definition>
@@ -132,6 +140,11 @@ Solución ideal para comercio electrónico OpenSource ]]></value>
 	<definition>
 		<key>error_package_structure</key>
 		<value><![CDATA[ Error: Es probable que el paquete está roto. Estructura de error de paquete. ]]></value>
+	</definition>
+	<definition>
+		<key>error_package_config_xml</key>
+		<value><![CDATA[Error: No se puede localizar el archivo package.xml dentro de la extensión extraído. 
+Posiblemente extensión no se extrajo correctamente. Compruebe <a href="#admin#rt=tool/error_log" target="_blank">log</a> de errores ]]></value>
 	</definition>
 	<definition>
 		<key>error_package_config2</key>
@@ -176,10 +189,6 @@ Solución ideal para comercio electrónico OpenSource ]]></value>
 	<definition>
 		<key>text_interrupt</key>
 		<value><![CDATA[Interrumpir ]]></value>
-	</definition>
-	<definition>
-		<key>text_continue</key>
-		<value><![CDATA[Continuar ]]></value>
 	</definition>
 	<definition>
 		<key>confirm_version_incompatibility</key>
@@ -230,28 +239,15 @@ Completa base de datos y copia de seguridad de código es muy recomendable.
 Actualización de prueba en sitios no vivos primeros. Actualizar los sitios en vivo no se recomienda. ]]></value>
 	</definition>
 	<definition>
-		<key>error_notconnected</key>
-		<value><![CDATA[ No se puede instalar extensiones del marketplace. Esta tienda no está autenticado / conectada. Por favor, autenticar y conect a la <a href="%s">marketplace</a> ]]></value>
-	</definition>
-	<definition>
-		<key>text_retry</key>
-		<value><![CDATA[ Reintente ]]></value>
-	</definition>
-	<definition>
-		<key>error_pack_file_not_found</key>
-		<value><![CDATA[Error: No se puede extraer la extensión del archivo a %s. Compruebe <a href="#admin#rt=tool/error_log" target="_blank">log</a> de errores ]]></value>
-	</definition>
-	<definition>
-		<key>error_package_config_xml</key>
-		<value><![CDATA[Error: No se puede localizar el archivo package.xml dentro de la extensión extraído. 
-Posiblemente extensión no se extrajo correctamente. Compruebe <a href="#admin#rt=tool/error_log" target="_blank">log</a> de errores ]]></value>
-	</definition>
-	<definition>
 		<key>text_upgrade_now</key>
 		<value><![CDATA[Actualizar ahora! ]]></value>
 	</definition>
 	<definition>
 		<key>error_additional_help_text</key>
 		<value><![CDATA[¿Atascado? No es un problema. Puede instalar las extensiones de otra manera. Revise <a href="http://docs.abantecart.com/pages/extensions/install.html#FTPinstall" target="_blank">este enlace ayuda</a> ]]></value>
+	</definition>
+	<definition>
+		<key>error_notconnected</key>
+		<value><![CDATA[ No se puede instalar extensiones del marketplace. Esta tienda no está autenticado / conectada. Por favor, autenticar y conect a la <a href="%s">marketplace</a> ]]></value>
 	</definition>
 </definitions>

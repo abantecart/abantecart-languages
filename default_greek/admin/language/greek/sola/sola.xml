@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>sola_name</key>
+		<value><![CDATA[Σολα]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_key</key>
+		<value><![CDATA[Κλειδί Συναλλαγής (xKey)]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_token</key>
+		<value><![CDATA[Διακριτικό Συναλλαγής (xToken)]]></value>
+	</definition>
+	<definition>
+		<key>sola_test</key>
+		<value><![CDATA[Λειτουργία Δοκιμής]]></value>
+	</definition>
+	<definition>
+		<key>sola_success_order_status</key>
+		<value><![CDATA[Κατάσταση Παραγγελίας:<br /><span class="help">Η κατάσταση παραγγελίας που θα οριστεί μετά την ολοκλήρωση της παραγγελίας του πελάτη βάσει της καθορισμένης μεθόδου συναλλαγής</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id</key>
+		<value><![CDATA[Τοποθεσία:<br /><span class="help">Περιορίστε ώστε μόνο οι επιλεγμένες τοποθεσίες να μπορούν να χρησιμοποιήσουν αυτή τη μέθοδο πληρωμής.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_location_id_0</key>
+		<value><![CDATA[Όλες οι τοποθεσίες]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method</key>
+		<value><![CDATA[Μέθοδος Συναλλαγής:<br /><span class="help">Sola συναλλαγή για εκτέλεση στο ταμείο του πελάτη πριν οριστεί η κατάσταση της παραγγελίας. Μόνο εξουσιοδότηση ή καταχώρηση.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_capture</key>
+		<value><![CDATA[Είσπραξη]]></value>
+	</definition>
+	<definition>
+		<key>sola_transaction_method_authorization</key>
+		<value><![CDATA[Μόνο εξουσιοδότηση]]></value>
+	</definition>
+	<definition>
+		<key>sola_ifields_key</key>
+		<value><![CDATA[Κλειδί iFields]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_pending_authorization</key>
+		<value><![CDATA[Εκκρεμεί Εξουσιοδότηση]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_funds</key>
+		<value><![CDATA[Είσπραξη Χρημάτων]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture</key>
+		<value><![CDATA[Είσπραξη]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_payment_status</key>
+		<value><![CDATA[Κατάσταση Πληρωμής]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_capture_success</key>
+		<value><![CDATA[Επιτυχία! Τα κεφάλαια έχουν εισπραχθεί με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_processing</key>
+		<value><![CDATA[Επεξεργασία]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_do_refund</key>
+		<value><![CDATA[Εκτέλεση επιστροφής Sola:<span class="help">Μπορείτε να εισάγετε το ποσό που πρέπει να επιστραφεί.</span>]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refunded</key>
+		<value><![CDATA[Επιστράφηκε]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund</key>
+		<value><![CDATA[Επιστροφή]]></value>
+	</definition>
+	<definition>
+		<key>sola_refund_title</key>
+		<value><![CDATA[Σόλα Επιστροφή χρημάτων]]></value>
+	</definition>
+	<definition>
+		<key>sola_text_refund_success</key>
+		<value><![CDATA[Επιτυχία! Η παραγγελία έχει επιστραφεί με επιτυχία.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_empty_amount</key>
+		<value><![CDATA[Σφάλμα! Το ποσό είναι λάθος.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_payment_method_data</key>
+		<value><![CDATA[Σφάλμα! Δεν υπάρχουν δεδομένα μεθόδου πληρωμής για αυτήν την παραγγελία.]]></value>
+	</definition>
+	<definition>
+		<key>sola_error_no_order_id</key>
+		<value><![CDATA[Σφάλμα! Δεν υπάρχει αναγνωριστικό παραγγελίας.]]></value>
+	</definition>
+</definitions>

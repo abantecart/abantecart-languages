@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Potek seje nadzorne plošče:<br /><span class="help">Ta vrednost določa časovni interval v minutah, preden boste zaradi neaktivnosti znova pozvani k prijavi.</span>]]></value>
+		<value><![CDATA[Potek seje nadzorne plošče:<br /><span class="help">Ta vrednost določa časovni interval v minutah, preden vas zaradi neaktivnosti ponovno pozove k prijavi. Če želite strogo potekanje zaradi neaktivnosti, onemogočite Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Ohrani dolgo sejo:<br /><span class="help">Omogočite periodične zahteve v ozadju za skrbniška obvestila in sistemske preglede. Onemogočite to, če želite preprečiti, da osvežitev v ozadju podaljša aktivno sejo. Po spremembi te nastavitve se vam lahko prikaže enkratni poziv za ponovni vpis.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -815,7 +819,11 @@ Omogoča prikaz nadrejenih in podrejenih tipov v enem prikazu skrbniških mrež.
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google Maps API ključ (za omogočanje Google zemljevidov):<br /><span class="help">Na zemljevidu si lahko ogledate naslov. Če želite omogočiti Google Zemljevide, vnesite svoj Google Maps API ključ na <a href="https://console.cloud.google.com/apis/credentials" target="_blank">strani z Google poverilnicami</a>.</span>]]></value>
+		<value><![CDATA[Google Maps in Places API ključ:<br /><span class="help">Vnesite svoj Google Maps in Places API ključ, da prikažete naslove na zemljevidu in omogočite samodokončanje naslovov v obrazcih za naslov na strani spletne trgovine. Ta ključ se uporablja na straneh trgovine in je razkrit na odjemalski strani, zato ga omejite na dovoljene domene in/ali IP-naslove v Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Samodejno dopolnjevanje naslova (Google Places):<br /><span class="help">Omogočite ali onemogočite samodejno dopolnjevanje naslovov prek Google Places API v obrazcih za vnos naslova na spletni trgovini. Zahteva Google API ključ.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -886,6 +894,10 @@ Omogoča prikaz nadrejenih in podrejenih tipov v enem prikazu skrbniških mrež.
 		<value><![CDATA[Ta vrednost ne sme presegati vaše direktive php.ini %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Časovna omejitev neaktivnosti deluje kot pričakovano, ko je <b>Ohrani dolgo sejo</b> izklopljena.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Začetna številka naročil:<br /><span class="help">Nastavite začetno številko, od katere se bodo naročila začela.</span>]]></value>
 	</definition>
@@ -908,10 +920,6 @@ Omogoča prikaz nadrejenih in podrejenih tipov v enem prikazu skrbniških mrež.
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Prodajna stran]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Administrator]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1026,6 +1034,10 @@ Omogoča prikaz nadrejenih in podrejenih tipov v enem prikazu skrbniških mrež.
 		<value><![CDATA[Privzeti e-poštni logotip:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Vzorec regularnega izraza za preverjanje telefonske številke:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Ukaz crontab v Linuxu <span class="help">Zaženite ukaz crontab -e z istim Linux uporabnikom, ki poganja spletni strežnik za AbanteCart. V urejevalnik dodajte ukaz</span>]]></value>
 	</definition>
@@ -1056,9 +1068,5 @@ Omogoča prikaz nadrejenih in podrejenih tipov v enem prikazu skrbniških mrež.
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Dovoli vračajočim se strankam brskanje:<br /><span class="help">Neprijavljene stranke, ki se vrnejo na spletno stran, bodo lahko brskale po izdelkih, jih dodale v košarico in dodale na seznam želja.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Vzorec regularnega izraza za preverjanje telefonske številke:]]></value>
 	</definition>
 </definitions>

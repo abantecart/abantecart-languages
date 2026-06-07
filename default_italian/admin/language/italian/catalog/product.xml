@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -41,6 +41,10 @@
 		<value><![CDATA[Il prodotto <b>%s</b> è stato clonato!]]></value>
 	</definition>
 	<definition>
+		<key>text_success_copy_layout</key>
+		<value><![CDATA[Nota: anche il layout del prodotto personalizzato è stato clonato.]]></value>
+	</definition>
+	<definition>
 		<key>text_error_copy</key>
 		<value><![CDATA[La copia non è riuscita. Il prodottooriginale non èdisponibile.]]></value>
 	</definition>
@@ -79,6 +83,10 @@
 	<definition>
 		<key>column_model</key>
 		<value><![CDATA[Modello]]></value>
+	</definition>
+	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
 	</definition>
 	<definition>
 		<key>column_image</key>
@@ -189,6 +197,10 @@
 		<value><![CDATA[Fuori stock: <br/><span class="help">Testo visualizzato quando un prodotto è esaurito</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_stock_checkout</key>
+		<value><![CDATA[Stock Checkout: <br/><span class="help">Consenti ai clienti di effettuare il checkout anche se i prodotti sono esauriti.</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_status</key>
 		<value><![CDATA[Stato:]]></value>
 	</definition>
@@ -205,6 +217,10 @@
 		<value><![CDATA[Prezzo:]]></value>
 	</definition>
 	<definition>
+		<key>entry_product_option_cost</key>
+		<value><![CDATA[Costo effettivo (totale): <span class="help">inserisci il costo effettivo (totale) di questa opzione di prodotto.</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_track_option_stock</key>
 		<value><![CDATA[Merce in magazzino:]]></value>
 	</definition>
@@ -219,6 +235,10 @@
 	<definition>
 		<key>entry_weight</key>
 		<value><![CDATA[Peso:]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_change</key>
+		<value><![CDATA[Peso: <span class="help">Importante! Se il valore fornito come %(percentuale) il peso dell'opzione verrà modificato della percentuale specificata in base al peso del prodotto principale. Se il valore del peso fornito verrà utilizzato come valore assoluto per l'opzione, il peso principale verrà ignorato.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_length_class</key>
@@ -323,6 +343,10 @@
 	<definition>
 		<key>error_product_not_found</key>
 		<value><![CDATA[ERRORE: Prodotto non trovato!]]></value>
+	</definition>
+	<definition>
+		<key>error_sku</key>
+		<value><![CDATA[Errore: SKU non trovato!]]></value>
 	</definition>
 	<definition>
 		<key>filter_product</key>
@@ -553,12 +577,20 @@
 		<value><![CDATA[Il limite di 999.99 è stato raggiunto. Fornire un numero più piccolo.]]></value>
 	</definition>
 	<definition>
+		<key>error_dimension_value</key>
+		<value><![CDATA[Questo prodotto richiede la spedizione. Si prega di compilare tutti i valori delle dimensioni.]]></value>
+	</definition>
+	<definition>
 		<key>error_weight_value</key>
 		<value><![CDATA[Questo prodotto richiede il trasporto. Si prega di impostare il peso.]]></value>
 	</definition>
 	<definition>
 		<key>error_weight_class</key>
 		<value><![CDATA[Impostare la categoria di peso.]]></value>
+	</definition>
+	<definition>
+		<key>error_length_class</key>
+		<value><![CDATA[Si prega di impostare la classe di lunghezza.]]></value>
 	</definition>
 	<definition>
 		<key>entry_allowed_extensions</key>
@@ -581,14 +613,6 @@
 		<value><![CDATA[Relazioni di prodotti selezionati è stato inviato con successo!]]></value>
 	</definition>
 	<definition>
-		<key>text_success_copy_layout</key>
-		<value><![CDATA[Nota: anche il layout del prodotto personalizzato è stato clonato.]]></value>
-	</definition>
-	<definition>
-		<key>entry_stock_checkout</key>
-		<value><![CDATA[Stock Checkout: <br/><span class="help">Consenti ai clienti di effettuare il checkout anche se i prodotti sono esauriti.</span>]]></value>
-	</definition>
-	<definition>
 		<key>entry_stock_locations</key>
 		<value><![CDATA[Posizioni di magazzino:]]></value>
 	</definition>
@@ -601,36 +625,16 @@
 		<value><![CDATA[Crea raccolta]]></value>
 	</definition>
 	<definition>
+		<key>text_warning_empty_set</key>
+		<value><![CDATA[Si prega di selezionare almeno un prodotto]]></value>
+	</definition>
+	<definition>
 		<key>text_enable_selected</key>
 		<value><![CDATA[Abilita selezionati]]></value>
 	</definition>
 	<definition>
 		<key>text_disable_selected</key>
 		<value><![CDATA[Disabilita selezionati]]></value>
-	</definition>
-	<definition>
-		<key>entry_product_option_cost</key>
-		<value><![CDATA[Costo effettivo (totale): <span class="help">inserisci il costo effettivo (totale) di questa opzione di prodotto.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_weight_change</key>
-		<value><![CDATA[Peso: <span class="help">Importante! Se il valore fornito come %(percentuale) il peso dell'opzione verrà modificato della percentuale specificata in base al peso del prodotto principale. Se il valore del peso fornito verrà utilizzato come valore assoluto per l'opzione, il peso principale verrà ignorato.</span>]]></value>
-	</definition>
-	<definition>
-		<key>error_dimension_value</key>
-		<value><![CDATA[Questo prodotto richiede la spedizione. Si prega di compilare tutti i valori delle dimensioni.]]></value>
-	</definition>
-	<definition>
-		<key>error_length_class</key>
-		<value><![CDATA[Si prega di impostare la classe di lunghezza.]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[SKU]]></value>
-	</definition>
-	<definition>
-		<key>error_sku</key>
-		<value><![CDATA[Errore: SKU non trovato!]]></value>
 	</definition>
 	<definition>
 		<key>entry_tax_rule</key>
@@ -645,11 +649,19 @@
 		<value><![CDATA[ID testo univoco:]]></value>
 	</definition>
 	<definition>
-		<key>text_warning_empty_set</key>
-		<value><![CDATA[Si prega di selezionare almeno un prodotto]]></value>
-	</definition>
-	<definition>
 		<key>entry_html_attributes</key>
 		<value><![CDATA[html-attributes:<br /><span class="help">Puoi aggiungere attributi HTML personalizzati all’elemento option. Esempio: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_new_price</key>
+		<value><![CDATA[Nuovo prezzo]]></value>
+	</definition>
+	<definition>
+		<key>text_prc_off</key>
+		<value><![CDATA[% di sconto]]></value>
+	</definition>
+	<definition>
+		<key>text_fixed_amount_off</key>
+		<value><![CDATA[Sconto di importo fisso]]></value>
 	</definition>
 </definitions>

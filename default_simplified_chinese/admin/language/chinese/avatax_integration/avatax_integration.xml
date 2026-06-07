@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -15,6 +15,10 @@
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[许可密钥：<br /><span class="help">由 Avalara 提供的许可密钥</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[测试模式：]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -51,6 +55,10 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[连接成功，并且API凭证已正确配置。]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[测试连接：]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -155,13 +163,5 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[启用交易日志记录]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[测试模式：]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[测试连接：]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>avatax_integration_name</key>
@@ -18,6 +18,10 @@
 	<definition>
 		<key>avatax_integration_license_key</key>
 		<value><![CDATA[लाइसेंस कुंजी:<br /><span class="help">Avalara द्वारा प्रदान की गई लाइसेंस कुंजी</span>]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_mode</key>
+		<value><![CDATA[परीक्षण मोड:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_tax_name</key>
@@ -54,6 +58,10 @@
 	<definition>
 		<key>text_connection_success</key>
 		<value><![CDATA[कनेक्शन सफल है और API क्रेडेंशियल्स सही तरीके से कॉन्फ़िगर किए गए हैं।]]></value>
+	</definition>
+	<definition>
+		<key>avatax_integration_test_connection</key>
+		<value><![CDATA[कनेक्शन का परीक्षण:]]></value>
 	</definition>
 	<definition>
 		<key>avatax_integration_address_validation</key>
@@ -158,13 +166,5 @@
 	<definition>
 		<key>avatax_integration_logging</key>
 		<value><![CDATA[लेनदेन लॉगिंग सक्षम करें]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_mode</key>
-		<value><![CDATA[परीक्षण मोड:]]></value>
-	</definition>
-	<definition>
-		<key>avatax_integration_test_connection</key>
-		<value><![CDATA[कनेक्शन का परीक्षण:]]></value>
 	</definition>
 </definitions>

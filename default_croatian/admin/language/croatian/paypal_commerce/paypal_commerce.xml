@@ -14,11 +14,11 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_client_id</key>
-		<value><![CDATA[Vaš API ID klijenta<br /><span class="help">Pronađite ga u odjeljku Moje aplikacije i vjerodajnice na PayPal nadzornoj ploči -> Developer</span>]]></value>
+		<value><![CDATA[Vaš ID klijenta API-ja<br /><span class="help">Pronađite ovo u odjeljku Moje aplikacije i vjerodajnice na nadzornoj ploči PayPala -> Developer</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_client_secret</key>
-		<value><![CDATA[Vaš API tajni ključ<br /><span class="help">Pronađite ga u odjeljku Moje aplikacije i vjerodajnice na nadzornoj ploči PayPala -> Developer</span>]]></value>
+		<value><![CDATA[Vaš API tajni ključ<br /><span class="help">Pronađite ovo u odjeljku Moje aplikacije i vjerodajnice na PayPal nadzornoj ploči -> Developer</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_test_mode</key>
@@ -35,6 +35,18 @@
 	<definition>
 		<key>paypal_commerce_transaction_type_authorize</key>
 		<value><![CDATA[Samo autorizacija]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components</key>
+		<value><![CDATA[Omogućene komponente:<span class="help">Odaberite koje će se komponente plaćanja omogućiti: PayPal gumbi za brzo plaćanje ili polja za kartice za izravnu obradu kreditnih kartica.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_buttons</key>
+		<value><![CDATA[PayPal gumbi]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_components_card-fields</key>
+		<value><![CDATA[Polja kartice]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_test_connection</key>
@@ -62,7 +74,7 @@
 	</definition>
 	<definition>
 		<key>text_success</key>
-		<value><![CDATA[Uspjeh: izmijenili ste postavke plaćanja putem PayPala!]]></value>
+		<value><![CDATA[Uspjeh: izmijenili ste postavke plaćanja za PayPal!]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_location_id</key>
@@ -78,11 +90,11 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_autoselect</key>
-		<value><![CDATA[Automatski odabir:<br /><span class="help">Možete postaviti da se preskoči stranica za odabir načina plaćanja ako postoji samo jedna opcija plaćanja. Ovaj će se način plaćanja odabrati automatski</span>]]></value>
+		<value><![CDATA[Automatski odabir:<br /><span class="help">Možete postaviti da se preskoči stranica odabira načina plaćanja ako postoji samo jedna opcija plaćanja. Ovaj način plaćanja bit će automatski odabran</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_paypal_commerce_connect</key>
-		<value><![CDATA[Morate se povezati s PayPalom kako biste postavili podatke o plaćanju]]></value>
+		<value><![CDATA[Morate se povezati s PayPalom kako biste postavili detalje plaćanja.]]></value>
 	</definition>
 	<definition>
 		<key>text_paypal_commerce_settings</key>
@@ -93,24 +105,20 @@
 		<value><![CDATA[Redoslijed sortiranja]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_test_mode</key>
-		<value><![CDATA[Testni način]]></value>
-	</definition>
-	<definition>
 		<key>paypal_commerce_text_register_webhooks</key>
-		<value><![CDATA[Ažurirajte krajnje točke webhooksa na strani API-ja]]></value>
+		<value><![CDATA[Ažurirajte krajnje točke webhookova na strani API-ja]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_register_webhooks_success</key>
-		<value><![CDATA[Krajnje točke webhookova su uspješno ažurirane!]]></value>
+		<value><![CDATA[Krajnje točke webhooka su uspješno ažurirane!]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_success_settled</key>
-		<value><![CDATA[Uspješno & naplaćeno:<br /><span class="help">Odaberite glavni status narudžbe koji želite postaviti kao odgovor na status procesora plaćanja</span>]]></value>
+		<value><![CDATA[Uspjeh & naplaćeno:<br /><span class="help">Odaberite glavni status narudžbe koji želite postaviti kao odgovor na status platnog procesora</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_success_unsettled</key>
-		<value><![CDATA[Success & not captured:<br /><span class="help">Odaberite glavni status narudžbe koji želite postaviti kao odgovor na status procesora plaćanja</span>]]></value>
+		<value><![CDATA[Uspjeh & nije naplaćeno:<br /><span class="help">Odaberite glavni status narudžbe koji želite postaviti kao odgovor na status procesora plaćanja</span>]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_status_decline</key>
@@ -146,11 +154,11 @@
 	</definition>
 	<definition>
 		<key>text_refund_order</key>
-		<value><![CDATA[Povrat sredstava je uspješno izvršen, status narudžbe ažuriran na vraćeno]]></value>
+		<value><![CDATA[Povrat novca je bio uspješan, status narudžbe je ažuriran na povrat]]></value>
 	</definition>
 	<definition>
 		<key>text_voided</key>
-		<value><![CDATA[Poništavanje je uspješno, status narudžbe je ažuriran na poništeno]]></value>
+		<value><![CDATA[Poništenje je uspješno, status narudžbe ažuriran je na poništeno]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_settlement_auto</key>
@@ -186,7 +194,7 @@
 	</definition>
 	<definition>
 		<key>text_order_ref</key>
-		<value><![CDATA[ID naplate PayPala]]></value>
+		<value><![CDATA[ID naplate PayPal]]></value>
 	</definition>
 	<definition>
 		<key>text_order_total</key>
@@ -249,12 +257,24 @@
 		<value><![CDATA[Povežite se s PayPalom]]></value>
 	</definition>
 	<definition>
-		<key>text_disconnect</key>
-		<value><![CDATA[Prekini vezu s PayPalom]]></value>
+		<key>text_disconnect_sandbox</key>
+		<value><![CDATA[Odspoji Sandbox]]></value>
+	</definition>
+	<definition>
+		<key>text_disconnect_live</key>
+		<value><![CDATA[Prekini vezu uživo]]></value>
 	</definition>
 	<definition>
 		<key>text_skip_connect</key>
 		<value><![CDATA[Ne mogu se povezati?]]></value>
+	</definition>
+	<definition>
+		<key>text_connected_account</key>
+		<value><![CDATA[Povezani ste s računom:]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_error_cannot_connect</key>
+		<value><![CDATA[Veza s Paypal poslužiteljem ne može se uspostaviti.%s Provjerite konfiguraciju vašeg poslužitelja ili kontaktirajte vašeg pružatelja hostinga.]]></value>
 	</definition>
 	<definition>
 		<key>text_connect_success</key>
@@ -262,23 +282,11 @@
 	</definition>
 	<definition>
 		<key>text_disconnect_success</key>
-		<value><![CDATA[Uspješno odspojeno s PayPala]]></value>
+		<value><![CDATA[Uspješno odspojeno od PayPala]]></value>
 	</definition>
 	<definition>
 		<key>error_permission</key>
-		<value><![CDATA[Upozorenje: Nemate dozvolu za izmjenu Paypal Commerce Payment!]]></value>
-	</definition>
-	<definition>
-		<key>paypal_commerce_settlement_auto</key>
-		<value><![CDATA[Automatski (autoriziraj i naplati)]]></value>
-	</definition>
-	<definition>
-		<key>paypal_commerce_settlement_delayed</key>
-		<value><![CDATA[Odgođeno (samo autorizacija)]]></value>
-	</definition>
-	<definition>
-		<key>error_system</key>
-		<value><![CDATA[Interna pogreška. Provjerite zapisnik pogrešaka ili ulazne parametre!]]></value>
+		<value><![CDATA[Upozorenje: Nemate dozvolu za izmjenu PayPal Commerce Paymenta!]]></value>
 	</definition>
 	<definition>
 		<key>error_paypal_commerce_client_id</key>
@@ -289,12 +297,8 @@
 		<value><![CDATA[Tajni ključ aplikacije je obavezan.]]></value>
 	</definition>
 	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Upozorenje: Nemate dopuštenje za izmjenu Paypal Commerce Payment!]]></value>
-	</definition>
-	<definition>
 		<key>error_turn_extension_on</key>
-		<value><![CDATA[Greška! Provjerite je li proširenje uključeno.]]></value>
+		<value><![CDATA[Greška! Molimo provjerite je li proširenje uključeno.]]></value>
 	</definition>
 	<definition>
 		<key>paypal_commerce_text_back</key>
@@ -302,20 +306,119 @@
 	</definition>
 	<definition>
 		<key>paypal_commerce_webhook_howto_text</key>
-		<value><![CDATA[Napomena: Za dovršetak postavljanja trebate stvoriti webhookove na strani PayPal računa.	
-<br> Idite u svoj <a href="https://dashboard.paypal.com/webhooks" target="_blank">razvojni odjeljak PayPal nadzorne ploče</a>
-i dodajte krajnje točke koje primaju događaje s vašeg računa. Nakon što je krajnja točka stvorena, kopirajte Signing Secret i spremite ga u pripadajuće postavke ekstenzije Paypal Subscription.]]></value>
+		<value><![CDATA[Napomena: Za dovršetak postavljanja morate kreirati webhookove na strani vašeg PayPal računa.<br>	
+Idite u <a href="https://dashboard.paypal.com/webhooks" target="_blank">razvojni odjeljak nadzorne ploče PayPala</a> i dodajte krajnje točke za primanje događaja s vašeg računa. Nakon što su krajnje točke kreirane, kopirajte potpisni tajni ključ i spremite ga u pripadajuće postavke PayPal Subscription ekstenzije.]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components</key>
-		<value><![CDATA[Omogućene komponente:]]></value>
+		<key>paypal_commerce_enabled_funding</key>
+		<value><![CDATA[Opcije financiranja:]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components_buttons</key>
-		<value><![CDATA[PayPal gumbi]]></value>
+		<key>paypal_commerce_enabled_funding_venmo</key>
+		<value><![CDATA[Venmo]]></value>
 	</definition>
 	<definition>
-		<key>paypal_commerce_enabled_components_card-fields</key>
-		<value><![CDATA[Polja kartice]]></value>
+		<key>paypal_commerce_enabled_funding_paylater</key>
+		<value><![CDATA[Plati kasnije]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_credit</key>
+		<value><![CDATA[Kredit]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_bancontact</key>
+		<value><![CDATA[Bancontact]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_blik</key>
+		<value><![CDATA[BLIK]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_eps</key>
+		<value><![CDATA[EPS]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_giropay</key>
+		<value><![CDATA[Giropay]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_ideal</key>
+		<value><![CDATA[iDEAL]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_mybank</key>
+		<value><![CDATA[MyBank]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_p24</key>
+		<value><![CDATA[Przelewy24]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_sepa</key>
+		<value><![CDATA[SEPA]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_sofort</key>
+		<value><![CDATA[Sofort]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_trustly</key>
+		<value><![CDATA[Trustly]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_mercadopago</key>
+		<value><![CDATA[Mercado Pago]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_oxxo</key>
+		<value><![CDATA[OXXO]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_boleto</key>
+		<value><![CDATA[Boleto]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_enabled_funding_wechatpay</key>
+		<value><![CDATA[WeChat plaćanje]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy</key>
+		<value><![CDATA[Politika 3D Secure (samo polja kartice)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_0</key>
+		<value><![CDATA[-- nije primjenjivo --]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_SCA_WHEN_REQUIRED</key>
+		<value><![CDATA[Kad je potrebno (ovisno o postavkama kreditne kartice)]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_policy_SCA_ALWAYS</key>
+		<value><![CDATA[Uvijek]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_pay_later_message_configurator</key>
+		<value><![CDATA[Poruke ponude Plati kasnije<span class="help">Poruke ponude Plati kasnije mogu se konfigurirati za prikaz na stranicama proizvoda i stranicama blagajne. Ova značajka trgovcima omogućuje pružanje informacija kupcima o dostupnim načinima plaćanja i uvjetima.</span>]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_run_configurator</key>
+		<value><![CDATA[Pokreni konfigurator]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_text_connect_for_configurator</key>
+		<value><![CDATA[Molimo povežite se na PayPal da biste vidjeli konfigurator.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_show_buttons_product</key>
+		<value><![CDATA[Gumbi za naplatu na stranici proizvoda]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_show_buttons_cart</key>
+		<value><![CDATA[Gumbi za plaćanje na stranici košarice]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_debug_logging</key>
+		<value><![CDATA[Zapisnik otklanjanja pogrešaka:<span class="help">Pogledajte zapis u odjeljku Admin->Sustav->Zapisnici pogrešaka</span>]]></value>
 	</definition>
 </definitions>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -103,6 +103,10 @@
 	<definition>
 		<key>error_uninstall</key>
 		<value><![CDATA[ATTENZIONE: Disinstallare l'estensione prima dell'eliminazione!]]></value>
+	</definition>
+	<definition>
+		<key>text_save_success</key>
+		<value><![CDATA[Successo: sono state modificate le impostazioni di estensione!]]></value>
 	</definition>
 	<definition>
 		<key>text_restore_success</key>
@@ -221,6 +225,10 @@
 		<value><![CDATA[Dipendenze]]></value>
 	</definition>
 	<definition>
+		<key>text_update_available</key>
+		<value><![CDATA[La Nuova versione (%s) è disponibile. <a href="%s">Clicca per aggiornare ora.</a>]]></value>
+	</definition>
+	<definition>
 		<key>text_delete_confirm</key>
 		<value><![CDATA[Sei sicuro di voler eliminare l'estensione?]]></value>
 	</definition>
@@ -309,6 +317,16 @@
 		<value><![CDATA[Storefront Icona:<span class="help">Icona del trasporto da visualizzare in selezione spedizione della cassa.</span>]]></value>
 	</definition>
 	<definition>
+		<key>text_autoselect_payment</key>
+		<value><![CDATA[
+ Selezione automatica: <span class="help">semplifica il processo di pagamento scegliendo automaticamente un metodo di pagamento quando sono disponibili più opzioni.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_autoselect_shipping</key>
+		<value><![CDATA[
+ Selezione automatica: <span class="help">semplifica il processo di pagamento scegliendo automaticamente un metodo di consegna quando sono disponibili più opzioni.</span>]]></value>
+	</definition>
+	<definition>
 		<key>text_accept_payments_shipping</key>
 		<value><![CDATA[Accetta questi pagamenti:<span class="help">Se sono necessari metodidi pagamento specifici perquesto metodo di trasporto, selezionarli qui. Se non selezionati verranno visualizzati tuttii metodi di pagamento disponibili.</span>]]></value>
 	</definition>
@@ -373,14 +391,6 @@
 		<value><![CDATA[ulteriori estensionisono disponibili per una facile installazione.]]></value>
 	</definition>
 	<definition>
-		<key>text_save_success</key>
-		<value><![CDATA[Successo: sono state modificate le impostazioni di estensione!]]></value>
-	</definition>
-	<definition>
-		<key>text_update_available</key>
-		<value><![CDATA[La Nuova versione (%s) è disponibile. <a href="%s">Clicca per aggiornare ora.</a>]]></value>
-	</definition>
-	<definition>
 		<key>text_support_expiration</key>
 		<value><![CDATA[Il supporto è attivo fino al]]></value>
 	</definition>
@@ -419,16 +429,6 @@
 	<definition>
 		<key>text_max_order_subtotal</key>
 		<value><![CDATA[Subtotale massimo dell&#39;ordine: <span class="help">immettere il valore massimo del subtotale dell&#39;ordine per l&#39;opzione di spedizione disponibile per il cliente. Questo campo è facoltativo.</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_autoselect_payment</key>
-		<value><![CDATA[
- Selezione automatica: <span class="help">semplifica il processo di pagamento scegliendo automaticamente un metodo di pagamento quando sono disponibili più opzioni.</span>]]></value>
-	</definition>
-	<definition>
-		<key>text_autoselect_shipping</key>
-		<value><![CDATA[
- Selezione automatica: <span class="help">semplifica il processo di pagamento scegliendo automaticamente un metodo di consegna quando sono disponibili più opzioni.</span>]]></value>
 	</definition>
 	<definition>
 		<key>text_customer_groups</key>

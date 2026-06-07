@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_enlarge</key>
@@ -33,12 +33,20 @@
 		<value><![CDATA[Modello:]]></value>
 	</definition>
 	<definition>
+		<key>text_sku</key>
+		<value><![CDATA[SKU:]]></value>
+	</definition>
+	<definition>
 		<key>text_manufacturer</key>
 		<value><![CDATA[Produttore:]]></value>
 	</definition>
 	<definition>
 		<key>text_instock</key>
 		<value><![CDATA[In magazzino]]></value>
+	</definition>
+	<definition>
+		<key>text_out_of_stock</key>
+		<value><![CDATA[Esaurito]]></value>
 	</definition>
 	<definition>
 		<key>text_order_quantity</key>
@@ -145,6 +153,10 @@
 		<value><![CDATA[Recensioni (%s)]]></value>
 	</definition>
 	<definition>
+		<key>tab_review_empty</key>
+		<value><![CDATA[Recensioni]]></value>
+	</definition>
+	<definition>
 		<key>tab_related</key>
 		<value><![CDATA[Prodotti correlati]]></value>
 	</definition>
@@ -185,20 +197,8 @@
 		<value><![CDATA[Recensione per id prodotto %s è pubblicato. Azione di approvazione è necessario! Clicca per vedere #admin#rt=catalog/review/update&review_id=%s]]></value>
 	</definition>
 	<definition>
-		<key>text_out_of_stock</key>
-		<value><![CDATA[Esaurito]]></value>
-	</definition>
-	<definition>
-		<key>tab_review_empty</key>
-		<value><![CDATA[Recensioni]]></value>
-	</definition>
-	<definition>
 		<key>text_verified_review</key>
 		<value><![CDATA[Acquisto verificato]]></value>
-	</definition>
-	<definition>
-		<key>text_sku</key>
-		<value><![CDATA[SKU:]]></value>
 	</definition>
 	<definition>
 		<key>percentage_review</key>

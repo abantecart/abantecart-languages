@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>column_name</key>
 		<value><![CDATA[Navn]]></value>
+	</definition>
+	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[Feltnavn]]></value>
 	</definition>
 	<definition>
 		<key>column_description</key>
@@ -243,10 +247,6 @@
 	<definition>
 		<key>forms_manager_error_empty_sender</key>
 		<value><![CDATA[Advarsel! Vennligst angi standard avsendernavn og standard avsender-e-post i <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">innstillinger for skjemabehandler</a>]]></value>
-	</definition>
-	<definition>
-		<key>column_field_name</key>
-		<value><![CDATA[Feltnavn]]></value>
 	</definition>
 	<definition>
 		<key>text_groups</key>

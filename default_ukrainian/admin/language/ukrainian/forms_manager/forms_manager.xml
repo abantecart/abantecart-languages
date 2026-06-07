@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>column_name</key>
 		<value><![CDATA[Ім’я]]></value>
+	</definition>
+	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[Назва поля]]></value>
 	</definition>
 	<definition>
 		<key>column_description</key>
@@ -209,6 +213,10 @@
 		<value><![CDATA[Шаблон регулярного виразу:]]></value>
 	</definition>
 	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[html-атрибути:<br /><span class="help">Ви можете додати власні HTML-атрибути для елемента опції. Приклад: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_error_text</key>
 		<value><![CDATA[Повідомлення про недійсне значення:]]></value>
 	</definition>
@@ -233,20 +241,12 @@
 		<value><![CDATA[Поле з ім’ям %s вже присутнє у формі!]]></value>
 	</definition>
 	<definition>
-		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[Увага! Будь ласка, встановіть ім’я відправника за замовчуванням та електронну адресу відправника за замовчуванням у <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">налаштуваннях менеджера форм</a>]]></value>
-	</definition>
-	<definition>
-		<key>column_field_name</key>
-		<value><![CDATA[Назва поля]]></value>
-	</definition>
-	<definition>
-		<key>entry_html_attributes</key>
-		<value><![CDATA[html-атрибути:<br /><span class="help">Ви можете додати власні HTML-атрибути для елемента опції. Приклад: data-some-attribute="some value"</span>]]></value>
-	</definition>
-	<definition>
 		<key>error_regexp_pattern</key>
 		<value><![CDATA[Шаблон регулярного виразу недійсний!]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_error_empty_sender</key>
+		<value><![CDATA[Увага! Будь ласка, встановіть ім’я відправника за замовчуванням та електронну адресу відправника за замовчуванням у <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">налаштуваннях менеджера форм</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_groups</key>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Vezérlőpult munkamenet lejárata:<br /><span class="help">Ez az érték határozza meg a percekben megadott időtartamot, amely után inaktivitás miatt újra be kell jelentkeznie.</span>]]></value>
+		<value><![CDATA[Vezérlőpult munkamenet lejárati ideje:<br /><span class="help">Ez az érték határozza meg az inaktivitás miatti újra bejelentkezésig eltelt időt percekben. A szigorú inaktivitási időtúllépés érdekében tiltsa le a Keep Long Session beállítást.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Hosszú munkamenet fenntartása:<br /><span class="help">Engedélyezze a rendszergazdai értesítések és a rendszerellenőrzések időszakos háttérkéréseit. Kapcsolja ki, hogy megakadályozza a háttérfrissítés aktív munkamenet meghosszabbítását. A beállítás módosítása után előfordulhat, hogy egyszer újra be kell jelentkeznie.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -815,7 +819,11 @@ Add meg azoknak az IP-címeknek a listáját (vesszővel elválasztva), amelyek 
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API-kulcs (a Google Térképek bekapcsolásához):<br /><span class="help">Megtekintheti a címet a térképen. A Google Térképek bekapcsolásához adja meg Google API-kulcsát a <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google hitelesítési oldalon</a>.</span>]]></value>
+		<value><![CDATA[Google Maps és Places API-kulcs:<br /><span class="help">Adja meg a Google Maps és Places API-kulcsát a címek térképen való megjelenítéséhez és a cím automatikus kiegészítésének engedélyezéséhez a webáruház címmezőiben. Ezt a kulcsot a webáruház oldalain kliensoldalon használják, ezért korlátozza engedélyezett domain(ek)re és/vagy IP-cím(ek)re a Google Cloud Console-ban.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Cím automatikus kiegészítése (Google Places):<br /><span class="help">Engedélyezze vagy tiltsa le a Google Places API cím automatikus kiegészítését a webáruház címűrlapjain. A Google API-kulcs szükséges.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -886,6 +894,10 @@ Add meg azoknak az IP-címeknek a listáját (vesszővel elválasztva), amelyek 
 		<value><![CDATA[Ez az érték nem haladhatja meg a php.ini %s direktíváját (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Az inaktivitási időkorlát a várt módon működik, ha a <b>Hosszú munkamenet megtartása</b> ki van kapcsolva.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Rendelések kezdő száma:<br /><span class="help">Állítsa be, melyik számtól kezdődjenek a rendelések.</span>]]></value>
 	</definition>
@@ -908,10 +920,6 @@ Add meg azoknak az IP-címeknek a listáját (vesszővel elválasztva), amelyek 
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Áruház]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Adminisztrátor]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1026,6 +1034,10 @@ Add meg azoknak az IP-címeknek a listáját (vesszővel elválasztva), amelyek 
 		<value><![CDATA[Alapértelmezett e-mail logó:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Telefonszám-érvényesítő regex-minta:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab parancs Linuxon <span class="help">Futtassa a crontab -e parancsot ugyanazzal a Linux felhasználóval, amely az AbanteCart webszervert futtatja. A szerkesztőben adja hozzá a parancsot</span>]]></value>
 	</definition>
@@ -1056,9 +1068,5 @@ Add meg azoknak az IP-címeknek a listáját (vesszővel elválasztva), amelyek 
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Engedélyezze a visszatérő vásárlóknak a böngészést:<br /><span class="help">Az oldalra visszatérő, bejelentkezés nélküli vásárlók böngészhetik a termékeket, hozzáadhatják azokat a kosárba és a kívánságlistára.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Telefonszám-érvényesítő regex-minta:]]></value>
 	</definition>
 </definitions>

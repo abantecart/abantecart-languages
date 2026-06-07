@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Ohjauspaneelin istunnon vanhentumisaika:<br /><span class="help">Tämä arvo määrittää ajan minuuteissa, jonka kuluttua toimettomuuden vuoksi sinua pyydetään kirjautumaan uudelleen.</span>]]></value>
+		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">Tämä arvo ohjaa, kuinka monen minuutin kuluttua sinua pyydetään kirjautumaan uudelleen passiivisuuden vuoksi. Tiukkaa lepotilan aikakatkaisua varten poista Keep Long Session käytöstä.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Pidä pitkä istunto:<br /><span class="help">Ota käyttöön säännölliset taustakyselyt ylläpitäjähälytyksiä ja järjestelmätarkistuksia varten. Poista tämä käytöstä estääksesi taustapäivitysten pitämästä istuntoa aktiivisena. Tämän asetuksen muuttamisen jälkeen saatat nähdä kertaluonteisen kehotuksen kirjautua uudelleen.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -814,7 +818,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API -avain (Google-karttojen käyttämiseksi):<br /><span class="help">Voit nähdä osoitteen kartalta. Google-karttojen aktivoimiseksi lisää Google-karttojen API-avain <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google-tunnistetietosivu</a>.</span>]]></value>
+		<value><![CDATA[Google Maps- ja Places-API-avain:<br /><span class="help">Anna Google Maps- ja Places-API-avain näyttääksesi osoitteet kartalla ja ottaaksesi osoitteen automaattitäydennyksen käyttöön myymälän osoitelomakkeissa. Tätä avainta käytetään myymälän sivuilla ja se on näkyvissä asiakaspuolella, joten rajoita se sallittuihin toimialueisiin ja/tai IP-osoitteisiin Google Cloud Consolessa.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Osoitteen automaattitäydennys (Google Places):<br /><span class="help">Ota Google Places -API:n osoitteen automaattitäydennys käyttöön tai pois käytöstä verkkokaupan osoitelomakkeissa. Edellyttää Google API -avainta.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -885,6 +893,10 @@
 		<value><![CDATA[Tämä arvo ei voi ylittää php.ini-määritystäsi %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Automaattinen aikakatkaisu toimii odotetusti, kun <b>Pidä pitkä istunto</b> on pois päältä.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Tilausten aloitusnumero:<br /><span class="help">Aseta aloitusnumero, josta tilaukset alkavat.</span>]]></value>
 	</definition>
@@ -907,10 +919,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Kaupan etusivu]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Ylläpitäjä]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1025,6 +1033,10 @@
 		<value><![CDATA[Oletussähköpostilogo:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Puhelimen validoinnin regex-malli:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab Linux-komento <span class="help">Suorita komento crontab -e samalla Linux-käyttäjällä, jolla ajetaan AbanteCart-verkkopalvelinta. Lisää editorissa komento</span>]]></value>
 	</definition>
@@ -1055,9 +1067,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Salli palaavien asiakkaiden selata:<br /><span class="help">Ei kirjautuneet asiakkaat, jotka palaavat sivustolle, voivat selata tuotteita, lisätä ostoskoriin ja toivelistalle.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Puhelimen validoinnin regex-malli:]]></value>
 	</definition>
 </definitions>

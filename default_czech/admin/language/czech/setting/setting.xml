@@ -446,7 +446,12 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Vypršení relace ovládacího panelu:<br /><span class="help">Tato hodnota určuje časový interval v minutách, po jehož uplynutí budete kvůli neaktivitě vyzváni k opětovnému přihlášení.</span>]]></value>
+		<value><![CDATA[Control Panel Session Expiration:<br /><span class="help">Tato hodnota určuje časový interval v minutách, po jehož uplynutí budete kvůli nečinnosti požádáni o opětovné přihlášení. Pro přísné chování vypršení při nečinnosti deaktivujte Keep Long Session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Udržovat dlouhou relaci:
+Povolte pravidelné požadavky na pozadí pro upozornění administrátora a kontroly systému. Vypnutím tohoto zabráníte tomu, aby obnovení na pozadí prodlužovalo aktivní relaci. Po změně tohoto nastavení se vám může zobrazit jednorázová výzva k opětovnému přihlášení.]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -814,7 +819,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API klíč (pro povolení Google Maps):<br /><span class="help">Můžete vidět adresu na mapě. Pro povolení Google Maps vložte svůj Google Maps API klíč na <a href="https://console.cloud.google.com/apis/credentials" target="_blank">stránce pověření Google</a>.</span>]]></value>
+		<value><![CDATA[Google Maps and Places API Key:<br /><span class="help">Zadejte svůj klíč API pro Google Maps a Places pro zobrazení adres na mapě a povolení automatického doplňování adres ve formulářích adres na stránce obchodu. Tento klíč se používá na stránkách obchodu a je vystaven na straně klienta, proto jej omezte na povolenou domén(y) a/nebo IP adresu v Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Automatické doplňování adres (Google Places):<br /><span class="help">Povolit nebo zakázat automatické doplňování adres pomocí Google Places API ve formulářích adres v obchodě. Vyžaduje klíč Google API.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -885,6 +894,10 @@
 		<value><![CDATA[Tato hodnota nesmí překročit vaši direktivu php.ini %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Časový limit nečinnosti funguje podle očekávání, když je <b>Keep Long Session</b> vypnuto.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Počáteční číslo objednávky:<br /><span class="help">Nastavte počáteční číslo, od kterého se budou objednávky číslovat.</span>]]></value>
 	</definition>
@@ -907,10 +920,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Vzhled obchodu]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Správce]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1025,6 +1034,10 @@
 		<value><![CDATA[Výchozí e-mailové logo:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regex vzorec pro ověření telefonu:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Linuxový příkaz crontab <span class="help">Spusťte příkaz crontab -e pod stejným uživatelem Linuxu, který provozuje webový server pro AbanteCart. V editoru přidejte příkaz</span>]]></value>
 	</definition>
@@ -1055,9 +1068,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Povolit vracejícím se zákazníkům prohlížet:<br /><span class="help">Neautentizovaní zákazníci vracející se na webu budou moci prohlížet produkty, přidávat do košíku a do seznamu přání.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regex vzorec pro ověření telefonu:]]></value>
 	</definition>
 </definitions>

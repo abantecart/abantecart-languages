@@ -33,6 +33,10 @@
 		<value><![CDATA[Добавить]]></value>
 	</definition>
 	<definition>
+		<key>column_id</key>
+		<value><![CDATA[Я БЫ]]></value>
+	</definition>
+	<definition>
 		<key>column_name</key>
 		<value><![CDATA[Имя клиента]]></value>
 	</definition>
@@ -218,11 +222,11 @@
 	</definition>
 	<definition>
 		<key>tab_transactions</key>
-		<value><![CDATA[Сделки]]></value>
+		<value><![CDATA[История баланса счета]]></value>
 	</definition>
 	<definition>
 		<key>heading_title_transactions</key>
-		<value><![CDATA[Сделки Клиента]]></value>
+		<value><![CDATA[История баланса счета]]></value>
 	</definition>
 	<definition>
 		<key>column_create_date</key>
@@ -249,6 +253,14 @@
 		<value><![CDATA[Баланс:]]></value>
 	</definition>
 	<definition>
+		<key>text_last_login</key>
+		<value><![CDATA[Время последнего входа:]]></value>
+	</definition>
+	<definition>
+		<key>text_never</key>
+		<value><![CDATA[Никогда]]></value>
+	</definition>
+	<definition>
 		<key>popup_title_info</key>
 		<value><![CDATA[Информация об операции]]></value>
 	</definition>
@@ -273,6 +285,10 @@
 		<value><![CDATA[Другой Пользовательский тип сделки:]]></value>
 	</definition>
 	<definition>
+		<key>text_other_type_placeholder</key>
+		<value><![CDATA[введите новое имя здесь]]></value>
+	</definition>
+	<definition>
 		<key>text_option_other_type</key>
 		<value><![CDATA[Другое ...]]></value>
 	</definition>
@@ -283,6 +299,10 @@
 	<definition>
 		<key>entry_transaction_comment</key>
 		<value><![CDATA[Комментарий (для внутреннего использования):]]></value>
+	</definition>
+	<definition>
+		<key>entry_update_date</key>
+		<value><![CDATA[Дата обновления:]]></value>
 	</definition>
 	<definition>
 		<key>entry_create_date</key>
@@ -297,12 +317,12 @@
 		<value><![CDATA[Ошибка: Пожалуйста, заполните значение дебета или кредита для сделки клиента.]]></value>
 	</definition>
 	<definition>
-		<key>text_transaction_success</key>
-		<value><![CDATA[Успешно: Вы изменили сделку!]]></value>
+		<key>error_incorrect_debit_credit</key>
+		<value><![CDATA[Ошибка: дебетовое или кредитное значение не может превышать 99999999999.9999]]></value>
 	</definition>
 	<definition>
-		<key>text_add_address</key>
-		<value><![CDATA[Добавить новый адрес]]></value>
+		<key>text_transaction_success</key>
+		<value><![CDATA[Успешно: Вы изменили сделку!]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_address</key>
@@ -333,10 +353,6 @@
 		<value><![CDATA[Чтобы действовать от имени покупателя в дополнительной магазине вы должны войти в контрольную панель этого магазина. Продолжить?]]></value>
 	</definition>
 	<definition>
-		<key>entry_update_date</key>
-		<value><![CDATA[Дата обновления:]]></value>
-	</definition>
-	<definition>
 		<key>entry_notify</key>
 		<value><![CDATA[Уведомить Клиента:]]></value>
 	</definition>
@@ -353,28 +369,8 @@
 		<value><![CDATA[Всего заказов:]]></value>
 	</definition>
 	<definition>
-		<key>text_last_login</key>
-		<value><![CDATA[Время последнего входа:]]></value>
-	</definition>
-	<definition>
-		<key>text_never</key>
-		<value><![CDATA[Никогда]]></value>
-	</definition>
-	<definition>
-		<key>text_other_type_placeholder</key>
-		<value><![CDATA[введите новое имя здесь]]></value>
-	</definition>
-	<definition>
 		<key>text_register_date</key>
 		<value><![CDATA[Дата регистрации:]]></value>
-	</definition>
-	<definition>
-		<key>column_id</key>
-		<value><![CDATA[Я БЫ]]></value>
-	</definition>
-	<definition>
-		<key>error_incorrect_debit_credit</key>
-		<value><![CDATA[Ошибка: дебетовое или кредитное значение не может превышать 99999999999.9999]]></value>
 	</definition>
 	<definition>
 		<key>error_email_exists</key>

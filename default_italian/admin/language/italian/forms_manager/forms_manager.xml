@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
@@ -71,6 +71,10 @@
 	<definition>
 		<key>filter_all_words</key>
 		<value><![CDATA[Tutte queste parole]]></value>
+	</definition>
+	<definition>
+		<key>text_clone</key>
+		<value><![CDATA[Clone]]></value>
 	</definition>
 	<definition>
 		<key>filter_form</key>
@@ -285,10 +289,6 @@
 		<value><![CDATA[Descrizione del gruppo]]></value>
 	</definition>
 	<definition>
-		<key>entry_field_name</key>
-		<value><![CDATA[Nome del campo (solo lettere latine, trattino basso, meno)]]></value>
-	</definition>
-	<definition>
 		<key>button_save</key>
 		<value><![CDATA[Salva]]></value>
 	</definition>
@@ -313,20 +313,12 @@
 		<value><![CDATA[Il gruppo è stato aggiunto con successo.]]></value>
 	</definition>
 	<definition>
-		<key>button_reset</key>
-		<value><![CDATA[Reimposta]]></value>
-	</definition>
-	<definition>
 		<key>column_text_id</key>
 		<value><![CDATA[ID testo]]></value>
 	</definition>
 	<definition>
 		<key>error_group_has_fields</key>
 		<value><![CDATA[Impossibile rimuovere il gruppo. Uno o più campi sono assegnati a questo gruppo.]]></value>
-	</definition>
-	<definition>
-		<key>text_clone</key>
-		<value><![CDATA[Clone]]></value>
 	</definition>
 	<definition>
 		<key>text_edit_field_values</key>

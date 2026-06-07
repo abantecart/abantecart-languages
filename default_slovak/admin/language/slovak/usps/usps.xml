@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>usps_name</key>
+		<value><![CDATA[Poštová služba Spojených štátov]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Doprava]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Nastavenia USPS]]></value>
+	</definition>
+	<definition>
+		<key>text_usps_success</key>
+		<value><![CDATA[Úspech: upravili ste United States Postal Service!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[Medzinárodná expresná pošta]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[Medzinárodná prioritná pošta]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[Global Express Guaranteed (dokumenty a nedokumenty)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[Použitý dokument Global Express Guaranteed]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[Global Express Guaranteed Ne-dokumentový obdĺžnikový tvar]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[Global Express Guaranteed Nedokumentový Neobdĺžnikový]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[Plochá obálka s jednotnou sadzbou Priority Mail]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[Krabica s jednotnou cenou pre prioritnú poštu]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[Medzinárodná obálka Expresnej pošty s pevnou sadzbou]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[Veľká krabica s pevnou sadzbou služby Priority Mail]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[Obálka Global Express Guaranteed]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[Medzinárodné listy prvej triedy]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[Medzinárodné ploché zásielky pošty prvej triedy]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[Medzinárodné balíky prvej triedy pošty]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[Malá krabica s jednotným poštovným Priority Mail]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[Pohľadnice]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[Bežný]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[Veľký]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[Nadrozmerný]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[Obdĺžnikový]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[Neobdĺžnikový]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[Premenná]]></value>
+	</definition>
+	<definition>
+		<key>entry_api_environment</key>
+		<value><![CDATA[Vývojársky režim API]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment</key>
+		<value><![CDATA[Režim vývojára API]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment_production</key>
+		<value><![CDATA[Produkcia (živé sadzby)]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_shipping</key>
+		<value><![CDATA[Režim vývojára]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_id</key>
+		<value><![CDATA[Spotrebiteľský kľúč<br/><span class="help">Vytvorte aplikáciu na https://cop.usps.com. Tieto poverenia sú potrebné na vygenerovanie OAuth tokenu</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_id</key>
+		<value><![CDATA[Kľúč spotrebiteľa:<span class="help">Nájdete ho v sekcii aplikácie na https://cop.usps.com. Tieto poverenia sú potrebné na generovanie OAuth tokenu</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_client_id_shipping</key>
+		<value><![CDATA[Identifikátor klienta API]]></value>
+	</definition>
+	<definition>
+		<key>text_country_shipping</key>
+		<value><![CDATA[Krajina a zóna odosielateľa]]></value>
+	</definition>
+	<definition>
+		<key>text_address_shipping</key>
+		<value><![CDATA[Adresa odosielateľa]]></value>
+	</definition>
+	<definition>
+		<key>text_city_shipping</key>
+		<value><![CDATA[Mesto odosielateľa]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone_shipping</key>
+		<value><![CDATA[Telefónne číslo odosielateľa<span class="help">10 číslic alebo viac, bez medzier ani špeciálnych znakov</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_secret</key>
+		<value><![CDATA[API klientské tajomstvo<br/><span class="help">Nájdete ho v sekcii vašej aplikácie na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token</key>
+		<value><![CDATA[Generovanie testovacieho štítka:<span class="help">Na generovanie štítkov môže USPS vyžadovať ďalšie povolenia na generovanie platobných tokenov vo vašom účte. Kontaktujte podporu USPS, aby ste tento prístup povolili.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token_button</key>
+		<value><![CDATA[Generovanie testovacej etikety]]></value>
+	</definition>
+	<definition>
+		<key>usps_country</key>
+		<value><![CDATA[Krajina a zóna dopravcu]]></value>
+	</definition>
+	<definition>
+		<key>usps_telephone</key>
+		<value><![CDATA[Telefónne číslo odosielateľa (10 číslic alebo viac)]]></value>
+	</definition>
+	<definition>
+		<key>usps_address</key>
+		<value><![CDATA[Adresa odosielateľa]]></value>
+	</definition>
+	<definition>
+		<key>usps_city</key>
+		<value><![CDATA[Mesto odosielateľa]]></value>
+	</definition>
+	<definition>
+		<key>usps_postcode</key>
+		<value><![CDATA[PSČ odosielateľa]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_crid</key>
+		<value><![CDATA[Customer Registration ID (CRID):<span class="help">Povinné pre generovanie štítkov USPS. Nájdete ho v sekcii svojho účtu na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_mid</key>
+		<value><![CDATA[ID zasielateľa (MID):<span class="help">Potrebné na generovanie štítkov USPS. Nájdete ho v sekcii svojho účtu na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_manifest_mid</key>
+		<value><![CDATA[MID manifestu: <span class="help">Vyžaduje sa na generovanie USPS štítkov. Nájdete ho v sekcii vášho účtu na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_account_number</key>
+		<value><![CDATA[Číslo účtu EPS:<span class="help">Povinné pre generovanie štítkov USPS. Nájdete ho vo svojom účte Enterprise Payment System na https://epay.usps.com/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_manifest_order_status_id</key>
+		<value><![CDATA[Vytvoriť zásielku, keď sa stav objednávky zmení na]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_secret</key>
+		<value><![CDATA[Consumer Secret:<span class="help">Môžete ho nájsť v sekcii vašich aplikácií na https://cop.usps.com. Tieto poverenia sú potrebné na vygenerovanie OAuth Token.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_manifest_order_status_id</key>
+		<value><![CDATA[Vytvoriť zásielku, keď sa stav objednávky zmení na]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipping_storefront_icon</key>
+		<value><![CDATA[Ikona obchodu]]></value>
+	</definition>
+	<definition>
+		<key>usps_debug</key>
+		<value><![CDATA[Stav ladenia záznamov]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_1</key>
+		<value><![CDATA[Prioritná pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_2</key>
+		<value><![CDATA[Prioritná expresná pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_3</key>
+		<value><![CDATA[Výber zásielky]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_4</key>
+		<value><![CDATA[Zviazané tlačené materiály]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_5</key>
+		<value><![CDATA[Mediálna zásielka]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_6</key>
+		<value><![CDATA[E-mailová knižnica]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_7</key>
+		<value><![CDATA[USPS Pozemná výhoda]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_1</key>
+		<value><![CDATA[Prioritná medzinárodná expresná pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_2</key>
+		<value><![CDATA[Prioritná medzinárodná pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_3</key>
+		<value><![CDATA[Globálny expres so zárukou (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_4</key>
+		<value><![CDATA[Medzinárodná služba balíkov prvej triedy]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_1</key>
+		<value><![CDATA[Prioritná pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_2</key>
+		<value><![CDATA[Prioritná expresná pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_3</key>
+		<value><![CDATA[Výber balíka]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_4</key>
+		<value><![CDATA[Zviazaný tlačený materiál]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_5</key>
+		<value><![CDATA[Médiová pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_6</key>
+		<value><![CDATA[Mailová knižnica]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_7</key>
+		<value><![CDATA[USPS Ground Advantage]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_1</key>
+		<value><![CDATA[Prioritné expresné medzinárodné doručenie]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_2</key>
+		<value><![CDATA[Prioritná medzinárodná pošta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_3</key>
+		<value><![CDATA[Garantované globálne expresné doručenie (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_4</key>
+		<value><![CDATA[Medzinárodná služba balíkov prvej triedy]]></value>
+	</definition>
+	<definition>
+		<key>usps_length</key>
+		<value><![CDATA[Rozmery Dĺžka]]></value>
+	</definition>
+	<definition>
+		<key>usps_width</key>
+		<value><![CDATA[Rozmery Šírka]]></value>
+	</definition>
+	<definition>
+		<key>usps_height</key>
+		<value><![CDATA[Rozmery Výška]]></value>
+	</definition>
+	<definition>
+		<key>usps_display_weight</key>
+		<value><![CDATA[Zobraziť hmotnosť pri doručení]]></value>
+	</definition>
+	<definition>
+		<key>usps_tax_class_id</key>
+		<value><![CDATA[Daňová trieda]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id</key>
+		<value><![CDATA[Poloha]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id_0</key>
+		<value><![CDATA[Všetky lokality]]></value>
+	</definition>
+	<definition>
+		<key>usps_sort_order</key>
+		<value><![CDATA[Poradie triedenia]]></value>
+	</definition>
+	<definition>
+		<key>usps_test_connection</key>
+		<value><![CDATA[Otestovať pripojenie]]></value>
+	</definition>
+	<definition>
+		<key>text_client_secret_shipping</key>
+		<value><![CDATA[Tajomstvo API klienta]]></value>
+	</definition>
+	<definition>
+		<key>text_manifest_order_status_id_shipping</key>
+		<value><![CDATA[Vytvoriť zásielku, keď stav objednávky bude]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[PSČ:<span class="help">PSČ/poštové smerovacie číslo miesta odoslania vašej zásielky.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[Domáce služby:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[Medzinárodné služby:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[Veľkosť:<span class="help">Vyberte veľkosť obalu, ktorý zvyčajne používate na balenie produktov objednaných z vášho obchodu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[Container:<span class="help">Vyberte typ kontajnera, ktorý zvyčajne používate na balenie produktov objednaných vo vašom obchode. USPS doručuje iba balíky s hmotnosťou do 70 libier</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[Strojovo spracovateľné:<br /><span class="help">Odporúča sa zvoliť Áno. Uveďte, či je v poriadku, aby sa vaše zásielky spracovávali strojmi. Povolením tejto možnosti znížite náklady na dopravu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[Rozmery (D x Š x V):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[Rozmery Dĺžka:<br /><span class="help">Priemerný rozmer balíka na odoslanie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Šírka rozmerov:<br /><span class="help">Priemerný rozmer balíka na prepravu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Výška rozmerov:<br /><span class="help">Priemerný rozmer balíka na odoslanie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[Obvod:<br /><span class="help">Ak chcete zistiť obvod vášho balíka, zmerajte vzdialenosť okolo najhrubšej časti neobdĺžnikového balíka.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[Zobraziť dobu dodania:<br /><span class="help">Chcete zobraziť dobu dodania? (napr. Dodanie do 3 až 5 dní)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[Zobraziť doručovaciu hmotnosť:<br /><span class="help">Chcete zobraziť doručovaciu hmotnosť? (napr. Doručovacia hmotnosť : 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Hmotnostná trieda:<br /><span class="help">Nastavte na libry.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Trieda dĺžky:<br /><span class="help">Rozmer alebo predvolená trieda dĺžky vášho obchodu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Daňová trieda:<br /><span class="help">Ak ste povinní účtovať daň z tejto položky, vyberte daňovú triedu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[Umiestnenie:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Poradie zoradenia:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Upozornenie: Nemáte oprávnenie upraviť United States Postal Service!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_id</key>
+		<value><![CDATA[ID klienta API je povinné!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_secret</key>
+		<value><![CDATA[Vyžaduje sa tajný kľúč API klienta!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[PSČ je povinné!]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_production</key>
+		<value><![CDATA[Produkcia (živé kurzy)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label</key>
+		<value><![CDATA[Vytlačiť štítok USPS (pôvodná objednávka)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_title</key>
+		<value><![CDATA[Vytlačí štítok USPS podľa pôvodnej hmotnosti a rozmerov zadaných zákazníkom pri pokladni. Akékoľvek zmeny vykonané správcom v objednávke neovplyvnia štítok.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_suggestion</key>
+		<value><![CDATA[Zmeňte stav objednávky na "%s", aby sa prostredníctvom USPS API vytvorila zásielka a získali sa štítky na balíky.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_missing_settings</key>
+		<value><![CDATA[Ak chcete generovať štítky, najprv vyplňte údaje vášho účtu USPS v nastaveniach rozšírenia.]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_weight</key>
+		<value><![CDATA[Hmotnosť:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_height</key>
+		<value><![CDATA[Výška:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_width</key>
+		<value><![CDATA[Šírka:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_depth</key>
+		<value><![CDATA[Hĺbka:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_parcel_info</key>
+		<value><![CDATA[Informácie o zásielke:]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipment_created_success_message</key>
+		<value><![CDATA[Zásielka USPS bola úspešne vytvorená. Sledovacie číslo: %s. Viac informácií nájdete <a href="%s">tu</a>]]></value>
+	</definition>
+</definitions>

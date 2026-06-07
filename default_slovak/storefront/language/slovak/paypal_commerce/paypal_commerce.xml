@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>text_title</key>
@@ -43,5 +43,25 @@
 	<definition>
 		<key>paypal_commerce_text_download_pdf</key>
 		<value><![CDATA[Stiahnuť PDF faktúru]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_error_transaction</key>
+		<value><![CDATA[Prepáčte, vašu transakciu nebolo možné spracovať.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_error_denied</key>
+		<value><![CDATA[Autorizácia platby zamietnutá]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_error_declined</key>
+		<value><![CDATA[Platba zamietnutá]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_required_options_warning</key>
+		<value><![CDATA[Prosím, vyberte všetky požadované možnosti produktu pred použitím PayPal.]]></value>
+	</definition>
+	<definition>
+		<key>paypal_commerce_3ds_failed</key>
+		<value><![CDATA[Overenie 3D Secure zlyhalo alebo nie je k dispozícii. Platba nebola zachytená.]]></value>
 	</definition>
 </definitions>

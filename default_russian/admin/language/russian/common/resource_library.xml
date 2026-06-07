@@ -129,6 +129,10 @@
 		<value><![CDATA[Прикрепить]]></value>
 	</definition>
 	<definition>
+		<key>text_map_to</key>
+		<value><![CDATA[Привязать к %s]]></value>
+	</definition>
+	<definition>
 		<key>text_unmap</key>
 		<value><![CDATA[Открепить]]></value>
 	</definition>
@@ -233,8 +237,8 @@
 		<value><![CDATA[Внимание: Отказано в доступе!]]></value>
 	</definition>
 	<definition>
-		<key>error_permission</key>
-		<value><![CDATA[Внимание: Отказано в доступе!]]></value>
+		<key>error_name</key>
+		<value><![CDATA[Ошибка: Поле Название требуемое!]]></value>
 	</definition>
 	<definition>
 		<key>button_delete</key>
@@ -261,6 +265,10 @@
 		<value><![CDATA[Ресурс успешно обновлен]]></value>
 	</definition>
 	<definition>
+		<key>text_map_success</key>
+		<value><![CDATA[Ресурс успешно привязан.]]></value>
+	</definition>
+	<definition>
 		<key>text_no_resources</key>
 		<value><![CDATA[Нет ресурсов]]></value>
 	</definition>
@@ -277,16 +285,16 @@
 		<value><![CDATA[Значение опции товара]]></value>
 	</definition>
 	<definition>
-		<key>text_products</key>
-		<value><![CDATA[Продукты]]></value>
-	</definition>
-	<definition>
 		<key>text_categories</key>
 		<value><![CDATA[Категории]]></value>
 	</definition>
 	<definition>
 		<key>text_manufacturers</key>
 		<value><![CDATA[Производители]]></value>
+	</definition>
+	<definition>
+		<key>error_delete</key>
+		<value><![CDATA[Не удается удалить ресурс он связан с несколькими объектами]]></value>
 	</definition>
 	<definition>
 		<key>error_unmap</key>
@@ -311,22 +319,6 @@
 	<definition>
 		<key>button_save_n_apply</key>
 		<value><![CDATA[Сохранить и Применить]]></value>
-	</definition>
-	<definition>
-		<key>text_map_to</key>
-		<value><![CDATA[Привязать к %s]]></value>
-	</definition>
-	<definition>
-		<key>error_name</key>
-		<value><![CDATA[Ошибка: Поле Название требуемое!]]></value>
-	</definition>
-	<definition>
-		<key>text_map_success</key>
-		<value><![CDATA[Ресурс успешно привязан.]]></value>
-	</definition>
-	<definition>
-		<key>error_delete</key>
-		<value><![CDATA[Не удается удалить ресурс он связан с несколькими объектами]]></value>
 	</definition>
 	<definition>
 		<key>text_image_size</key>

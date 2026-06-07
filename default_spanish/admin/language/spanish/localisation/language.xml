@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -93,12 +93,12 @@
 		<value><![CDATA[Atención: Este idioma no puede ser eliminado porque está actualmente asignado al idioma por defecto de la tienda!]]></value>
 	</definition>
 	<definition>
-		<key>error_store</key>
-		<value><![CDATA[Advertencia: Este lenguaje no puede ser suprimido, ya que esta actualmente asignado a %s tiendas!]]></value>
-	</definition>
-	<definition>
 		<key>error_admin</key>
 		<value><![CDATA[Atención: Este idioma no puede ser eliminado porque está actualmente asignado al idioma de la administración!]]></value>
+	</definition>
+	<definition>
+		<key>error_store</key>
+		<value><![CDATA[Advertencia: Este lenguaje no puede ser suprimido, ya que esta actualmente asignado a %s tiendas!]]></value>
 	</definition>
 	<definition>
 		<key>error_order</key>
@@ -113,6 +113,14 @@
 		<value><![CDATA[Cargar los datos que faltan de idiomas]]></value>
 	</definition>
 	<definition>
+		<key>entry_language_selector</key>
+		<value><![CDATA[Fuente idioma: ]]></value>
+	</definition>
+	<definition>
+		<key>entry_translate_method_selector</key>
+		<value><![CDATA[Método de conversión de texto: ]]></value>
+	</definition>
+	<definition>
 		<key>load_language_note</key>
 		<value><![CDATA[NOTA: Esta operación puede tardar algunos minutos para correr. NO cierre del navegador, dejar o refrescar la página!]]></value>
 	</definition>
@@ -124,14 +132,6 @@
 	<definition>
 		<key>button_load_language</key>
 		<value><![CDATA[Cargar]]></value>
-	</definition>
-	<definition>
-		<key>entry_language_selector</key>
-		<value><![CDATA[Fuente idioma: ]]></value>
-	</definition>
-	<definition>
-		<key>entry_translate_method_selector</key>
-		<value><![CDATA[Método de conversión de texto: ]]></value>
 	</definition>
 	<definition>
 		<key>text_incomplete_tasks</key>

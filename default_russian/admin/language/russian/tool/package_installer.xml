@@ -89,6 +89,10 @@
 		<value><![CDATA[У вас уже есть это установенное расширение &quot;%EXTENSION%&quot;! Если вы хотите продолжить и переустановить, нужно в первую очередь деинсталлировать и удалить расширение.]]></value>
 	</definition>
 	<definition>
+		<key>error_pack_file_not_found</key>
+		<value><![CDATA[Ошибка: Невозможно распаковать расширение из архива в %s. Проверьте <a href="#admin#rt=tool/error_log" target="_blank">лог</a> на наличие ошибок ]]></value>
+	</definition>
+	<definition>
 		<key>error_mp</key>
 		<value><![CDATA[Ошибка торговой площадки:]]></value>
 	</definition>
@@ -127,6 +131,10 @@
 	<definition>
 		<key>error_package_structure</key>
 		<value><![CDATA[Ошибка: Наверное пакет не работает. Ошибка структуры пакета.]]></value>
+	</definition>
+	<definition>
+		<key>error_package_config_xml</key>
+		<value><![CDATA[Ошибка: Невозможно найти файл package.xml в распакованном расширении. Возможно расширение не было распаковано коректно. Проверьте <a href="#admin#rt=tool/error_log" target="_blank">лог</a> на наличие ошибок ]]></value>
 	</definition>
 	<definition>
 		<key>error_package_config2</key>
@@ -173,10 +181,6 @@
 		<value><![CDATA[Прервать]]></value>
 	</definition>
 	<definition>
-		<key>text_continue</key>
-		<value><![CDATA[Продолжить]]></value>
-	</definition>
-	<definition>
 		<key>confirm_version_incompatibility</key>
 		<value><![CDATA[Текущая копия этого расширения не проверена для вашей версии AbanteCart (v%s). <br> Расширение сделано для AbanteCart v%s.<br> Это не проблема, но если вы заметите проблемы или несовместимости, пожалуйста, свяжитесь с разработчиком расширения.]]></value>
 	</definition>
@@ -209,12 +213,12 @@
 		<value><![CDATA[Ошибка: Не возможно создать резервные копии файлов перед обновлением. Проверьте права на запись каталога:]]></value>
 	</definition>
 	<definition>
-		<key>text_core_upgrade_attention</key>
-		<value><![CDATA[Внимание! AbanteCart будет обновлен до версии %s!]]></value>
-	</definition>
-	<definition>
 		<key>text_core_upgrade_title</key>
 		<value><![CDATA[ Обновление ядра Abantecart ]]></value>
+	</definition>
+	<definition>
+		<key>text_core_upgrade_attention</key>
+		<value><![CDATA[Внимание! AbanteCart будет обновлен до версии %s!]]></value>
 	</definition>
 	<definition>
 		<key>text_core_upgrade_warning</key>
@@ -223,23 +227,15 @@
 Протестируйте обновление сначала на тестовом сайте. Обновление без теста на рабочем сайте не рекомендуется. ]]></value>
 	</definition>
 	<definition>
-		<key>error_notconnected</key>
-		<value><![CDATA[ Не возможно устанавливать расширения с маркетплейса. Этот магазин не подключен. Пожалуйста, подключитесь в <a href="%s">маркетплейс</a> ]]></value>
-	</definition>
-	<definition>
-		<key>error_pack_file_not_found</key>
-		<value><![CDATA[Ошибка: Невозможно распаковать расширение из архива в %s. Проверьте <a href="#admin#rt=tool/error_log" target="_blank">лог</a> на наличие ошибок ]]></value>
-	</definition>
-	<definition>
-		<key>error_package_config_xml</key>
-		<value><![CDATA[Ошибка: Невозможно найти файл package.xml в распакованном расширении. Возможно расширение не было распаковано коректно. Проверьте <a href="#admin#rt=tool/error_log" target="_blank">лог</a> на наличие ошибок ]]></value>
-	</definition>
-	<definition>
 		<key>text_upgrade_now</key>
 		<value><![CDATA[Обновить сейчас! ]]></value>
 	</definition>
 	<definition>
 		<key>error_additional_help_text</key>
 		<value><![CDATA[Непредвиденная ошибка? Не проблема. Вы можете устанавить расширение другим способом. Просмотрите <a href="http://docs.abantecart.com/pages/extensions/install.html#FTPinstall" target="_blank">ссылку помощи</a> ]]></value>
+	</definition>
+	<definition>
+		<key>error_notconnected</key>
+		<value><![CDATA[ Не возможно устанавливать расширения с маркетплейса. Этот магазин не подключен. Пожалуйста, подключитесь в <a href="%s">маркетплейс</a> ]]></value>
 	</definition>
 </definitions>

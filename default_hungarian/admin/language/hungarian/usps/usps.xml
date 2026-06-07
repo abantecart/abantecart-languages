@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>usps_name</key>
+		<value><![CDATA[Egyesült Államok postai szolgálata]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Szállítás]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[USPS Beállítások]]></value>
+	</definition>
+	<definition>
+		<key>text_usps_success</key>
+		<value><![CDATA[Siker: Ön módosította az Egyesült Államok Postai Szolgálatát!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[Nemzetközi expressz levélküldemény]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[Nemzetközi elsőbbségi levél]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[Global Express Guaranteed (Dokumentum és nem dokumentum)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[Global Express Guaranteed dokumentum használva]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[Global Express Guaranteed nem dokumentum téglalap alakú]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[Global Express Guaranteed Nem Dokumentum Nem Téglalap-Alakú]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[Elsőbbségi posta fix díjas boríték]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[Elsőbbségi levél rögzített díjas doboz]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[Express Mail International egydíjas boríték]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[Nagy fix díjas elsőbbségi postai doboz]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[Globális Expressz Garantált boríték]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[Elsőbbségi nemzetközi levelek]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[Első osztályú nemzetközi lapos küldemények]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[Elsőbbségi nemzetközi csomagok]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[Elsőbbségi küldemény kis fix díjas doboz]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[Levelezőlapok]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[Normál]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[Nagy]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[Túlméretes]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[téglalap alakú]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[Nem négyszögletes]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[Változó]]></value>
+	</definition>
+	<definition>
+		<key>entry_api_environment</key>
+		<value><![CDATA[API Fejlesztői mód]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment</key>
+		<value><![CDATA[API fejlesztői mód]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment_production</key>
+		<value><![CDATA[Éles (valós idejű árfolyamok)]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_shipping</key>
+		<value><![CDATA[Fejlesztői mód]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_id</key>
+		<value><![CDATA[Fogyasztói kulcs<br/><span class="help">Hozzon létre egy alkalmazást az Ön https://cop.usps.com webhelyén. Ezek a hitelesítő adatok szükségesek az OAuth-token létrehozásához</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_id</key>
+		<value><![CDATA[Fogyasztói kulcs:<span class="help">Az https://cop.usps.com oldalon az Alkalmazások szakaszban találod meg. Ezek a hitelesítő adatok szükségesek az OAuth-token generálásához.</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_client_id_shipping</key>
+		<value><![CDATA[API kliensazonosító]]></value>
+	</definition>
+	<definition>
+		<key>text_country_shipping</key>
+		<value><![CDATA[Feladó országa & zónája]]></value>
+	</definition>
+	<definition>
+		<key>text_address_shipping</key>
+		<value><![CDATA[Feladó címe]]></value>
+	</definition>
+	<definition>
+		<key>text_city_shipping</key>
+		<value><![CDATA[Feladó városa]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone_shipping</key>
+		<value><![CDATA[Feladó telefonszáma<span class="help">Legalább 10 számjegy, szóközök és speciális karakterek nélkül</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_secret</key>
+		<value><![CDATA[API kliens titkos kulcsa<br/><span class="help">Megtalálod a https://developers.usps.com oldalon, az alkalmazásod szekciójában</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token</key>
+		<value><![CDATA[Teszt címke generálás:<span class="help">A címkegeneráláshoz előfordulhat, hogy a USPS-nek további engedélyekre van szüksége a fizetési token generálásához a fiókján. Forduljon a USPS ügyfélszolgálatához a hozzáférés engedélyezéséhez.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token_button</key>
+		<value><![CDATA[Teszt címke generálása]]></value>
+	</definition>
+	<definition>
+		<key>usps_country</key>
+		<value><![CDATA[Szállító ország és zóna]]></value>
+	</definition>
+	<definition>
+		<key>usps_telephone</key>
+		<value><![CDATA[Szállító telefonszáma (legalább 10 számjegy)]]></value>
+	</definition>
+	<definition>
+		<key>usps_address</key>
+		<value><![CDATA[Feladó címe]]></value>
+	</definition>
+	<definition>
+		<key>usps_city</key>
+		<value><![CDATA[Feladó város]]></value>
+	</definition>
+	<definition>
+		<key>usps_postcode</key>
+		<value><![CDATA[Feladó irányítószáma]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_crid</key>
+		<value><![CDATA[Ügyfél regisztrációs azonosító (CRID):<span class="help">Szükséges az USPS címkekészítéshez. A https://developers.usps.com weboldalon a fiókod részlegén találod.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_mid</key>
+		<value><![CDATA[Mailer-azonosító (MID):<span class="help">Szükséges az USPS-címke létrehozásához. A https://developers.usps.com weboldalon, a fiókod szekciójában találod.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_manifest_mid</key>
+		<value><![CDATA[Manifeszt MID:<span class="help">Szükséges az USPS-címkék létrehozásához. Megtalálhatod a https://developers.usps.com oldalon, a fiókod szakaszában.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_account_number</key>
+		<value><![CDATA[EPS-fiókszám:<span class="help">Szükséges a USPS-címke generálásához. A https://epay.usps.com/ oldalon, az Enterprise Payment System-fiókjában található.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_manifest_order_status_id</key>
+		<value><![CDATA[Szállítmány létrehozása, amikor a rendelés állapota lesz]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_secret</key>
+		<value><![CDATA[Kliens titkos kulcsa:<span class="help">A https://cop.usps.com webhely alkalmazás szakaszában találja. Ezek a hitelesítő adatok szükségesek az OAuth Token generálásához</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_manifest_order_status_id</key>
+		<value><![CDATA[Szállítmány létrehozása, amikor a rendelés állapota lesz]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipping_storefront_icon</key>
+		<value><![CDATA[Webáruház ikon]]></value>
+	</definition>
+	<definition>
+		<key>usps_debug</key>
+		<value><![CDATA[Hibakeresési naplózás állapota]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_1</key>
+		<value><![CDATA[Elsőbbségi levélküldemény]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_2</key>
+		<value><![CDATA[Elsőbbségi Expresszposta]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_3</key>
+		<value><![CDATA[Parcel Select]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_4</key>
+		<value><![CDATA[Kötött nyomtatott anyag]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_5</key>
+		<value><![CDATA[Média-küldemény]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_6</key>
+		<value><![CDATA[Levélkönyvtár]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_7</key>
+		<value><![CDATA[USPS Földi előny]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_1</key>
+		<value><![CDATA[Nemzetközi Priority Mail Express]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_2</key>
+		<value><![CDATA[Nemzetközi Priority Mail]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_3</key>
+		<value><![CDATA[Globális Expressz Garantált (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_4</key>
+		<value><![CDATA[Első osztályú nemzetközi csomagküldő szolgáltatás]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_1</key>
+		<value><![CDATA[Elsőbbségi posta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_2</key>
+		<value><![CDATA[Expressz elsőbbségi levélküldemény]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_3</key>
+		<value><![CDATA[Parcel Select]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_4</key>
+		<value><![CDATA[Kötött nyomtatott anyag]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_5</key>
+		<value><![CDATA[Média küldemény]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_6</key>
+		<value><![CDATA[Levélkönyvtár]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_7</key>
+		<value><![CDATA[USPS Ground Advantage]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_1</key>
+		<value><![CDATA[Nemzetközi Elsőbbségi Expresszposta]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_2</key>
+		<value><![CDATA[Nemzetközi elsőbbségi levélküldemény]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_3</key>
+		<value><![CDATA[Globális Expressz Garantált (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_4</key>
+		<value><![CDATA[Első osztályú nemzetközi csomagszolgáltatás]]></value>
+	</definition>
+	<definition>
+		<key>usps_length</key>
+		<value><![CDATA[Méretek Hosszúság]]></value>
+	</definition>
+	<definition>
+		<key>usps_width</key>
+		<value><![CDATA[Méretek Szélesség]]></value>
+	</definition>
+	<definition>
+		<key>usps_height</key>
+		<value><![CDATA[Méretek Magasság]]></value>
+	</definition>
+	<definition>
+		<key>usps_display_weight</key>
+		<value><![CDATA[Szállítási súly megjelenítése]]></value>
+	</definition>
+	<definition>
+		<key>usps_tax_class_id</key>
+		<value><![CDATA[Adóosztály]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id</key>
+		<value><![CDATA[Hely]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id_0</key>
+		<value><![CDATA[Összes helyszín]]></value>
+	</definition>
+	<definition>
+		<key>usps_sort_order</key>
+		<value><![CDATA[Rendezési sorrend]]></value>
+	</definition>
+	<definition>
+		<key>usps_test_connection</key>
+		<value><![CDATA[Kapcsolat tesztelése]]></value>
+	</definition>
+	<definition>
+		<key>text_client_secret_shipping</key>
+		<value><![CDATA[API kliens titkos kulcsa]]></value>
+	</definition>
+	<definition>
+		<key>text_manifest_order_status_id_shipping</key>
+		<value><![CDATA[Szállítmány létrehozása, amikor a rendelés állapota lesz]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Irányítószám:<span class="help">Irányítószám/postai irányítószám a csomagod kiindulási helyének.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[Háztartási szolgáltatások:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[Nemzetközi szolgáltatások:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[Méret:<span class="help">Válassza ki azt a csomagolóedény méretét, amelyet általában az Ön boltjából rendelt termékek csomagolásához használ.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[Konténer:<span class="help">Válassza ki a konténertípust, amelyet általában a boltjából rendelt termékek csomagolásához használ. Az USPS csak legfeljebb 70 lbs súlyú csomagokat kézbesít.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[Machinable:<br /><span class="help">Ajánlott az Igen választása. Adja meg, hogy küldeményei gépi kezelését engedélyezi-e. Ennek az opciónak az aktiválása csökkenti a szállítási költségeket.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[Méretek (L x W x H):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[Méretek hossza:<br /><span class="help">Átlagos csomagméret a szállításhoz.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Méretek Szélesség:<br /><span class="help">Átlagos csomagméret a szállítási csomaghoz.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Méretek Magasság:<br /><span class="help">Átlagos csomagméret a szállításhoz.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[Kerület:<br /><span class="help">Az Ön csomagjának kerületének meghatározásához mérje meg a nem téglalap alakú csomag legvastagabb részén körbefutó távolságot.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[Szállítási idő megjelenítése:<br /><span class="help">Meg szeretné jeleníteni a szállítási időt? (pl. Szállítás 3–5 napon belül)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[Szállítási súly megjelenítése:<br /><span class="help">Szeretné megjeleníteni a szállítási súlyt? (pl. Szállítási súly: 2.7674 kg)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Súlyosztály:<br /><span class="help">Állítsa fontban.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Hosszúsági osztály:<br /><span class="help">Az Ön áruházának dimenziója vagy alapértelmezett hosszúsági osztálya.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Adóosztály:<br /><span class="help">Ha ezen tételnél adót kell felszámítania, válassza ki az adóosztályt.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[Hely:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Rendezési sorrend:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Figyelmeztetés: Önnek nincs engedélye módosítani az Egyesült Államok Postai Szolgálatát!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_id</key>
+		<value><![CDATA[API kliensazonosító szükséges!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_secret</key>
+		<value><![CDATA[API kliens titkos kulcs szükséges!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Irányítószám megadása kötelező!]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_production</key>
+		<value><![CDATA[Éles üzem (valós idejű díjak)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label</key>
+		<value><![CDATA[USPS-címke nyomtatása (eredeti rendelés)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_title</key>
+		<value><![CDATA[Kinyomtatja az USPS-címkét az eredeti, a vásárló által fizetéskor megadott súly és méretek alapján. Az admin által a rendelésen végrehajtott módosítások nem befolyásolják a címkét.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_suggestion</key>
+		<value><![CDATA[Állítsa a rendelés státuszát "%s"-re a USPS API-n keresztül történő szállítmány létrehozásához és a csomagcímkék lekéréséhez]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_missing_settings</key>
+		<value><![CDATA[A címkék generálásához először töltse ki az Ön USPS-fiókadatait a Bővítmény beállításaiban.]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_weight</key>
+		<value><![CDATA[Súly:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_height</key>
+		<value><![CDATA[Magasság:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_width</key>
+		<value><![CDATA[Szélesség:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_depth</key>
+		<value><![CDATA[Mélység:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_parcel_info</key>
+		<value><![CDATA[Csomag információ:]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipment_created_success_message</key>
+		<value><![CDATA[USPS küldemény sikeresen létrejött. Követési szám: %s. További információkért lásd <a href="%s">itt</a>]]></value>
+	</definition>
+</definitions>

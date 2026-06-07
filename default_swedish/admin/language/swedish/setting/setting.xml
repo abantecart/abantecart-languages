@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Utgång av kontrollpanelsession:<br /><span class="help">Detta värde styr tidsintervallet i minuter innan du ombes logga in igen på grund av inaktivitet.</span>]]></value>
+		<value><![CDATA[Utgångstid för kontrollpanelssession:<br /><span class="help">Detta värde styr tidsintervallet i minuter innan du ombeds logga in igen på grund av inaktivitet. För strikt timeout vid inaktivitet, inaktivera Håll lång session.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Behåll lång session:<br /><span class="help">Aktivera periodiska bakgrundsförfrågningar för administratörsmeddelanden och systemkontroller. Inaktivera detta för att förhindra att bakgrundsuppdateringar förlänger den aktiva sessionen. Efter att ha ändrat denna inställning kan du se en engångsfråga om att logga in igen.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -816,7 +820,11 @@ Aktivera den här inställningen om du vill kontrollera systemets skick med avse
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Google API-nyckel (för att aktivera Google Maps):<br /><span class="help">Du kan se adressen på kartan. För att aktivera Google Maps lägger du till din Google Maps API-nyckel på <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Google Credentials Page</a>.</span>]]></value>
+		<value><![CDATA[Google Maps och Places API-nyckel:<br /><span class="help">Ange din Google Maps och Places API-nyckel för att visa adresser på kartan och aktivera adressautokomplettering i butiksfrontens adressformulär. Denna nyckel används på butiksfrontens sidor och exponeras på klientsidan, så begränsa den med tillåtna domän(er) och/eller IP-adress i Google Cloud Console.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Addressautokomplettering (Google Places):<br /><span class="help">Aktivera eller inaktivera Google Places API-adressautokomplettering i butiksadressformulär. Kräver Google API-nyckel.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -887,6 +895,10 @@ Aktivera den här inställningen om du vill kontrollera systemets skick med avse
 		<value><![CDATA[Detta värde får inte överstiga din php.ini-direktiv %s (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[Tidsgräns vid inaktivitet fungerar som förväntat när <b>Behåll lång session</b> är avstängd.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Orderstartnummer:<br /><span class="help">Ange startnumret som ordernumren ska börja från.</span>]]></value>
 	</definition>
@@ -909,10 +921,6 @@ Aktivera den här inställningen om du vill kontrollera systemets skick med avse
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Butiksfront]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Administratör]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1027,6 +1035,10 @@ Aktivera den här inställningen om du vill kontrollera systemets skick med avse
 		<value><![CDATA[Standard e-postlogotyp:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Regexmönster för telefonvalidering:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Crontab i Linux-kommando <span class="help">Kör kommandot crontab -e med samma Linux-användare som kör webbservern för AbanteCart. Lägg till kommandot i editorn</span>]]></value>
 	</definition>
@@ -1057,9 +1069,5 @@ Aktivera den här inställningen om du vill kontrollera systemets skick med avse
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Tillåt återkommande kunder att bläddra:<br /><span class="help">Ej autentiserade kunder som återvänder till webbplatsen kommer att kunna bläddra bland produkter, lägga till i varukorgen och på önskelistan.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Regexmönster för telefonvalidering:]]></value>
 	</definition>
 </definitions>

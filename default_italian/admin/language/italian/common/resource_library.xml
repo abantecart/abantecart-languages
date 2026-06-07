@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -11,6 +11,10 @@
 	<definition>
 		<key>confirm_title</key>
 		<value><![CDATA[Conferma la cancellazione della risorsa(e)]]></value>
+	</definition>
+	<definition>
+		<key>text_confirm_delete</key>
+		<value><![CDATA[Alcune risorse potrebbero essere inclusi nel testo. Non possiamo controllare questo automaticamente. Cancellare?]]></value>
 	</definition>
 	<definition>
 		<key>text_cant_delete_title</key>
@@ -281,16 +285,16 @@
 		<value><![CDATA[Prodotto opzioni di valore]]></value>
 	</definition>
 	<definition>
-		<key>text_products</key>
-		<value><![CDATA[Prodotti]]></value>
-	</definition>
-	<definition>
 		<key>text_categories</key>
 		<value><![CDATA[Categorie]]></value>
 	</definition>
 	<definition>
 		<key>text_manufacturers</key>
 		<value><![CDATA[Produttori]]></value>
+	</definition>
+	<definition>
+		<key>error_delete</key>
+		<value><![CDATA[Non è possibile eliminare risorsa collegata a più oggetti]]></value>
 	</definition>
 	<definition>
 		<key>error_unmap</key>
@@ -313,16 +317,8 @@
 		<value><![CDATA[Errore: Impossibile spostare il file %s nella cartella risorse.]]></value>
 	</definition>
 	<definition>
-		<key>text_confirm_delete</key>
-		<value><![CDATA[Alcune risorse potrebbero essere inclusi nel testo. Non possiamo controllare questo automaticamente. Cancellare?]]></value>
-	</definition>
-	<definition>
 		<key>button_save_n_apply</key>
 		<value><![CDATA[Salva e Applica]]></value>
-	</definition>
-	<definition>
-		<key>error_delete</key>
-		<value><![CDATA[Non è possibile eliminare risorsa collegata a più oggetti]]></value>
 	</definition>
 	<definition>
 		<key>text_image_size</key>

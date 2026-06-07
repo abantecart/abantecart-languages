@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -446,7 +446,11 @@
 	</definition>
 	<definition>
 		<key>entry_session_ttl</key>
-		<value><![CDATA[Expiração da sessão do Painel de Controle:<br /><span class="help">Este valor controla o intervalo de tempo em minutos antes de você ser solicitado a fazer login novamente devido à inatividade.</span>]]></value>
+		<value><![CDATA[Expiração da Sessão do Painel de Controle:<br /><span class="help">Este valor controla o intervalo de tempo em minutos antes de você ser solicitado a fazer login novamente devido à inatividade. Para um comportamento rigoroso de tempo limite de inatividade, desative Manter Sessão Prolongada.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_admin_background_autorefresh</key>
+		<value><![CDATA[Manter sessão longa:<br /><span class="help">Habilite solicitações periódicas em segundo plano para notificações de administrador e verificações do sistema. Desative isto para impedir que a atualização em segundo plano estenda a sessão ativa. Após alterar esta configuração, você poderá ver um prompt de re-login uma única vez.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_encryption</key>
@@ -814,7 +818,11 @@
 	</definition>
 	<definition>
 		<key>entry_google_api_key</key>
-		<value><![CDATA[Chave de API do Google (para ativar o Google Maps):<br /><span class="help">Você pode ver o endereço no mapa. Para ativar o Google Maps, adicione sua chave de API do Google Maps na <a href="https://console.cloud.google.com/apis/credentials" target="_blank">Página de Credenciais do Google</a>.</span>]]></value>
+		<value><![CDATA[Google Maps e Places API Key:<br /><span class="help">Insira sua chave da API do Google Maps e Places para exibir endereços no mapa e habilitar o preenchimento automático de endereços nos formulários de endereço da loja. Esta chave é usada nas páginas da loja e é exposta no lado do cliente, portanto restrinja-a por domínio(s) permitido(s) e/ou endereço IP no Console do Google Cloud.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_google_address_autocomplete</key>
+		<value><![CDATA[Autocompletar endereço (Google Places):<br /><span class="help">Ativar ou desativar o autocompletar de endereços da API Google Places nos formulários de endereço da loja. Requer chave de API do Google.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_viewed_products_limit</key>
@@ -885,6 +893,10 @@
 		<value><![CDATA[Este valor não pode exceder a diretiva %s do seu php.ini (<=%s)]]></value>
 	</definition>
 	<definition>
+		<key>text_setting_session_ttl_autorefresh_note</key>
+		<value><![CDATA[O tempo limite de inatividade funciona como esperado quando <b>Keep Long Session</b> está DESATIVADO.]]></value>
+	</definition>
+	<definition>
 		<key>entry_start_order_id</key>
 		<value><![CDATA[Nº Inicial do Pedido:<br /><span class="help">Defina o número inicial a partir do qual os pedidos começarão.</span>]]></value>
 	</definition>
@@ -907,10 +919,6 @@
 	<definition>
 		<key>text_storefront</key>
 		<value><![CDATA[Vitrine da loja]]></value>
-	</definition>
-	<definition>
-		<key>text_admin</key>
-		<value><![CDATA[Administrador]]></value>
 	</definition>
 	<definition>
 		<key>text_im_driver</key>
@@ -1025,6 +1033,10 @@
 		<value><![CDATA[Logotipo de e-mail padrão:]]></value>
 	</definition>
 	<definition>
+		<key>entry_phone_validation_pattern</key>
+		<value><![CDATA[Padrão de expressão regular para validação de telefone:]]></value>
+	</definition>
+	<definition>
 		<key>entry_cron_command</key>
 		<value><![CDATA[Comando Crontab no Linux <span class="help">Execute o comando crontab -e com o mesmo usuário Linux que executa o servidor web do AbanteCart. No editor, adicione o comando</span>]]></value>
 	</definition>
@@ -1055,9 +1067,5 @@
 	<definition>
 		<key>entry_unauth_customer</key>
 		<value><![CDATA[Permitir que clientes que retornam naveguem:<br /><span class="help">Clientes não autenticados que retornam ao site poderão navegar pelos produtos, adicionar ao carrinho e à lista de desejos.</span>]]></value>
-	</definition>
-	<definition>
-		<key>entry_phone_validation_pattern</key>
-		<value><![CDATA[Padrão de expressão regular para validação de telefone:]]></value>
 	</definition>
 </definitions>

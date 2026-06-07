@@ -25,12 +25,20 @@
 		<value><![CDATA[Ссылка<br /><span class="help">Для внешних ссылок добавите http:// или https:// в начале. Вы также можете использовать относительные ссылки такие как ../subfolder/index.php</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_item_target</key>
+		<value><![CDATA[Цель <br/><span class="help">_self — открывает связанный документ в том же кадре, в котором по нему щелкнули. <br/> _blank — открывает связанный документ в новом окне или вкладке.</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_parent_id</key>
 		<value><![CDATA[Родитель]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
 		<value><![CDATA[Порядок сортировки]]></value>
+	</definition>
+	<definition>
+		<key>entry_link_type</key>
+		<value><![CDATA[Тип связи]]></value>
 	</definition>
 	<definition>
 		<key>text_select_parent_id</key>
@@ -49,10 +57,6 @@
 		<value><![CDATA[Только латинские буквенно-цифровые символы, разрешенные для меню ID!]]></value>
 	</definition>
 	<definition>
-		<key>entry_link_type</key>
-		<value><![CDATA[Тип связи]]></value>
-	</definition>
-	<definition>
 		<key>text_category_link_type</key>
 		<value><![CDATA[Категория Page]]></value>
 	</definition>
@@ -63,10 +67,6 @@
 	<definition>
 		<key>text_custom_link_type</key>
 		<value><![CDATA[Пользовательские ссылки или URL]]></value>
-	</definition>
-	<definition>
-		<key>entry_item_target</key>
-		<value><![CDATA[Цель <br/><span class="help">_self — открывает связанный документ в том же кадре, в котором по нему щелкнули. <br/> _blank — открывает связанный документ в новом окне или вкладке.</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_include_children_items</key>

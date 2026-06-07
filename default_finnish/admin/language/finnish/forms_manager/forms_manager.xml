@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>forms_manager_name</key>
@@ -47,6 +47,10 @@
 	<definition>
 		<key>column_name</key>
 		<value><![CDATA[Nimi]]></value>
+	</definition>
+	<definition>
+		<key>column_field_name</key>
+		<value><![CDATA[Kentän nimi]]></value>
 	</definition>
 	<definition>
 		<key>column_description</key>
@@ -209,6 +213,10 @@
 		<value><![CDATA[Säännöllisen lausekkeen malli:]]></value>
 	</definition>
 	<definition>
+		<key>entry_html_attributes</key>
+		<value><![CDATA[HTML-attribuutit:<br /><span class="help">Voit lisätä omat HTML-attribuutit option-elementille. Esimerkki: data-some-attribute="some value"</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_error_text</key>
 		<value><![CDATA[Virheilmoitus virheellisestä arvosta:]]></value>
 	</definition>
@@ -233,20 +241,12 @@
 		<value><![CDATA[Kenttä nimeltä %s on jo olemassa lomakkeessa!]]></value>
 	</definition>
 	<definition>
-		<key>forms_manager_error_empty_sender</key>
-		<value><![CDATA[Varoitus! Aseta oletuslähettäjän nimi ja oletuslähettäjän sähköpostiosoite <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">lomakkeiden hallinnan asetuksiin</a>]]></value>
-	</definition>
-	<definition>
-		<key>column_field_name</key>
-		<value><![CDATA[Kentän nimi]]></value>
-	</definition>
-	<definition>
-		<key>entry_html_attributes</key>
-		<value><![CDATA[HTML-attribuutit:<br /><span class="help">Voit lisätä omat HTML-attribuutit option-elementille. Esimerkki: data-some-attribute="some value"</span>]]></value>
-	</definition>
-	<definition>
 		<key>error_regexp_pattern</key>
 		<value><![CDATA[Regex-malli on virheellinen!]]></value>
+	</definition>
+	<definition>
+		<key>forms_manager_error_empty_sender</key>
+		<value><![CDATA[Varoitus! Aseta oletuslähettäjän nimi ja oletuslähettäjän sähköpostiosoite <a href="#admin#rt=extension/extensions/edit&extension=forms_manager" target="_blank">lomakkeiden hallinnan asetuksiin</a>]]></value>
 	</definition>
 	<definition>
 		<key>text_groups</key>

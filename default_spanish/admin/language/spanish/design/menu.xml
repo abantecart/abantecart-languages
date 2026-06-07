@@ -25,12 +25,20 @@
 		<value><![CDATA[Enlazar<br /><span class="help">Para enlaces externos, agregue http: // o https: // al principio. También puede usar una URL relativa como ../subfolder/index.php</span>]]></value>
 	</definition>
 	<definition>
+		<key>entry_item_target</key>
+		<value><![CDATA[Destino <br/><span class="help">_self: abre el documento vinculado en el mismo marco en el que se hizo clic. <br/> _en blanco: abre el documento vinculado en una nueva ventana o pestaña</span>]]></value>
+	</definition>
+	<definition>
 		<key>entry_parent_id</key>
 		<value><![CDATA[Padre]]></value>
 	</definition>
 	<definition>
 		<key>entry_sort_order</key>
 		<value><![CDATA[Orden de Clasificación]]></value>
+	</definition>
+	<definition>
+		<key>entry_link_type</key>
+		<value><![CDATA[Tipo de enlace]]></value>
 	</definition>
 	<definition>
 		<key>text_select_parent_id</key>
@@ -49,10 +57,6 @@
 		<value><![CDATA[Sólo caracteres alfanuméricos ingleses permitieron campo de menú ID]]></value>
 	</definition>
 	<definition>
-		<key>entry_link_type</key>
-		<value><![CDATA[Tipo de enlace]]></value>
-	</definition>
-	<definition>
 		<key>text_category_link_type</key>
 		<value><![CDATA[Categoría Página]]></value>
 	</definition>
@@ -63,10 +67,6 @@
 	<definition>
 		<key>text_custom_link_type</key>
 		<value><![CDATA[Enlace de encargo o URL]]></value>
-	</definition>
-	<definition>
-		<key>entry_item_target</key>
-		<value><![CDATA[Destino <br/><span class="help">_self: abre el documento vinculado en el mismo marco en el que se hizo clic. <br/> _en blanco: abre el documento vinculado en una nueva ventana o pestaña</span>]]></value>
 	</definition>
 	<definition>
 		<key>entry_include_children_items</key>

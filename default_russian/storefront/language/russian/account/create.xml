@@ -33,6 +33,10 @@
 		<value><![CDATA[Ваш пароль]]></value>
 	</definition>
 	<definition>
+		<key>text_login_details</key>
+		<value><![CDATA[Детали входа]]></value>
+	</definition>
+	<definition>
 		<key>text_agree</key>
 		<value><![CDATA[Я прочитал и согласен с]]></value>
 	</definition>
@@ -73,16 +77,16 @@
 		<value><![CDATA[Адрес электронной почты уже существует!]]></value>
 	</definition>
 	<definition>
+		<key>error_telephone</key>
+		<value><![CDATA[Телефон должен быть от 3 до 32 символов!]]></value>
+	</definition>
+	<definition>
 		<key>error_password</key>
 		<value><![CDATA[Длина пароля должна быть от 3 до 20 символов!]]></value>
 	</definition>
 	<definition>
 		<key>error_confirm</key>
 		<value><![CDATA[Подтверждение пароля не совпадает с паролем!]]></value>
-	</definition>
-	<definition>
-		<key>error_telephone</key>
-		<value><![CDATA[Телефон должен быть от 3 до 32 символов!]]></value>
 	</definition>
 	<definition>
 		<key>error_agree</key>
@@ -119,9 +123,5 @@
 	<definition>
 		<key>text_pending_subscriber_approval</key>
 		<value><![CDATA[Зарегистрирован новый подписчик %s. Требуется утверждение! Нажмике чтоб посмотреть #admin#rt=sale/customer/update&customer_id=%s]]></value>
-	</definition>
-	<definition>
-		<key>text_login_details</key>
-		<value><![CDATA[Детали входа]]></value>
 	</definition>
 </definitions>

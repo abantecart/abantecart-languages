@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>heading_title</key>
@@ -105,12 +105,28 @@
 		<value><![CDATA[Precio unidad:]]></value>
 	</definition>
 	<definition>
+		<key>column_sku</key>
+		<value><![CDATA[SKU]]></value>
+	</definition>
+	<definition>
 		<key>column_download</key>
 		<value><![CDATA[Nombre descarga]]></value>
 	</definition>
 	<definition>
+		<key>column_file</key>
+		<value><![CDATA[Archivo]]></value>
+	</definition>
+	<definition>
 		<key>column_remaining</key>
 		<value><![CDATA[Renombrar]]></value>
+	</definition>
+	<definition>
+		<key>column_expire_date</key>
+		<value><![CDATA[Fecha de caducidad]]></value>
+	</definition>
+	<definition>
+		<key>column_mask</key>
+		<value><![CDATA[Mascarilla]]></value>
 	</definition>
 	<definition>
 		<key>column_notify</key>
@@ -141,18 +157,6 @@
 		<value><![CDATA[Nombre:]]></value>
 	</definition>
 	<definition>
-		<key>entry_append</key>
-		<value><![CDATA[Agregar comentarios:]]></value>
-	</definition>
-	<definition>
-		<key>entry_add_product</key>
-		<value><![CDATA[Agregar Producto:]]></value>
-	</definition>
-	<definition>
-		<key>entry_ip</key>
-		<value><![CDATA[IP Dirección:]]></value>
-	</definition>
-	<definition>
 		<key>entry_lastname</key>
 		<value><![CDATA[Apellido:]]></value>
 	</definition>
@@ -165,16 +169,16 @@
 		<value><![CDATA[Correo electrónico:]]></value>
 	</definition>
 	<definition>
+		<key>entry_ip</key>
+		<value><![CDATA[IP Dirección:]]></value>
+	</definition>
+	<definition>
 		<key>entry_telephone</key>
 		<value><![CDATA[Telefono:]]></value>
 	</definition>
 	<definition>
 		<key>entry_fax</key>
 		<value><![CDATA[Fax:]]></value>
-	</definition>
-	<definition>
-		<key>text_select_country</key>
-		<value><![CDATA[- Select Country -]]></value>
 	</definition>
 	<definition>
 		<key>entry_store_name</key>
@@ -249,6 +253,14 @@
 		<value><![CDATA[Notificar al cliente]]></value>
 	</definition>
 	<definition>
+		<key>entry_append</key>
+		<value><![CDATA[Agregar comentarios:]]></value>
+	</definition>
+	<definition>
+		<key>entry_add_product</key>
+		<value><![CDATA[Agregar Producto:]]></value>
+	</definition>
+	<definition>
 		<key>error_permission</key>
 		<value><![CDATA[Advertencia: No tiene permiso para modificar los pedidos!]]></value>
 	</definition>
@@ -263,6 +275,10 @@
 	<definition>
 		<key>tab_order_details</key>
 		<value><![CDATA[Detalles]]></value>
+	</definition>
+	<definition>
+		<key>tab_address</key>
+		<value><![CDATA[Dirección de pedido]]></value>
 	</definition>
 	<definition>
 		<key>tab_history</key>
@@ -325,6 +341,14 @@
 		<value><![CDATA[- Empuje Descargar -]]></value>
 	</definition>
 	<definition>
+		<key>text_add_product_to_order</key>
+		<value><![CDATA[Agregar Producto a pedido #%s]]></value>
+	</definition>
+	<definition>
+		<key>text_edit_order_product</key>
+		<value><![CDATA[Editar Producto]]></value>
+	</definition>
+	<definition>
 		<key>attention_check_total</key>
 		<value><![CDATA[Nota: Los detalles del producto Orden ha cambiado. Total se recalcula automáticamente. Revisión requiere.]]></value>
 	</definition>
@@ -345,26 +369,6 @@
 		<value><![CDATA[Recalcular]]></value>
 	</definition>
 	<definition>
-		<key>column_file</key>
-		<value><![CDATA[Archivo]]></value>
-	</definition>
-	<definition>
-		<key>column_expire_date</key>
-		<value><![CDATA[Fecha de caducidad]]></value>
-	</definition>
-	<definition>
-		<key>column_mask</key>
-		<value><![CDATA[Mascarilla]]></value>
-	</definition>
-	<definition>
-		<key>text_add_product_to_order</key>
-		<value><![CDATA[Agregar Producto a pedido #%s]]></value>
-	</definition>
-	<definition>
-		<key>text_edit_order_product</key>
-		<value><![CDATA[Editar Producto]]></value>
-	</definition>
-	<definition>
 		<key>entry_im</key>
 		<value><![CDATA[MI:]]></value>
 	</definition>
@@ -373,19 +377,11 @@
 		<value><![CDATA[Ubicaciones de stock:]]></value>
 	</definition>
 	<definition>
-		<key>tab_address</key>
-		<value><![CDATA[Dirección de pedido]]></value>
-	</definition>
-	<definition>
 		<key>edit_title_map</key>
 		<value><![CDATA[En el mapa]]></value>
 	</definition>
 	<definition>
 		<key>text_enable_google_map</key>
 		<value><![CDATA[Para ver direcciones en el mapa interactivo de Google, proporcione la clave API de Google en la configuración general]]></value>
-	</definition>
-	<definition>
-		<key>column_sku</key>
-		<value><![CDATA[SKU]]></value>
 	</definition>
 </definitions>

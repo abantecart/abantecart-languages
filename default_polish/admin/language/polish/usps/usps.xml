@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+	<definition>
+		<key>usps_name</key>
+		<value><![CDATA[Poczta Stanów Zjednoczonych]]></value>
+	</definition>
+	<definition>
+		<key>text_shipping</key>
+		<value><![CDATA[Wysyłka]]></value>
+	</definition>
+	<definition>
+		<key>text_additional_settings</key>
+		<value><![CDATA[Ustawienia USPS]]></value>
+	</definition>
+	<definition>
+		<key>text_usps_success</key>
+		<value><![CDATA[Sukces: zmodyfikowałeś United States Postal Service!]]></value>
+	</definition>
+	<definition>
+		<key>text_international_1</key>
+		<value><![CDATA[Poczta Ekspresowa Międzynarodowa]]></value>
+	</definition>
+	<definition>
+		<key>text_international_2</key>
+		<value><![CDATA[Priorytetowa Poczta Międzynarodowa]]></value>
+	</definition>
+	<definition>
+		<key>text_international_4</key>
+		<value><![CDATA[Global Express Guaranteed (dokumentowe i niedokumentowe)]]></value>
+	</definition>
+	<definition>
+		<key>text_international_5</key>
+		<value><![CDATA[Użyto dokumentu Global Express Guaranteed]]></value>
+	</definition>
+	<definition>
+		<key>text_international_6</key>
+		<value><![CDATA[Global Express Guaranteed Poza dokumentami Kształt prostokątny]]></value>
+	</definition>
+	<definition>
+		<key>text_international_7</key>
+		<value><![CDATA[Global Express Guaranteed Niedokumentowy Nieprostokątny]]></value>
+	</definition>
+	<definition>
+		<key>text_international_8</key>
+		<value><![CDATA[Koperta priorytetowa o stałej stawce]]></value>
+	</definition>
+	<definition>
+		<key>text_international_9</key>
+		<value><![CDATA[Paczka Priority Mail o opłacie ryczałtowej]]></value>
+	</definition>
+	<definition>
+		<key>text_international_10</key>
+		<value><![CDATA[Koperta o stałej stawce dla międzynarodowej przesyłki ekspresowej]]></value>
+	</definition>
+	<definition>
+		<key>text_international_11</key>
+		<value><![CDATA[Duże pudełko Priority Mail o stałej stawce]]></value>
+	</definition>
+	<definition>
+		<key>text_international_12</key>
+		<value><![CDATA[Koperta Global Express Guaranteed]]></value>
+	</definition>
+	<definition>
+		<key>text_international_13</key>
+		<value><![CDATA[Międzynarodowe listy Pocztą pierwszej klasy]]></value>
+	</definition>
+	<definition>
+		<key>text_international_14</key>
+		<value><![CDATA[Międzynarodowa poczta pierwszej klasy – koperty płaskie]]></value>
+	</definition>
+	<definition>
+		<key>text_international_15</key>
+		<value><![CDATA[Międzynarodowe pocztowe paczki pierwszej klasy]]></value>
+	</definition>
+	<definition>
+		<key>text_international_16</key>
+		<value><![CDATA[Priority Mail Małe pudełko o stałej stawce]]></value>
+	</definition>
+	<definition>
+		<key>text_international_21</key>
+		<value><![CDATA[Pocztówki]]></value>
+	</definition>
+	<definition>
+		<key>text_regular</key>
+		<value><![CDATA[Zwykły]]></value>
+	</definition>
+	<definition>
+		<key>text_large</key>
+		<value><![CDATA[Duży]]></value>
+	</definition>
+	<definition>
+		<key>text_oversize</key>
+		<value><![CDATA[ponadwymiarowy]]></value>
+	</definition>
+	<definition>
+		<key>text_rectangular</key>
+		<value><![CDATA[Prostokątny]]></value>
+	</definition>
+	<definition>
+		<key>text_non_rectangular</key>
+		<value><![CDATA[Nieprostokątny]]></value>
+	</definition>
+	<definition>
+		<key>text_variable</key>
+		<value><![CDATA[Zmienna]]></value>
+	</definition>
+	<definition>
+		<key>entry_api_environment</key>
+		<value><![CDATA[Tryb deweloperski API]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment</key>
+		<value><![CDATA[Tryb deweloperski API]]></value>
+	</definition>
+	<definition>
+		<key>usps_api_environment_production</key>
+		<value><![CDATA[Produkcja (kursy na żywo)]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_shipping</key>
+		<value><![CDATA[Tryb deweloperski]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_id</key>
+		<value><![CDATA[Consumer Key<br/><span class="help">Utwórz aplikację na swoim koncie na https://cop.usps.com. Te dane uwierzytelniające są wymagane do wygenerowania tokenu OAuth</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_id</key>
+		<value><![CDATA[Klucz konsumenta:<span class="help">Możesz go znaleźć w sekcji aplikacji na https://cop.usps.com. Te poświadczenia są wymagane do wygenerowania tokenu OAuth</span>]]></value>
+	</definition>
+	<definition>
+		<key>text_client_id_shipping</key>
+		<value><![CDATA[Identyfikator klienta API]]></value>
+	</definition>
+	<definition>
+		<key>text_country_shipping</key>
+		<value><![CDATA[Kraj i strefa nadawcy]]></value>
+	</definition>
+	<definition>
+		<key>text_address_shipping</key>
+		<value><![CDATA[Adres nadawcy]]></value>
+	</definition>
+	<definition>
+		<key>text_city_shipping</key>
+		<value><![CDATA[Miasto nadawcy]]></value>
+	</definition>
+	<definition>
+		<key>text_telephone_shipping</key>
+		<value><![CDATA[Numer telefonu nadawcy<span class="help">10 cyfr lub więcej, bez spacji ani znaków specjalnych</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_client_secret</key>
+		<value><![CDATA[Sekret klienta API<br/><span class="help">Możesz go znaleźć w sekcji aplikacji na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token</key>
+		<value><![CDATA[Testowe generowanie etykiet:<span class="help">Aby wygenerować etykiety, USPS może wymagać dodatkowych uprawnień do generowania tokenów płatniczych na Twoim koncie. Skontaktuj się z pomocą techniczną USPS, aby włączyć ten dostęp.</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_generate_payment_token_button</key>
+		<value><![CDATA[Generowanie etykiet testowych]]></value>
+	</definition>
+	<definition>
+		<key>usps_country</key>
+		<value><![CDATA[Kraj nadawcy & strefa nadawcy]]></value>
+	</definition>
+	<definition>
+		<key>usps_telephone</key>
+		<value><![CDATA[Numer telefonu nadawcy (10 cyfr lub więcej)]]></value>
+	</definition>
+	<definition>
+		<key>usps_address</key>
+		<value><![CDATA[Adres nadawcy]]></value>
+	</definition>
+	<definition>
+		<key>usps_city</key>
+		<value><![CDATA[Miasto nadawcy]]></value>
+	</definition>
+	<definition>
+		<key>usps_postcode</key>
+		<value><![CDATA[Kod pocztowy nadawcy]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_crid</key>
+		<value><![CDATA[Identyfikator rejestracji klienta (CRID):<span class="help">Wymagane do generowania etykiety USPS. Możesz go znaleźć w sekcji Twojego konta na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_mid</key>
+		<value><![CDATA[Mailer ID (MID):<span class="help">Wymagane do generowania etykiet USPS. Możesz go znaleźć w sekcji swojego konta na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_manifest_mid</key>
+		<value><![CDATA[Manifest MID:<span class="help">Wymagane do generowania etykiet USPS. Możesz go znaleźć w sekcji konta na https://developers.usps.com</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_payment_account_number</key>
+		<value><![CDATA[EPS Numer Konta:<span class="help">Wymagane do generowania etykiet USPS. Możesz go znaleźć na swoim koncie Enterprise Payment System pod adresem https://epay.usps.com/</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_manifest_order_status_id</key>
+		<value><![CDATA[Utwórz przesyłkę, gdy status zamówienia zmieni się na]]></value>
+	</definition>
+	<definition>
+		<key>usps_client_secret</key>
+		<value><![CDATA[Sekret klienta:<span class="help">Możesz go znaleźć w sekcji Twojej aplikacji na https://cop.usps.com. Te dane uwierzytelniające są wymagane do wygenerowania tokenu OAuth</span>]]></value>
+	</definition>
+	<definition>
+		<key>usps_manifest_order_status_id</key>
+		<value><![CDATA[Utwórz przesyłkę, gdy status zamówienia zmieni się na]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipping_storefront_icon</key>
+		<value><![CDATA[Ikona witryny sklepowej]]></value>
+	</definition>
+	<definition>
+		<key>usps_debug</key>
+		<value><![CDATA[Status logowania debugowego]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_1</key>
+		<value><![CDATA[Poczta priorytetowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_2</key>
+		<value><![CDATA[Priorytetowa poczta ekspresowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_3</key>
+		<value><![CDATA[Parcel Select]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_4</key>
+		<value><![CDATA[Oprawione materiały drukowane]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_5</key>
+		<value><![CDATA[Media Mail]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_6</key>
+		<value><![CDATA[Biblioteka maili]]></value>
+	</definition>
+	<definition>
+		<key>usps_domestic_7</key>
+		<value><![CDATA[USPS Ground Advantage]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_1</key>
+		<value><![CDATA[Priorytetowa poczta ekspresowa międzynarodowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_2</key>
+		<value><![CDATA[Poczta priorytetowa międzynarodowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_3</key>
+		<value><![CDATA[Global Express Gwarantowany (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_international_4</key>
+		<value><![CDATA[Międzynarodowa przesyłka paczkowa pierwszej klasy]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_1</key>
+		<value><![CDATA[Poczta priorytetowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_2</key>
+		<value><![CDATA[Priorytetowa poczta ekspresowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_3</key>
+		<value><![CDATA[Parcel Select]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_4</key>
+		<value><![CDATA[Oprawione druki]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_5</key>
+		<value><![CDATA[Media Mail]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_6</key>
+		<value><![CDATA[Biblioteka Poczty]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_domestic_method_usps_domestic_7</key>
+		<value><![CDATA[USPS Ground Advantage]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_1</key>
+		<value><![CDATA[Priorytetowa Poczta Ekspresowa Międzynarodowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_2</key>
+		<value><![CDATA[Priorytetowa przesyłka międzynarodowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_3</key>
+		<value><![CDATA[Global Express Guaranteed (GXG)]]></value>
+	</definition>
+	<definition>
+		<key>usps_free_international_method_usps_international_4</key>
+		<value><![CDATA[Międzynarodowa usługa przesyłek pierwszej klasy]]></value>
+	</definition>
+	<definition>
+		<key>usps_length</key>
+		<value><![CDATA[Wymiary Długość]]></value>
+	</definition>
+	<definition>
+		<key>usps_width</key>
+		<value><![CDATA[Wymiary Szerokość]]></value>
+	</definition>
+	<definition>
+		<key>usps_height</key>
+		<value><![CDATA[Wymiary Wysokość]]></value>
+	</definition>
+	<definition>
+		<key>usps_display_weight</key>
+		<value><![CDATA[Wyświetl wagę dostawy]]></value>
+	</definition>
+	<definition>
+		<key>usps_tax_class_id</key>
+		<value><![CDATA[Klasa podatkowa]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id</key>
+		<value><![CDATA[Lokalizacja]]></value>
+	</definition>
+	<definition>
+		<key>usps_location_id_0</key>
+		<value><![CDATA[Wszystkie lokalizacje]]></value>
+	</definition>
+	<definition>
+		<key>usps_sort_order</key>
+		<value><![CDATA[Kolejność sortowania]]></value>
+	</definition>
+	<definition>
+		<key>usps_test_connection</key>
+		<value><![CDATA[Test połączenia]]></value>
+	</definition>
+	<definition>
+		<key>text_client_secret_shipping</key>
+		<value><![CDATA[Sekret klienta API]]></value>
+	</definition>
+	<definition>
+		<key>text_manifest_order_status_id_shipping</key>
+		<value><![CDATA[Utwórz przesyłkę gdy status zamówienia stanie się]]></value>
+	</definition>
+	<definition>
+		<key>entry_postcode</key>
+		<value><![CDATA[Kod pocztowy/Kod pocztowy:<span class="help">Kod pocztowy miejsca nadania Twojej paczki.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_domestic</key>
+		<value><![CDATA[Usługi domowe:]]></value>
+	</definition>
+	<definition>
+		<key>entry_international</key>
+		<value><![CDATA[Usługi międzynarodowe:]]></value>
+	</definition>
+	<definition>
+		<key>entry_size</key>
+		<value><![CDATA[Rozmiar:<span class="help">Wybierz rozmiar opakowania, którego zazwyczaj używasz do pakowania produktów zamawianych w Twoim sklepie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_container</key>
+		<value><![CDATA[Pojemnik:<span class="help">Wybierz rodzaj pojemnika, którego zazwyczaj używasz do pakowania produktów zamawianych w twoim sklepie. USPS dostarczy tylko paczki ważące do 70 funtów</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_machinable</key>
+		<value><![CDATA[Obsługa maszynowa:<br /><span class="help"> Zaleca się wybranie opcji Tak. Określ, czy obsługa przesyłek przez maszyny jest dopuszczalna. Włączenie tej opcji obniża koszty wysyłki.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_dimension</key>
+		<value><![CDATA[Wymiary (D x S x W):]]></value>
+	</definition>
+	<definition>
+		<key>entry_length</key>
+		<value><![CDATA[Wymiary Długość:<br /><span class="help">Średni wymiar paczki wysyłkowej.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_width</key>
+		<value><![CDATA[Wymiary Szerokość:<br /><span class="help">Średni wymiar paczki wysyłkowej.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_height</key>
+		<value><![CDATA[Wymiary Wysokość:<br /><span class="help">Średni wymiar paczki przeznaczonej do wysyłki.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_girth</key>
+		<value><![CDATA[Obwód:<br /><span class="help">Aby określić obwód Twojej paczki, zmierz odległość wokół najgrubszej części paczki o nieregularnym kształcie.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_time</key>
+		<value><![CDATA[Wyświetl czas dostawy:<br /><span class="help">Czy chcesz wyświetlić czas wysyłki? (np. Wysyłka w ciągu 3 do 5 dni)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_display_weight</key>
+		<value><![CDATA[Wyświetl wagę dostawy:<br /><span class="help">Czy chcesz wyświetlać wagę przesyłki? (np. Waga dostawy: 2.7674 Kg's)</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_weight_class</key>
+		<value><![CDATA[Klasa wagi:<br /><span class="help">Ustaw na funty.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_length_class</key>
+		<value><![CDATA[Klasa długości:<br /><span class="help">Wymiar lub domyślna klasa długości twojego sklepu.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_tax</key>
+		<value><![CDATA[Klasa podatku:<br /><span class="help">Jeśli musisz naliczyć podatek od tego produktu, wybierz klasę podatku.</span>]]></value>
+	</definition>
+	<definition>
+		<key>entry_location</key>
+		<value><![CDATA[Lokalizacja:]]></value>
+	</definition>
+	<definition>
+		<key>entry_sort_order</key>
+		<value><![CDATA[Kolejność sortowania:]]></value>
+	</definition>
+	<definition>
+		<key>error_permission</key>
+		<value><![CDATA[Ostrzeżenie: Nie masz uprawnień do modyfikacji Poczty Stanów Zjednoczonych!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_id</key>
+		<value><![CDATA[Wymagane ID klienta API!]]></value>
+	</definition>
+	<definition>
+		<key>error_client_secret</key>
+		<value><![CDATA[Wymagany sekret klienta API!]]></value>
+	</definition>
+	<definition>
+		<key>error_postcode</key>
+		<value><![CDATA[Kod pocztowy jest wymagany!]]></value>
+	</definition>
+	<definition>
+		<key>text_api_environment_production</key>
+		<value><![CDATA[Produkcja (kursy na żywo)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label</key>
+		<value><![CDATA[Drukuj etykietę USPS (oryginalne zamówienie)]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_title</key>
+		<value><![CDATA[Drukuje etykietę USPS, wykorzystując oryginalną wagę i wymiary podane przez klienta podczas finalizacji zamówienia. Wszelkie zmiany wprowadzone w zamówieniu przez administratora nie będą miały wpływu na etykietę.]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_suggestion</key>
+		<value><![CDATA[Zmień status zamówienia na "%s", aby utworzyć przesyłkę przez USPS API i pobrać etykiety paczek]]></value>
+	</definition>
+	<definition>
+		<key>usps_text_print_label_missing_settings</key>
+		<value><![CDATA[Aby wygenerować etykiety, najpierw uzupełnij dane swojego konta USPS w Ustawieniach rozszerzenia.]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_weight</key>
+		<value><![CDATA[Waga:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_height</key>
+		<value><![CDATA[Wysokość:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_width</key>
+		<value><![CDATA[Szerokość:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_depth</key>
+		<value><![CDATA[Głębokość:]]></value>
+	</definition>
+	<definition>
+		<key>usps_entry_parcel_info</key>
+		<value><![CDATA[Informacje o przesyłce:]]></value>
+	</definition>
+	<definition>
+		<key>usps_shipment_created_success_message</key>
+		<value><![CDATA[Przesyłka USPS została pomyślnie utworzona. Numer śledzenia: %s. Zobacz więcej informacji <a href="%s">tutaj</a>]]></value>
+	</definition>
+</definitions>

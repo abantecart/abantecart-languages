@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
 	<definition>
 		<key>code</key>
@@ -19,6 +19,10 @@
 	<definition>
 		<key>time_format</key>
 		<value><![CDATA[h:i:s A]]></value>
+	</definition>
+	<definition>
+		<key>time_format_short</key>
+		<value><![CDATA[H:i]]></value>
 	</definition>
 	<definition>
 		<key>decimal_point</key>
@@ -61,16 +65,12 @@
 		<value><![CDATA[Por Página]]></value>
 	</definition>
 	<definition>
+		<key>text_separator</key>
+		<value><![CDATA[>]]></value>
+	</definition>
+	<definition>
 		<key>button_continue</key>
 		<value><![CDATA[Continuar]]></value>
-	</definition>
-	<definition>
-		<key>button_submit</key>
-		<value><![CDATA[Enviar]]></value>
-	</definition>
-	<definition>
-		<key>button_save</key>
-		<value><![CDATA[Guardar]]></value>
 	</definition>
 	<definition>
 		<key>button_back</key>
@@ -133,6 +133,14 @@
 		<value><![CDATA[Actualizar]]></value>
 	</definition>
 	<definition>
+		<key>button_wish</key>
+		<value><![CDATA[Deseo]]></value>
+	</definition>
+	<definition>
+		<key>button_print</key>
+		<value><![CDATA[Imprimir]]></value>
+	</definition>
+	<definition>
 		<key>button_shopping</key>
 		<value><![CDATA[Continuar Comprando]]></value>
 	</definition>
@@ -163,14 +171,6 @@
 	<definition>
 		<key>button_guest</key>
 		<value><![CDATA[Comprar como invitado]]></value>
-	</definition>
-	<definition>
-		<key>button_wish</key>
-		<value><![CDATA[Deseo]]></value>
-	</definition>
-	<definition>
-		<key>button_print</key>
-		<value><![CDATA[Imprimir]]></value>
 	</definition>
 	<definition>
 		<key>notice_out_of_stock_ttl</key>
@@ -221,6 +221,10 @@
 		<value><![CDATA[Nueva fecha &gt; Old]]></value>
 	</definition>
 	<definition>
+		<key>text_google_places_address_placeholder</key>
+		<value><![CDATA[Empieza a escribir tu dirección]]></value>
+	</definition>
+	<definition>
 		<key>text_add_cart_confirm</key>
 		<value><![CDATA[Añadir al carro]]></value>
 	</definition>
@@ -229,16 +233,20 @@
 		<value><![CDATA[Cerrar]]></value>
 	</definition>
 	<definition>
+		<key>text_balance</key>
+		<value><![CDATA[Balance de la cuenta ]]></value>
+	</definition>
+	<definition>
 		<key>text_balance_checkout</key>
 		<value><![CDATA[Balance de la cuenta:]]></value>
 	</definition>
 	<definition>
-		<key>button_apply_balance</key>
-		<value><![CDATA[Aplicar a la Orden]]></value>
+		<key>button_pay_with_balance</key>
+		<value><![CDATA[Con el Balance de pagar]]></value>
 	</definition>
 	<definition>
-		<key>text_balance</key>
-		<value><![CDATA[Balance de la cuenta ]]></value>
+		<key>button_apply_balance</key>
+		<value><![CDATA[Aplicar a la Orden]]></value>
 	</definition>
 	<definition>
 		<key>button_disapply_balance</key>
@@ -273,6 +281,18 @@
 		<value><![CDATA[Reajustar]]></value>
 	</definition>
 	<definition>
+		<key>button_submit</key>
+		<value><![CDATA[Enviar]]></value>
+	</definition>
+	<definition>
+		<key>button_save</key>
+		<value><![CDATA[Guardar]]></value>
+	</definition>
+	<definition>
+		<key>text_field_required</key>
+		<value><![CDATA[se Campo requerido!]]></value>
+	</definition>
+	<definition>
 		<key>error_captcha</key>
 		<value><![CDATA[El código de verificación no coincide con la imagen!]]></value>
 	</definition>
@@ -301,32 +321,20 @@
 		<value><![CDATA[Envío Gratisg]]></value>
 	</definition>
 	<definition>
-		<key>error_unknown</key>
-		<value><![CDATA[Error desconocido. Por favor, vuelve a intentarlo!]]></value>
-	</definition>
-	<definition>
-		<key>time_format_short</key>
-		<value><![CDATA[H:i]]></value>
-	</definition>
-	<definition>
-		<key>text_field_required</key>
-		<value><![CDATA[se Campo requerido!]]></value>
+		<key>price_with_tax</key>
+		<value><![CDATA[IVA Inc.]]></value>
 	</definition>
 	<definition>
 		<key>text_unavailable</key>
 		<value><![CDATA[Indisponible]]></value>
 	</definition>
 	<definition>
-		<key>button_pay_with_balance</key>
-		<value><![CDATA[Con el Balance de pagar]]></value>
+		<key>error_unknown</key>
+		<value><![CDATA[Error desconocido. Por favor, vuelve a intentarlo!]]></value>
 	</definition>
 	<definition>
 		<key>text_click_browse_file</key>
 		<value><![CDATA[Haga clic para examinar el archivo]]></value>
-	</definition>
-	<definition>
-		<key>price_with_tax</key>
-		<value><![CDATA[IVA Inc.]]></value>
 	</definition>
 	<definition>
 		<key>text_back_on_top</key>
@@ -363,9 +371,5 @@
 	<definition>
 		<key>warning_capslock</key>
 		<value><![CDATA[¡Bloq Mayús está activado!]]></value>
-	</definition>
-	<definition>
-		<key>text_separator</key>
-		<value><![CDATA[>]]></value>
 	</definition>
 </definitions>

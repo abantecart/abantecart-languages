@@ -1,9 +1,5 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <definitions>
-	<definition>
-		<key>text_payment</key>
-		<value><![CDATA[Payment]]></value>
-	</definition>
 	<definition>
 		<key>stripe_name</key>
 		<value><![CDATA[Pagamento Stripe]]></value>
@@ -11,6 +7,10 @@
 	<definition>
 		<key>stripe_note</key>
 		<value><![CDATA[Sono necessarie impostazioni aggiuntive per completare la configurazione del pagamento Stripe. Consulta la scheda Impostazioni aggiuntive.]]></value>
+	</definition>
+	<definition>
+		<key>text_payment</key>
+		<value><![CDATA[Payment]]></value>
 	</definition>
 	<definition>
 		<key>text_success</key>
@@ -199,6 +199,10 @@
 	<definition>
 		<key>text_disconnect_success</key>
 		<value><![CDATA[Disconnesso da Stripe con successo]]></value>
+	</definition>
+	<definition>
+		<key>text_connected_account</key>
+		<value><![CDATA[Sei connesso con l’account:]]></value>
 	</definition>
 	<definition>
 		<key>stripe_sort_order</key>
